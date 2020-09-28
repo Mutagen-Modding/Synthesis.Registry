@@ -25,9 +25,6 @@ jobs:
         # Required
         commit_message: Patcher registry changes
 
-        # Optional branch to push to, defaults to the current branch
-        branch: scraped
-
         # Optional glob pattern of files which should be added to the commit
         # See the `pathspec`-documentation for git
         # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
