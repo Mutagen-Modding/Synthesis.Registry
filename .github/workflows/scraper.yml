@@ -1,0 +1,38 @@
+name: Scrape
+
+on:
+  schedule:
+    - cron:  '*/5 * * * *'
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+    - name: Install dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+    - name: Test
+      run: dotnet test --no-restore --verbosity normal
+    - name: Scrape
+      run: dotnet "Synthesis.Registry\bin\Release\netcoreapp3.1\Synthesis.Registry.MutagenScraper.dll"
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        # Required
+        commit_message: Patcher registry changes
+
+        # Optional branch to push to, defaults to the current branch
+        branch: scraped
+
+        # Optional glob pattern of files which should be added to the commit
+        # See the `pathspec`-documentation for git
+        # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
+        # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
+        file_pattern: patchers.txt
+
+        # Optional local file path to the repository
+        repository: .
