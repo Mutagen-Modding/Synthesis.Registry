@@ -2,9 +2,13 @@ name: Release
 
 on:
   push:
-    branches: [ release ]
+    branches: [ release ]   
+    paths-ignore:
+    - 'patchers.txt'
   pull_request:
     branches: [ release ]
+    paths-ignore:
+    - 'patchers.txt'
 
 jobs:
   build:
