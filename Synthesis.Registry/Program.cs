@@ -106,7 +106,7 @@ namespace Synthesis.Registry
             System.Console.WriteLine($"API usage: {(limits.Remaining / limits.Limit == 0 ? -1 : limits.Limit)}% ({limits.Remaining}/{limits.Limit})");
 
             // Write out final listing
-            File.WriteAllText("mutagen-listing.json",
+            File.WriteAllText("mutagen-automatic-listing.json",
                 JsonSerializer.Serialize(
                     new MutagenPatchersListing()
                     {
