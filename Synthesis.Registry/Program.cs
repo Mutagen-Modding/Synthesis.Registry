@@ -102,7 +102,8 @@ namespace Synthesis.Registry
                 .Select(t => Task.Run(async () => await t))))
                 .Where(r => r.Patchers.Length > 0)
                 .ToArray();
-            System.Console.WriteLine($"API usage: {gitHubClient.GetLastApiInfo().RateLimit})");
+            var limits = gitHubClient.GetLastApiInfo().RateLimit;
+            System.Console.WriteLine($"API usage: {(limits.Remaining / limits.Limit == 0 ? -1 : limits.Limit)}% ({limits.Remaining}/{limits.Limit})");
 
             // Write out final listing
             File.WriteAllText("mutagen-listing.json",
