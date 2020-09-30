@@ -103,7 +103,8 @@ namespace Synthesis.Registry
                 .Where(r => r.Patchers.Length > 0)
                 .ToArray();
             var limits = gitHubClient.GetLastApiInfo().RateLimit;
-            System.Console.WriteLine($"API usage: {(limits.Remaining / limits.Limit == 0 ? -1 : limits.Limit)}% ({limits.Remaining}/{limits.Limit})");
+            System.Console.WriteLine($"API usage remaining: {(100d * limits.Remaining / (limits.Limit == 0 ? -1 : limits.Limit))}% ({limits.Remaining}/{limits.Limit})");
+            System.Console.WriteLine($"Reset at {limits.Reset}");
 
             // Write out final listing
             File.WriteAllText("mutagen-automatic-listing.json",
