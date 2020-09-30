@@ -19,7 +19,7 @@ jobs:
     - name: Test
       run: dotnet test --no-restore --verbosity normal
     - name: Scrape
-      run: dotnet "Synthesis.Registry\bin\Release\netcoreapp3.1\Synthesis.Registry.MutagenScraper.dll"
+      run: dotnet "Synthesis.Registry\bin\Release\netcoreapp3.1\Synthesis.Registry.MutagenScraper.dll" ${{ secrets.GITHUB_TOKEN }}
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         # Required
