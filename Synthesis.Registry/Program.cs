@@ -79,8 +79,7 @@ namespace Synthesis.Registry
                                     return null;
                                 }
                                 return listing;
-                            })
-                            .Select(t => Task.Run(async () => await t))))
+                            })))
                             .NotNull()
                             .ToArray();
                     }
@@ -98,8 +97,7 @@ namespace Synthesis.Registry
                         User = dep.User,
                         Patchers = patchers
                     };
-                })
-                .Select(t => Task.Run(async () => await t))))
+                })))
                 .Where(r => r.Patchers.Length > 0)
                 .ToArray();
             var limits = gitHubClient.GetLastApiInfo().RateLimit;
