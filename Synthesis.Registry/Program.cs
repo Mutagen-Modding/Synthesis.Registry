@@ -36,6 +36,8 @@ namespace Synthesis.Registry
             gitHubClient.Credentials = new Credentials(loginToken);
             HttpClient client = new HttpClient();
             var repos = (await Task.WhenAll(list
+                .Where(dep => !string.IsNullOrWhiteSpace(dep.Repository)
+                    && !string.IsNullOrWhiteSpace(dep.User))
                 .Select(async dep =>
                 {
                     var patchers = Array.Empty<PatcherListing>();
