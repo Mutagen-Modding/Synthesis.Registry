@@ -19,7 +19,8 @@
           "Customization": {
             "Nickname": "Nog\u0027s Test Patcher",
             "HideByDefault": true,
-            "Description": null
+            "OneLineDescription": "Testing123",
+            "LongDescription": "Just testing some things."
           },
           "ProjectPath": "TestPatcher/TestPatcher.csproj"
         }
