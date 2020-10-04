@@ -17,9 +17,9 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "TestPatcher",
+            "Nickname": "Nog\u0027s Test Patcher",
             "HideByDefault": true,
-            "Description": "Just testing some things.  You\u0027ll never know what I might do."
+            "Description": null
           },
           "ProjectPath": "TestPatcher/TestPatcher.csproj"
         }
