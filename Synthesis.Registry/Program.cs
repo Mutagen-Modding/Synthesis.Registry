@@ -94,9 +94,9 @@ namespace Synthesis.Registry
                     {
                         AvatarURL = dep.AvatarURL,
                         Forks = dep.Forks,
-                        Repository = dep.Repository,
+                        Repository = dep.Repository!,
                         Stars = dep.Stars,
-                        User = dep.User,
+                        User = dep.User!,
                         Patchers = patchers
                     };
                 })))
