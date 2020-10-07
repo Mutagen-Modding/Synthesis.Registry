@@ -93,9 +93,7 @@ namespace Synthesis.Registry
                     return new RepositoryListing()
                     {
                         AvatarURL = dep.AvatarURL,
-                        Forks = dep.Forks,
                         Repository = dep.Repository!,
-                        Stars = dep.Stars,
                         User = dep.User!,
                         Patchers = patchers
                     };
