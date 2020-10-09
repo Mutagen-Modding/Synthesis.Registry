@@ -3,6 +3,22 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "SilentMoonsEnchantmentPatcher",
+            "HideByDefault": false,
+            "OneLineDescription": null,
+            "LongDescription": null
+          },
+          "ProjectPath": "SilentMoonsEnchantmentPatcher/SilentMoonsEnchantmentPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars2.githubusercontent.com/u/16577545?s=40\u0026amp;u=453f920e94f48b780eb6370826b40b6790cc5a4f\u0026amp;v=4",
+      "User": "erri120",
+      "Repository": "SilentMoonsEnchantmentPatcher.Net"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "ExperienceMutagenPatcher/ExperienceMutagenPatcher.csproj"
         }
