@@ -3,6 +3,21 @@
     {
       "Patchers": [
         {
+          "Customization": null,
+          "ProjectPath": "Freeform/Freeform.csproj"
+        },
+        {
+          "Customization": null,
+          "ProjectPath": "Synthesis/Synthesis.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/24981326?s=40\u0026amp;u=ed9e2259532d043a1782ab64eefdc0f18fc8c6bb\u0026amp;v=4",
+      "User": "Noggog",
+      "Repository": "MutagenBootcamp"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "SilentMoonsEnchantmentPatcher",
             "HideByDefault": false,
