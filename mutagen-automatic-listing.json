@@ -188,17 +188,6 @@
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "OppositeAnimationDisabler/OppositeAnimationDisabler.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
-      "User": "jdsmith2816",
-      "Repository": "oppositeanimationdisabler"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": null,
           "ProjectPath": "NPCEnchantFix/NPCEnchantFix.csproj"
         }
       ],
