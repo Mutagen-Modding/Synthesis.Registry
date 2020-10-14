@@ -27,8 +27,10 @@ namespace Synthesis.Registry
             System.Console.WriteLine("Retrieved repositories:");
             foreach (var target in list)
             {
-                System.Console.WriteLine($"  {target.User}/{target.Repository}");
+                System.Console.WriteLine($"  {target}");
             }
+            System.Console.WriteLine();
+            System.Console.WriteLine();
 
             // Populate metadata about each repository
             var gitHubClient = new GitHubClient(new ProductHeaderValue("SynthesisScraper"));
@@ -36,10 +38,23 @@ namespace Synthesis.Registry
             gitHubClient.Credentials = new Credentials(loginToken);
             HttpClient client = new HttpClient();
             var repos = (await Task.WhenAll(list
-                .Where(dep => !string.IsNullOrWhiteSpace(dep.Repository)
-                    && !string.IsNullOrWhiteSpace(dep.User))
+                .Where(dep =>
+                {
+                    if (string.IsNullOrWhiteSpace(dep.Repository))
+                    {
+                        System.Console.WriteLine($"Skipping because there was no repository listed: {dep}");
+                        return false;
+                    }
+                    if (string.IsNullOrWhiteSpace(dep.User))
+                    {
+                        System.Console.WriteLine($"Skipping because there was no user listed: {dep}");
+                        return false;
+                    }
+                    return true;
+                })
                 .Select(async dep =>
                 {
+                    System.Console.WriteLine($"Processing {dep}");
                     var patchers = Array.Empty<PatcherListing>();
                     try
                     {
@@ -77,7 +92,7 @@ namespace Synthesis.Registry
                                 }
                                 catch (Exception ex)
                                 {
-                                    System.Console.Error.Write($"Error parsing listing for {dep.User}/{dep.Repository} {proj.Path}: {ex}");
+                                    System.Console.WriteLine($"Error parsing listing for {dep.User}/{dep.Repository} {proj.Path}: {ex}");
                                     return null;
                                 }
                                 return listing;
@@ -87,7 +102,7 @@ namespace Synthesis.Registry
                     }
                     catch (Exception ex)
                     {
-                        System.Console.Error.WriteLine($"Error processing {dep.User}/{dep.Repository}: {ex}");
+                        System.Console.WriteLine($"Error processing {dep.User}/{dep.Repository}: {ex}");
                     }
 
                     return new RepositoryListing()
@@ -103,6 +118,8 @@ namespace Synthesis.Registry
             var limits = gitHubClient.GetLastApiInfo().RateLimit;
             System.Console.WriteLine($"API usage remaining: {(100d * limits.Remaining / (limits.Limit == 0 ? -1 : limits.Limit))}% ({limits.Remaining}/{limits.Limit})");
             System.Console.WriteLine($"Reset at {limits.Reset}");
+
+            System.Console.Error.WriteLine($"Test");
 
             // Write out final listing
             File.WriteAllText("mutagen-automatic-listing.json",
