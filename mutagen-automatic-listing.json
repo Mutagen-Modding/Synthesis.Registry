@@ -50,6 +50,17 @@
     {
       "Patchers": [
         {
+          "Customization": null,
+          "ProjectPath": "KnowYourArmorPatcher/KnowYourArmorPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "KnowYourArmorPatcher"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "Nog\u0027s Test Patcher",
             "HideByDefault": true,
