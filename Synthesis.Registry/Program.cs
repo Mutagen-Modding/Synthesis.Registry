@@ -71,7 +71,8 @@ namespace Synthesis.Registry
             System.Console.WriteLine($"Reset at {limits.Reset}");
 
             // Write out final listing
-            File.WriteAllText("mutagen-automatic-listing.json",
+            var exportPath = "mutagen-automatic-listing.json";
+            File.WriteAllText(exportPath,
                 JsonSerializer.Serialize(
                     new MutagenPatchersListing()
                     {
@@ -81,6 +82,8 @@ namespace Synthesis.Registry
                     {
                         WriteIndented = true
                     }));
+
+            Console.WriteLine($"{exportPath} {(File.Exists(exportPath) ? "exists." : "does not exist!")}");
         }
 
         private static async Task<GetResponse<List<Dependent>>> GetGithubDependencies()
