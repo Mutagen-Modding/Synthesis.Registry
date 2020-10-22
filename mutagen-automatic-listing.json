@@ -3,6 +3,22 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "CellEditorIDFixer",
+            "HideByDefault": false,
+            "OneLineDescription": "Cell Editor ID Fixer",
+            "LongDescription": "Automatically finds all Cell EDIDs having underscores, and fixes them by removing them. Worldspace CELLs are currently unsupported."
+          },
+          "ProjectPath": "CellEditorIDFixer/CellEditorIDFixer.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/6877595?s=40\u0026amp;u=aea00944b06657a3641c7a67acc5853ec38a8c53\u0026amp;v=4",
+      "User": "Deigue",
+      "Repository": "CellEditorIDFixer"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "Freeform/Freeform.csproj"
         },
