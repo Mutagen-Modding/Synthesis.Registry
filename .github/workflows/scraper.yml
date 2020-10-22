@@ -20,7 +20,7 @@ jobs:
       run: dotnet test --no-restore --verbosity normal
     - name: Scrape
       run: dotnet "Synthesis.Registry\bin\Release\netcoreapp3.1\Synthesis.Registry.MutagenScraper.dll" ${{ secrets.GITHUB_TOKEN }}
-    - uses: stefanzweifel/git-auto-commit-action@v4.6
+    - uses: stefanzweifel/git-auto-commit-action@v4.6.0
       with:
         # Required
         commit_message: Patcher registry changes
