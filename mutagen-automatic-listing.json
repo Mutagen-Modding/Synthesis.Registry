@@ -7,7 +7,7 @@
             "Nickname": "CellEditorIDFixer",
             "HideByDefault": false,
             "OneLineDescription": "Cell Editor ID Fixer",
-            "LongDescription": "Automatically finds all Cell EDIDs having underscores, and fixes them by removing them. Worldspace CELLs are currently unsupported."
+            "LongDescription": "Automatically finds all Cell EDIDs having underscores, and fixes them by removing them."
           },
           "ProjectPath": "CellEditorIDFixer/CellEditorIDFixer.csproj"
         }
