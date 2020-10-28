@@ -4,6 +4,22 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "ItemWeightCustomizer",
+            "HideByDefault": true,
+            "OneLineDescription": "Allows for setting custom weight values for different type of items.",
+            "LongDescription": "Currently supports override for BOOK records."
+          },
+          "ProjectPath": "ItemWeightCustomizer/ItemWeightCustomizer.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/6877595?s=40\u0026amp;u=aea00944b06657a3641c7a67acc5853ec38a8c53\u0026amp;v=4",
+      "User": "Deigue",
+      "Repository": "ItemWeightCustomizer"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "CellEditorIDFixer",
             "HideByDefault": false,
             "OneLineDescription": "Cell Editor ID Fixer",
