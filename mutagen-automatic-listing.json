@@ -22,8 +22,8 @@
           "Customization": {
             "Nickname": "CellEditorIDFixer",
             "HideByDefault": false,
-            "OneLineDescription": "Cell Editor ID Fixer",
-            "LongDescription": "Automatically finds all Cell EDIDs having underscores, and fixes them by removing them."
+            "OneLineDescription": "Finds all Cell EDIDs having underscores, and fixes them by removing them.",
+            "LongDescription": "Finds all Cells in Interiors and Exterior worldspaces having underscores, and fixes them by removing them."
           },
           "ProjectPath": "CellEditorIDFixer/CellEditorIDFixer.csproj"
         }
