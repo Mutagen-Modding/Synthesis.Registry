@@ -4,6 +4,22 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SkyVRaan Auto Patcher",
+            "HideByDefault": false,
+            "OneLineDescription": "SkyVRaan Auto Patcher",
+            "LongDescription": "SkyVRaan is a mod for SkyrimVR that adds a cubemap to water in Skyrim, faking water reflections. This patcher creates a custom SkyVRaan cubemap patch for your load order. This replaces Cubemapenabler.esp and it\u0027s many patches!!!"
+          },
+          "ProjectPath": "SkyVRaanAutoPatcher/SkyVRaanAutoPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars0.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
+      "User": "Wolfman5750",
+      "Repository": "SkyVRaanAutoPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ItemWeightCustomizer",
             "HideByDefault": true,
             "OneLineDescription": "Allows for setting custom weight values for different type of items.",
