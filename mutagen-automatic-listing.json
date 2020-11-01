@@ -4,6 +4,22 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "TUDMFootstepPatcher",
+            "HideByDefault": false,
+            "OneLineDescription": "",
+            "LongDescription": ""
+          },
+          "ProjectPath": "TUDMFootstepPatcher/TUDMFootstepPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "TUDMFootstepPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SkyVRaan Auto Patcher",
             "HideByDefault": false,
             "OneLineDescription": "SkyVRaan Auto Patcher",
