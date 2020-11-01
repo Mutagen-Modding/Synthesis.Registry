@@ -137,17 +137,6 @@
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "PaMaReborn/PaMaReborn.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
-      "User": "jdsmith2816",
-      "Repository": "pamareborn"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": null,
           "ProjectPath": "MortalEnemies/MortalEnemies.csproj"
         }
       ],
@@ -176,17 +165,6 @@
       "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
       "User": "tr4wzified",
       "Repository": "WaterDoesDamagePatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": null,
-          "ProjectPath": "ENBLightPatcher/ENBLightPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
-      "User": "jdsmith2816",
-      "Repository": "enblightpatcher"
     },
     {
       "Patchers": [
