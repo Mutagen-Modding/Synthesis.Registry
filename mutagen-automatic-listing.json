@@ -262,7 +262,12 @@
     {
       "Patchers": [
         {
-          "Customization": null,
+          "Customization": {
+            "Nickname": "SpellAbsorbFix",
+            "HideByDefault": false,
+            "OneLineDescription": "",
+            "LongDescription": ""
+          },
           "ProjectPath": "SpellAbsorbFix/SpellAbsorbFix.csproj"
         }
       ],
