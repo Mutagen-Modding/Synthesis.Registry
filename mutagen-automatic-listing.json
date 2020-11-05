@@ -4,6 +4,22 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "AnimatedArmoryPatcher",
+            "HideByDefault": false,
+            "OneLineDescription": "",
+            "LongDescription": ""
+          },
+          "ProjectPath": "AnimatedArmoryPatcher/AnimatedArmoryPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/74020225?s=40\u0026amp;u=555da9dd73b46196935ea1b616f75007e0e1f823\u0026amp;v=4",
+      "User": "ArroktheBlind",
+      "Repository": "AnimatedArmoryPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "FloraFixer",
             "HideByDefault": true,
             "OneLineDescription": "Synthesis patcher to fix flora respawning (needs data from nexus)",
