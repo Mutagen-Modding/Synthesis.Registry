@@ -4,6 +4,31 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "enchrestrictionremover",
+            "HideByDefault": true,
+            "OneLineDescription": "Synthesis based enchantment restriction remover",
+            "LongDescription": ""
+          },
+          "ProjectPath": "enchrestrictionremover/enchrestrictionremover.csproj"
+        },
+        {
+          "Customization": {
+            "Nickname": "FloraFixer",
+            "HideByDefault": true,
+            "OneLineDescription": "",
+            "LongDescription": ""
+          },
+          "ProjectPath": "FloraFixer/FloraFixer.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "MinisSynthesisPatchers"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "CellEncounterLevelsInName",
             "HideByDefault": false,
             "OneLineDescription": "Adds Encounter zone levels to cell names.",
