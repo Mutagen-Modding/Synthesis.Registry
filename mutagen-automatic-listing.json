@@ -21,9 +21,9 @@
         {
           "Customization": {
             "Nickname": "FloraFixer",
-            "HideByDefault": true,
+            "HideByDefault": false,
             "OneLineDescription": "Synthesis patcher to fix flora respawning (needs data from nexus)",
-            "LongDescription": ""
+            "LongDescription": "Nexus Data can be found here: https://www.nexusmods.com/skyrimspecialedition/mods/42057"
           },
           "ProjectPath": "FloraFixer/FloraFixer.csproj"
         }
