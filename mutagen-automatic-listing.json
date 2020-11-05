@@ -4,18 +4,9 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "enchrestrictionremover",
-            "HideByDefault": true,
-            "OneLineDescription": "Synthesis based enchantment restriction remover",
-            "LongDescription": ""
-          },
-          "ProjectPath": "enchrestrictionremover/enchrestrictionremover.csproj"
-        },
-        {
-          "Customization": {
             "Nickname": "FloraFixer",
             "HideByDefault": true,
-            "OneLineDescription": "",
+            "OneLineDescription": "Synthesis patcher to fix flora respawning (needs data from nexus)",
             "LongDescription": ""
           },
           "ProjectPath": "FloraFixer/FloraFixer.csproj"
@@ -23,7 +14,23 @@
       ],
       "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
-      "Repository": "MinisSynthesisPatchers"
+      "Repository": "SynFloraFix"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "enchrestrictionremover",
+            "HideByDefault": true,
+            "OneLineDescription": "Synthesis based enchantment restriction remover",
+            "LongDescription": ""
+          },
+          "ProjectPath": "enchrestrictionremover/enchrestrictionremover.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynNoEnchantmentRestrictions"
     },
     {
       "Patchers": [
