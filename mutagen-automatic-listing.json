@@ -4,6 +4,22 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SpellTomePriceFixPatcher",
+            "HideByDefault": false,
+            "OneLineDescription": "",
+            "LongDescription": ""
+          },
+          "ProjectPath": "SpellTomePriceFixPatcher/SpellTomePriceFixPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "SpellTomePricePatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "FloraFixer",
             "HideByDefault": false,
             "OneLineDescription": "Synthesis patcher to fix flora respawning (needs data from nexus)",
