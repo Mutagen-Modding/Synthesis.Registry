@@ -4,6 +4,22 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynWeaponTypeKeywords",
+            "HideByDefault": false,
+            "OneLineDescription": "Weapon type keyword patcher (similar to zEdit patcher)",
+            "LongDescription": "Supports both NWTA and animated armoury"
+          },
+          "ProjectPath": "SynWeaponKeywords/SynWeapType.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynWeaponKeywords"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SpellTomePriceFixPatcher",
             "HideByDefault": false,
             "OneLineDescription": "",
