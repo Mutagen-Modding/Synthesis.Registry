@@ -36,10 +36,10 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "enchrestrictionremover",
-            "HideByDefault": true,
+            "Nickname": "SynEnchantmentRestrictionRemover",
+            "HideByDefault": false,
             "OneLineDescription": "Synthesis based enchantment restriction remover",
-            "LongDescription": ""
+            "LongDescription": "Enables all enchantments to be applied to nearly everything"
           },
           "ProjectPath": "enchrestrictionremover/enchrestrictionremover.csproj"
         }
