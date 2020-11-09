@@ -4,6 +4,22 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "EnemyReleveler",
+            "HideByDefault": false,
+            "OneLineDescription": "",
+            "LongDescription": ""
+          },
+          "ProjectPath": "EnemyReleveler/EnemyReleveler.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars2.githubusercontent.com/u/52758909?s=40\u0026amp;u=4f97ed9e8ce41cb97b938ed1a300eafcf11922fd\u0026amp;v=4",
+      "User": "cuyima",
+      "Repository": "EnemyReleveler"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynWeaponTypeKeywords",
             "HideByDefault": false,
             "OneLineDescription": "Weapon type keyword patcher (similar to zEdit patcher)",
