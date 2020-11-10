@@ -146,7 +146,7 @@
             "Nickname": "ItemWeightCustomizer",
             "HideByDefault": true,
             "OneLineDescription": "Allows for setting custom weight values for different type of items.",
-            "LongDescription": "Currently supports override for BOOK records."
+            "LongDescription": "Currently supports override for BOOK/INGR/SCRL/SLGM records."
           },
           "ProjectPath": "ItemWeightCustomizer/ItemWeightCustomizer.csproj"
         }
