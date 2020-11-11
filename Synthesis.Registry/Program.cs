@@ -162,6 +162,7 @@ namespace Synthesis.Registry
                     return listing;
                 })))
                 .NotNull()
+                .Where(listing => listing.Customization?.Visibility != VisibilityOptions.Exclude)
                 .ToArray();
         }
     }
