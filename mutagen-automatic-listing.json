@@ -27,10 +27,10 @@
         {
           "Customization": {
             "Nickname": "EnemyReleveler",
-            "Visibility": 2,
+            "Visibility": "Visible",
             "OneLineDescription": "A Mutagen patcher that lets you configure the levels of NPCs according to their type for a truly deleveled Skyrim",
             "LongDescription": "",
-            "PreferredAutoVersioning": 0
+            "PreferredAutoVersioning": "Default"
           },
           "ProjectPath": "EnemyReleveler/EnemyReleveler.csproj"
         }
@@ -44,10 +44,10 @@
         {
           "Customization": {
             "Nickname": "SynWeaponTypeKeywords",
-            "Visibility": 2,
+            "Visibility": "Visible",
             "OneLineDescription": "Weapon type keyword patcher (similar to zEdit patcher)",
             "LongDescription": "Supports both NWTA and animated armoury",
-            "PreferredAutoVersioning": 0
+            "PreferredAutoVersioning": "Default"
           },
           "ProjectPath": "SynWeaponKeywords/SynWeapType.csproj"
         }
@@ -61,10 +61,10 @@
         {
           "Customization": {
             "Nickname": "SpellTomePriceFixPatcher",
-            "Visibility": 2,
+            "Visibility": "Visible",
             "OneLineDescription": "",
             "LongDescription": "",
-            "PreferredAutoVersioning": 0
+            "PreferredAutoVersioning": "Default"
           },
           "ProjectPath": "SpellTomePriceFixPatcher/SpellTomePriceFixPatcher.csproj"
         }
@@ -78,10 +78,10 @@
         {
           "Customization": {
             "Nickname": "FloraFixer",
-            "Visibility": 2,
+            "Visibility": "Visible",
             "OneLineDescription": "Synthesis patcher to fix flora respawning (needs data from nexus)",
             "LongDescription": "Nexus Data can be found here: https://www.nexusmods.com/skyrimspecialedition/mods/42057",
-            "PreferredAutoVersioning": 0
+            "PreferredAutoVersioning": "Default"
           },
           "ProjectPath": "FloraFixer/FloraFixer.csproj"
         }
@@ -95,10 +95,10 @@
         {
           "Customization": {
             "Nickname": "SynEnchantmentRestrictionRemover",
-            "Visibility": 2,
+            "Visibility": "Visible",
             "OneLineDescription": "Synthesis based enchantment restriction remover",
             "LongDescription": "Enables all enchantments to be applied to nearly everything",
-            "PreferredAutoVersioning": 0
+            "PreferredAutoVersioning": "Default"
           },
           "ProjectPath": "enchrestrictionremover/enchrestrictionremover.csproj"
         }
@@ -112,10 +112,10 @@
         {
           "Customization": {
             "Nickname": "CellEncounterLevelsInName",
-            "Visibility": 2,
+            "Visibility": "Visible",
             "OneLineDescription": "Adds Encounter zone levels to cell names.",
             "LongDescription": "",
-            "PreferredAutoVersioning": 0
+            "PreferredAutoVersioning": "Default"
           },
           "ProjectPath": "CellEncounterLevelsInName/CellEncounterLevelsInName.csproj"
         }
@@ -129,10 +129,10 @@
         {
           "Customization": {
             "Nickname": "TUDMFootstepPatcher",
-            "Visibility": 2,
+            "Visibility": "Visible",
             "OneLineDescription": "",
             "LongDescription": "",
-            "PreferredAutoVersioning": 0
+            "PreferredAutoVersioning": "Default"
           },
           "ProjectPath": "TUDMFootstepPatcher/TUDMFootstepPatcher.csproj"
         }
@@ -146,10 +146,10 @@
         {
           "Customization": {
             "Nickname": "SkyVRaan Auto Patcher",
-            "Visibility": 2,
+            "Visibility": "Visible",
             "OneLineDescription": "SkyVRaan Auto Patcher",
             "LongDescription": "SkyVRaan is a mod for SkyrimVR that adds a cubemap to water in Skyrim, faking water reflections. This patcher creates a custom SkyVRaan cubemap patch for your load order. This replaces Cubemapenabler.esp and it\u0027s many patches!!!",
-            "PreferredAutoVersioning": 0
+            "PreferredAutoVersioning": "Default"
           },
           "ProjectPath": "SkyVRaanAutoPatcher/SkyVRaanAutoPatcher.csproj"
         }
@@ -163,10 +163,10 @@
         {
           "Customization": {
             "Nickname": "CellEditorIDFixer",
-            "Visibility": 1,
+            "Visibility": "IncludeButHide",
             "OneLineDescription": "Removes underscores from cell EDIDs",
             "LongDescription": "Finds all Cells in Interiors and Exterior worldspaces having underscores, and fixes the Editor Ids by removing the underscores.",
-            "PreferredAutoVersioning": 2
+            "PreferredAutoVersioning": "LatestDefaultBranch"
           },
           "ProjectPath": "CellEditorIDFixer/CellEditorIDFixer.csproj"
         }
@@ -184,10 +184,10 @@
         {
           "Customization": {
             "Nickname": "Synthesis",
-            "Visibility": 2,
+            "Visibility": "Visible",
             "OneLineDescription": "A template project example",
             "LongDescription": "A template project example not ment for end use, but just to give a good baseline to work from",
-            "PreferredAutoVersioning": 0
+            "PreferredAutoVersioning": "Default"
           },
           "ProjectPath": "Synthesis/Synthesis.csproj"
         }
@@ -201,10 +201,10 @@
         {
           "Customization": {
             "Nickname": "SilentMoonsEnchantmentPatcher",
-            "Visibility": 2,
+            "Visibility": "Visible",
             "OneLineDescription": null,
             "LongDescription": null,
-            "PreferredAutoVersioning": 0
+            "PreferredAutoVersioning": "Default"
           },
           "ProjectPath": "SilentMoonsEnchantmentPatcher/SilentMoonsEnchantmentPatcher.csproj"
         }
@@ -240,10 +240,10 @@
         {
           "Customization": {
             "Nickname": "Nog\u0027s Test Patcher",
-            "Visibility": 2,
+            "Visibility": "Visible",
             "OneLineDescription": "Testing123",
             "LongDescription": "Just testing some things.",
-            "PreferredAutoVersioning": 0
+            "PreferredAutoVersioning": "Default"
           },
           "ProjectPath": "TestPatcher/TestPatcher.csproj"
         }
@@ -378,10 +378,10 @@
         {
           "Customization": {
             "Nickname": "SpellAbsorbFix",
-            "Visibility": 2,
+            "Visibility": "Visible",
             "OneLineDescription": "",
             "LongDescription": "",
-            "PreferredAutoVersioning": 0
+            "PreferredAutoVersioning": "Default"
           },
           "ProjectPath": "SpellAbsorbFix/SpellAbsorbFix.csproj"
         }
