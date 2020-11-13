@@ -10,6 +10,7 @@ using System.Net.Http;
 using Octokit;
 using Noggog;
 using Synthesis.Bethesda.DTO;
+using System.Text.Json.Serialization;
 
 namespace Synthesis.Registry
 {
@@ -149,7 +150,9 @@ namespace Synthesis.Registry
                         var metaPath = Path.Combine(Path.GetDirectoryName(proj)!, Constants.MetaFileName);
                         var content = await gitHubClient.Repository.Content.GetAllContents(dep.User, dep.Repository, metaPath);
                         if (content.Count != 1) return null;
-                        var customization = JsonSerializer.Deserialize<PatcherCustomization>(content[0].Content);
+                        var opt = new JsonSerializerOptions();
+                        opt.Converters.Add(new JsonStringEnumConverter());
+                        var customization = JsonSerializer.Deserialize<PatcherCustomization>(content[0].Content, opt);
                         if (string.IsNullOrWhiteSpace(customization.Nickname))
                         {
                             customization.Nickname = $"{dep.User}/{dep.Repository}";
