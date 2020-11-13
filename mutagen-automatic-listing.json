@@ -4,6 +4,17 @@
       "Patchers": [
         {
           "Customization": null,
+          "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/654621?s=40\u0026amp;u=5977c71a57b3beb5cc7e4b6ba55ed3f9e986d3a8\u0026amp;v=4",
+      "User": "halgari",
+      "Repository": "HalgarisRPGLoot"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
           "ProjectPath": "ENBLightPatcher/ENBLightPatcher.csproj"
         }
       ],
@@ -16,9 +27,10 @@
         {
           "Customization": {
             "Nickname": "EnemyReleveler",
-            "HideByDefault": false,
+            "Visibility": 2,
             "OneLineDescription": "A Mutagen patcher that lets you configure the levels of NPCs according to their type for a truly deleveled Skyrim",
-            "LongDescription": ""
+            "LongDescription": "",
+            "PreferredAutoVersioning": 0
           },
           "ProjectPath": "EnemyReleveler/EnemyReleveler.csproj"
         }
@@ -32,9 +44,10 @@
         {
           "Customization": {
             "Nickname": "SynWeaponTypeKeywords",
-            "HideByDefault": false,
+            "Visibility": 2,
             "OneLineDescription": "Weapon type keyword patcher (similar to zEdit patcher)",
-            "LongDescription": "Supports both NWTA and animated armoury"
+            "LongDescription": "Supports both NWTA and animated armoury",
+            "PreferredAutoVersioning": 0
           },
           "ProjectPath": "SynWeaponKeywords/SynWeapType.csproj"
         }
@@ -48,9 +61,10 @@
         {
           "Customization": {
             "Nickname": "SpellTomePriceFixPatcher",
-            "HideByDefault": false,
+            "Visibility": 2,
             "OneLineDescription": "",
-            "LongDescription": ""
+            "LongDescription": "",
+            "PreferredAutoVersioning": 0
           },
           "ProjectPath": "SpellTomePriceFixPatcher/SpellTomePriceFixPatcher.csproj"
         }
@@ -64,9 +78,10 @@
         {
           "Customization": {
             "Nickname": "FloraFixer",
-            "HideByDefault": false,
+            "Visibility": 2,
             "OneLineDescription": "Synthesis patcher to fix flora respawning (needs data from nexus)",
-            "LongDescription": "Nexus Data can be found here: https://www.nexusmods.com/skyrimspecialedition/mods/42057"
+            "LongDescription": "Nexus Data can be found here: https://www.nexusmods.com/skyrimspecialedition/mods/42057",
+            "PreferredAutoVersioning": 0
           },
           "ProjectPath": "FloraFixer/FloraFixer.csproj"
         }
@@ -80,9 +95,10 @@
         {
           "Customization": {
             "Nickname": "SynEnchantmentRestrictionRemover",
-            "HideByDefault": false,
+            "Visibility": 2,
             "OneLineDescription": "Synthesis based enchantment restriction remover",
-            "LongDescription": "Enables all enchantments to be applied to nearly everything"
+            "LongDescription": "Enables all enchantments to be applied to nearly everything",
+            "PreferredAutoVersioning": 0
           },
           "ProjectPath": "enchrestrictionremover/enchrestrictionremover.csproj"
         }
@@ -96,9 +112,10 @@
         {
           "Customization": {
             "Nickname": "CellEncounterLevelsInName",
-            "HideByDefault": false,
+            "Visibility": 2,
             "OneLineDescription": "Adds Encounter zone levels to cell names.",
-            "LongDescription": ""
+            "LongDescription": "",
+            "PreferredAutoVersioning": 0
           },
           "ProjectPath": "CellEncounterLevelsInName/CellEncounterLevelsInName.csproj"
         }
@@ -112,9 +129,10 @@
         {
           "Customization": {
             "Nickname": "TUDMFootstepPatcher",
-            "HideByDefault": false,
+            "Visibility": 2,
             "OneLineDescription": "",
-            "LongDescription": ""
+            "LongDescription": "",
+            "PreferredAutoVersioning": 0
           },
           "ProjectPath": "TUDMFootstepPatcher/TUDMFootstepPatcher.csproj"
         }
@@ -128,9 +146,10 @@
         {
           "Customization": {
             "Nickname": "SkyVRaan Auto Patcher",
-            "HideByDefault": false,
+            "Visibility": 2,
             "OneLineDescription": "SkyVRaan Auto Patcher",
-            "LongDescription": "SkyVRaan is a mod for SkyrimVR that adds a cubemap to water in Skyrim, faking water reflections. This patcher creates a custom SkyVRaan cubemap patch for your load order. This replaces Cubemapenabler.esp and it\u0027s many patches!!!"
+            "LongDescription": "SkyVRaan is a mod for SkyrimVR that adds a cubemap to water in Skyrim, faking water reflections. This patcher creates a custom SkyVRaan cubemap patch for your load order. This replaces Cubemapenabler.esp and it\u0027s many patches!!!",
+            "PreferredAutoVersioning": 0
           },
           "ProjectPath": "SkyVRaanAutoPatcher/SkyVRaanAutoPatcher.csproj"
         }
@@ -143,26 +162,11 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "ItemWeightCustomizer",
-            "HideByDefault": true,
-            "OneLineDescription": "Allows for setting custom weight values for different type of items.",
-            "LongDescription": "Currently supports override for BOOK/INGR/SCRL/SLGM records."
-          },
-          "ProjectPath": "ItemWeightCustomizer/ItemWeightCustomizer.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars1.githubusercontent.com/u/6877595?s=40\u0026amp;u=aea00944b06657a3641c7a67acc5853ec38a8c53\u0026amp;v=4",
-      "User": "Deigue",
-      "Repository": "ItemWeightCustomizer"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "CellEditorIDFixer",
-            "HideByDefault": false,
-            "OneLineDescription": "Finds all Cell EDIDs having underscores, and fixes them by removing them.",
-            "LongDescription": "Finds all Cells in Interiors and Exterior worldspaces having underscores, and fixes them by removing them."
+            "Visibility": 1,
+            "OneLineDescription": "Removes underscores from cell EDIDs",
+            "LongDescription": "Finds all Cells in Interiors and Exterior worldspaces having underscores, and fixes the Editor Ids by removing the underscores.",
+            "PreferredAutoVersioning": 2
           },
           "ProjectPath": "CellEditorIDFixer/CellEditorIDFixer.csproj"
         }
@@ -180,9 +184,10 @@
         {
           "Customization": {
             "Nickname": "Synthesis",
-            "HideByDefault": true,
+            "Visibility": 2,
             "OneLineDescription": "A template project example",
-            "LongDescription": "A template project example not ment for end use, but just to give a good baseline to work from"
+            "LongDescription": "A template project example not ment for end use, but just to give a good baseline to work from",
+            "PreferredAutoVersioning": 0
           },
           "ProjectPath": "Synthesis/Synthesis.csproj"
         }
@@ -196,9 +201,10 @@
         {
           "Customization": {
             "Nickname": "SilentMoonsEnchantmentPatcher",
-            "HideByDefault": false,
+            "Visibility": 2,
             "OneLineDescription": null,
-            "LongDescription": null
+            "LongDescription": null,
+            "PreferredAutoVersioning": 0
           },
           "ProjectPath": "SilentMoonsEnchantmentPatcher/SilentMoonsEnchantmentPatcher.csproj"
         }
@@ -234,9 +240,10 @@
         {
           "Customization": {
             "Nickname": "Nog\u0027s Test Patcher",
-            "HideByDefault": true,
+            "Visibility": 2,
             "OneLineDescription": "Testing123",
-            "LongDescription": "Just testing some things."
+            "LongDescription": "Just testing some things.",
+            "PreferredAutoVersioning": 0
           },
           "ProjectPath": "TestPatcher/TestPatcher.csproj"
         }
@@ -371,9 +378,10 @@
         {
           "Customization": {
             "Nickname": "SpellAbsorbFix",
-            "HideByDefault": false,
+            "Visibility": 2,
             "OneLineDescription": "",
-            "LongDescription": ""
+            "LongDescription": "",
+            "PreferredAutoVersioning": 0
           },
           "ProjectPath": "SpellAbsorbFix/SpellAbsorbFix.csproj"
         }
