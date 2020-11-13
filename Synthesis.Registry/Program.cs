@@ -16,10 +16,17 @@ namespace Synthesis.Registry
 {
     class Program
     {
+        static JsonSerializerOptions Options = new JsonSerializerOptions()
+        {
+            WriteIndented = true
+        };
+
         static async Task Main(string[] args)
         {
             var list = await GetGithubDependencies();
             if (list.Failed) return;
+
+            Options.Converters.Add(new JsonStringEnumConverter());
 
             // Populate metadata about each repository
             var gitHubClient = new GitHubClient(new ProductHeaderValue("SynthesisScraper"));
@@ -79,10 +86,7 @@ namespace Synthesis.Registry
                     {
                         Repositories = repos
                     },
-                    new JsonSerializerOptions()
-                    {
-                        WriteIndented = true
-                    }));
+                    Options));
 
             Console.WriteLine($"{exportPath} {(File.Exists(exportPath) ? "exists." : "does not exist!")}");
         }
@@ -150,9 +154,7 @@ namespace Synthesis.Registry
                         var metaPath = Path.Combine(Path.GetDirectoryName(proj)!, Constants.MetaFileName);
                         var content = await gitHubClient.Repository.Content.GetAllContents(dep.User, dep.Repository, metaPath);
                         if (content.Count != 1) return null;
-                        var opt = new JsonSerializerOptions();
-                        opt.Converters.Add(new JsonStringEnumConverter());
-                        var customization = JsonSerializer.Deserialize<PatcherCustomization>(content[0].Content, opt);
+                        var customization = JsonSerializer.Deserialize<PatcherCustomization>(content[0].Content, Options);
                         if (string.IsNullOrWhiteSpace(customization.Nickname))
                         {
                             customization.Nickname = $"{dep.User}/{dep.Repository}";
