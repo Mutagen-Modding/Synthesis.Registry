@@ -3,6 +3,23 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "FoodRemover",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default"
+          },
+          "ProjectPath": "FoodRemover/FoodRemover.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars2.githubusercontent.com/u/34091472?s=40\u0026amp;v=4",
+      "User": "Coyote21",
+      "Repository": "FoodRemover"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj"
         }
@@ -389,17 +406,6 @@
       "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
       "User": "jdsmith2816",
       "Repository": "spellabsorbfix"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": null,
-          "ProjectPath": "KhajiitEarsShow/KhajiitEarsShow.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
-      "User": "jdsmith2816",
-      "Repository": "khajiitearsshow"
     }
   ]
 }
