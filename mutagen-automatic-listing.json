@@ -201,7 +201,7 @@
         {
           "Customization": {
             "Nickname": "Synthesis",
-            "Visibility": "Visible",
+            "Visibility": "IncludeButHide",
             "OneLineDescription": "A template project example",
             "LongDescription": "A template project example not ment for end use, but just to give a good baseline to work from",
             "PreferredAutoVersioning": "Default"
@@ -257,7 +257,7 @@
         {
           "Customization": {
             "Nickname": "Nog\u0027s Test Patcher",
-            "Visibility": "Visible",
+            "Visibility": "IncludeButHide",
             "OneLineDescription": "Testing123",
             "LongDescription": "Just testing some things.",
             "PreferredAutoVersioning": "Default"
