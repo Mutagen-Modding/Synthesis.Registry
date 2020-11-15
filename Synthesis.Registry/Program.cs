@@ -160,6 +160,24 @@ namespace Synthesis.Registry
                             customization.Nickname = $"{dep.User}/{dep.Repository}";
                         }
                         listing.Customization = customization;
+
+                        // Backwards compatibility
+                        try
+                        {
+                            using var doc = JsonDocument.Parse(content[0].Content);
+                            foreach (var elem in doc.RootElement.EnumerateObject())
+                            {
+                                if (elem.NameEquals("HideByDefault")
+                                    && elem.Value.GetBoolean())
+                                {
+                                    customization.Visibility = VisibilityOptions.IncludeButHide;
+                                }
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            System.Console.WriteLine($"Error handling backwards compatibility: {ex}");
+                        }
                     }
                     catch (Octokit.NotFoundException)
                     {
