@@ -4,6 +4,23 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynCGOStaves",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis version of cuyima\u0027s zedit patcher for CGO staves",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default"
+          },
+          "ProjectPath": "SynCGOStavesPatcher/SynPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynCGOStavesPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynLoadScreenRemover",
             "Visibility": "Visible",
             "OneLineDescription": "Removes the 3d objects from loadscreens",
@@ -395,17 +412,6 @@
       "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
       "User": "jdsmith2816",
       "Repository": "npcenchantfix"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": null,
-          "ProjectPath": "NoDragonLODs/NoDragonLODs.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
-      "User": "jdsmith2816",
-      "Repository": "nodragonlods"
     }
   ]
 }
