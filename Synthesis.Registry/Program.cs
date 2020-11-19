@@ -93,7 +93,7 @@ namespace Synthesis.Registry
 
         private static async Task<GetResponse<List<Dependent>>> GetGithubDependencies()
         {
-            var list = await GitHubDependents.GitHubDependents.GetDependents("noggog", "synthesis", packageID: "UGFja2FnZS0xMzg1MjY1MjYz", pages: byte.MaxValue);
+            var list = await GitHubDependents.GitHubDependents.GetDependents("noggog", "synthesis", packageID: "UGFja2FnZS0xMzg1MjY1MjYz", pages: byte.MaxValue).ToListAsync();
             if (list.Count == 0)
             {
                 System.Console.Error.WriteLine("No repositories retrieved!");
@@ -154,7 +154,7 @@ namespace Synthesis.Registry
                         var metaPath = Path.Combine(Path.GetDirectoryName(proj)!, Constants.MetaFileName);
                         var content = await gitHubClient.Repository.Content.GetAllContents(dep.User, dep.Repository, metaPath);
                         if (content.Count != 1) return null;
-                        var customization = JsonSerializer.Deserialize<PatcherCustomization>(content[0].Content, Options);
+                        var customization = JsonSerializer.Deserialize<PatcherCustomization>(content[0].Content, Options)!;
                         if (string.IsNullOrWhiteSpace(customization.Nickname))
                         {
                             customization.Nickname = $"{dep.User}/{dep.Repository}";
