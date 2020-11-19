@@ -412,6 +412,45 @@
       "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
       "User": "jdsmith2816",
       "Repository": "npcenchantfix"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "NoDragonLODs/NoDragonLODs.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
+      "User": "jdsmith2816",
+      "Repository": "nodragonlods"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SpellAbsorbFix",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default"
+          },
+          "ProjectPath": "SpellAbsorbFix/SpellAbsorbFix.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
+      "User": "jdsmith2816",
+      "Repository": "spellabsorbfix"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "KhajiitEarsShow/KhajiitEarsShow.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
+      "User": "jdsmith2816",
+      "Repository": "khajiitearsshow"
     }
   ]
 }
