@@ -4,6 +4,23 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynPotionWeight",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis patcher to change potion / poison weights",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default"
+          },
+          "ProjectPath": "SynPotionWeight/SynPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynPotionWeight"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynCGOStaves",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis version of cuyima\u0027s zedit patcher for CGO staves",
