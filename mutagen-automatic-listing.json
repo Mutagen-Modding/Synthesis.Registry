@@ -4,6 +4,23 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Water Does Damage Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches all the waters in your load order to have the \u0027Does Damage\u0027 flag applied - useful for needs mods.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default"
+          },
+          "ProjectPath": "waterdoesdamagepatcher/WaterDoesDamage/WaterDoesDamage.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "WaterDoesDamagePatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynPotionWeight",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis patcher to change potion / poison weights",
@@ -82,7 +99,13 @@
     {
       "Patchers": [
         {
-          "Customization": null,
+          "Customization": {
+            "Nickname": "ENB Light Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Reduces the light intensity of your other mods so ENB Light doesn\u0027t make it too bright.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default"
+          },
           "ProjectPath": "ENBLightPatcher/ENBLightPatcher.csproj"
         }
       ],
@@ -284,7 +307,13 @@
     {
       "Patchers": [
         {
-          "Customization": null,
+          "Customization": {
+            "Nickname": "Experience Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Generates a csv file for the Experience mod so that the kill function works on all NPCs.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default"
+          },
           "ProjectPath": "ExperienceMutagenPatcher/ExperienceMutagenPatcher.csproj"
         }
       ],
@@ -295,7 +324,13 @@
     {
       "Patchers": [
         {
-          "Customization": null,
+          "Customization": {
+            "Nickname": "Know Your Armor Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches your mods to work with Know Your Armor.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default"
+          },
           "ProjectPath": "KnowYourArmorPatcher/KnowYourArmorPatcher.csproj"
         }
       ],
@@ -352,17 +387,6 @@
       "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
       "User": "jdsmith2816",
       "Repository": "tmopatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": null,
-          "ProjectPath": "WaterDoesDamage/WaterDoesDamage.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "WaterDoesDamagePatcher"
     },
     {
       "Patchers": [
