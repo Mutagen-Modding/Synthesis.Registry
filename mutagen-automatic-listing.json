@@ -358,7 +358,13 @@
     {
       "Patchers": [
         {
-          "Customization": null,
+          "Customization": {
+            "Nickname": "Know Your Enemy Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches your mods to work with Know Your Enemy.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default"
+          },
           "ProjectPath": "KnowYourEnemyMutagen/KnowYourEnemyMutagen.csproj"
         }
       ],
