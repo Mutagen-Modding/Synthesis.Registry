@@ -4,6 +4,23 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "UPFLoader - HeartSeeker",
+            "Visibility": "Visible",
+            "OneLineDescription": "Loader for HeartSeeker Skyrim UPF Patch",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default"
+          },
+          "ProjectPath": "UPFLoader - HeartSeeker/UPFLoader-HeartSeeker.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/73307040?s=40\u0026amp;v=4",
+      "User": "dakkydaz",
+      "Repository": "UPFLoader-HeartSeeker"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Water Does Damage Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Patches all the waters in your load order to have the \u0027Does Damage\u0027 flag applied - useful for needs mods.",
