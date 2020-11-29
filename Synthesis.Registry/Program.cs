@@ -56,6 +56,7 @@ namespace Synthesis.Registry
                     // Construct listings
                     var patchers = await ConstructListings(dep, gitHubClient, projs);
 
+                    PrintApiUsage(gitHubClient);
                     return new RepositoryListing()
                     {
                         AvatarURL = dep.AvatarURL,
@@ -63,7 +64,6 @@ namespace Synthesis.Registry
                         User = dep.User!,
                         Patchers = patchers.ToArray()
                     };
-                    PrintApiUsage(gitHubClient);
                 })))
                 .Where(r =>
                 {
