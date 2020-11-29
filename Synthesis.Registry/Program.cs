@@ -63,6 +63,7 @@ namespace Synthesis.Registry
                         User = dep.User!,
                         Patchers = patchers.ToArray()
                     };
+                    PrintApiUsage(gitHubClient);
                 })))
                 .Where(r =>
                 {
@@ -74,9 +75,7 @@ namespace Synthesis.Registry
                     return true;
                 })
                 .ToArray();
-            var limits = gitHubClient.GetLastApiInfo().RateLimit;
-            System.Console.WriteLine($"API usage remaining: {(100d * limits.Remaining / (limits.Limit == 0 ? -1 : limits.Limit))}% ({limits.Remaining}/{limits.Limit})");
-            System.Console.WriteLine($"Reset at {limits.Reset}");
+            PrintApiUsage(gitHubClient, printReset: true);
 
             // Write out final listing
             var exportPath = "mutagen-automatic-listing.json";
@@ -187,6 +186,16 @@ namespace Synthesis.Registry
                 .NotNull()
                 .Where(listing => listing.Customization?.Visibility != VisibilityOptions.Exclude)
                 .ToArray();
+        }
+
+        private static void PrintApiUsage(GitHubClient gitHubClient, bool printReset = false)
+        {
+            var limits = gitHubClient.GetLastApiInfo().RateLimit;
+            System.Console.WriteLine($"API usage remaining: {(100d * limits.Remaining / (limits.Limit == 0 ? -1 : limits.Limit))}% ({limits.Remaining}/{limits.Limit})");
+            if (printReset)
+            {
+                System.Console.WriteLine($"Reset at {limits.Reset}");
+            }
         }
     }
 }
