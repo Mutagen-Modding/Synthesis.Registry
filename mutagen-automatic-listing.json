@@ -256,7 +256,7 @@
             "Nickname": "CellEncounterLevelsInName",
             "Visibility": "Visible",
             "OneLineDescription": "Adds Encounter zone levels to cell names.",
-            "LongDescription": "",
+            "LongDescription": "Finds the Encounter Zone minimum and maximum levels and patches them into the cell names based on the template specified. Corresponding Map Markers will also be patched to reflect the changes (this can be toggled off if needed)\r\n\r\nConfiguration file (Data/config.json)\r\n\r\n- formulaRangedLeveled : Used when encounter zone max level \u003E min level.\r\n- formulaDeleveled : Used when min and max level of the encounter zone is the same.\r\n- formulaLeveled : Used when minimum level is more than max level. This usually happens when max level is unspecified (0)\r\n- patchMapMarkers : Indicate if Map Markers should be patched as well. (true/false)",
             "PreferredAutoVersioning": "Default"
           },
           "ProjectPath": "CellEncounterLevelsInName/CellEncounterLevelsInName.csproj"
