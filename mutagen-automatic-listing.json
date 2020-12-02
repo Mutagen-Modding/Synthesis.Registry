@@ -4,6 +4,23 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "NpcProtector",
+            "Visibility": "Visible",
+            "OneLineDescription": "Flags named NPCs as protected.",
+            "LongDescription": "This patcher is an alternative to the mod Protect Your People. Essentially it flags a ton of named NPCs as protected if they are not already flagged as essential or protected.",
+            "PreferredAutoVersioning": "Default"
+          },
+          "ProjectPath": "NpcProtector/NpcProtector.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars2.githubusercontent.com/u/45295422?s=40\u0026amp;u=d99fe3e490a6d55b2ef8f4d6b025a0bf6084b3a6\u0026amp;v=4",
+      "User": "alsa64",
+      "Repository": "NpcProtector"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SkyUIWeaponIconPatcher",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "SkyUI Weapons Pack Icon patcher",
@@ -16,6 +33,23 @@
       "AvatarURL": "https://avatars1.githubusercontent.com/u/6877595?s=40\u0026amp;u=aea00944b06657a3641c7a67acc5853ec38a8c53\u0026amp;v=4",
       "User": "Deigue",
       "Repository": "SkyUIWeaponIconPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "AIOverhaulPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Forwards AI Overhaul Edits",
+            "LongDescription": "- Forwards Packages from AIO, keeps packages added by later loaded mods that were not removed by USEEP or AIO. \r\n- Forwards observe and combat package lists from AIO. \r\n- Adds AIO added factions to the latest winning override set of factions. \r\n- Forwards the maximum Essential/Protected status present at AIO or later loaded plugins.\r\n- Forwards minimum confidence level present at AIO or later loaded plugins. Uses the latest loaded outfits that were not overwritten or removed by AIO or USEEP",
+            "PreferredAutoVersioning": "Default"
+          },
+          "ProjectPath": "AIOverhaulPatcher/AIOverhaulPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/6299495?s=40\u0026amp;v=4",
+      "User": "Excinerus",
+      "Repository": "AI-Overhaul-Patcher"
     },
     {
       "Patchers": [
