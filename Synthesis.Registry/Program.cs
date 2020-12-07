@@ -175,11 +175,16 @@ namespace Synthesis.Registry
                         }
                         catch (Exception ex)
                         {
-                            System.Console.WriteLine($"Error handling backwards compatibility: {ex}");
+                            System.Console.WriteLine($"{proj} Error handling backwards compatibility: {ex}");
                         }
                     }
                     catch (Octokit.NotFoundException)
                     {
+                    }
+                    catch (Exception ex)
+                    {
+                        System.Console.WriteLine($"{proj} Error constructing listing: {ex}");
+                        return null;
                     }
                     return listing;
                 })))
