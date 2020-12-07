@@ -4,6 +4,23 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SkyVRaan Weather Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "SkyVRaan Weather Patcher",
+            "LongDescription": "SkyVRaan is a mod for SkyrimVR that adds a cubemap to water in Skyrim, faking water reflections. This patcher creates a custom SkyVRaan cubemap patch for your load order. This replaces Cubemapenabler.esp and it\u0027s many patches!!!",
+            "PreferredAutoVersioning": "Default"
+          },
+          "ProjectPath": "SkyVRaanWeatherPatcher/SkyVRaanWeatherPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars0.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
+      "User": "Wolfman5750",
+      "Repository": "SkyVRaanWeatherPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "NpcProtector",
             "Visibility": "Visible",
             "OneLineDescription": "Flags named NPCs as protected.",
@@ -50,23 +67,6 @@
       "AvatarURL": "https://avatars3.githubusercontent.com/u/6299495?s=40\u0026amp;v=4",
       "User": "Excinerus",
       "Repository": "AI-Overhaul-Patcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SkyVRaan Weather Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "SkyVRaan Weather Patcher",
-            "LongDescription": "SkyVRaan is a mod for SkyrimVR that adds a cubemap to water in Skyrim, faking water reflections. This patcher creates a custom SkyVRaan cubemap patch for your load order. This replaces Cubemapenabler.esp and it\u0027s many patches!!!",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "SkyVRaanWeatherPatcher/SkyVRaanWeatherPatcher/SkyVRaanWeatherPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars0.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
-      "User": "Wolfman5750",
-      "Repository": "SkyVRaanWeatherPatcher"
     },
     {
       "Patchers": [
