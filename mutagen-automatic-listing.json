@@ -355,6 +355,23 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "ItemWeightCustomizer",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "Customize and configure item weights to your liking",
+            "LongDescription": "Allows to customize weights of different items by Record type and Custom categories.\r\n\r\nConfiguration File:\r\n\r\nThe patcher will use a \u0022config.json\u0022 file in order to determine what weights need to be set for different types of items/records.\r\n\r\n- weightSettings: Define custom weight values depending on record type. If set to -1 they will be ignored.\r\n    - books: Weight to be set for Books.\r\n    - ingredients: Weight to be set for Ingredients.\r\n    - scrolls: Weight to set for Scrolls.\r\n    - soulgems: Weight to set for Soul Gems.\r\n    - armors: Weight to set for Armours.\r\n    - weapons: Weight to set for Weapons.\r\n- categories: Custom user-defined categories that override the above record-based settings.\r\n    - name: Each category needs to have a unique name (can be anything to keep track of, will be printed in logs)\r\n    - types: All the record types (from above) this category will work against.\r\n    - editorIds: List of Editor Ids. Record MUST have at least one Editor Id to be part of this category.\r\n    - weight: The weight value that will be assigned for anything that matches this category.",
+            "PreferredAutoVersioning": "Default"
+          },
+          "ProjectPath": "ItemWeightCustomizer/ItemWeightCustomizer.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/6877595?s=40\u0026amp;u=aea00944b06657a3641c7a67acc5853ec38a8c53\u0026amp;v=4",
+      "User": "Deigue",
+      "Repository": "ItemWeightCustomizer"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "CellEditorIDFixer",
             "Visibility": "Visible",
             "OneLineDescription": "Removes underscores from cell EDIDs",
