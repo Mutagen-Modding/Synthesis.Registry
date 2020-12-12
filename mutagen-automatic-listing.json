@@ -4,6 +4,23 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "AmmoTweaks",
+            "Visibility": "Visible",
+            "OneLineDescription": "Configurable patcher intended as a WACCF-friendly alternative to ABT",
+            "LongDescription": "Will rescale ammo damage between a configurable minimum and maximum while removing ammo weight.\r\nCan optionally rename ammo for better sorting and adjust recoverable ammo found on bodies.\r\n\r\nConfiguration file (Data/config.json)\r\n\r\n- rescaling: Enables new damage scaling. Set to false to disable.\r\n- minDamage: Allowed minimum damage.\r\n- maxDamage: Allowed maximum damage.\r\n- lootMult: Modifies amount of ammo found on bodies. Values below 1 will reduce found ammo while values above 1 will increase it. Set to 1 to disable.\r\n- renaming: Used to rename ammunition using the following scheme: \u0022Iron Arrow\u0022 -\u003E \u0022Arrow - Iron\u0022. Set to true to enable.\r\n- separator: Separator used if renaming is enabled. For example \u0022 - \u0022 and  \u0022: \u0022",
+            "PreferredAutoVersioning": "Default"
+          },
+          "ProjectPath": "AmmoTweaks/AmmoTweaks.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars2.githubusercontent.com/u/52758909?s=40\u0026amp;u=4f97ed9e8ce41cb97b938ed1a300eafcf11922fd\u0026amp;v=4",
+      "User": "cuyima",
+      "Repository": "AmmoTweaks"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SkyVRaan Weather Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "SkyVRaan Weather Patcher",
