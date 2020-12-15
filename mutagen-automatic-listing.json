@@ -38,6 +38,23 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SFCOPaintingRemover",
+            "Visibility": "Visible",
+            "OneLineDescription": "Remove all paintings from Snazzy\u0027s Furniture and Clutter Overhaul",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default"
+          },
+          "ProjectPath": "SFCOPaintingRemover/SFCOPaintingRemover.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "SFCOPaintingRemover"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "NpcProtector",
             "Visibility": "Visible",
             "OneLineDescription": "Flags named NPCs as protected.",
