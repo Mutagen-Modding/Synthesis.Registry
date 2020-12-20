@@ -495,23 +495,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Nog\u0027s Test Patcher",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "Testing123",
-            "LongDescription": "Just testing some things.",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "TestPatcher/TestPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars1.githubusercontent.com/u/24981326?s=40\u0026amp;u=ed9e2259532d043a1782ab64eefdc0f18fc8c6bb\u0026amp;v=4",
-      "User": "Noggog",
-      "Repository": "TestPatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "Know Your Enemy Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Patches your mods to work with Know Your Enemy.",
