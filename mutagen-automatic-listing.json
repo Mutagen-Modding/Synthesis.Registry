@@ -422,6 +422,10 @@
     {
       "Patchers": [
         {
+          "Customization": null,
+          "ProjectPath": "Freeform/Freeform.csproj"
+        },
+        {
           "Customization": {
             "Nickname": "Synthesis",
             "Visibility": "IncludeButHide",
@@ -430,10 +434,6 @@
             "PreferredAutoVersioning": "Default"
           },
           "ProjectPath": "Synthesis/Synthesis.csproj"
-        },
-        {
-          "Customization": null,
-          "ProjectPath": "Freeform/Freeform.csproj"
         }
       ],
       "AvatarURL": "https://avatars1.githubusercontent.com/u/24981326?s=40\u0026amp;u=ed9e2259532d043a1782ab64eefdc0f18fc8c6bb\u0026amp;v=4",
