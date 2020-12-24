@@ -136,7 +136,9 @@ namespace Synthesis.Registry
                 throw new ArgumentException($"Failed to retrieve patcher listings for {dep}");
             }
 
-            return projs.Items.Select(i => i.Path);
+            return projs.Items
+                .OrderBy(i => i.Name)
+                .Select(i => i.Path);
         }
 
         private static async Task<IEnumerable<PatcherListing>> ConstructListings(Dependent dep, GitHubClient gitHubClient, IEnumerable<string> projs)
