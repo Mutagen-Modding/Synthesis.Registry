@@ -4,6 +4,23 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynInvisibleHelmets",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patcher to make all helmets modded and vanilla invisible",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default"
+          },
+          "ProjectPath": "SynInvisibleHelmets/SynPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynInvisibleHelmets"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynBundler",
             "Visibility": "Visible",
             "OneLineDescription": "Generates Bundled arrows / bolt(s) for load order, and selling",
