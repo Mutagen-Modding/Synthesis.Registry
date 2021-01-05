@@ -4,147 +4,12 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SynEnchantmentRestrictionRemover",
-            "Visibility": "Visible",
-            "OneLineDescription": "Synthesis based enchantment restriction remover",
-            "LongDescription": "Enables all enchantments to be applied to nearly everything",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "SynEnchRestrictionsRemover/SynPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
-      "User": "minis-patchers",
-      "Repository": "SynNoEnchantmentRestrictions"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SynInvisibleHelmets",
-            "Visibility": "Visible",
-            "OneLineDescription": "Patcher to make all helmets modded and vanilla invisible",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "SynInvisibleHelmets/SynPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
-      "User": "minis-patchers",
-      "Repository": "SynInvisibleHelmets"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SynBundler",
-            "Visibility": "Visible",
-            "OneLineDescription": "Generates Bundled arrows / bolt(s) for load order, and selling",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "SynBundler/SynPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
-      "User": "minis-patchers",
-      "Repository": "SynBundler"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "AmmoTweaks",
-            "Visibility": "Visible",
-            "OneLineDescription": "Configurable patcher intended as a WACCF-friendly alternative to ABT",
-            "LongDescription": "Will rescale ammo damage between a configurable minimum and maximum while removing ammo weight as well as adjusting projectile speed and gravity. Can optionally rename ammo for better sorting and adjust recoverable ammo found on bodies.\r\n\r\nSettings\r\nConfiguration file (Data/config.json)\r\n\r\nrescaling: Enables new damage scaling. Set to false to disable.\r\nminDamage: Allowed minimum damage.\r\nmaxDamage: Allowed maximum damage.\r\nlootMult: Modifies amount of ammo found on bodies. Values below 1 will reduce found ammo while values above 1 will increase it. Set to 1 to disable.\r\nrenaming: Used to rename ammunition using the following scheme: \u0022Iron Arrow\u0022 -\u003E \u0022Arrow - Iron\u0022. Set to true to enable.\r\nseparator: Separator used if renaming is enabled. For example \u0022 - \u0022 and \u0022: \u0022\r\nspeedchanges: Enables projectile speed and gravity tweaks. Set to false to disable.\r\nspeedarrow: new arrow speed.\r\nspeedbolt: new bolt speed.\r\ngravity: new gravity value for both arrows and bolts.",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "AmmoTweaks/AmmoTweaks.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars2.githubusercontent.com/u/52758909?s=40\u0026amp;u=4f97ed9e8ce41cb97b938ed1a300eafcf11922fd\u0026amp;v=4",
-      "User": "cuyima",
-      "Repository": "AmmoTweaks"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SkyVRaan Weather Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "SkyVRaan Weather Patcher",
-            "LongDescription": "SkyVRaan is a mod for SkyrimVR that adds a cubemap to water in Skyrim, faking water reflections. This patcher creates a custom SkyVRaan cubemap patch for your load order. This replaces Cubemapenabler.esp and it\u0027s many patches!!!",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "SkyVRaanWeatherPatcher/SkyVRaanWeatherPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars0.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
-      "User": "Wolfman5750",
-      "Repository": "SkyVRaanWeatherPatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SFCOPaintingRemover",
-            "Visibility": "Visible",
-            "OneLineDescription": "Remove all paintings from Snazzy\u0027s Furniture and Clutter Overhaul",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "SFCOPaintingRemover/SFCOPaintingRemover.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "SFCOPaintingRemover"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "NpcProtector",
-            "Visibility": "Visible",
-            "OneLineDescription": "Flags named NPCs as protected.",
-            "LongDescription": "This patcher is an alternative to the mod Protect Your People. Essentially it flags a ton of named NPCs as protected if they are not already flagged as essential or protected.",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "NpcProtector/NpcProtector.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars2.githubusercontent.com/u/45295422?s=40\u0026amp;u=d99fe3e490a6d55b2ef8f4d6b025a0bf6084b3a6\u0026amp;v=4",
-      "User": "alsa64",
-      "Repository": "NpcProtector"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SkyUIWeaponIconPatcher",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "SkyUI Weapons Pack Icon patcher",
-            "LongDescription": "Based off miniz SkyWeaponKeywords, adjusted to patch for SkyUI Weapon Pack icon keywords",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "SynWeaponKeywords/SynWeapType.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars1.githubusercontent.com/u/6877595?s=40\u0026amp;u=aea00944b06657a3641c7a67acc5853ec38a8c53\u0026amp;v=4",
-      "User": "Deigue",
-      "Repository": "SkyUIWeaponIconPatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "AIOverhaulPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Forwards AI Overhaul Edits",
             "LongDescription": "- Forwards Packages from AIO, keeps packages added by later loaded mods that were not removed by USEEP or AIO. \r\n- Forwards observe and combat package lists from AIO. \r\n- Adds AIO added factions to the latest winning override set of factions. \r\n- Forwards the maximum Essential/Protected status present at AIO or later loaded plugins.\r\n- Forwards minimum confidence level present at AIO or later loaded plugins. Uses the latest loaded outfits that were not overwritten or removed by AIO or USEEP",
-            "PreferredAutoVersioning": "Default"
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
           },
           "ProjectPath": "AIOverhaulPatcher/AIOverhaulPatcher.csproj"
         }
@@ -157,103 +22,120 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "UPFLoader - ActionSpeed",
+            "Nickname": "AmmoTweaks",
             "Visibility": "Visible",
-            "OneLineDescription": "Loader for ActionSpeed Skyrim UPF Patch",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
+            "OneLineDescription": "Configurable patcher intended as a WACCF-friendly alternative to ABT",
+            "LongDescription": "Will rescale ammo damage between a configurable minimum and maximum while removing ammo weight as well as adjusting projectile speed and gravity. Can optionally rename ammo for better sorting and adjust recoverable ammo found on bodies.\r\n\r\nSettings\r\nConfiguration file (Data/config.json)\r\n\r\nrescaling: Enables new damage scaling. Set to false to disable.\r\nminDamage: Allowed minimum damage.\r\nmaxDamage: Allowed maximum damage.\r\nlootMult: Modifies amount of ammo found on bodies. Values below 1 will reduce found ammo while values above 1 will increase it. Set to 1 to disable.\r\nrenaming: Used to rename ammunition using the following scheme: \u0022Iron Arrow\u0022 -\u003E \u0022Arrow - Iron\u0022. Set to true to enable.\r\nseparator: Separator used if renaming is enabled. For example \u0022 - \u0022 and \u0022: \u0022\r\nspeedchanges: Enables projectile speed and gravity tweaks. Set to false to disable.\r\nspeedarrow: new arrow speed.\r\nspeedbolt: new bolt speed.\r\ngravity: new gravity value for both arrows and bolts.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
           },
-          "ProjectPath": "UPFLoader-ActionSpeed/UPFLoader-ActionSpeed.csproj"
+          "ProjectPath": "AmmoTweaks/AmmoTweaks.csproj"
         }
       ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/73307040?s=40\u0026amp;v=4",
-      "User": "dakkydaz",
-      "Repository": "UPFLoader-ActionSpeed"
+      "AvatarURL": "https://avatars2.githubusercontent.com/u/52758909?s=40\u0026amp;u=4f97ed9e8ce41cb97b938ed1a300eafcf11922fd\u0026amp;v=4",
+      "User": "cuyima",
+      "Repository": "AmmoTweaks"
     },
     {
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "UPFLoader - HeartSeeker",
+            "Nickname": "CellEditorIDFixer",
             "Visibility": "Visible",
-            "OneLineDescription": "Loader for HeartSeeker Skyrim UPF Patch",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
+            "OneLineDescription": "Removes underscores from cell EDIDs",
+            "LongDescription": "Finds all Cells in Interiors and Exterior worldspaces having underscores, and fixes the Editor Ids by removing underscores.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
           },
-          "ProjectPath": "UPFLoader - HeartSeeker/UPFLoader-HeartSeeker.csproj"
+          "ProjectPath": "CellEditorIDFixer/CellEditorIDFixer.csproj"
         }
       ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/73307040?s=40\u0026amp;v=4",
-      "User": "dakkydaz",
-      "Repository": "UPFLoader-HeartSeeker"
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/6877595?s=40\u0026amp;u=aea00944b06657a3641c7a67acc5853ec38a8c53\u0026amp;v=4",
+      "User": "Deigue",
+      "Repository": "CellEditorIDFixer"
     },
     {
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Water Does Damage Patcher",
+            "Nickname": "CellEncounterLevelsInName",
             "Visibility": "Visible",
-            "OneLineDescription": "Patches all the waters in your load order to have the \u0027Does Damage\u0027 flag applied - useful for needs mods.",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
+            "OneLineDescription": "Adds Encounter zone levels to cell names.",
+            "LongDescription": "Finds the Encounter Zone minimum and maximum levels and patches them into the cell names based on the template specified. Corresponding Map Markers will also be patched to reflect the changes (this can be toggled off if needed)\r\n\r\nConfiguration file (Data/config.json)\r\n\r\n- formulaRangedLeveled : Used when encounter zone max level \u003E min level.\r\n- formulaDeleveled : Used when min and max level of the encounter zone is the same.\r\n- formulaLeveled : Used when minimum level is more than max level. This usually happens when max level is unspecified (0)\r\n- patchMapMarkers : Indicate if Map Markers should be patched as well. (true/false)",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
           },
-          "ProjectPath": "WaterDoesDamage/WaterDoesDamage.csproj"
+          "ProjectPath": "CellEncounterLevelsInName/CellEncounterLevelsInName.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/6877595?s=40\u0026amp;u=aea00944b06657a3641c7a67acc5853ec38a8c53\u0026amp;v=4",
+      "User": "Deigue",
+      "Repository": "CellEncounterLevelsInName"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "ENB Light Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Reduces the light intensity of your other mods so ENB Light doesn\u0027t make it too bright.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "ENBLightPatcher/ENBLightPatcher.csproj"
         }
       ],
       "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
       "User": "tr4wzified",
-      "Repository": "WaterDoesDamagePatcher"
+      "Repository": "enblightpatcher"
     },
     {
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SynPotionWeight",
+            "Nickname": "EnemyReleveler",
             "Visibility": "Visible",
-            "OneLineDescription": "Synthesis patcher to change potion / poison weights",
+            "OneLineDescription": "A Mutagen patcher that lets you configure the levels of NPCs according to their type for a truly deleveled Skyrim",
             "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
           },
-          "ProjectPath": "SynPotionWeight/SynPatcher.csproj"
+          "ProjectPath": "EnemyReleveler/EnemyReleveler.csproj"
         }
       ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
-      "User": "minis-patchers",
-      "Repository": "SynPotionWeight"
+      "AvatarURL": "https://avatars2.githubusercontent.com/u/52758909?s=40\u0026amp;u=4f97ed9e8ce41cb97b938ed1a300eafcf11922fd\u0026amp;v=4",
+      "User": "cuyima",
+      "Repository": "EnemyReleveler"
     },
     {
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SynCGOStaves",
+            "Nickname": "Experience Patcher",
             "Visibility": "Visible",
-            "OneLineDescription": "Synthesis version of cuyima\u0027s zedit patcher for CGO staves",
+            "OneLineDescription": "Generates a csv file for the Experience mod so that the kill function works on all NPCs.",
             "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
           },
-          "ProjectPath": "SynCGOStaves/SynPatcher.csproj"
+          "ProjectPath": "ExperienceMutagenPatcher/ExperienceMutagenPatcher.csproj"
         }
       ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
-      "User": "minis-patchers",
-      "Repository": "SynCGOStavesPatcher"
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "ExperienceMutagenPatcher"
     },
     {
       "Patchers": [
         {
-          "Customization": {
-            "Nickname": "SynLoadScreenRemover",
-            "Visibility": "Visible",
-            "OneLineDescription": "Removes the 3d objects from loadscreens",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "SynLoadScreenRemover/SynPatcher.csproj"
+          "Customization": null,
+          "ProjectPath": "FaceFixer/FaceFixer.csproj"
         }
       ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
-      "User": "minis-patchers",
-      "Repository": "SynLoadscreenRemover"
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
+      "User": "jdsmith2816",
+      "Repository": "facefixer"
     },
     {
       "Patchers": [
@@ -263,7 +145,8 @@
             "Visibility": "Visible",
             "OneLineDescription": "",
             "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
           },
           "ProjectPath": "FoodRemover/FoodRemover.csproj"
         }
@@ -287,147 +170,12 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "ENB Light Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Reduces the light intensity of your other mods so ENB Light doesn\u0027t make it too bright.",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "ENBLightPatcher/ENBLightPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "enblightpatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "EnemyReleveler",
-            "Visibility": "Visible",
-            "OneLineDescription": "A Mutagen patcher that lets you configure the levels of NPCs according to their type for a truly deleveled Skyrim",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "EnemyReleveler/EnemyReleveler.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars2.githubusercontent.com/u/52758909?s=40\u0026amp;u=4f97ed9e8ce41cb97b938ed1a300eafcf11922fd\u0026amp;v=4",
-      "User": "cuyima",
-      "Repository": "EnemyReleveler"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SynWeaponKeywords",
-            "Visibility": "Visible",
-            "OneLineDescription": "Weapon type keyword patcher (similar to zEdit patcher)",
-            "LongDescription": "Supports both NWTA and animated armoury",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "SynWeaponKeywords/SynWeapType.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
-      "User": "minis-patchers",
-      "Repository": "SynWeaponKeywords"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SpellTomePriceFixPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "SpellTomePriceFixPatcher/SpellTomePriceFixPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "SpellTomePricePatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "FloraFixer",
-            "Visibility": "Visible",
-            "OneLineDescription": "Synthesis patcher to fix flora respawning (needs data from nexus)",
-            "LongDescription": "Nexus Data can be found here: https://www.nexusmods.com/skyrimspecialedition/mods/42057",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "FloraFixer/FloraFixer.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
-      "User": "minis-patchers",
-      "Repository": "SynFloraFix"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "CellEncounterLevelsInName",
-            "Visibility": "Visible",
-            "OneLineDescription": "Adds Encounter zone levels to cell names.",
-            "LongDescription": "Finds the Encounter Zone minimum and maximum levels and patches them into the cell names based on the template specified. Corresponding Map Markers will also be patched to reflect the changes (this can be toggled off if needed)\r\n\r\nConfiguration file (Data/config.json)\r\n\r\n- formulaRangedLeveled : Used when encounter zone max level \u003E min level.\r\n- formulaDeleveled : Used when min and max level of the encounter zone is the same.\r\n- formulaLeveled : Used when minimum level is more than max level. This usually happens when max level is unspecified (0)\r\n- patchMapMarkers : Indicate if Map Markers should be patched as well. (true/false)",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "CellEncounterLevelsInName/CellEncounterLevelsInName.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars1.githubusercontent.com/u/6877595?s=40\u0026amp;u=aea00944b06657a3641c7a67acc5853ec38a8c53\u0026amp;v=4",
-      "User": "Deigue",
-      "Repository": "CellEncounterLevelsInName"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "TUDMFootstepPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "TUDMFootstepPatcher/TUDMFootstepPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "TUDMFootstepPatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SkyVRaan Auto Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "SkyVRaan Auto Patcher",
-            "LongDescription": "SkyVRaan is a mod for SkyrimVR that adds a cubemap to water in Skyrim, faking water reflections. This patcher creates a custom SkyVRaan cubemap patch for your load order. This replaces Cubemapenabler.esp and it\u0027s many patches!!!",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "SkyVRaanAutoPatcher/SkyVRaanAutoPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars0.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
-      "User": "Wolfman5750",
-      "Repository": "SkyVRaanAutoPatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "ItemWeightCustomizer",
             "Visibility": "Visible",
             "OneLineDescription": "Customize and configure item weights",
             "LongDescription": "Allows to customize weights of different items by Record type and Custom categories.\r\n\r\nConfiguration File:\r\n\r\nThe patcher will use a \u0022config.json\u0022 file in order to determine what weights need to be set for different types of items/records.\r\n\r\n- weightSettings: Define custom weight values depending on record type. If set to -1 they will be ignored.\r\n    - books: Weight to be set for Books.\r\n    - ingredients: Weight to be set for Ingredients.\r\n    - scrolls: Weight to set for Scrolls.\r\n    - soulgems: Weight to set for Soul Gems.\r\n    - armors: Weight to set for Armours.\r\n    - weapons: Weight to set for Weapons.\r\n    - foods: Weight to set for Foods. (Having keyword VendorItemFood)\r\n    - potions: Weight to set for Potions.\r\n    - ingots: Weight to set for Ingot/Ores (Having keyword VendorItemOreIngot)\r\n    - gems: Weight to set for Gems (Having keyword VendorItemGem)\r\n    - animalParts: Weight to set for Animal Parts (Having keyword VendorItemAnimalPart)\r\n    - animalHides: Weight to set for Animal Hides (Having keyword VendorItemAnimalHide)\r\n    - clutter: Weight to set for Clutter items (Having keyword VendorItemClutter)\r\n    - miscItems: Weight to set for all other Miscellaneous Items.\r\n- categories: Custom user-defined categories that override the above record-based settings.\r\n    - name: Each category needs to have a unique name (can be anything to keep track of, will be printed in logs)\r\n    - types: All the record types (from above) this category will work against.\r\n    - editorIds: List of Editor Ids. Record MUST have at least one Editor Id to be part of this category.\r\n    - weight: The weight value that will be assigned for anything that matches this category.",
-            "PreferredAutoVersioning": "Default"
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
           },
           "ProjectPath": "ItemWeightCustomizer/ItemWeightCustomizer.csproj"
         }
@@ -439,74 +187,13 @@
     {
       "Patchers": [
         {
-          "Customization": {
-            "Nickname": "CellEditorIDFixer",
-            "Visibility": "Visible",
-            "OneLineDescription": "Removes underscores from cell EDIDs",
-            "LongDescription": "Finds all Cells in Interiors and Exterior worldspaces having underscores, and fixes the Editor Ids by removing underscores.",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "CellEditorIDFixer/CellEditorIDFixer.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars1.githubusercontent.com/u/6877595?s=40\u0026amp;u=aea00944b06657a3641c7a67acc5853ec38a8c53\u0026amp;v=4",
-      "User": "Deigue",
-      "Repository": "CellEditorIDFixer"
-    },
-    {
-      "Patchers": [
-        {
           "Customization": null,
-          "ProjectPath": "Freeform/Freeform.csproj"
-        },
-        {
-          "Customization": {
-            "Nickname": "Synthesis",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "A template project example",
-            "LongDescription": "A template project example not ment for end use, but just to give a good baseline to work from",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "Synthesis/Synthesis.csproj"
+          "ProjectPath": "KhajiitEarsShow/KhajiitEarsShow.csproj"
         }
       ],
-      "AvatarURL": "https://avatars1.githubusercontent.com/u/24981326?s=40\u0026amp;u=ed9e2259532d043a1782ab64eefdc0f18fc8c6bb\u0026amp;v=4",
-      "User": "Noggog",
-      "Repository": "MutagenBootcamp"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SilentMoonsEnchantmentPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": null,
-            "LongDescription": null,
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "SilentMoonsEnchantmentPatcher/SilentMoonsEnchantmentPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars2.githubusercontent.com/u/16577545?s=40\u0026amp;u=453f920e94f48b780eb6370826b40b6790cc5a4f\u0026amp;v=4",
-      "User": "erri120",
-      "Repository": "SilentMoonsEnchantmentPatcher.Net"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Experience Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Generates a csv file for the Experience mod so that the kill function works on all NPCs.",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "ExperienceMutagenPatcher/ExperienceMutagenPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "ExperienceMutagenPatcher"
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
+      "User": "jdsmith2816",
+      "Repository": "khajiitearsshow"
     },
     {
       "Patchers": [
@@ -516,7 +203,8 @@
             "Visibility": "Visible",
             "OneLineDescription": "Patches your mods to work with Know Your Armor.",
             "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
           },
           "ProjectPath": "KnowYourArmorPatcher/KnowYourArmorPatcher.csproj"
         }
@@ -533,7 +221,8 @@
             "Visibility": "Visible",
             "OneLineDescription": "Patches your mods to work with Know Your Enemy.",
             "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
           },
           "ProjectPath": "KnowYourEnemyMutagen/KnowYourEnemyMutagen.csproj"
         }
@@ -541,61 +230,6 @@
       "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
       "User": "tr4wzified",
       "Repository": "KnowYourEnemyPatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": null,
-          "ProjectPath": "MortalEnemies/MortalEnemies.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars2.githubusercontent.com/u/16577545?s=40\u0026amp;u=453f920e94f48b780eb6370826b40b6790cc5a4f\u0026amp;v=4",
-      "User": "erri120",
-      "Repository": "MortalEnemies-Patcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": null,
-          "ProjectPath": "TMOPatcher/TMOPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
-      "User": "jdsmith2816",
-      "Repository": "tmopatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": null,
-          "ProjectPath": "SpeedandReachFixes/SpeedandReachFixes.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
-      "User": "jdsmith2816",
-      "Repository": "speedandreachfixes"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": null,
-          "ProjectPath": "ListUnroller/ListUnroller.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
-      "User": "jdsmith2816",
-      "Repository": "listunroller"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": null,
-          "ProjectPath": "FaceFixer/FaceFixer.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
-      "User": "jdsmith2816",
-      "Repository": "facefixer"
     },
     {
       "Patchers": [
@@ -612,23 +246,45 @@
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "OppositeAnimationDisabler/OppositeAnimationDisabler.csproj"
+          "ProjectPath": "ListUnroller/ListUnroller.csproj"
         }
       ],
       "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
       "User": "jdsmith2816",
-      "Repository": "oppositeanimationdisabler"
+      "Repository": "listunroller"
     },
     {
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "NPCEnchantFix/NPCEnchantFix.csproj"
+          "ProjectPath": "MortalEnemies/MortalEnemies.csproj"
         }
       ],
-      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
-      "User": "jdsmith2816",
-      "Repository": "npcenchantfix"
+      "AvatarURL": "https://avatars2.githubusercontent.com/u/16577545?s=40\u0026amp;u=453f920e94f48b780eb6370826b40b6790cc5a4f\u0026amp;v=4",
+      "User": "erri120",
+      "Repository": "MortalEnemies-Patcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "Freeform/Freeform.csproj"
+        },
+        {
+          "Customization": {
+            "Nickname": "Synthesis",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "A template project example",
+            "LongDescription": "A template project example not ment for end use, but just to give a good baseline to work from",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "Synthesis/Synthesis.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/24981326?s=40\u0026amp;u=ed9e2259532d043a1782ab64eefdc0f18fc8c6bb\u0026amp;v=4",
+      "User": "Noggog",
+      "Repository": "MutagenBootcamp"
     },
     {
       "Patchers": [
@@ -644,12 +300,154 @@
     {
       "Patchers": [
         {
+          "Customization": null,
+          "ProjectPath": "NPCEnchantFix/NPCEnchantFix.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
+      "User": "jdsmith2816",
+      "Repository": "npcenchantfix"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "NpcProtector",
+            "Visibility": "Visible",
+            "OneLineDescription": "Flags named NPCs as protected.",
+            "LongDescription": "This patcher is an alternative to the mod Protect Your People. Essentially it flags a ton of named NPCs as protected if they are not already flagged as essential or protected.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "NpcProtector/NpcProtector.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars2.githubusercontent.com/u/45295422?s=40\u0026amp;u=d99fe3e490a6d55b2ef8f4d6b025a0bf6084b3a6\u0026amp;v=4",
+      "User": "alsa64",
+      "Repository": "NpcProtector"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "OppositeAnimationDisabler/OppositeAnimationDisabler.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
+      "User": "jdsmith2816",
+      "Repository": "oppositeanimationdisabler"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SFCOPaintingRemover",
+            "Visibility": "Visible",
+            "OneLineDescription": "Remove all paintings from Snazzy\u0027s Furniture and Clutter Overhaul",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SFCOPaintingRemover/SFCOPaintingRemover.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "SFCOPaintingRemover"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SilentMoonsEnchantmentPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": null,
+            "LongDescription": null,
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SilentMoonsEnchantmentPatcher/SilentMoonsEnchantmentPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars2.githubusercontent.com/u/16577545?s=40\u0026amp;u=453f920e94f48b780eb6370826b40b6790cc5a4f\u0026amp;v=4",
+      "User": "erri120",
+      "Repository": "SilentMoonsEnchantmentPatcher.Net"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SkyUIWeaponIconPatcher",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "SkyUI Weapons Pack Icon patcher",
+            "LongDescription": "Based off miniz SkyWeaponKeywords, adjusted to patch for SkyUI Weapon Pack icon keywords",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SynWeaponKeywords/SynWeapType.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/6877595?s=40\u0026amp;u=aea00944b06657a3641c7a67acc5853ec38a8c53\u0026amp;v=4",
+      "User": "Deigue",
+      "Repository": "SkyUIWeaponIconPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SkyVRaan Auto Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "SkyVRaan Auto Patcher",
+            "LongDescription": "SkyVRaan is a mod for SkyrimVR that adds a cubemap to water in Skyrim, faking water reflections. This patcher creates a custom SkyVRaan cubemap patch for your load order. This replaces Cubemapenabler.esp and it\u0027s many patches!!!",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SkyVRaanAutoPatcher/SkyVRaanAutoPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars0.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
+      "User": "Wolfman5750",
+      "Repository": "SkyVRaanAutoPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SkyVRaan Weather Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "SkyVRaan Weather Patcher",
+            "LongDescription": "SkyVRaan is a mod for SkyrimVR that adds a cubemap to water in Skyrim, faking water reflections. This patcher creates a custom SkyVRaan cubemap patch for your load order. This replaces Cubemapenabler.esp and it\u0027s many patches!!!",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SkyVRaanWeatherPatcher/SkyVRaanWeatherPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars0.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
+      "User": "Wolfman5750",
+      "Repository": "SkyVRaanWeatherPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "SpeedandReachFixes/SpeedandReachFixes.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
+      "User": "jdsmith2816",
+      "Repository": "speedandreachfixes"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "SpellAbsorbFix",
             "Visibility": "Visible",
             "OneLineDescription": "",
             "LongDescription": "",
-            "PreferredAutoVersioning": "Default"
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
           },
           "ProjectPath": "SpellAbsorbFix/SpellAbsorbFix.csproj"
         }
@@ -661,13 +459,247 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "SpellTomePriceFixPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SpellTomePriceFixPatcher/SpellTomePriceFixPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "SpellTomePricePatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynBundler",
+            "Visibility": "Visible",
+            "OneLineDescription": "Generates Bundled arrows / bolt(s) for load order, and selling",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SynBundler/SynPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynBundler"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynCGOStaves",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis version of cuyima\u0027s zedit patcher for CGO staves",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SynCGOStaves/SynPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynCGOStavesPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "FloraFixer",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis patcher to fix flora respawning (needs data from nexus)",
+            "LongDescription": "Nexus Data can be found here: https://www.nexusmods.com/skyrimspecialedition/mods/42057",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "FloraFixer/FloraFixer.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynFloraFix"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynInvisibleHelmets",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patcher to make all helmets modded and vanilla invisible",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SynInvisibleHelmets/SynPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynInvisibleHelmets"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynLoadScreenRemover",
+            "Visibility": "Visible",
+            "OneLineDescription": "Removes the 3d objects from loadscreens",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SynLoadScreenRemover/SynPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynLoadscreenRemover"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynEnchantmentRestrictionRemover",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis based enchantment restriction remover",
+            "LongDescription": "Enables all enchantments to be applied to nearly everything",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SynEnchRestrictionsRemover/SynPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynNoEnchantmentRestrictions"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynPotionWeight",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis patcher to change potion / poison weights",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SynPotionWeight/SynPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynPotionWeight"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynWeaponKeywords",
+            "Visibility": "Visible",
+            "OneLineDescription": "Weapon type keyword patcher (similar to zEdit patcher)",
+            "LongDescription": "Supports both NWTA and animated armoury",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SynWeaponKeywords/SynWeapType.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynWeaponKeywords"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
-          "ProjectPath": "KhajiitEarsShow/KhajiitEarsShow.csproj"
+          "ProjectPath": "TMOPatcher/TMOPatcher.csproj"
         }
       ],
       "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
       "User": "jdsmith2816",
-      "Repository": "khajiitearsshow"
+      "Repository": "tmopatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "TUDMFootstepPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "TUDMFootstepPatcher/TUDMFootstepPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "TUDMFootstepPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "UPFLoader - ActionSpeed",
+            "Visibility": "Visible",
+            "OneLineDescription": "Loader for ActionSpeed Skyrim UPF Patch",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "UPFLoader-ActionSpeed/UPFLoader-ActionSpeed.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/73307040?s=40\u0026amp;v=4",
+      "User": "dakkydaz",
+      "Repository": "UPFLoader-ActionSpeed"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "UPFLoader - HeartSeeker",
+            "Visibility": "Visible",
+            "OneLineDescription": "Loader for HeartSeeker Skyrim UPF Patch",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "UPFLoader - HeartSeeker/UPFLoader-HeartSeeker.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/73307040?s=40\u0026amp;v=4",
+      "User": "dakkydaz",
+      "Repository": "UPFLoader-HeartSeeker"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Water Does Damage Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches all the waters in your load order to have the \u0027Does Damage\u0027 flag applied - useful for needs mods.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "WaterDoesDamage/WaterDoesDamage.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/55751269?s=40\u0026amp;u=9779707d18a3706ad75d2312063e731edef76c05\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "WaterDoesDamagePatcher"
     }
   ]
 }
