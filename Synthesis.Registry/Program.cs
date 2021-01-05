@@ -74,6 +74,7 @@ namespace Synthesis.Registry
                     }
                     return true;
                 })
+                .OrderBy(x => x.Repository)
                 .ToArray();
             PrintApiUsage(gitHubClient, printReset: true);
 
