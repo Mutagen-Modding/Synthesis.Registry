@@ -4,6 +4,23 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynEnchantmentRestrictionRemover",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis based enchantment restriction remover",
+            "LongDescription": "Enables all enchantments to be applied to nearly everything",
+            "PreferredAutoVersioning": "Default"
+          },
+          "ProjectPath": "SynEnchRestrictionsRemover/SynPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynNoEnchantmentRestrictions"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynInvisibleHelmets",
             "Visibility": "Visible",
             "OneLineDescription": "Patcher to make all helmets modded and vanilla invisible",
@@ -350,23 +367,6 @@
       "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynFloraFix"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SynEnchantmentRestrictionRemover",
-            "Visibility": "Visible",
-            "OneLineDescription": "Synthesis based enchantment restriction remover",
-            "LongDescription": "Enables all enchantments to be applied to nearly everything",
-            "PreferredAutoVersioning": "Default"
-          },
-          "ProjectPath": "enchrestrictionremover/enchrestrictionremover.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
-      "User": "minis-patchers",
-      "Repository": "SynNoEnchantmentRestrictions"
     },
     {
       "Patchers": [
