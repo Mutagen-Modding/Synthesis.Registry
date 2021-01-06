@@ -33,7 +33,7 @@ namespace Synthesis.Registry
             var loginToken = args[0];
             gitHubClient.Credentials = new Credentials(loginToken);
             HttpClient client = new HttpClient();
-            var repos = (await Task.WhenAll(list.Value
+            var repos = await list.Value
                 .Where(dep =>
                 {
                     if (string.IsNullOrWhiteSpace(dep.Repository))
@@ -48,7 +48,8 @@ namespace Synthesis.Registry
                     }
                     return true;
                 })
-                .Select(async dep =>
+                .ToAsyncEnumerable()
+                .SelectAwait(async dep =>
                 {
                     System.Console.WriteLine($"Processing {dep}");
                     var projs = await QueryForProjects(dep, gitHubClient);
@@ -57,6 +58,8 @@ namespace Synthesis.Registry
                     var patchers = await ConstructListings(dep, gitHubClient, projs);
 
                     PrintApiUsage(gitHubClient);
+
+                    await Task.Delay(500);
                     return new RepositoryListing()
                     {
                         AvatarURL = dep.AvatarURL,
@@ -64,7 +67,7 @@ namespace Synthesis.Registry
                         User = dep.User!,
                         Patchers = patchers.ToArray()
                     };
-                })))
+                })
                 .Where(r =>
                 {
                     if (r.Patchers.Length == 0)
@@ -75,7 +78,7 @@ namespace Synthesis.Registry
                     return true;
                 })
                 .OrderBy(x => x.Repository)
-                .ToArray();
+                .ToArrayAsync();
             PrintApiUsage(gitHubClient, printReset: true);
 
             // Write out final listing
@@ -144,8 +147,9 @@ namespace Synthesis.Registry
 
         private static async Task<IEnumerable<PatcherListing>> ConstructListings(Dependent dep, GitHubClient gitHubClient, IEnumerable<string> projs)
         {
-            return (await Task.WhenAll(projs
-                .Select(async proj =>
+            return (await projs
+                .ToAsyncEnumerable()
+                .SelectAwait(async proj =>
                 {
                     var listing = new PatcherListing()
                     {
@@ -189,8 +193,10 @@ namespace Synthesis.Registry
                         System.Console.WriteLine($"{proj} Error constructing listing: {ex}");
                         return null;
                     }
+                    await Task.Delay(500);
                     return listing;
-                })))
+                })
+                .ToListAsync())
                 .NotNull()
                 .Where(listing => listing.Customization?.Visibility != VisibilityOptions.Exclude)
                 .ToArray();
