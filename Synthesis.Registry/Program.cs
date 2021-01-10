@@ -56,8 +56,7 @@ namespace Synthesis.Registry
 
                     // Construct listings
                     var patchers = await ConstructListings(dep, gitHubClient, projs);
-
-                    PrintApiUsage(gitHubClient);
+                    System.Console.WriteLine($"Processed {dep}");
 
                     await Task.Delay(500);
                     return new RepositoryListing()
@@ -121,11 +120,13 @@ namespace Synthesis.Registry
             {
                 try
                 {
+                    System.Console.WriteLine($"{dep} searching for project files");
                     projs = await gitHubClient.Search.SearchCode(new SearchCodeRequest()
                     {
                         Extensions = new string[] { "csproj" },
                         Repos = repoColl
                     });
+                    PrintApiUsage(gitHubClient);
                     if (!projs.IncompleteResults) break;
                     System.Console.WriteLine($"{dep} failed to retrieve patcher listings.  Trying again");
                 }
@@ -137,9 +138,10 @@ namespace Synthesis.Registry
 
             if (projs?.IncompleteResults ?? true)
             {
-                throw new ArgumentException($"Failed to retrieve patcher listings for {dep}");
+                throw new ArgumentException($"{dep} failed to retrieve patcher listings");
             }
 
+            System.Console.WriteLine($"{dep} retrieved project files");
             return projs.Items
                 .OrderBy(i => i.Name)
                 .Select(i => i.Path);
@@ -158,8 +160,11 @@ namespace Synthesis.Registry
                     try
                     {
                         var metaPath = Path.Combine(Path.GetDirectoryName(proj)!, Constants.MetaFileName);
+                        System.Console.WriteLine($"{dep} retriving meta path");
                         var content = await gitHubClient.Repository.Content.GetAllContents(dep.User, dep.Repository, metaPath);
+                        PrintApiUsage(gitHubClient);
                         if (content.Count != 1) return null;
+                        System.Console.WriteLine($"{dep} retrived meta path");
                         var customization = JsonSerializer.Deserialize<PatcherCustomization>(content[0].Content, Options)!;
                         if (string.IsNullOrWhiteSpace(customization.Nickname))
                         {
