@@ -126,7 +126,7 @@ namespace Synthesis.Registry
                         Extensions = new string[] { "csproj" },
                         Repos = repoColl
                     });
-                    PrintApiUsage(gitHubClient);
+                    await PrintAndWaitForReset(gitHubClient);
                     if (!projs.IncompleteResults) break;
                     System.Console.WriteLine($"{dep} failed to retrieve patcher listings.  Trying again");
                 }
@@ -207,13 +207,29 @@ namespace Synthesis.Registry
                 .ToArray();
         }
 
-        private static void PrintApiUsage(GitHubClient gitHubClient, bool printReset = false)
+        private static RateLimit PrintApiUsage(GitHubClient gitHubClient, bool printReset = false)
         {
             var limits = gitHubClient.GetLastApiInfo().RateLimit;
             System.Console.WriteLine($"API usage remaining: {(100d * limits.Remaining / (limits.Limit == 0 ? -1 : limits.Limit))}% ({limits.Remaining}/{limits.Limit})");
             if (printReset)
             {
                 System.Console.WriteLine($"Reset at {limits.Reset}");
+            }
+            return limits;
+        }
+
+        private static async Task PrintAndWaitForReset(GitHubClient gitHubClient, bool printReset = false)
+        {
+            var limits = PrintApiUsage(gitHubClient, printReset);
+            if (limits.Remaining == 0)
+            {
+                var millis = (int)(limits.Reset - DateTime.Now).TotalMilliseconds;
+                millis += 2000;
+                if (millis > 0)
+                {
+                    System.Console.WriteLine($"Waiting {millis}ms for API to reset");
+                    await Task.Delay(millis);
+                }
             }
         }
     }
