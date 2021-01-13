@@ -246,6 +246,17 @@
       "Patchers": [
         {
           "Customization": null,
+          "ProjectPath": "ListUnroller/ListUnroller.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "listunroller"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
           "ProjectPath": "MortalEnemies/MortalEnemies.csproj"
         }
       ],
@@ -279,6 +290,17 @@
       "Patchers": [
         {
           "Customization": null,
+          "ProjectPath": "NoDragonLODs/NoDragonLODs.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "nodragonlods"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
           "ProjectPath": "NPCEnchantFix/NPCEnchantFix.csproj"
         }
       ],
@@ -303,6 +325,17 @@
       "AvatarURL": "https://avatars2.githubusercontent.com/u/45295422?s=40\u0026amp;u=d99fe3e490a6d55b2ef8f4d6b025a0bf6084b3a6\u0026amp;v=4",
       "User": "alsa64",
       "Repository": "NpcProtector"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "OppositeAnimationDisabler/OppositeAnimationDisabler.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars1.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "oppositeanimationdisabler"
     },
     {
       "Patchers": [
