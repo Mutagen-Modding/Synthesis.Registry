@@ -95,7 +95,7 @@ namespace Synthesis.Registry
 
         private static async Task<GetResponse<List<Dependent>>> GetGithubDependencies()
         {
-            var list = await GitHubDependents.GitHubDependents.GetDependents("noggog", "synthesis", packageID: "UGFja2FnZS0xMzg1MjY1MjYz", pages: byte.MaxValue).ToListAsync();
+            var list = await GitHubDependents.GitHubDependents.GetDependents("mutagen-modding", "synthesis", packageID: "UGFja2FnZS0xMzg1MjY1MjYz", pages: byte.MaxValue).ToListAsync();
             if (list.Count == 0)
             {
                 System.Console.Error.WriteLine("No repositories retrieved!");
