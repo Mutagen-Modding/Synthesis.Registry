@@ -141,6 +141,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "FollowerFavorCarryLimitPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "FollowerFavorCarryLimitPatcher/FollowerFavorCarryLimitPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
+      "User": "Piranha91",
+      "Repository": "Follower-Favor-Carry-Limit-Patcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "FoodRemover",
             "Visibility": "Visible",
             "OneLineDescription": "",
@@ -653,8 +671,8 @@
           "Customization": {
             "Nickname": "UnderThere",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Gives and equips underwear to NPCs.",
+            "LongDescription": "User-configurable patcher that defines underwear items, distributes them to NPCs, and equips them under their clothes or armor.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
