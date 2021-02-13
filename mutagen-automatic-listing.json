@@ -359,6 +359,26 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "RaceCompatibilityDialogue",
+            "Visibility": "Visible",
+            "OneLineDescription": "Adds dialog conditions for custom races.",
+            "LongDescription": "Adds dialog conditions for custom races (supported by RaceCompatability.esm).\r\n\r\nBased on Race Compatibility Dialogue SSE",
+            "PreferredAutoVersioning": "LatestTag",
+            "RequiredMods": [
+              "RaceCompatibility.esm"
+            ]
+          },
+          "ProjectPath": "RaceCompatibilityDialogue/RaceCompatibilityDialogue.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
+      "User": "mrudat",
+      "Repository": "RaceCompatibilityDialogue"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SFCOPaintingRemover",
             "Visibility": "Visible",
             "OneLineDescription": "Remove all paintings from Snazzy\u0027s Furniture and Clutter Overhaul",
