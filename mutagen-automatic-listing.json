@@ -436,7 +436,7 @@
             "Nickname": "SkyVRaan Auto Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "SkyVRaan Auto Patcher",
-            "LongDescription": "SkyVRaan is a mod for SkyrimVR that adds a cubemap to water in Skyrim, faking water reflections. This patcher creates a custom SkyVRaan cubemap patch for your load order. This replaces Cubemapenabler.esp and it\u0027s many patches!!!",
+            "LongDescription": "SkyVRaan - Shimmering VR Water adds a fake reflection effect to Skyrim VR\u0027s outdoor water. It breaks up the distant LOD, shows wave movement on the distant water, and gives an illusion of water depth in the distance. Also has improved realism and clarity of near water. This patcher creates a custom SkyVRaan cubemap patch for your load order. This replaces Cubemapenabler.esp and it\u0027s many patches!!!",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
