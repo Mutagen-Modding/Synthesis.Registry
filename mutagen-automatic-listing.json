@@ -176,6 +176,26 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "GeneralStoresIngredientsPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Adds ingredients from recipes to General Stores list of items to automatically unburden",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "GeneralStores.esm"
+            ]
+          },
+          "ProjectPath": "GeneralStoresIngredientsPatcher/GeneralStoresIngredientsPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
+      "User": "mrudat",
+      "Repository": "GeneralStoresIngredientsPatcher"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj"
         }
