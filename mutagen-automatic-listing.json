@@ -305,6 +305,24 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "MusicTypePatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "A Patcher for merging additions to MusicType records.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "MusicTypePatcher/MusicTypePatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/65688322?s=40\u0026amp;v=4",
+      "User": "OddDrifter",
+      "Repository": "musictype-patcher"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "Freeform/Freeform.csproj"
         },
