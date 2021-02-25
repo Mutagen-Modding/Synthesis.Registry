@@ -290,7 +290,14 @@
     {
       "Patchers": [
         {
-          "Customization": null,
+          "Customization": {
+            "Nickname": "ListUnroller",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
           "ProjectPath": "ListUnroller/ListUnroller.csproj"
         }
       ],
@@ -700,7 +707,14 @@
     {
       "Patchers": [
         {
-          "Customization": null,
+          "Customization": {
+            "Nickname": "TMOPatcher",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
           "ProjectPath": "TMOPatcher/TMOPatcher.csproj"
         }
       ],
