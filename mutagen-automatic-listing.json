@@ -272,7 +272,14 @@
     {
       "Patchers": [
         {
-          "Customization": null,
+          "Customization": {
+            "Nickname": "ListMaker",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
           "ProjectPath": "ListMaker/ListMaker.csproj"
         }
       ],
@@ -322,10 +329,6 @@
     },
     {
       "Patchers": [
-        {
-          "Customization": null,
-          "ProjectPath": "Freeform/Freeform.csproj"
-        },
         {
           "Customization": {
             "Nickname": "Synthesis",
