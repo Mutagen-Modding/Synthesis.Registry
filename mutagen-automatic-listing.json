@@ -356,17 +356,6 @@
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "NoDragonLODs/NoDragonLODs.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "nodragonlods"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": null,
           "ProjectPath": "NPCEnchantFix/NPCEnchantFix.csproj"
         }
       ],
