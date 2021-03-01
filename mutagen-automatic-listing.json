@@ -76,6 +76,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "DisplaySpellTomeLevelPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Adds the Spell Tome level (Adept, Apprentice etc.) to the name of the Spell Tome",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "DisplaySpellTomeLevelPatcher/DisplaySpellTomeLevelPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;u=bc0460cc03d0242964dc76393266ecffe6d036f9\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "DisplaySpellTomeLevelPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ENB Light Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Reduces the light intensity of your other mods so ENB Light doesn\u0027t make it too bright.",
