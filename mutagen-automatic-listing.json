@@ -613,6 +613,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "ActionSpeedX",
+            "Visibility": "Visible",
+            "OneLineDescription": "Action Speed X patcher",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "ActionSpeedX/ActionSpeedX.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/7200909?s=40\u0026amp;u=d17e5e3ab5203e6b1abf4d178d4fb36d320a4ce6\u0026amp;v=4",
+      "User": "holaholacocacola",
+      "Repository": "SynActionSpeedX"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynBundler",
             "Visibility": "Visible",
             "OneLineDescription": "Generates Bundled arrows / bolt(s) for load order, and selling",
