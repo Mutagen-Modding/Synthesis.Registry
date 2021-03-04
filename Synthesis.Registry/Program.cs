@@ -23,17 +23,29 @@ namespace Synthesis.Registry
 
         static async Task Main(string[] args)
         {
-            var list = await GetGithubDependencies();
-            if (list.Failed) return;
-
             Options.Converters.Add(new JsonStringEnumConverter());
+
+            var resp = await GetGithubDependencies();
+            if (resp.Failed) return;
+            var list = resp.Value;
+
+            try
+            {
+                var manual = JsonSerializer.Deserialize<ManualListings>(File.ReadAllText("mutagen-manual-dependents.json"))!;
+                list.AddRange(manual.Listings);
+                list = list.Distinct(x => (x.User, x.Repository)).ToList();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error reading manual listing: {ex}");
+            }
 
             // Populate metadata about each repository
             var gitHubClient = new GitHubClient(new ProductHeaderValue("SynthesisScraper"));
             var loginToken = args[0];
             gitHubClient.Credentials = new Credentials(loginToken);
             HttpClient client = new HttpClient();
-            var repos = await list.Value
+            var repos = await list
                 .Where(dep =>
                 {
                     if (string.IsNullOrWhiteSpace(dep.Repository))

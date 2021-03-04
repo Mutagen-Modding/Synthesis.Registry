@@ -13,4 +13,10 @@
     <PackageReference Include="System.Linq.Async" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="mutagen-manual-dependents.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
