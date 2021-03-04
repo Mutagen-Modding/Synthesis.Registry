@@ -31,7 +31,7 @@ namespace Synthesis.Registry
 
             try
             {
-                var manual = JsonSerializer.Deserialize<ManualListings>(File.ReadAllText("mutagen-manual-dependents.json"))!;
+                var manual = JsonSerializer.Deserialize<ManualListings>(File.ReadAllText(Path.Combine("Synthesis.Registry", "mutagen-manual-dependents.json")))!;
                 list.AddRange(manual.Listings);
                 list = list.Distinct(x => (x.User, x.Repository)).ToList();
             }
