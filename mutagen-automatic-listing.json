@@ -516,6 +516,24 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "SkyVRaan Weather Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "SkyVRaan Weather Patcher",
+            "LongDescription": "SkyVRaan is a mod for SkyrimVR that adds a cubemap to water in Skyrim, faking water reflections. This patcher adjusts the Water Weather Multiplier for the weather mods you have installed to blend the water color in with the rest of the scene. This helps to create more natural looking water in all times of the day and weather.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SkyVRaanWeatherPatcher/SkyVRaanWeatherPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
+      "User": "Wolfman5750",
+      "Repository": "SkyVRaanWeatherPatcher"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "Halgari.SoulGemDisenchantment/Halgari.SoulGemDisenchantment.csproj"
         }
