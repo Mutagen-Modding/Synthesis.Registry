@@ -260,7 +260,9 @@
             "OneLineDescription": "Patches your mods to work with Know Your Armor.",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [
+              "know_your_enemy.esp"
+            ]
           },
           "ProjectPath": "KnowYourArmorPatcher/KnowYourArmorPatcher.csproj"
         }
@@ -278,7 +280,9 @@
             "OneLineDescription": "Patches your mods to work with Know Your Enemy.",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [
+              "know_your_enemy.esp"
+            ]
           },
           "ProjectPath": "KnowYourEnemyMutagen/KnowYourEnemyMutagen.csproj"
         }
@@ -450,7 +454,9 @@
             "OneLineDescription": "Remove all paintings from Snazzy\u0027s Furniture and Clutter Overhaul",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [
+              "Snazzy Furniture and Clutter Overhaul.esp"
+            ]
           },
           "ProjectPath": "SFCOPaintingRemover/SFCOPaintingRemover.csproj"
         }
