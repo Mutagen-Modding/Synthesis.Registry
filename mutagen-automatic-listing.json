@@ -181,8 +181,8 @@
           "Customization": {
             "Nickname": "FollowerFavorCarryLimitPatcher",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Applies Follower Favor Carry Limit from Andrealphus\u0027 Gameplay Tweaks to all potential followers.",
+            "LongDescription": "Requires the script from Gameplay Tweaks to be installed, but not the plugin.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
