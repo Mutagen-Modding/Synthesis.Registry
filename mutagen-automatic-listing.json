@@ -199,8 +199,8 @@
           "Customization": {
             "Nickname": "FoodRemover",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Removes food items from cells based on cell locations and config file settings",
+            "LongDescription": "This will patch your game to randomly remove excess food stuff lying around (supposedly) deserted locations. The patch will locate every food item in a cell and then randomly decide if it should be removed or left in place. The chance that it will be removed is configurable through config files. By default the less a location is populated, the higher the chance food will be removed, so drauger dungeons will have a very high chance of food removal, while farmhouses will have a very low chance.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
