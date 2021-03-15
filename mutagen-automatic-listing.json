@@ -45,7 +45,9 @@
             "OneLineDescription": "Better Dynamic Snow v2.x Synthesis Patcher for Skyrim SE",
             "LongDescription": "Not compatible with BDS v3. Replacer for the SSEEdit Script used to patch BDS MATO into STAT objects not covered by BDS v2 and patches.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [
+              "Better Dynamic Snow.esp"
+            ]
           },
           "ProjectPath": "BDSPatcher/BDSPatcher.csproj"
         }
