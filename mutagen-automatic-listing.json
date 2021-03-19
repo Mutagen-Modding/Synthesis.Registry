@@ -508,6 +508,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Requiem-Experience",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patcher for Experience mod, most suitable for Requiem",
+            "LongDescription": "Patcher for Experience mod, desgined for Requiem. Generates Quest patch with quest type adjustments; generates races csv basing on load order and set of rules, if necessary creates unique duplicated races for unique NPCs",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "Requiem-Experience/Requiem-Experience.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/28060609?s=40\u0026amp;u=ec5f7dfba3290540b45640c7ba999e3ac75230b8\u0026amp;v=4",
+      "User": "azraerl",
+      "Repository": "Requiem-Experience"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SFCOPaintingRemover",
             "Visibility": "Visible",
             "OneLineDescription": "Remove all paintings from Snazzy\u0027s Furniture and Clutter Overhaul",
