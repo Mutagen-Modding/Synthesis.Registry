@@ -215,7 +215,7 @@ namespace Synthesis.Registry
                 })
                 .ToListAsync())
                 .NotNull()
-                .Where(listing => listing.Customization?.Visibility != VisibilityOptions.Exclude)
+                .Where(listing => listing.Customization != null && listing.Customization.Visibility != VisibilityOptions.Exclude)
                 .ToArray();
         }
 
