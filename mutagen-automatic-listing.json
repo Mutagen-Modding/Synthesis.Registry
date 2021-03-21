@@ -205,6 +205,17 @@
     {
       "Patchers": [
         {
+          "Customization": null,
+          "ProjectPath": "FaceFixer/FaceFixer.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "facefixer"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "FollowerFavorCarryLimitPatcher",
             "Visibility": "Visible",
@@ -261,6 +272,17 @@
     {
       "Patchers": [
         {
+          "Customization": null,
+          "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;u=5977c71a57b3beb5cc7e4b6ba55ed3f9e986d3a8\u0026amp;v=4",
+      "User": "halgari",
+      "Repository": "HalgarisRPGLoot"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "ItemWeightCustomizer",
             "Visibility": "Visible",
@@ -275,6 +297,17 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;u=aea00944b06657a3641c7a67acc5853ec38a8c53\u0026amp;v=4",
       "User": "Deigue",
       "Repository": "ItemWeightCustomizer"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "KhajiitEarsShow/KhajiitEarsShow.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "khajiitearsshow"
     },
     {
       "Patchers": [
@@ -355,6 +388,36 @@
     {
       "Patchers": [
         {
+          "Customization": null,
+          "ProjectPath": "CustomSet/CustomSet.csproj"
+        },
+        {
+          "Customization": null,
+          "ProjectPath": "CustomSetTest/CustomSetTest.csproj"
+        },
+        {
+          "Customization": null,
+          "ProjectPath": "MasterLimitTestTest/MasterLimitTestTest.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
+      "User": "mrudat",
+      "Repository": "MasterLimitTest"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "MortalEnemies/MortalEnemies.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "MortalEnemies-Patcher"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "MusicTypePatcher",
             "Visibility": "Visible",
@@ -391,6 +454,39 @@
     {
       "Patchers": [
         {
+          "Customization": null,
+          "ProjectPath": "NoDragonLODs/NoDragonLODs.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "nodragonlods"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "NPCEnchantFix/NPCEnchantFix.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "npcenchantfix"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "OppositeAnimationDisabler/OppositeAnimationDisabler.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "oppositeanimationdisabler"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "RaceCompatibilityDialogue",
             "Visibility": "Visible",
@@ -402,6 +498,10 @@
             ]
           },
           "ProjectPath": "RaceCompatibilityDialogue/RaceCompatibilityDialogue.csproj"
+        },
+        {
+          "Customization": null,
+          "ProjectPath": "Tests/Tests.csproj"
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
@@ -535,6 +635,28 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;u=5977c71a57b3beb5cc7e4b6ba55ed3f9e986d3a8\u0026amp;v=4",
       "User": "halgari",
       "Repository": "SlotsSlotsSlots"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "Halgari.SoulGemDisenchantment/Halgari.SoulGemDisenchantment.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;u=5977c71a57b3beb5cc7e4b6ba55ed3f9e986d3a8\u0026amp;v=4",
+      "User": "halgari",
+      "Repository": "soul-gem-disenchantment"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "SpeedandReachFixes/SpeedandReachFixes.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "speedandreachfixes"
     },
     {
       "Patchers": [
