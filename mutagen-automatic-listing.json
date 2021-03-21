@@ -316,7 +316,7 @@
             "Nickname": "Know Your Armor Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Patches your mods to work with Know Your Armor.",
-            "LongDescription": "",
+            "LongDescription": "This patcher is a replica of the Know Your Armor Patcher you can find for zEdit, but with support for additional mods.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "know_your_enemy.esp"
@@ -336,7 +336,7 @@
             "Nickname": "Know Your Enemy Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Patches your mods to work with Know Your Enemy.",
-            "LongDescription": "",
+            "LongDescription": "This patcher is a replica of the Know Your Enemy Patcher you can find for zEdit, but with support for additional mods.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "know_your_enemy.esp"
