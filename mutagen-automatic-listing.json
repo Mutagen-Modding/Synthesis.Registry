@@ -617,6 +617,24 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "SlotsSlotsSlots",
+            "Visibility": "Visible",
+            "OneLineDescription": "Slot focused inventory overhaul.",
+            "LongDescription": "This patcher adjusts the weight and carryweight system of Skyrim to mimic the slot based inventory systems found in some modern games. One big inspiration was Dying Light which only has a limit for the number of weapons you can carry. So to describe it a bit more, this patcher set every weapon and piece of clothing to have a weight between 1-5 (based on their relative weights), ingredients and other misc items to have no weight at all and reduces the base carry weight of every playable race to 25. There still needs to be done something to patch carryweigth increasing effects and potions to properly balance this. For now this is more an early alpha that still needs some polishing. Thanks a lot to Halgari for creating the 1st draft of this inspired by my idea and allowing me to take over.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SlotsSlotsSlots/SlotsSlotsSlots.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "SlotsSlotsSlots"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "Halgari.SoulGemDisenchantment/Halgari.SoulGemDisenchantment.csproj"
         }
