@@ -617,24 +617,6 @@
     {
       "Patchers": [
         {
-          "Customization": {
-            "Nickname": "SlotsSlotsSlots",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
-          },
-          "ProjectPath": "SlotsSlotsSlots/SlotsSlotsSlots.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;u=5977c71a57b3beb5cc7e4b6ba55ed3f9e986d3a8\u0026amp;v=4",
-      "User": "halgari",
-      "Repository": "SlotsSlotsSlots"
-    },
-    {
-      "Patchers": [
-        {
           "Customization": null,
           "ProjectPath": "Halgari.SoulGemDisenchantment/Halgari.SoulGemDisenchantment.csproj"
         }
