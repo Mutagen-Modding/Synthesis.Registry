@@ -132,6 +132,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "EnemyReleveler",
+            "Visibility": "Visible",
+            "OneLineDescription": "A Mutagen patcher that lets you configure the levels of NPCs according to their type for a truly deleveled Skyrim",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "EnemyReleveler/EnemyReleveler.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "EnemyReleveler"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Engarde_Synthesis",
             "Visibility": "Visible",
             "OneLineDescription": "Engarde synthesis patcher",
