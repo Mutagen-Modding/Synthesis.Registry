@@ -947,8 +947,8 @@
           "Customization": {
             "Nickname": "UnderThere",
             "Visibility": "Visible",
-            "OneLineDescription": "Distributes undergarments to NPCs, worn under clothing and visible immediately upon looting.",
-            "LongDescription": "Default settings are for CBBE/3BBB. See the Under There for UNP/BHUNP settings files.",
+            "OneLineDescription": "",
+            "LongDescription": "",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
