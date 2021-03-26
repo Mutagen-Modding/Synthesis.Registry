@@ -830,6 +830,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "KeywordDistributor",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patcher to add and remove keywords from items",
+            "LongDescription": "Patcher to add and remove keywords from Armors/Weapons; You shouldn\u0027t need this unless required by a mod.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "KeywordDistributor/SynPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynKeywordDistributor"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynLoadScreenRemover",
             "Visibility": "Visible",
             "OneLineDescription": "Removes the 3d objects from loadscreens",
