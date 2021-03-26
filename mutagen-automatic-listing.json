@@ -833,7 +833,7 @@
             "Nickname": "KeywordDistributor",
             "Visibility": "Visible",
             "OneLineDescription": "Patcher to add and remove keywords from items",
-            "LongDescription": "Patcher to add and remove keywords from Armors/Weapons; You shouldn\u0027t need this unless required by a mod.",
+            "LongDescription": "Patcher to add and remove keywords from any keywordable item; You shouldn\u0027t need this unless required by a mod.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
