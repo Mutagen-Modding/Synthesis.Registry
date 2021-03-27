@@ -760,7 +760,7 @@
           "Customization": {
             "Nickname": "SynBundler",
             "Visibility": "Visible",
-            "OneLineDescription": "Generates Bundled arrows / bolt(s) for load order, and selling",
+            "OneLineDescription": "Generates Bundled arrows a bolts for selling",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
@@ -830,7 +830,7 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "KeywordDistributor",
+            "Nickname": "SynKeywordDistributor",
             "Visibility": "Visible",
             "OneLineDescription": "Patcher to add and remove keywords from items",
             "LongDescription": "Patcher to add and remove keywords from any keywordable item; You shouldn\u0027t need this unless required by a mod.",
@@ -866,7 +866,7 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SynEnchantmentRestrictionRemover",
+            "Nickname": "SynEnchRestrictionsRemover",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis based enchantment restriction remover",
             "LongDescription": "Enables all enchantments to be applied to nearly everything",
@@ -921,6 +921,10 @@
         {
           "Customization": null,
           "ProjectPath": "SynthusMaximus.Test/SynthusMaximus.Test.csproj"
+        },
+        {
+          "Customization": null,
+          "ProjectPath": "Xml2Json/Xml2Json.csproj"
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;u=5977c71a57b3beb5cc7e4b6ba55ed3f9e986d3a8\u0026amp;v=4",
@@ -934,7 +938,7 @@
             "Nickname": "SynWeaponKeywords",
             "Visibility": "Visible",
             "OneLineDescription": "Weapon type keyword patcher (similar to zEdit patcher)",
-            "LongDescription": "Supports both NWTA and animated armoury",
+            "LongDescription": "Supports a wide variety of mods",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
