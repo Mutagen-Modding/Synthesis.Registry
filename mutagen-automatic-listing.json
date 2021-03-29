@@ -794,6 +794,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynFksDiverseSkeleton",
+            "Visibility": "Visible",
+            "OneLineDescription": "Compatibility patcher for Fk\u0027s diverse skeletons",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SynFksDiverseSkeleton/SynFksDiverseSkeleton.csproj"
+        }
+      ],
+      "AvatarURL": null,
+      "User": "holaholacocacola",
+      "Repository": "SynFksDiverseSkeletons"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "FloraFixer",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis patcher to fix flora respawning (needs data from nexus)",
