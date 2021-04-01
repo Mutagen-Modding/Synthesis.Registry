@@ -516,6 +516,24 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "NpcProtector",
+            "Visibility": "Visible",
+            "OneLineDescription": "Flags named NPCs as protected.",
+            "LongDescription": "This patcher is an alternative to the mod Protect Your People. Essentially it flags a ton of named NPCs as protected if they are not already flagged as essential or protected.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "NpcProtector/NpcProtector.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/45295422?s=40\u0026amp;u=f12187193ed8e7b6d01e887803aa2e31a187eb5c\u0026amp;v=4",
+      "User": "alsa64",
+      "Repository": "NpcProtector"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "OppositeAnimationDisabler/OppositeAnimationDisabler.csproj"
         }
