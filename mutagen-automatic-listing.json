@@ -393,6 +393,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "leveledlistgenerator",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "leveledlistgenerator/leveledlistgenerator.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/65688322?s=40\u0026amp;v=4",
+      "User": "OddDrifter",
+      "Repository": "leveledlistgenerator"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ListMaker",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "",
