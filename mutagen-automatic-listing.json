@@ -393,19 +393,19 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "leveledlistgenerator",
+            "Nickname": "leveledlistresolver",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "A Patcher for resolving levelled list conflicts.",
+            "LongDescription": "Patcher for resolving levelled list conflicts.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
-          "ProjectPath": "leveledlistgenerator/leveledlistgenerator.csproj"
+          "ProjectPath": "leveledlistresolver/leveledlistresolver.csproj"
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/65688322?s=40\u0026amp;v=4",
       "User": "OddDrifter",
-      "Repository": "leveledlistgenerator"
+      "Repository": "leveledlistresolver"
     },
     {
       "Patchers": [
@@ -519,6 +519,24 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "nodragonlods"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "NPCAppearanceCopier",
+            "Visibility": "Visible",
+            "OneLineDescription": "Transfers the visual appearance of one NPC to another. Requires Synthesis.exe 0.17.6 or higher.",
+            "LongDescription": "This is a Synthesis version of the original NPC Visual Transfer SSEedit script. It transfers the appearance of one NPC to another (and can handle multiple NPCs). Useful for when you like the appearance of one of the thousands of followers on the Nexus and want to transfer it to another character in your game.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "NPCAppearanceCopier/NPCAppearanceCopier.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
+      "User": "Piranha91",
+      "Repository": "NPC-Appearance-Copier"
     },
     {
       "Patchers": [
@@ -697,7 +715,7 @@
             "Nickname": "SlotsSlotsSlots",
             "Visibility": "Visible",
             "OneLineDescription": "Weight -\u003E Slots, now with settings!",
-            "LongDescription": "Ever wanted to test how Skyrim would feel with inventory slots instead of a weigth based system ?\nThen you are at the right place. And the best thing it is cutomizable, just load the patcher and go to the settings page. \n\nBut what is this patcher actually doing?\nThis patcher adjusts the weight and carryweight system of Skyrim to mimic the slot based inventory systems found in a lot of other games. One big inspiration was Dying Light which only has a limit for the number of weapons you can carry, but this is only the most recent game like that I played. Borderlands would fit as a reference point as well, to name another game.\n\nSo to describe it a bit more, this patcher allows you to set a new base carryweigth, which represents the number of available slots, and reduce the effectiveness of carryweigth related effects, while removig carryweight from every non armor(clothing), weapon, potion item. All Weapons, Clothing and potions get assigned new weights that are standardized based on how heavy they are in the base game. Also the default option removes all healing effects(alchemy ingredients have it set to 0 and not removed to allow the dicovery of the effect), but this can be turned off in the settings, so you can still cabbage heal yourself if you really desire. \n\n\nThanks a lot to Halgari for creating the 1st draft of this inspired by my idea and allowing me to take over the work on this and finalize it. \n\n- Luca|EzioTheDeadPoet",
+            "LongDescription": "Ever wanted to test how Skyrim would feel with inventory slots instead of a weigth based system ?\nThen you are at the right place. And the best thing it is cutomizable, just load the patcher and go to the settings page. \n\nBut what is this patcher actually doing?\nThis patcher adjusts the weight and carryweight system of Skyrim to mimic the slot based inventory systems found in a lot of other games. One big inspiration was Dying Light which only has a limit for the number of weapons you can carry, but this is only the most recent game like that I played. Borderlands would fit as a reference point as well, to name another game.\n\nSo to describe it a bit more, this patcher allows you to alter the base carryweigth, then which represents the number of available slots, and reduce the effectiveness of carryweigth related effects, while removig carryweight from every non armor(clothing), weapon, potion item. All Weapons, Clothing and potions get assigned new weights that are standardized based on how heavy they are in the base game. Also the default option removes all healing effects(alchemy ingredients have it set to 0 and not removed to allow the dicovery of the effect), but this can be turned off in the settings, so you can still cabbage heal yourself if you really desire. \n\n\nThanks a lot to Halgari for creating the 1st draft of this inspired by my idea and allowing me to take over the work on this and finalize it. \n\n- Luca|EzioTheDeadPoet",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
@@ -1063,8 +1081,8 @@
           "Customization": {
             "Nickname": "UnderThere",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Distributes undergarments (that are always equipped and hidden under clothing) to NPCs.",
+            "LongDescription": "User-configurable patcher that defines underwear items, distributes them to NPCs, and equips them under their clothes or armor. You get to decide which items are undergarments, import them into the patcher, and assign them to NPCs at random, by class, or by faction.\nThe default settings rely upon you having the mod Equipable Underwear for Everyone in your load order, but this dependency can be completely removed and switched to other undergarment mods by editing the settings.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
