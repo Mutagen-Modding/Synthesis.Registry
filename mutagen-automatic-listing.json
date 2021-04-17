@@ -114,6 +114,26 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "DestructibleSkyrimPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches mods placing objects in cells/worldspaces using the original Skyrim statics to Destructible Skyrim\u0027s destructible objects",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Destructible Skyrim.esp"
+            ]
+          },
+          "ProjectPath": "DestructibleSkyrimPatcher/DestructibleSkyrimPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;u=d449654afc1bc25c346bb058eb5da4f6e7154727\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "DestructibleSkyrimPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "DisplaySpellTomeLevelPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Adds the Spell Tome level (Adept, Apprentice etc.) to the name of the Spell Tome",
