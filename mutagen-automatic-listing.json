@@ -760,17 +760,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
-          "ProjectPath": "SpeedandReachFixes/SpeedandReachFixes.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "speedandreachfixes"
-    },
-    {
-      "Patchers": [
-        {
           "Customization": {
             "Nickname": "SpellAbsorbFix",
             "Visibility": "Visible",
