@@ -208,6 +208,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Experience Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Generates a csv file for the Experience mod so that the kill function works on all NPCs.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "ExperienceMutagenPatcher/ExperienceMutagenPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;u=d449654afc1bc25c346bb058eb5da4f6e7154727\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "ExperienceMutagenPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "EZLeveler",
             "Visibility": "Visible",
             "OneLineDescription": "Encounter Zone Scaler and Unleveler Synthesis Patcher for Skyrim SE",
