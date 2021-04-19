@@ -40,24 +40,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "AOSISCSoundPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Apply the changes from Audio Overhaul Skyrim / Immersive Sound Compendium to all your mods",
-            "LongDescription": "Doesn\u0027t require both mods to be installed, just one of them. Adds sound effects to all weapons \u0026 armor in your load order to make it consistent with the changes from these mods.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
-          },
-          "ProjectPath": "AOSISCSoundPatcher/AOSISCSoundPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;u=d449654afc1bc25c346bb058eb5da4f6e7154727\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "AOSISCSoundPatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "BDSPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Better Dynamic Snow v2.x Synthesis Patcher for Skyrim SE",
