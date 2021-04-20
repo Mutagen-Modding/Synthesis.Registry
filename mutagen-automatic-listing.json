@@ -886,6 +886,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynCombatBoundaries",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis patcher to remove combat boundaries and allow npcs to chase you through water",
+            "LongDescription": "Synthesis patcher to remove combat boundaries and allow npcs to chase you through water",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SynCombatBoundaries/SynCombatBoundaries.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/7200909?s=40\u0026amp;u=d17e5e3ab5203e6b1abf4d178d4fb36d320a4ce6\u0026amp;v=4",
+      "User": "holaholacocacola",
+      "Repository": "SynCombatBoundaries"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynFksDiverseSkeleton",
             "Visibility": "Visible",
             "OneLineDescription": "Compatibility patcher for Fk\u0027s diverse skeletons",
