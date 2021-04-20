@@ -68,7 +68,7 @@ namespace Synthesis.Registry
 
                     // Construct listings
                     var patchers = await ConstructListings(dep, gitHubClient, projs);
-                    System.Console.WriteLine($"Processed {dep}");
+                    System.Console.WriteLine($"Processed {dep} and retrieved {patchers.Length} patchers:{Environment.NewLine}   {string.Join($"{Environment.NewLine}   ", (IEnumerable<PatcherListing>)patchers)}");
 
                     await Task.Delay(500);
                     return new RepositoryListing()
@@ -76,14 +76,14 @@ namespace Synthesis.Registry
                         AvatarURL = dep.AvatarURL,
                         Repository = dep.Repository!,
                         User = dep.User!,
-                        Patchers = patchers.ToArray()
+                        Patchers = patchers
                     };
                 })
                 .Where(r =>
                 {
                     if (r.Patchers.Length == 0)
                     {
-                        System.Console.WriteLine($"{r.Repository} skipped because it had no listed patchers.");
+                        System.Console.WriteLine($"{r.User}/{r.Repository} skipped because it had no listed patchers.");
                         return false;
                     }
                     return true;
@@ -161,7 +161,7 @@ namespace Synthesis.Registry
             return ret;
         }
 
-        private static async Task<IEnumerable<PatcherListing>> ConstructListings(Dependent dep, GitHubClient gitHubClient, IEnumerable<string> projs)
+        private static async Task<PatcherListing[]> ConstructListings(Dependent dep, GitHubClient gitHubClient, IEnumerable<string> projs)
         {
             return (await projs
                 .ToAsyncEnumerable()
