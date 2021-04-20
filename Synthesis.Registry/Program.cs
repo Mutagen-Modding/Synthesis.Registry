@@ -153,10 +153,12 @@ namespace Synthesis.Registry
                 throw new ArgumentException($"{dep} failed to retrieve patcher listings");
             }
 
-            System.Console.WriteLine($"{dep} retrieved project files");
-            return projs.Items
+            var ret = projs.Items
                 .OrderBy(i => i.Name)
-                .Select(i => i.Path);
+                .Select(i => i.Path)
+                .ToArray();
+            System.Console.WriteLine($"{dep} retrieved project files:{Environment.NewLine}   {string.Join($"{Environment.NewLine}   ", ret)}");
+            return ret;
         }
 
         private static async Task<IEnumerable<PatcherListing>> ConstructListings(Dependent dep, GitHubClient gitHubClient, IEnumerable<string> projs)
@@ -172,11 +174,15 @@ namespace Synthesis.Registry
                     try
                     {
                         var metaPath = Path.Combine(Path.GetDirectoryName(proj)!, Constants.MetaFileName);
-                        System.Console.WriteLine($"{dep} retriving meta path");
+                        System.Console.WriteLine($"{dep} retriving meta path for {proj}");
                         var content = await gitHubClient.Repository.Content.GetAllContents(dep.User, dep.Repository, metaPath);
                         PrintApiUsage(gitHubClient);
-                        if (content.Count != 1) return null;
-                        System.Console.WriteLine($"{dep} retrived meta path");
+                        if (content.Count != 1)
+                        {
+                            System.Console.WriteLine($"{dep} no meta path found for {proj}");
+                            return null;
+                        }
+                        System.Console.WriteLine($"{dep} retrived meta path for {proj}");
                         var customization = JsonSerializer.Deserialize<PatcherCustomization>(content[0].Content, Options)!;
                         if (string.IsNullOrWhiteSpace(customization.Nickname))
                         {
@@ -215,7 +221,15 @@ namespace Synthesis.Registry
                 })
                 .ToListAsync())
                 .NotNull()
-                .Where(listing => listing.Customization?.Visibility != VisibilityOptions.Exclude)
+                .Where(listing =>
+                {
+                    if (listing.Customization?.Visibility == VisibilityOptions.Exclude)
+                    {
+                        System.Console.WriteLine($"{dep} excluding {listing.ProjectPath}");
+                        return false;
+                    }
+                    return true;
+                })
                 .ToArray();
         }
 
