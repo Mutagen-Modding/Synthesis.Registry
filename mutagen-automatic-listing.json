@@ -660,6 +660,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SilentMoonsEnchantmentPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": null,
+            "LongDescription": null,
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SilentMoonsEnchantmentPatcher/SilentMoonsEnchantmentPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "SilentMoonsEnchantmentPatcher.Net"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SkyUIWeaponIconPatcher",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "SkyUI Weapons Pack Icon patcher",
