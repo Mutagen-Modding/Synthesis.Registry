@@ -466,6 +466,24 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "Lootable Things \u0026 Training Dummies Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Lootable Things \u0026 Training Dummies and Targets SSE patcher.",
+            "LongDescription": "Patches mods placing statics in cells/worldspaces using the original Skyrim statics to the Lootable Things containers and Training Dummies.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "LootableThings-Dummy-Patcher/LootableThings-Dummy-Patcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;u=f3b40548a56cf2dd8174baecd809401d444f0821\u0026amp;v=4",
+      "User": "m-vlad",
+      "Repository": "LootableThings-TrainingDummies-Patcher"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "CustomSet/CustomSet.csproj"
         },
@@ -709,24 +727,6 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
       "User": "Wolfman5750",
       "Repository": "SkyVRaanAutoPatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SkyVRaan Weather Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "SkyVRaan Weather Patcher",
-            "LongDescription": "SkyVRaan is a mod for SkyrimVR that adds a cubemap to water in Skyrim, faking water reflections. This patcher adjusts the Water Weather Multiplier for the weather mods you have installed to blend the water color in with the rest of the scene. This helps to create more natural looking water in all times of the day and weather.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
-          },
-          "ProjectPath": "SkyVRaanWeatherPatcher/SkyVRaanWeatherPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
-      "User": "Wolfman5750",
-      "Repository": "SkyVRaanWeatherPatcher"
     },
     {
       "Patchers": [
