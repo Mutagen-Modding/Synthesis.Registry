@@ -640,6 +640,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "RemoveInteriorFogPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis patcher to remove the (Near \u0026 Far) fog from interior cells",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "RemoveInteriorFogPatcher/RemoveInteriorFogPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;u=d449654afc1bc25c346bb058eb5da4f6e7154727\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "RemoveInteriorFogPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Requiem-Experience",
             "Visibility": "Visible",
             "OneLineDescription": "Patcher for Experience mod, most suitable for Requiem",
