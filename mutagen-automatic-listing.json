@@ -136,8 +136,8 @@
           "Customization": {
             "Nickname": "DisplaySpellTomeLevelPatcher",
             "Visibility": "Visible",
-            "OneLineDescription": "Adds the Spell Tome level (Adept, Apprentice etc.) to the name of the Spell Tome",
-            "LongDescription": "",
+            "OneLineDescription": "Custom formatting options for the naming of your Spell Tomes, including level, magic school, plugin name \u0026 spell name",
+            "LongDescription": "Automatically patch your entire load order to show the skill level on all Spell Tomes! You can change the default format from Spell Tome (\u003Clevel\u003E): \u003Cspell\u003E to any custom format including plugin name \u0026 magic school in the settings!",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
