@@ -200,7 +200,7 @@
           "ProjectPath": "Engarde_Synthesis/Engarde_Synthesis.csproj"
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;u=8bf4f92abbaae3360539109b89e99e4c281338d4\u0026amp;v=4",
       "User": "theSkyseS",
       "Repository": "Engarde-Synthesis-Patcher"
     },
@@ -635,6 +635,24 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "RaceCompatibilityDialogue"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "ReadingIsGoodLegacy",
+            "Visibility": "Visible",
+            "OneLineDescription": "Reading is Good Legacy",
+            "LongDescription": "Patcher for legacy/oldrim version of reading is good mod.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "ReadingIsGoodLegacy/ReadingIsGoodLegacy.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;u=8bf4f92abbaae3360539109b89e99e4c281338d4\u0026amp;v=4",
+      "User": "theSkyseS",
+      "Repository": "ReadingIsGoodLegacy"
     },
     {
       "Patchers": [
