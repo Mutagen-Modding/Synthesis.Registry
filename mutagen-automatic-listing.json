@@ -134,6 +134,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "DisplaySpellTomeLevelPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Custom formatting options for the naming of your Spell Tomes, including level, magic school, plugin name \u0026 spell name",
+            "LongDescription": "Automatically patch your entire load order to show the skill level on all Spell Tomes! You can change the default format from Spell Tome (\u003Clevel\u003E): \u003Cspell\u003E to any custom format including plugin name \u0026 magic school in the settings!",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "DisplaySpellTomeLevelPatcher/DisplaySpellTomeLevelPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;u=d449654afc1bc25c346bb058eb5da4f6e7154727\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "DisplaySpellTomeLevelPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ENB Light Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Reduces the light intensity of your other mods so ENB Light doesn\u0027t make it too bright.",
