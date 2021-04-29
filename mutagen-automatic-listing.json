@@ -1068,24 +1068,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SynEnchRestrictionsRemover",
-            "Visibility": "Visible",
-            "OneLineDescription": "Synthesis based enchantment restriction remover",
-            "LongDescription": "Enables all enchantments to be applied to nearly everything",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
-          },
-          "ProjectPath": "SynEnchRestrictionsRemover/SynPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
-      "User": "minis-patchers",
-      "Repository": "SynNoEnchantmentRestrictions"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "SynPotionWeight",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis patcher to change potion / poison weights",
