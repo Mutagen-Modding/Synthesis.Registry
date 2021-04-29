@@ -484,6 +484,26 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "MakeFirewoodPilesIntoContainers",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis version of WiZkiD\u0027s Lootable FireWood Piles patcher",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "WiZkiD Lootable FireWood Piles.esp"
+            ]
+          },
+          "ProjectPath": "MakeFirewoodPilesIntoContainers/MakeFirewoodPilesIntoContainers.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "MakeFirewoodPilesIntoContainers"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "CustomSet/CustomSet.csproj"
         },
