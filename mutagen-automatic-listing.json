@@ -415,8 +415,8 @@
           "Customization": {
             "Nickname": "leveledlistresolver",
             "Visibility": "Visible",
-            "OneLineDescription": "A Patcher for resolving levelled list conflicts.",
-            "LongDescription": "Patcher for resolving levelled list conflicts.",
+            "OneLineDescription": "A Patcher for resolving leveled list conflicts.",
+            "LongDescription": "Patcher for resolving leveled list conflicts.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
@@ -1186,6 +1186,24 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;u=d449654afc1bc25c346bb058eb5da4f6e7154727\u0026amp;v=4",
       "User": "tr4wzified",
       "Repository": "TUDMFootstepPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "UnderThere",
+            "Visibility": "Visible",
+            "OneLineDescription": "Distributes undergarments (that are always equipped and hidden under clothing) to NPCs.",
+            "LongDescription": "User-configurable patcher that defines underwear items, distributes them to NPCs, and equips them under their clothes or armor. You get to decide which items are undergarments, import them into the patcher, and assign them to NPCs at random, by class, or by faction.\nThe default settings rely upon you having the mod Equipable Underwear for Everyone in your load order, but this dependency can be completely removed and switched to other undergarment mods by editing the settings.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "UnderThere/UnderThere.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
+      "User": "Piranha91",
+      "Repository": "Under-There-"
     },
     {
       "Patchers": [
