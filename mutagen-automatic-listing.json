@@ -1088,6 +1088,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynLoadScreenRemover",
+            "Visibility": "Visible",
+            "OneLineDescription": "Removes the 3d objects from loadscreens",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SynLoadScreenRemover/SynPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynLoadscreenRemover"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynEnchRestrictionsRemover",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis based enchantment restriction remover",
