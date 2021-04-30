@@ -487,6 +487,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "LootableCrates",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis Patcher that changes static crates into lootable containers.",
+            "LongDescription": "Synthesis Patcher that changes static crates into lootable containers.\nCompletely standalone, no plugins required.\n",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "LootableCrates/LootableCrates.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;u=8bf4f92abbaae3360539109b89e99e4c281338d4\u0026amp;v=4",
+      "User": "theSkyseS",
+      "Repository": "LootableCrates"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Lootable Things \u0026 Training Dummies Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Lootable Things \u0026 Training Dummies and Targets SSE patcher.",
