@@ -344,6 +344,26 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Harvest Those Mammoth Tusks",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis patcher for Harvest Those Mammoth Tusks",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Harvest Those Mammoth Skulls.esp"
+            ]
+          },
+          "ProjectPath": "HarvestThoseMammothSkulls/HarvestThoseMammothSkulls.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;u=8bf4f92abbaae3360539109b89e99e4c281338d4\u0026amp;v=4",
+      "User": "theSkyseS",
+      "Repository": "HarvestThoseMammothSkulls"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ItemWeightCustomizer",
             "Visibility": "Visible",
             "OneLineDescription": "Customize and configure item weights",
