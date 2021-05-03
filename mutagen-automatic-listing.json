@@ -152,24 +152,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "ENB Light Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Reduces the light intensity of your other mods so ENB Light doesn\u0027t make it too bright.",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
-          },
-          "ProjectPath": "ENBLightPatcher/ENBLightPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;u=d449654afc1bc25c346bb058eb5da4f6e7154727\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "enblightpatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "EnemyReleveler",
             "Visibility": "Visible",
             "OneLineDescription": "A Mutagen patcher that lets you configure the levels of NPCs according to their type for a truly deleveled Skyrim",
