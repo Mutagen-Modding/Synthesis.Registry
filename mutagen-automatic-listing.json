@@ -22,6 +22,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "AllGUDMeshGen",
+            "Visibility": "Visible",
+            "OneLineDescription": "All-in-one mesh patcher and alternate texture handler for All Geared Up Derivative (AllGUD)",
+            "LongDescription": "Combines the functions of the three xEdit scripts: skeleton patcher, mesh generator and alternate texture handler",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "All Geared Up Derivative.esp"
+            ]
+          },
+          "ProjectPath": "AllGUDMeshGen/AllGUDMeshGen.csproj"
+        },
+        {
+          "Customization": null,
+          "ProjectPath": "PatcherTest/PatcherTest.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
+      "User": "SteveTownsend",
+      "Repository": "AllGUDMeshGen"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "AmmoTweaks",
             "Visibility": "Visible",
             "OneLineDescription": "Configurable patcher intended as a WACCF-friendly alternative to ABT",
