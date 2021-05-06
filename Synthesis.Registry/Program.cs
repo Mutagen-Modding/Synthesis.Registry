@@ -139,8 +139,19 @@ namespace Synthesis.Registry
                         Repos = repoColl
                     });
                     await PrintAndWaitForReset(gitHubClient);
-                    if (!projs.IncompleteResults) break;
-                    System.Console.WriteLine($"{dep} failed to retrieve patcher listings.  Trying again");
+                    if (projs.IncompleteResults)
+                    {
+                        System.Console.WriteLine($"{dep} failed to retrieve contained projects.  Trying again");
+                    }
+                    else if (projs.Items.Count == 0)
+                    {
+                        System.Console.WriteLine($"{dep} contained projects returned zero.  Trying again");
+                    }
+                    else
+                    {
+                        break;
+                    }
+                    await Task.Delay(5000);
                 }
                 catch (HttpRequestException)
                 {
