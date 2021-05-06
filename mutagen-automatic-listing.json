@@ -986,6 +986,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynBundler",
+            "Visibility": "Visible",
+            "OneLineDescription": "Generates Bundled arrows a bolts for selling",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SynBundler/SynPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynBundler"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynCGOStaves",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis version of cuyima\u0027s zedit patcher for CGO staves",
