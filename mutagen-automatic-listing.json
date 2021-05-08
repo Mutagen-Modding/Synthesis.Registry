@@ -986,6 +986,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "BookSmart",
+            "Visibility": "Visible",
+            "OneLineDescription": "Enhance book titles to show more information about them (configurable).",
+            "LongDescription": "# SynBookSmart\nEnhance book titles to show more information about them. Fully configurable.\n\n## Settings\nAll settings can be configured inside the Synthesis app.\n\n### Add Skill Labels\nAdds a label to any books you find that will cause you to gain skills. Dynamically pulls this information from any book as long as it has the standard \u0027Teaches Skill\u0027 script attached. Will not work if a custom mod is using different scripts to apply the skill up.\n\n### Add Map Marker Labels\nAdds a label to any books you find that will give you a map marker via script. Will work as long as the script is on the book itself and contains \u0022MapMarker\u0022 (case insensitive) somehwere in the script name. Will not apply to scripts belonging to the quest record instead of the book. This may be able to be improved in the future.\n\n#### Add Quest Labels\nAdds a label to any books you find that are involved in a quest. Enabling this label will require the patcher to create a quest book cache at the beginning of each run, which will extend processing time a bit. This cache looks through all quests and finds any aliases that reference a book. If found, that book will be marked as a quest book. Also checks for scripts on the book itself that have the word \u0022Quest\u0022 (case insenstive) in the name. Please open a [Github issue](https://github.com/Synthesis-Collective/SynBookSmart/issues) if you find a quest book that is not being caught by the patcher, even if it\u0027s from a mod.\n\n### Label Position\n- Before_Name\n  - \u0060\u003CAlchemy\u003E Snape\u0027s Book of Potions\u0060\n- After_Name\n  - \u0060Snape\u0027s Book of Potions \u003CAlchemy\u003E\u0060\n\n### Label Format\n- Star\n  - \u0060*Snape\u0027s Book of Potions\u0060\n- Short\n  - \u0060\u003CAlch\u003E Snape\u0027s Book of Potions\u0060\n- Long\n  - \u0060\u003CAlchemy\u003E Snape\u0027s Book of Potions\u0060\n\n### Encapsulating Characters\nThis setting has no effect if a Label Format of \u0060Star\u0060 is chosen.\n\n- Parenthesis\n  - \u0060(Alch) Snape\u0027s Book of Potions\u0060\n- Curly Brackets\n  - \u0060{Alch} Snape\u0027s Book of Potions\u0060\n- Square Brackets\n  - \u0060[Alch] Snape\u0027s Book of Potions\u0060\n- Chevrons\n  - \u0060\u003CAlch\u003E Snape\u0027s Book of Potions\u0060\n- Stars\n  - \u0060*Alch* Snape\u0027s Book of Potions\u0060\n",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "BookSmart/BookSmart.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "SynBookSmart"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynBundler",
             "Visibility": "Visible",
             "OneLineDescription": "Generates Bundled arrows a bolts for selling",
