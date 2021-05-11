@@ -1040,6 +1040,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "CoinTweaker",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis Patcher for tweaking the weight, value and names of coins from a selection of mods.",
+            "LongDescription": "This Patcher allows tweaking of weight, value and names of coins from the following mods (none required): Vanilla, Beyond Skyrim: Bruma, Narrative Loot, Unique Coins \u0026 Coins of Tamriel.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "CoinTweaker/CoinTweaker.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/4649131?s=40\u0026amp;v=4",
+      "User": "RowanMaBoot",
+      "Repository": "SynCoinTweaker"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynCombatBoundaries",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis patcher to remove combat boundaries and allow npcs to chase you through water",
