@@ -1202,6 +1202,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynRaceRebalancer",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SynRaceRebalancer/SynRaceRebalancer.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/4649131?s=40\u0026amp;v=4",
+      "User": "RowanMaBoot",
+      "Repository": "SynRaceRebalancer"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynthNPCsWithFaces",
             "Visibility": "Visible",
             "OneLineDescription": "Helper patcher for TPF",
