@@ -1204,8 +1204,8 @@
           "Customization": {
             "Nickname": "SynRaceRebalancer",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Race Rebalancer - adjust the stats of playable races, and hitpoints of all other races via a selection of powerful settings.",
+            "LongDescription": "Race Rebalancer can be used ot adjust the attributes of playable races, including Health, Stamina, Magicka, as well as skills and other starting values. It can also be used to globally buff, or nerf, the hitpoints of all creatures.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
