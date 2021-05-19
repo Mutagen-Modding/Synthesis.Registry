@@ -722,6 +722,26 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "PickYourPoison",
+            "Visibility": "Visible",
+            "OneLineDescription": "Port of Pick Your Poison\u0027s zEdit module",
+            "LongDescription": "Port of Pick Your Poison\u0027s zEdit module\n",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "pick_your_poison.esp"
+            ]
+          },
+          "ProjectPath": "PickYourPoison/PickYourPoison.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;u=8bf4f92abbaae3360539109b89e99e4c281338d4\u0026amp;v=4",
+      "User": "theSkyseS",
+      "Repository": "PickYourPoison"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "RaceCompatibilityDialogue",
             "Visibility": "Visible",
             "OneLineDescription": "Adds dialog conditions for custom races.",
