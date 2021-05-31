@@ -457,8 +457,8 @@
           "Customization": {
             "Nickname": "leveledlistresolver",
             "Visibility": "Visible",
-            "OneLineDescription": "A Patcher for resolving leveled list conflicts.",
-            "LongDescription": "Patcher for resolving leveled list conflicts.",
+            "OneLineDescription": "A Patcher for resolving leveled list conflicts without the use of Bash Tags.",
+            "LongDescription": "This patcher attempts to recreate Wyre Bash\u0027s leveled list functionality in a way the does not require tagging plugins. Results aren\u0027t guaranteed to 100% identical to Wyre Bash.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
