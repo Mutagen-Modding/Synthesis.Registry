@@ -62,6 +62,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "AmuletsShowOnEverything",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "AmuletsShowOnEverything/AmuletsShowOnEverything.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5535758?s=40\u0026amp;v=4",
+      "User": "ixanza",
+      "Repository": "AmuletsShowOnEverything"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "AOSISCSoundPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Apply the changes from Audio Overhaul Skyrim / Immersive Sound Compendium to all your mods",
