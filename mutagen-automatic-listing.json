@@ -1256,6 +1256,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "OWLPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "OWLPatcher/OWLPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5535758?s=40\u0026amp;v=4",
+      "User": "ixanza",
+      "Repository": "SynOpenWorldLoot"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynPotionWeight",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis patcher to change potion / poison weights",
