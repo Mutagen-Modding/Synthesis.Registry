@@ -295,6 +295,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Respect My Body (Slide)",
+            "Visibility": "Visible",
+            "OneLineDescription": "Remove custom bodies from NPC mods, so that they all use the PC/default body.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "RespectMyBodySlide/RespectMyBodySlide.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/84610172?s=40\u0026amp;v=4",
+      "User": "focustense",
+      "Repository": "FocusPatchers"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "FollowerFavorCarryLimitPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Applies Follower Favor Carry Limit from Andrealphus\u0027 Gameplay Tweaks to all potential followers.",
