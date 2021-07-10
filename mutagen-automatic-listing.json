@@ -422,6 +422,26 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "HeightsOfSkyrim",
+            "Visibility": "Visible",
+            "OneLineDescription": "Compatability patcher between Heights of Skyrim mod and NPC Overhauls",
+            "LongDescription": "This patcher forwards height changes from Heights_of_Skyrim.esp to the outgoing patch preserving your winning override.\r\n\r\nNote: you should load Heights_of_Skyrim.esp as high as possible to avoid conflicts. It must be placed above NPC overhauls.\r\nYou still may need the USSEP patch for this mod.\r\nLink to the mod: https://www.nexusmods.com/skyrimspecialedition/mods/52057",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Heights_of_Skyrim.esp"
+            ]
+          },
+          "ProjectPath": "HeightsOfSkyrim/HeightsOfSkyrim.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;u=8bf4f92abbaae3360539109b89e99e4c281338d4\u0026amp;v=4",
+      "User": "theSkyseS",
+      "Repository": "HeightsOfSkyrim"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ImChPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "",
