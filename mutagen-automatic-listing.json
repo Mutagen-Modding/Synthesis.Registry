@@ -1417,24 +1417,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "TMOPatcher",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
-          },
-          "ProjectPath": "TMOPatcher/TMOPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
-      "User": "jdsmith2816",
-      "Repository": "tmopatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "TUDMFootstepPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "",
