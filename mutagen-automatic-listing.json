@@ -442,6 +442,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "ICAIO AI for Mods",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "ICAIO AI for Mods",
+            "LongDescription": "Applies new ICAIO Go Home and Survival Instincts for mod added npcs",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "ICAIO AI for Mod NPCs/ICAIO_AI_FOR_MOD_NPC/ICAIO_AI_FOR_MOD_NPC.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
+      "User": "Wolfman5750",
+      "Repository": "ICAIO-AI-for-Mod-NPC"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ImChPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "",
