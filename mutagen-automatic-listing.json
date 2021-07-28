@@ -1366,6 +1366,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "WeapArmoCobjTemplate",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "WeapArmoCobjTemplate/WeapArmoCobjTemplate.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/19803311?s=40\u0026amp;v=4",
+      "User": "fenix31415",
+      "Repository": "Synth_WeapArmoCobjTemplate"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynthNPCsWithFaces",
             "Visibility": "Visible",
             "OneLineDescription": "Helper patcher for TPF",
