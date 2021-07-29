@@ -372,6 +372,24 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "HalgarisConsistentRPGLoot",
+            "Visibility": "Visible",
+            "OneLineDescription": "RPG Loot without reshuffle while patching.",
+            "LongDescription": "This version of RPG loot uses a settings menu to be customized to your liking. It also wil generate consitently as long as you dont alter any of the settings or add armors/clothing/yewelry/weapons to your setup. \n\n - Luca|EzioTheDeadPoet",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "HalgarisConsistentRPGLoot"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj"
         }
