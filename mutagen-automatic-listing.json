@@ -1203,14 +1203,7 @@
     {
       "Patchers": [
         {
-          "Customization": {
-            "Nickname": "SynFksDiverseSkeleton",
-            "Visibility": "Visible",
-            "OneLineDescription": "Compatibility patcher for Fk\u0027s diverse skeletons",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
-          },
+          "Customization": null,
           "ProjectPath": "SynFksDiverseSkeleton/SynFksDiverseSkeleton.csproj"
         }
       ],
