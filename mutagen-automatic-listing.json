@@ -154,6 +154,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "CreateTemper",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "CreateTemper/CreateTemper.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/19803311?s=40\u0026amp;v=4",
+      "User": "fenix31415",
+      "Repository": "CreateTemper"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "DestructibleSkyrimPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Patches mods placing objects in cells/worldspaces using the original Skyrim statics to Destructible Skyrim\u0027s destructible objects",
