@@ -80,6 +80,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "AATPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Customizable Archery Physics for any load order.",
+            "LongDescription": "Archery physics the way you want, for any load order. Allows modifying the speed, gravity, impact force, noise level, and flags of projectiles, as well as removing auto-aim. Also allows you to set specific values for special projectiles like the bloodcursed elven arrows, for example, removing gravity from them.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "AATPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;u=9c681ebf71595866c18049f19376966de84e5731\u0026amp;v=4",
+      "User": "radj307",
+      "Repository": "Another-Archery-Patcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "AOSISCSoundPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Apply the changes from Audio Overhaul Skyrim / Immersive Sound Compendium to all your mods",
