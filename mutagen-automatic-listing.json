@@ -790,6 +790,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "NoShadowsPatch",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "NoShadowsPatch/NoShadowsPatch.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;u=76f2a697aaeadfd3f2472bbc6dd06c0f5f5fedf9\u0026amp;v=4",
+      "User": "ExpensiveLadder",
+      "Repository": "No-Shadows-Patch"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "NPCAppearanceCopier",
             "Visibility": "Visible",
             "OneLineDescription": "Transfers the visual appearance of one NPC to another. Requires Synthesis.exe 0.17.6 or higher.",
