@@ -428,6 +428,24 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "HalgarisConsistentUniqueRPGLoot",
+            "Visibility": "Visible",
+            "OneLineDescription": "RPG Loot without reshuffle while patching and without duplicate enchantments.",
+            "LongDescription": "This version of RPG loot uses a settings menu to be customized to your liking. It also will generate consitently as long as you dont alter any of the settings or add(or remove) armors/clothing/jewelry/weapons/enchantments to your setup or change their form IDs. Furthermore it will not create redundant enchantments wasting formIDs, allowing it to cover a greater variety of settings \n\n - Luca|EzioTheDeadPoet \n\n Unquiness added by Darkon47|Shou|",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "HalgarisConsistentRPGLoot"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj"
         }
