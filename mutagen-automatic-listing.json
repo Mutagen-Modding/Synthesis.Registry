@@ -872,24 +872,6 @@
     {
       "Patchers": [
         {
-          "Customization": {
-            "Nickname": "NPCStatRescaler",
-            "Visibility": "Visible",
-            "OneLineDescription": "Port of NPC Stat Rescaler: https://www.nexusmods.com/skyrimspecialedition/mods/24254",
-            "LongDescription": "Port of NPC Stat Rescaler\nhttps://www.nexusmods.com/skyrimspecialedition/mods/24254",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
-          },
-          "ProjectPath": "NPCStatRescaler/NPCStatRescaler.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;u=8bf4f92abbaae3360539109b89e99e4c281338d4\u0026amp;v=4",
-      "User": "theSkyseS",
-      "Repository": "NPCStatRescaler"
-    },
-    {
-      "Patchers": [
-        {
           "Customization": null,
           "ProjectPath": "OppositeAnimationDisabler/OppositeAnimationDisabler.csproj"
         }
