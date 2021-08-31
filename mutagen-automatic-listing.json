@@ -603,6 +603,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "KZNPCPatchers",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "KZNPCPatchers/KZNPCPatchers.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/89848228?s=40\u0026amp;v=4",
+      "User": "pisichi",
+      "Repository": "KZ-NPC-Patcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "leveledlistresolver",
             "Visibility": "Visible",
             "OneLineDescription": "A Patcher for resolving leveled list conflicts without the use of Bash Tags.",
