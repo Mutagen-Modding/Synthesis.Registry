@@ -1623,6 +1623,24 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;u=d449654afc1bc25c346bb058eb5da4f6e7154727\u0026amp;v=4",
       "User": "tr4wzified",
       "Repository": "WaterDoesDamagePatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Weightless Misc Items",
+            "Visibility": "Visible",
+            "OneLineDescription": "Focus on the important things.",
+            "LongDescription": "Makes \u0022useless\u0022 items weightless. \n\n- Luca|EzioTheDeadPoet",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "Weightless-Misc-Items/Weightless-Misc-Items.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
+      "User": "EzioTheDeadPoet",
+      "Repository": "Weightless-Misc-Items"
     }
   ]
 }
