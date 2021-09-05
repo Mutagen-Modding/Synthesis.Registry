@@ -761,10 +761,10 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "MovementPatcher",
+            "Nickname": "Movement Speed Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Sync player \u0026 NPC speeds, fully customizable.",
-            "LongDescription": "",
+            "LongDescription": "Comprehensive movement speed overhaul contained within a single patcher.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
