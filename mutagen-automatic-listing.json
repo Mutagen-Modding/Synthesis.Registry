@@ -764,7 +764,7 @@
             "Nickname": "Movement Speed Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Sync player \u0026 NPC speeds, fully customizable.",
-            "LongDescription": "Comprehensive movement speed overhaul contained within a single patcher.",
+            "LongDescription": "Comprehensive movement speed overhaul contained within a single patcher.\n\nNexus Page:\t\n\nGithub Wiki:\t\n",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
