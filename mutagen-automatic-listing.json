@@ -730,6 +730,24 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "MasculinizedLeveledLists",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "MasculinizedLeveledLists/MasculinizedLeveledLists.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;u=552b40105c225bf6a7664f3ab1ca80847d164cd8\u0026amp;v=4",
+      "User": "ReaperAnon",
+      "Repository": "Masculinized-Leveled-Lists"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "CustomSet/CustomSet.csproj"
         },
