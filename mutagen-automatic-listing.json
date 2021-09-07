@@ -1134,7 +1134,14 @@
     {
       "Patchers": [
         {
-          "Customization": null,
+          "Customization": {
+            "Nickname": "SpeedandReachFixes",
+            "Visibility": "Visible",
+            "OneLineDescription": "Speed and Reach Fixes Patcher for Synthesis",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
           "ProjectPath": "SpeedandReachFixes/SpeedandReachFixes.csproj"
         }
       ],
