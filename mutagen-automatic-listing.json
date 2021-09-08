@@ -731,10 +731,10 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "MasculinizedLeveledLists",
+            "Nickname": "Masculinized Leveled Lists",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Patches leveled NPC lists to remove female entries from them based on the chosen criteria.",
+            "LongDescription": "Patches leveled NPC lists to remove female entries from them based on the chosen criteria.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
