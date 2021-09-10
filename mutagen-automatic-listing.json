@@ -1588,6 +1588,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "True Unleveled Skyrim",
+            "Visibility": "Visible",
+            "OneLineDescription": "IN DEVELOPMENT - A large collection of features to unlevel your game like never before with a lot of compatibility to boot.",
+            "LongDescription": "CURRENTLY IN DEVELOPMENT, USE AT OWN RISK - A large collection of features to unlevel your game like never before with a lot of compatibility to boot.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "TrueUnleveledSkyrim/TrueUnleveledSkyrim.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;u=552b40105c225bf6a7664f3ab1ca80847d164cd8\u0026amp;v=4",
+      "User": "ReaperAnon",
+      "Repository": "True-Unleveled-Skyrim"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "TUDMFootstepPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "",
