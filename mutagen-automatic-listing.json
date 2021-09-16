@@ -1088,24 +1088,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SkyUIWeaponIconPatcher",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "SkyUI Weapons Pack Icon patcher",
-            "LongDescription": "Based off miniz SkyWeaponKeywords, adjusted to patch for SkyUI Weapon Pack icon keywords",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
-          },
-          "ProjectPath": "SynWeaponKeywords/SynWeapType.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;u=aea00944b06657a3641c7a67acc5853ec38a8c53\u0026amp;v=4",
-      "User": "Deigue",
-      "Repository": "SkyUIWeaponIconPatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "SkyVRaan Auto Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "SkyVRaan Auto Patcher",
