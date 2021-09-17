@@ -155,15 +155,8 @@
     {
       "Patchers": [
         {
-          "Customization": {
-            "Nickname": "caco-alch-potion-builder Registry Builder",
-            "Visibility": "Visible",
-            "OneLineDescription": "Only useful for https://github.com/radj307/caco-alch-potion-builder",
-            "LongDescription": "I use this as a utility.\nYou don\u0027t need it unless you\u0027re using https://github.com/radj307/caco-alch-potion-builder",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
-          },
-          "ProjectPath": "alch_ingr_getter/alch-ingr-getter.csproj"
+          "Customization": null,
+          "ProjectPath": "alch_ingr_getter/alch_ingr_getter.csproj"
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;u=e663091c7647f5a8aa0ab1dbfa3cb17fc7aafa4e\u0026amp;v=4",
