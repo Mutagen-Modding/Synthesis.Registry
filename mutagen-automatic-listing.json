@@ -545,6 +545,26 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "HonedMetalAdditionalIngredients",
+            "Visibility": "Visible",
+            "OneLineDescription": "Adds additional ingredients for Honed Metal",
+            "LongDescription": "Adds intermediate ingredients (results of recipe 1 needed to craft recipe 2) to Honed Metal\u0027s ingredients list where the ingredients for recipe 1 are already in the basic or rare ingredients list.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "HonedMetal.esp"
+            ]
+          },
+          "ProjectPath": "HonedMetalAdditionalIngredients/HonedMetalAdditionalIngredients.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
+      "User": "mrudat",
+      "Repository": "Honed-Metal-Additional-Ingredients"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ICAIO AI for Mods",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "ICAIO AI for Mods",
