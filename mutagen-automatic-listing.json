@@ -846,24 +846,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Movement Speed Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Sync player \u0026 NPC speeds, fully customizable.",
-            "LongDescription": "Comprehensive movement speed overhaul contained within a single patcher.\n\nNexus Page:\thttps://www.nexusmods.com/skyrimspecialedition/mods/55117\n\nGithub Wiki:\thttps://github.com/Synthesis-Collective/MovementSpeedPatcher/wiki\n",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
-          },
-          "ProjectPath": "MovementPatcher/MovementPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "MovementSpeedPatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "MusicTypePatcher",
             "Visibility": "Visible",
             "OneLineDescription": "A Patcher for merging additions to MusicType records.",
