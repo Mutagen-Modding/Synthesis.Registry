@@ -1007,26 +1007,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Quest Journal Limit Bug Fixer",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "Requires Quest Journal Limit Bug Fixer: https://www.nexusmods.com/skyrimspecialedition/mods/56130",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "Quest Journal Limit Bug Fixer.esp"
-            ]
-          },
-          "ProjectPath": "QuestLimitFixer/QuestLimitFixer.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;u=e663091c7647f5a8aa0ab1dbfa3cb17fc7aafa4e\u0026amp;v=4",
-      "User": "radj307",
-      "Repository": "Quest-Journal-Limit-Fixer"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "RaceCompatibilityDialogue",
             "Visibility": "Visible",
             "OneLineDescription": "Adds dialog conditions for custom races.",
