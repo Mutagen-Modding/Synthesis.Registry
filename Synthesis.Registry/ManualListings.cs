@@ -1,12 +1,7 @@
-using GitHubDependents;
-using Synthesis.Bethesda.DTO;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using GitHubDependents;
 
-namespace Synthesis.Registry
+namespace Synthesis.Registry.MutagenScraper
 {
     public class ManualListings
     {
