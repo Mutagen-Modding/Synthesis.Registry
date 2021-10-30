@@ -7,11 +7,11 @@ namespace Synthesis.Registry.MutagenScraper
     {
         public GitHubClient Client { get; }
 
-        public GithubClientProvider()
+        public GithubClientProvider(
+            IArgProvider argProvider)
         {
             var gitHubClient = new GitHubClient(new ProductHeaderValue("SynthesisScraper"));
-            var loginToken = Environment.GetCommandLineArgs()[0];
-            gitHubClient.Credentials = new Credentials(loginToken);
+            gitHubClient.Credentials = new Credentials(argProvider.LoginToken);
             Client = gitHubClient;
         }
     }

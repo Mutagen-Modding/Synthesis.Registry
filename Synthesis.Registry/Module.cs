@@ -1,4 +1,5 @@
-﻿using Autofac;
+﻿using System.IO.Abstractions;
+using Autofac;
 
 namespace Synthesis.Registry.MutagenScraper
 {
@@ -6,7 +7,10 @@ namespace Synthesis.Registry.MutagenScraper
     {
         protected override void Load(ContainerBuilder builder)
         {
+            builder.RegisterInstance(new FileSystem())
+                .AsImplementedInterfaces();
             builder.RegisterAssemblyTypes(typeof(Program).Assembly)
+                .AsSelf()
                 .AsImplementedInterfaces();
         }
     }

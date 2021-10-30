@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synthesis.Registry.MutagenScraper", "Synthesis.Registry\Synthesis.Registry.MutagenScraper.csproj", "{68EF1DFA-724F-4B76-894A-37214A8924D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synthesis.Registry.MutagenScraper.Tests", "Synthesis.Registry.MutagenScraper.Tests\Synthesis.Registry.MutagenScraper.Tests.csproj", "{16F7D193-38C4-4C88-9A56-5E4A394EB544}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{68EF1DFA-724F-4B76-894A-37214A8924D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68EF1DFA-724F-4B76-894A-37214A8924D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68EF1DFA-724F-4B76-894A-37214A8924D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F7D193-38C4-4C88-9A56-5E4A394EB544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F7D193-38C4-4C88-9A56-5E4A394EB544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F7D193-38C4-4C88-9A56-5E4A394EB544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F7D193-38C4-4C88-9A56-5E4A394EB544}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

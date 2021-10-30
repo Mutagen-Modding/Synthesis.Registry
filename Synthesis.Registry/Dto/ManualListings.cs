@@ -1,7 +1,7 @@
 using System;
 using GitHubDependents;
 
-namespace Synthesis.Registry.MutagenScraper
+namespace Synthesis.Registry.MutagenScraper.Dto
 {
     public class ManualListings
     {

@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using GitHubDependents;
 using Noggog;
 
-namespace Synthesis.Registry.MutagenScraper.DependentListings
+namespace Synthesis.Registry.MutagenScraper.Listings
 {
     public class GitHubDependentListingsProvider
     {

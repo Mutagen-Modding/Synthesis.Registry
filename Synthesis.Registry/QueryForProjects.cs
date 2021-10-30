@@ -73,7 +73,7 @@ namespace Synthesis.Registry.MutagenScraper
         private async Task PrintAndWaitForReset(bool printReset = false)
         {
             var limits = _apiUsagePrinter.Print(printReset);
-            if (limits.Remaining == 0)
+            if (limits is { Remaining: 0 })
             {
                 var millis = (int)(limits.Reset - DateTime.Now).TotalMilliseconds;
                 millis += 2000;

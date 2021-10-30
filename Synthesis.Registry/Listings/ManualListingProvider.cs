@@ -6,10 +6,11 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using GitHubDependents;
 using Noggog;
+using Synthesis.Registry.MutagenScraper.Dto;
 
-namespace Synthesis.Registry.MutagenScraper.DependentListings
+namespace Synthesis.Registry.MutagenScraper.Listings
 {
-    public class ManualDependentListingProvider
+    public class ManualListingProvider
     {
         public async Task<GetResponse<List<Dependent>>> Get()
         {

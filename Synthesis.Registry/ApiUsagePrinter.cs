@@ -11,9 +11,11 @@ namespace Synthesis.Registry.MutagenScraper
             _githubClientProvider = githubClientProvider;
         }
         
-        public RateLimit Print(bool printReset = false)
+        public RateLimit? Print(bool printReset = false)
         {
-            var limits = _githubClientProvider.Client.GetLastApiInfo().RateLimit;
+            var lastApiInfo = _githubClientProvider.Client.GetLastApiInfo();
+            if (lastApiInfo == null) return null;
+            var limits = lastApiInfo.RateLimit;
             System.Console.WriteLine($"API usage remaining: {(100d * limits.Remaining / (limits.Limit == 0 ? -1 : limits.Limit))}% ({limits.Remaining}/{limits.Limit})");
             if (printReset)
             {
