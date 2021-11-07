@@ -6,6 +6,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using GitHubDependents;
 using Noggog;
+using Octokit;
 using Synthesis.Bethesda;
 using Synthesis.Bethesda.DTO;
 
@@ -42,7 +43,16 @@ namespace Synthesis.Registry.MutagenScraper.Construction
                     {
                         var metaPath = Path.Combine(Path.GetDirectoryName(proj)!, Constants.MetaFileName);
                         System.Console.WriteLine($"{dep} retrieving meta path for {proj}");
-                        var content = await gitHubClient.Repository.Content.GetAllContents(dep.User, dep.Repository, metaPath);
+                        IReadOnlyList<RepositoryContent>? content;
+                        try
+                        { 
+                            content = await gitHubClient.Repository.Content.GetAllContents(dep.User, dep.Repository, metaPath);
+                        }
+                        catch (Exception e)
+                        {
+                            System.Console.WriteLine($"{dep} no meta path found for {proj}");
+                            return null;
+                        }
                         _apiUsagePrinter.Print();
                         if (content.Count != 1)
                         {
