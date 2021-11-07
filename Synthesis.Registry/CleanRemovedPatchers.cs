@@ -7,10 +7,10 @@ namespace Synthesis.Registry.MutagenScraper
 {
     public class CleanRemovedPatchers
     {
-        private readonly SynthesisListingsProvider _listingsProvider;
+        private readonly ISynthesisListingsProvider _listingsProvider;
 
         public CleanRemovedPatchers(
-            SynthesisListingsProvider listingsProvider)
+            ISynthesisListingsProvider listingsProvider)
         {
             _listingsProvider = listingsProvider;
         }

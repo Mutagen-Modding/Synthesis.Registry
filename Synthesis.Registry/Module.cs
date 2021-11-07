@@ -11,7 +11,8 @@ namespace Synthesis.Registry.MutagenScraper
                 .AsImplementedInterfaces();
             builder.RegisterAssemblyTypes(typeof(Program).Assembly)
                 .AsSelf()
-                .AsImplementedInterfaces();
+                .AsImplementedInterfaces()
+                .SingleInstance();
         }
     }
 }
