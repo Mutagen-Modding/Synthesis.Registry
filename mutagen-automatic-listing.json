@@ -174,6 +174,17 @@
       "Patchers": [
         {
           "Customization": null,
+          "ProjectPath": "BreakdownRecipeGenerator/BreakdownRecipeGenerator.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;u=552b40105c225bf6a7664f3ab1ca80847d164cd8\u0026amp;v=4",
+      "User": "ReaperAnon",
+      "Repository": "BreakdownRecipeGenerator"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
           "ProjectPath": "alch_ingr_getter/alch_ingr_getter.csproj"
         }
       ],
@@ -216,6 +227,24 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;u=aea00944b06657a3641c7a67acc5853ec38a8c53\u0026amp;v=4",
       "User": "Deigue",
       "Repository": "CellEncounterLevelsInName"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "CompleteCraftingOverhaulCompatibleRecipeGenerator",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "CompleteCraftingOverhaulCompatibleRecipeGenerator/CompleteCraftingOverhaulCompatibleRecipeGenerator.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
+      "User": "mrudat",
+      "Repository": "Complete-Crafting-Overhaul-Compatible-Recipe-Generator"
     },
     {
       "Patchers": [
@@ -295,6 +324,28 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "RecombinePatch",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "Recombine stuff",
+            "LongDescription": "TBD",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "RecombinePatch/RecombinePatch.csproj"
+        },
+        {
+          "Customization": null,
+          "ProjectPath": "RecombinePatchTests/RecombinePatchTests.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/10343101?s=40\u0026amp;u=d93f3113816fe0babacabf4daeefe538da8bece0\u0026amp;v=4",
+      "User": "DearLuck",
+      "Repository": "DistributeArmorSetsToNpcs"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ENB Light Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Reduces the light intensity of your other mods so ENB Light doesn\u0027t make it too bright.",
@@ -308,6 +359,24 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;u=d449654afc1bc25c346bb058eb5da4f6e7154727\u0026amp;v=4",
       "User": "tr4wzified",
       "Repository": "enblightpatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "EnchantedVariantsGenerater",
+            "Visibility": "Visible",
+            "OneLineDescription": " Generates Enchanted versions of weapons and armors, along with sublists",
+            "LongDescription": "Requires inputting Enchantments, Weapons, and Armors manually, generated sublists need to be added to playable leveled lists manually",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "EnchantedVariantsGenerater/EnchantedVariantsGenerater.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;u=76f2a697aaeadfd3f2472bbc6dd06c0f5f5fedf9\u0026amp;v=4",
+      "User": "ExpensiveLadder",
+      "Repository": "Enchanted-Variants-Generater"
     },
     {
       "Patchers": [
@@ -680,7 +749,7 @@
           "ProjectPath": "KZNPCPatchers/KZNPCPatchers.csproj"
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/89848228?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/36178784?s=40\u0026amp;u=876c53db636d183ff146d15de9846bf72e5bcf3c\u0026amp;v=4",
       "User": "pisichi",
       "Repository": "KZ-NPC-Patcher"
     },
@@ -793,6 +862,24 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "MakeFirewoodPilesIntoContainers"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "MaleAAGenerator",
+            "Visibility": "Visible",
+            "OneLineDescription": "Automates plugin generation for female to male armor conversion.",
+            "LongDescription": "Comes with a settings menu to select the mods to be updated and a configurable suffix.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "MaleAAGenerator/MaleAAGenerator.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/52758909?s=40\u0026amp;u=ae24f6c57d66ae0cd804c80a0f74af4d91729e22\u0026amp;v=4",
+      "User": "cuyima",
+      "Repository": "MaleAAGenerator"
     },
     {
       "Patchers": [
@@ -1046,6 +1133,17 @@
     {
       "Patchers": [
         {
+          "Customization": null,
+          "ProjectPath": "SanguinaireCompat/Sanguinaire Race Compatibility.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/28060609?s=40\u0026amp;u=ec5f7dfba3290540b45640c7ba999e3ac75230b8\u0026amp;v=4",
+      "User": "azraerl",
+      "Repository": "RandomUtility"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "ReadingIsGoodLegacy",
             "Visibility": "Visible",
@@ -1116,6 +1214,24 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SFCOPaintingRemover"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "shadowmark_patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "shadowmark_patcher/shadowmark_patcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
+      "User": "JanuarySnow",
+      "Repository": "Shadowmark-Patcher"
     },
     {
       "Patchers": [
@@ -1271,6 +1387,24 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;u=d449654afc1bc25c346bb058eb5da4f6e7154727\u0026amp;v=4",
       "User": "tr4wzified",
       "Repository": "SpellTomePricePatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "spelltome_yeeter",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "spelltome_yeeter/spelltome_yeeter.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
+      "User": "JanuarySnow",
+      "Repository": "Spelltome-Yeeter"
     },
     {
       "Patchers": [
@@ -1588,6 +1722,26 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "ELE Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Enhanced Lighting for ENB patcher",
+            "LongDescription": "Synthesis patcher for Enhanced Lighting for ENB.\r\nOnly supports SkyrimSE version for now.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "ELE_SSE.esp"
+            ]
+          },
+          "ProjectPath": "ELE_Patcher/ELE_Patcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/23498000?s=40\u0026amp;u=7e69567ce1aedde841a7bf44d42329dac682c97f\u0026amp;v=4",
+      "User": "Benna96",
+      "Repository": "Synthesis-Misc-Compatibility-Patchers"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynthNPCsWithFaces",
             "Visibility": "Visible",
             "OneLineDescription": "Helper patcher for TPF",
@@ -1750,7 +1904,7 @@
           "ProjectPath": "Weightless-Misc-Items/Weightless-Misc-Items.csproj"
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;u=daef801143a204d84352dc2bb318e6a4de5113aa\u0026amp;v=4",
       "User": "EzioTheDeadPoet",
       "Repository": "Weightless-Misc-Items"
     }
