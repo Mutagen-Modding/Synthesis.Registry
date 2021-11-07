@@ -332,10 +332,6 @@
             "RequiredMods": []
           },
           "ProjectPath": "RecombinePatch/RecombinePatch.csproj"
-        },
-        {
-          "Customization": null,
-          "ProjectPath": "RecombinePatchTests/RecombinePatchTests.csproj"
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/10343101?s=40\u0026amp;u=d93f3113816fe0babacabf4daeefe538da8bece0\u0026amp;v=4",
