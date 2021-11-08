@@ -1027,6 +1027,24 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "NPC-DeLeveler",
+            "Visibility": "Visible",
+            "OneLineDescription": "Set all NPC max levels to a value of your choice.",
+            "LongDescription": "Made for request #30: https://github.com/Synthesis-Collective/Development/issues/30 \nAllows you to set the level of all NPCs and LeveledNPCs.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "NPC-DeLeveler/NPC_DeLeveler.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;u=e663091c7647f5a8aa0ab1dbfa3cb17fc7aafa4e\u0026amp;v=4",
+      "User": "radj307",
+      "Repository": "NPC-Deleveler"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "NPCEnchantFix/NPCEnchantFix.csproj"
         }
