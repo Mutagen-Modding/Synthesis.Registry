@@ -342,6 +342,26 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "ELE Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Enhanced Lighting for ENB patcher",
+            "LongDescription": "Synthesis patcher for Enhanced Lighting for ENB.\r\nOnly supports SkyrimSE version for now.\r\nPlease ignore the other version of the patcher if it\u0027s still on the list, take this one. The repo was moved.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "ELE_SSE.esp"
+            ]
+          },
+          "ProjectPath": "ELE_Patcher/ELE_Patcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/93822872?s=40\u0026amp;v=4",
+      "User": "Benna96-Synthesis",
+      "Repository": "ELE_Patcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ENB Light Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Reduces the light intensity of your other mods so ENB Light doesn\u0027t make it too bright.",
