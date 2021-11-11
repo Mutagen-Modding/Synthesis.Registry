@@ -31,7 +31,7 @@ namespace Synthesis.Registry.MutagenScraper
         public async Task Run()
         {
             // Clean existing repos that aren't listed anymore
-            var existingCleaned = await _clean.Clean(_existingListingsProvider.Read());
+            var existingCleaned = await _clean.Clean(_existingListingsProvider.Listings.Value);
             
             var outbound = existingCleaned.Repositories
                 .ToDictionary(x => new ListingKey(x.User, x.Repository), x => x);

@@ -19,7 +19,7 @@ namespace Synthesis.Registry.MutagenScraper.Construction
             _constructListings = constructListings;
         }
         
-        public async Task<RepositoryListing> Construct(Dependent dep)
+        public async Task<RepositoryListing> Construct(Dependent dep, RepositoryListing? existing)
         {
             System.Console.WriteLine($"Processing {dep}");
             var projs = await _queryForProjects.Query(dep);
@@ -31,7 +31,8 @@ namespace Synthesis.Registry.MutagenScraper.Construction
             await Task.Delay(500);
             return new RepositoryListing()
             {
-                AvatarURL = dep.AvatarURL,
+                // For some reason, Avatar was flickering
+                AvatarURL = dep.AvatarURL ?? existing?.AvatarURL,
                 Repository = dep.Repository!,
                 User = dep.User!,
                 Patchers = patchers
