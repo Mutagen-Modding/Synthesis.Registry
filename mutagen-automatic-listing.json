@@ -1163,6 +1163,24 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "Radial Blur Remover",
+            "Visibility": "Visible",
+            "OneLineDescription": "Removes radial blur effects",
+            "LongDescription": "Requested by godescalcus#8090.\r\nRemoves radial blur from all image space adapters.\r\nAllows excluding specific image spaces, useful if you still want radial blur from specific sources such as being drunk or cold.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "Radial-Blur-Remover/Radial-Blur-Remover.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/93822872?s=40\u0026amp;v=4",
+      "User": "Benna96-Synthesis",
+      "Repository": "Radial-Blur-Remover"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "SanguinaireCompat/Sanguinaire Race Compatibility.csproj"
         }
