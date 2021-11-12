@@ -173,7 +173,14 @@
     {
       "Patchers": [
         {
-          "Customization": null,
+          "Customization": {
+            "Nickname": "BreakdownRecipeGenerator",
+            "Visibility": "Visible",
+            "OneLineDescription": "Generates breakdown recipes for every craftable item in the game.",
+            "LongDescription": "Generates breakdown recipes for every craftable item in the game. Additionally, it also supports user-defined breakdown recipes for any types of items.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
           "ProjectPath": "BreakdownRecipeGenerator/BreakdownRecipeGenerator.csproj"
         }
       ],
@@ -933,6 +940,24 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "MissingEncounterZonesPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Forwards changes from MEZF so they don\u0027t get overwritten by other mods.",
+            "LongDescription": "Forwards changes from MEZF so they don\u0027t get overwritten by other mods. The changes get overwritten very frequently, even by things like lighting mods. Requires one of the files from the original mod.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "MissingEncounterZonesPatcher/MissingEncounterZonesPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;u=552b40105c225bf6a7664f3ab1ca80847d164cd8\u0026amp;v=4",
+      "User": "ReaperAnon",
+      "Repository": "Missing-Encounter-Zones-Patcher"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "MortalEnemies/MortalEnemies.csproj"
         }
@@ -1206,6 +1231,24 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;u=8bf4f92abbaae3360539109b89e99e4c281338d4\u0026amp;v=4",
       "User": "theSkyseS",
       "Repository": "ReadingIsGoodLegacy"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "RealisticWaterTwoPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Forwards changes from RWT so they don\u0027t get overwritten by other mods.",
+            "LongDescription": "Forwards changes from RWT so they don\u0027t get overwritten by other mods. The changes get overwritten very frequently by a lot of different mods. This is not a patcher for new lands, it just keeps the original mod intact. If you have a mod like Falskaar, it will still need its own patch.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "RealisticWaterTwoPatcher/RealisticWaterTwoPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;u=552b40105c225bf6a7664f3ab1ca80847d164cd8\u0026amp;v=4",
+      "User": "ReaperAnon",
+      "Repository": "Realistic-Water-Two-Patcher"
     },
     {
       "Patchers": [
