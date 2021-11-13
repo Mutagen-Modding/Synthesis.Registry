@@ -313,6 +313,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "DisenchantEverything",
+            "Visibility": "Visible",
+            "OneLineDescription": "Removes the MagicDisallowEnchanting keyword from all items.",
+            "LongDescription": "Removes the MagicDisallowEnchanting keyword from all items.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "DisenchantEverything/DisenchantEverything.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;u=552b40105c225bf6a7664f3ab1ca80847d164cd8\u0026amp;v=4",
+      "User": "ReaperAnon",
+      "Repository": "Disenchant-Everything"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "DisplaySpellTomeLevelPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Custom formatting options for the naming of your Spell Tomes, including level, magic school, plugin name \u0026 spell name",
