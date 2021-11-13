@@ -1210,7 +1210,7 @@
             "Nickname": "Radial Blur Remover",
             "Visibility": "Visible",
             "OneLineDescription": "Removes radial blur effects",
-            "LongDescription": "Requested by godescalcus#8090.\r\nRemoves radial blur from all image space adapters.\r\nAllows excluding specific image spaces, useful if you still want radial blur from specific sources such as being drunk or cold.",
+            "LongDescription": "Removes radial blur from all image space adapters.\r\nAllows excluding specific image spaces, useful if you still want radial blur from specific sources such as being drunk or cold.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
