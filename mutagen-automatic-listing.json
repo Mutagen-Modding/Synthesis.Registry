@@ -508,6 +508,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "FixMergedDAR",
+            "Visibility": "Visible",
+            "OneLineDescription": "DAR ZMerge Fixup",
+            "LongDescription": "Produce patched conditions.txt files where they contain Plugins and FormIDs that are now in a ZMerged plugin.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "FixMergedDAR/FixMergedDAR.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
+      "User": "SteveTownsend",
+      "Repository": "FixMergedDAR"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Respect My Body (Slide)",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "Remove custom bodies from NPC mods, so that they all use the PC/default body.",
