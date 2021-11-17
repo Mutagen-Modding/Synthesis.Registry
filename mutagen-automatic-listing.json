@@ -1185,6 +1185,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Pine Tree Rescaler",
+            "Visibility": "Visible",
+            "OneLineDescription": "Rescales all pine trees",
+            "LongDescription": "Rescales all the different pine trees by a user defined amount. Dead trees included, snowy trees not.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "PineTreeScaler/PineTreeScaler.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
+      "User": "Bl4ckread",
+      "Repository": "PineTreeScaler"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Quest Journal Limit Bug Fixer",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis version of the Quest Journal Limit Bug Fixer xEdit patch.",
