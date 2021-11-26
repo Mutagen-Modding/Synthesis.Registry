@@ -794,6 +794,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "KS Hairs Bald Helmets Fixer",
+            "Visibility": "Visible",
+            "OneLineDescription": "Fixes bald heads under helmets when using KS Hairdos",
+            "LongDescription": "When using KS Hairs with many vanilla helmets, the character\u0027s head may appear completely bald underneath. This is because many of the helmets use the biped slot 41 - LongHair, which blocks out the hairline from showing. This patcher removes the biped slot from all the helmet records, allowing the hairline to show again. Obviously it\u0027s not as good as a proper hair model, but it\u0027s better than nothing.\nEditorIDs for items you do not wish to modify can be added to the blacklist in the settings. The blacklist is a comma separated string of EditorIDs. The items on the list are partially matched, case-insensitive. E.g., if you want to blacklist all KS SMP wigs, you can add \u0027kswig\u0027 (without quotes) to the blacklist.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "KSHairsBaldHelmetsFixer/KSHairsBaldHelmetsFixer.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
+      "User": "Bl4ckread",
+      "Repository": "KSHairsBaldHelmetsFixer"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "KZNPCPatchers",
             "Visibility": "Visible",
             "OneLineDescription": "",
