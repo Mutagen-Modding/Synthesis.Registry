@@ -293,6 +293,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "CustomizableItemSorting",
+            "Visibility": "Visible",
+            "OneLineDescription": "Allows for sorting items into user-defined categories.",
+            "LongDescription": "Allows for sorting items into user-defined categories.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "CustomizableItemSorting/CustomizableItemSorting.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;u=552b40105c225bf6a7664f3ab1ca80847d164cd8\u0026amp;v=4",
+      "User": "ReaperAnon",
+      "Repository": "CustomizableItemSorting"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "DestructibleSkyrimPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Patches mods placing objects in cells/worldspaces using the original Skyrim statics to Destructible Skyrim\u0027s destructible objects",
