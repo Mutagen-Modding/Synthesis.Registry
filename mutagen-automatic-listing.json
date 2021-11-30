@@ -1457,7 +1457,7 @@
             "Nickname": "PassiveEnchantingXP",
             "Visibility": "Visible",
             "OneLineDescription": "Patcher for Passive Enchanting XP.",
-            "LongDescription": " Script files are required for the mod to function. Original .esp may be replaced by the Synthesis patch.",
+            "LongDescription": " Script files are required for the mod to function.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "PassiveEnchantingXP.esp"
