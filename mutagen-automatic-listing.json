@@ -1454,6 +1454,26 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "PassiveEnchantingXP",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patcher for Passive Enchanting XP.",
+            "LongDescription": " Script files are required for the mod to function. Original .esp may be replaced by the Synthesis patch.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "PassiveEnchantingXP.esp"
+            ]
+          },
+          "ProjectPath": "PassiveEnchantingXP/PassiveEnchantingXP/PassiveEnchantingXP.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;u=1936be0123c3b4c52d29e8cb852f5c87629f20ce\u0026amp;v=4",
+      "User": "Jampi0n",
+      "Repository": "Skyrim-PassiveEnchantingXP"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SkyUIWeaponIconPatcher",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "SkyUI Weapons Pack Icon patcher",
