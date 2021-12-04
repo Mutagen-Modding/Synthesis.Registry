@@ -2061,24 +2061,6 @@
     {
       "Patchers": [
         {
-          "Customization": {
-            "Nickname": "UnderThere",
-            "Visibility": "Visible",
-            "OneLineDescription": "Distributes undergarments (that are always equipped and hidden under clothing) to NPCs.",
-            "LongDescription": "User-configurable patcher that defines underwear items, distributes them to NPCs, and equips them under their clothes or armor. You get to decide which items are undergarments, import them into the patcher, and assign them to NPCs at random, by class, or by faction.\nThe default settings rely upon you having the mod Equipable Underwear for Everyone in your load order, but this dependency can be completely removed and switched to other undergarment mods by editing the settings.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
-          },
-          "ProjectPath": "UnderThere/UnderThere.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/87837628?s=40\u0026amp;v=4",
-      "User": "ck4zb",
-      "Repository": "Under-There-FSF"
-    },
-    {
-      "Patchers": [
-        {
           "Customization": null,
           "ProjectPath": "Tests/Tests.csproj"
         }
