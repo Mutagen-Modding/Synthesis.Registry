@@ -2109,6 +2109,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "WeaponSpeedEffectsFix",
+            "Visibility": "Visible",
+            "OneLineDescription": "Weapon Speed Effects Fix and Attack Speed Framework Plus Synthesis Patcher for Skyrim SE",
+            "LongDescription": "Replaces \u0027_lilmace - Weapon Speed Effects Fix patcher.pas\u0027 from https://www.nexusmods.com/skyrimspecialedition/mods/36042",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "WeaponSpeedEffectsFix/WeaponSpeedEffectsFix.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
+      "User": "SteveTownsend",
+      "Repository": "WeaponSpeedEffectsFix"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Weightless Misc Items",
             "Visibility": "Visible",
             "OneLineDescription": "Focus on the important things.",
