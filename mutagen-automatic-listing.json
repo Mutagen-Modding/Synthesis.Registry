@@ -1454,16 +1454,16 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "PassiveEnchantingXP",
+            "Nickname": "Passive Enchanting Experience",
             "Visibility": "Visible",
-            "OneLineDescription": "Patcher for Passive Enchanting XP.",
-            "LongDescription": " Script files are required for the mod to function.",
+            "OneLineDescription": "Patches base enchantments to passively give experience while in combat.",
+            "LongDescription": "Patches base enchantments to passively give experience while in combat.\nNexus Link: https://www.nexusmods.com/skyrimspecialedition/mods/59310",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "PassiveEnchantingXP.esp"
             ]
           },
-          "ProjectPath": "PassiveEnchantingXP/PassiveEnchantingXP/PassiveEnchantingXP.csproj"
+          "ProjectPath": "PassiveEnchantingXP/PassiveEnchantingXP.csproj"
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;u=1936be0123c3b4c52d29e8cb852f5c87629f20ce\u0026amp;v=4",
