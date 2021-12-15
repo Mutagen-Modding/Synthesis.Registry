@@ -1454,6 +1454,42 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "ArmoryRebalance",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "ArmoryRebalance/ArmoryRebalance/ArmoryRebalance.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;u=1936be0123c3b4c52d29e8cb852f5c87629f20ce\u0026amp;v=4",
+      "User": "Jampi0n",
+      "Repository": "Skyrim-ArmoryRebalance"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Skyrim-LeveledLoot",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "Skyrim-LeveledLoot/LeveledLoot.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;u=1936be0123c3b4c52d29e8cb852f5c87629f20ce\u0026amp;v=4",
+      "User": "Jampi0n",
+      "Repository": "Skyrim-LeveledLoot"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Passive Enchanting Experience",
             "Visibility": "Visible",
             "OneLineDescription": "Patches base enchantments to passively give experience while in combat.",
