@@ -191,17 +191,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
-          "ProjectPath": "alch_ingr_getter/alch_ingr_getter.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;u=e663091c7647f5a8aa0ab1dbfa3cb17fc7aafa4e\u0026amp;v=4",
-      "User": "radj307",
-      "Repository": "caco-alch-registry-builder"
-    },
-    {
-      "Patchers": [
-        {
           "Customization": {
             "Nickname": "CellEditorIDFixer",
             "Visibility": "Visible",
