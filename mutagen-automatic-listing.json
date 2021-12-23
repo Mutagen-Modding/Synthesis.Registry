@@ -1479,6 +1479,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Loading Screen Generator",
+            "Visibility": "Visible",
+            "OneLineDescription": "Creates a fully working loading screen mod from the images within a selected directory.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "LoadScreenGen/LoadScreenGen.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;u=1936be0123c3b4c52d29e8cb852f5c87629f20ce\u0026amp;v=4",
+      "User": "Jampi0n",
+      "Repository": "Skyrim-LoadingScreenGenerator"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Passive Enchanting Experience",
             "Visibility": "Visible",
             "OneLineDescription": "Patches base enchantments to passively give experience while in combat.",
