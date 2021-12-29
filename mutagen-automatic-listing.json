@@ -1659,12 +1659,12 @@
           "Customization": {
             "Nickname": "SpellTomePriceFixPatcher",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Multiply the spell tome values in your load order by a specified amount",
+            "LongDescription": "Multiply the spell tome values in your load order by a specified amount in the settings",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
-          "ProjectPath": "SpellTomePriceFixPatcher/SpellTomePriceFixPatcher.csproj"
+          "ProjectPath": "SpellTomePriceFixPatcher/SpellTomePricePatcher.csproj"
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;u=d449654afc1bc25c346bb058eb5da4f6e7154727\u0026amp;v=4",
