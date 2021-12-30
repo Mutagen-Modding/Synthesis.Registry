@@ -2155,6 +2155,26 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "VenndorPriestNPCPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Forwards Priest Vendor fraction to NPC fractions list",
+            "LongDescription": "- Forwards priest vendor fractions to winnig NPC override record. -",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Priest Vendors SE.esp"
+            ]
+          },
+          "ProjectPath": "VendorPriestNPCPatcher/VendorPriestNPCPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/18351077?s=40\u0026amp;v=4",
+      "User": "vonLeebpl",
+      "Repository": "VendorPriestNPCPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Water Does Damage Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Patches all the waters in your load order to have the \u0027Does Damage\u0027 flag applied - useful for needs mods.",
