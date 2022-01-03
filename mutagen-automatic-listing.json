@@ -714,6 +714,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "hph-race-patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "hph-race-patcher/hph-race-patcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
+      "User": "JanuarySnow",
+      "Repository": "hph_replacer"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ICAIO AI for Mods",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "ICAIO AI for Mods",
