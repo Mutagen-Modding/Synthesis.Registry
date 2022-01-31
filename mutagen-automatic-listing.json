@@ -1321,6 +1321,26 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Poverty Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patcher for Poverty - You Hunger Reborn",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Poverty.esp"
+            ]
+          },
+          "ProjectPath": "Poverty/Poverty.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;u=e663091c7647f5a8aa0ab1dbfa3cb17fc7aafa4e\u0026amp;v=4",
+      "User": "radj307",
+      "Repository": "Poverty-Patcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Quest Journal Limit Bug Fixer",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis version of the Quest Journal Limit Bug Fixer xEdit patch.",
