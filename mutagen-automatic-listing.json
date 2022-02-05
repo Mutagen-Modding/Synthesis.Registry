@@ -1341,6 +1341,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "PresetChecker",
+            "Visibility": "Visible",
+            "OneLineDescription": "Preset FormID Check and ZMerge Fixup",
+            "LongDescription": "Ensure Head Part Form IDs are recognized. Produce patched jslot files where they contain Plugins and FormIDs that are now in a ZMerged plugin.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "PresetChecker/PresetChecker.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
+      "User": "SteveTownsend",
+      "Repository": "PresetChecker"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Quest Journal Limit Bug Fixer",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis version of the Quest Journal Limit Bug Fixer xEdit patch.",
