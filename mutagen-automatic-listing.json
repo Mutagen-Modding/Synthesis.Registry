@@ -515,6 +515,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "FacegenBaseline",
+            "Visibility": "Visible",
+            "OneLineDescription": "Use default facegen override from a foundational NPC appearance mod",
+            "LongDescription": "Forwards foundational mod\u0027s NPC appearance fields to the winning override in the Synthesis patch, if overridden by another mod but facegen not altered vs the master.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "FacegenBaseline/FacegenBaseline.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
+      "User": "SteveTownsend",
+      "Repository": "FacegenBaseline"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "FixMergedDAR",
             "Visibility": "Visible",
             "OneLineDescription": "DAR ZMerge Fixup",
