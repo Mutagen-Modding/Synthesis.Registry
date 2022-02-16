@@ -1156,6 +1156,24 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "NoShadowsPatch",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "NoShadowsPatch/NoShadowsPatch.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;u=76f2a697aaeadfd3f2472bbc6dd06c0f5f5fedf9\u0026amp;v=4",
+      "User": "ExpensiveLadder",
+      "Repository": "No-Shadows-Patch"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "NoDragonLODs/NoDragonLODs.csproj"
         }
@@ -1184,24 +1202,6 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
       "User": "Bl4ckread",
       "Repository": "Northpoint-BDS-Patcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "NoShadowsPatch",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
-          },
-          "ProjectPath": "NoShadowsPatch/NoShadowsPatch.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;u=76f2a697aaeadfd3f2472bbc6dd06c0f5f5fedf9\u0026amp;v=4",
-      "User": "ExpensiveLadder",
-      "Repository": "No-Shadows-Patch"
     },
     {
       "Patchers": [
@@ -1767,24 +1767,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SpellTomePriceFixPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Multiply the spell tome values in your load order by a specified amount",
-            "LongDescription": "Multiply the spell tome values in your load order by a specified amount in the settings",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
-          },
-          "ProjectPath": "SpellTomePriceFixPatcher/SpellTomePricePatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;u=d449654afc1bc25c346bb058eb5da4f6e7154727\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "SpellTomePricePatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "spelltome_yeeter",
             "Visibility": "Visible",
             "OneLineDescription": "",
@@ -1798,6 +1780,24 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
       "User": "JanuarySnow",
       "Repository": "Spelltome-Yeeter"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SpellTomePriceFixPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Multiply the spell tome values in your load order by a specified amount",
+            "LongDescription": "Multiply the spell tome values in your load order by a specified amount in the settings",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SpellTomePriceFixPatcher/SpellTomePricePatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;u=d449654afc1bc25c346bb058eb5da4f6e7154727\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "SpellTomePricePatcher"
     },
     {
       "Patchers": [
