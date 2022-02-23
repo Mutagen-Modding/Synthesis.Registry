@@ -1648,6 +1648,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Remove Landscape Vertex Color",
+            "Visibility": "Visible",
+            "OneLineDescription": "Removes vertex coloring from landscapes.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "RemoveLandscapeVertexColor/RemoveLandscapeVertexColor.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;u=1936be0123c3b4c52d29e8cb852f5c87629f20ce\u0026amp;v=4",
+      "User": "Jampi0n",
+      "Repository": "Skyrim-RemoveLandscapeVertexColor"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SkyUIWeaponIconPatcher",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "SkyUI Weapons Pack Icon patcher",
