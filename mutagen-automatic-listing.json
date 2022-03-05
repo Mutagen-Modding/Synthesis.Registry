@@ -468,6 +468,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Theeverythingemfuckener",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "Theeverythingemfuckener/Theeverythingemfuckener.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
+      "User": "JanuarySnow",
+      "Repository": "everythingemfuckener"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Experience Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Generates a csv file for the Experience mod so that the kill function works on all NPCs.",
