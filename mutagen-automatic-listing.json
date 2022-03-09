@@ -804,24 +804,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "ImChPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
-          },
-          "ProjectPath": "ImChPatcher/ImChPatcher.csproj"
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
-      "User": "ExpensiveLadder",
-      "Repository": "Immersive-Children-Patcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "ImmersiveEquipmentMeshGen",
             "Visibility": "Visible",
             "OneLineDescription": "Mesh patcher for Immersive Equipment Displays, Skyrim SE",
