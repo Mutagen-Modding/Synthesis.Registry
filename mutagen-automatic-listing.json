@@ -2236,6 +2236,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "TMOPatcher",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "TMOPatcher/TMOPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/556678?s=40\u0026amp;v=4",
+      "User": "jdsmith2816",
+      "Repository": "tmopatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "True Unleveled Skyrim",
             "Visibility": "Visible",
             "OneLineDescription": "A large collection of features to unlevel your game like never before with a lot of compatibility to boot.",
