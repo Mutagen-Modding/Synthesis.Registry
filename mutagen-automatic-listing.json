@@ -2319,6 +2319,26 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "UniqueRegionNamesPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis patcher for the Unique Region Names mod.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Unique Region Names.esp"
+            ]
+          },
+          "ProjectPath": "UniqueRegionNamesPatcher/UniqueRegionNamesPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
+      "User": "radj307",
+      "Repository": "UniqueRegionNamesPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "UPFLoader - HeartSeeker",
             "Visibility": "Visible",
             "OneLineDescription": "Loader for HeartSeeker Skyrim UPF Patch",
