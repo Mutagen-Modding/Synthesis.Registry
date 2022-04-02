@@ -1803,6 +1803,26 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SpellBindPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Creates Spell Bind scroll crafting recipes for all spells in the game learnable from spell tomes",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Spell Bind"
+            ]
+          },
+          "ProjectPath": "SpellbindPatcher/SpellbindPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/926013?s=40\u0026amp;v=4",
+      "User": "Xgatt",
+      "Repository": "SpellbindPatcher-Synthesis"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "spelltome_yeeter",
             "Visibility": "Visible",
             "OneLineDescription": "",
