@@ -1110,6 +1110,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Metric Units Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patcher that converts from imperial units to metric units.",
+            "LongDescription": "Converts imperial length units used by Ordinator\u0027s perk descriptions to metric.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "Metric-Units/MetricUnits.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
+      "User": "radj307",
+      "Repository": "Metric-Units-Patcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "MissingEncounterZonesPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Forwards changes from MEZF so they don\u0027t get overwritten by other mods.",
