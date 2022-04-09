@@ -1628,6 +1628,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Arrow Damage Scaling",
+            "Visibility": "Visible",
+            "OneLineDescription": "Makes Perks, Enchantments, Potions, Archery Level and other bow damage increasing effects also affect arrow damage, so that stronger arrows are still useful in the late game.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "ArrowDamageScaling/ArrowDamageScaling.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
+      "User": "Jampi0n",
+      "Repository": "Skyrim-ArrowDamageScaling"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Skyrim-LeveledLoot",
             "Visibility": "Visible",
             "OneLineDescription": "",
