@@ -1646,6 +1646,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Disable Vanilla Loading Screens",
+            "Visibility": "Visible",
+            "OneLineDescription": "Disables vanilla loading screens, so you will only see loading screens from mods.",
+            "LongDescription": "There are three modes:\r\nAll:\r\nDisables all loading screens in your load order. Run this while loading screen mods are not in your load order to disable all the other loading screens. This can also be used, if you want to play without loading screens at all.\r\n\r\nVanilla:\r\nDisables all loading screens from official plugins (Skyrim \u002B DLCs \u002B Creation Club) and the unofficial patch. You will still get loading screens from quest mods and other mods that are not purely loading screen mods.\r\n\r\nSmart:\r\nDisables loading screens from all mods that are not loading screen mods. A mod is considered a loading screen mod, if at least 60% of its content are loading screens. You will only get loading screens from mods that are purely loading screen mods. This is useful if your loading screen mods use a different style (e.g. 2D loading screens) and you do not want any vanilla style loading screens.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "DisableVanillaLoadingScreens/DisableVanillaLoadingScreens.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
+      "User": "Jampi0n",
+      "Repository": "Skyrim-DisableVanillaLoadingScreens"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Skyrim-LeveledLoot",
             "Visibility": "Visible",
             "OneLineDescription": "",
