@@ -2498,6 +2498,24 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
       "User": "EzioTheDeadPoet",
       "Repository": "Weightless-Misc-Items"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Z-Floor Patcher",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "ZFloorPatcher",
+            "LongDescription": "ZFloorPatcher",
+            "PreferredAutoVersioning": "LatestTag",
+            "RequiredMods": []
+          },
+          "ProjectPath": "ZFloorPatcher/Z-FloorPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
+      "User": "Wolfman5750",
+      "Repository": "Z-Floor-Patcher"
     }
   ]
 }
