@@ -2504,7 +2504,7 @@
         {
           "Customization": {
             "Nickname": "Z-Floor Patcher",
-            "Visibility": "IncludeButHide",
+            "Visibility": "Visible",
             "OneLineDescription": "ZFloorPatcher",
             "LongDescription": "ZFloorPatcher",
             "PreferredAutoVersioning": "LatestTag",
