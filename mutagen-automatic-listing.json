@@ -787,7 +787,7 @@
         {
           "Customization": {
             "Nickname": "ICAIO AI for Mods",
-            "Visibility": "IncludeButHide",
+            "Visibility": "Visible",
             "OneLineDescription": "ICAIO AI for Mods",
             "LongDescription": "Applies new ICAIO Go Home and Survival Instincts for mod added npcs",
             "PreferredAutoVersioning": "LatestTag",
