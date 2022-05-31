@@ -267,7 +267,7 @@
             "Nickname": "craftingFurnitureEXP",
             "Visibility": "Visible",
             "OneLineDescription": "Adds Skill usage to furniture with predefined keywords.",
-            "LongDescription": "Uses Skyrims pre set keywords that dictate what furniture crafts when activating to apply skill usage to a new patch over furniture. Will use new data from mods overriting skyrim\u0027s vanilla and DLC furniture, as well as new furniture added by mods using Skyrim\u0027s keywords. Also allows you to add new keywords to the list manually in settings or get a premade keyword list inside the data folder ending with \u0022_premadeList.json\u0022 without \u0022.",
+            "LongDescription": "Uses Skyrims pre set keywords that dictate what furniture crafts when activating to apply skill usage to a new patch over furniture. Will use new data from mods overwriting skyrim\u0027s vanilla and DLC furniture, as well as new furniture added by mods using Skyrim\u0027s keywords. Also allows you to add new keywords to the list manually in settings or get a premade keyword list inside the data folder ending with \u0022_premadeList.json\u0022 without \u0022.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
