@@ -2521,6 +2521,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "YASTMGenerator",
+            "Visibility": "Visible",
+            "OneLineDescription": "Generates partially filled soul gems for YASTM",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "YASTMGenerator/YASTMGenerator.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
+      "User": "mrudat",
+      "Repository": "YASTMGenerator"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Z-Floor Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "ZFloorPatcher",
