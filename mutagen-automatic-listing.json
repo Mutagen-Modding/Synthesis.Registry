@@ -2317,7 +2317,7 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": []
           },
-          "ProjectPath": "SynWeaponKeywords/SynWeapType.csproj"
+          "ProjectPath": "SynPatcher/SynPatcher.csproj"
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
