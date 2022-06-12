@@ -1827,6 +1827,24 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "SlotsSlotsSlotsSlots",
+            "Visibility": "Visible",
+            "OneLineDescription": "Adds or removes armature slots based on other armature slots.",
+            "LongDescription": "Adds or removes armature slots based on other armature slots.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SlotsSlotsSlotsSlots/SlotsSlotsSlotsSlots.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "SlotsSlotsSlotsSlots"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": null,
           "ProjectPath": "Halgari.SoulGemDisenchantment/Halgari.SoulGemDisenchantment.csproj"
         }
