@@ -7,47 +7,29 @@ using GitHubDependents;
 using Octokit;
 using Synthesis.Bethesda;
 using Synthesis.Bethesda.DTO;
+using Synthesis.Registry.MutagenScraper.Github;
 
 namespace Synthesis.Registry.MutagenScraper;
 
 public class PatcherCustomizationRetriever
 {
+    private readonly GithubContentDownloader _contentDownloader;
     private readonly JsonSerializerOptionsProvider _jsonOptions;
-    private readonly ApiUsagePrinter _apiUsagePrinter;
-    private readonly GithubClientProvider _githubClientProvider;
 
     public PatcherCustomizationRetriever(
-        ApiUsagePrinter apiUsagePrinter,
-        GithubClientProvider githubClientProvider, 
+        GithubContentDownloader contentDownloader,
         JsonSerializerOptionsProvider jsonOptions)
     {
-        _apiUsagePrinter = apiUsagePrinter;
-        _githubClientProvider = githubClientProvider;
+        _contentDownloader = contentDownloader;
         _jsonOptions = jsonOptions;
     }
 
     public async Task<PatcherCustomization?> GetCustomization(Dependent dep, string proj)
     {
         var metaPath = Path.Combine(Path.GetDirectoryName(proj)!, Constants.MetaFileName);
-        System.Console.WriteLine($"{dep} retrieving meta path for {proj}");
-        IReadOnlyList<RepositoryContent>? content;
-        try
-        { 
-            content = await _githubClientProvider.Client.Repository.Content.GetAllContents(dep.User, dep.Repository, metaPath);
-        }
-        catch (Exception e)
-        {
-            System.Console.WriteLine($"{dep} no meta path found for {proj}");
-            return null;
-        }
-        _apiUsagePrinter.Print();
-        if (content.Count != 1)
-        {
-            System.Console.WriteLine($"{dep} no meta path found for {proj}");
-            return null;
-        }
-        System.Console.WriteLine($"{dep} retrieved meta path for {proj}");
-        var customization = JsonSerializer.Deserialize<PatcherCustomization>(content[0].Content, _jsonOptions.Options)!;
+        var content = await _contentDownloader.TryGetContent(dep, metaPath);
+        if (content == null) return null;
+        var customization = JsonSerializer.Deserialize<PatcherCustomization>(content, _jsonOptions.Options)!;
         if (string.IsNullOrWhiteSpace(customization.Nickname))
         {
             customization.Nickname = $"{dep.User}/{dep.Repository}";
@@ -56,7 +38,7 @@ public class PatcherCustomizationRetriever
         // Backwards compatibility
         try
         {
-            using var doc = JsonDocument.Parse(content[0].Content);
+            using var doc = JsonDocument.Parse(content);
             foreach (var elem in doc.RootElement.EnumerateObject())
             {
                 if (elem.NameEquals("HideByDefault")

@@ -1,7 +1,6 @@
-﻿using System;
-using Octokit;
+﻿using Octokit;
 
-namespace Synthesis.Registry.MutagenScraper
+namespace Synthesis.Registry.MutagenScraper.Github
 {
     public class GithubClientProvider
     {

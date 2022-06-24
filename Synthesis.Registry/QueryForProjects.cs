@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using GitHubDependents;
 using Octokit;
+using Synthesis.Registry.MutagenScraper.Github;
 
 namespace Synthesis.Registry.MutagenScraper
 {

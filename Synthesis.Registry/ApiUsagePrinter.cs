@@ -1,4 +1,5 @@
 ﻿using Octokit;
+using Synthesis.Registry.MutagenScraper.Github;
 
 namespace Synthesis.Registry.MutagenScraper
 {
