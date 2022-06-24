@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text.Json;
 using System.Threading.Tasks;
 using GitHubDependents;
@@ -14,23 +15,16 @@ namespace Synthesis.Registry.MutagenScraper.Construction
 {
     public class ConstructListings
     {
-        private readonly ApiUsagePrinter _apiUsagePrinter;
-        private readonly JsonSerializerOptionsProvider _jsonOptions;
-        private readonly GithubClientProvider _githubClientProvider;
+        private readonly PatcherCustomizationRetriever _customizationRetriever;
 
         public ConstructListings(
-            ApiUsagePrinter apiUsagePrinter,
-            JsonSerializerOptionsProvider jsonOptions,
-            GithubClientProvider githubClientProvider)
+            PatcherCustomizationRetriever customizationRetriever)
         {
-            _apiUsagePrinter = apiUsagePrinter;
-            _jsonOptions = jsonOptions;
-            _githubClientProvider = githubClientProvider;
+            _customizationRetriever = customizationRetriever;
         }
         
         public async Task<PatcherListing[]> Construct(Dependent dep, IEnumerable<string> projs)
         {
-            var gitHubClient = _githubClientProvider.Client;
             return (await projs
                 .ToAsyncEnumerable()
                 .SelectAwait(async proj =>
@@ -41,49 +35,8 @@ namespace Synthesis.Registry.MutagenScraper.Construction
                     };
                     try
                     {
-                        var metaPath = Path.Combine(Path.GetDirectoryName(proj)!, Constants.MetaFileName);
-                        System.Console.WriteLine($"{dep} retrieving meta path for {proj}");
-                        IReadOnlyList<RepositoryContent>? content;
-                        try
-                        { 
-                            content = await gitHubClient.Repository.Content.GetAllContents(dep.User, dep.Repository, metaPath);
-                        }
-                        catch (Exception e)
-                        {
-                            System.Console.WriteLine($"{dep} no meta path found for {proj}");
-                            return null;
-                        }
-                        _apiUsagePrinter.Print();
-                        if (content.Count != 1)
-                        {
-                            System.Console.WriteLine($"{dep} no meta path found for {proj}");
-                            return null;
-                        }
-                        System.Console.WriteLine($"{dep} retrieved meta path for {proj}");
-                        var customization = JsonSerializer.Deserialize<PatcherCustomization>(content[0].Content, _jsonOptions.Options)!;
-                        if (string.IsNullOrWhiteSpace(customization.Nickname))
-                        {
-                            customization.Nickname = $"{dep.User}/{dep.Repository}";
-                        }
-                        listing.Customization = customization;
-
-                        // Backwards compatibility
-                        try
-                        {
-                            using var doc = JsonDocument.Parse(content[0].Content);
-                            foreach (var elem in doc.RootElement.EnumerateObject())
-                            {
-                                if (elem.NameEquals("HideByDefault")
-                                    && elem.Value.GetBoolean())
-                                {
-                                    customization.Visibility = VisibilityOptions.IncludeButHide;
-                                }
-                            }
-                        }
-                        catch (Exception ex)
-                        {
-                            System.Console.WriteLine($"{proj} Error handling backwards compatibility: {ex}");
-                        }
+                        listing.Customization = await _customizationRetriever.GetCustomization(dep, proj);
+                        if (listing.Customization == null) return null;
                     }
                     catch (Octokit.NotFoundException)
                     {
