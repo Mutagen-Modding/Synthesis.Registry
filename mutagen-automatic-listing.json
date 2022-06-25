@@ -1756,6 +1756,24 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SkyrimUnlimitedRingsPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Ensures all rings and amulets can be equiped simultaneously.",
+            "LongDescription": "Removes \u0022Ring\u0022 and \u0022Amulet\u0022 keywords, makes changed items invisible.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": []
+          },
+          "ProjectPath": "SkyrimUnlimitedRingsPatcher/SkyrimUnlimitedRingsPatcher.csproj"
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/53153547?s=40\u0026amp;v=4",
+      "User": "hellozyemlya",
+      "Repository": "SkyrimUnlimitedRingsPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SkyUIWeaponIconPatcher",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "SkyUI Weapons Pack Icon patcher",
