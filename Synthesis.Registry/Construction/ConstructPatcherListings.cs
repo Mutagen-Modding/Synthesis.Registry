@@ -10,17 +10,27 @@ using Noggog;
 using Octokit;
 using Synthesis.Bethesda;
 using Synthesis.Bethesda.DTO;
+using Synthesis.Registry.MutagenScraper.Github;
 
 namespace Synthesis.Registry.MutagenScraper.Construction
 {
     public class ConstructListings
     {
         private readonly PatcherCustomizationRetriever _customizationRetriever;
+        private readonly GithubContentDownloader _contentDownloader;
+        private readonly ListedCategoryRetriever _categoryRetriever;
+        private readonly TargetReleasesLocator _targetReleasesLocator;
 
         public ConstructListings(
-            PatcherCustomizationRetriever customizationRetriever)
+            PatcherCustomizationRetriever customizationRetriever,
+            GithubContentDownloader contentDownloader,
+            ListedCategoryRetriever categoryRetriever,
+            TargetReleasesLocator targetReleasesLocator)
         {
             _customizationRetriever = customizationRetriever;
+            _contentDownloader = contentDownloader;
+            _categoryRetriever = categoryRetriever;
+            _targetReleasesLocator = targetReleasesLocator;
         }
         
         public async Task<PatcherListing[]> Construct(Dependent dep, IEnumerable<string> projs)
@@ -37,6 +47,10 @@ namespace Synthesis.Registry.MutagenScraper.Construction
                     {
                         listing.Customization = await _customizationRetriever.GetCustomization(dep, proj);
                         if (listing.Customization == null) return null;
+                        var projContent = await _contentDownloader.TryGetContent(dep, proj);
+                        if (projContent == null) return null;
+                        listing.IncludedLibraries = _categoryRetriever.GetListedCategories(projContent);
+                        listing.TargetedReleases = _targetReleasesLocator.GetTargetReleases(projContent, listing.Customization);
                     }
                     catch (Octokit.NotFoundException)
                     {
