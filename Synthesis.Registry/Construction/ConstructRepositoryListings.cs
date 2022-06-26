@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using GitHubDependents;
 using Synthesis.Bethesda.DTO;
@@ -26,7 +27,7 @@ namespace Synthesis.Registry.MutagenScraper.Construction
 
             // Construct listings
             var patchers = await _constructListings.Construct(dep, projs);
-            System.Console.WriteLine($"Processed {dep} and retrieved {patchers.Length} patchers:{Environment.NewLine}   {string.Join($"{Environment.NewLine}   ", (IEnumerable<PatcherListing>)patchers)}");
+            System.Console.WriteLine($"Processed {dep} and retrieved {patchers.Length} patchers:{Environment.NewLine}   {string.Join($"{Environment.NewLine}   ", ((IEnumerable<PatcherListing>)patchers).Select(x => x.ProjectPath))}");
 
             await Task.Delay(500);
             return new RepositoryListing()
