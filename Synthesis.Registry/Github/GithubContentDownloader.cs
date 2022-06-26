@@ -25,6 +25,11 @@ public class GithubContentDownloader
         {
             content = await _githubClientProvider.Client.Repository.Content.GetAllContents(dep.User, dep.Repository, path);
         }
+        catch (Exception e)
+        {
+            System.Console.WriteLine($"{dep} Error getting content for {path}: {e}");
+            return null;
+        }
         finally
         {
             _apiUsagePrinter.Print();

@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
 using GitHubDependents;
+using Octokit;
 using Synthesis.Bethesda;
 using Synthesis.Bethesda.DTO;
 using Synthesis.Registry.MutagenScraper.Github;
