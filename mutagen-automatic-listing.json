@@ -9,9 +9,20 @@
             "OneLineDescription": "Remove active effect \u0022edge glow\u0022 from actors",
             "LongDescription": "Removes the awful \u0022edge glow\u0022 effect from actors when certain magic effects are active.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "RemoveEdgeGlow/RemoveEdgeGlow.csproj"
+          "ProjectPath": "RemoveEdgeGlow/RemoveEdgeGlow.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ],
+          "TargetedReleases": [
+            "SkyrimLE",
+            "SkyrimSE",
+            "SkyrimVR",
+            "EnderalLE",
+            "EnderalSE"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
@@ -29,14 +40,30 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "AI Overhaul.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "AIOverhaulPatcher/AIOverhaulPatcher.csproj"
+          "ProjectPath": "AIOverhaulPatcher/AIOverhaulPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/6299495?s=40\u0026amp;v=4",
       "User": "Excinerus",
       "Repository": "AI-Overhaul-Patcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "alch-registry-builder/alch-registry-builder.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
+      "User": "radj307",
+      "Repository": "alch-registry-generator"
     },
     {
       "Patchers": [
@@ -49,9 +76,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "All Geared Up Derivative.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "AllGUDMeshGen/AllGUDMeshGen.csproj"
+          "ProjectPath": "AllGUDMeshGen/AllGUDMeshGen.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
@@ -67,9 +97,12 @@
             "OneLineDescription": "Configurable patcher intended as a WACCF-friendly alternative to ABT",
             "LongDescription": "Will rescale ammo damage between a configurable minimum and maximum while removing ammo weight as well as adjusting projectile speed and gravity. Can optionally rename ammo for better sorting and adjust recoverable ammo found on bodies.\r\n\r\nSettings\r\nConfiguration file (Data/config.json)\r\n\r\nrescaling: Enables new damage scaling. Set to false to disable.\r\nminDamage: Allowed minimum damage.\r\nmaxDamage: Allowed maximum damage.\r\nlootMult: Modifies amount of ammo found on bodies. Values below 1 will reduce found ammo while values above 1 will increase it. Set to 1 to disable.\r\nrenaming: Used to rename ammunition using the following scheme: \u0022Iron Arrow\u0022 -\u003E \u0022Arrow - Iron\u0022. Set to true to enable.\r\nseparator: Separator used if renaming is enabled. For example \u0022 - \u0022 and \u0022: \u0022\r\nspeedchanges: Enables projectile speed and gravity tweaks. Set to false to disable.\r\nspeedarrow: new arrow speed.\r\nspeedbolt: new bolt speed.\r\ngravity: new gravity value for both arrows and bolts.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "AmmoTweaks/AmmoTweaks.csproj"
+          "ProjectPath": "AmmoTweaks/AmmoTweaks.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -85,9 +118,12 @@
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "AmuletsShowOnEverything/AmuletsShowOnEverything.csproj"
+          "ProjectPath": "AmuletsShowOnEverything/AmuletsShowOnEverything.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/5535758?s=40\u0026amp;v=4",
@@ -103,9 +139,12 @@
             "OneLineDescription": "Customizable Archery Physics for any load order. No mods required.",
             "LongDescription": "Comprehensive archery physics overhaul contained in a single patcher.\nAlso fixes a whole host of bugs and inconsistencies not included in any other archery mod such as detection, arrows colliding with the air in front of you, arrows falling out of your bow even at full draw, the \u0022Ninja Dodge\u0022 bug, and more!\n\nThe default settings are adequate for most users, but if you want to experiment, nearly every setting is exposed through the Synthesis GUI.\nSettings documentation can be found here: https://github.com/Synthesis-Collective/Another-Archery-Patcher/wiki/Settings-Documentation\n\nNexus Page:\t https://www.nexusmods.com/skyrimspecialedition/mods/53810",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "Another_Archery_Patcher/Another_Archery_Patcher.csproj"
+          "ProjectPath": "Another_Archery_Patcher/Another_Archery_Patcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -121,9 +160,12 @@
             "OneLineDescription": "Apply the changes from Audio Overhaul Skyrim / Immersive Sound Compendium to all your mods",
             "LongDescription": "Doesn\u0027t require both mods to be installed, just one of them. Adds sound effects to all weapons \u0026 armor in your load order to make it consistent with the changes from these mods.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "AOSISCSoundPatcher/AOSISCSoundPatcher.csproj"
+          "ProjectPath": "AOSISCSoundPatcher/AOSISCSoundPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
@@ -141,9 +183,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Artistic Skyrim Overhaul - No More Reflecting Surfaces.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "ArtisticSkyrimOverhaul\u002BFixes/ArtisticSkyrimOverhaulFixes.csproj"
+          "ProjectPath": "ArtisticSkyrimOverhaul\u002BFixes/ArtisticSkyrimOverhaulFixes.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
@@ -161,9 +206,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Better Dynamic Snow.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "BDSPatcher/BDSPatcher.csproj"
+          "ProjectPath": "BDSPatcher/BDSPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
@@ -179,9 +227,20 @@
             "OneLineDescription": "Generates breakdown recipes for every craftable item in the game.",
             "LongDescription": "Generates breakdown recipes for every craftable item in the game. Additionally, it also supports user-defined breakdown recipes for any types of items.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "BreakdownRecipeGenerator/BreakdownRecipeGenerator.csproj"
+          "ProjectPath": "BreakdownRecipeGenerator/BreakdownRecipeGenerator.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ],
+          "TargetedReleases": [
+            "SkyrimLE",
+            "SkyrimSE",
+            "SkyrimVR",
+            "EnderalLE",
+            "EnderalSE"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
@@ -197,9 +256,12 @@
             "OneLineDescription": "Removes underscores from cell EDIDs",
             "LongDescription": "Finds all Cells in Interiors and Exterior worldspaces having underscores, and fixes the Editor Ids by removing underscores.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "CellEditorIDFixer/CellEditorIDFixer.csproj"
+          "ProjectPath": "CellEditorIDFixer/CellEditorIDFixer.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;v=4",
@@ -215,9 +277,12 @@
             "OneLineDescription": "Adds Encounter zone levels to cell names.",
             "LongDescription": "Finds the Encounter Zone minimum and maximum levels and patches them into the cell names based on the template specified. Corresponding Map Markers will also be patched to reflect the changes (this can be toggled off if needed)\r\n\r\nConfiguration file (Data/config.json)\r\n\r\n- formulaRangedLeveled : Used when encounter zone max level \u003E min level.\r\n- formulaDeleveled : Used when min and max level of the encounter zone is the same.\r\n- formulaLeveled : Used when minimum level is more than max level. This usually happens when max level is unspecified (0)\r\n- patchMapMarkers : Indicate if Map Markers should be patched as well. (true/false)",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "CellEncounterLevelsInName/CellEncounterLevelsInName.csproj"
+          "ProjectPath": "CellEncounterLevelsInName/CellEncounterLevelsInName.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;v=4",
@@ -233,9 +298,20 @@
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "CompleteCraftingOverhaulCompatibleRecipeGenerator/CompleteCraftingOverhaulCompatibleRecipeGenerator.csproj"
+          "ProjectPath": "CompleteCraftingOverhaulCompatibleRecipeGenerator/CompleteCraftingOverhaulCompatibleRecipeGenerator.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ],
+          "TargetedReleases": [
+            "SkyrimLE",
+            "SkyrimSE",
+            "SkyrimVR",
+            "EnderalLE",
+            "EnderalSE"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
@@ -251,9 +327,26 @@
             "OneLineDescription": "Creates costume armor",
             "LongDescription": "Creates unenchanted (replica) copies of enchanted armor with no unenchanted version (mostly unique items).\r\nCreates unarmored (costume) copies of armor.\r\nAdds the new armor to the appropriate leveled lists to appear as loot and at vendors.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "CostumeShop/CostumeShop.csproj"
+          "ProjectPath": "CostumeShop/CostumeShop.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ],
+          "TargetedReleases": [
+            "SkyrimLE",
+            "SkyrimSE",
+            "SkyrimVR",
+            "EnderalLE",
+            "EnderalSE"
+          ]
+        },
+        {
+          "Customization": null,
+          "ProjectPath": "Tests/Tests.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
@@ -269,9 +362,12 @@
             "OneLineDescription": "Adds Skill usage to furniture with predefined keywords.",
             "LongDescription": "Uses Skyrims pre set keywords that dictate what furniture crafts when activating to apply skill usage to a new patch over furniture. Will use new data from mods overwriting skyrim\u0027s vanilla and DLC furniture, as well as new furniture added by mods using Skyrim\u0027s keywords. Also allows you to add new keywords to the list manually in settings or get a premade keyword list inside the data folder ending with \u0022_premadeList.json\u0022 without \u0022.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "craftingFurnitureEXP/craftingFurnitureEXP.csproj"
+          "ProjectPath": "craftingFurnitureEXP/craftingFurnitureEXP.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
@@ -287,9 +383,12 @@
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "CreateTemper/CreateTemper.csproj"
+          "ProjectPath": "CreateTemper/CreateTemper.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/19803311?s=40\u0026amp;v=4",
@@ -305,9 +404,12 @@
             "OneLineDescription": "Allows for sorting items into user-defined categories.",
             "LongDescription": "Allows for sorting items into user-defined categories.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "CustomizableItemSorting/CustomizableItemSorting.csproj"
+          "ProjectPath": "CustomizableItemSorting/CustomizableItemSorting.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
@@ -325,9 +427,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Destructible Skyrim.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "DestructibleSkyrimPatcher/DestructibleSkyrimPatcher.csproj"
+          "ProjectPath": "DestructibleSkyrimPatcher/DestructibleSkyrimPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
@@ -343,9 +448,12 @@
             "OneLineDescription": "Removes the MagicDisallowEnchanting keyword from all items.",
             "LongDescription": "Removes the MagicDisallowEnchanting keyword from all items.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "DisenchantEverything/DisenchantEverything.csproj"
+          "ProjectPath": "DisenchantEverything/DisenchantEverything.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
@@ -361,9 +469,12 @@
             "OneLineDescription": "Custom formatting options for the naming of your Spell Tomes, including level, magic school, plugin name \u0026 spell name",
             "LongDescription": "Automatically patch your entire load order to show the skill level on all Spell Tomes! You can change the default format from Spell Tome (\u003Clevel\u003E): \u003Cspell\u003E to any custom format including plugin name \u0026 magic school in the settings!",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "DisplaySpellTomeLevelPatcher/DisplaySpellTomeLevelPatcher.csproj"
+          "ProjectPath": "DisplaySpellTomeLevelPatcher/DisplaySpellTomeLevelPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
@@ -379,9 +490,26 @@
             "OneLineDescription": "Recombine stuff",
             "LongDescription": "TBD",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "RecombinePatch/RecombinePatch.csproj"
+          "ProjectPath": "RecombinePatch/RecombinePatch.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ],
+          "TargetedReleases": [
+            "SkyrimLE",
+            "SkyrimSE",
+            "SkyrimVR",
+            "EnderalLE",
+            "EnderalSE"
+          ]
+        },
+        {
+          "Customization": null,
+          "ProjectPath": "RecombinePatchTests/RecombinePatchTests.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/10343101?s=40\u0026amp;v=4",
@@ -399,9 +527,20 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "ELE_SSE.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "ELE_Patcher/ELE_Patcher.csproj"
+          "ProjectPath": "ELE_Patcher/ELE_Patcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ],
+          "TargetedReleases": [
+            "SkyrimLE",
+            "SkyrimSE",
+            "SkyrimVR",
+            "EnderalLE",
+            "EnderalSE"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/93822872?s=40\u0026amp;v=4",
@@ -417,9 +556,12 @@
             "OneLineDescription": "Reduces the light intensity of your other mods so ENB Light doesn\u0027t make it too bright.",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "ENBLightPatcher/ENBLightPatcher.csproj"
+          "ProjectPath": "ENBLightPatcher/ENBLightPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
@@ -435,9 +577,20 @@
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "EnchantedVariantsGenerater/EnchantedVariantsGenerater.csproj"
+          "ProjectPath": "EnchantedVariantsGenerater/EnchantedVariantsGenerater.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ],
+          "TargetedReleases": [
+            "SkyrimLE",
+            "SkyrimSE",
+            "SkyrimVR",
+            "EnderalLE",
+            "EnderalSE"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
@@ -453,9 +606,12 @@
             "OneLineDescription": "A Mutagen patcher that lets you configure the levels of NPCs according to their type for a truly deleveled Skyrim",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "EnemyReleveler/EnemyReleveler.csproj"
+          "ProjectPath": "EnemyReleveler/EnemyReleveler.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -473,9 +629,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Engarde.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "Engarde_Synthesis/Engarde_Synthesis.csproj"
+          "ProjectPath": "Engarde_Synthesis/Engarde_Synthesis.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
@@ -491,9 +650,12 @@
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "Theeverythingemfuckener/Theeverythingemfuckener.csproj"
+          "ProjectPath": "Theeverythingemfuckener/Theeverythingemfuckener.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
@@ -509,9 +671,12 @@
             "OneLineDescription": "Generates a csv file for the Experience mod so that the kill function works on all NPCs.",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "ExperienceMutagenPatcher/ExperienceMutagenPatcher.csproj"
+          "ProjectPath": "ExperienceMutagenPatcher/ExperienceMutagenPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
@@ -527,9 +692,12 @@
             "OneLineDescription": "Encounter Zone Scaler and Unleveler Synthesis Patcher for Skyrim SE",
             "LongDescription": "Uses configuration settings to update ECZN.MinLevel and ECZN.MaxLevel by scaling MinLevel in winning master",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "EZLeveler/EZLeveler.csproj"
+          "ProjectPath": "EZLeveler/EZLeveler.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
@@ -540,7 +708,9 @@
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "FaceFixer/FaceFixer.csproj"
+          "ProjectPath": "FaceFixer/FaceFixer.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -556,9 +726,12 @@
             "OneLineDescription": "Use default facegen override from a foundational NPC appearance mod",
             "LongDescription": "Forwards foundational mod\u0027s NPC appearance fields to the winning override in the Synthesis patch, if overridden by another mod but facegen not altered vs the master.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "FacegenBaseline/FacegenBaseline.csproj"
+          "ProjectPath": "FacegenBaseline/FacegenBaseline.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
@@ -574,9 +747,12 @@
             "OneLineDescription": "DAR ZMerge Fixup",
             "LongDescription": "Produce patched conditions.txt files where they contain Plugins and FormIDs that are now in a ZMerged plugin.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "FixMergedDAR/FixMergedDAR.csproj"
+          "ProjectPath": "FixMergedDAR/FixMergedDAR.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
@@ -592,9 +768,12 @@
             "OneLineDescription": "Remove custom bodies from NPC mods, so that they all use the PC/default body.",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "RespectMyBodySlide/RespectMyBodySlide.csproj"
+          "ProjectPath": "RespectMyBodySlide/RespectMyBodySlide.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/84610172?s=40\u0026amp;v=4",
@@ -610,9 +789,12 @@
             "OneLineDescription": "Applies Follower Favor Carry Limit from Andrealphus\u0027 Gameplay Tweaks to all potential followers.",
             "LongDescription": "Requires the script from Gameplay Tweaks to be installed, but not the plugin.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "FollowerFavorCarryLimitPatcher/FollowerFavorCarryLimitPatcher.csproj"
+          "ProjectPath": "FollowerFavorCarryLimitPatcher/FollowerFavorCarryLimitPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
@@ -628,9 +810,12 @@
             "OneLineDescription": "Removes food items from cells based on cell location type and config file settings.",
             "LongDescription": "This will patch your game to randomly remove excess food stuff lying around (supposedly) deserted locations. The patch will locate every food item in a cell and then randomly decide if it should be removed or left in place. The chance that it will be removed is configurable through config files. By default the less a location is populated, the higher the chance food will be removed, so drauger dungeons will have a very high chance of food removal, while farmhouses will have a very low chance.\r\n",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "FoodRemover/FoodRemover.csproj"
+          "ProjectPath": "FoodRemover/FoodRemover.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/34091472?s=40\u0026amp;v=4",
@@ -646,9 +831,12 @@
             "OneLineDescription": "Removes stamina damage from frost spells.",
             "LongDescription": "Frost spells damaging stamina can be a bit OP (and annoying) with setups where the player and/or NPCs require stamina to attack. This patcher removes the stamina damage effect from frost spells.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "FrostSpellsNoStaminaDamage/FrostSpellsNoStaminaDamage.csproj"
+          "ProjectPath": "FrostSpellsNoStaminaDamage/FrostSpellsNoStaminaDamage.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
@@ -666,9 +854,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "GeneralStores.esm"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "GeneralStoresIngredientsPatcher/GeneralStoresIngredientsPatcher.csproj"
+          "ProjectPath": "GeneralStoresIngredientsPatcher/GeneralStoresIngredientsPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -684,9 +875,12 @@
             "OneLineDescription": "Prevents crashing when quests might check the current location alias before it gets resolved.",
             "LongDescription": "Sometimes location aliases can remain NULL and unresolved when getting checked. This patcher moves those checks to the end of quest alias condition lists so they have more time to be resolved and not cause a crash.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "GridTrasitionCrashFix/GridTransitionCrashFix.csproj"
+          "ProjectPath": "GridTrasitionCrashFix/GridTransitionCrashFix.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
@@ -702,9 +896,12 @@
             "OneLineDescription": "RPG Loot without reshuffle while patching and without duplicate enchantments.",
             "LongDescription": "This version of RPG loot uses a settings menu to be customized to your liking. It also will generate consitently as long as you dont alter any of the settings or add(or remove) armors/clothing/jewelry/weapons/enchantments to your setup or change their form IDs. Furthermore it will not create redundant enchantments wasting formIDs, allowing it to cover a greater variety of settings \n\n - Luca|EzioTheDeadPoet \n\n Unquiness added by Darkon47|Shou|",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj"
+          "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -715,7 +912,9 @@
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj"
+          "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;u=92d7e1a4f00fb22204d2d0bb540710333ce4a365\u0026amp;v=4",
@@ -733,9 +932,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Harvest Those Mammoth Skulls.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "HarvestThoseMammothSkulls/HarvestThoseMammothSkulls.csproj"
+          "ProjectPath": "HarvestThoseMammothSkulls/HarvestThoseMammothSkulls.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
@@ -753,9 +955,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Heights_of_Skyrim.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "HeightsOfSkyrim/HeightsOfSkyrim.csproj"
+          "ProjectPath": "HeightsOfSkyrim/HeightsOfSkyrim.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
@@ -773,9 +978,24 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "HonedMetal.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "HonedMetalAdditionalIngredients/HonedMetalAdditionalIngredients.csproj"
+          "ProjectPath": "HonedMetalAdditionalIngredients/HonedMetalAdditionalIngredients.csproj",
+          "IncludedLibraries": [
+            "Oblivion",
+            "Skyrim",
+            "Fallout4"
+          ],
+          "TargetedReleases": [
+            "Oblivion",
+            "SkyrimLE",
+            "SkyrimSE",
+            "SkyrimVR",
+            "EnderalLE",
+            "EnderalSE",
+            "Fallout4"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
@@ -791,9 +1011,12 @@
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "hph-race-patcher/hph-race-patcher.csproj"
+          "ProjectPath": "hph-race-patcher/hph-race-patcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
@@ -809,9 +1032,12 @@
             "OneLineDescription": "ICAIO AI for Mods",
             "LongDescription": "Applies new ICAIO Go Home and Survival Instincts for mod added npcs",
             "PreferredAutoVersioning": "LatestTag",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "ICAIO_AI_FOR_MOD_NPC/ICAIO_AI_FOR_MOD_NPC.csproj"
+          "ProjectPath": "ICAIO_AI_FOR_MOD_NPC/ICAIO_AI_FOR_MOD_NPC.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": null,
@@ -827,9 +1053,12 @@
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "ImChPatcher/ImChPatcher.csproj"
+          "ProjectPath": "ImChPatcher/ImChPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
@@ -845,9 +1074,12 @@
             "OneLineDescription": "Mesh patcher for Immersive Equipment Displays, Skyrim SE",
             "LongDescription": "Mirror scabbards for proper left-side 1H weapon display",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "ImmersiveEquipmentMeshGen/ImmersiveEquipmentMeshGen.csproj"
+          "ProjectPath": "ImmersiveEquipmentMeshGen/ImmersiveEquipmentMeshGen.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
@@ -863,9 +1095,12 @@
             "OneLineDescription": "Customize and configure item weights",
             "LongDescription": "Allows to customize weights of different items by Record type and Custom categories.\r\n\r\nConfiguration File:\r\n\r\nThe patcher will use a \u0022config.json\u0022 file in order to determine what weights need to be set for different types of items/records.\r\n\r\n- weightSettings: Define custom weight values depending on record type. If set to -1 they will be ignored.\r\n    - books: Weight to be set for Books.\r\n    - ingredients: Weight to be set for Ingredients.\r\n    - scrolls: Weight to set for Scrolls.\r\n    - soulgems: Weight to set for Soul Gems.\r\n    - armors: Weight to set for Armours.\r\n    - weapons: Weight to set for Weapons.\r\n    - foods: Weight to set for Foods. (Having keyword VendorItemFood)\r\n    - potions: Weight to set for Potions.\r\n    - ingots: Weight to set for Ingot/Ores (Having keyword VendorItemOreIngot)\r\n    - gems: Weight to set for Gems (Having keyword VendorItemGem)\r\n    - animalParts: Weight to set for Animal Parts (Having keyword VendorItemAnimalPart)\r\n    - animalHides: Weight to set for Animal Hides (Having keyword VendorItemAnimalHide)\r\n    - clutter: Weight to set for Clutter items (Having keyword VendorItemClutter)\r\n    - miscItems: Weight to set for all other Miscellaneous Items.\r\n- categories: Custom user-defined categories that override the above record-based settings.\r\n    - name: Each category needs to have a unique name (can be anything to keep track of, will be printed in logs)\r\n    - types: All the record types (from above) this category will work against.\r\n    - editorIds: List of Editor Ids. Record MUST have at least one Editor Id to be part of this category.\r\n    - weight: The weight value that will be assigned for anything that matches this category.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "ItemWeightCustomizer/ItemWeightCustomizer.csproj"
+          "ProjectPath": "ItemWeightCustomizer/ItemWeightCustomizer.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;v=4",
@@ -876,7 +1111,9 @@
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "KhajiitEarsShow/KhajiitEarsShow.csproj"
+          "ProjectPath": "KhajiitEarsShow/KhajiitEarsShow.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -894,9 +1131,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "know_your_enemy.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "KnowYourArmorPatcher/KnowYourArmorPatcher.csproj"
+          "ProjectPath": "KnowYourArmorPatcher/KnowYourArmorPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
@@ -914,9 +1154,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "know_your_enemy.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "KnowYourEnemyMutagen/KnowYourEnemyMutagen.csproj"
+          "ProjectPath": "KnowYourEnemyMutagen/KnowYourEnemyMutagen.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
@@ -932,9 +1175,12 @@
             "OneLineDescription": "Fixes bald heads under helmets when using KS Hairdos",
             "LongDescription": "When using KS Hairs with many vanilla helmets, the character\u0027s head may appear completely bald underneath. This is because many of the helmets use the biped slot 41 - LongHair, which blocks out the hairline from showing. This patcher removes the biped slot from all the helmet records, allowing the hairline to show again. Obviously it\u0027s not as good as a proper hair model, but it\u0027s better than nothing.\nEditorIDs for items you do not wish to modify can be added to the blacklist in the settings. The blacklist is a comma separated string of EditorIDs. The items on the list are partially matched, case-insensitive. E.g., if you want to blacklist all KS SMP wigs, you can add \u0027kswig\u0027 (without quotes) to the blacklist.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "KSHairsBaldHelmetsFixer/KSHairsBaldHelmetsFixer.csproj"
+          "ProjectPath": "KSHairsBaldHelmetsFixer/KSHairsBaldHelmetsFixer.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
@@ -950,9 +1196,12 @@
             "OneLineDescription": "Patch your modded beat race npcs with KZ-style npc or any vanilla beast race replacer of choice.",
             "LongDescription": "Patch your selected mod with whatever beast NPC replacer, Overhaul you\u0027re using. Designed with KZNPC in mind but should work with any vanilla beast race overhaul.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "KZNPCPatchers/KZNPCPatchers.csproj"
+          "ProjectPath": "KZNPCPatchers/KZNPCPatchers.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/36178784?s=40\u0026amp;v=4",
@@ -968,9 +1217,12 @@
             "OneLineDescription": "A Patcher for resolving leveled list conflicts without the use of Bash Tags.",
             "LongDescription": "This patcher attempts to recreate Wyre Bash\u0027s leveled list functionality in a way the does not require tagging plugins. Results aren\u0027t guaranteed to 100% identical to Wyre Bash.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "leveledlistresolver/leveledlistresolver.csproj"
+          "ProjectPath": "leveledlistresolver/leveledlistresolver.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/65688322?s=40\u0026amp;v=4",
@@ -986,9 +1238,12 @@
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "ListMaker/ListMaker.csproj"
+          "ProjectPath": "ListMaker/ListMaker.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -1004,9 +1259,12 @@
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "ListUnroller/ListUnroller.csproj"
+          "ProjectPath": "ListUnroller/ListUnroller.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -1022,9 +1280,12 @@
             "OneLineDescription": "Synthesis Patcher that changes static crates into lootable containers.",
             "LongDescription": "Synthesis Patcher that changes static crates into lootable containers.\nCompletely standalone, no plugins required.\n",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "LootableCrates/LootableCrates.csproj"
+          "ProjectPath": "LootableCrates/LootableCrates.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
@@ -1040,9 +1301,12 @@
             "OneLineDescription": "Lootable Things \u0026 Training Dummies and Targets SSE patcher.",
             "LongDescription": "Patches mods placing statics in cells/worldspaces using the original Skyrim statics to the Lootable Things containers and Training Dummies.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "LootableThings-Dummy-Patcher/LootableThings-Dummy-Patcher.csproj"
+          "ProjectPath": "LootableThings-Dummy-Patcher/LootableThings-Dummy-Patcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
@@ -1060,9 +1324,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "WiZkiD Lootable FireWood Piles.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "MakeFirewoodPilesIntoContainers/MakeFirewoodPilesIntoContainers.csproj"
+          "ProjectPath": "MakeFirewoodPilesIntoContainers/MakeFirewoodPilesIntoContainers.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -1078,9 +1345,20 @@
             "OneLineDescription": "Automates plugin generation for female to male armor conversion.",
             "LongDescription": "Comes with a settings menu to select the mods to be updated and a configurable suffix.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "MaleAAGenerator/MaleAAGenerator.csproj"
+          "ProjectPath": "MaleAAGenerator/MaleAAGenerator.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ],
+          "TargetedReleases": [
+            "SkyrimLE",
+            "SkyrimSE",
+            "SkyrimVR",
+            "EnderalLE",
+            "EnderalSE"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/52758909?s=40\u0026amp;v=4",
@@ -1096,9 +1374,24 @@
             "OneLineDescription": "Patches leveled NPC lists to remove female entries from them based on the chosen criteria.",
             "LongDescription": "Patches leveled NPC lists to remove female entries from them based on the chosen criteria.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "MasculinizedLeveledLists/MasculinizedLeveledLists.csproj"
+          "ProjectPath": "MasculinizedLeveledLists/MasculinizedLeveledLists.csproj",
+          "IncludedLibraries": [
+            "Oblivion",
+            "Skyrim",
+            "Fallout4"
+          ],
+          "TargetedReleases": [
+            "Oblivion",
+            "SkyrimLE",
+            "SkyrimSE",
+            "SkyrimVR",
+            "EnderalLE",
+            "EnderalSE",
+            "Fallout4"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
@@ -1109,15 +1402,21 @@
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "CustomSet/CustomSet.csproj"
+          "ProjectPath": "CustomSet/CustomSet.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         },
         {
           "Customization": null,
-          "ProjectPath": "CustomSetTest/CustomSetTest.csproj"
+          "ProjectPath": "CustomSetTest/CustomSetTest.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         },
         {
           "Customization": null,
-          "ProjectPath": "MasterLimitTestTest/MasterLimitTestTest.csproj"
+          "ProjectPath": "MasterLimitTestTest/MasterLimitTestTest.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
@@ -1133,9 +1432,12 @@
             "OneLineDescription": "Patcher that converts from imperial units to metric units.",
             "LongDescription": "Converts imperial length units used by Ordinator\u0027s perk descriptions to metric.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "Metric-Units/MetricUnits.csproj"
+          "ProjectPath": "Metric-Units/MetricUnits.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
@@ -1151,9 +1453,12 @@
             "OneLineDescription": "Forwards changes from MEZF so they don\u0027t get overwritten by other mods.",
             "LongDescription": "Forwards changes from MEZF so they don\u0027t get overwritten by other mods. The changes get overwritten very frequently, even by things like lighting mods. Requires one of the files from the original mod.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "MissingEncounterZonesPatcher/MissingEncounterZonesPatcher.csproj"
+          "ProjectPath": "MissingEncounterZonesPatcher/MissingEncounterZonesPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
@@ -1164,7 +1469,9 @@
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "MortalEnemies/MortalEnemies.csproj"
+          "ProjectPath": "MortalEnemies/MortalEnemies.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -1180,9 +1487,12 @@
             "OneLineDescription": "A Patcher for merging additions to MusicType records.",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "MusicTypePatcher/MusicTypePatcher.csproj"
+          "ProjectPath": "MusicTypePatcher/MusicTypePatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/65688322?s=40\u0026amp;v=4",
@@ -1198,9 +1508,12 @@
             "OneLineDescription": "A template project example",
             "LongDescription": "A template project example not ment for end use, but just to give a good baseline to work from",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "Synthesis/Synthesis.csproj"
+          "ProjectPath": "Synthesis/Synthesis.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/71204714?s=40\u0026amp;v=4",
@@ -1216,9 +1529,12 @@
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "NoShadowsPatch/NoShadowsPatch.csproj"
+          "ProjectPath": "NoShadowsPatch/NoShadowsPatch.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
@@ -1229,7 +1545,9 @@
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "NoDragonLODs/NoDragonLODs.csproj"
+          "ProjectPath": "NoDragonLODs/NoDragonLODs.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -1248,9 +1566,12 @@
             "RequiredMods": [
               "Better Dynamic Snow.esp",
               "Northpoint.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "NorthpointBDSPatcher/NorthpointBDSPatcher.csproj"
+          "ProjectPath": "NorthpointBDSPatcher/NorthpointBDSPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
@@ -1266,9 +1587,12 @@
             "OneLineDescription": "Transfers the visual appearance of one NPC to another. Requires Synthesis.exe 0.17.6 or higher.",
             "LongDescription": "This is a Synthesis version of the original NPC Visual Transfer SSEedit script. It transfers the appearance of one NPC to another (and can handle multiple NPCs). Useful for when you like the appearance of one of the thousands of followers on the Nexus and want to transfer it to another character in your game.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "NPCAppearanceCopier/NPCAppearanceCopier.csproj"
+          "ProjectPath": "NPCAppearanceCopier/NPCAppearanceCopier.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
@@ -1284,9 +1608,20 @@
             "OneLineDescription": "Set all NPC max levels to a value of your choice.",
             "LongDescription": "Made for request #30: https://github.com/Synthesis-Collective/Development/issues/30 \nAllows you to set the level of all NPCs and LeveledNPCs.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "NPC-DeLeveler/NPC_DeLeveler.csproj"
+          "ProjectPath": "NPC-DeLeveler/NPC_DeLeveler.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ],
+          "TargetedReleases": [
+            "SkyrimLE",
+            "SkyrimSE",
+            "SkyrimVR",
+            "EnderalLE",
+            "EnderalSE"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
@@ -1297,7 +1632,9 @@
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "NPCEnchantFix/NPCEnchantFix.csproj"
+          "ProjectPath": "NPCEnchantFix/NPCEnchantFix.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -1313,9 +1650,12 @@
             "OneLineDescription": "Flags named NPCs as protected.",
             "LongDescription": "This patcher is an alternative to the mod Protect Your People. Essentially it flags a ton of named NPCs as protected if they are not already flagged as essential or protected.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "NpcProtector/NpcProtector.csproj"
+          "ProjectPath": "NpcProtector/NpcProtector.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/45295422?s=40\u0026amp;v=4",
@@ -1331,9 +1671,12 @@
             "OneLineDescription": "Port of NPC Stat Rescaler: https://www.nexusmods.com/skyrimspecialedition/mods/24254",
             "LongDescription": "Port of NPC Stat Rescaler\nhttps://www.nexusmods.com/skyrimspecialedition/mods/24254",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "NPCStatRescaler/NPCStatRescaler.csproj"
+          "ProjectPath": "NPCStatRescaler/NPCStatRescaler.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
@@ -1344,7 +1687,9 @@
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "OppositeAnimationDisabler/OppositeAnimationDisabler.csproj"
+          "ProjectPath": "OppositeAnimationDisabler/OppositeAnimationDisabler.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -1362,9 +1707,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "pick_your_poison.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "PickYourPoison/PickYourPoison.csproj"
+          "ProjectPath": "PickYourPoison/PickYourPoison.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
@@ -1380,9 +1728,12 @@
             "OneLineDescription": "Rescales all pine trees",
             "LongDescription": "Rescales all the different pine trees by a user defined amount. Dead trees included, snowy trees not.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "PineTreeScaler/PineTreeScaler.csproj"
+          "ProjectPath": "PineTreeScaler/PineTreeScaler.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
@@ -1400,9 +1751,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Poverty.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "Poverty/Poverty.csproj"
+          "ProjectPath": "Poverty/Poverty.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
@@ -1418,9 +1772,12 @@
             "OneLineDescription": "Preset FormID Check and ZMerge Fixup",
             "LongDescription": "Ensure Head Part Form IDs are recognized. Produce patched jslot files where they contain Plugins and FormIDs that are now in a ZMerged plugin.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "PresetChecker/PresetChecker.csproj"
+          "ProjectPath": "PresetChecker/PresetChecker.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
@@ -1438,9 +1795,20 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Quest Journal Limit Bug Fixer.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "QuestLimitFixer/QuestLimitFixer.csproj"
+          "ProjectPath": "QuestLimitFixer/QuestLimitFixer.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ],
+          "TargetedReleases": [
+            "SkyrimLE",
+            "SkyrimSE",
+            "SkyrimVR",
+            "EnderalLE",
+            "EnderalSE"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
@@ -1458,9 +1826,12 @@
             "PreferredAutoVersioning": "LatestTag",
             "RequiredMods": [
               "RaceCompatibility.esm"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "RaceCompatibilityDialogue/RaceCompatibilityDialogue.csproj"
+          "ProjectPath": "RaceCompatibilityDialogue/RaceCompatibilityDialogue.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -1476,9 +1847,12 @@
             "OneLineDescription": "Removes radial blur effects",
             "LongDescription": "Removes radial blur from all image space adapters.\r\nAllows excluding specific image spaces, useful if you still want radial blur from specific sources such as being drunk or cold.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "Radial-Blur-Remover/Radial-Blur-Remover.csproj"
+          "ProjectPath": "Radial-Blur-Remover/Radial-Blur-Remover.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/93822872?s=40\u0026amp;v=4",
@@ -1489,10 +1863,12 @@
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "SanguinaireCompat/Sanguinaire Race Compatibility.csproj"
+          "ProjectPath": "SanguinaireCompat/Sanguinaire Race Compatibility.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/28060609?s=40\u0026amp;u=ec5f7dfba3290540b45640c7ba999e3ac75230b8\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/28060609?s=40\u0026amp;v=4",
       "User": "azraerl",
       "Repository": "RandomUtility"
     },
@@ -1505,9 +1881,12 @@
             "OneLineDescription": "Reading is Good Legacy",
             "LongDescription": "Patcher for legacy/oldrim version of reading is good mod.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "ReadingIsGoodLegacy/ReadingIsGoodLegacy.csproj"
+          "ProjectPath": "ReadingIsGoodLegacy/ReadingIsGoodLegacy.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
@@ -1523,9 +1902,12 @@
             "OneLineDescription": "Forwards changes from RWT so they don\u0027t get overwritten by other mods.",
             "LongDescription": "Forwards changes from RWT so they don\u0027t get overwritten by other mods. The changes get overwritten very frequently by a lot of different mods. This is not a patcher for new lands, it just keeps the original mod intact. If you have a mod like Falskaar, it will still need its own patch.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "RealisticWaterTwoPatcher/RealisticWaterTwoPatcher.csproj"
+          "ProjectPath": "RealisticWaterTwoPatcher/RealisticWaterTwoPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
@@ -1541,9 +1923,12 @@
             "OneLineDescription": "Synthesis patcher to remove the (Near \u0026 Far) fog from interior cells",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "RemoveInteriorFogPatcher/RemoveInteriorFogPatcher.csproj"
+          "ProjectPath": "RemoveInteriorFogPatcher/RemoveInteriorFogPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
@@ -1559,9 +1944,12 @@
             "OneLineDescription": "Patcher for Experience mod, most suitable for Requiem",
             "LongDescription": "Patcher for Experience mod, desgined for Requiem - or simply un-levelled world. Generates Races XP csv basing on load order and set of rules, if necessary creates unique duplicated races for unique NPCs; Generates Quest patch with quest type adjustments; Does optional adjustments to Skills/Skill Books.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "Requiem-Experience/Requiem-Experience.csproj"
+          "ProjectPath": "Requiem-Experience/Requiem-Experience.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/28060609?s=40\u0026amp;v=4",
@@ -1579,9 +1967,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Snazzy Furniture and Clutter Overhaul.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SFCOPaintingRemover/SFCOPaintingRemover.csproj"
+          "ProjectPath": "SFCOPaintingRemover/SFCOPaintingRemover.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -1597,9 +1988,20 @@
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "shadowmark_patcher/shadowmark_patcher.csproj"
+          "ProjectPath": "shadowmark_patcher/shadowmark_patcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ],
+          "TargetedReleases": [
+            "SkyrimLE",
+            "SkyrimSE",
+            "SkyrimVR",
+            "EnderalLE",
+            "EnderalSE"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
@@ -1615,9 +2017,12 @@
             "OneLineDescription": null,
             "LongDescription": null,
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SilentMoonsEnchantmentPatcher/SilentMoonsEnchantmentPatcher.csproj"
+          "ProjectPath": "SilentMoonsEnchantmentPatcher/SilentMoonsEnchantmentPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -1633,9 +2038,12 @@
             "OneLineDescription": "Increases the difference between item tiers (Iron, Steel, etc.), so that item tier matters more.",
             "LongDescription": "In vanilla Skyrim the difference between low tier items (e.g. Iron) and high tier items (e.g. Daedric) is quite small. A Daedric Helmet has only 50% more armor than an Iron Helmet. As a result, perks, enchantments and tempering often has a bigger impact on damage/armor than the item tier itself. By increasing the difference between the item tiers, finding higher tier items becomes more rewarding.\r\n\r\nSide effect: Enemies with high tier items will also deal more (sometimes a lot more) damage.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "ArmoryRebalance/ArmoryRebalance/ArmoryRebalance.csproj"
+          "ProjectPath": "ArmoryRebalance/ArmoryRebalance/ArmoryRebalance.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
@@ -1651,9 +2059,12 @@
             "OneLineDescription": "Makes Perks, Enchantments, Potions, Archery Level and other bow damage increasing effects also affect arrow damage, so that stronger arrows are still useful in the late game.",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "ArrowDamageScaling/ArrowDamageScaling.csproj"
+          "ProjectPath": "ArrowDamageScaling/ArrowDamageScaling.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
@@ -1669,9 +2080,12 @@
             "OneLineDescription": "Disables vanilla loading screens, so you will only see loading screens from mods.",
             "LongDescription": "There are three modes:\r\nAll:\r\nDisables all loading screens in your load order. Run this while loading screen mods are not in your load order to disable all the other loading screens. This can also be used, if you want to play without loading screens at all.\r\n\r\nVanilla:\r\nDisables all loading screens from official plugins (Skyrim \u002B DLCs \u002B Creation Club) and the unofficial patch. You will still get loading screens from quest mods and other mods that are not purely loading screen mods.\r\n\r\nSmart:\r\nDisables loading screens from all mods that are not loading screen mods. A mod is considered a loading screen mod, if at least 60% of its content are loading screens. You will only get loading screens from mods that are purely loading screen mods. This is useful if your loading screen mods use a different style (e.g. 2D loading screens) and you do not want any vanilla style loading screens.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "DisableVanillaLoadingScreens/DisableVanillaLoadingScreens.csproj"
+          "ProjectPath": "DisableVanillaLoadingScreens/DisableVanillaLoadingScreens.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
@@ -1687,9 +2101,12 @@
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "Skyrim-LeveledLoot/LeveledLoot.csproj"
+          "ProjectPath": "Skyrim-LeveledLoot/LeveledLoot.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
@@ -1705,9 +2122,12 @@
             "OneLineDescription": "Creates a fully working loading screen mod from the images within a selected directory.",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "LoadScreenGen/LoadScreenGen.csproj"
+          "ProjectPath": "LoadScreenGen/LoadScreenGen.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
@@ -1725,9 +2145,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "PassiveEnchantingXP.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "PassiveEnchantingXP/PassiveEnchantingXP.csproj"
+          "ProjectPath": "PassiveEnchantingXP/PassiveEnchantingXP.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
@@ -1743,9 +2166,12 @@
             "OneLineDescription": "Removes vertex coloring from landscapes.",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "RemoveLandscapeVertexColor/RemoveLandscapeVertexColor.csproj"
+          "ProjectPath": "RemoveLandscapeVertexColor/RemoveLandscapeVertexColor.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
@@ -1761,9 +2187,12 @@
             "OneLineDescription": "Ensures all rings and amulets can be equiped simultaneously.",
             "LongDescription": "Removes \u0022Ring\u0022 and \u0022Amulet\u0022 keywords, makes changed items invisible.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SkyrimUnlimitedRingsPatcher/SkyrimUnlimitedRingsPatcher.csproj"
+          "ProjectPath": "SkyrimUnlimitedRingsPatcher/SkyrimUnlimitedRingsPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/53153547?s=40\u0026amp;v=4",
@@ -1779,9 +2208,12 @@
             "OneLineDescription": "SkyUI Weapons Pack Icon patcher",
             "LongDescription": "Based off miniz SkyWeaponKeywords, adjusted to patch for SkyUI Weapon Pack icon keywords",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SynWeaponKeywords/SynWeapType.csproj"
+          "ProjectPath": "SynWeaponKeywords/SynWeapType.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;v=4",
@@ -1797,9 +2229,12 @@
             "OneLineDescription": "SkyVRaan Auto Patcher",
             "LongDescription": "SkyVRaan - Shimmering VR Water adds a fake reflection effect to Skyrim VR\u0027s outdoor water. It breaks up the distant LOD, shows wave movement on the distant water, and gives an illusion of water depth in the distance. Also has improved realism and clarity of near water. This patcher creates a custom SkyVRaan cubemap patch for your load order. This replaces Cubemapenabler.esp and it\u0027s many patches!!!",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SkyVRaanAutoPatcher/SkyVRaanAutoPatcher.csproj"
+          "ProjectPath": "SkyVRaanAutoPatcher/SkyVRaanAutoPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
@@ -1815,9 +2250,12 @@
             "OneLineDescription": "SkyVRaan Weather Patcher",
             "LongDescription": "SkyVRaan is a mod for SkyrimVR that adds a cubemap to water in Skyrim, faking water reflections. This patcher adjusts the Water Weather Multiplier for the weather mods you have installed to blend the water color in with the rest of the scene. This helps to create more natural looking water in all times of the day and weather.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SkyVRaanWeatherPatcher/SkyVRaanWeatherPatcher.csproj"
+          "ProjectPath": "SkyVRaanWeatherPatcher/SkyVRaanWeatherPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
@@ -1833,9 +2271,12 @@
             "OneLineDescription": "Weight -\u003E Slots, now with settings!",
             "LongDescription": "Ever wanted to test how Skyrim would feel with inventory slots instead of a weigth based system ?\nThen you are at the right place. And the best thing it is cutomizable, just load the patcher and go to the settings page. \n\nBut what is this patcher actually doing?\nThis patcher adjusts the weight and carryweight system of Skyrim to mimic the slot based inventory systems found in a lot of other games. One big inspiration was Dying Light which only has a limit for the number of weapons you can carry, but this is only the most recent game like that I played. Borderlands would fit as a reference point as well, to name another game.\n\nSo to describe it a bit more, this patcher allows you to alter the base carryweigth, then which represents the number of available slots, and reduce the effectiveness of carryweigth related effects, while removig carryweight from every non armor(clothing), weapon, potion item. All Weapons, Clothing and potions get assigned new weights that are standardized based on how heavy they are in the base game. Also the default option removes all healing effects(alchemy ingredients have it set to 0 and not removed to allow the dicovery of the effect), but this can be turned off in the settings, so you can still cabbage heal yourself if you really desire. \n\n\nThanks a lot to Halgari for creating the 1st draft of this inspired by my idea and allowing me to take over the work on this and finalize it. \n\n- Luca|EzioTheDeadPoet",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SlotsSlotsSlots/SlotsSlotsSlots.csproj"
+          "ProjectPath": "SlotsSlotsSlots/SlotsSlotsSlots.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -1851,9 +2292,12 @@
             "OneLineDescription": "Adds or removes armature slots based on other armature slots.",
             "LongDescription": "Adds or removes armature slots based on other armature slots.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SlotsSlotsSlotsSlots/SlotsSlotsSlotsSlots.csproj"
+          "ProjectPath": "SlotsSlotsSlotsSlots/SlotsSlotsSlotsSlots.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -1864,7 +2308,9 @@
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "Halgari.SoulGemDisenchantment/Halgari.SoulGemDisenchantment.csproj"
+          "ProjectPath": "Halgari.SoulGemDisenchantment/Halgari.SoulGemDisenchantment.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;u=92d7e1a4f00fb22204d2d0bb540710333ce4a365\u0026amp;v=4",
@@ -1880,9 +2326,12 @@
             "OneLineDescription": "Speed and Reach Fixes Patcher for Synthesis",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SpeedandReachFixes/SpeedandReachFixes.csproj"
+          "ProjectPath": "SpeedandReachFixes/SpeedandReachFixes.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -1898,9 +2347,12 @@
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SpellAbsorbFix/SpellAbsorbFix.csproj"
+          "ProjectPath": "SpellAbsorbFix/SpellAbsorbFix.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -1918,9 +2370,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Spell Bind"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SpellbindPatcher/SpellbindPatcher.csproj"
+          "ProjectPath": "SpellbindPatcher/SpellbindPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/926013?s=40\u0026amp;v=4",
@@ -1936,9 +2391,20 @@
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "spelltome_yeeter/spelltome_yeeter.csproj"
+          "ProjectPath": "spelltome_yeeter/spelltome_yeeter.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ],
+          "TargetedReleases": [
+            "SkyrimLE",
+            "SkyrimSE",
+            "SkyrimVR",
+            "EnderalLE",
+            "EnderalSE"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
@@ -1954,9 +2420,12 @@
             "OneLineDescription": "Multiply the spell tome values in your load order by a specified amount",
             "LongDescription": "Multiply the spell tome values in your load order by a specified amount in the settings",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SpellTomePriceFixPatcher/SpellTomePricePatcher.csproj"
+          "ProjectPath": "SpellTomePriceFixPatcher/SpellTomePricePatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
@@ -1974,9 +2443,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Dragonborn.esm"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "StaffGenerator/StaffGenerator.csproj"
+          "ProjectPath": "StaffGenerator/StaffGenerator.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
@@ -1992,9 +2464,12 @@
             "OneLineDescription": "Action Speed X patcher",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "ActionSpeedX/ActionSpeedX.csproj"
+          "ProjectPath": "ActionSpeedX/ActionSpeedX.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/7200909?s=40\u0026amp;v=4",
@@ -2010,9 +2485,12 @@
             "OneLineDescription": "Enhance book titles to show more information about them (configurable).",
             "LongDescription": "# SynBookSmart\nEnhance book titles to show more information about them. Fully configurable.\n\n## Settings\nAll settings can be configured inside the Synthesis app.\n\n### Add Skill Labels\nAdds a label to any books you find that will cause you to gain skills. Dynamically pulls this information from any book as long as it has the standard \u0027Teaches Skill\u0027 script attached. Will not work if a custom mod is using different scripts to apply the skill up.\n\n### Add Map Marker Labels\nAdds a label to any books you find that will give you a map marker via script. Will work as long as the script is on the book itself and contains \u0022MapMarker\u0022 (case insensitive) somehwere in the script name. Will not apply to scripts belonging to the quest record instead of the book. This may be able to be improved in the future.\n\n#### Add Quest Labels\nAdds a label to any books you find that are involved in a quest. Enabling this label will require the patcher to create a quest book cache at the beginning of each run, which will extend processing time a bit. This cache looks through all quests and finds any aliases that reference a book. If found, that book will be marked as a quest book. Also checks for scripts on the book itself that have the word \u0022Quest\u0022 (case insenstive) in the name. Please open a [Github issue](https://github.com/Synthesis-Collective/SynBookSmart/issues) if you find a quest book that is not being caught by the patcher, even if it\u0027s from a mod.\n\n### Label Position\n- Before_Name\n  - \u0060\u003CAlchemy\u003E Snape\u0027s Book of Potions\u0060\n- After_Name\n  - \u0060Snape\u0027s Book of Potions \u003CAlchemy\u003E\u0060\n\n### Label Format\n- Star\n  - \u0060*Snape\u0027s Book of Potions\u0060\n- Short\n  - \u0060\u003CAlch\u003E Snape\u0027s Book of Potions\u0060\n- Long\n  - \u0060\u003CAlchemy\u003E Snape\u0027s Book of Potions\u0060\n\n### Encapsulating Characters\nThis setting has no effect if a Label Format of \u0060Star\u0060 is chosen.\n\n- Parenthesis\n  - \u0060(Alch) Snape\u0027s Book of Potions\u0060\n- Curly Brackets\n  - \u0060{Alch} Snape\u0027s Book of Potions\u0060\n- Square Brackets\n  - \u0060[Alch] Snape\u0027s Book of Potions\u0060\n- Chevrons\n  - \u0060\u003CAlch\u003E Snape\u0027s Book of Potions\u0060\n- Stars\n  - \u0060*Alch* Snape\u0027s Book of Potions\u0060\n",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "BookSmart/BookSmart.csproj"
+          "ProjectPath": "BookSmart/BookSmart.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -2028,9 +2506,12 @@
             "OneLineDescription": "Generates Bundled arrows a bolts for selling",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SynBundler/SynPatcher.csproj"
+          "ProjectPath": "SynBundler/SynPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
@@ -2046,9 +2527,12 @@
             "OneLineDescription": "Synthesis version of cuyima\u0027s zedit patcher for CGO staves",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SynCGOStaves/SynPatcher.csproj"
+          "ProjectPath": "SynCGOStaves/SynPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
@@ -2064,9 +2548,12 @@
             "OneLineDescription": "Synthesis Patcher for tweaking the weight, value and names of coins from a selection of mods.",
             "LongDescription": "This Patcher allows tweaking of weight, value and names of coins from the following mods (none required): Vanilla, Beyond Skyrim: Bruma, Narrative Loot, Unique Coins \u0026 Coins of Tamriel.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "CoinTweaker/CoinTweaker.csproj"
+          "ProjectPath": "CoinTweaker/CoinTweaker.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/4649131?s=40\u0026amp;v=4",
@@ -2082,9 +2569,12 @@
             "OneLineDescription": "Synthesis patcher to remove combat boundaries and allow npcs to chase you through water",
             "LongDescription": "Synthesis patcher to remove combat boundaries and allow npcs to chase you through water",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SynCombatBoundaries/SynCombatBoundaries.csproj"
+          "ProjectPath": "SynCombatBoundaries/SynCombatBoundaries.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/7200909?s=40\u0026amp;v=4",
@@ -2100,9 +2590,12 @@
             "OneLineDescription": "Compatibility patcher for Fk\u0027s diverse skeletons",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SynFksDiverseSkeleton/SynFksDiverseSkeleton.csproj"
+          "ProjectPath": "SynFksDiverseSkeleton/SynFksDiverseSkeleton.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/7200909?s=40\u0026amp;v=4",
@@ -2118,9 +2611,12 @@
             "OneLineDescription": "Synthesis patcher to fix flora respawning (needs data from nexus)",
             "LongDescription": "Nexus Data can be found here: https://www.nexusmods.com/skyrimspecialedition/mods/42057",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "FloraFixer/FloraFixer.csproj"
+          "ProjectPath": "FloraFixer/FloraFixer.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
@@ -2136,9 +2632,12 @@
             "OneLineDescription": "Patcher to make all helms and hoods allow circlets to be worn with circlets",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SynHelmWithCirlets/SynPatcher.csproj"
+          "ProjectPath": "SynHelmWithCirlets/SynPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
@@ -2154,9 +2653,12 @@
             "OneLineDescription": "Patcher to make all helmets modded and vanilla invisible",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SynInvisibleHelmets/SynPatcher.csproj"
+          "ProjectPath": "SynInvisibleHelmets/SynPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
@@ -2172,9 +2674,12 @@
             "OneLineDescription": "Patcher to add and remove keywords from items",
             "LongDescription": "Patcher to add and remove keywords from any keywordable item; You shouldn\u0027t need this unless required by a mod.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "KeywordDistributor/SynPatcher.csproj"
+          "ProjectPath": "KeywordDistributor/SynPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
@@ -2190,9 +2695,12 @@
             "OneLineDescription": "Removes the 3d objects from loadscreens",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SynLoadScreenRemover/SynPatcher.csproj"
+          "ProjectPath": "SynLoadScreenRemover/SynPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
@@ -2208,9 +2716,12 @@
             "OneLineDescription": "Synthesis based enchantment restriction remover",
             "LongDescription": "Enables all enchantments to be applied to nearly everything",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SynEnchRestrictionsRemover/SynPatcher.csproj"
+          "ProjectPath": "SynEnchRestrictionsRemover/SynPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
@@ -2226,9 +2737,12 @@
             "OneLineDescription": "Fixes low-level enemies spawning in high-level dungeons.",
             "LongDescription": "# Synthesis Patcher - No More Easy Enemies\nRework NPC leveled list difficulty multipliers and settings to banish low-level enemies from your high-level dungeons.\n\n## Wait, what?\nThe way Skyrim chooses which NPC to place in a dungeon is...complicated. Long story short, it uses a combination of your level, actor multipliers, the spawn\u0027s difficulty setting, and some flags to determine which level of an NPC is standing in a particular spot. \n\nThe problem is that one of the spawn difficulties, \u0022Easy\u0022, chooses from the list in such a way that it has the (quite good) chance to spawn the lowest-level enemies. There is a flag to turn this off, which \u0022Easy\u0022 ignores completely. So any time you have an \u0022Easy\u0022 spawn in a dungeon, there\u0027s a chance for you to see a low-level enemy in that spot.\n\nThis patcher reworks the multipliers and the spawn settings to avoid this issue with the \u0022Easy\u0022 setting.  It optionally updates all Leveled NPC lists to prevent low-level enemies from being spawned.\n\n## How?\nThe easiest way to explain the HOW is with an example.\n\nBy default, Skyrim uses the following spawn difficulty (leveled actors) multipliers:\n- fLeveledActorMultEasy: 0.33\n- fLeveledActorMultMedium: 0.67\n- fLeveledActorMultHard: 1.00\n- fLeveledActorMultVeryHard: 1.25\n\nCritically, if a spawn does NOT have a difficulty set, the multiplier used is a static 1.00.  We can abuse this fact to avoid the issue with the \u0022Easy\u0022 spawn difficulty.\n\nIf you leave the \u0022Spawn Difficulty to Replace\u0022 setting at the default of Hard, NoMoreEasyEnemies will do the following:\n- Change fLeveledActorMultMedium to 0.33 (new Easy)\n- Change fLeveledActorMultHard to 0.67 (new Medium)\n- For all enemy spawns (Placed NPCs), if the old difficulty setting was \u0022Easy\u0022, change it to \u0022Medium\u0022\n- For all enemy spawns (Placed NPCs), if the old difficulty setting was \u0022Medium\u0022, change it to \u0022Hard\u0022\n- For all enemy spawns (Placed NPCs), if the old difficulty setting was \u0022Hard\u0022, delete the setting (force to multiplier of 1.00)\n- Optionally update all Leveled NPC lists to remove the \u0022Calculate From All Levels Less Than Or Equal Player\u0022 flag if it is set, preventing low level NPCs from spawning when those lists are used\n\nNow there should be NO spawns with a difficulty of \u0022Easy\u0022. Previously \u0022Easy\u0022 spawns are now \u0022Medium\u0022. Previously \u0022Medium\u0022 spawns are now \u0022Hard\u0022. Previously \u0022Hard\u0022 spawns are now empty, so a multiplier of 1.00. And all the Leveled NPC lists will only select the highest-eligible NPCs.\n\n## Settings\nAll settings can be configured inside the Synthesis app.\n\n### Spawn Difficulty to Replace\nThis is the Difficulty (Level Modifier) that will be replaced by a static multiplier of 1.0 (modifier removed).\n\nPick the Modifier with a multiplier closest to 1.0.  \n\nIf your multipliers are vanilla, use \u0027Hard\u0027.\nIf your multipliers are harder than normal (OWL, SRLEZ, etc), \u0027Medium\u0027 is probably your best bet.\n\nTo get the exact correct value, open up xEdit with your load order. Enter each of the following FormIDs in the \u0027FormID\u0027 box in the top left and hit ENTER. Note the Data/Float value for each setting.  Use the value in the farthest-right column of the right pane. Do NOT use the value in Synthesis.esp, though.\n\n- Easy: 0001A1D9\n- Medium: 0001A1DB\n- Hard: 0001A1DA\n- VeryHard: 00023C0B\n\nWhichever game setting is closest to 1.00 is the difficulty you should set in Synthesis.\n\n**Default**: Hard\n\n### Leveled NPC lists prefer player-level NPCs\nIf enabled, all Leveled NPC lists will be updated to remove the \u0022Calculate From All Levels Less Than Or Equal Player\u0022 flag if it is set. This will prevent the Leveled NPC list from selecting lower-level NPCs when spawning NPCs. This is slightly more risky if a mod or event depends on lower-level NPCs being selected. Please report any issues with this.\n\n**Default**: enabled\n\n\n## FAQ\n### Will this break things?\nI don\u0027t think so. You\u0027re using the same leveled lists that you were before, all we\u0027re doing is influencing which NPC will get selected. If you want to be extra safe, disable the \u0022Leveled NPC lists prefer player-level NPCs\u0022 setting.\n\nAs a precaution, you could create a save before entering a new interior area with enemies. Once you enter a dungeon, the enemies are generated and saved into your next save file, and it is not simple to regenerate them.\n\n### Why are there still a few level 1 enemies?!?\nBethesda, in its infinite wisdom, has statically set some spawns to use specific NPCs rather than leveled lists. These NPCs are often set to level 1 and do not scale with the player. Call Todd and ask him.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SynNoMoreEasyEnemies/SynNoMoreEasyEnemies.csproj"
+          "ProjectPath": "SynNoMoreEasyEnemies/SynNoMoreEasyEnemies.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -2244,9 +2758,12 @@
             "OneLineDescription": "Consistency Patcher for Open World Loot",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "OWLPatcher/OWLPatcher.csproj"
+          "ProjectPath": "OWLPatcher/OWLPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/5535758?s=40\u0026amp;v=4",
@@ -2262,9 +2779,12 @@
             "OneLineDescription": "Synthesis patcher to change potion / poison weights",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SynPotionWeight/SynPatcher.csproj"
+          "ProjectPath": "SynPotionWeight/SynPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
@@ -2280,9 +2800,12 @@
             "OneLineDescription": "Race Rebalancer - adjust the stats of playable races, and hitpoints of all other races via a selection of powerful settings.",
             "LongDescription": "Race Rebalancer can be used ot adjust the attributes of playable races, including Health, Stamina, Magicka, as well as skills and other starting values. It can also be used to globally buff, or nerf, the hitpoints of all creatures.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SynRaceRebalancer/SynRaceRebalancer.csproj"
+          "ProjectPath": "SynRaceRebalancer/SynRaceRebalancer.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/4649131?s=40\u0026amp;v=4",
@@ -2300,9 +2823,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "ELE_SSE.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "ELE_Patcher/ELE_Patcher.csproj"
+          "ProjectPath": "ELE_Patcher/ELE_Patcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/23498000?s=40\u0026amp;u=7e69567ce1aedde841a7bf44d42329dac682c97f\u0026amp;v=4",
@@ -2318,9 +2844,12 @@
             "OneLineDescription": "Helper patcher for TPF",
             "LongDescription": "Creates a new plugin with all the modified NPC records, useful for building NPC merges",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SynthNPCsWithFaces/SynthNPCsWithFaces.csproj"
+          "ProjectPath": "SynthNPCsWithFaces/SynthNPCsWithFaces.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;v=4",
@@ -2331,11 +2860,15 @@
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "SynthusMaximus.Test/SynthusMaximus.Test.csproj"
+          "ProjectPath": "SynthusMaximus.Test/SynthusMaximus.Test.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         },
         {
           "Customization": null,
-          "ProjectPath": "Xml2Json/Xml2Json.csproj"
+          "ProjectPath": "Xml2Json/Xml2Json.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;u=92d7e1a4f00fb22204d2d0bb540710333ce4a365\u0026amp;v=4",
@@ -2351,9 +2884,12 @@
             "OneLineDescription": "Weapon type keyword patcher (similar to zEdit patcher)",
             "LongDescription": "Supports a wide variety of mods",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "SynPatcher/SynPatcher.csproj"
+          "ProjectPath": "SynPatcher/SynPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
@@ -2369,9 +2905,12 @@
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "TMOPatcher/TMOPatcher.csproj"
+          "ProjectPath": "TMOPatcher/TMOPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/556678?s=40\u0026amp;v=4",
@@ -2387,9 +2926,20 @@
             "OneLineDescription": "A large collection of features to unlevel your game like never before with a lot of compatibility to boot.",
             "LongDescription": "A large collection of features to unlevel your game like never before with a lot of compatibility to boot.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "TrueUnleveledSkyrim/TrueUnleveledSkyrim.csproj"
+          "ProjectPath": "TrueUnleveledSkyrim/TrueUnleveledSkyrim.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ],
+          "TargetedReleases": [
+            "SkyrimLE",
+            "SkyrimSE",
+            "SkyrimVR",
+            "EnderalLE",
+            "EnderalSE"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
@@ -2405,9 +2955,12 @@
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "TUDMFootstepPatcher/TUDMFootstepPatcher.csproj"
+          "ProjectPath": "TUDMFootstepPatcher/TUDMFootstepPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
@@ -2423,9 +2976,12 @@
             "OneLineDescription": "Distributes undergarments (that are always equipped and hidden under clothing) to NPCs.",
             "LongDescription": "User-configurable patcher that defines underwear items, distributes them to NPCs, and equips them under their clothes or armor. You get to decide which items are undergarments, import them into the patcher, and assign them to NPCs at random, by class, or by faction.\nThe default settings rely upon you having the mod Equipable Underwear for Everyone in your load order, but this dependency can be completely removed and switched to other undergarment mods by editing the settings.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "UnderThere/UnderThere.csproj"
+          "ProjectPath": "UnderThere/UnderThere.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
@@ -2436,7 +2992,9 @@
       "Patchers": [
         {
           "Customization": null,
-          "ProjectPath": "Tests/Tests.csproj"
+          "ProjectPath": "Tests/Tests.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
@@ -2452,9 +3010,12 @@
             "OneLineDescription": "[BETA] Synthesis patcher that replaces the \u0027Open Skyrim\u0027 text on doors with a location-sensitive region name.",
             "LongDescription": "This replaces the original \u0027Unique Region Names\u0027 mod, and should not be used alongside it.\nNote that this patcher is still in beta, and issues may be present.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "UniqueRegionNamesPatcher/UniqueRegionNamesPatcher.csproj"
+          "ProjectPath": "UniqueRegionNamesPatcher/UniqueRegionNamesPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
@@ -2470,9 +3031,12 @@
             "OneLineDescription": "Loader for HeartSeeker Skyrim UPF Patch",
             "LongDescription": "Loader for HeartSeeker Skyrim UPF Patch:\r\nhttps://www.nexusmods.com/skyrimspecialedition/mods/37741\r\n\r\nThis loader gathers the mods from your load order that contain the records HeartSeeker wants to edit. Any mod you do not want to include, just untick in ModOrganizer before launching Synthesis.\r\n\r\nThis outputs \u0022HeartSeekerLoader.esp\u0022, which you then load in with zEdit to workaround zEdit\u0027s 255 plugin limit.\r\n\r\nOnce you\u0027ve created your zEdit patch, please delete the loader esp.\r\n\r\nThis also outputs a dummy Synthesis.esp. Please only run this patch alone, and make a backup or rename any other \u0022Synthesis.esp\u0022 you have.\r\n\r\nBe sure to check for conflicts in your created zEdit patch afterwards in xEdit.\r\n\r\nTo use, install Synthesis and add this repo, or select it from the built-in list.\r\nhttps://github.com/Noggog/Synthesis/\r\n\r\nInspired by: https://www.nexusmods.com/skyrimspecialedition/mods/35012\r\nThis loader was made due to the xEdit script missing some mods that need to be included.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "UPFLoader - HeartSeeker/UPFLoader-HeartSeeker.csproj"
+          "ProjectPath": "UPFLoader - HeartSeeker/UPFLoader-HeartSeeker.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
@@ -2490,9 +3054,12 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Priest Vendors SE.esp"
-            ]
+            ],
+            "TargetedReleases": []
           },
-          "ProjectPath": "VendorPriestNPCPatcher/VendorPriestNPCPatcher.csproj"
+          "ProjectPath": "VendorPriestNPCPatcher/VendorPriestNPCPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/18351077?s=40\u0026amp;v=4",
@@ -2508,9 +3075,12 @@
             "OneLineDescription": "Patches all the waters in your load order to have the \u0027Does Damage\u0027 flag applied - useful for needs mods.",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "WaterDoesDamage/WaterDoesDamage.csproj"
+          "ProjectPath": "WaterDoesDamage/WaterDoesDamage.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
@@ -2526,9 +3096,12 @@
             "OneLineDescription": "Weapon Speed Effects Fix and Attack Speed Framework Plus Synthesis Patcher for Skyrim SE",
             "LongDescription": "Replaces \u0027_lilmace - Weapon Speed Effects Fix patcher.pas\u0027 from https://www.nexusmods.com/skyrimspecialedition/mods/36042",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "WeaponSpeedEffectsFix/WeaponSpeedEffectsFix.csproj"
+          "ProjectPath": "WeaponSpeedEffectsFix/WeaponSpeedEffectsFix.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
@@ -2544,9 +3117,12 @@
             "OneLineDescription": "Focus on the important things.",
             "LongDescription": "Makes \u0022useless\u0022 items weightless. \n\n- Luca|EzioTheDeadPoet",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "Weightless-Misc-Items/Weightless-Misc-Items.csproj"
+          "ProjectPath": "Weightless-Misc-Items/Weightless-Misc-Items.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
@@ -2562,9 +3138,12 @@
             "OneLineDescription": "Generates partially filled soul gems for YASTM",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "YASTMGenerator/YASTMGenerator.csproj"
+          "ProjectPath": "YASTMGenerator/YASTMGenerator.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
@@ -2580,9 +3159,12 @@
             "OneLineDescription": "ZFloorPatcher",
             "LongDescription": "ZFloorPatcher",
             "PreferredAutoVersioning": "LatestTag",
-            "RequiredMods": []
+            "RequiredMods": [],
+            "TargetedReleases": []
           },
-          "ProjectPath": "ZFloorPatcher/Z-FloorPatcher.csproj"
+          "ProjectPath": "ZFloorPatcher/Z-FloorPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
