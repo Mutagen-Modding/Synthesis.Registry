@@ -13,16 +13,8 @@
             "TargetedReleases": []
           },
           "ProjectPath": "RemoveEdgeGlow/RemoveEdgeGlow.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ],
-          "TargetedReleases": [
-            "SkyrimLE",
-            "SkyrimSE",
-            "SkyrimVR",
-            "EnderalLE",
-            "EnderalSE"
-          ]
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
@@ -231,16 +223,8 @@
             "TargetedReleases": []
           },
           "ProjectPath": "BreakdownRecipeGenerator/BreakdownRecipeGenerator.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ],
-          "TargetedReleases": [
-            "SkyrimLE",
-            "SkyrimSE",
-            "SkyrimVR",
-            "EnderalLE",
-            "EnderalSE"
-          ]
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
@@ -302,16 +286,8 @@
             "TargetedReleases": []
           },
           "ProjectPath": "CompleteCraftingOverhaulCompatibleRecipeGenerator/CompleteCraftingOverhaulCompatibleRecipeGenerator.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ],
-          "TargetedReleases": [
-            "SkyrimLE",
-            "SkyrimSE",
-            "SkyrimVR",
-            "EnderalLE",
-            "EnderalSE"
-          ]
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
@@ -331,20 +307,6 @@
             "TargetedReleases": []
           },
           "ProjectPath": "CostumeShop/CostumeShop.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ],
-          "TargetedReleases": [
-            "SkyrimLE",
-            "SkyrimSE",
-            "SkyrimVR",
-            "EnderalLE",
-            "EnderalSE"
-          ]
-        },
-        {
-          "Customization": null,
-          "ProjectPath": "Tests/Tests.csproj",
           "IncludedLibraries": [],
           "TargetedReleases": []
         }
@@ -494,20 +456,6 @@
             "TargetedReleases": []
           },
           "ProjectPath": "RecombinePatch/RecombinePatch.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ],
-          "TargetedReleases": [
-            "SkyrimLE",
-            "SkyrimSE",
-            "SkyrimVR",
-            "EnderalLE",
-            "EnderalSE"
-          ]
-        },
-        {
-          "Customization": null,
-          "ProjectPath": "RecombinePatchTests/RecombinePatchTests.csproj",
           "IncludedLibraries": [],
           "TargetedReleases": []
         }
@@ -531,16 +479,8 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ELE_Patcher/ELE_Patcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ],
-          "TargetedReleases": [
-            "SkyrimLE",
-            "SkyrimSE",
-            "SkyrimVR",
-            "EnderalLE",
-            "EnderalSE"
-          ]
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/93822872?s=40\u0026amp;v=4",
@@ -581,16 +521,8 @@
             "TargetedReleases": []
           },
           "ProjectPath": "EnchantedVariantsGenerater/EnchantedVariantsGenerater.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ],
-          "TargetedReleases": [
-            "SkyrimLE",
-            "SkyrimSE",
-            "SkyrimVR",
-            "EnderalLE",
-            "EnderalSE"
-          ]
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
@@ -982,20 +914,8 @@
             "TargetedReleases": []
           },
           "ProjectPath": "HonedMetalAdditionalIngredients/HonedMetalAdditionalIngredients.csproj",
-          "IncludedLibraries": [
-            "Oblivion",
-            "Skyrim",
-            "Fallout4"
-          ],
-          "TargetedReleases": [
-            "Oblivion",
-            "SkyrimLE",
-            "SkyrimSE",
-            "SkyrimVR",
-            "EnderalLE",
-            "EnderalSE",
-            "Fallout4"
-          ]
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
@@ -1349,16 +1269,8 @@
             "TargetedReleases": []
           },
           "ProjectPath": "MaleAAGenerator/MaleAAGenerator.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ],
-          "TargetedReleases": [
-            "SkyrimLE",
-            "SkyrimSE",
-            "SkyrimVR",
-            "EnderalLE",
-            "EnderalSE"
-          ]
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/52758909?s=40\u0026amp;v=4",
@@ -1378,20 +1290,8 @@
             "TargetedReleases": []
           },
           "ProjectPath": "MasculinizedLeveledLists/MasculinizedLeveledLists.csproj",
-          "IncludedLibraries": [
-            "Oblivion",
-            "Skyrim",
-            "Fallout4"
-          ],
-          "TargetedReleases": [
-            "Oblivion",
-            "SkyrimLE",
-            "SkyrimSE",
-            "SkyrimVR",
-            "EnderalLE",
-            "EnderalSE",
-            "Fallout4"
-          ]
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
@@ -1612,16 +1512,8 @@
             "TargetedReleases": []
           },
           "ProjectPath": "NPC-DeLeveler/NPC_DeLeveler.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ],
-          "TargetedReleases": [
-            "SkyrimLE",
-            "SkyrimSE",
-            "SkyrimVR",
-            "EnderalLE",
-            "EnderalSE"
-          ]
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
@@ -1799,16 +1691,8 @@
             "TargetedReleases": []
           },
           "ProjectPath": "QuestLimitFixer/QuestLimitFixer.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ],
-          "TargetedReleases": [
-            "SkyrimLE",
-            "SkyrimSE",
-            "SkyrimVR",
-            "EnderalLE",
-            "EnderalSE"
-          ]
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
@@ -1992,16 +1876,8 @@
             "TargetedReleases": []
           },
           "ProjectPath": "shadowmark_patcher/shadowmark_patcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ],
-          "TargetedReleases": [
-            "SkyrimLE",
-            "SkyrimSE",
-            "SkyrimVR",
-            "EnderalLE",
-            "EnderalSE"
-          ]
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
@@ -2395,16 +2271,8 @@
             "TargetedReleases": []
           },
           "ProjectPath": "spelltome_yeeter/spelltome_yeeter.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ],
-          "TargetedReleases": [
-            "SkyrimLE",
-            "SkyrimSE",
-            "SkyrimVR",
-            "EnderalLE",
-            "EnderalSE"
-          ]
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
@@ -2930,16 +2798,8 @@
             "TargetedReleases": []
           },
           "ProjectPath": "TrueUnleveledSkyrim/TrueUnleveledSkyrim.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ],
-          "TargetedReleases": [
-            "SkyrimLE",
-            "SkyrimSE",
-            "SkyrimVR",
-            "EnderalLE",
-            "EnderalSE"
-          ]
+          "IncludedLibraries": [],
+          "TargetedReleases": []
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
