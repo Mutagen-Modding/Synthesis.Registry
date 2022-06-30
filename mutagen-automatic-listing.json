@@ -674,6 +674,27 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Feminized Leveled Lists",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches leveled NPC lists to remove male entries from them based on the chosen criteria.",
+            "LongDescription": "Patches leveled NPC lists to remove male entries from them based on the chosen criteria. Modified Version of ReaperAnon\u0027s Patcher found here: https://github.com/ReaperAnon/Masculinized-Leveled-Lists",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "FeminizedLeveledLists/FeminizedLeveledLists.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/108483106?s=40\u0026amp;v=4",
+      "User": "Sludes",
+      "Repository": "Feminized-Leveled-Lists"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "FixMergedDAR",
             "Visibility": "Visible",
             "OneLineDescription": "DAR ZMerge Fixup",
