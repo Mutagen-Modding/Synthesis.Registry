@@ -677,7 +677,7 @@
             "Nickname": "Feminized Leveled Lists",
             "Visibility": "Visible",
             "OneLineDescription": "Patches leveled NPC lists to remove male entries from them based on the chosen criteria.",
-            "LongDescription": "Patches leveled NPC lists to remove male entries from them based on the chosen criteria. Modified Version of ReaperAnon\u0027s Patcher found here: https://github.com/ReaperAnon/Masculinized-Leveled-Lists",
+            "LongDescription": "Patches leveled NPC lists to remove male entries from them based on the chosen criteria. Modified Version of ReaperAnon\u0027s Patcher found here: https://github.com/ReaperAnon/Masculinized-Leveled-Lists. Requires FLL - Feminized Level Lists (https://www.nexusmods.com/skyrimspecialedition/mods/14482/) to fix some NPC bugs",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": []
@@ -1498,6 +1498,27 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
       "User": "Bl4ckread",
       "Repository": "Northpoint-BDS-Patcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "NoStartingMapMarkers",
+            "Visibility": "Visible",
+            "OneLineDescription": "This Skyrim SE patcher removes all map markers for unvisited places from your map.",
+            "LongDescription": "This removes all map markers for UNVISITED places from your map. Compatible with everything. Can be applied at any time, even mid-game. Will NOT remove already visited places and will NOT remove markers that have already been added to your map by quests or by talking to people.\r\n\r\nFor full documentation, go to the Nexus location here: https://www.nexusmods.com/skyrimspecialedition/mods/70178\r\n\r\nI HAVE DISABLED ISSUES IN GITHUB, PLEASE REPORT BUGS IN NEXUS FOR NOW.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "NoStartingMapMarkers/NoStartingMapMarkers.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/47191053?s=40\u0026amp;v=4",
+      "User": "Glanzer-modder",
+      "Repository": "NoStartingMapMarkers"
     },
     {
       "Patchers": [
