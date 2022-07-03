@@ -61,6 +61,27 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "AllBooksHavePerks",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "AllBooksHavePerks/AllBooksHavePerks.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/44707323?s=40\u0026amp;v=4",
+      "User": "AmoneMisa",
+      "Repository": "AllBooksHavePerks"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "AllGUDMeshGen",
             "Visibility": "Visible",
             "OneLineDescription": "All-in-one mesh patcher and alternate texture handler for All Geared Up Derivative (AllGUD)",
