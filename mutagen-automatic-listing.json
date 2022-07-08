@@ -1052,6 +1052,27 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "ItemTagger",
+            "Visibility": "Visible",
+            "OneLineDescription": "Tags items for inventory/sorting mods",
+            "LongDescription": "Adds tags to items, for usage with inventory/sorting mods.\r\nSupports FIS, VIS, VIS-G, LWIS, and Horizon (tags only).\r\nBeta. Use at your own risk!",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "TestPatcher/ItemTagger.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/8077005?s=40\u0026amp;v=4",
+      "User": "praecipitator",
+      "Repository": "ItemAutoTagger"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ItemWeightCustomizer",
             "Visibility": "Visible",
             "OneLineDescription": "Customize and configure item weights",
