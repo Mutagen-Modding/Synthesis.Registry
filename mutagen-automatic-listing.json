@@ -2432,6 +2432,29 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "A Variety of Containers Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Forward material swaps from AVOC on containers to final conflict winners.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "A Variety of Containers.esp"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "AVOCPatcher/AVOCPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/13448395?s=40\u0026amp;v=4",
+      "User": "rshackleton",
+      "Repository": "SynAVOCPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "BookSmart",
             "Visibility": "Visible",
             "OneLineDescription": "Enhance book titles to show more information about them (configurable).",
