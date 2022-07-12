@@ -945,6 +945,29 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "HighPolyHead-RaceMenu Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches Racemenu to use Highl Poly Head",
+            "LongDescription": "This Tool patches racemenu relevant records to use High Poly Head records instead of their equivalent vanilla Records for character creation, making the default presets use the High Poly Head parts.\r\nAnd it disables all their vanilla equivalent parts for character creation to prevent the use of the replaced parts.\r\n\r\nBefore running make sure you haven\u0027t used a similar patcher to automatically alter your race-headparts since having edits like that on your loadorder will break the patcher.",
+            "PreferredAutoVersioning": "LatestTag",
+            "RequiredMods": [
+              "High Poly Head.esm"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "HighPolyHead-RaceMenu Patcher/HighPolyHead-RaceMenu Patcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
+      "User": "EzioTheDeadPoet",
+      "Repository": "HighPolyHead-RaceMenuPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "HonedMetalAdditionalIngredients",
             "Visibility": "Visible",
             "OneLineDescription": "Adds additional ingredients for Honed Metal",
