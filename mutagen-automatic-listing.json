@@ -1083,7 +1083,7 @@
             "RequiredMods": [],
             "TargetedReleases": []
           },
-          "ProjectPath": "TestPatcher/ItemTagger.csproj",
+          "ProjectPath": "ItemTagger/ItemTagger.csproj",
           "IncludedLibraries": [],
           "TargetedReleases": []
         }
