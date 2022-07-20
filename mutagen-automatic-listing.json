@@ -1078,7 +1078,7 @@
             "Nickname": "ItemTagger",
             "Visibility": "Visible",
             "OneLineDescription": "Tags items for inventory/sorting mods",
-            "LongDescription": "Adds tags to items, for usage with inventory/sorting mods.\r\nSupports FIS, VIS, VIS-G, LWIS, and Horizon (tags only).\r\nBeta. Use at your own risk!",
+            "LongDescription": "Adds tags to item names, for usage with inventory/sorting mods.\r\n\r\nSupports FIS, VIS, VIS-G, LWIS, and Horizon (tags only), or a custom configuration.\r\nFor the latter, you must define the tags you want to use under Settings.\r\n\r\nYou can also define custom overrides on a per-item basis, to specify the \u0022type\u0022 of that item. \r\nThese types are then used to determine which tag should be used. The type \u0022none\u0022 can be used to blacklist that item.\r\n",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": []
