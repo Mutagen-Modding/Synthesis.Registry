@@ -865,6 +865,27 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "GripSwitchPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patch Equipslot of Two-handed weapons for Grip Switch",
+            "LongDescription": "Read one line description",
+            "PreferredAutoVersioning": "LatestTag",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "EquipSlotPatcher/EquipSlotPatcher.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/58283582?s=40\u0026amp;v=4",
+      "User": "v4031",
+      "Repository": "GripSwitchPatcher"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "HalgarisConsistentUniqueRPGLoot",
             "Visibility": "Visible",
             "OneLineDescription": "RPG Loot without reshuffle while patching and without duplicate enchantments.",
@@ -3160,6 +3181,29 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
       "User": "EzioTheDeadPoet",
       "Repository": "Weightless-Misc-Items"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "WorkbenchOrganizer",
+            "Visibility": "Visible",
+            "OneLineDescription": "WorkbenchOrganizer",
+            "LongDescription": "Autopatches workbench recipes, for usage with Organized Workbench Menu.\r\n\r\nRequires Organized Workbench Menu: https://www.nexusmods.com/fallout4/mods/32588",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "OWM-Master.esl"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "WorkbenchOrganizer/WorkbenchOrganizer.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/8077005?s=40\u0026amp;v=4",
+      "User": "praecipitator",
+      "Repository": "WorkbenchOrganizer"
     },
     {
       "Patchers": [
