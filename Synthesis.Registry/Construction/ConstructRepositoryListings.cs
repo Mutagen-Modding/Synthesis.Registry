@@ -29,7 +29,6 @@ namespace Synthesis.Registry.MutagenScraper.Construction
             var patchers = await _constructListings.Construct(dep, projs);
             System.Console.WriteLine($"Processed {dep} and retrieved {patchers.Length} patchers:{Environment.NewLine}   {string.Join($"{Environment.NewLine}   ", ((IEnumerable<PatcherListing>)patchers).Select(x => x.ProjectPath))}");
 
-            await Task.Delay(500);
             return new RepositoryListing()
             {
                 // For some reason, Avatar was flickering
