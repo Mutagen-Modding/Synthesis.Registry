@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using GitHubDependents;
 using Octokit;
+using Synthesis.Registry.MutagenScraper.Dto;
+using Synthesis.Registry.MutagenScraper.Listings;
 
 namespace Synthesis.Registry.MutagenScraper.Github;
 
@@ -17,7 +18,7 @@ public class GithubContentDownloader
         _githubClientProvider = githubClientProvider;
     }
 
-    public async Task<string?> TryGetContent(Dependent dep, string path)
+    public async Task<string?> TryGetContent(Listing dep, string path)
     {
         System.Console.WriteLine($"{dep} retrieving {path}");
         IReadOnlyList<RepositoryContent>? content;

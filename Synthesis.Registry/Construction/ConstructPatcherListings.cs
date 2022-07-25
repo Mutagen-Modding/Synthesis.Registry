@@ -1,15 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Net;
-using System.Text.Json;
 using System.Threading.Tasks;
-using GitHubDependents;
 using Noggog;
-using Octokit;
-using Synthesis.Bethesda;
 using Synthesis.Bethesda.DTO;
+using Synthesis.Registry.MutagenScraper.Dto;
+using Synthesis.Registry.MutagenScraper.Listings;
 
 namespace Synthesis.Registry.MutagenScraper.Construction
 {
@@ -23,7 +19,7 @@ namespace Synthesis.Registry.MutagenScraper.Construction
             _customizationRetriever = customizationRetriever;
         }
         
-        public async Task<PatcherListing[]> Construct(Dependent dep, IEnumerable<string> projs)
+        public async Task<PatcherListing[]> Construct(Listing dep, IEnumerable<string> projs)
         {
             return (await projs
                 .ToAsyncEnumerable()

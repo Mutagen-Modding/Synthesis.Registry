@@ -1,26 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using GitHubDependents;
+using Synthesis.Registry.MutagenScraper.Dto;
 
 namespace Synthesis.Registry.MutagenScraper.Listings
 {
     public class ListingsToProcessProvider
     {
         public IArgProvider ArgProvider { get; }
-        public ISynthesisListingsProvider ListingsProvider { get; }
+        public ISynthesisDependentsProvider DependentsProvider { get; }
 
         public ListingsToProcessProvider(
             IArgProvider argProvider,
-            ISynthesisListingsProvider listingsProvider)
+            ISynthesisDependentsProvider dependentsProvider)
         {
             ArgProvider = argProvider;
-            ListingsProvider = listingsProvider;
+            DependentsProvider = dependentsProvider;
         }
         
-        public async IAsyncEnumerable<Dependent> Get()
+        public async IAsyncEnumerable<Listing> Get()
         {
-            var listings = await ListingsProvider.Get();
+            var listings = await DependentsProvider.Get();
+            listings = listings.Where(x => x.User != null && x.Repository != null).ToArray();
             var number = ArgProvider.RunNumber;
             var slots = (int)Math.Ceiling(1.0d * listings.Count / ArgProvider.NumToProcessPer);
             var slot = number % slots;
@@ -35,7 +36,7 @@ namespace Synthesis.Registry.MutagenScraper.Listings
             }
             foreach (var listing in toProcess)
             {
-                yield return listing;
+                yield return new Listing(listing.AvatarURL, listing.User!, listing.Repository!);
             }
         }
     }

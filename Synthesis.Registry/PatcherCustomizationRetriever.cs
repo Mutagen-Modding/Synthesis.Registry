@@ -7,7 +7,9 @@ using GitHubDependents;
 using Octokit;
 using Synthesis.Bethesda;
 using Synthesis.Bethesda.DTO;
+using Synthesis.Registry.MutagenScraper.Dto;
 using Synthesis.Registry.MutagenScraper.Github;
+using Synthesis.Registry.MutagenScraper.Listings;
 
 namespace Synthesis.Registry.MutagenScraper;
 
@@ -24,7 +26,7 @@ public class PatcherCustomizationRetriever
         _jsonOptions = jsonOptions;
     }
 
-    public async Task<PatcherCustomization?> GetCustomization(Dependent dep, string proj)
+    public async Task<PatcherCustomization?> GetCustomization(Listing dep, string proj)
     {
         var metaPath = Path.Combine(Path.GetDirectoryName(proj)!, Constants.MetaFileName);
         var content = await _contentDownloader.TryGetContent(dep, metaPath);

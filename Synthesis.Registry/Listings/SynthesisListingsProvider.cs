@@ -6,18 +6,18 @@ using Noggog;
 
 namespace Synthesis.Registry.MutagenScraper.Listings
 {
-    public interface ISynthesisListingsProvider
+    public interface ISynthesisDependentsProvider
     {
         Task<IReadOnlyList<Dependent>> Get();
     }
 
-    public class SynthesisListingsProvider : ISynthesisListingsProvider
+    public class SynthesisDependentsProvider : ISynthesisDependentsProvider
     {
         private readonly GitHubDependentListingsProvider _gitHubDependentListingsProvider;
         private readonly ManualListingProvider _manualListingProvider;
         private readonly AsyncLazy<IReadOnlyList<Dependent>> _listings;
 
-        public SynthesisListingsProvider(
+        public SynthesisDependentsProvider(
             GitHubDependentListingsProvider gitHubDependentListingsProvider,
             ManualListingProvider manualListingProvider)
         {

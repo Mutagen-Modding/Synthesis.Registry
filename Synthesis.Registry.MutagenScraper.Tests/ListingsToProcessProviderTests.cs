@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using FluentAssertions;
 using GitHubDependents;
-using Noggog;
 using NSubstitute;
+using Synthesis.Registry.MutagenScraper.Dto;
 using Synthesis.Registry.MutagenScraper.Listings;
 using Xunit;
 
@@ -14,16 +13,21 @@ namespace Synthesis.Registry.MutagenScraper.Tests
 {
     public class ListingsToProcessProviderTests
     {
-        private IReadOnlyList<Dependent> Get(int number)
+        private IReadOnlyList<(Dependent Dependent, Dto.Listing Listing)> Get(int number)
         {
-            var ret = new List<Dependent>();
+            var ret = new List<(Dependent Dependent, Listing Listing)>();
             for (int i = 0; i < number; i++)
             {
-                ret.Add(new Dependent()
+                var dep = new Dependent()
                 {
                     Repository = Path.GetRandomFileName(),
                     User = Path.GetRandomFileName(),
-                });
+                };
+                ret.Add((dep,
+                    new Listing(
+                        AvatarURL: null,
+                        Repository: dep.Repository,
+                        User: dep.User)));
             }
 
             return ret;
@@ -35,9 +39,10 @@ namespace Synthesis.Registry.MutagenScraper.Tests
             sut.ArgProvider.RunNumber.Returns(1);
             sut.ArgProvider.NumToProcessPer.Returns(3);
             var listings = Get(10);
-            sut.ListingsProvider.Get().Returns(Task.FromResult(listings));
+            sut.DependentsProvider.Get().Returns(
+                Task.FromResult((IReadOnlyList<Dependent>)listings.Select(x => x.Dependent).ToArray()));
             var result = sut.Get().ToEnumerable();
-            result.Should().Equal(listings.Skip(3).Take(3));
+            result.Should().Equal(listings.Skip(3).Take(3).Select(x => x.Listing));
         }
 
         [Theory, BasicAutoData]
@@ -46,9 +51,10 @@ namespace Synthesis.Registry.MutagenScraper.Tests
             sut.ArgProvider.RunNumber.Returns(3);
             sut.ArgProvider.NumToProcessPer.Returns(3);
             var listings = Get(10);
-            sut.ListingsProvider.Get().Returns(Task.FromResult(listings));
+            sut.DependentsProvider.Get().Returns(
+                Task.FromResult((IReadOnlyList<Dependent>)listings.Select(x => x.Dependent).ToArray()));
             var result = sut.Get().ToEnumerable();
-            result.Should().Equal(listings.Last());
+            result.Should().Equal(listings.Select(x => x.Listing).Last());
         }
 
         [Theory, BasicAutoData]
@@ -57,9 +63,10 @@ namespace Synthesis.Registry.MutagenScraper.Tests
             sut.ArgProvider.RunNumber.Returns(4);
             sut.ArgProvider.NumToProcessPer.Returns(3);
             var listings = Get(10);
-            sut.ListingsProvider.Get().Returns(Task.FromResult(listings));
+            sut.DependentsProvider.Get().Returns(
+                Task.FromResult((IReadOnlyList<Dependent>)listings.Select(x => x.Dependent).ToArray()));
             var result = sut.Get().ToEnumerable();
-            result.Should().Equal(listings.Take(3));
+            result.Should().Equal(listings.Take(3).Select(x => x.Listing));
         }
     }
 }

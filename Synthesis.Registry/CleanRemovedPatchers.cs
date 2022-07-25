@@ -7,17 +7,17 @@ namespace Synthesis.Registry.MutagenScraper
 {
     public class CleanRemovedPatchers
     {
-        private readonly ISynthesisListingsProvider _listingsProvider;
+        private readonly ISynthesisDependentsProvider _dependentsProvider;
 
         public CleanRemovedPatchers(
-            ISynthesisListingsProvider listingsProvider)
+            ISynthesisDependentsProvider dependentsProvider)
         {
-            _listingsProvider = listingsProvider;
+            _dependentsProvider = dependentsProvider;
         }
 
         public async Task<MutagenPatchersListing> Clean(MutagenPatchersListing existingListings)
         {
-            var listed = await _listingsProvider.Get();
+            var listed = await _dependentsProvider.Get();
             var listedSet = listed
                 .Select(x => new ListingKey(x.User, x.Repository))
                 .ToHashSet();

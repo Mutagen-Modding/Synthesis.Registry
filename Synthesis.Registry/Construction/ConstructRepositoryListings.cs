@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using GitHubDependents;
 using Synthesis.Bethesda.DTO;
+using Synthesis.Registry.MutagenScraper.Dto;
+using Synthesis.Registry.MutagenScraper.Listings;
 
 namespace Synthesis.Registry.MutagenScraper.Construction
 {
@@ -20,7 +21,7 @@ namespace Synthesis.Registry.MutagenScraper.Construction
             _constructListings = constructListings;
         }
         
-        public async Task<RepositoryListing> Construct(Dependent dep, RepositoryListing? existing)
+        public async Task<RepositoryListing> Construct(Listing dep, RepositoryListing? existing)
         {
             System.Console.WriteLine($"Processing {dep}");
             var projs = await _queryForProjects.Query(dep);

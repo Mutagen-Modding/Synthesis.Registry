@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using GitHubDependents;
 using Octokit;
+using Synthesis.Registry.MutagenScraper.Dto;
 using Synthesis.Registry.MutagenScraper.Github;
+using Synthesis.Registry.MutagenScraper.Listings;
 
 namespace Synthesis.Registry.MutagenScraper
 {
@@ -22,7 +23,7 @@ namespace Synthesis.Registry.MutagenScraper
             _apiUsagePrinter = apiUsagePrinter;
         }
         
-        public async Task<IEnumerable<string>> Query(Dependent dep)
+        public async Task<IEnumerable<string>> Query(Listing dep)
         {
             var repoColl = new RepositoryCollection();
             repoColl.Add(dep.User, dep.Repository);
