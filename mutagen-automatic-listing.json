@@ -3189,7 +3189,7 @@
             "Nickname": "WorkbenchOrganizer",
             "Visibility": "Visible",
             "OneLineDescription": "WorkbenchOrganizer",
-            "LongDescription": "Autopatches workbench recipes, for usage with Organized Workbench Menu.\r\n\r\nRequires Organized Workbench Menu: https://www.nexusmods.com/fallout4/mods/32588",
+            "LongDescription": "Autopatches workbench recipes, for usage with Organized Workbench Menu.\r\n\r\nRequires Organized Workbench Menu: https://www.nexusmods.com/fallout4/mods/32588\r\n\r\n\r\nIMPORTANT:\r\nTo ensure save compatibility, you should enable FormID persistence in Synthesis.\r\nTo do this, in Synthesis, go to Settings (the gear symbol) \u2192 Profiles \u2192 Fallout 4, and set \u0022FormID Persistence\u0022 to \u0022Text\u0022.\r\n",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "OWM-Master.esl"
