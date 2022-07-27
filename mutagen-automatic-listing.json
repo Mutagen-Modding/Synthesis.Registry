@@ -2646,6 +2646,27 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynFixBOOKRecordTypes",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "Syntesis version of patch. Fix book/note types depending on how it look. It will change Note to Book if it looks like Book and will change Book to Note if it looks loke Note.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynFixBOOKRecordTypes/SynFixBOOKRecordTypes.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynFixBOOKRecordTypes"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynFksDiverseSkeleton",
             "Visibility": "Visible",
             "OneLineDescription": "Compatibility patcher for Fk\u0027s diverse skeletons",
