@@ -865,27 +865,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "GripSwitchPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Patch Equipslot of Two-handed weapons for Grip Switch",
-            "LongDescription": "Read one line description",
-            "PreferredAutoVersioning": "LatestTag",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "EquipSlotPatcher/EquipSlotPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/58283582?s=40\u0026amp;v=4",
-      "User": "v4031",
-      "Repository": "GripSwitchPatcher"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "HalgarisConsistentUniqueRPGLoot",
             "Visibility": "Visible",
             "OneLineDescription": "RPG Loot without reshuffle while patching and without duplicate enchantments.",
