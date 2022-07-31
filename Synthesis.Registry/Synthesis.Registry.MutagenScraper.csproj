@@ -8,6 +8,7 @@
   <ItemGroup>
     <PackageReference Include="Autofac" Version="6.4.0" />
     <PackageReference Include="GitHubDependents" Version="1.2.0" />
+    <PackageReference Include="LibGit2Sharp" Version="0.26.2" />
     <PackageReference Include="Noggog.Autofac" Version="2.49.0" />
     <PackageReference Include="Noggog.CSharpExt" Version="2.49.0" />
     <PackageReference Include="Synthesis.Bethesda" Version="0.23.7" />
