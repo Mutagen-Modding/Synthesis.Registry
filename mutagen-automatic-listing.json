@@ -2628,7 +2628,7 @@
             "Nickname": "SynFixBOOKRecordTypes",
             "Visibility": "Visible",
             "OneLineDescription": "",
-            "LongDescription": "Syntesis version of patch. Fix book/note types depending on how it look. It will change Note to Book if it looks like Book and will change Book to Note if it looks loke Note. \r\nWarning: IF your patch causing game to crash on startup right before main menu, try to use dll versions Synthesis 0.22.1\u002BMutagen 0.36.0.",
+            "LongDescription": "Syntesis version of patch. Fix book/note types depending on how it look. It will change Note to Book if it looks like Book and will change Book to Note if it looks loke Note.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": []
