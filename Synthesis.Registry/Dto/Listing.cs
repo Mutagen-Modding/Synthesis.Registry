@@ -3,10 +3,11 @@
 public record Listing(
     string? AvatarURL,
     string User,
-    string Repository)
+    string Repository,
+    string Sha)
 {
     public override string ToString()
     {
-        return $"{User}/{Repository}";
+        return $"{User}/{Repository}/{Sha}";
     }
 }

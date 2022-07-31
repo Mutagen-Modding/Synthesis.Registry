@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using FluentAssertions;
 using GitHubDependents;
+using Noggog;
 using NSubstitute;
 using Synthesis.Registry.MutagenScraper.Dto;
 using Synthesis.Registry.MutagenScraper.Listings;
@@ -27,10 +28,17 @@ namespace Synthesis.Registry.MutagenScraper.Tests
                     new Listing(
                         AvatarURL: null,
                         Repository: dep.Repository,
-                        User: dep.User)));
+                        User: dep.User,
+                        Sha: Path.GetRandomFileName())));
             }
 
             return ret;
+        }
+
+        private bool Equality(Listing lhs, Listing rhs)
+        {
+            return lhs.Repository == rhs.Repository
+                   && lhs.User == rhs.User;
         }
 
         [Theory, BasicAutoData]
@@ -42,7 +50,7 @@ namespace Synthesis.Registry.MutagenScraper.Tests
             sut.DependentsProvider.Get().Returns(
                 Task.FromResult((IReadOnlyList<Dependent>)listings.Select(x => x.Dependent).ToArray()));
             var result = sut.Get().ToEnumerable();
-            result.Should().Equal(listings.Skip(3).Take(3).Select(x => x.Listing));
+            result.Should().Equal(listings.Skip(3).Take(3).Select(x => x.Listing), Equality);
         }
 
         [Theory, BasicAutoData]
@@ -54,7 +62,7 @@ namespace Synthesis.Registry.MutagenScraper.Tests
             sut.DependentsProvider.Get().Returns(
                 Task.FromResult((IReadOnlyList<Dependent>)listings.Select(x => x.Dependent).ToArray()));
             var result = sut.Get().ToEnumerable();
-            result.Should().Equal(listings.Select(x => x.Listing).Last());
+            result.Should().Equal(listings.Select(x => x.Listing).Last().AsEnumerable(), Equality);
         }
 
         [Theory, BasicAutoData]
@@ -66,7 +74,7 @@ namespace Synthesis.Registry.MutagenScraper.Tests
             sut.DependentsProvider.Get().Returns(
                 Task.FromResult((IReadOnlyList<Dependent>)listings.Select(x => x.Dependent).ToArray()));
             var result = sut.Get().ToEnumerable();
-            result.Should().Equal(listings.Take(3).Select(x => x.Listing));
+            result.Should().Equal(listings.Take(3).Select(x => x.Listing), Equality);
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System.IO.Abstractions;
 using Autofac;
+using Noggog.Autofac.Modules;
 
 namespace Synthesis.Registry.MutagenScraper
 {
@@ -9,6 +10,7 @@ namespace Synthesis.Registry.MutagenScraper
         {
             builder.RegisterInstance(new FileSystem())
                 .AsImplementedInterfaces();
+            builder.RegisterModule<NoggogModule>();
             builder.RegisterAssemblyTypes(typeof(Program).Assembly)
                 .AsSelf()
                 .AsImplementedInterfaces()
