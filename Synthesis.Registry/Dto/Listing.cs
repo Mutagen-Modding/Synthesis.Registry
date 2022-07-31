@@ -8,6 +8,6 @@ public record Listing(
 {
     public override string ToString()
     {
-        return $"{User}/{Repository}/{Sha}";
+        return $"{User}/{Repository}";
     }
 }
