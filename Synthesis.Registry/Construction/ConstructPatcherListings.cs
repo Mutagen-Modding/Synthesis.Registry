@@ -34,12 +34,6 @@ namespace Synthesis.Registry.MutagenScraper.Construction
                         listing.Customization = await _customizationRetriever.GetCustomization(dep, proj);
                         if (listing.Customization == null) return null;
                     }
-                    catch (Octokit.NotFoundException)
-                    {
-                    }
-                    catch (Octokit.ApiException)
-                    {
-                    }
                     catch (Exception ex)
                     {
                         System.Console.WriteLine($"{proj} Error constructing listing: {ex}");

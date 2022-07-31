@@ -1,46 +1,43 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO.Abstractions;
 using System.Threading.Tasks;
-using Octokit;
 using Synthesis.Registry.MutagenScraper.Dto;
-using Synthesis.Registry.MutagenScraper.Listings;
 
 namespace Synthesis.Registry.MutagenScraper.Github;
 
 public class GithubContentDownloader
 {
-    private readonly ApiUsagePrinter _apiUsagePrinter;
-    private readonly GithubClientProvider _githubClientProvider;
+    private readonly IFileSystem _fileSystem;
+    private readonly GetFolderClone _getFolderClone;
 
-    public GithubContentDownloader(ApiUsagePrinter apiUsagePrinter, GithubClientProvider githubClientProvider)
+    public GithubContentDownloader(
+        IFileSystem fileSystem,
+        GetFolderClone getFolderClone)
     {
-        _apiUsagePrinter = apiUsagePrinter;
-        _githubClientProvider = githubClientProvider;
+        _fileSystem = fileSystem;
+        _getFolderClone = getFolderClone;
     }
 
     public async Task<string?> TryGetContent(Listing dep, string path)
     {
         System.Console.WriteLine($"{dep} retrieving {path}");
-        IReadOnlyList<RepositoryContent>? content;
         try
         {
-            content = await _githubClientProvider.Client.Repository.Content.GetAllContents(dep.User, dep.Repository, path);
+            var repoPath = _getFolderClone.Get(dep);
+            if (!_fileSystem.File.Exists(path))
+            {
+                System.Console.WriteLine($"{dep} no content found for {path}");
+                return null;
+            }
+            var ret = _fileSystem.File.ReadAllText(path);
+            System.Console.WriteLine($"{dep} retrieved {path}");
+            return ret;
         }
         catch (Exception e)
         {
             System.Console.WriteLine($"{dep} Error getting content for {path}: {e}");
             return null;
         }
-        finally
-        {
-            _apiUsagePrinter.Print();
-        }
-        if (content.Count == 0)
-        {
-            System.Console.WriteLine($"{dep} no content found for {path}");
-            return null;
-        }
-        System.Console.WriteLine($"{dep} retrieved {path}");
-        return content[0].Content;
     }
 }
