@@ -2730,6 +2730,29 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynHeelsSoundAdd-local",
+            "Visibility": "Visible",
+            "OneLineDescription": "Auto adds highheels sound to valid boots",
+            "LongDescription": "Adds high heels sound to all found and valid boots.\nMod can be downloaded here:\nSkyrim LE/SE: https://www.loverslab.com/files/file/1795-heels-sound/\nSkyrim SE: https://www.nexusmods.com/skyrimspecialedition/mods/62502\n\n\nCurrently adds sounds for all boots using \u0027HDT HighHeels System\u0027 mod: https://www.google.com/search?q=HDT\u002BHighHeels\u002BSystem",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Heels Sound.esm"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynHeelsSoundAdd/SynHeelsSoundAdd.csproj",
+          "IncludedLibraries": [],
+          "TargetedReleases": []
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynHeelsSoundAdd"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynHelmsWithCirlcet",
             "Visibility": "Visible",
             "OneLineDescription": "Patcher to make all helms and hoods allow circlets to be worn with circlets",
