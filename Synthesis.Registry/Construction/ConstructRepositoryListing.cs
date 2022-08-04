@@ -4,16 +4,15 @@ using System.Linq;
 using System.Threading.Tasks;
 using Synthesis.Bethesda.DTO;
 using Synthesis.Registry.MutagenScraper.Dto;
-using Synthesis.Registry.MutagenScraper.Listings;
 
 namespace Synthesis.Registry.MutagenScraper.Construction
 {
-    public class ConstructRepositoryListings
+    public class ConstructRepositoryListing
     {
         private readonly QueryForProjects _queryForProjects;
         private readonly ConstructListings _constructListings;
 
-        public ConstructRepositoryListings(
+        public ConstructRepositoryListing(
             QueryForProjects queryForProjects,
             ConstructListings constructListings)
         {
@@ -21,9 +20,8 @@ namespace Synthesis.Registry.MutagenScraper.Construction
             _constructListings = constructListings;
         }
         
-        public async Task<RepositoryListing> Construct(Listing dep, RepositoryListing? existing)
+        public async Task<RepositoryListing> Construct(InternalRepositoryListing dep, RepositoryListing? existing)
         {
-            System.Console.WriteLine($"Processing {dep}");
             var projs = await _queryForProjects.Query(dep);
 
             // Construct listings
@@ -36,7 +34,8 @@ namespace Synthesis.Registry.MutagenScraper.Construction
                 AvatarURL = dep.AvatarURL ?? existing?.AvatarURL,
                 Repository = dep.Repository!,
                 User = dep.User!,
-                Patchers = patchers
+                Patchers = patchers,
+                Sha = dep.Sha,
             };
         }
     }

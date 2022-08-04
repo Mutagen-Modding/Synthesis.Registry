@@ -23,10 +23,11 @@ namespace Synthesis.Registry.MutagenScraper.Listings
         
         public void Write(MutagenPatchersListing listings)
         {
-            _fileSystem.File.WriteAllText(_pathProvider.Path,
-                JsonSerializer.Serialize(
-                    listings,
-                    _jsonOptions.Options));
+            var txt = JsonSerializer.Serialize(
+                listings,
+                _jsonOptions.Options);
+            
+            _fileSystem.File.WriteAllText(_pathProvider.Path, txt);
 
             Console.WriteLine($"{_pathProvider.Path} {(_fileSystem.File.Exists(_pathProvider.Path) ? "exists." : "does not exist!")}");
         }

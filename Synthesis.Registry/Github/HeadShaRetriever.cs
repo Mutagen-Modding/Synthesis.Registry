@@ -1,37 +1,38 @@
 ﻿using System;
 using System.Diagnostics;
-using System.Reactive.Linq;
+using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using GitHubDependents;
-using Noggog.Utility;
+using Noggog.Processes.DI;
 
 namespace Synthesis.Registry.MutagenScraper.Github;
 
 public interface IHeadShaRetriever
 {
-    Task<string?> TryGetSha(Dependent dep);
+    Task<string?> TryGetSha(Dependent dep, CancellationToken cancellationToken);
 }
 
 public class HeadShaRetriever : IHeadShaRetriever
 {
-    private readonly IProcessFactory _processFactory;
+    private readonly IProcessRunner _processRunner;
 
     public HeadShaRetriever(
-        IProcessFactory processFactory)
+        IProcessRunner processRunner)
     {
-        _processFactory = processFactory;
+        _processRunner = processRunner;
     }
 
-    public async Task<string?> TryGetSha(Dependent dep)
+    public async Task<string?> TryGetSha(Dependent dep, CancellationToken cancellationToken)
     {
-        using var proc = _processFactory.Create(new ProcessStartInfo("git", $"ls-remote https://github.com/{dep.User}/{dep.Repository}"));
-        string? headLine = null;
-        using var output = proc.Output
-            .Where(x => x.Contains("HEAD"))
-            .Take(1)
-            .Subscribe(x => headLine = x);
-        await proc.Run().ConfigureAwait(false);
-        return GetShaFromHeadLine(headLine);
+        var ret = await _processRunner.RunAndCapture(
+            new ProcessStartInfo("git", $"ls-remote https://github.com/{dep.User}/{dep.Repository}"),
+            cancellationToken);
+        return GetShaFromHeadLine(
+            ret.Out
+                .Where(x => x.Contains("HEAD"))
+                .Take(1)
+                .FirstOrDefault());
     }
 
     public string? GetShaFromHeadLine(string? headLine)

@@ -8,7 +8,7 @@ using Noggog;
 using Synthesis.Registry.MutagenScraper.Dto;
 using Synthesis.Registry.MutagenScraper.Github;
 
-namespace Synthesis.Registry.MutagenScraper
+namespace Synthesis.Registry.MutagenScraper.Construction
 {
     public class QueryForProjects
     {
@@ -23,7 +23,7 @@ namespace Synthesis.Registry.MutagenScraper
             _getFolderClone = getFolderClone;
         }
         
-        public async Task<IEnumerable<string>> Query(Listing dep)
+        public async Task<IEnumerable<string>> Query(InternalRepositoryListing dep)
         {
             var clonePath = _getFolderClone.Get(dep);
 

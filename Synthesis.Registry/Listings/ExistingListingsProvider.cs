@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO.Abstractions;
+using System.Linq;
 using System.Text.Json;
 using Synthesis.Bethesda.DTO;
 
@@ -12,6 +14,7 @@ namespace Synthesis.Registry.MutagenScraper.Listings
         private readonly JsonSerializerOptionsProvider _jsonOptions;
         
         public Lazy<MutagenPatchersListing> Listings { get; }
+        public Lazy<IReadOnlyDictionary<ListingKey, RepositoryListing>> RepositoryDictionary { get; }
 
         public ExistingListingsProvider(
             IFileSystem fileSystem,
@@ -22,6 +25,7 @@ namespace Synthesis.Registry.MutagenScraper.Listings
             _pathProvider = pathProvider;
             _jsonOptions = jsonOptions;
             Listings = new Lazy<MutagenPatchersListing>(Read);
+            RepositoryDictionary = new Lazy<IReadOnlyDictionary<ListingKey, RepositoryListing>>(GetDict);
         }
 
         private MutagenPatchersListing Read()
@@ -31,6 +35,12 @@ namespace Synthesis.Registry.MutagenScraper.Listings
             return JsonSerializer.Deserialize<MutagenPatchersListing>(
                 _fileSystem.File.ReadAllText(_pathProvider.Path),
                 _jsonOptions.Options)!;
+        }
+
+        private IReadOnlyDictionary<ListingKey, RepositoryListing> GetDict()
+        {
+            return Listings.Value
+                .Repositories.ToDictionary(x => new ListingKey(x.User, x.Repository), x => x);
         }
     }
 }

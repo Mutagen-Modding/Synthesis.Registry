@@ -1,9 +1,12 @@
 ﻿using System.IO.Abstractions;
 using Autofac;
+using Noggog.Autofac;
 using Noggog.Autofac.Modules;
 using Noggog.GitRepository;
+using Synthesis.Registry.MutagenScraper.Args;
+using Synthesis.Registry.MutagenScraper.Listings.Specialized;
 
-namespace Synthesis.Registry.MutagenScraper
+namespace Synthesis.Registry.MutagenScraper.Modules
 {
     public class MainModule : Module
     {
@@ -15,6 +18,9 @@ namespace Synthesis.Registry.MutagenScraper
             builder.RegisterAssemblyTypes(
                     typeof(Program).Assembly,
                     typeof(IGitRepositoryFactory).Assembly)
+                .NotInNamespacesOf(
+                    typeof(IDependenciesToConsiderIterator),
+                    typeof(INumToProcessProvider))
                 .AsSelf()
                 .AsImplementedInterfaces()
                 .SingleInstance();

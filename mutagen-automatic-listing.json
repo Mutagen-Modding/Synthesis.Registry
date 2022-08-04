@@ -13,13 +13,29 @@
             "TargetedReleases": []
           },
           "ProjectPath": "RemoveEdgeGlow/RemoveEdgeGlow.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
       "User": "radj307",
-      "Repository": "Actor-Edge-Glow-Remover"
+      "Repository": "Actor-Edge-Glow-Remover",
+      "Sha": "92b21b912e953e3961acf463255a677dd02206d2"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "Actors-Without-Hats",
+      "Sha": "75d3e88533fa25ac15ffd8fa56f3a0760d59d3b0"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/24265797?s=40\u0026amp;v=4",
+      "User": "3ndos",
+      "Repository": "AddNewRecipes",
+      "Sha": "8f59d1b4f0a598917e3cacb878382f2162d17e67"
     },
     {
       "Patchers": [
@@ -36,26 +52,30 @@
             "TargetedReleases": []
           },
           "ProjectPath": "AIOverhaulPatcher/AIOverhaulPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/6299495?s=40\u0026amp;v=4",
       "User": "Excinerus",
-      "Repository": "AI-Overhaul-Patcher"
+      "Repository": "AI-Overhaul-Patcher",
+      "Sha": "dde1a4c504e40ab9109f32d503d35503e4c8b581"
     },
     {
       "Patchers": [
         {
           "Customization": null,
           "ProjectPath": "alch-registry-builder/alch-registry-builder.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
       "User": "radj307",
-      "Repository": "alch-registry-generator"
+      "Repository": "alch-registry-generator",
+      "Sha": "1fd77f3554d991342a3c33824395afeeec9272ca"
     },
     {
       "Patchers": [
@@ -70,13 +90,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "AllBooksHavePerks/AllBooksHavePerks.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/44707323?s=40\u0026amp;v=4",
       "User": "AmoneMisa",
-      "Repository": "AllBooksHavePerks"
+      "Repository": "AllBooksHavePerks",
+      "Sha": "5c0e20052bf474d945f82793f9ce9132f38ed3dc"
     },
     {
       "Patchers": [
@@ -93,13 +115,22 @@
             "TargetedReleases": []
           },
           "ProjectPath": "AllGUDMeshGen/AllGUDMeshGen.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
       "User": "SteveTownsend",
-      "Repository": "AllGUDMeshGen"
+      "Repository": "AllGUDMeshGen",
+      "Sha": "a92cdabf3d4785f6003986b9486bd6566202ccd1"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/31917025?s=40\u0026amp;v=4",
+      "User": "Charmed4321",
+      "Repository": "AllTomePricePatcher",
+      "Sha": "7bf96b697aae1e011df75346668bfd9a9c84c9a8"
     },
     {
       "Patchers": [
@@ -114,13 +145,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "AmmoTweaks/AmmoTweaks.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "AmmoTweaks"
+      "Repository": "AmmoTweaks",
+      "Sha": "11ff3532b9cc008985680a63d29d47928520c8ea"
     },
     {
       "Patchers": [
@@ -135,13 +168,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "AmuletsShowOnEverything/AmuletsShowOnEverything.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/5535758?s=40\u0026amp;v=4",
       "User": "ixanza",
-      "Repository": "AmuletsShowOnEverything"
+      "Repository": "AmuletsShowOnEverything",
+      "Sha": "d3d049c421183aac856556f914eaa0ead76beed3"
     },
     {
       "Patchers": [
@@ -156,13 +191,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "Another_Archery_Patcher/Another_Archery_Patcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "Another-Archery-Patcher"
+      "Repository": "Another-Archery-Patcher",
+      "Sha": "b678e9d9a72bab3a59b73e278b79863018d632b2"
     },
     {
       "Patchers": [
@@ -177,13 +214,45 @@
             "TargetedReleases": []
           },
           "ProjectPath": "AOSISCSoundPatcher/AOSISCSoundPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
-      "Repository": "AOSISCSoundPatcher"
+      "Repository": "AOSISCSoundPatcher",
+      "Sha": "4804f3b09f7d2555b4c5c37f5af78d6a15c988db"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Arkay\u0027s Commmandment - Requiem-Experience",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patcher for Experience mod, most suitable for Arkay\u0027s Commandment",
+            "LongDescription": "Extend\u0027s Azraerl\u0027s Requiem-Experience Patcher, customizing it for Arkay\u0027s Commandment.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "Requiem-Experience/Requiem-Experience.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/24767464?s=40\u0026amp;v=4",
+      "User": "bondpp7",
+      "Repository": "Arkays-Commandment-Requiem-Experience",
+      "Sha": "44e603e4229e4d77d2969ff74395d7e1c8185800"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/2961881?s=40\u0026amp;v=4",
+      "User": "sachinkmr",
+      "Repository": "armor-distributor",
+      "Sha": "0ac420457661eb18c19b9202976fea8632615556"
     },
     {
       "Patchers": [
@@ -200,13 +269,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ArtisticSkyrimOverhaul\u002BFixes/ArtisticSkyrimOverhaulFixes.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
       "User": "EzioTheDeadPoet",
-      "Repository": "Artistic-Skyrim-Overhaul-Fixes"
+      "Repository": "Artistic-Skyrim-Overhaul-Fixes",
+      "Sha": "4c513bfd18a6efef586178805c67c674e464c759"
     },
     {
       "Patchers": [
@@ -223,13 +294,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "BDSPatcher/BDSPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
       "User": "SteveTownsend",
-      "Repository": "BDSv2Patcher"
+      "Repository": "BDSv2Patcher",
+      "Sha": "b7823480dfe454c02e9912f2d33a7f748a14e92a"
     },
     {
       "Patchers": [
@@ -244,13 +317,30 @@
             "TargetedReleases": []
           },
           "ProjectPath": "BreakdownRecipeGenerator/BreakdownRecipeGenerator.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
       "User": "ReaperAnon",
-      "Repository": "BreakdownRecipeGenerator"
+      "Repository": "BreakdownRecipeGenerator",
+      "Sha": "04af81bd00ecf9d58ec0ed40dcdcfc84cb7c1b9a"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "BookUUNPCBPCKeywords/BookUUNPCBPCKeywords.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/105466402?s=40\u0026amp;v=4",
+      "User": "tottorijuukou",
+      "Repository": "CBPCKeywords",
+      "Sha": "10cf711da3b578bda6dbb8cf53c3237091e775b9"
     },
     {
       "Patchers": [
@@ -265,13 +355,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "CellEditorIDFixer/CellEditorIDFixer.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;v=4",
       "User": "Deigue",
-      "Repository": "CellEditorIDFixer"
+      "Repository": "CellEditorIDFixer",
+      "Sha": "16db8366d17de5b52e1170676c15957ef77a9153"
     },
     {
       "Patchers": [
@@ -286,13 +378,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "CellEncounterLevelsInName/CellEncounterLevelsInName.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;v=4",
       "User": "Deigue",
-      "Repository": "CellEncounterLevelsInName"
+      "Repository": "CellEncounterLevelsInName",
+      "Sha": "9fde3e11d022864a907ae9ed4e7c99da4cb07bf5"
     },
     {
       "Patchers": [
@@ -307,13 +401,38 @@
             "TargetedReleases": []
           },
           "ProjectPath": "CompleteCraftingOverhaulCompatibleRecipeGenerator/CompleteCraftingOverhaulCompatibleRecipeGenerator.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
-      "Repository": "Complete-Crafting-Overhaul-Compatible-Recipe-Generator"
+      "Repository": "Complete-Crafting-Overhaul-Compatible-Recipe-Generator",
+      "Sha": "fe7c860308be30ac5937080da6048628294f2eec"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Configurable Grass Remover",
+            "Visibility": "Visible",
+            "OneLineDescription": "Removes grass where you want it removed.",
+            "LongDescription": null,
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "ConfigurableGrassRemover/ConfigurableGrassRemover.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
+      "User": "EzioTheDeadPoet",
+      "Repository": "Configurable-Grass-Remover",
+      "Sha": "d2b8e267ce0b8fbbfb945083d6fc83c631f25257"
     },
     {
       "Patchers": [
@@ -328,13 +447,22 @@
             "TargetedReleases": []
           },
           "ProjectPath": "CostumeShop/CostumeShop.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "Customization": null,
+          "ProjectPath": "Tests/Tests.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
-      "Repository": "Costume-Shop"
+      "Repository": "Costume-Shop",
+      "Sha": "37ce7af5090b6130fb2d361cc7bfafb321ae00a5"
     },
     {
       "Patchers": [
@@ -349,13 +477,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "craftingFurnitureEXP/craftingFurnitureEXP.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
       "User": "Michael-wigontherun",
-      "Repository": "craftingFurnitureEXP"
+      "Repository": "craftingFurnitureEXP",
+      "Sha": "5113f70c8ad7f4e277ca6a6245d98682c48d7f70"
     },
     {
       "Patchers": [
@@ -370,13 +500,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "CreateTemper/CreateTemper.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/19803311?s=40\u0026amp;v=4",
       "User": "fenix31415",
-      "Repository": "CreateTemper"
+      "Repository": "CreateTemper",
+      "Sha": "2eb933ec4c040ad897b1a055c2df3ab564f5aaae"
     },
     {
       "Patchers": [
@@ -391,13 +523,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "CustomizableItemSorting/CustomizableItemSorting.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
       "User": "ReaperAnon",
-      "Repository": "CustomizableItemSorting"
+      "Repository": "CustomizableItemSorting",
+      "Sha": "c7173991c3986d86d4bae1bbff39cad5872b595b"
     },
     {
       "Patchers": [
@@ -414,13 +548,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "DestructibleSkyrimPatcher/DestructibleSkyrimPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
-      "Repository": "DestructibleSkyrimPatcher"
+      "Repository": "DestructibleSkyrimPatcher",
+      "Sha": "5c8a9c94b9412a3f7423f0c8c1fb03e16a65bd22"
     },
     {
       "Patchers": [
@@ -435,13 +571,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "DisenchantEverything/DisenchantEverything.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
       "User": "ReaperAnon",
-      "Repository": "Disenchant-Everything"
+      "Repository": "Disenchant-Everything",
+      "Sha": "eba5aa2280fbb1285d72686948789bda4af096f8"
     },
     {
       "Patchers": [
@@ -456,13 +594,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "DisplaySpellTomeLevelPatcher/DisplaySpellTomeLevelPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
-      "Repository": "DisplaySpellTomeLevelPatcher"
+      "Repository": "DisplaySpellTomeLevelPatcher",
+      "Sha": "8991f3b914dd01762e0bcef1a841f5d798a7493b"
     },
     {
       "Patchers": [
@@ -477,13 +617,22 @@
             "TargetedReleases": []
           },
           "ProjectPath": "RecombinePatch/RecombinePatch.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "Customization": null,
+          "ProjectPath": "RecombinePatchTests/RecombinePatchTests.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/10343101?s=40\u0026amp;v=4",
       "User": "DearLuck",
-      "Repository": "DistributeArmorSetsToNpcs"
+      "Repository": "DistributeArmorSetsToNpcs",
+      "Sha": "cd4ee8dbd9765c68f3921aae4c1b7b62abe3c9ce"
     },
     {
       "Patchers": [
@@ -500,13 +649,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ELE_Patcher/ELE_Patcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/93822872?s=40\u0026amp;v=4",
       "User": "Benna96-Synthesis",
-      "Repository": "ELE_Patcher"
+      "Repository": "ELE_Patcher",
+      "Sha": "1604ac05a43fec6f3e2137e336d49e9259590d84"
     },
     {
       "Patchers": [
@@ -521,13 +672,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ENBLightPatcher/ENBLightPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
-      "Repository": "enblightpatcher"
+      "Repository": "enblightpatcher",
+      "Sha": "60d44adbfe4a3b24fcd94956d96bb639d8b5bef2"
     },
     {
       "Patchers": [
@@ -542,13 +695,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "EnchantedVariantsGenerater/EnchantedVariantsGenerater.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
       "User": "ExpensiveLadder",
-      "Repository": "Enchanted-Variants-Generater"
+      "Repository": "Enchanted-Variants-Generater",
+      "Sha": "5614c88adf06c1edf1c5b7fd97185b69829f16fc"
     },
     {
       "Patchers": [
@@ -563,13 +718,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "EnemyReleveler/EnemyReleveler.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "EnemyReleveler"
+      "Repository": "EnemyReleveler",
+      "Sha": "e91e1d309bdb430c882f9e1749f71b1acebd8f9d"
     },
     {
       "Patchers": [
@@ -586,13 +743,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "Engarde_Synthesis/Engarde_Synthesis.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
       "User": "theSkyseS",
-      "Repository": "Engarde-Synthesis-Patcher"
+      "Repository": "Engarde-Synthesis-Patcher",
+      "Sha": "6008d66fb4188754381366485eaca37b47538af5"
     },
     {
       "Patchers": [
@@ -607,13 +766,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "Theeverythingemfuckener/Theeverythingemfuckener.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
       "User": "JanuarySnow",
-      "Repository": "everythingemfuckener"
+      "Repository": "everythingemfuckener",
+      "Sha": "1282620f1ee085cc6efd0e327bf40c4a63a2d313"
     },
     {
       "Patchers": [
@@ -628,13 +789,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ExperienceMutagenPatcher/ExperienceMutagenPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
-      "Repository": "ExperienceMutagenPatcher"
+      "Repository": "ExperienceMutagenPatcher",
+      "Sha": "a119156281919ac1f3c3519bb77264c44a7f164b"
     },
     {
       "Patchers": [
@@ -649,26 +812,30 @@
             "TargetedReleases": []
           },
           "ProjectPath": "EZLeveler/EZLeveler.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
       "User": "SteveTownsend",
-      "Repository": "EZLeveler"
+      "Repository": "EZLeveler",
+      "Sha": "e2941ffc8eaa5e4bd2372dc893e97062ee52feed"
     },
     {
       "Patchers": [
         {
           "Customization": null,
           "ProjectPath": "FaceFixer/FaceFixer.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "facefixer"
+      "Repository": "facefixer",
+      "Sha": "77abc06144d9aac68d8f1bbc0c8326ef696e689d"
     },
     {
       "Patchers": [
@@ -683,13 +850,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "FacegenBaseline/FacegenBaseline.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
       "User": "SteveTownsend",
-      "Repository": "FacegenBaseline"
+      "Repository": "FacegenBaseline",
+      "Sha": "1a4228fd4c52132e047c53ad9e0bfda221826bcc"
     },
     {
       "Patchers": [
@@ -704,13 +873,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "FeminizedLeveledLists/FeminizedLeveledLists.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/108483106?s=40\u0026amp;v=4",
       "User": "Sludes",
-      "Repository": "Feminized-Leveled-Lists"
+      "Repository": "Feminized-Leveled-Lists",
+      "Sha": "e4cdb47efe5d13b86498215225633d3e027bee32"
     },
     {
       "Patchers": [
@@ -725,13 +896,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "FixMergedDAR/FixMergedDAR.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
       "User": "SteveTownsend",
-      "Repository": "FixMergedDAR"
+      "Repository": "FixMergedDAR",
+      "Sha": "158a4a71eb244ab9dd914a884bbf25da93097cde"
     },
     {
       "Patchers": [
@@ -746,13 +919,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "RespectMyBodySlide/RespectMyBodySlide.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/84610172?s=40\u0026amp;v=4",
       "User": "focustense",
-      "Repository": "FocusPatchers"
+      "Repository": "FocusPatchers",
+      "Sha": "5ab3188a681d136cac65b803a157f29e0cc8fdcb"
     },
     {
       "Patchers": [
@@ -767,13 +942,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "FollowerFavorCarryLimitPatcher/FollowerFavorCarryLimitPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
-      "Repository": "Follower-Favor-Carry-Limit-Patcher"
+      "Repository": "Follower-Favor-Carry-Limit-Patcher",
+      "Sha": "acb76225cf0ff6c88e3ff708457c531b9fbe3128"
     },
     {
       "Patchers": [
@@ -788,13 +965,30 @@
             "TargetedReleases": []
           },
           "ProjectPath": "FoodRemover/FoodRemover.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/34091472?s=40\u0026amp;v=4",
       "User": "Coyote21",
-      "Repository": "FoodRemover"
+      "Repository": "FoodRemover",
+      "Sha": "77ccb9bcd8174c6e40a238ba0d6df12334a48977"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "FreeFastTravel/FreeFastTravel.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/44707323?s=40\u0026amp;v=4",
+      "User": "AmoneMisa",
+      "Repository": "FreeFastTravel",
+      "Sha": "2697e76ce42ebc4b1d670409e5bfb024c68bfd52"
     },
     {
       "Patchers": [
@@ -809,13 +1003,30 @@
             "TargetedReleases": []
           },
           "ProjectPath": "FrostSpellsNoStaminaDamage/FrostSpellsNoStaminaDamage.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
       "User": "Bl4ckread",
-      "Repository": "FrostSpellsNoStaminaDamage"
+      "Repository": "FrostSpellsNoStaminaDamage",
+      "Sha": "d096ae2d0f1d867541658b4aec3629baf40cd118"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "GDOPatcher/GDOPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5535758?s=40\u0026amp;v=4",
+      "User": "ixanza",
+      "Repository": "GDOPatcher",
+      "Sha": "a2041ab85a1c722925884e26e20f690bedc02f41"
     },
     {
       "Patchers": [
@@ -832,13 +1043,22 @@
             "TargetedReleases": []
           },
           "ProjectPath": "GeneralStoresIngredientsPatcher/GeneralStoresIngredientsPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "Customization": null,
+          "ProjectPath": "Tests/Tests.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "GeneralStoresIngredientsPatcher"
+      "Repository": "GeneralStoresIngredientsPatcher",
+      "Sha": "db0656896dd26fcdf850b6f40e7e94cc35422d63"
     },
     {
       "Patchers": [
@@ -853,13 +1073,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "GridTrasitionCrashFix/GridTransitionCrashFix.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
       "User": "ReaperAnon",
-      "Repository": "GridTransitionCrashFix"
+      "Repository": "GridTransitionCrashFix",
+      "Sha": "ad3c1a88e3913a298b847938e0cab941a16251ef"
     },
     {
       "Patchers": [
@@ -874,26 +1096,30 @@
             "TargetedReleases": []
           },
           "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "HalgarisConsistentRPGLoot"
+      "Repository": "HalgarisConsistentRPGLoot",
+      "Sha": "19b52bfde0b5edd0d6368a47969c2d56725dce36"
     },
     {
       "Patchers": [
         {
           "Customization": null,
           "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;u=92d7e1a4f00fb22204d2d0bb540710333ce4a365\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;v=4",
       "User": "halgari",
-      "Repository": "HalgarisRPGLoot"
+      "Repository": "HalgarisRPGLoot",
+      "Sha": "bb4e2de9dda04ec652cb16159b1f2b65477f6ad0"
     },
     {
       "Patchers": [
@@ -910,13 +1136,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "HarvestThoseMammothSkulls/HarvestThoseMammothSkulls.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
       "User": "theSkyseS",
-      "Repository": "HarvestThoseMammothSkulls"
+      "Repository": "HarvestThoseMammothSkulls",
+      "Sha": "0903d449fce25189e8f9f47c8de6461c9bb67449"
     },
     {
       "Patchers": [
@@ -933,13 +1161,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "HeightsOfSkyrim/HeightsOfSkyrim.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
       "User": "theSkyseS",
-      "Repository": "HeightsOfSkyrim"
+      "Repository": "HeightsOfSkyrim",
+      "Sha": "5e75e67f1482489a545cb9a5d2fd6e95db09e010"
     },
     {
       "Patchers": [
@@ -956,13 +1186,30 @@
             "TargetedReleases": []
           },
           "ProjectPath": "HighPolyHead-RaceMenu Patcher/HighPolyHead-RaceMenu Patcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
       "User": "EzioTheDeadPoet",
-      "Repository": "HighPolyHead-RaceMenuPatcher"
+      "Repository": "HighPolyHead-RaceMenuPatcher",
+      "Sha": "28837ef5a7793440f8ef8192024e35fcef7df2d1"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "HighPolyHead-UpdateRaces/HighPolyHead-UpdateRaces.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
+      "User": "EzioTheDeadPoet",
+      "Repository": "HighPolyHead-UpdateDefaultRaces",
+      "Sha": "808585aec44b4f7e893c9d23aa8b4d93eea9c4be"
     },
     {
       "Patchers": [
@@ -979,13 +1226,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "HonedMetalAdditionalIngredients/HonedMetalAdditionalIngredients.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
-      "Repository": "Honed-Metal-Additional-Ingredients"
+      "Repository": "Honed-Metal-Additional-Ingredients",
+      "Sha": "c0a1f26e4219709ad8205a2f0168c6d2365bb9a0"
     },
     {
       "Patchers": [
@@ -1000,34 +1249,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "hph-race-patcher/hph-race-patcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
       "User": "JanuarySnow",
-      "Repository": "hph_replacer"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "ICAIO AI for Mods",
-            "Visibility": "Visible",
-            "OneLineDescription": "ICAIO AI for Mods",
-            "LongDescription": "Applies new ICAIO Go Home and Survival Instincts for mod added npcs",
-            "PreferredAutoVersioning": "LatestTag",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "ICAIO_AI_FOR_MOD_NPC/ICAIO_AI_FOR_MOD_NPC.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
-        }
-      ],
-      "AvatarURL": null,
-      "User": "Wolfman5750",
-      "Repository": "ICAIO-AI-for-Mod-NPC"
+      "Repository": "hph_replacer",
+      "Sha": "75d878e43c389930ace2a0b48298e57023eb366b"
     },
     {
       "Patchers": [
@@ -1042,13 +1272,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ImChPatcher/ImChPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
       "User": "ExpensiveLadder",
-      "Repository": "ImCh-Patcher"
+      "Repository": "ImCh-Patcher",
+      "Sha": "dc58891eaf23b04ee31d49f8aa376192eed61fe1"
     },
     {
       "Patchers": [
@@ -1063,13 +1295,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ImmersiveEquipmentMeshGen/ImmersiveEquipmentMeshGen.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
       "User": "SteveTownsend",
-      "Repository": "ImmersiveEquipmentMeshGen"
+      "Repository": "ImmersiveEquipmentMeshGen",
+      "Sha": "2ba9a8cbfe3a404fd06b1115d17da28ce2fe27b5"
     },
     {
       "Patchers": [
@@ -1084,13 +1318,30 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ItemTagger/ItemTagger.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/8077005?s=40\u0026amp;v=4",
       "User": "praecipitator",
-      "Repository": "ItemAutoTagger"
+      "Repository": "ItemAutoTagger",
+      "Sha": "3025525d5badddb3f34b7a914b5c9ac568560582"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "ItemSorting/ItemSorting.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/31460040?s=40\u0026amp;v=4",
+      "User": "coldrifting",
+      "Repository": "ItemRenamer",
+      "Sha": "0b99244739bcefa04ee38f723711436788d669ea"
     },
     {
       "Patchers": [
@@ -1126,26 +1377,30 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ItemWeightCustomizer/ItemWeightCustomizer.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;v=4",
       "User": "Deigue",
-      "Repository": "ItemWeightCustomizer"
+      "Repository": "ItemWeightCustomizer",
+      "Sha": "1563eea76a9fea693ed3e9f83979d1cf98fe03e7"
     },
     {
       "Patchers": [
         {
           "Customization": null,
           "ProjectPath": "KhajiitEarsShow/KhajiitEarsShow.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "khajiitearsshow"
+      "Repository": "khajiitearsshow",
+      "Sha": "9abdaf2460eabaa64c445f9a6a16685da6c5d358"
     },
     {
       "Patchers": [
@@ -1162,13 +1417,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "KnowYourArmorPatcher/KnowYourArmorPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
-      "Repository": "KnowYourArmorPatcher"
+      "Repository": "KnowYourArmorPatcher",
+      "Sha": "23cded3450c4bd0dfb9ff6bd1242eeadd975b739"
     },
     {
       "Patchers": [
@@ -1185,13 +1442,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "KnowYourEnemyMutagen/KnowYourEnemyMutagen.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
-      "Repository": "KnowYourEnemyPatcher"
+      "Repository": "KnowYourEnemyPatcher",
+      "Sha": "a6074dacdc212bcbf6174d3a9b573a8aa75344ac"
     },
     {
       "Patchers": [
@@ -1206,13 +1465,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "KSHairsBaldHelmetsFixer/KSHairsBaldHelmetsFixer.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
       "User": "Bl4ckread",
-      "Repository": "KSHairsBaldHelmetsFixer"
+      "Repository": "KSHairsBaldHelmetsFixer",
+      "Sha": "81caf9875b7c9a17067081cae02fdf29711ee4c5"
     },
     {
       "Patchers": [
@@ -1227,13 +1488,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "KZNPCPatchers/KZNPCPatchers.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/36178784?s=40\u0026amp;v=4",
       "User": "pisichi",
-      "Repository": "KZ-NPC-Patcher"
+      "Repository": "KZ-NPC-Patcher",
+      "Sha": "1014ed360c8a11bd0a98088db5198ac8d3f3e195"
     },
     {
       "Patchers": [
@@ -1248,13 +1511,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "leveledlistresolver/leveledlistresolver.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/65688322?s=40\u0026amp;v=4",
       "User": "OddDrifter",
-      "Repository": "leveledlistresolver"
+      "Repository": "leveledlistresolver",
+      "Sha": "33c6b3b08ff9b551f866bb9865abb57e71ec4966"
     },
     {
       "Patchers": [
@@ -1269,13 +1534,22 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ListMaker/ListMaker.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "listmaker"
+      "Repository": "listmaker",
+      "Sha": "0dca3caee82424f55d445bb5be78ebb504ea2cfb"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5535758?s=40\u0026amp;v=4",
+      "User": "ixanza",
+      "Repository": "listmakerTranq",
+      "Sha": "c97c84b773f8d0bc58c3c84bf6fbf62225781dcc"
     },
     {
       "Patchers": [
@@ -1290,13 +1564,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ListUnroller/ListUnroller.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "listunroller"
+      "Repository": "listunroller",
+      "Sha": "c9b6d510a41e25d1804ca05bccd8332f3fec40e2"
     },
     {
       "Patchers": [
@@ -1311,13 +1587,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "LootableCrates/LootableCrates.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
       "User": "theSkyseS",
-      "Repository": "LootableCrates"
+      "Repository": "LootableCrates",
+      "Sha": "d7e39721ff0034ada8d12bd5ec7c2fdb5ef788e7"
     },
     {
       "Patchers": [
@@ -1332,13 +1610,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "LootableThings-Dummy-Patcher/LootableThings-Dummy-Patcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
       "User": "m-vlad",
-      "Repository": "LootableThings-TrainingDummies-Patcher"
+      "Repository": "LootableThings-TrainingDummies-Patcher",
+      "Sha": "8ffbcb835aca1c244eab758c65d402c3d712abc0"
     },
     {
       "Patchers": [
@@ -1355,13 +1635,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "MakeFirewoodPilesIntoContainers/MakeFirewoodPilesIntoContainers.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "MakeFirewoodPilesIntoContainers"
+      "Repository": "MakeFirewoodPilesIntoContainers",
+      "Sha": "6005d977dda98aa2a4bc665993622ca5dee63aed"
     },
     {
       "Patchers": [
@@ -1376,13 +1658,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "MakeItemsWeightless/MakeItemsWeightless.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/8077005?s=40\u0026amp;v=4",
       "User": "praecipitator",
-      "Repository": "MakeItemsWeightless"
+      "Repository": "MakeItemsWeightless",
+      "Sha": "1f4417f9850affee45900f5280d876a2bfc113a3"
     },
     {
       "Patchers": [
@@ -1397,13 +1681,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "MakeModsScrappable/MakeModsScrappable.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/8077005?s=40\u0026amp;v=4",
       "User": "praecipitator",
-      "Repository": "MakeModsScrappable"
+      "Repository": "MakeModsScrappable",
+      "Sha": "412a4cf49f790c4bd6acb8875c8ed79ac11a7bc5"
     },
     {
       "Patchers": [
@@ -1418,13 +1704,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "MaleAAGenerator/MaleAAGenerator.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/52758909?s=40\u0026amp;v=4",
       "User": "cuyima",
-      "Repository": "MaleAAGenerator"
+      "Repository": "MaleAAGenerator",
+      "Sha": "bd5a98a310063a85afca2aca912817bc03740fd2"
     },
     {
       "Patchers": [
@@ -1439,38 +1727,47 @@
             "TargetedReleases": []
           },
           "ProjectPath": "MasculinizedLeveledLists/MasculinizedLeveledLists.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
       "User": "ReaperAnon",
-      "Repository": "Masculinized-Leveled-Lists"
+      "Repository": "Masculinized-Leveled-Lists",
+      "Sha": "513a4486107bce4d11393eef18d0ff59f108f0eb"
     },
     {
       "Patchers": [
         {
           "Customization": null,
           "ProjectPath": "CustomSet/CustomSet.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Oblivion",
+            "Skyrim"
+          ]
         },
         {
           "Customization": null,
           "ProjectPath": "CustomSetTest/CustomSetTest.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Oblivion",
+            "Skyrim"
+          ]
         },
         {
           "Customization": null,
           "ProjectPath": "MasterLimitTestTest/MasterLimitTestTest.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Oblivion",
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
-      "Repository": "MasterLimitTest"
+      "Repository": "MasterLimitTest",
+      "Sha": "5c72b51b27b3d033bed7e6d226788de805a95603"
     },
     {
       "Patchers": [
@@ -1485,13 +1782,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "Metric-Units/MetricUnits.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
       "User": "radj307",
-      "Repository": "Metric-Units-Patcher"
+      "Repository": "Metric-Units-Patcher",
+      "Sha": "e619a0d0e6123a17d38f3a494ef64938b1079fb0"
     },
     {
       "Patchers": [
@@ -1506,26 +1805,52 @@
             "TargetedReleases": []
           },
           "ProjectPath": "MissingEncounterZonesPatcher/MissingEncounterZonesPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
       "User": "ReaperAnon",
-      "Repository": "Missing-Encounter-Zones-Patcher"
+      "Repository": "Missing-Encounter-Zones-Patcher",
+      "Sha": "f0bb9f3eaa1318c3011a00d3c66ee53a59ae470f"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "MoreGoldForMerchants/MoreGoldForMerchants.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/44707323?s=40\u0026amp;v=4",
+      "User": "AmoneMisa",
+      "Repository": "MoreGoldForMerchants",
+      "Sha": "481ba8dea09f6fc8c6d515eb7f9d46216d14b814"
     },
     {
       "Patchers": [
         {
           "Customization": null,
           "ProjectPath": "MortalEnemies/MortalEnemies.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "MortalEnemies-Patcher"
+      "Repository": "MortalEnemies-Patcher",
+      "Sha": "0baa5766b45094412485fda7ae8a3aa386757af5"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "MovementSpeedPatcher",
+      "Sha": "eda0b4b3e3c2bb8abebf9981c5220fd74b5c3b51"
     },
     {
       "Patchers": [
@@ -1561,13 +1886,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "MusicTypePatcher/MusicTypePatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/65688322?s=40\u0026amp;v=4",
       "User": "OddDrifter",
-      "Repository": "musictype-patcher"
+      "Repository": "musictype-patcher",
+      "Sha": "dc2bcb9e8a8791fe045755a37ca4aefdff95a270"
     },
     {
       "Patchers": [
@@ -1582,13 +1909,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "Synthesis/Synthesis.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/71204714?s=40\u0026amp;v=4",
       "User": "Mutagen-Modding",
-      "Repository": "MutagenBootcamp"
+      "Repository": "MutagenBootcamp",
+      "Sha": "1075962cb64107bbad253caf4a366c6b120006e5"
     },
     {
       "Patchers": [
@@ -1603,26 +1932,30 @@
             "TargetedReleases": []
           },
           "ProjectPath": "NoShadowsPatch/NoShadowsPatch.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
       "User": "ExpensiveLadder",
-      "Repository": "No-Shadows-Patch"
+      "Repository": "No-Shadows-Patch",
+      "Sha": "b885e1a4ce3fc79339077bdf564731331949e1b9"
     },
     {
       "Patchers": [
         {
           "Customization": null,
           "ProjectPath": "NoDragonLODs/NoDragonLODs.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "nodragonlods"
+      "Repository": "nodragonlods",
+      "Sha": "fe0e78a7caae49fe91c08a808f47556bc7c470c3"
     },
     {
       "Patchers": [
@@ -1640,13 +1973,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "NorthpointBDSPatcher/NorthpointBDSPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
       "User": "Bl4ckread",
-      "Repository": "Northpoint-BDS-Patcher"
+      "Repository": "Northpoint-BDS-Patcher",
+      "Sha": "64b718917c0e034fa1dcf22aba09419a3cf96424"
     },
     {
       "Patchers": [
@@ -1661,13 +1996,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "NoStartingMapMarkers/NoStartingMapMarkers.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/47191053?s=40\u0026amp;v=4",
       "User": "Glanzer-modder",
-      "Repository": "NoStartingMapMarkers"
+      "Repository": "NoStartingMapMarkers",
+      "Sha": "70586175d449435a2bc4b2e8333e7e9c83e458e3"
     },
     {
       "Patchers": [
@@ -1682,13 +2019,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "NPCAppearanceCopier/NPCAppearanceCopier.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
-      "Repository": "NPC-Appearance-Copier"
+      "Repository": "NPC-Appearance-Copier",
+      "Sha": "fe12d820ba673e4a697f02ed0922c5f29ebbc0bb"
     },
     {
       "Patchers": [
@@ -1703,26 +2042,52 @@
             "TargetedReleases": []
           },
           "ProjectPath": "NPC-DeLeveler/NPC_DeLeveler.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
       "User": "radj307",
-      "Repository": "NPC-Deleveler"
+      "Repository": "NPC-Deleveler",
+      "Sha": "e0c8e01b29d7240d45da50fb82c780d13fc79780"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
+      "User": "Piranha91",
+      "Repository": "NPC-Plugin-Chooser",
+      "Sha": "50112de1482cd251a43883a3c63e7ed83fe3d773"
     },
     {
       "Patchers": [
         {
           "Customization": null,
           "ProjectPath": "NPCEnchantFix/NPCEnchantFix.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "npcenchantfix"
+      "Repository": "npcenchantfix",
+      "Sha": "83bf4d19daa0d61427da3493266c92bb2c496d2c"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "NPCMiddleMan/NPCMiddleMan.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/100351519?s=40\u0026amp;v=4",
+      "User": "CramMods",
+      "Repository": "NPCMiddleMan",
+      "Sha": "06178b9ceb324f5d039fe7336c6ade2e74808fea"
     },
     {
       "Patchers": [
@@ -1737,13 +2102,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "NpcProtector/NpcProtector.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/45295422?s=40\u0026amp;v=4",
       "User": "alsa64",
-      "Repository": "NpcProtector"
+      "Repository": "NpcProtector",
+      "Sha": "dcc7d086658434c534c2a02917e0e3301272c149"
     },
     {
       "Patchers": [
@@ -1758,26 +2125,37 @@
             "TargetedReleases": []
           },
           "ProjectPath": "NPCStatRescaler/NPCStatRescaler.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
       "User": "theSkyseS",
-      "Repository": "NPCStatRescaler"
+      "Repository": "NPCStatRescaler",
+      "Sha": "5b83ac68d79aa76b3c27c9f8ff6d29d3b3d18b87"
     },
     {
       "Patchers": [
         {
           "Customization": null,
           "ProjectPath": "OppositeAnimationDisabler/OppositeAnimationDisabler.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "oppositeanimationdisabler"
+      "Repository": "oppositeanimationdisabler",
+      "Sha": "cd534d03573e803cd815de1232091ed7a97faf5a"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/24981326?s=40\u0026amp;v=4",
+      "User": "Noggog",
+      "Repository": "PassthroughTest",
+      "Sha": "903011640af38d0646dfe6c5f66149990616b807"
     },
     {
       "Patchers": [
@@ -1794,13 +2172,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "PickYourPoison/PickYourPoison.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
       "User": "theSkyseS",
-      "Repository": "PickYourPoison"
+      "Repository": "PickYourPoison",
+      "Sha": "eb6be2919a962922570d3a3cfb0ed0099b07b4fc"
     },
     {
       "Patchers": [
@@ -1815,13 +2195,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "PineTreeScaler/PineTreeScaler.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
       "User": "Bl4ckread",
-      "Repository": "PineTreeScaler"
+      "Repository": "PineTreeScaler",
+      "Sha": "8a857351583b7db4dafada7cf8a1c1a20af27bda"
     },
     {
       "Patchers": [
@@ -1838,13 +2220,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "Poverty/Poverty.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
       "User": "radj307",
-      "Repository": "Poverty-Patcher"
+      "Repository": "Poverty-Patcher",
+      "Sha": "1694cda2f9366f4662ead620fb68c4a466e5f4b5"
     },
     {
       "Patchers": [
@@ -1859,13 +2243,30 @@
             "TargetedReleases": []
           },
           "ProjectPath": "PresetChecker/PresetChecker.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
       "User": "SteveTownsend",
-      "Repository": "PresetChecker"
+      "Repository": "PresetChecker",
+      "Sha": "26743cc88100eef16f2084bda375d93fdfcc15df"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "Quest_Categorizer/Quest_Categorizer.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
+      "User": "JanuarySnow",
+      "Repository": "Quest_Categorizer",
+      "Sha": "0a115ff4fb7a838474c0d1af93ee5aef95dc12c8"
     },
     {
       "Patchers": [
@@ -1882,13 +2283,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "QuestLimitFixer/QuestLimitFixer.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
       "User": "radj307",
-      "Repository": "Quest-Journal-Limit-Fixer"
+      "Repository": "Quest-Journal-Limit-Fixer",
+      "Sha": "1977a1fb8fbf0d807d05c78569360c2d97716cc6"
     },
     {
       "Patchers": [
@@ -1905,13 +2308,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "RaceCompatibilityDialogue/RaceCompatibilityDialogue.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "RaceCompatibilityDialogue"
+      "Repository": "RaceCompatibilityDialogue",
+      "Sha": "e18ea913ab4cb39f2f964b274a88f1d1f2eec18f"
     },
     {
       "Patchers": [
@@ -1926,26 +2331,30 @@
             "TargetedReleases": []
           },
           "ProjectPath": "Radial-Blur-Remover/Radial-Blur-Remover.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/93822872?s=40\u0026amp;v=4",
       "User": "Benna96-Synthesis",
-      "Repository": "Radial-Blur-Remover"
+      "Repository": "Radial-Blur-Remover",
+      "Sha": "2bbf7bd8d47fed3c0bd3db1bd132b2b320a5071f"
     },
     {
       "Patchers": [
         {
           "Customization": null,
           "ProjectPath": "SanguinaireCompat/Sanguinaire Race Compatibility.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/28060609?s=40\u0026amp;v=4",
       "User": "azraerl",
-      "Repository": "RandomUtility"
+      "Repository": "RandomUtility",
+      "Sha": "4320d9cd32f3a3578e0dac1cc81267d15617d489"
     },
     {
       "Patchers": [
@@ -1960,13 +2369,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ReadingIsGoodLegacy/ReadingIsGoodLegacy.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
       "User": "theSkyseS",
-      "Repository": "ReadingIsGoodLegacy"
+      "Repository": "ReadingIsGoodLegacy",
+      "Sha": "5df5a97ea01d8ef7c3b532712cda524f8d7dc7a8"
     },
     {
       "Patchers": [
@@ -1981,13 +2392,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "RealisticWaterTwoPatcher/RealisticWaterTwoPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
       "User": "ReaperAnon",
-      "Repository": "Realistic-Water-Two-Patcher"
+      "Repository": "Realistic-Water-Two-Patcher",
+      "Sha": "48e311a92c4d0c82e56a7c863bdde4352de476e6"
     },
     {
       "Patchers": [
@@ -2002,13 +2415,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "RemoveInteriorFogPatcher/RemoveInteriorFogPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
-      "Repository": "RemoveInteriorFogPatcher"
+      "Repository": "RemoveInteriorFogPatcher",
+      "Sha": "1b9d4d2d63301d7387270e8facae0f8d3806c45e"
     },
     {
       "Patchers": [
@@ -2023,13 +2438,22 @@
             "TargetedReleases": []
           },
           "ProjectPath": "Requiem-Experience/Requiem-Experience.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/28060609?s=40\u0026amp;v=4",
       "User": "azraerl",
-      "Repository": "Requiem-Experience"
+      "Repository": "Requiem-Experience",
+      "Sha": "aeb202ce621d098b9aa88d1c89c5b58c89734fe7"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "Save-Your-Finger",
+      "Sha": "69e7c0c6052485a474cd785cf2a253674ddb46b9"
     },
     {
       "Patchers": [
@@ -2046,13 +2470,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SFCOPaintingRemover/SFCOPaintingRemover.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "SFCOPaintingRemover"
+      "Repository": "SFCOPaintingRemover",
+      "Sha": "128980dab58e530cb5c9c6c2bb78f9fcbe380679"
     },
     {
       "Patchers": [
@@ -2067,13 +2493,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "shadowmark_patcher/shadowmark_patcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
       "User": "JanuarySnow",
-      "Repository": "Shadowmark-Patcher"
+      "Repository": "Shadowmark-Patcher",
+      "Sha": "d0576b9f2ae376f6c0ccd5eba404f25f8b3d39a7"
     },
     {
       "Patchers": [
@@ -2088,13 +2516,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SilentMoonsEnchantmentPatcher/SilentMoonsEnchantmentPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "SilentMoonsEnchantmentPatcher.Net"
+      "Repository": "SilentMoonsEnchantmentPatcher.Net",
+      "Sha": "dd20b29ce44d50ecaf8ce2b6785fdcdd0894ea6c"
     },
     {
       "Patchers": [
@@ -2109,13 +2539,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ArmoryRebalance/ArmoryRebalance/ArmoryRebalance.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
       "User": "Jampi0n",
-      "Repository": "Skyrim-ArmoryRebalance"
+      "Repository": "Skyrim-ArmoryRebalance",
+      "Sha": "93f7cc6398c8a0f9f32d9385ece8e80c5dcf7e77"
     },
     {
       "Patchers": [
@@ -2130,13 +2562,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ArrowDamageScaling/ArrowDamageScaling.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
       "User": "Jampi0n",
-      "Repository": "Skyrim-ArrowDamageScaling"
+      "Repository": "Skyrim-ArrowDamageScaling",
+      "Sha": "11412df6b47b3bba70bea36a44b862a698b92ba9"
     },
     {
       "Patchers": [
@@ -2151,13 +2585,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "DisableVanillaLoadingScreens/DisableVanillaLoadingScreens.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
       "User": "Jampi0n",
-      "Repository": "Skyrim-DisableVanillaLoadingScreens"
+      "Repository": "Skyrim-DisableVanillaLoadingScreens",
+      "Sha": "7b180b4aec73c585bd3f5fbd3cf58275e1052ae6"
     },
     {
       "Patchers": [
@@ -2172,13 +2608,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "Skyrim-LeveledLoot/LeveledLoot.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
       "User": "Jampi0n",
-      "Repository": "Skyrim-LeveledLoot"
+      "Repository": "Skyrim-LeveledLoot",
+      "Sha": "05e4d020c9a8549ea279889c2ef957f624d1989e"
     },
     {
       "Patchers": [
@@ -2193,13 +2631,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "LoadScreenGen/LoadScreenGen.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
       "User": "Jampi0n",
-      "Repository": "Skyrim-LoadingScreenGenerator"
+      "Repository": "Skyrim-LoadingScreenGenerator",
+      "Sha": "b6f37fc7156d3f31285e0d43790f4a47cc549552"
     },
     {
       "Patchers": [
@@ -2216,13 +2656,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "PassiveEnchantingXP/PassiveEnchantingXP.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
       "User": "Jampi0n",
-      "Repository": "Skyrim-PassiveEnchantingXP"
+      "Repository": "Skyrim-PassiveEnchantingXP",
+      "Sha": "6efef512cd9d760081d762000b1f8d9099f75d17"
     },
     {
       "Patchers": [
@@ -2237,13 +2679,37 @@
             "TargetedReleases": []
           },
           "ProjectPath": "RemoveLandscapeVertexColor/RemoveLandscapeVertexColor.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
       "User": "Jampi0n",
-      "Repository": "Skyrim-RemoveLandscapeVertexColor"
+      "Repository": "Skyrim-RemoveLandscapeVertexColor",
+      "Sha": "586af62bc8185f821bdaa7814cf3ef54ef288dff"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "NIFPatcher_HairShader/NIFPatcher_HairShader.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/58644194?s=40\u0026amp;v=4",
+      "User": "cakeofhonor",
+      "Repository": "Skyrim-Synthesis-NIFPatcher_HairShader",
+      "Sha": "7982aca8a8261332065a8ccfb9e88ea1e7a801f7"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;v=4",
+      "User": "Deigue",
+      "Repository": "SkyrimCurrencyReplacer",
+      "Sha": "c9548edc963153428d212a906f42edd86f1b5de2"
     },
     {
       "Patchers": [
@@ -2258,13 +2724,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SkyrimUnlimitedRingsPatcher/SkyrimUnlimitedRingsPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/53153547?s=40\u0026amp;v=4",
       "User": "hellozyemlya",
-      "Repository": "SkyrimUnlimitedRingsPatcher"
+      "Repository": "SkyrimUnlimitedRingsPatcher",
+      "Sha": "94b7afe7e5c4e712a336f095ebe0f210e5391bb3"
     },
     {
       "Patchers": [
@@ -2279,13 +2747,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SynWeaponKeywords/SynWeapType.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;v=4",
       "User": "Deigue",
-      "Repository": "SkyUIWeaponIconPatcher"
+      "Repository": "SkyUIWeaponIconPatcher",
+      "Sha": "73b34f67ec9e45098dd9a52af92ad1ff228981e0"
     },
     {
       "Patchers": [
@@ -2300,13 +2770,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SkyVRaanAutoPatcher/SkyVRaanAutoPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
       "User": "Wolfman5750",
-      "Repository": "SkyVRaanAutoPatcher"
+      "Repository": "SkyVRaanAutoPatcher",
+      "Sha": "01fd61c72972fdf880b65478b66938b4966f398a"
     },
     {
       "Patchers": [
@@ -2321,13 +2793,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SkyVRaanWeatherPatcher/SkyVRaanWeatherPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
       "User": "Wolfman5750",
-      "Repository": "SkyVRaanWeatherPatcher"
+      "Repository": "SkyVRaanWeatherPatcher",
+      "Sha": "acae02b4ba6ee622d11baa99fa96419fa72fceb5"
     },
     {
       "Patchers": [
@@ -2342,13 +2816,22 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SlotsSlotsSlots/SlotsSlotsSlots.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "SlotsSlotsSlots"
+      "Repository": "SlotsSlotsSlots",
+      "Sha": "1357c7e53749dcb62dbbcd2ea4bf7bd5d9eb714f"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;v=4",
+      "User": "halgari",
+      "Repository": "SlotsSlotsSlots",
+      "Sha": "267b8b650785bba496a644859152b95f33de9a46"
     },
     {
       "Patchers": [
@@ -2363,26 +2846,30 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SlotsSlotsSlotsSlots/SlotsSlotsSlotsSlots.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "SlotsSlotsSlotsSlots"
+      "Repository": "SlotsSlotsSlotsSlots",
+      "Sha": "581c00891eadfec134f6ecbb65180457b007c00e"
     },
     {
       "Patchers": [
         {
           "Customization": null,
           "ProjectPath": "Halgari.SoulGemDisenchantment/Halgari.SoulGemDisenchantment.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;u=92d7e1a4f00fb22204d2d0bb540710333ce4a365\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;v=4",
       "User": "halgari",
-      "Repository": "soul-gem-disenchantment"
+      "Repository": "soul-gem-disenchantment",
+      "Sha": "97e5c18bd62d24249dd23c04a972f9094f6a3ad0"
     },
     {
       "Patchers": [
@@ -2397,13 +2884,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SpeedandReachFixes/SpeedandReachFixes.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "speedandreachfixes"
+      "Repository": "speedandreachfixes",
+      "Sha": "8e63f8f218abc10fc649d98e8351eb91539e736a"
     },
     {
       "Patchers": [
@@ -2418,13 +2907,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SpellAbsorbFix/SpellAbsorbFix.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "spellabsorbfix"
+      "Repository": "spellabsorbfix",
+      "Sha": "057b58a0520f483596d139ad43eb06b1667ca866"
     },
     {
       "Patchers": [
@@ -2441,13 +2932,53 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SpellbindPatcher/SpellbindPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/926013?s=40\u0026amp;v=4",
       "User": "Xgatt",
-      "Repository": "SpellbindPatcher-Synthesis"
+      "Repository": "SpellbindPatcher-Synthesis",
+      "Sha": "09065be74ecd51742e2f23d44ef8f0290a9d1003"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "SpellResearchAlternateTomePatcher/SpellResearchAlternateTomePatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "SpellResearchAlternateTomePatcher",
+      "Sha": "fe221d104884105199ebefc43ea326d70dbb1688"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Spell Research Synthesizer",
+            "Visibility": "Visible",
+            "OneLineDescription": "Combine multiple Spell Research Patches into one, and optionally alter tomes",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SpellResearchSynthesizer/SpellResearchSynthesizer.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/19806549?s=40\u0026amp;v=4",
+      "User": "audriuska12",
+      "Repository": "SpellResearchSynthesizer",
+      "Sha": "0567377f9518a06069d9892c93d941781ae78142"
     },
     {
       "Patchers": [
@@ -2462,13 +2993,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "spelltome_yeeter/spelltome_yeeter.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
       "User": "JanuarySnow",
-      "Repository": "Spelltome-Yeeter"
+      "Repository": "Spelltome-Yeeter",
+      "Sha": "d0ec50f0b26c471411740ae0eb249c0d615b4ade"
     },
     {
       "Patchers": [
@@ -2483,13 +3016,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SpellTomePriceFixPatcher/SpellTomePricePatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
-      "Repository": "SpellTomePricePatcher"
+      "Repository": "SpellTomePricePatcher",
+      "Sha": "2a83145cfcff9a16ac31bf12e83956674527b5fa"
     },
     {
       "Patchers": [
@@ -2506,13 +3041,59 @@
             "TargetedReleases": []
           },
           "ProjectPath": "StaffGenerator/StaffGenerator.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "Customization": null,
+          "ProjectPath": "Tests/Tests.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
-      "Repository": "StaffGenerator"
+      "Repository": "StaffGenerator",
+      "Sha": "bb97c39b147531577eec07f9ac72f5e498a3e800"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "STToggle/STToggle.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/106714821?s=40\u0026amp;v=4",
+      "User": "statttis",
+      "Repository": "STToggle",
+      "Sha": "958811ea7ebce33422a1fa59ccbcd9468d806a71"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "CramMods.STUMP/CramMods.STUMP.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/100351519?s=40\u0026amp;v=4",
+      "User": "CramMods",
+      "Repository": "STUMP",
+      "Sha": "373b1626a956093ee704f30806aa59625e59810f"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynACSF",
+      "Sha": "47cb99a1ff9a9c45c4cd586ede07b5966c526be1"
     },
     {
       "Patchers": [
@@ -2527,13 +3108,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ActionSpeedX/ActionSpeedX.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/7200909?s=40\u0026amp;v=4",
       "User": "holaholacocacola",
-      "Repository": "SynActionSpeedX"
+      "Repository": "SynActionSpeedX",
+      "Sha": "23c80cc09fdc049e240adbc0f997b437ada443f9"
     },
     {
       "Patchers": [
@@ -2550,13 +3133,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "AVOCPatcher/AVOCPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/13448395?s=40\u0026amp;v=4",
       "User": "rshackleton",
-      "Repository": "SynAVOCPatcher"
+      "Repository": "SynAVOCPatcher",
+      "Sha": "23cd991041008781256179232d540d3c0361c68a"
     },
     {
       "Patchers": [
@@ -2571,13 +3156,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "BookSmart/BookSmart.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "SynBookSmart"
+      "Repository": "SynBookSmart",
+      "Sha": "ce1bdd92334848b31432da1b60ca94364c6ded88"
     },
     {
       "Patchers": [
@@ -2592,13 +3179,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SynBundler/SynPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
-      "Repository": "SynBundler"
+      "Repository": "SynBundler",
+      "Sha": "9c96633b2d8d89f91c083bdeda42dd64f19998ff"
     },
     {
       "Patchers": [
@@ -2613,13 +3202,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SynCGOStaves/SynPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
-      "Repository": "SynCGOStavesPatcher"
+      "Repository": "SynCGOStavesPatcher",
+      "Sha": "99c0263b8003829f48374c1f5262a2552f16eb80"
     },
     {
       "Patchers": [
@@ -2634,13 +3225,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "CoinTweaker/CoinTweaker.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/4649131?s=40\u0026amp;v=4",
       "User": "RowanMaBoot",
-      "Repository": "SynCoinTweaker"
+      "Repository": "SynCoinTweaker",
+      "Sha": "ef811626822e05c3e4543b4fd1952ba566838773"
     },
     {
       "Patchers": [
@@ -2655,13 +3248,30 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SynCombatBoundaries/SynCombatBoundaries.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/7200909?s=40\u0026amp;v=4",
       "User": "holaholacocacola",
-      "Repository": "SynCombatBoundaries"
+      "Repository": "SynCombatBoundaries",
+      "Sha": "1ebe6136aa03ae469612339233c0ab5f48f7887e"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "CreatureReWeighter/CreatureReWeighter.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/13448395?s=40\u0026amp;v=4",
+      "User": "rshackleton",
+      "Repository": "SynCreatureReWeighter",
+      "Sha": "ac9531208125d3f56b399d585509c4ef072cdc5f"
     },
     {
       "Patchers": [
@@ -2676,13 +3286,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SynFixBOOKRecordTypes/SynFixBOOKRecordTypes.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
       "User": "TokcDK",
-      "Repository": "SynFixBOOKRecordTypes"
+      "Repository": "SynFixBOOKRecordTypes",
+      "Sha": "9e65bef5eb3a37fb7ae9f3b7e4e64622d834955f"
     },
     {
       "Patchers": [
@@ -2697,13 +3309,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SynFksDiverseSkeleton/SynFksDiverseSkeleton.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/7200909?s=40\u0026amp;v=4",
       "User": "holaholacocacola",
-      "Repository": "SynFksDiverseSkeletons"
+      "Repository": "SynFksDiverseSkeletons",
+      "Sha": "68ccc369a47f18e40966997a6b7391637b5f9503"
     },
     {
       "Patchers": [
@@ -2718,13 +3332,40 @@
             "TargetedReleases": []
           },
           "ProjectPath": "FloraFixer/FloraFixer.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
-      "Repository": "SynFloraFix"
+      "Repository": "SynFloraFix",
+      "Sha": "e625705d84ab0d69af64b4ec24f8edafe03ec766"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynHeelsSoundAdd-local",
+            "Visibility": "Visible",
+            "OneLineDescription": "Auto adds highheels sound to valid boots",
+            "LongDescription": "Adds high heels sound to all found and valid boots.\nMod can be downloaded here:\nSkyrim LE/SE: https://www.loverslab.com/files/file/1795-heels-sound/\nSkyrim SE: https://www.nexusmods.com/skyrimspecialedition/mods/62502\n\n\nCurrently adds sounds for all boots using \u0027HDT HighHeels System\u0027 mod: https://www.google.com/search?q=HDT\u002BHighHeels\u002BSystem",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Heels Sound.esm"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynHeelsSoundAdd/SynHeelsSoundAdd.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynHeelsSoundAdd",
+      "Sha": "a93d76c1f1c710fbbe77e60a4a30312e8e958d32"
     },
     {
       "Patchers": [
@@ -2762,13 +3403,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SynHelmWithCirlets/SynPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
-      "Repository": "SynHelmsWithCirclets"
+      "Repository": "SynHelmsWithCirclets",
+      "Sha": "629d7503d76fb800dbf433082c3ae6c62414e0da"
     },
     {
       "Patchers": [
@@ -2783,13 +3426,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SynInvisibleHelmets/SynPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
-      "Repository": "SynInvisibleHelmets"
+      "Repository": "SynInvisibleHelmets",
+      "Sha": "a3819dce5a1b297006ad73c4480a2ffa064b6a5f"
     },
     {
       "Patchers": [
@@ -2804,13 +3449,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "KeywordDistributor/SynPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
-      "Repository": "SynKeywordDistributor"
+      "Repository": "SynKeywordDistributor",
+      "Sha": "8b5a7e1b877564b2877764c1515dd0c4e81af786"
     },
     {
       "Patchers": [
@@ -2825,13 +3472,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SynLoadScreenRemover/SynPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
-      "Repository": "SynLoadscreenRemover"
+      "Repository": "SynLoadscreenRemover",
+      "Sha": "a35db13fc16207e4a64fafed960c2cbbbefbdf90"
     },
     {
       "Patchers": [
@@ -2846,13 +3495,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SynEnchRestrictionsRemover/SynPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
-      "Repository": "SynNoEnchantmentRestrictions"
+      "Repository": "SynNoEnchantmentRestrictions",
+      "Sha": "63a00d17f288694fa59d25739ec29bbd59fc0990"
     },
     {
       "Patchers": [
@@ -2867,13 +3518,45 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SynNoMoreEasyEnemies/SynNoMoreEasyEnemies.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "SynNoMoreEasyEnemies"
+      "Repository": "SynNoMoreEasyEnemies",
+      "Sha": "98cb601e9020a02829907ad33707bbe763ea325a"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "SynOblivionInteractionIcons/SynOblivionInteractionIcons.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5535758?s=40\u0026amp;v=4",
+      "User": "ixanza",
+      "Repository": "synOblivionInteractionIcons",
+      "Sha": "e5ef98e5e3b463e71ad3432350f31f4ddca3d57b"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "SynOblivionInteractionIcons/SynOblivionInteractionIcons.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/58261411?s=40\u0026amp;v=4",
+      "User": "cacodemonkey",
+      "Repository": "synOblivionInteractionIcons_1.x",
+      "Sha": "e624f8802a4c3aab6a282c3f9129aa7e0febbb45"
     },
     {
       "Patchers": [
@@ -2888,13 +3571,38 @@
             "TargetedReleases": []
           },
           "ProjectPath": "OWLPatcher/OWLPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/5535758?s=40\u0026amp;v=4",
       "User": "ixanza",
-      "Repository": "SynOpenWorldLoot"
+      "Repository": "SynOpenWorldLoot",
+      "Sha": "3cfe92c230c18b5f4861dfd8ea883ffaa637660c"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynOppositeGenderAnimsTweak",
+            "Visibility": "Visible",
+            "OneLineDescription": "Opposite gender flag remover",
+            "LongDescription": "Removes Opposite gender flag from npc which have it\nCheck settings to setup prefered options",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynOppositeGenderAnimsTweak/SynOppositeGenderAnimsTweak.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynOppositeGenderAnimsTweak",
+      "Sha": "c1adda9125f8e97f96fe43328ee9893a535d5874"
     },
     {
       "Patchers": [
@@ -2930,13 +3638,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SynPotionWeight/SynPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
-      "Repository": "SynPotionWeight"
+      "Repository": "SynPotionWeight",
+      "Sha": "2bf3749f03ac077e3f7a91587073eb258825e6c9"
     },
     {
       "Patchers": [
@@ -2951,36 +3661,37 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SynRaceRebalancer/SynRaceRebalancer.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/4649131?s=40\u0026amp;v=4",
       "User": "RowanMaBoot",
-      "Repository": "SynRaceRebalancer"
+      "Repository": "SynRaceRebalancer",
+      "Sha": "5e0e66bdf121fbeb3ac8aae22c31798be31f93ca"
     },
     {
       "Patchers": [
         {
-          "Customization": {
-            "Nickname": "ELE Patcher",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "Enhanced Lighting for ENB patcher",
-            "LongDescription": "Old version. Please don\u0027t use this!",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "ELE_SSE.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "ELE_Patcher/ELE_Patcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "Customization": null,
+          "ProjectPath": "SpellTomeFreeLeveledLists/SpellTomeFreeLeveledLists.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/23498000?s=40\u0026amp;u=7e69567ce1aedde841a7bf44d42329dac682c97f\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/24525094?s=40\u0026amp;v=4",
+      "User": "zVcXr",
+      "Repository": "SynSpellTomeFreeLeveledLists",
+      "Sha": "a8b1db678455f5afc65f4f1d533233f7791f21a9"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/23498000?s=40\u0026amp;v=4",
       "User": "Benna96",
-      "Repository": "Synthesis-Misc-Compatibility-Patchers"
+      "Repository": "Synthesis-Misc-Compatibility-Patchers",
+      "Sha": "bfca9b5ac1573a082e2cab4a2c10a11275651899"
     },
     {
       "Patchers": [
@@ -2995,32 +3706,63 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SynthNPCsWithFaces/SynthNPCsWithFaces.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;v=4",
       "User": "halgari",
-      "Repository": "SynthNPCsWithFaces"
+      "Repository": "SynthNPCsWithFaces",
+      "Sha": "0d7698875a003f1942db5e3f9bf435fc6977565b"
     },
     {
       "Patchers": [
         {
           "Customization": null,
           "ProjectPath": "SynthusMaximus.Test/SynthusMaximus.Test.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim",
+            "Oblivion",
+            "Fallout4"
+          ]
         },
         {
           "Customization": null,
           "ProjectPath": "Xml2Json/Xml2Json.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim",
+            "Oblivion",
+            "Fallout4"
+          ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;u=92d7e1a4f00fb22204d2d0bb540710333ce4a365\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;v=4",
       "User": "halgari",
-      "Repository": "SynthusMaximus"
+      "Repository": "SynthusMaximus",
+      "Sha": "27622b5d81560af803f3541946587ea138e4734d"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "Translator/Translator.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/92609548?s=40\u0026amp;v=4",
+      "User": "D7ry",
+      "Repository": "SynTranslator",
+      "Sha": "ed04197ec7f1544c3d601306677e3961a2f337c5"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynTweakEngine",
+      "Sha": "0c6a6a45736d0ff851d52ba783884cf43d4fdf8a"
     },
     {
       "Patchers": [
@@ -3035,13 +3777,22 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SynPatcher/SynPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
-      "Repository": "SynWeaponKeywords"
+      "Repository": "SynWeaponKeywords",
+      "Sha": "8145bdd268ccfa26b65ba1f0cf1054fbf514bc12"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/24981326?s=40\u0026amp;v=4",
+      "User": "Noggog",
+      "Repository": "TestPatcher",
+      "Sha": "724009165069ffec3b183c9979b38af73f2ac472"
     },
     {
       "Patchers": [
@@ -3056,13 +3807,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "TMOPatcher/TMOPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/556678?s=40\u0026amp;v=4",
       "User": "jdsmith2816",
-      "Repository": "tmopatcher"
+      "Repository": "tmopatcher",
+      "Sha": "66970b82103297cf43f85cd6d36e48e6cf0f929d"
     },
     {
       "Patchers": [
@@ -3077,13 +3830,22 @@
             "TargetedReleases": []
           },
           "ProjectPath": "TrueUnleveledSkyrim/TrueUnleveledSkyrim.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
       "User": "ReaperAnon",
-      "Repository": "True-Unleveled-Skyrim"
+      "Repository": "True-Unleveled-Skyrim",
+      "Sha": "5a44d925474d9d2a0049e678f862cfb2361c3e3f"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
+      "User": "theSkyseS",
+      "Repository": "TrueUnleveledSkyrim",
+      "Sha": "79dcc66d06a6239ca563cab7b579fb4cedf4aadf"
     },
     {
       "Patchers": [
@@ -3098,13 +3860,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "TUDMFootstepPatcher/TUDMFootstepPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
-      "Repository": "TUDMFootstepPatcher"
+      "Repository": "TUDMFootstepPatcher",
+      "Sha": "b50628b6fe4db5ec120c539d220958a7eb39b360"
     },
     {
       "Patchers": [
@@ -3119,26 +3883,30 @@
             "TargetedReleases": []
           },
           "ProjectPath": "UnderThere/UnderThere.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
-      "Repository": "Under-There-"
+      "Repository": "Under-There-",
+      "Sha": "140ca3edd073f95d01782738ad1124e105d53afe"
     },
     {
       "Patchers": [
         {
           "Customization": null,
           "ProjectPath": "Tests/Tests.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
-      "Repository": "UniquePlayer"
+      "Repository": "UniquePlayer",
+      "Sha": "cbed944d7bbc67522039b019f8830885852ef960"
     },
     {
       "Patchers": [
@@ -3153,13 +3921,22 @@
             "TargetedReleases": []
           },
           "ProjectPath": "UniqueRegionNamesPatcher/UniqueRegionNamesPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
       "User": "radj307",
-      "Repository": "UniqueRegionNamesPatcher"
+      "Repository": "UniqueRegionNamesPatcher",
+      "Sha": "f2afd5883347210370f2d2abdc4cd061d39534a0"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "UPFLoader-ActionSpeed",
+      "Sha": "706946de85cad91f8fd08745b24ba2e56fff1f30"
     },
     {
       "Patchers": [
@@ -3174,13 +3951,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "UPFLoader - HeartSeeker/UPFLoader-HeartSeeker.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "UPFLoader-HeartSeeker"
+      "Repository": "UPFLoader-HeartSeeker",
+      "Sha": "3507b137ba53876112bd169ddfcb65e5cae34988"
     },
     {
       "Patchers": [
@@ -3197,13 +3976,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "VendorPriestNPCPatcher/VendorPriestNPCPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/18351077?s=40\u0026amp;v=4",
       "User": "vonLeebpl",
-      "Repository": "VendorPriestNPCPatcher"
+      "Repository": "VendorPriestNPCPatcher",
+      "Sha": "3b859f47a257f32260525f786f57f7c459f8c147"
     },
     {
       "Patchers": [
@@ -3218,13 +3999,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "WaterDoesDamage/WaterDoesDamage.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
-      "Repository": "WaterDoesDamagePatcher"
+      "Repository": "WaterDoesDamagePatcher",
+      "Sha": "aa0b9cac8f77e6ba878cc8ded3b5aff3e627a6a2"
     },
     {
       "Patchers": [
@@ -3239,13 +4022,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "WeaponSpeedEffectsFix/WeaponSpeedEffectsFix.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
       "User": "SteveTownsend",
-      "Repository": "WeaponSpeedEffectsFix"
+      "Repository": "WeaponSpeedEffectsFix",
+      "Sha": "a58cd2aa7f837df5e4ccb10b2f96705ffbe548a8"
     },
     {
       "Patchers": [
@@ -3260,13 +4045,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "Weightless-Misc-Items/Weightless-Misc-Items.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
       "User": "EzioTheDeadPoet",
-      "Repository": "Weightless-Misc-Items"
+      "Repository": "Weightless-Misc-Items",
+      "Sha": "aa040d654c3ecfeb8ddb7ffdb31e7cb09d3831c7"
     },
     {
       "Patchers": [
@@ -3283,16 +4070,25 @@
             "TargetedReleases": []
           },
           "ProjectPath": "WorkbenchOrganizer/WorkbenchOrganizer.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/8077005?s=40\u0026amp;v=4",
       "User": "praecipitator",
-      "Repository": "WorkbenchOrganizer"
+      "Repository": "WorkbenchOrganizer",
+      "Sha": "66b40490d0f2bb87d1caaeecf6959803b328aa12"
     },
     {
       "Patchers": [
+        {
+          "Customization": null,
+          "ProjectPath": "Tests/Tests.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
         {
           "Customization": {
             "Nickname": "YASTMGenerator",
@@ -3304,13 +4100,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "YASTMGenerator/YASTMGenerator.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
-      "Repository": "YASTMGenerator"
+      "Repository": "YASTMGenerator",
+      "Sha": "2b9260da96b70013d19fa773dc1b7c2c2889b06c"
     },
     {
       "Patchers": [
@@ -3325,13 +4123,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ZFloorPatcher/Z-FloorPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
       "User": "Wolfman5750",
-      "Repository": "Z-Floor-Patcher"
+      "Repository": "Z-Floor-Patcher",
+      "Sha": "339ebce197e2ec9f91866a82246073996e8af180"
     }
   ]
 }

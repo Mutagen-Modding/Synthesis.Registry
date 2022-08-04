@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.IO;
 using System.IO.Abstractions;
 using System.Threading.Tasks;
 using Synthesis.Registry.MutagenScraper.Dto;
@@ -19,19 +19,20 @@ public class GithubContentDownloader
         _getFolderClone = getFolderClone;
     }
 
-    public async Task<string?> TryGetContent(Listing dep, string path)
+    public async Task<string?> TryGetContent(InternalRepositoryListing dep, string path)
     {
         System.Console.WriteLine($"{dep} retrieving {path}");
         try
         {
             var repoPath = _getFolderClone.Get(dep);
-            if (!_fileSystem.File.Exists(path))
+            var targetPath = Path.Combine(repoPath, path);
+            if (!_fileSystem.File.Exists(targetPath))
             {
-                System.Console.WriteLine($"{dep} no content found for {path}");
+                System.Console.WriteLine($"{dep} no content found for {targetPath}");
                 return null;
             }
-            var ret = _fileSystem.File.ReadAllText(path);
-            System.Console.WriteLine($"{dep} retrieved {path}");
+            var ret = _fileSystem.File.ReadAllText(targetPath);
+            System.Console.WriteLine($"{dep} retrieved {targetPath}");
             return ret;
         }
         catch (Exception e)

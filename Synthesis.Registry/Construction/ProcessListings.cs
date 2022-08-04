@@ -1,47 +1,48 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using Noggog.Tooling.WorkEngine;
 using Synthesis.Bethesda.DTO;
 using Synthesis.Registry.MutagenScraper.Listings;
 
 namespace Synthesis.Registry.MutagenScraper.Construction
 {
-    public class GetRepositoryListingsToConsider
+    public class GetRepositoryListingsToUpdate
     {
+        private readonly IWorkDropoff _workDropoff;
         private readonly ExistingListingsProvider _existingListingsProvider;
-        private readonly ConstructRepositoryListings _constructRepositoryListings;
-        private readonly ListingsToProcessProvider _listingsToProcess;
+        private readonly ConstructRepositoryListing _constructRepositoryListing;
+        private readonly ListingsToConsiderProvider _listingsToConsiderProvider;
 
-        public GetRepositoryListingsToConsider(
+        public GetRepositoryListingsToUpdate(
+            IWorkDropoff workDropoff,
             ExistingListingsProvider existingListingsProvider,
-            ConstructRepositoryListings constructRepositoryListings,
-            ListingsToProcessProvider listingsToProcess)
+            ConstructRepositoryListing constructRepositoryListing,
+            ListingsToConsiderProvider listingsToConsiderProvider)
         {
+            _workDropoff = workDropoff;
             _existingListingsProvider = existingListingsProvider;
-            _constructRepositoryListings = constructRepositoryListings;
-            _listingsToProcess = listingsToProcess;
+            _constructRepositoryListing = constructRepositoryListing;
+            _listingsToConsiderProvider = listingsToConsiderProvider;
         }
         
-        public IAsyncEnumerable<RepositoryListing> Get()
+        public async Task<RepositoryListing[]> Get()
         {
-            var dict = _existingListingsProvider.Listings.Value
-                .Repositories.ToDictionary(x => new ListingKey(x.User, x.Repository), x => x);
+            var toProcess = await _listingsToConsiderProvider.Get();
             
-            return _listingsToProcess.Get()
-                .SelectAwait(async (dep) =>
+            foreach (var dep in toProcess)
+            {
+                Console.WriteLine($"  {dep}");
+            }
+
+            return await _workDropoff.EnqueueAndWait(toProcess, 
+                async (dep) =>
                 {
                     Console.WriteLine($"Processing {dep}");
-                    return await _constructRepositoryListings.Construct(dep, dict.GetValueOrDefault(new ListingKey(dep.User, dep.Repository)));
-                })
-                .Where(r =>
-                {
-                    if (r.Patchers.Length == 0)
-                    {
-                        System.Console.WriteLine($"{r.User}/{r.Repository} skipped because it had no listed patchers.");
-                        return false;
-                    }
-
-                    return true;
+                    return await _constructRepositoryListing.Construct(dep,
+                        _existingListingsProvider.RepositoryDictionary.Value.GetValueOrDefault(new ListingKey(dep.User,
+                            dep.Repository)));
                 });
         }
     }

@@ -3,27 +3,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Noggog;
+using Noggog.Tooling.WorkEngine;
 using Synthesis.Bethesda.DTO;
 using Synthesis.Registry.MutagenScraper.Dto;
-using Synthesis.Registry.MutagenScraper.Listings;
+using Synthesis.Registry.MutagenScraper.Processing;
 
 namespace Synthesis.Registry.MutagenScraper.Construction
 {
     public class ConstructListings
     {
-        private readonly PatcherCustomizationRetriever _customizationRetriever;
+        private readonly PatcherCustomizationReader _customizationReader;
+        private readonly IWorkDropoff _dropoff;
+        private readonly IEnumerable<IPatcherListingProcessor> _subProcessors;
 
         public ConstructListings(
-            PatcherCustomizationRetriever customizationRetriever)
+            PatcherCustomizationReader customizationReader,
+            IWorkDropoff dropoff,
+            IEnumerable<IPatcherListingProcessor> subProcessors)
         {
-            _customizationRetriever = customizationRetriever;
+            _customizationReader = customizationReader;
+            _dropoff = dropoff;
+            _subProcessors = subProcessors;
         }
         
-        public async Task<PatcherListing[]> Construct(Listing dep, IEnumerable<string> projs)
+        public async Task<PatcherListing[]> Construct(InternalRepositoryListing dep, IEnumerable<string> projs)
         {
-            return (await projs
-                .ToAsyncEnumerable()
-                .SelectAwait(async proj =>
+            var ret = await _dropoff.EnqueueAndWait(projs,
+                async proj =>
                 {
                     var listing = new PatcherListing()
                     {
@@ -31,29 +37,23 @@ namespace Synthesis.Registry.MutagenScraper.Construction
                     };
                     try
                     {
-                        listing.Customization = await _customizationRetriever.GetCustomization(dep, proj);
-                        if (listing.Customization == null) return null;
+                        listing.Customization = await _customizationReader.GetCustomization(dep, proj);
                     }
                     catch (Exception ex)
                     {
                         System.Console.WriteLine($"{proj} Error constructing listing: {ex}");
                         return null;
                     }
-                    await Task.Delay(500);
-                    return listing;
-                })
-                .ToListAsync())
-                .NotNull()
-                .Where(listing =>
-                {
                     if (listing.Customization?.Visibility == VisibilityOptions.Exclude)
                     {
                         System.Console.WriteLine($"{dep} excluding {listing.ProjectPath}");
-                        return false;
+                        return null;
                     }
-                    return true;
-                })
-                .ToArray();
+
+                    await _dropoff.EnqueueAndWait(_subProcessors, (sp) => sp.Process(dep, listing));
+                    return listing;
+                });
+            return ret.NotNull().ToArray();
         }
     
     }

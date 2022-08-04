@@ -1,4 +1,3 @@
-﻿namespace Synthesis.Registry.MutagenScraper.Listings
-{
-    record ListingKey(string? User, string? Repository);
-}
+﻿namespace Synthesis.Registry.MutagenScraper.Listings;
+
+public record ListingKey(string? User, string? Repository);

@@ -7,14 +7,14 @@ using Synthesis.Bethesda.DTO;
 using Synthesis.Registry.MutagenScraper.Dto;
 using Synthesis.Registry.MutagenScraper.Github;
 
-namespace Synthesis.Registry.MutagenScraper;
+namespace Synthesis.Registry.MutagenScraper.Construction;
 
-public class PatcherCustomizationRetriever
+public class PatcherCustomizationReader
 {
     private readonly GithubContentDownloader _contentDownloader;
     private readonly JsonSerializerOptionsProvider _jsonOptions;
 
-    public PatcherCustomizationRetriever(
+    public PatcherCustomizationReader(
         GithubContentDownloader contentDownloader,
         JsonSerializerOptionsProvider jsonOptions)
     {
@@ -22,7 +22,7 @@ public class PatcherCustomizationRetriever
         _jsonOptions = jsonOptions;
     }
 
-    public async Task<PatcherCustomization?> GetCustomization(Listing dep, string proj)
+    public async Task<PatcherCustomization?> GetCustomization(InternalRepositoryListing dep, string proj)
     {
         var metaPath = Path.Combine(Path.GetDirectoryName(proj)!, Constants.MetaFileName);
         var content = await _contentDownloader.TryGetContent(dep, metaPath);

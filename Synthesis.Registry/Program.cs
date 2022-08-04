@@ -4,6 +4,8 @@ using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using CommandLine;
 using Microsoft.Extensions.DependencyInjection;
+using Synthesis.Registry.MutagenScraper.Args;
+using Synthesis.Registry.MutagenScraper.Modules;
 
 namespace Synthesis.Registry.MutagenScraper
 {
@@ -15,24 +17,35 @@ namespace Synthesis.Registry.MutagenScraper
             var parser = new Parser();
             await parser.ParseArguments(
                     args,
-                    typeof(RunScraperCommand))
+                    typeof(RunScraperCommand),
+                    typeof(RunSingleScrapeCommand))
                 .MapResult(
                     async (RunScraperCommand runScraper) =>
                     {
-                        var services = new ServiceCollection();
-                        services.AddLogging();
-                        
-                        var builder = new ContainerBuilder();
-                        builder.RegisterModule<MainModule>();
-                        builder.RegisterInstance(runScraper);
-                        builder.Populate(services);
-                        
-                        var cont = builder.Build();
-                        var run = cont.Resolve<ScraperRun>();
-                        await run.Run();
+                        await GetRunGivenArgs<RunScraperModule>(runScraper).Run();
+                        return 0;
+                    },
+                    async (RunSingleScrapeCommand singleScrape) =>
+                    {
+                        await GetRunGivenArgs<RunSingleScraperModule>(singleScrape).Run();
                         return 0;
                     },
                     async _ => -1);
+        }
+
+        static ScraperRun GetRunGivenArgs<TModule>(object args)
+            where TModule : Module, new()
+        {
+            var services = new ServiceCollection();
+            services.AddLogging();
+                        
+            var builder = new ContainerBuilder();
+            builder.RegisterModule<TModule>();
+            builder.RegisterInstance(args).AsSelf().AsImplementedInterfaces();
+            builder.Populate(services);
+
+            var cont = builder.Build();
+            return cont.Resolve<ScraperRun>();
         }
     }
 }
