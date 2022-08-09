@@ -1260,6 +1260,13 @@
       "Sha": "75d878e43c389930ace2a0b48298e57023eb366b"
     },
     {
+      "Patchers": [],
+      "AvatarURL": null,
+      "User": "Wolfman5750",
+      "Repository": "ICAIO-AI-for-Mod-NPC",
+      "Sha": "6d41ac56c30163c8300ad999bf94402a390a9807"
+    },
+    {
       "Patchers": [
         {
           "Customization": {
