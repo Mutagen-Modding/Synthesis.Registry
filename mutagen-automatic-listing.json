@@ -1331,21 +1331,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
-          "ProjectPath": "ItemSorting/ItemSorting.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/31460040?s=40\u0026amp;v=4",
-      "User": "coldrifting",
-      "Repository": "ItemRenamer",
-      "Sha": "0b99244739bcefa04ee38f723711436788d669ea"
-    },
-    {
-      "Patchers": [
-        {
           "Customization": {
             "Nickname": "ItemRenamer",
             "Visibility": "Visible",
@@ -1844,13 +1829,6 @@
       "User": "Synthesis-Collective",
       "Repository": "MortalEnemies-Patcher",
       "Sha": "0baa5766b45094412485fda7ae8a3aa386757af5"
-    },
-    {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "MovementSpeedPatcher",
-      "Sha": "eda0b4b3e3c2bb8abebf9981c5220fd74b5c3b51"
     },
     {
       "Patchers": [
@@ -3371,29 +3349,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SynHeelsSoundAdd-local",
-            "Visibility": "Visible",
-            "OneLineDescription": "Auto adds highheels sound to valid boots",
-            "LongDescription": "Adds high heels sound to all found and valid boots.\nMod can be downloaded here:\nSkyrim LE/SE: https://www.loverslab.com/files/file/1795-heels-sound/\nSkyrim SE: https://www.nexusmods.com/skyrimspecialedition/mods/62502\n\n\nCurrently adds sounds for all boots using \u0027HDT HighHeels System\u0027 mod: https://www.google.com/search?q=HDT\u002BHighHeels\u002BSystem",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "Heels Sound.esm"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynHeelsSoundAdd/SynHeelsSoundAdd.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
-      "User": "TokcDK",
-      "Repository": "SynHeelsSoundAdd"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "SynHelmsWithCirlcet",
             "Visibility": "Visible",
             "OneLineDescription": "Patcher to make all helms and hoods allow circlets to be worn with circlets",
@@ -3603,27 +3558,6 @@
       "User": "TokcDK",
       "Repository": "SynOppositeGenderAnimsTweak",
       "Sha": "c1adda9125f8e97f96fe43328ee9893a535d5874"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SynOppositeGenderAnimsTweak",
-            "Visibility": "Visible",
-            "OneLineDescription": "Opposite gender flag remover",
-            "LongDescription": "Removes Opposite gender flag from npc which have it\nCheck settings to setup prefered options",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynOppositeGenderAnimsTweak/SynOppositeGenderAnimsTweak.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
-      "User": "TokcDK",
-      "Repository": "SynOppositeGenderAnimsTweak"
     },
     {
       "Patchers": [
