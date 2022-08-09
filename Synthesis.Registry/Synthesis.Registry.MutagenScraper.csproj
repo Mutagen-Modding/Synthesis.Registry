@@ -11,10 +11,11 @@
     <PackageReference Include="CommandLineParser" Version="2.9.1" />
     <PackageReference Include="GitHubDependents" Version="1.2.0" />
     <PackageReference Include="LibGit2Sharp" Version="0.26.2" />
-    <PackageReference Include="Noggog.Autofac" Version="2.49.0.1-dev" />
-    <PackageReference Include="Noggog.CSharpExt" Version="2.49.0.1-dev" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Noggog.Autofac" Version="2.50.1" />
+    <PackageReference Include="Noggog.CSharpExt" Version="2.50.1" />
     <PackageReference Include="Noggog.GitRepository" Version="0.0.0.1-dev" />
-    <PackageReference Include="Synthesis.Bethesda" Version="0.23.7.1-dev" />
+    <PackageReference Include="Synthesis.Bethesda" Version="0.24-pr001" />
     <PackageReference Include="System.Linq.Async" Version="6.0.1" />
   </ItemGroup>
 

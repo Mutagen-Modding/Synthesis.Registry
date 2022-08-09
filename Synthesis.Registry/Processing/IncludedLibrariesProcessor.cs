@@ -39,11 +39,6 @@ public class IncludedLibrariesProcessor : IPatcherListingProcessor
     public async Task Process(InternalRepositoryListing repositoryListing, PatcherListing listing)
     {
         listing.IncludedLibraries = await GetCategories(repositoryListing, listing);
-        if (listing.IncludedLibraries.Length == 0)
-        {
-            int wer = 23;
-            wer++;
-        }
     }
 
     private async Task<GameCategory[]> GetCategories(InternalRepositoryListing repositoryListing, PatcherListing listing)

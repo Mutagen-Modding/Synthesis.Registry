@@ -30,7 +30,7 @@ public class GetFolderClone : IGetFolderClone
             if (_cached.TryGetValue(repositoryListing, out var val)) return val;
             var remoteDir = $"https://github.com/{repositoryListing.User}/{repositoryListing.Repository}";
             var localDir = Path.Combine(_path, repositoryListing.User, repositoryListing.Repository);
-            var result = _checkOrCloneRepo.Check(remoteDir, localDir, CancellationToken.None);
+            var result = _checkOrCloneRepo.Check(remoteDir, localDir);
             var ret = result.EvaluateOrThrow();
             val = ret.Local;
             _cached[repositoryListing] = val;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Noggog;
-using Noggog.Tooling.WorkEngine;
+using Noggog.WorkEngine;
 using Synthesis.Bethesda.DTO;
 using Synthesis.Registry.MutagenScraper.Dto;
 using Synthesis.Registry.MutagenScraper.Processing;
