@@ -75,7 +75,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
       "User": "radj307",
       "Repository": "alch-registry-generator",
-      "Sha": "1fd77f3554d991342a3c33824395afeeec9272ca"
+      "Sha": "0dbdba7a7b24faf6364e5902365dacae9afd3f9c"
     },
     {
       "Patchers": [
@@ -432,7 +432,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
       "User": "EzioTheDeadPoet",
       "Repository": "Configurable-Grass-Remover",
-      "Sha": "d2b8e267ce0b8fbbfb945083d6fc83c631f25257"
+      "Sha": "e7822180b207dbb4aab39fd5f38c86ecc41e6489"
     },
     {
       "Patchers": [
@@ -602,7 +602,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
       "Repository": "DisplaySpellTomeLevelPatcher",
-      "Sha": "8991f3b914dd01762e0bcef1a841f5d798a7493b"
+      "Sha": "c3868a0554eaac5bc736b35ba16f19d49c62dc47"
     },
     {
       "Patchers": [
@@ -1341,13 +1341,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ItemRenamer/ItemRenamer.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/31460040?s=40\u0026amp;v=4",
       "User": "coldrifting",
-      "Repository": "ItemRenamer"
+      "Repository": "ItemRenamer",
+      "Sha": "0b99244739bcefa04ee38f723711436788d669ea"
     },
     {
       "Patchers": [
@@ -1410,7 +1412,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
       "Repository": "KnowYourArmorPatcher",
-      "Sha": "23cded3450c4bd0dfb9ff6bd1242eeadd975b739"
+      "Sha": "d4b058cb15f90ccbbf2edbdffa4e9346e64762c4"
     },
     {
       "Patchers": [
@@ -1435,7 +1437,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
       "Repository": "KnowYourEnemyPatcher",
-      "Sha": "a6074dacdc212bcbf6174d3a9b573a8aa75344ac"
+      "Sha": "6f08ea6b4959d542ebd613eaec49448eb0807ffe"
     },
     {
       "Patchers": [
@@ -1843,13 +1845,15 @@
             "TargetedReleases": []
           },
           "ProjectPath": "MovementPatcher/MovementPatcher.csproj",
-          "IncludedLibraries": [],
-          "TargetedReleases": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
-      "Repository": "MovementSpeedPatcher"
+      "Repository": "MovementSpeedPatcher",
+      "Sha": "eda0b4b3e3c2bb8abebf9981c5220fd74b5c3b51"
     },
     {
       "Patchers": [
@@ -2802,7 +2806,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SlotsSlotsSlots",
-      "Sha": "1357c7e53749dcb62dbbcd2ea4bf7bd5d9eb714f"
+      "Sha": "02427a09f9c91e690f568cbda5d39286bc853eb4"
     },
     {
       "Patchers": [],
@@ -3034,7 +3038,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
       "Repository": "StaffGenerator",
-      "Sha": "bb97c39b147531577eec07f9ac72f5e498a3e800"
+      "Sha": "7a0ec3a1e7b39f12a54281c261717789347703cb"
     },
     {
       "Patchers": [
@@ -3272,7 +3276,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
       "User": "TokcDK",
       "Repository": "SynFixBOOKRecordTypes",
-      "Sha": "9e65bef5eb3a37fb7ae9f3b7e4e64622d834955f"
+      "Sha": "2f4026b2462d4d4f6e7ca4148fc09d103a49e7d8"
     },
     {
       "Patchers": [
@@ -3343,7 +3347,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
       "User": "TokcDK",
       "Repository": "SynHeelsSoundAdd",
-      "Sha": "a93d76c1f1c710fbbe77e60a4a30312e8e958d32"
+      "Sha": "aa92984bc5c2a6a1bf21a53be39f7254f396caa8"
     },
     {
       "Patchers": [
@@ -3557,7 +3561,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
       "User": "TokcDK",
       "Repository": "SynOppositeGenderAnimsTweak",
-      "Sha": "c1adda9125f8e97f96fe43328ee9893a535d5874"
+      "Sha": "b3d1e28a84184e92574cdca5640c869b5e058341"
     },
     {
       "Patchers": [
@@ -3719,14 +3723,14 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynWeaponKeywords",
-      "Sha": "8145bdd268ccfa26b65ba1f0cf1054fbf514bc12"
+      "Sha": "763e8559274085f4df11367df6739ca97266859d"
     },
     {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/24981326?s=40\u0026amp;v=4",
       "User": "Noggog",
       "Repository": "TestPatcher",
-      "Sha": "724009165069ffec3b183c9979b38af73f2ac472"
+      "Sha": "c8efae40697b69e7abbfa9ee58f86477a5b221a6"
     },
     {
       "Patchers": [
@@ -3840,7 +3844,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
       "Repository": "UniquePlayer",
-      "Sha": "cbed944d7bbc67522039b019f8830885852ef960"
+      "Sha": "e7fffc9fb0bc84d6515fc546eeb99d242d1288bb"
     },
     {
       "Patchers": [
@@ -3987,7 +3991,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
       "User": "EzioTheDeadPoet",
       "Repository": "Weightless-Misc-Items",
-      "Sha": "aa040d654c3ecfeb8ddb7ffdb31e7cb09d3831c7"
+      "Sha": "916eb809ae5023578dbad4bb1c16e55808d53b2a"
     },
     {
       "Patchers": [
