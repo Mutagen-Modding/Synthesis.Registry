@@ -582,27 +582,11 @@
       "Sha": "eba5aa2280fbb1285d72686948789bda4af096f8"
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "DisplaySpellTomeLevelPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Custom formatting options for the naming of your Spell Tomes, including level, magic school, plugin name \u0026 spell name",
-            "LongDescription": "Automatically patch your entire load order to show the skill level on all Spell Tomes! You can change the default format from Spell Tome (\u003Clevel\u003E): \u003Cspell\u003E to any custom format including plugin name \u0026 magic school in the settings!",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "DisplaySpellTomeLevelPatcher/DisplaySpellTomeLevelPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
       "Repository": "DisplaySpellTomeLevelPatcher",
-      "Sha": "c3868a0554eaac5bc736b35ba16f19d49c62dc47"
+      "Sha": "0bb691744ee3780c71307918d5035b86e4ca62e3"
     },
     {
       "Patchers": [
