@@ -2984,36 +2984,11 @@
       "Sha": "2a83145cfcff9a16ac31bf12e83956674527b5fa"
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "StaffGenerator",
-            "Visibility": "Visible",
-            "OneLineDescription": "Generates Staves for spells",
-            "LongDescription": "A clone of T3nd0s The Staff Machine",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "Dragonborn.esm"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "StaffGenerator/StaffGenerator.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        },
-        {
-          "Customization": null,
-          "ProjectPath": "Tests/Tests.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
       "Repository": "StaffGenerator",
-      "Sha": "7a0ec3a1e7b39f12a54281c261717789347703cb"
+      "Sha": "d4b6c2f071ae8daca6601dc4191dd68ac2cf27db"
     },
     {
       "Patchers": [
