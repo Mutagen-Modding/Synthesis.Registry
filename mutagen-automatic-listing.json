@@ -2150,31 +2150,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Poverty Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Patcher for Poverty - You Hunger Reborn",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "Poverty.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "Poverty/Poverty.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
-      "User": "radj307",
-      "Repository": "Poverty-Patcher",
-      "Sha": "1694cda2f9366f4662ead620fb68c4a466e5f4b5"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "PresetChecker",
             "Visibility": "Visible",
             "OneLineDescription": "Preset FormID Check and ZMerge Fixup",
@@ -3539,6 +3514,13 @@
       "User": "Benna96",
       "Repository": "Synthesis-Misc-Compatibility-Patchers",
       "Sha": "bfca9b5ac1573a082e2cab4a2c10a11275651899"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
+      "User": "Michael-wigontherun",
+      "Repository": "SynthesisRandomSkins",
+      "Sha": "ffc92b782651238e9287f063230431ddaf90877d"
     },
     {
       "Patchers": [
