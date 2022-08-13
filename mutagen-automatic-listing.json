@@ -63,15 +63,7 @@
       "Sha": "dde1a4c504e40ab9109f32d503d35503e4c8b581"
     },
     {
-      "Patchers": [
-        {
-          "Customization": null,
-          "ProjectPath": "alch-registry-builder/alch-registry-builder.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
       "User": "radj307",
       "Repository": "alch-registry-generator",
@@ -179,7 +171,23 @@
       "Sha": "d3d049c421183aac856556f914eaa0ead76beed3"
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Another Archery Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Customizable Archery Physics for any load order. No mods required.",
+            "LongDescription": "Comprehensive archery physics overhaul contained in a single patcher.\nAlso fixes a whole host of bugs and inconsistencies not included in any other archery mod such as detection, arrows colliding with the air in front of you, arrows falling out of your bow even at full draw, the \u0022Ninja Dodge\u0022 bug, and more!\n\nThe default settings are adequate for most users, but if you want to experiment, nearly every setting is exposed through the Synthesis GUI.\nSettings documentation can be found here: https://github.com/Synthesis-Collective/Another-Archery-Patcher/wiki/Settings-Documentation\n\nNexus Page:\t https://www.nexusmods.com/skyrimspecialedition/mods/53810",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "Another_Archery_Patcher/Another_Archery_Patcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "Another-Archery-Patcher",
@@ -417,7 +425,29 @@
       "Sha": "e7822180b207dbb4aab39fd5f38c86ecc41e6489"
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "CostumeShop",
+            "Visibility": "Visible",
+            "OneLineDescription": "Creates costume armor",
+            "LongDescription": "Creates unenchanted (replica) copies of enchanted armor with no unenchanted version (mostly unique items).\r\nCreates unarmored (costume) copies of armor.\r\nAdds the new armor to the appropriate leveled lists to appear as loot and at vendors.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "CostumeShop/CostumeShop.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "ProjectPath": "Tests/Tests.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
       "Repository": "Costume-Shop",
@@ -541,7 +571,23 @@
       "Sha": "eba5aa2280fbb1285d72686948789bda4af096f8"
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "DisplaySpellTomeLevelPatcher-local",
+            "Visibility": "Visible",
+            "OneLineDescription": "Custom formatting options for the naming of your Spell Tomes, including level, magic school, plugin name \u0026 spell name",
+            "LongDescription": "Automatically patch your entire load order to show the skill level on all Spell Tomes! You can change the default format from Spell Tome (\u003Clevel\u003E): \u003Cspell\u003E to any custom format including plugin name \u0026 magic school in the settings!",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "DisplaySpellTomeLevelPatcher/DisplaySpellTomeLevelPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
       "Repository": "DisplaySpellTomeLevelPatcher",
@@ -1196,8 +1242,23 @@
       "Sha": "75d878e43c389930ace2a0b48298e57023eb366b"
     },
     {
-      "Patchers": [],
+      "Patchers": [
         {
+          "Customization": {
+            "Nickname": "ICAIO AI for Mods",
+            "Visibility": "Visible",
+            "OneLineDescription": "ICAIO AI for Mods",
+            "LongDescription": "Applies new ICAIO Go Home and Survival Instincts for mod added npcs",
+            "PreferredAutoVersioning": "LatestTag",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "ICAIO_AI_FOR_MOD_NPC/ICAIO_AI_FOR_MOD_NPC.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "User": "Wolfman5750",
       "Repository": "ICAIO-AI-for-Mod-NPC",
       "Sha": "6d41ac56c30163c8300ad999bf94402a390a9807"
@@ -1971,7 +2032,23 @@
       "Sha": "e0c8e01b29d7240d45da50fb82c780d13fc79780"
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "NPCFaceScrambler",
+            "Visibility": "Visible",
+            "OneLineDescription": "Scrambles the NPC Appearances!!",
+            "LongDescription": "Synthesis patch to randomly copy NPCs appearance from the selected mods and assigned its face and default skin to NPCs of the target mods.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "NPCFaceScrambler/NPCFaceScrambler.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/36178784?s=40\u0026amp;v=4",
       "User": "pisichi",
       "Repository": "NPC-Face-Scrambler",
@@ -2678,7 +2755,7 @@
             "Visibility": "Visible",
             "OneLineDescription": "Weight -\u003E Slots, now with settings!",
             "LongDescription": "Ever wanted to test how Skyrim would feel with inventory slots instead of a weigth based system ?\nThen you are at the right place. And the best thing it is cutomizable, just load the patcher and go to the settings page. \n\nBut what is this patcher actually doing?\nThis patcher adjusts the weight and carryweight system of Skyrim to mimic the slot based inventory systems found in a lot of other games. One big inspiration was Dying Light which only has a limit for the number of weapons you can carry, but this is only the most recent game like that I played. Borderlands would fit as a reference point as well, to name another game.\n\nSo to describe it a bit more, this patcher allows you to alter the base carryweigth, then which represents the number of available slots, and reduce the effectiveness of carryweigth related effects, while removig carryweight from every non armor(clothing), weapon, potion item. All Weapons, Clothing and potions get assigned new weights that are standardized based on how heavy they are in the base game. Also the default option removes all healing effects(alchemy ingredients have it set to 0 and not removed to allow the dicovery of the effect), but this can be turned off in the settings, so you can still cabbage heal yourself if you really desire. \n\n\nThanks a lot to Halgari for creating the 1st draft of this inspired by my idea and allowing me to take over the work on this and finalize it. \n\n- Luca|EzioTheDeadPoet",
-            "PreferredAutoVersioning": "Default",
+            "PreferredAutoVersioning": "LatestTag",
             "RequiredMods": [],
             "TargetedReleases": []
           },
@@ -2892,7 +2969,31 @@
       "Sha": "2a83145cfcff9a16ac31bf12e83956674527b5fa"
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "StaffGenerator",
+            "Visibility": "Visible",
+            "OneLineDescription": "Generates Staves for spells",
+            "LongDescription": "A clone of T3nd0s The Staff Machine",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Dragonborn.esm"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "StaffGenerator/StaffGenerator.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "ProjectPath": "Tests/Tests.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
       "Repository": "StaffGenerator",
@@ -3183,10 +3284,10 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SynHeelsSoundAdd-local",
+            "Nickname": "SynHeelsSoundAdd",
             "Visibility": "Visible",
             "OneLineDescription": "Auto adds highheels sound to valid boots",
-            "LongDescription": "Adds high heels sound to all found and valid boots.\nMod can be downloaded here:\nSkyrim LE/SE: https://www.loverslab.com/files/file/1795-heels-sound/\nSkyrim SE: https://www.nexusmods.com/skyrimspecialedition/mods/62502\n\n\nCurrently adds sounds for all boots using \u0027HDT HighHeels System\u0027 mod: https://www.google.com/search?q=HDT\u002BHighHeels\u002BSystem",
+            "LongDescription": "Adds high heels sound to all found and valid boots.\nMod can be downloaded here:\nSkyrim LE/SE: https://www.loverslab.com/files/file/1795-heels-sound/\nSkyrim SE: https://www.nexusmods.com/skyrimspecialedition/mods/62502\n\n\nCurrently adds sounds for all boots using \u0027HDT HighHeels System\u0027 mod: https://www.google.com/search?q=HDT\u002BHighHeels\u002BSystem and for boots with NIOHH mod data, NIOHH link: https://www.google.com/search?q=NiOverride\u002BHigh\u002BHeels\u002B-\u002BNIOVHH",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Heels Sound.esm"
@@ -3484,7 +3585,14 @@
       "Sha": "bfca9b5ac1573a082e2cab4a2c10a11275651899"
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "ProjectPath": "SynthesisRandomSkins/SynthesisRandomSkins.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
       "User": "Michael-wigontherun",
       "Repository": "SynthesisRandomSkins",
