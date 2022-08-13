@@ -19,7 +19,7 @@ namespace Synthesis.Registry.MutagenScraper
         {
             var listed = await _dependentsProvider.Get();
             var listedSet = listed
-                .Select(x => new ListingKey(x.User, x.Repository))
+                .Select(x => new ListingKey(x.User!, x.Repository!))
                 .ToHashSet();
             return new MutagenPatchersListing()
             {

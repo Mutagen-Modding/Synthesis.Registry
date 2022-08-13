@@ -5,6 +5,7 @@ using Noggog.WorkEngine;
 using Synthesis.Bethesda.DTO;
 using Synthesis.Registry.MutagenScraper.Construction;
 using Synthesis.Registry.MutagenScraper.Listings;
+using Synthesis.Registry.MutagenScraper.Reporting;
 
 namespace Synthesis.Registry.MutagenScraper
 {
@@ -13,20 +14,23 @@ namespace Synthesis.Registry.MutagenScraper
         private readonly CleanRemovedPatchers _clean;
         private readonly ExistingListingsProvider _existingListingsProvider;
         private readonly GetRepositoryListingsToUpdate _getRepositoryListingsToUpdate;
-        private readonly ExportListings _export;
+        private readonly ExportListings _listingsExport;
+        private readonly StateReporter _stateReporter;
         private readonly IWorkConsumer _workConsumer;
 
         public ScraperRun(
             CleanRemovedPatchers clean,
             ExistingListingsProvider existingListingsProvider,
             GetRepositoryListingsToUpdate getRepositoryListingsToUpdate,
-            ExportListings export,
+            ExportListings listingsExport,
+            StateReporter stateReporter,
             IWorkConsumer workConsumer)
         {
             _clean = clean;
             _existingListingsProvider = existingListingsProvider;
             _getRepositoryListingsToUpdate = getRepositoryListingsToUpdate;
-            _export = export;
+            _listingsExport = listingsExport;
+            _stateReporter = stateReporter;
             _workConsumer = workConsumer;
         }
         
@@ -53,15 +57,17 @@ namespace Synthesis.Registry.MutagenScraper
             {
                 var key = new ListingKey(repositoryListing.User, repositoryListing.Repository);
                 outbound[key] = repositoryListing;
+                _stateReporter.ReportProcessed(repositoryListing);
             }
 
             // Write out the results
-            _export.Write(new MutagenPatchersListing()
+            _listingsExport.Write(new MutagenPatchersListing()
             {
                 Repositories = outbound.Values
                     .OrderBy(x => x.Repository)
                     .ToArray()
             });
+            await _stateReporter.Export();
         }
     }
 }

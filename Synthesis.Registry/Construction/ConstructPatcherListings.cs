@@ -7,6 +7,7 @@ using Noggog.WorkEngine;
 using Synthesis.Bethesda.DTO;
 using Synthesis.Registry.MutagenScraper.Dto;
 using Synthesis.Registry.MutagenScraper.Processing;
+using Synthesis.Registry.MutagenScraper.Reporting;
 
 namespace Synthesis.Registry.MutagenScraper.Construction
 {
@@ -14,15 +15,18 @@ namespace Synthesis.Registry.MutagenScraper.Construction
     {
         private readonly PatcherCustomizationReader _customizationReader;
         private readonly IWorkDropoff _dropoff;
+        private readonly StateReporter _stateReporter;
         private readonly IEnumerable<IPatcherListingProcessor> _subProcessors;
 
         public ConstructListings(
             PatcherCustomizationReader customizationReader,
             IWorkDropoff dropoff,
+            StateReporter stateReporter,
             IEnumerable<IPatcherListingProcessor> subProcessors)
         {
             _customizationReader = customizationReader;
             _dropoff = dropoff;
+            _stateReporter = stateReporter;
             _subProcessors = subProcessors;
         }
         
@@ -42,11 +46,13 @@ namespace Synthesis.Registry.MutagenScraper.Construction
                     catch (Exception ex)
                     {
                         System.Console.WriteLine($"{proj} Error constructing listing: {ex}");
+                        _stateReporter.ReportExclusion(dep.Key, proj, $"Exception: {ex.Message}");
                         return null;
                     }
                     if (listing.Customization?.Visibility == VisibilityOptions.Exclude)
                     {
                         System.Console.WriteLine($"{dep} excluding {listing.ProjectPath}");
+                        _stateReporter.ReportExclusion(dep.Key, proj, $"Set to exclude");
                         return null;
                     }
 

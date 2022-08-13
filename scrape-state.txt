@@ -1,0 +1,429 @@
+[ ] 3ndos/AddNewRecipes
+    [ ] AddNewRecipes/AddNewRecipes.csproj
+        Set to exclude
+[X] alsa64/NpcProtector
+    [X] NpcProtector/NpcProtector.csproj
+[X] AmoneMisa/AllBooksHavePerks
+    [X] AllBooksHavePerks/AllBooksHavePerks.csproj
+[X] AmoneMisa/FreeFastTravel
+    [X] FreeFastTravel/FreeFastTravel.csproj
+[X] AmoneMisa/MoreGoldForMerchants
+    [X] MoreGoldForMerchants/MoreGoldForMerchants.csproj
+[X] audriuska12/SpellResearchSynthesizer
+    [X] SpellResearchSynthesizer/SpellResearchSynthesizer.csproj
+[X] azraerl/RandomUtility
+    [X] SanguinaireCompat/Sanguinaire Race Compatibility.csproj
+[X] azraerl/Requiem-Experience
+    [X] Requiem-Experience/Requiem-Experience.csproj
+[ ] Benna96/Synthesis-Misc-Compatibility-Patchers
+    [ ] ELE_Patcher/ELE_Patcher.csproj
+        Set to exclude
+[X] Benna96-Synthesis/ELE_Patcher
+    [X] ELE_Patcher/ELE_Patcher.csproj
+[X] Benna96-Synthesis/Radial-Blur-Remover
+    [X] Radial-Blur-Remover/Radial-Blur-Remover.csproj
+[X] Bl4ckread/FrostSpellsNoStaminaDamage
+    [X] FrostSpellsNoStaminaDamage/FrostSpellsNoStaminaDamage.csproj
+[X] Bl4ckread/KSHairsBaldHelmetsFixer
+    [X] KSHairsBaldHelmetsFixer/KSHairsBaldHelmetsFixer.csproj
+[X] Bl4ckread/Northpoint-BDS-Patcher
+    [X] NorthpointBDSPatcher/NorthpointBDSPatcher.csproj
+[X] Bl4ckread/PineTreeScaler
+    [X] PineTreeScaler/PineTreeScaler.csproj
+[X] bondpp7/Arkays-Commandment-Requiem-Experience
+    [X] Requiem-Experience/Requiem-Experience.csproj
+[X] cacodemonkey/synOblivionInteractionIcons_1.x
+    [X] SynOblivionInteractionIcons/SynOblivionInteractionIcons.csproj
+[X] cakeofhonor/Skyrim-Synthesis-NIFPatcher_HairShader
+    [X] NIFPatcher_HairShader/NIFPatcher_HairShader.csproj
+[ ] Charmed4321/AllTomePricePatcher
+    [ ] AllTomePricePatcher/AllTomePricePatcher.csproj
+        Set to exclude
+[X] coldrifting/ItemRenamer
+    [X] ItemRenamer/ItemRenamer.csproj
+[X] Coyote21/FoodRemover
+    [X] FoodRemover/FoodRemover.csproj
+[X] CramMods/NPCMiddleMan
+    [X] NPCMiddleMan/NPCMiddleMan.csproj
+[X] CramMods/STUMP
+    [X] CramMods.STUMP/CramMods.STUMP.csproj
+[X] cuyima/MaleAAGenerator
+    [X] MaleAAGenerator/MaleAAGenerator.csproj
+[X] D7ry/SynTranslator
+    [X] Translator/Translator.csproj
+[X] DearLuck/DistributeArmorSetsToNpcs
+    [X] RecombinePatch/RecombinePatch.csproj
+    [X] RecombinePatchTests/RecombinePatchTests.csproj
+[X] Deigue/CellEditorIDFixer
+    [X] CellEditorIDFixer/CellEditorIDFixer.csproj
+[X] Deigue/CellEncounterLevelsInName
+    [X] CellEncounterLevelsInName/CellEncounterLevelsInName.csproj
+[X] Deigue/ItemWeightCustomizer
+    [X] ItemWeightCustomizer/ItemWeightCustomizer.csproj
+[ ] Deigue/SkyrimCurrencyReplacer
+    [ ] SkyrimCurrencyReplacer/SkyrimCurrencyReplacer.csproj
+        Set to exclude
+[X] Deigue/SkyUIWeaponIconPatcher
+    [X] SynWeaponKeywords/SynWeapType.csproj
+[X] Excinerus/AI-Overhaul-Patcher
+    [X] AIOverhaulPatcher/AIOverhaulPatcher.csproj
+[X] ExpensiveLadder/Enchanted-Variants-Generater
+    [X] EnchantedVariantsGenerater/EnchantedVariantsGenerater.csproj
+[X] ExpensiveLadder/ImCh-Patcher
+    [X] ImChPatcher/ImChPatcher.csproj
+[X] ExpensiveLadder/No-Shadows-Patch
+    [X] NoShadowsPatch/NoShadowsPatch.csproj
+[X] EzioTheDeadPoet/Artistic-Skyrim-Overhaul-Fixes
+    [X] ArtisticSkyrimOverhaul+Fixes/ArtisticSkyrimOverhaulFixes.csproj
+[X] EzioTheDeadPoet/Configurable-Grass-Remover
+    [X] ConfigurableGrassRemover/ConfigurableGrassRemover.csproj
+[X] EzioTheDeadPoet/HighPolyHead-RaceMenuPatcher
+    [X] HighPolyHead-RaceMenu Patcher/HighPolyHead-RaceMenu Patcher.csproj
+[X] EzioTheDeadPoet/HighPolyHead-UpdateDefaultRaces
+    [X] HighPolyHead-UpdateRaces/HighPolyHead-UpdateRaces.csproj
+[X] EzioTheDeadPoet/Weightless-Misc-Items
+    [X] Weightless-Misc-Items/Weightless-Misc-Items.csproj
+[X] fenix31415/CreateTemper
+    [X] CreateTemper/CreateTemper.csproj
+[X] focustense/FocusPatchers
+    [X] RespectMyBodySlide/RespectMyBodySlide.csproj
+[X] Glanzer-modder/NoStartingMapMarkers
+    [X] NoStartingMapMarkers/NoStartingMapMarkers.csproj
+[X] halgari/HalgarisRPGLoot
+    [X] HalgarisRPGLoot/HalgarisRPGLoot.csproj
+[ ] halgari/SlotsSlotsSlots
+    [ ] SlotsSlotsSlots/SlotsSlotsSlots.csproj
+        Set to exclude
+[X] halgari/soul-gem-disenchantment
+    [X] Halgari.SoulGemDisenchantment/Halgari.SoulGemDisenchantment.csproj
+[X] halgari/SynthNPCsWithFaces
+    [X] SynthNPCsWithFaces/SynthNPCsWithFaces.csproj
+[X] halgari/SynthusMaximus
+    [X] SynthusMaximus/SynthusMaximus.csproj
+        Set to exclude
+    [X] SynthusMaximus.Test/SynthusMaximus.Test.csproj
+    [X] Xml2Json/Xml2Json.csproj
+[X] hellozyemlya/SkyrimUnlimitedRingsPatcher
+    [X] SkyrimUnlimitedRingsPatcher/SkyrimUnlimitedRingsPatcher.csproj
+[X] holaholacocacola/SynActionSpeedX
+    [X] ActionSpeedX/ActionSpeedX.csproj
+[X] holaholacocacola/SynCombatBoundaries
+    [X] SynCombatBoundaries/SynCombatBoundaries.csproj
+[X] holaholacocacola/SynFksDiverseSkeletons
+    [X] SynFksDiverseSkeleton/SynFksDiverseSkeleton.csproj
+[X] ixanza/AmuletsShowOnEverything
+    [X] AmuletsShowOnEverything/AmuletsShowOnEverything.csproj
+[X] ixanza/GDOPatcher
+    [X] GDOPatcher/GDOPatcher.csproj
+[ ] ixanza/listmakerTranq
+    [ ] ListMaker/ListMaker.csproj
+        Set to exclude
+[X] ixanza/synOblivionInteractionIcons
+    [X] SynOblivionInteractionIcons/SynOblivionInteractionIcons.csproj
+[X] ixanza/SynOpenWorldLoot
+    [X] OWLPatcher/OWLPatcher.csproj
+[X] Jampi0n/Skyrim-ArmoryRebalance
+    [X] ArmoryRebalance/ArmoryRebalance/ArmoryRebalance.csproj
+[X] Jampi0n/Skyrim-ArrowDamageScaling
+    [X] ArrowDamageScaling/ArrowDamageScaling.csproj
+[X] Jampi0n/Skyrim-DisableVanillaLoadingScreens
+    [X] DisableVanillaLoadingScreens/DisableVanillaLoadingScreens.csproj
+[X] Jampi0n/Skyrim-LeveledLoot
+    [X] Skyrim-LeveledLoot/LeveledLoot.csproj
+[X] Jampi0n/Skyrim-LoadingScreenGenerator
+    [X] LoadScreenGen/LoadScreenGen.csproj
+[X] Jampi0n/Skyrim-PassiveEnchantingXP
+    [X] PassiveEnchantingXP/PassiveEnchantingXP.csproj
+[X] Jampi0n/Skyrim-RemoveLandscapeVertexColor
+    [X] RemoveLandscapeVertexColor/RemoveLandscapeVertexColor.csproj
+[X] JanuarySnow/everythingemfuckener
+    [X] Theeverythingemfuckener/Theeverythingemfuckener.csproj
+[X] JanuarySnow/hph_replacer
+    [X] hph-race-patcher/hph-race-patcher.csproj
+[X] JanuarySnow/Quest_Categorizer
+    [X] Quest_Categorizer/Quest_Categorizer.csproj
+[X] JanuarySnow/Shadowmark-Patcher
+    [X] shadowmark_patcher/shadowmark_patcher.csproj
+[X] JanuarySnow/Spelltome-Yeeter
+    [X] spelltome_yeeter/spelltome_yeeter.csproj
+[X] jdsmith2816/tmopatcher
+    [X] TMOPatcher/TMOPatcher.csproj
+[X] m-vlad/LootableThings-TrainingDummies-Patcher
+    [X] LootableThings-Dummy-Patcher/LootableThings-Dummy-Patcher.csproj
+[X] Michael-wigontherun/craftingFurnitureEXP
+    [X] craftingFurnitureEXP/craftingFurnitureEXP.csproj
+[X] Michael-wigontherun/SynthesisRandomSkins
+    [X] SynthesisRandomSkins/SynthesisRandomSkins.csproj
+[ ] minis-patchers/SynACSF
+    [ ] SynACSF/SynPatcher.csproj
+        Set to exclude
+[X] minis-patchers/SynBundler
+    [X] SynBundler/SynPatcher.csproj
+[X] minis-patchers/SynCGOStavesPatcher
+    [X] SynCGOStaves/SynPatcher.csproj
+[X] minis-patchers/SynFloraFix
+    [X] FloraFixer/FloraFixer.csproj
+[X] minis-patchers/SynHelmsWithCirclets
+    [X] SynHelmWithCirlets/SynPatcher.csproj
+[X] minis-patchers/SynInvisibleHelmets
+    [X] SynInvisibleHelmets/SynPatcher.csproj
+[X] minis-patchers/SynKeywordDistributor
+    [X] KeywordDistributor/SynPatcher.csproj
+[X] minis-patchers/SynLoadscreenRemover
+    [X] SynLoadScreenRemover/SynPatcher.csproj
+[X] minis-patchers/SynNoEnchantmentRestrictions
+    [X] SynEnchRestrictionsRemover/SynPatcher.csproj
+[X] minis-patchers/SynPotionWeight
+    [X] SynPotionWeight/SynPatcher.csproj
+[ ] minis-patchers/SynTweakEngine
+    [ ] SynTweakEngine/SynPatcher.csproj
+        Set to exclude
+[X] minis-patchers/SynWeaponKeywords
+    [X] SynPatcher/SynPatcher.csproj
+[X] mrudat/Complete-Crafting-Overhaul-Compatible-Recipe-Generator
+    [X] CompleteCraftingOverhaulCompatibleRecipeGenerator/CompleteCraftingOverhaulCompatibleRecipeGenerator.csproj
+[X] mrudat/Costume-Shop
+    [X] CostumeShop/CostumeShop.csproj
+    [X] Tests/Tests.csproj
+[X] mrudat/Honed-Metal-Additional-Ingredients
+    [X] HonedMetalAdditionalIngredients/HonedMetalAdditionalIngredients.csproj
+[X] mrudat/MasterLimitTest
+    [X] MasterLimitTest/MasterLimitTest.csproj
+        Set to exclude
+    [X] CustomSet/CustomSet.csproj
+    [X] CustomSetTest/CustomSetTest.csproj
+    [X] MasterLimitTestTest/MasterLimitTestTest.csproj
+[X] mrudat/StaffGenerator
+    [X] StaffGenerator/StaffGenerator.csproj
+    [X] Tests/Tests.csproj
+[X] mrudat/UniquePlayer
+    [X] UniquePlayer/UniquePlayer.csproj
+        Set to exclude
+    [X] Tests/Tests.csproj
+[X] mrudat/YASTMGenerator
+    [X] Tests/Tests.csproj
+    [X] YASTMGenerator/YASTMGenerator.csproj
+[X] Mutagen-Modding/MutagenBootcamp
+    [X] Freeform/Freeform.csproj
+        Set to exclude
+    [X] Synthesis/Synthesis.csproj
+[ ] Noggog/PassthroughTest
+    [ ] PassthroughTest/PassthroughTest.csproj
+        Set to exclude
+[ ] Noggog/TestPatcher
+    [ ] TestPatcher/TestPatcher.csproj
+        Set to exclude
+    [ ] TestWpfPatcher/TestWpfPatcher.csproj
+        Set to exclude
+[X] OddDrifter/leveledlistresolver
+    [X] leveledlistresolver/leveledlistresolver.csproj
+[X] OddDrifter/musictype-patcher
+    [X] MusicTypePatcher/MusicTypePatcher.csproj
+[X] Piranha91/Follower-Favor-Carry-Limit-Patcher
+    [X] FollowerFavorCarryLimitPatcher/FollowerFavorCarryLimitPatcher.csproj
+[X] Piranha91/NPC-Appearance-Copier
+    [X] NPCAppearanceCopier/NPCAppearanceCopier.csproj
+[ ] Piranha91/NPC-Plugin-Chooser
+    [ ] NPC-Plugin-Chooser/NPC-Plugin-Chooser.csproj
+        Set to exclude
+[X] Piranha91/Under-There-
+    [X] UnderThere/UnderThere.csproj
+[X] pisichi/KZ-NPC-Patcher
+    [X] KZNPCPatchers/KZNPCPatchers.csproj
+[X] pisichi/NPC-Face-Scrambler
+    [X] NPCFaceScrambler/NPCFaceScrambler.csproj
+[X] praecipitator/ItemAutoTagger
+    [X] ItemTagger/ItemTagger.csproj
+[X] praecipitator/MakeItemsWeightless
+    [X] MakeItemsWeightless/MakeItemsWeightless.csproj
+[X] praecipitator/MakeModsScrappable
+    [X] MakeModsScrappable/MakeModsScrappable.csproj
+[X] praecipitator/WorkbenchOrganizer
+    [X] WorkbenchOrganizer/WorkbenchOrganizer.csproj
+[X] radj307/Actor-Edge-Glow-Remover
+    [X] RemoveEdgeGlow/RemoveEdgeGlow.csproj
+[ ] radj307/alch-registry-generator
+    [ ] alch-registry-builder/alch-registry-builder.csproj
+        Set to exclude
+[X] radj307/Metric-Units-Patcher
+    [X] Metric-Units/MetricUnits.csproj
+[X] radj307/NPC-Deleveler
+    [X] NPC-DeLeveler/NPC_DeLeveler.csproj
+[X] radj307/UniqueRegionNamesPatcher
+    [X] UniqueRegionNamesPatcher/UniqueRegionNamesPatcher.csproj
+[X] ReaperAnon/BreakdownRecipeGenerator
+    [X] BreakdownRecipeGenerator/BreakdownRecipeGenerator.csproj
+[X] ReaperAnon/CustomizableItemSorting
+    [X] CustomizableItemSorting/CustomizableItemSorting.csproj
+[X] ReaperAnon/Disenchant-Everything
+    [X] DisenchantEverything/DisenchantEverything.csproj
+[X] ReaperAnon/GridTransitionCrashFix
+    [X] GridTrasitionCrashFix/GridTransitionCrashFix.csproj
+[X] ReaperAnon/Masculinized-Leveled-Lists
+    [X] MasculinizedLeveledLists/MasculinizedLeveledLists.csproj
+[X] ReaperAnon/Missing-Encounter-Zones-Patcher
+    [X] MissingEncounterZonesPatcher/MissingEncounterZonesPatcher.csproj
+[X] ReaperAnon/Realistic-Water-Two-Patcher
+    [X] RealisticWaterTwoPatcher/RealisticWaterTwoPatcher.csproj
+[X] ReaperAnon/True-Unleveled-Skyrim
+    [X] TrueUnleveledSkyrim/TrueUnleveledSkyrim.csproj
+[X] RowanMaBoot/SynCoinTweaker
+    [X] CoinTweaker/CoinTweaker.csproj
+[X] RowanMaBoot/SynRaceRebalancer
+    [X] SynRaceRebalancer/SynRaceRebalancer.csproj
+[X] rshackleton/SynAVOCPatcher
+    [X] AVOCPatcher/AVOCPatcher.csproj
+[X] rshackleton/SynCreatureReWeighter
+    [X] CreatureReWeighter/CreatureReWeighter.csproj
+[ ] sachinkmr/armor-distributor
+    [ ] ArmorDistributor/ArmorDistributor.csproj
+        Set to exclude
+[X] Sludes/Feminized-Leveled-Lists
+    [X] FeminizedLeveledLists/FeminizedLeveledLists.csproj
+[X] statttis/STToggle
+    [X] STToggle/STToggle.csproj
+[X] SteveTownsend/AllGUDMeshGen
+    [X] PatcherTest/PatcherTest.csproj
+        Set to exclude
+    [X] AllGUDMeshGen/AllGUDMeshGen.csproj
+[X] SteveTownsend/BDSv2Patcher
+    [X] BDSPatcher/BDSPatcher.csproj
+[X] SteveTownsend/EZLeveler
+    [X] EZLeveler/EZLeveler.csproj
+[X] SteveTownsend/FacegenBaseline
+    [X] FacegenBaseline/FacegenBaseline.csproj
+[X] SteveTownsend/FixMergedDAR
+    [X] FixMergedDAR/FixMergedDAR.csproj
+[X] SteveTownsend/ImmersiveEquipmentMeshGen
+    [X] PatcherTest/PatcherTest.csproj
+        Set to exclude
+    [X] ImmersiveEquipmentMeshGen/ImmersiveEquipmentMeshGen.csproj
+[X] SteveTownsend/PresetChecker
+    [X] PresetChecker/PresetChecker.csproj
+[X] SteveTownsend/WeaponSpeedEffectsFix
+    [X] WeaponSpeedEffectsFix/WeaponSpeedEffectsFix.csproj
+[ ] Synthesis-Collective/Actors-Without-Hats
+    [ ] ActorsWithoutHats/ActorsWithoutHats.csproj
+        Set to exclude
+[X] Synthesis-Collective/AmmoTweaks
+    [X] AmmoTweaks/AmmoTweaks.csproj
+[X] Synthesis-Collective/Another-Archery-Patcher
+    [X] Another_Archery_Patcher/Another_Archery_Patcher.csproj
+[X] Synthesis-Collective/EnemyReleveler
+    [X] EnemyReleveler/EnemyReleveler.csproj
+[X] Synthesis-Collective/facefixer
+    [X] FaceFixer/FaceFixer.csproj
+[X] Synthesis-Collective/GeneralStoresIngredientsPatcher
+    [X] GeneralStoresIngredientsPatcher/GeneralStoresIngredientsPatcher.csproj
+    [X] Tests/Tests.csproj
+[X] Synthesis-Collective/HalgarisConsistentRPGLoot
+    [X] HalgarisRPGLoot/HalgarisRPGLoot.csproj
+[X] Synthesis-Collective/khajiitearsshow
+    [X] KhajiitEarsShow/KhajiitEarsShow.csproj
+[X] Synthesis-Collective/listmaker
+    [X] ListMaker/ListMaker.csproj
+[X] Synthesis-Collective/listunroller
+    [X] ListUnroller/ListUnroller.csproj
+[X] Synthesis-Collective/MakeFirewoodPilesIntoContainers
+    [X] MakeFirewoodPilesIntoContainers/MakeFirewoodPilesIntoContainers.csproj
+[X] Synthesis-Collective/MortalEnemies-Patcher
+    [X] MortalEnemies/MortalEnemies.csproj
+[X] Synthesis-Collective/MovementSpeedPatcher
+    [X] MovementPatcher/MovementPatcher.csproj
+[X] Synthesis-Collective/nodragonlods
+    [X] NoDragonLODs/NoDragonLODs.csproj
+[X] Synthesis-Collective/npcenchantfix
+    [X] NPCEnchantFix/NPCEnchantFix.csproj
+[X] Synthesis-Collective/oppositeanimationdisabler
+    [X] OppositeAnimationDisabler/OppositeAnimationDisabler.csproj
+[X] Synthesis-Collective/RaceCompatibilityDialogue
+    [X] Tests/Tests.csproj
+        Set to exclude
+    [X] RaceCompatibilityDialogue/RaceCompatibilityDialogue.csproj
+[ ] Synthesis-Collective/Save-Your-Finger
+    [ ] SaveYourFinger/SaveYourFinger.csproj
+        Set to exclude
+[X] Synthesis-Collective/SFCOPaintingRemover
+    [X] SFCOPaintingRemover/SFCOPaintingRemover.csproj
+[X] Synthesis-Collective/SilentMoonsEnchantmentPatcher.Net
+    [X] SilentMoonsEnchantmentPatcher/SilentMoonsEnchantmentPatcher.csproj
+[X] Synthesis-Collective/SlotsSlotsSlots
+    [X] SlotsSlotsSlots/SlotsSlotsSlots.csproj
+[X] Synthesis-Collective/SlotsSlotsSlotsSlots
+    [X] SlotsSlotsSlotsSlots/SlotsSlotsSlotsSlots.csproj
+[X] Synthesis-Collective/speedandreachfixes
+    [X] SpeedandReachFixes/SpeedandReachFixes.csproj
+[X] Synthesis-Collective/spellabsorbfix
+    [X] SpellAbsorbFix/SpellAbsorbFix.csproj
+[X] Synthesis-Collective/SpellResearchAlternateTomePatcher
+    [X] SpellResearchAlternateTomePatcher/SpellResearchAlternateTomePatcher.csproj
+[X] Synthesis-Collective/SynBookSmart
+    [X] BookSmart/BookSmart.csproj
+[X] Synthesis-Collective/SynNoMoreEasyEnemies
+    [X] SynNoMoreEasyEnemies/SynNoMoreEasyEnemies.csproj
+[ ] Synthesis-Collective/UPFLoader-ActionSpeed
+    [ ] UPFLoader-ActionSpeed/UPFLoader-ActionSpeed.csproj
+        Set to exclude
+[X] Synthesis-Collective/UPFLoader-HeartSeeker
+    [X] UPFLoader - HeartSeeker/UPFLoader-HeartSeeker.csproj
+[X] theSkyseS/Engarde-Synthesis-Patcher
+    [X] Engarde_Synthesis/Engarde_Synthesis.csproj
+[X] theSkyseS/HarvestThoseMammothSkulls
+    [X] HarvestThoseMammothSkulls/HarvestThoseMammothSkulls.csproj
+[X] theSkyseS/HeightsOfSkyrim
+    [X] HeightsOfSkyrim/HeightsOfSkyrim.csproj
+[X] theSkyseS/LootableCrates
+    [X] LootableCrates/LootableCrates.csproj
+[X] theSkyseS/NPCStatRescaler
+    [X] NPCStatRescaler/NPCStatRescaler.csproj
+[X] theSkyseS/PickYourPoison
+    [X] PickYourPoison/PickYourPoison.csproj
+[X] theSkyseS/ReadingIsGoodLegacy
+    [X] ReadingIsGoodLegacy/ReadingIsGoodLegacy.csproj
+[ ] theSkyseS/TrueUnleveledSkyrim
+    [ ] TrueUnleveledSkyrim/TrueUnleveledSkyrim.csproj
+        Set to exclude
+[X] TokcDK/SynFixBOOKRecordTypes
+    [X] SynFixBOOKRecordTypes/SynFixBOOKRecordTypes.csproj
+[X] TokcDK/SynHeelsSoundAdd
+    [X] SynHeelsSoundAdd/SynHeelsSoundAdd.csproj
+[X] TokcDK/SynOppositeGenderAnimsTweak
+    [X] SynOppositeGenderAnimsTweak/SynOppositeGenderAnimsTweak.csproj
+[X] tottorijuukou/CBPCKeywords
+    [X] BookUUNPCBPCKeywords/BookUUNPCBPCKeywords.csproj
+[X] tr4wzified/AOSISCSoundPatcher
+    [X] AOSISCSoundPatcher/AOSISCSoundPatcher.csproj
+[X] tr4wzified/DestructibleSkyrimPatcher
+    [X] DestructibleSkyrimPatcher/DestructibleSkyrimPatcher.csproj
+[X] tr4wzified/DisplaySpellTomeLevelPatcher
+    [X] DisplaySpellTomeLevelPatcher/DisplaySpellTomeLevelPatcher.csproj
+[X] tr4wzified/enblightpatcher
+    [X] ENBLightPatcher/ENBLightPatcher.csproj
+[X] tr4wzified/ExperienceMutagenPatcher
+    [X] ExperienceMutagenPatcher/ExperienceMutagenPatcher.csproj
+[X] tr4wzified/KnowYourArmorPatcher
+    [X] KnowYourArmorPatcher/KnowYourArmorPatcher.csproj
+[X] tr4wzified/KnowYourEnemyPatcher
+    [X] KnowYourEnemyMutagen/KnowYourEnemyMutagen.csproj
+[X] tr4wzified/RemoveInteriorFogPatcher
+    [X] RemoveInteriorFogPatcher/RemoveInteriorFogPatcher.csproj
+[X] tr4wzified/SpellTomePricePatcher
+    [X] SpellTomePriceFixPatcher/SpellTomePricePatcher.csproj
+[X] tr4wzified/TUDMFootstepPatcher
+    [X] TUDMFootstepPatcher/TUDMFootstepPatcher.csproj
+[X] tr4wzified/WaterDoesDamagePatcher
+    [X] WaterDoesDamage/WaterDoesDamage.csproj
+[X] vonLeebpl/VendorPriestNPCPatcher
+    [X] VendorPriestNPCPatcher/VendorPriestNPCPatcher.csproj
+[X] Wolfman5750/ICAIO-AI-for-Mod-NPC
+    [X] ICAIO_AI_FOR_MOD_NPC/ICAIO_AI_FOR_MOD_NPC.csproj
+[X] Wolfman5750/SkyVRaanAutoPatcher
+    [X] SkyVRaanAutoPatcher/SkyVRaanAutoPatcher.csproj
+[X] Wolfman5750/SkyVRaanWeatherPatcher
+    [X] SkyVRaanWeatherPatcher/SkyVRaanWeatherPatcher.csproj
+[X] Wolfman5750/Z-Floor-Patcher
+    [X] ZFloorPatcher/Z-FloorPatcher.csproj
+[X] Xgatt/SpellbindPatcher-Synthesis
+    [X] SpellbindPatcher/SpellbindPatcher.csproj
+[X] zVcXr/SynSpellTomeFreeLeveledLists
+    [X] SpellTomeFreeLeveledLists/SpellTomeFreeLeveledLists.csproj

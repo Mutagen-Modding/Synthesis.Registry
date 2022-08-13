@@ -23,7 +23,7 @@ namespace Synthesis.Registry.MutagenScraper.Construction
             _getFolderClone = getFolderClone;
         }
         
-        public async Task<IEnumerable<string>> Query(InternalRepositoryListing dep)
+        public async Task<IReadOnlyList<string>> Query(InternalRepositoryListing dep)
         {
             var clonePath = _getFolderClone.Get(dep);
 
