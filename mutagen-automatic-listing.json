@@ -179,27 +179,11 @@
       "Sha": "d3d049c421183aac856556f914eaa0ead76beed3"
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Another Archery Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Customizable Archery Physics for any load order. No mods required.",
-            "LongDescription": "Comprehensive archery physics overhaul contained in a single patcher.\nAlso fixes a whole host of bugs and inconsistencies not included in any other archery mod such as detection, arrows colliding with the air in front of you, arrows falling out of your bow even at full draw, the \u0022Ninja Dodge\u0022 bug, and more!\n\nThe default settings are adequate for most users, but if you want to experiment, nearly every setting is exposed through the Synthesis GUI.\nSettings documentation can be found here: https://github.com/Synthesis-Collective/Another-Archery-Patcher/wiki/Settings-Documentation\n\nNexus Page:\t https://www.nexusmods.com/skyrimspecialedition/mods/53810",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "Another_Archery_Patcher/Another_Archery_Patcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "Another-Archery-Patcher",
-      "Sha": "b678e9d9a72bab3a59b73e278b79863018d632b2"
+      "Sha": "a613b41638ffe3cc489a2ad34c76b048b6436a63"
     },
     {
       "Patchers": [
@@ -2224,31 +2208,6 @@
       "User": "JanuarySnow",
       "Repository": "Quest_Categorizer",
       "Sha": "0a115ff4fb7a838474c0d1af93ee5aef95dc12c8"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Quest Journal Limit Bug Fixer",
-            "Visibility": "Visible",
-            "OneLineDescription": "[v0.1 ONLY] Synthesis version of the Quest Journal Limit Bug Fixer xEdit patch.",
-            "LongDescription": "This is obsolete if you\u0027re using v0.2\u002B of Quest Journal Limit Bug Fixer!\n\nRequires Quest Journal Limit Bug Fixer: https://www.nexusmods.com/skyrimspecialedition/mods/56130",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "Quest Journal Limit Bug Fixer.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "QuestLimitFixer/QuestLimitFixer.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
-      "User": "radj307",
-      "Repository": "Quest-Journal-Limit-Fixer",
-      "Sha": "1977a1fb8fbf0d807d05c78569360c2d97716cc6"
     },
     {
       "Patchers": [
