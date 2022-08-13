@@ -351,3 +351,5 @@ MigrationBackup/
 Synthesis.Registry/Properties/launchSettings.json
 
 .idea/
+
+Repositories/
