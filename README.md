@@ -7,5 +7,11 @@ The registry is populated by leveraging GitHub's built in dependency detection s
 
 By scraping this list, this registry is able to automatically detect new Synthesis patchers.  It then investigates inside and looks for the extra meta files that contain description, nickname, and other information about the patcher.  
 
+# Results
+The scrape results are accumulated into several files:
+- [scrape-state.txt](https://github.com/Mutagen-Modding/Synthesis.Registry/blob/release/scrape-state.txt) - A human readable text file showing known listings, and why certain ones are excluded
+- [scrape-state.json](https://github.com/Mutagen-Modding/Synthesis.Registry/blob/release/scrape-state.json) - Same information, but in a more computer serializable format
+- [mutagen-automatic-listing.json](https://github.com/Mutagen-Modding/Synthesis.Registry/blob/release/mutagen-automatic-listing.json) - The official verbose listing registry that tooling looks to
+
 # What it Exposes
 The registry then exposes the results as a simple json file.  Synthesis proper can then download this file and get an easy listing of the current state of the world.
