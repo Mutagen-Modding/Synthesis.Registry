@@ -13,6 +13,7 @@ namespace Synthesis.Registry.MutagenScraper
         public JsonSerializerOptionsProvider()
         {
             Options.Converters.Add(new JsonStringEnumConverter());
+            Options.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
         }
     }
 }

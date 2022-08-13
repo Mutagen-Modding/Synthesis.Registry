@@ -314,7 +314,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "BookUUNPCBPCKeywords/BookUUNPCBPCKeywords.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -402,7 +401,6 @@
             "Nickname": "Configurable Grass Remover",
             "Visibility": "Visible",
             "OneLineDescription": "Removes grass where you want it removed.",
-            "LongDescription": null,
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": []
@@ -567,7 +565,6 @@
           ]
         },
         {
-          "Customization": null,
           "ProjectPath": "RecombinePatchTests/RecombinePatchTests.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -770,7 +767,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "FaceFixer/FaceFixer.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -923,7 +919,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "FreeFastTravel/FreeFastTravel.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -961,7 +956,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "GDOPatcher/GDOPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -993,7 +987,6 @@
           ]
         },
         {
-          "Customization": null,
           "ProjectPath": "Tests/Tests.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -1054,7 +1047,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -1144,7 +1136,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "HighPolyHead-UpdateRaces/HighPolyHead-UpdateRaces.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -1206,7 +1197,7 @@
     },
     {
       "Patchers": [],
-      "AvatarURL": null,
+        {
       "User": "Wolfman5750",
       "Repository": "ICAIO-AI-for-Mod-NPC",
       "Sha": "6d41ac56c30163c8300ad999bf94402a390a9807"
@@ -1329,7 +1320,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "KhajiitEarsShow/KhajiitEarsShow.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -1679,7 +1669,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "CustomSet/CustomSet.csproj",
           "IncludedLibraries": [
             "Oblivion",
@@ -1687,7 +1676,6 @@
           ]
         },
         {
-          "Customization": null,
           "ProjectPath": "CustomSetTest/CustomSetTest.csproj",
           "IncludedLibraries": [
             "Oblivion",
@@ -1695,7 +1683,6 @@
           ]
         },
         {
-          "Customization": null,
           "ProjectPath": "MasterLimitTestTest/MasterLimitTestTest.csproj",
           "IncludedLibraries": [
             "Oblivion",
@@ -1757,7 +1744,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "MoreGoldForMerchants/MoreGoldForMerchants.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -1772,7 +1758,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "MortalEnemies/MortalEnemies.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -1879,7 +1864,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "NoDragonLODs/NoDragonLODs.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -2003,7 +1987,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "NPCEnchantFix/NPCEnchantFix.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -2018,7 +2001,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "NPCMiddleMan/NPCMiddleMan.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -2079,7 +2061,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "OppositeAnimationDisabler/OppositeAnimationDisabler.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -2172,7 +2153,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "Quest_Categorizer/Quest_Categorizer.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -2235,7 +2215,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "SanguinaireCompat/Sanguinaire Race Compatibility.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -2400,8 +2379,6 @@
           "Customization": {
             "Nickname": "SilentMoonsEnchantmentPatcher",
             "Visibility": "Visible",
-            "OneLineDescription": null,
-            "LongDescription": null,
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": []
@@ -2583,7 +2560,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "NIFPatcher_HairShader/NIFPatcher_HairShader.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -2750,7 +2726,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "Halgari.SoulGemDisenchantment/Halgari.SoulGemDisenchantment.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -2836,7 +2811,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "SpellResearchAlternateTomePatcher/SpellResearchAlternateTomePatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -2927,7 +2901,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "STToggle/STToggle.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -2942,7 +2915,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "CramMods.STUMP/CramMods.STUMP.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -3127,7 +3099,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "CreatureReWeighter/CreatureReWeighter.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -3374,7 +3345,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "SynOblivionInteractionIcons/SynOblivionInteractionIcons.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -3389,7 +3359,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "SynOblivionInteractionIcons/SynOblivionInteractionIcons.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -3496,7 +3465,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "SpellTomeFreeLeveledLists/SpellTomeFreeLeveledLists.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -3548,7 +3516,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "SynthusMaximus.Test/SynthusMaximus.Test.csproj",
           "IncludedLibraries": [
             "Skyrim",
@@ -3557,7 +3524,6 @@
           ]
         },
         {
-          "Customization": null,
           "ProjectPath": "Xml2Json/Xml2Json.csproj",
           "IncludedLibraries": [
             "Skyrim",
@@ -3574,7 +3540,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "Translator/Translator.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -3725,7 +3690,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "Tests/Tests.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -3912,7 +3876,6 @@
     {
       "Patchers": [
         {
-          "Customization": null,
           "ProjectPath": "Tests/Tests.csproj",
           "IncludedLibraries": [
             "Skyrim"
