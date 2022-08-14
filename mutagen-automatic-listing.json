@@ -3446,6 +3446,29 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "SynNotSoSalty",
+            "Visibility": "Visible",
+            "OneLineDescription": "Not So Salty Synthesis Patcher",
+            "LongDescription": "https://www.nexusmods.com/skyrimspecialedition/mods/73314",
+            "PreferredAutoVersioning": "LatestTag",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynNotSoSalty/SynNotSoSalty.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
+      "User": "Michael-wigontherun",
+      "Repository": "SynNotSoSalty",
+      "Sha": "1cd3888d0d58b74a71a5d355d3001f167fbb4b7c"
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "SynOblivionInteractionIcons/SynOblivionInteractionIcons.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -3587,6 +3610,15 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "SynthesisRandomSkins",
+            "Visibility": "Visible",
+            "OneLineDescription": "Uses Skyrims base game systems to randomizes Skin textures without any new scripts.",
+            "LongDescription": "Requires texturePacks formated for this check nexus page for my packs and how to make your own\r\nhttps://www.nexusmods.com/skyrimspecialedition/mods/73209",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
           "ProjectPath": "SynthesisRandomSkins/SynthesisRandomSkins.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -3596,7 +3628,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
       "User": "Michael-wigontherun",
       "Repository": "SynthesisRandomSkins",
-      "Sha": "ffc92b782651238e9287f063230431ddaf90877d"
+      "Sha": "f85b208bfa1d84406e4d726be2c1b6294722ba0b"
     },
     {
       "Patchers": [
