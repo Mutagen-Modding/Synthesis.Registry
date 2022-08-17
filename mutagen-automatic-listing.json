@@ -880,7 +880,13 @@
             "LongDescription": "Forwards foundational mod\u0027s NPC appearance fields to the winning override in the Synthesis patch, if overridden by another mod but facegen not altered vs the master.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE"
+            ]
           },
           "ProjectPath": "FacegenBaseline/FacegenBaseline.csproj",
           "IncludedLibraries": [
@@ -891,7 +897,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
       "User": "TokcDK",
       "Repository": "FacegenBaseline",
-      "Sha": "1d0ba934ff215008f714d7283d14706876c4a745"
+      "Sha": "d8a01791f1d013671acf616100e8fe333a2d7813"
     },
     {
       "Patchers": [
