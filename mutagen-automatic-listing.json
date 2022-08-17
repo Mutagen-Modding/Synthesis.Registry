@@ -526,6 +526,29 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "DeadBodyCleanupNPCAttacher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Add deadbodycleanupscript to some npcs",
+            "LongDescription": "Default unofficial patch name set for Skyrim LE USLEEP but you can change it to USEEP or any in the patcher settings",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "DeadBodyCleanupNPCAttacher/DeadBodyCleanupNPCAttacher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "DeadBodyCleanupNPCAttacher",
+      "Sha": "13dba4dc22f5bacbc71ec4b93109824a479b3653"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "DestructibleSkyrimPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Patches mods placing objects in cells/worldspaces using the original Skyrim statics to Destructible Skyrim\u0027s destructible objects",
@@ -2116,6 +2139,29 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "NPCSetToPCLevelMult",
+            "Visibility": "Visible",
+            "OneLineDescription": "Autoset max level to unlimited and set level multiplier based on selected patcher settings",
+            "LongDescription": "It set npc level to unlimited but alse set level multiplier, using exist npc parameters and patcher settings\n\nExamples:\nexample 1. Bandit-boss which have high min level, will be with unlimited max level and multiplier 1.2 to be always stronger of player.\nexample 2. Rabbit have a low min level and even if max level is unlimited, mult will be 0.1 or kind of and the rabbit willl be always weak. It made so to let player even on high levels be possible to fill small soul gems from weak creatures.\n\nClick on Settings to see all parameters.\n\nRecommend to place it higher in patchers order.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "NPCSetToPCLevelMult/NPCSetToPCLevelMult.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "NPCSetToPCLevelMult",
+      "Sha": "c420f273a095511738a5705a9afabb97af982d04"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "NPCStatRescaler",
             "Visibility": "Visible",
             "OneLineDescription": "Port of NPC Stat Rescaler: https://www.nexusmods.com/skyrimspecialedition/mods/24254",
@@ -3061,6 +3107,75 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynAddArmorKeywordByString",
+            "Visibility": "Visible",
+            "OneLineDescription": "Add selected keyword by string",
+            "LongDescription": "Add selected keyword if some string found in editor id\r\nexample: we can add waf_visualdark armor keyword by \u0027black\u0027 string in edid of armors",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynAddArmorKeywordByString/SynAddArmorKeywordByString.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynAddArmorKeywordByString",
+      "Sha": "9a6e76fa2d1bd68850dc2728b573172709c208df"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynArmorAAFixMissingGenderWorldModel",
+            "Visibility": "Visible",
+            "OneLineDescription": "Autofll missing world model path for only male/female armors",
+            "LongDescription": "Autofll missing world model path with default path from most equal template by material keyword, slot and gender.\nPrevent incorrect npc look when they in armors which model made only for Females or only for Males.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynArmorAAFixMissingGenderWorldModel/SynArmorAAFixMissingGenderWorldModel.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynArmorAAFixMissingGenderWorldModel",
+      "Sha": "6d064015bb06ef0e766e99c70040673c7f201237"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynAutomaticSpells",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "Synthesis implementation of ASIS AutomaticSpells patcher with additional features and fixes.",
+            "LongDescription": "Adds additional spells for npcs around Skyrim.\n\nUses npc and spell stats to set valid spells and because it is more correct will be to move the patcher after any other patchers that changing spell/npc stats.\nWhen file \\Data\\SkyProc Patchers\\ASIS\\AutomaticSpells.ini is exist, parameters from it will be read from it into settings before patching.\nDont forget to disable Automatic spells patcher in ASIS.\r\n\n\u003E\u003EOpen Settings to set your preferred parameters.\u003C\u003C\n\nOriginal ASIS patcher LE: https://www.nexusmods.com/skyrim/mods/18436\nASIS Improved ini: https://www.nexusmods.com/skyrim/mods/53047",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynAutomaticSpells/SynAutomaticSpells.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynAutomaticSpells",
+      "Sha": "7dd8d16785cb0060a4f3e180a67ffbeccec8aa92"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "A Variety of Containers Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Forward material swaps from AVOC on containers to final conflict winners.",
@@ -3233,6 +3348,29 @@
       "User": "TokcDK",
       "Repository": "SynFixBOOKRecordTypes",
       "Sha": "2f4026b2462d4d4f6e7ca4148fc09d103a49e7d8"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynFixFemaleRaceModel-local",
+            "Visibility": "Visible",
+            "OneLineDescription": "Fe/Male behavour model hkx file path fix",
+            "LongDescription": "Changes model path to DefaultFemale if it have DefaultMale file and same for male if any found",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynFixFemaleRaceModel/SynFixFemaleRaceModel.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynFixFemaleRaceModel",
+      "Sha": "ff3002eda5a6ff891f082e219457591b69be66a2"
     },
     {
       "Patchers": [
@@ -3583,6 +3721,29 @@
       "User": "minis-patchers",
       "Repository": "SynPotionWeight",
       "Sha": "2bf3749f03ac077e3f7a91587073eb258825e6c9"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynProtectEssentialFlagsImport-local",
+            "Visibility": "Visible",
+            "OneLineDescription": "Import Essential/Protected flags for npc if it was overwrited",
+            "LongDescription": "Import Essential or Protected flag if ot was in any not excluded mod and add it it last edit\n\nImportance of npc can be changed by any mod because some quest or added unique appearance",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynProtectEssentialFlagsImport/SynProtectEssentialFlagsImport.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynProtectEssentialFlagsImport",
+      "Sha": "df4983b7f9d9e55055b36a58115dd7fb691c7ca9"
     },
     {
       "Patchers": [
