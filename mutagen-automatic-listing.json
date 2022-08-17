@@ -874,6 +874,29 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "FacegenBaseline-local",
+            "Visibility": "Visible",
+            "OneLineDescription": "Use default facegen override from a foundational NPC appearance mod",
+            "LongDescription": "Forwards foundational mod\u0027s NPC appearance fields to the winning override in the Synthesis patch, if overridden by another mod but facegen not altered vs the master.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "FacegenBaseline/FacegenBaseline.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "FacegenBaseline",
+      "Sha": "1d0ba934ff215008f714d7283d14706876c4a745"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Feminized Leveled Lists",
             "Visibility": "Visible",
             "OneLineDescription": "Patches leveled NPC lists to remove male entries from them based on the chosen criteria.",
@@ -1609,6 +1632,29 @@
       "User": "theSkyseS",
       "Repository": "LootableCrates",
       "Sha": "d7e39721ff0034ada8d12bd5ec7c2fdb5ef788e7"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "LootableCrates",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis Patcher that changes static crates into lootable containers.",
+            "LongDescription": "Synthesis Patcher that changes static crates into lootable containers.\nCompletely standalone, no plugins required.\n",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "LootableCrates/LootableCrates.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "LootableCrates",
+      "Sha": "2e69cf6e0664e9a7f8dd6ef85f79d1147928e449"
     },
     {
       "Patchers": [
