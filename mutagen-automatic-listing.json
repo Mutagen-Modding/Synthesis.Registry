@@ -3238,6 +3238,29 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "TokcDK/SynFixWeaponAttackSpeed",
+            "Visibility": "Visible",
+            "OneLineDescription": "Fixes weapon attack speed bug",
+            "LongDescription": "It changes all effects magnitude which changing weapon speed mult value and add to all exist races ability to se base mult to 1\nIn result we get 1.0 base mult\u002Bstackable 0.# mult by magic effects",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynFixWeaponAttackSpeed/SynFixWeaponAttackSpeed.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynFixWeaponAttackSpeed",
+      "Sha": "722b4e7bb49c39ba923e90651844013315e9c7fe"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynFksDiverseSkeleton",
             "Visibility": "Visible",
             "OneLineDescription": "Compatibility patcher for Fk\u0027s diverse skeletons",
