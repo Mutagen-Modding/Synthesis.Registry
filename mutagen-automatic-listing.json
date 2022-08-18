@@ -3497,7 +3497,7 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SynHeelsSoundAdd",
+            "Nickname": "TokcDK/Heels sound for hdtHighHeels/NIOHH",
             "Visibility": "Visible",
             "OneLineDescription": "Auto adds highheels sound to valid boots",
             "LongDescription": "Adds high heels sound to all found and valid boots.\nMod can be downloaded here:\nSkyrim LE/SE: https://www.loverslab.com/files/file/1795-heels-sound/\nSkyrim SE: https://www.nexusmods.com/skyrimspecialedition/mods/62502\n\r\nBUT you can set any sound in Settings.\n\nCurrently adds sounds for all boots using \u0027HDT HighHeels System\u0027 mod: https://www.google.com/search?q=HDT\u002BHighHeels\u002BSystem and for boots with NIOHH mod data, NIOHH link: https://www.google.com/search?q=NiOverride\u002BHigh\u002BHeels\u002B-\u002BNIOVHH",
@@ -3514,7 +3514,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
       "User": "TokcDK",
       "Repository": "SynHeelsSoundAdd",
-      "Sha": "9438eddd114509ed14822c09d6f3bde38f361286"
+      "Sha": "53642af3fdc6477c701ee9c3d2a2e006c1b72587"
     },
     {
       "Patchers": [
