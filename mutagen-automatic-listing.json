@@ -1681,7 +1681,7 @@
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
-      "User": "m-vlad",
+      "User": "CritLoren",
       "Repository": "LootableThings-TrainingDummies-Patcher",
       "Sha": "8ffbcb835aca1c244eab758c65d402c3d712abc0"
     },
@@ -3469,6 +3469,29 @@
       "User": "TokcDK",
       "Repository": "SynFixMissingVendorItemScrollKeyword",
       "Sha": "b5e1159d55153d2d7a59f05f956881de10610d73"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "TokcDK/SynFixShieldData",
+            "Visibility": "Visible",
+            "OneLineDescription": "Fix incorrect shield material and impact set",
+            "LongDescription": "Fixes incorrect impact set and material for armor type Heavy/Light",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynFixShieldData/SynFixShieldData.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynFixShieldData",
+      "Sha": "94600c07c58a9f985de4e032e0d72a23c0ff2704"
     },
     {
       "Patchers": [
