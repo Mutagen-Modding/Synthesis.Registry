@@ -3428,6 +3428,52 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "TokcDK/SynFixKeyMissingSoundKeyword",
+            "Visibility": "Visible",
+            "OneLineDescription": "Add missing sound and vendor keyword to keys",
+            "LongDescription": "Check keys for missing pickup/putdown sounds or missing vendor keyword and add when need",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynFixKeyMissingSoundKeyword/SynFixKeyMissingSoundKeyword.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynFixKeyMissingSoundKeyword",
+      "Sha": "f64d43bfeb0674ae46bba976ff54288480b6ec03"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "TokcDK/SynFixMissingVendorItemScrollKeyword",
+            "Visibility": "Visible",
+            "OneLineDescription": "Add VendorItemScroll keyword for scrolls where it missing",
+            "LongDescription": "Check all scrool keywords and add VendorItemScroll keyword if it missing for correct detection of the item category",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynFixMissingVendorItemScrollKeyword/SynFixMissingVendorItemScrollKeyword.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynFixMissingVendorItemScrollKeyword",
+      "Sha": "b89bb33b079a99226b5dd2834accb83b14eed740"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "TokcDK/SynFixWeaponAttackSpeed",
             "Visibility": "Visible",
             "OneLineDescription": "Fixes weapon attack speed bug",
