@@ -451,7 +451,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
       "Repository": "Costume-Shop",
-      "Sha": "9fb626888eb5feeef8f70278db4372e5c7188232"
+      "Sha": "1f5b057d25eba28d9e937839e5b9ff3c954c222c"
     },
     {
       "Patchers": [
@@ -3909,29 +3909,6 @@
       "User": "Benna96",
       "Repository": "Synthesis-Misc-Compatibility-Patchers",
       "Sha": "bfca9b5ac1573a082e2cab4a2c10a11275651899"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SynthesisRandomSkins",
-            "Visibility": "Visible",
-            "OneLineDescription": "Uses Skyrims base game systems to randomizes Skin textures without any new scripts.",
-            "LongDescription": "Requires texturePacks formated for this check nexus page for my packs and how to make your own\r\nhttps://www.nexusmods.com/skyrimspecialedition/mods/73209",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynthesisRandomSkins/SynthesisRandomSkins.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
-      "User": "Michael-wigontherun",
-      "Repository": "SynthesisRandomSkins",
-      "Sha": "162ae93494b161ffe0fdf33696e4226d4ce284b1"
     },
     {
       "Patchers": [
