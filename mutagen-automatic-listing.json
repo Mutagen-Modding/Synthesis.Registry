@@ -3405,7 +3405,7 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SynFixFemaleRaceModel-local",
+            "Nickname": "TokcDK/SynFixFemaleRaceModel",
             "Visibility": "Visible",
             "OneLineDescription": "Fe/Male behavour model hkx file path fix",
             "LongDescription": "Changes model path to DefaultFemale if it have DefaultMale file and same for male if any found",
@@ -3422,7 +3422,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
       "User": "TokcDK",
       "Repository": "SynFixFemaleRaceModel",
-      "Sha": "ff3002eda5a6ff891f082e219457591b69be66a2"
+      "Sha": "1bb70e6b5f76ebd8f59c7b649d937a61e4e4a289"
     },
     {
       "Patchers": [
@@ -3847,7 +3847,7 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SynProtectEssentialFlagsImport-local",
+            "Nickname": "TokcDK/SynProtectEssentialFlagsImport",
             "Visibility": "Visible",
             "OneLineDescription": "Import Essential/Protected flags for npc if it was overwrited",
             "LongDescription": "Import Essential or Protected flag if ot was in any not excluded mod and add it it last edit\n\nImportance of npc can be changed by any mod because some quest or added unique appearance",
@@ -3864,7 +3864,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
       "User": "TokcDK",
       "Repository": "SynProtectEssentialFlagsImport",
-      "Sha": "df4983b7f9d9e55055b36a58115dd7fb691c7ca9"
+      "Sha": "f8e066a84929c8ea655bc002c5123c4ce6225fa7"
     },
     {
       "Patchers": [
