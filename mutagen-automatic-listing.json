@@ -3589,6 +3589,31 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Heim Recipe Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Update recipes for weapons, armor, etc with the correct Heim book conditions base on keywords.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Heim.esp"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynHeimPatcher/SynHeimPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/13448395?s=40\u0026amp;v=4",
+      "User": "rshackleton",
+      "Repository": "SynHeimPatcher",
+      "Sha": "6cac7dca8d1adea8cb48fca27322b4d747ba758e"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynHelmsWithCirlcet",
             "Visibility": "Visible",
             "OneLineDescription": "Patcher to make all helms and hoods allow circlets to be worn with circlets",
