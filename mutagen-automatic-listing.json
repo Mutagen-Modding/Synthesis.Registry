@@ -1371,7 +1371,9 @@
             "LongDescription": "Adds tags to item names, for usage with inventory/sorting mods.\r\n\r\nSupports FIS, VIS, VIS-G, LWIS, and Horizon (tags only), or a custom configuration.\r\nFor the latter, you must define the tags you want to use under Settings.\r\n\r\nYou can also define custom overrides on a per-item basis, to specify the \u0022type\u0022 of that item. \r\nThese types are then used to determine which tag should be used. The type \u0022none\u0022 can be used to blacklist that item.\r\n",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "Fallout4"
+            ]
           },
           "ProjectPath": "ItemTagger/ItemTagger.csproj",
           "IncludedLibraries": [
@@ -1382,7 +1384,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/8077005?s=40\u0026amp;v=4",
       "User": "praecipitator",
       "Repository": "ItemAutoTagger",
-      "Sha": "3d928f7e2864cd60fe8d537f4d4e6410346eeb9b"
+      "Sha": "bf09df1a14344e8f71c92f4cd26e2e0e305ae922"
     },
     {
       "Patchers": [
