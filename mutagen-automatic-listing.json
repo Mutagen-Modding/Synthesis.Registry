@@ -4015,7 +4015,9 @@
             "LongDescription": "Supports a wide variety of mods",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
           },
           "ProjectPath": "SynPatcher/SynPatcher.csproj",
           "IncludedLibraries": [
@@ -4026,7 +4028,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynWeaponKeywords",
-      "Sha": "763e8559274085f4df11367df6739ca97266859d"
+      "Sha": "821090bc23a5f79479b293f8197c122185457fc7"
     },
     {
       "Patchers": [],
