@@ -428,6 +428,35 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Conjure Next To Caster",
+            "Visibility": "Visible",
+            "OneLineDescription": "Creates alternate versions of summoning spells that conjure next to the caster.",
+            "LongDescription": "Based on and requires the script from [Conjure Next To Caster REDUX](https://www.nexusmods.com/skyrimspecialedition/mods/28932).",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE"
+            ]
+          },
+          "ProjectPath": "ConjureNextToCaster/ConjureNextToCaster.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "ConjureNextToCaster",
+      "Sha": "a6a562ceeaa688b0ddb712bdef96162502631c2a"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "CostumeShop",
             "Visibility": "Visible",
             "OneLineDescription": "Creates costume armor",
