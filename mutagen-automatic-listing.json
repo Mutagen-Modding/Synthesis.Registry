@@ -480,7 +480,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
       "Repository": "Costume-Shop",
-      "Sha": "c8dfeb60da492562655e3c5d7d7d78afa8c2e2dd"
+      "Sha": "0a589e5ead734b10ddca76de2de314117440a195"
     },
     {
       "Patchers": [
@@ -2599,29 +2599,6 @@
       "User": "Synthesis-Collective",
       "Repository": "SilentMoonsEnchantmentPatcher.Net",
       "Sha": "dd20b29ce44d50ecaf8ce2b6785fdcdd0894ea6c"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "ArmoryRebalance",
-            "Visibility": "Visible",
-            "OneLineDescription": "Increases the difference between item tiers (Iron, Steel, etc.), so that item tier matters more.",
-            "LongDescription": "In vanilla Skyrim the difference between low tier items (e.g. Iron) and high tier items (e.g. Daedric) is quite small. A Daedric Helmet has only 50% more armor than an Iron Helmet. As a result, perks, enchantments and tempering often has a bigger impact on damage/armor than the item tier itself. By increasing the difference between the item tiers, finding higher tier items becomes more rewarding.\r\n\r\nSide effect: Enemies with high tier items will also deal more (sometimes a lot more) damage.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "ArmoryRebalance/ArmoryRebalance/ArmoryRebalance.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
-      "User": "Jampi0n",
-      "Repository": "Skyrim-ArmoryRebalance",
-      "Sha": "93f7cc6398c8a0f9f32d9385ece8e80c5dcf7e77"
     },
     {
       "Patchers": [
