@@ -1133,7 +1133,7 @@
             "Visibility": "Visible",
             "OneLineDescription": "A patcher alternative to mods like Grass FPS Booster.",
             "LongDescription": "# Grass FPS Enhancer - (Coup d\u0027\u0060GRAS\u0060)\n\nSynthesis patcher that improves your framerate by optimizing grass in the same way as mods like **Grass FPS Booster** \u0026amp; **Grass on Steroids**.\nThe advantage of using Synthesis is that you don\u0027t have to worry about patches, since the resulting plugin is tailored to your specific load order.\nNow you can mix \u0026 match grass mods without worrying about optimization patches!\n\nLike many of my other patchers, this uses categories \u0026 filters to apply values to specific records.\nThis allows you to build your own dynamic grass mod without any programming experience.",
-            "PreferredAutoVersioning": "Default",
+            "PreferredAutoVersioning": "LatestTag",
             "RequiredMods": [],
             "TargetedReleases": [
               "Oblivion",
@@ -1154,7 +1154,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
       "User": "radj307",
       "Repository": "GrassFPS",
-      "Sha": "426680785bbca167e122a82d9159476deaf1bcc7"
+      "Sha": "b8cab14ecd23f3a446346e6025dfc896a4365bd1"
     },
     {
       "Patchers": [
