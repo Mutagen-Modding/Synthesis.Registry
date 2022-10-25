@@ -178,7 +178,7 @@
             "Visibility": "Visible",
             "OneLineDescription": "Customizable Archery Physics for any load order. No mods required.",
             "LongDescription": "Comprehensive \u0026 fully configurable archery physics overhaul contained within a single patcher.\nAlso fixes a host of bugs and inconsistencies not included in any other archery mod such as detection, arrows colliding with the air in front of you, arrows falling out of your bow even at full draw, the \u0022Ninja Dodge\u0022 bug, and more!\n\nIt is highly recommended that you add the following block to your \u0060SkyrimCustom.ini\u0060 or \u0060Skyrim.ini\u0060 file to disable magnetism on all projectiles:\n\n\t[Combat]\n\tfMagnetismStrafeHeadingMult=0.0\n\tfMagnetismLookingMult=0.0\n\nAAP Wiki (Getting Started):   https://github.com/Synthesis-Collective/Another-Archery-Patcher/wiki\nAAP Nexus Page:               https://www.nexusmods.com/skyrimspecialedition/mods/53810",
-            "PreferredAutoVersioning": "Default",
+            "PreferredAutoVersioning": "LatestTag",
             "RequiredMods": [],
             "TargetedReleases": []
           },
@@ -191,7 +191,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "Another-Archery-Patcher",
-      "Sha": "d32f774cf3dbf27064125d4a5f213d5e0f64c7bf"
+      "Sha": "ed3a858ca826f4c7c264a42b2d8bca9fe9826301"
     },
     {
       "Patchers": [
@@ -1124,6 +1124,37 @@
       "User": "Synthesis-Collective",
       "Repository": "GeneralStoresIngredientsPatcher",
       "Sha": "db0656896dd26fcdf850b6f40e7e94cc35422d63"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Grass FPS Enhancer",
+            "Visibility": "Visible",
+            "OneLineDescription": "A patcher alternative to mods like Grass FPS Booster.",
+            "LongDescription": "# Grass FPS Enhancer - (Coup d\u0027\u0060GRAS\u0060)\n\nSynthesis patcher that improves your framerate by optimizing grass in the same way as mods like **Grass FPS Booster** \u0026amp; **Grass on Steroids**.\nThe advantage of using Synthesis is that you don\u0027t have to worry about patches, since the resulting plugin is tailored to your specific load order.\nNow you can mix \u0026 match grass mods without worrying about optimization patches!\n\nLike many of my other patchers, this uses categories \u0026 filters to apply values to specific records.\nThis allows you to build your own dynamic grass mod without any programming experience.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Oblivion",
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "Fallout4",
+              "EnderalLE",
+              "EnderalSE"
+            ]
+          },
+          "ProjectPath": "GrassFPS/GrassFPS.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
+      "User": "radj307",
+      "Repository": "GrassFPS",
+      "Sha": "426680785bbca167e122a82d9159476deaf1bcc7"
     },
     {
       "Patchers": [
