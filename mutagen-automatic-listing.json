@@ -3875,7 +3875,7 @@
             "Nickname": "SynOppositeGenderAnimsTweak",
             "Visibility": "Visible",
             "OneLineDescription": "Opposite gender flag remover",
-            "LongDescription": "Removes Opposite gender flag from npc which have it\nCheck settings to setup prefered options",
+            "LongDescription": "When some woman npc using opposite gender flag she will be using male animations.\n\nThe patcher removes Opposite gender flag from npc which have it.\nFemale wilth removed flag will be using female animations.\nCheck settings to setup prefered options",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": []
@@ -3889,7 +3889,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
       "User": "TokcDK",
       "Repository": "SynOppositeGenderAnimsTweak",
-      "Sha": "b3d1e28a84184e92574cdca5640c869b5e058341"
+      "Sha": "ac39b8d68a7d2f35a2dcb432ccf4c22a6f3961de"
     },
     {
       "Patchers": [
