@@ -2634,6 +2634,20 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "SkyFurry_Visual_Patcher/SkyFurry_Visual_Patcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/19256781?s=40\u0026amp;v=4",
+      "User": "panthuncia",
+      "Repository": "SkyFurry_Visual_Patcher",
+      "Sha": "1b12e28dbc47a0d3ca6dc2d279e7e1e2c5949783"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "Arrow Damage Scaling",
             "Visibility": "Visible",
