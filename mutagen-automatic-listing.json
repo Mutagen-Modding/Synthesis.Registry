@@ -2634,6 +2634,17 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "SF_Visual_Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Forwards SkyFurry visuals.",
+            "LongDescription": "- Forwards visuals from SkyFurry, keeps all non-visual records from the winning override.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "SkyFurry.esp"
+            ],
+            "TargetedReleases": []
+          },
           "ProjectPath": "SkyFurry_Visual_Patcher/SkyFurry_Visual_Patcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -2643,7 +2654,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/19256781?s=40\u0026amp;v=4",
       "User": "panthuncia",
       "Repository": "SkyFurry_Visual_Patcher",
-      "Sha": "1b12e28dbc47a0d3ca6dc2d279e7e1e2c5949783"
+      "Sha": "f38dc5bf9241a84bc19fa103325b26524d20653b"
     },
     {
       "Patchers": [
