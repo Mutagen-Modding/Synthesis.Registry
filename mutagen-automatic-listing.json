@@ -63,6 +63,33 @@
       "Sha": "dde1a4c504e40ab9109f32d503d35503e4c8b581"
     },
     {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "AI Stealth Overhaul",
+            "Visibility": "Visible",
+            "OneLineDescription": "Configurable enemy AI stealth behaviour overhaul.",
+            "LongDescription": "This is a alternative to Realistic AI Detection (RAID) by Olivier Doorenbos",
+            "PreferredAutoVersioning": "LatestTag",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR"
+            ]
+          },
+          "ProjectPath": "AIStealthOverhaul/AIStealthOverhaul.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
+      "User": "radj307",
+      "Repository": "AIStealthOverhaul",
+      "Sha": "6259bf0142b1c24780cbbb855a0d3955dc9335b7"
+    },
+    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
       "User": "radj307",
@@ -3161,33 +3188,6 @@
       "User": "mrudat",
       "Repository": "StaffGenerator",
       "Sha": "b63b40213f199578ced79c260d1f45600a6c57c9"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "AI Stealth Overhaul",
-            "Visibility": "Visible",
-            "OneLineDescription": "Customizable AI stealth difficulty overhaul.",
-            "LongDescription": "Completely user-customizable replacement for AI stealth difficulty mods like Realistic AI Detection (RAID).",
-            "PreferredAutoVersioning": "LatestTag",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR"
-            ]
-          },
-          "ProjectPath": "StealthOverhaul/StealthOverhaul.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
-      "User": "radj307",
-      "Repository": "StealthOverhaul",
-      "Sha": "c76b9b40e97e900febbda69069d507c186bfe722"
     },
     {
       "Patchers": [
