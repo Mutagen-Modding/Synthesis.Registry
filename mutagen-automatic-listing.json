@@ -2664,8 +2664,8 @@
           "Customization": {
             "Nickname": "SF_Visual_Patcher",
             "Visibility": "Visible",
-            "OneLineDescription": "Forwards SkyFurry visuals.",
-            "LongDescription": "- Forwards visuals from SkyFurry, keeps all non-visual records from the winning override.",
+            "OneLineDescription": "Merges SkyFurry changes into the winning override.",
+            "LongDescription": "- Forwards SkyFurry\u0027s visual, racial, damage (SharpClaws), armor (DigiBoots), outfit (FlowingFur) changes to the winning override, allowing SkyFurry to be placed higher in the load order and eliminating the need for many manual patches. All modules can be disabled individually in settings.\u0027",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "SkyFurry.esp"
@@ -2681,7 +2681,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/19256781?s=40\u0026amp;v=4",
       "User": "panthuncia",
       "Repository": "SkyFurry_Visual_Patcher",
-      "Sha": "858ccba8ffa0964725c3580e85358dfddd533be5"
+      "Sha": "6eea89ce34d5e05a4f483195ce551ce2d578d7b4"
     },
     {
       "Patchers": [
