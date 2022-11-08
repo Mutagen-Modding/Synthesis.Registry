@@ -3077,6 +3077,20 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "SpellConstruction.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/106714821?s=40\u0026amp;v=4",
+      "User": "statttis",
+      "Repository": "SpellConstruction",
+      "Sha": "6878a78da09510e0cbfd261ec55aac0776abdabd"
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "SpellResearchAlternateTomePatcher/SpellResearchAlternateTomePatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -4244,7 +4258,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
       "Repository": "UniquePlayer",
-      "Sha": "55824f64d7ac05f1d133dd3815880eb1481b80db"
+      "Sha": "0756ae43d3a56a9a3b3debcd4495cda7f99110fa"
     },
     {
       "Patchers": [
