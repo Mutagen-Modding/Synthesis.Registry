@@ -753,13 +753,15 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "EnchantedVariantsGenerater",
+            "Nickname": "EnchantedVariantsGenerator",
             "Visibility": "Visible",
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
           },
           "ProjectPath": "EnchantedVariantsGenerater/EnchantedVariantsGenerater.csproj",
           "IncludedLibraries": [
@@ -770,7 +772,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
       "User": "ExpensiveLadder",
       "Repository": "Enchanted-Variants-Generater",
-      "Sha": "7a953f8728eca9aec96d878ee0abe16c978fd7c6"
+      "Sha": "96e73b24e15d8a4009f33b1412e8deace1f9eda5"
     },
     {
       "Patchers": [
