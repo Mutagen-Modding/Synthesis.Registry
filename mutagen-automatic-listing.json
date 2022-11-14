@@ -302,6 +302,29 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "BaboKeywordPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "BaboKeywordPatcher/BaboKeywordPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/7561884?s=40\u0026amp;v=4",
+      "User": "MinLL",
+      "Repository": "BaboKeywordPatcher",
+      "Sha": "fc36bcb222355d720931a30bba325dd593fa6262"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "BDSPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Better Dynamic Snow v2.x Synthesis Patcher for Skyrim SE",
