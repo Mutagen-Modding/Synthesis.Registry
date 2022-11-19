@@ -2787,7 +2787,13 @@
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE"
+            ]
           },
           "ProjectPath": "LoadScreenGen/LoadScreenGen.csproj",
           "IncludedLibraries": [
@@ -2798,7 +2804,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
       "User": "Jampi0n",
       "Repository": "Skyrim-LoadingScreenGenerator",
-      "Sha": "b6f37fc7156d3f31285e0d43790f4a47cc549552"
+      "Sha": "b5fc9ade307f42abcede11e12d9cc4194c066be1"
     },
     {
       "Patchers": [
