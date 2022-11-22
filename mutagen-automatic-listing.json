@@ -3263,11 +3263,27 @@
       "Sha": "373b1626a956093ee704f30806aa59625e59810f"
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynAlternateCustomSkills",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis Patcher for NetFramework based Custom Skill Trees",
+            "LongDescription": "Generates the necesscary data for a NetFramework skill tree to work in Alternate Custom Skill Framework",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynACSF/SynPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynACSF",
-      "Sha": "47cb99a1ff9a9c45c4cd586ede07b5966c526be1"
+      "Sha": "adc7b7f83890b1c0147b1a8d9e1ce2e57af59b7a"
     },
     {
       "Patchers": [
