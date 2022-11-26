@@ -4434,6 +4434,20 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "WaterForENBPatcher/WaterForENBPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/19256781?s=40\u0026amp;v=4",
+      "User": "panthuncia",
+      "Repository": "WaterForENBPatcher",
+      "Sha": "2417d1c5545acdc641252fa5ee7b4030f4500f0a"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "WeaponSpeedEffectsFix",
             "Visibility": "Visible",
