@@ -4120,6 +4120,20 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "Scanner/Scanner.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/7157411?s=40\u0026amp;v=4",
+      "User": "philipykim",
+      "Repository": "SynthesisScanner",
+      "Sha": "088ccb73fad04a2018a98bc6c1506bcbe92a43f6"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "SynthNPCsWithFaces",
             "Visibility": "Visible",
@@ -4208,7 +4222,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynWeaponKeywords",
-      "Sha": "b03859e20060574a16adc4b6191f5f46d5a4985b"
+      "Sha": "d1679966bc3b6224290890ddefa4a39c33af3048"
     },
     {
       "Patchers": [],
