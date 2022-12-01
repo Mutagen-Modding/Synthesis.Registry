@@ -3358,6 +3358,35 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "TokcDK/SynAutomaticPerks",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis implementation of ASIS AutomaticPerks patcher with additional features and fixes",
+            "LongDescription": "Adds additional perks for npcs around Skyrim.\nUse npc stats to set valid perks and because is more correct will be to move the patcher after any other patchers that changing npc stats.\nIt using not only native settings but also ASIS ini files. When file \\Data\\SkyProc Patchers\\ASIS\\AutomaticPerks.ini is exist, parameters from it will be read from into settings before patching.\n\nUse only one Synthesis or ASIS patcher.\n\nOriginal ASIS patcher LE - https://nexusmods.com/skyrim/mods/18436\nASIS Improved ini - https://www.nexusmods.com/skyrim/mods/53047\nAutomatic spells - https://github.com/TokcDK/SynAutomaticSpells",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE"
+            ]
+          },
+          "ProjectPath": "SynAutomaticPerks/SynAutomaticPerks.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynAutomaticPerks",
+      "Sha": "6f3b865e86f8ff3e17239e2272613c45911eac4b"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynAutomaticSpells",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "Synthesis implementation of ASIS AutomaticSpells patcher with additional features and fixes.",
@@ -3765,7 +3794,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
       "User": "TokcDK",
       "Repository": "SynHeelsSoundAdd",
-      "Sha": "555b16c19e210ee5ee8a6f5de17fc822433dcd32"
+      "Sha": "8e9fd7e2b029e2fdfcacce4695016229f6433054"
     },
     {
       "Patchers": [
