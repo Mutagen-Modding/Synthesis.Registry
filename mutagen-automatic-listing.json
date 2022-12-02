@@ -1297,6 +1297,31 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "DoubleYouC/HasDistantLOD",
+            "Visibility": "Visible",
+            "OneLineDescription": "Removes HasDistantLOD flag from static records.",
+            "LongDescription": "Removes HasDistantLOD flag from static records.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "HasDistantLOD/HasDistantLOD.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/66910033?s=40\u0026amp;v=4",
+      "User": "DoubleYouC",
+      "Repository": "HasDistantLOD",
+      "Sha": "59166a08e666600d02950cb5b637acae83dfc919"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "HeightsOfSkyrim",
             "Visibility": "Visible",
             "OneLineDescription": "Compatability patcher between Heights of Skyrim mod and NPC Overhauls",
