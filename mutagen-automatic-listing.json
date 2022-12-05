@@ -4312,6 +4312,37 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Super-Shadow/TreeScaler",
+            "Visibility": "Visible",
+            "OneLineDescription": "Tree Scaler",
+            "LongDescription": "Rescales all the user defined trees by a user defined amount.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Oblivion",
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "Fallout4",
+              "EnderalLE",
+              "EnderalSE"
+            ]
+          },
+          "ProjectPath": "TreeScaler/TreeScaler.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/9903072?s=40\u0026amp;v=4",
+      "User": "Super-Shadow",
+      "Repository": "TreeScaler",
+      "Sha": "bfb998cb72328570b10c044cf676b4b553fe6548"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "True Unleveled Skyrim",
             "Visibility": "Visible",
             "OneLineDescription": "A large collection of features to unlevel your game like never before with a lot of compatibility to boot.",
