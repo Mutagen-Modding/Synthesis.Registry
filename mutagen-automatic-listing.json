@@ -1030,6 +1030,156 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "FO4ClarityPatch",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "FO4ClarityPatch/FO4ClarityPatch.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/7130836?s=40\u0026amp;v=4",
+      "User": "tstavrianos",
+      "Repository": "FO4ClarityPatch",
+      "Sha": "66cf5945f80cca6db54ce52465ed31504aa0f1ec"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "FO4DelevelerPatch",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "FO4DelevelerPatch/FO4DelevelerPatch.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/7130836?s=40\u0026amp;v=4",
+      "User": "tstavrianos",
+      "Repository": "FO4DelevelerPatch",
+      "Sha": "7f09117ebd1cfb787a954848c0a0ab0588057c4f"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "FO4ECOPatch",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "FO4ECOPatch/FO4ECOPatch.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/7130836?s=40\u0026amp;v=4",
+      "User": "tstavrianos",
+      "Repository": "FO4ECOPatch",
+      "Sha": "ccba033efb564b499ef32e02a5ec1d6da5f76b58"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "FO4StandaloneWorkbenchesPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "FO4StandaloneWorkbenchesPatcher/FO4StandaloneWorkbenchesPatcher.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/7130836?s=40\u0026amp;v=4",
+      "User": "tstavrianos",
+      "Repository": "FO4StandaloneWorkbenchesPatcher",
+      "Sha": "3ac1ca866cee12fd58d3aeb278d3eee9676bc3bf"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "FO4SwitchLightShadows",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "FO4SwitchLightShadows/FO4SwitchLightShadows.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/7130836?s=40\u0026amp;v=4",
+      "User": "tstavrianos",
+      "Repository": "FO4SwitchLightShadows",
+      "Sha": "af6cd2c44f8637bd82869467f3ac1ce2795be767"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "FO4WeightlessItemsPatch",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "FO4WeightlessItemsPatch/FO4WeightlessItemsPatch.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/7130836?s=40\u0026amp;v=4",
+      "User": "tstavrianos",
+      "Repository": "FO4WeightlessItemsPatch",
+      "Sha": "8cf319ce22d306aed8dc182d8b7905256dc8c93c"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Respect My Body (Slide)",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "Remove custom bodies from NPC mods, so that they all use the PC/default body.",
