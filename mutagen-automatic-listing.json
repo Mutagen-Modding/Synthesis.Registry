@@ -4144,7 +4144,9 @@
             "LongDescription": "https://www.nexusmods.com/skyrimspecialedition/mods/73314",
             "PreferredAutoVersioning": "LatestTag",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
           },
           "ProjectPath": "SynNotSoSalty/SynNotSoSalty.csproj",
           "IncludedLibraries": [
@@ -4155,7 +4157,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
       "User": "Michael-wigontherun",
       "Repository": "SynNotSoSalty",
-      "Sha": "260b9fe26a5738a73dcf346ce360fe6ff6ec15fc"
+      "Sha": "43ffee7133b0b1bdbef8f0c4852f7259711889c6"
     },
     {
       "Patchers": [
