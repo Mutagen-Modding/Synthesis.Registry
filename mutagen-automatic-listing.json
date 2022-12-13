@@ -372,6 +372,31 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "Complete_Alchemy_\u0026_Cooking_Overhaul_Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Merges CACO changes into the winning override.",
+            "LongDescription": "- Forwards/merges (whichever makes sense for the record type) CACO\u0027s changes into Synthesis.esp. All modules can be disabled individually in settings.\u0027",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Complete Alchemy \u0026 Cooking Overhaul.esp"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "CACO_Patcher/CACO_Patcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/19256781?s=40\u0026amp;v=4",
+      "User": "panthuncia",
+      "Repository": "CACO_Patcher",
+      "Sha": "4c65eb9da87ff5d42075c59ebd467f0de6ee968e"
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "BookUUNPCBPCKeywords/BookUUNPCBPCKeywords.csproj",
           "IncludedLibraries": [
             "Skyrim"
