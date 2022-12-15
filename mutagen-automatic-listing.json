@@ -1228,6 +1228,31 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "FOLIP",
+            "Visibility": "Visible",
+            "OneLineDescription": "Controls some LOD related tasks for FOLIP.",
+            "LongDescription": "Controls some LOD related tasks for Far Object LOD Improvement Project.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "FOLIP/FOLIP.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/66910033?s=40\u0026amp;v=4",
+      "User": "DoubleYouC",
+      "Repository": "FOLIP",
+      "Sha": "bac1bbbeaccf3d33e651ca006f9411d963df45bf"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "FollowerFavorCarryLimitPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Applies Follower Favor Carry Limit from Andrealphus\u0027 Gameplay Tweaks to all potential followers.",
@@ -1472,7 +1497,7 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "DoubleYouC/HasDistantLOD",
+            "Nickname": "HasDistantLOD",
             "Visibility": "Visible",
             "OneLineDescription": "Removes HasDistantLOD flag from static records.",
             "LongDescription": "Removes HasDistantLOD flag from static records.",
@@ -1491,7 +1516,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/66910033?s=40\u0026amp;v=4",
       "User": "DoubleYouC",
       "Repository": "HasDistantLOD",
-      "Sha": "59166a08e666600d02950cb5b637acae83dfc919"
+      "Sha": "8d82c7e3cddf35abdb4797b3020d4bc315d7cd84"
     },
     {
       "Patchers": [
