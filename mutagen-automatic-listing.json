@@ -3560,6 +3560,35 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "TokcDK/SynAddNpcReplacerAsTheNewNpc",
+            "Visibility": "Visible",
+            "OneLineDescription": "For npc replacers auto create the new npcs",
+            "LongDescription": "Synthesis patcher.\nChanges skin model path data to use models from standard to replacers path\nand creates a new npcs next to original with uniwue appearance from replacer.\nAffects also installed mods.\n\nSee the example mod in the patcher settings",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE"
+            ]
+          },
+          "ProjectPath": "SynAddNpcModelReplacerAsTheNewNpc/SynAddNpcModelReplacerAsTheNewNpc.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynAddNpcReplacerAsTheNewNpc",
+      "Sha": "65918a599d78066233e91c7e876bed1ddc71adec"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynArmorAAFixMissingGenderWorldModel",
             "Visibility": "Visible",
             "OneLineDescription": "Autofll missing world model path for only male/female armors",
