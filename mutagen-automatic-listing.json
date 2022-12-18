@@ -3561,7 +3561,7 @@
         {
           "Customization": {
             "Nickname": "TokcDK/SynAddNpcReplacerAsTheNewNpc",
-            "Visibility": "Visible",
+            "Visibility": "IncludeButHide",
             "OneLineDescription": "For npc replacers auto create the new npcs",
             "LongDescription": "Synthesis patcher.\nChanges skin model path data to use models from standard to replacers path\nand creates a new npcs next to original with uniwue appearance from replacer.\nAffects also installed mods.\n\nSee the example mod in the patcher settings",
             "PreferredAutoVersioning": "Default",
@@ -3583,7 +3583,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
       "User": "TokcDK",
       "Repository": "SynAddNpcReplacerAsTheNewNpc",
-      "Sha": "169655e0dbb4fca2e0f39561118f0d481935d129"
+      "Sha": "83213ef36f7c6b2af486a13fc0a45fd6a87387d1"
     },
     {
       "Patchers": [
