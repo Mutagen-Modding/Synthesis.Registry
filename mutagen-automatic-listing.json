@@ -1055,10 +1055,10 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "FO4ClarityPatch",
+            "Nickname": "Clarity Patcher",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Clarity Patcher",
+            "LongDescription": "Alter cell record fog settings to match those of Clarity. Use the settings from either Clarity 3.1 True Storms Version or Clarity 4.2",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -1074,16 +1074,16 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/7130836?s=40\u0026amp;v=4",
       "User": "tstavrianos",
       "Repository": "FO4ClarityPatch",
-      "Sha": "66cf5945f80cca6db54ce52465ed31504aa0f1ec"
+      "Sha": "ac2fce6db2950688535c02b09b12687ffcb92612"
     },
     {
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "FO4DelevelerPatch",
+            "Nickname": "Npc Auto Scaling",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Npc Auto Scaling",
+            "LongDescription": "Set all NPC and Encounter Zones to be scaled to the player level.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -1099,18 +1099,20 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/7130836?s=40\u0026amp;v=4",
       "User": "tstavrianos",
       "Repository": "FO4DelevelerPatch",
-      "Sha": "7f09117ebd1cfb787a954848c0a0ab0588057c4f"
+      "Sha": "468cebfeec20a9e22c2eebdeca3dde5dc349fe20"
     },
     {
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "FO4ECOPatch",
+            "Nickname": "ECO Patcher",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "ECO Patcher",
+            "LongDescription": "Equipment and Crafting Overhaul (ECO) Patcher",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
+            "RequiredMods": [
+              "ECO.esp"
+            ],
             "TargetedReleases": [
               "Fallout4"
             ]
@@ -1124,18 +1126,20 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/7130836?s=40\u0026amp;v=4",
       "User": "tstavrianos",
       "Repository": "FO4ECOPatch",
-      "Sha": "23f06fcc3639dfc5f6b4551af726ef3eda357c1f"
+      "Sha": "80b5a481dace73dc5e8401185deb6fc1c814f6c0"
     },
     {
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "FO4StandaloneWorkbenchesPatcher",
+            "Nickname": "Standalone Workbenches Patcher",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Standalone Workbenches Patcher",
+            "LongDescription": "Modifies recipes to use Standalone Workbenches.",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
+            "RequiredMods": [
+              "StandaloneWorkbenches.esl"
+            ],
             "TargetedReleases": [
               "Fallout4"
             ]
@@ -1149,16 +1153,16 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/7130836?s=40\u0026amp;v=4",
       "User": "tstavrianos",
       "Repository": "FO4StandaloneWorkbenchesPatcher",
-      "Sha": "3ac1ca866cee12fd58d3aeb278d3eee9676bc3bf"
+      "Sha": "53f75642cec05d81235fa8455985dc1c0edb0a0b"
     },
     {
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "FO4SwitchLightShadows",
+            "Nickname": "Switch Light Shadows",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Switch Light Shadows",
+            "LongDescription": "Switch lights in all interior cells between NonShadowSpotlight and ShadowSpotlight.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -1174,16 +1178,16 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/7130836?s=40\u0026amp;v=4",
       "User": "tstavrianos",
       "Repository": "FO4SwitchLightShadows",
-      "Sha": "af6cd2c44f8637bd82869467f3ac1ce2795be767"
+      "Sha": "add9ea7edb76b4f885295a680ce48d1729498e03"
     },
     {
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "FO4WeightlessItemsPatch",
+            "Nickname": "Weightless Items Patcher",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Weightless Items Patcher",
+            "LongDescription": "Sets the weight of all chosen item types to zero.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -1199,7 +1203,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/7130836?s=40\u0026amp;v=4",
       "User": "tstavrianos",
       "Repository": "FO4WeightlessItemsPatch",
-      "Sha": "8cf319ce22d306aed8dc182d8b7905256dc8c93c"
+      "Sha": "10dcbef5a4dcb028c87fab1d1956daab1991ef96"
     },
     {
       "Patchers": [
