@@ -1638,6 +1638,48 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "HunterbornExtender_",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis derivation of ZEdit Hunterborn Patcher",
+            "LongDescription": "Requires Hunterborn MCM (and its dependencies) from https://www.nexusmods.com/skyrimspecialedition/mods/17993.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Hunterborn.esp"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "HunterbornExtender/HunterbornExtender.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "Customization": {
+            "Nickname": "HunterbornExtender",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis derivation of ZEdit Hunterborn Patcher",
+            "LongDescription": "Requires Hunterborn MCM (and its dependencies) from https://www.nexusmods.com/skyrimspecialedition/mods/17993.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Hunterborn.esp"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "HunterbornExtenderUI/HunterbornExtenderUI.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "HunterbornExtender",
+      "Sha": "b424eb67016eb62e9cd875b0ccfee0b09dda5d49"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ICAIO AI for Mods",
             "Visibility": "Visible",
             "OneLineDescription": "ICAIO AI for Mods",
