@@ -1251,7 +1251,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/66910033?s=40\u0026amp;v=4",
       "User": "DoubleYouC",
       "Repository": "FOLIP",
-      "Sha": "faaee9e6cb75949dd44ae33a4500a9839eafa4ae"
+      "Sha": "fdd4b625d208b0b0f92e9e44d90aabaea49ca97c"
     },
     {
       "Patchers": [
@@ -4561,29 +4561,6 @@
       "User": "Noggog",
       "Repository": "TestPatcher",
       "Sha": "c8efae40697b69e7abbfa9ee58f86477a5b221a6"
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "TMOPatcher",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "TMOPatcher/TMOPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/556678?s=40\u0026amp;v=4",
-      "User": "jdsmith2816",
-      "Repository": "tmopatcher",
-      "Sha": "66970b82103297cf43f85cd6d36e48e6cf0f929d"
     },
     {
       "Patchers": [
