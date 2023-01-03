@@ -2005,6 +2005,31 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "rewilson/LMsSimpleSyns",
+            "Visibility": "Visible",
+            "OneLineDescription": "Modify how much skill XP you gain from using each skill, and how much is needed to advance to the next level.",
+            "LongDescription": "This is just a Synthesis implemetation of tjhm4\u0027s XP Editor zEdit script: https://www.nexusmods.com/skyrimspecialedition/mods/24356\u0027",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "XpEditorForSynthesis/XpEditorForSynthesis.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/13723217?s=40\u0026amp;v=4",
+      "User": "rewilson",
+      "Repository": "LMsSimpleSyns",
+      "Sha": "471179179ce7acabbc02abca2ac97d17126bc0f0"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "LootableCrates",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis Patcher that changes static crates into lootable containers.",
@@ -3554,7 +3579,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynACSF",
-      "Sha": "a48f8d0a18d852a8ad18110c27cb7e6c6a4d6d64"
+      "Sha": "91b6ce3e15f53ca0ca90f7a0884b58f7475ef81e"
     },
     {
       "Patchers": [
