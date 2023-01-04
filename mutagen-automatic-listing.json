@@ -4591,10 +4591,10 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Super-Shadow/TreeScaler",
+            "Nickname": "Tree Scaler",
             "Visibility": "Visible",
             "OneLineDescription": "Tree Scaler",
-            "LongDescription": "Rescales all the user defined trees by a user defined amount.",
+            "LongDescription": "Rescale user selected trees by a user defined amount for each tree or random amount within a user specified range.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -4616,7 +4616,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/9903072?s=40\u0026amp;v=4",
       "User": "Super-Shadow",
       "Repository": "TreeScaler",
-      "Sha": "bfb998cb72328570b10c044cf676b4b553fe6548"
+      "Sha": "f99a82b0321f13c89acc758c506b711bc94ba2dc"
     },
     {
       "Patchers": [
