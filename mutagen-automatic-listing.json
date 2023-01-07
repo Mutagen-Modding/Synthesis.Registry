@@ -1767,7 +1767,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/8077005?s=40\u0026amp;v=4",
       "User": "praecipitator",
       "Repository": "ItemAutoTagger",
-      "Sha": "bf09df1a14344e8f71c92f4cd26e2e0e305ae922"
+      "Sha": "d4392a8fe0addc7ec65a395288778e9c8c919b2b"
     },
     {
       "Patchers": [
@@ -2130,7 +2130,9 @@
             "LongDescription": "Makes items weightless by type. \r\n\r\nTypes are: Misc Items, Ammo, Holotapes, Keys, Notes, Ingestibles, Weapons, Armor\u0026Clothing\r\nBe aware that for the last two categories this only affects the base weight. Modifications might still increase it.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "Fallout4"
+            ]
           },
           "ProjectPath": "MakeItemsWeightless/MakeItemsWeightless.csproj",
           "IncludedLibraries": [
@@ -2141,7 +2143,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/8077005?s=40\u0026amp;v=4",
       "User": "praecipitator",
       "Repository": "MakeItemsWeightless",
-      "Sha": "1f4417f9850affee45900f5280d876a2bfc113a3"
+      "Sha": "7d4dc150eac2be9c62e93844ee88789d0943a12b"
     },
     {
       "Patchers": [
