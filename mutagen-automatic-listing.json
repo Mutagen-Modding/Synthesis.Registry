@@ -2143,7 +2143,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/8077005?s=40\u0026amp;v=4",
       "User": "praecipitator",
       "Repository": "MakeItemsWeightless",
-      "Sha": "7d4dc150eac2be9c62e93844ee88789d0943a12b"
+      "Sha": "6e462a6614b9e90eea28db591ad47108caa933b9"
     },
     {
       "Patchers": [
@@ -2155,7 +2155,9 @@
             "LongDescription": "Assigns scrap components to loose object modifications, based on the crafting recipe.\r\nRelevant for Weapon, Armor, or Robot mods.\r\n\r\nUnder Settings, you can set a \u0022return factor\u0022, and which components to skip. \r\nThe default factor is 0.75, this means, 75% of the amount of any crafting component will be included in the loose mod.\r\n",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "Fallout4"
+            ]
           },
           "ProjectPath": "MakeModsScrappable/MakeModsScrappable.csproj",
           "IncludedLibraries": [
@@ -2166,7 +2168,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/8077005?s=40\u0026amp;v=4",
       "User": "praecipitator",
       "Repository": "MakeModsScrappable",
-      "Sha": "412a4cf49f790c4bd6acb8875c8ed79ac11a7bc5"
+      "Sha": "4516cf2da6920267b534ab81ec591ca859e8d080"
     },
     {
       "Patchers": [
@@ -4908,7 +4910,9 @@
             "RequiredMods": [
               "OWM-Master.esl"
             ],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "Fallout4"
+            ]
           },
           "ProjectPath": "WorkbenchOrganizer/WorkbenchOrganizer.csproj",
           "IncludedLibraries": [
@@ -4919,7 +4923,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/8077005?s=40\u0026amp;v=4",
       "User": "praecipitator",
       "Repository": "WorkbenchOrganizer",
-      "Sha": "66b40490d0f2bb87d1caaeecf6959803b328aa12"
+      "Sha": "8187279033d90aa5058454d5ec4b7327cd2db26d"
     },
     {
       "Patchers": [
