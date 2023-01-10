@@ -1392,11 +1392,9 @@
             "PreferredAutoVersioning": "LatestTag",
             "RequiredMods": [],
             "TargetedReleases": [
-              "Oblivion",
               "SkyrimLE",
               "SkyrimSE",
               "SkyrimVR",
-              "Fallout4",
               "EnderalLE",
               "EnderalSE"
             ]
@@ -1410,7 +1408,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
       "User": "radj307",
       "Repository": "GrassFPS",
-      "Sha": "df4545b0b7100b3b3a29f2682a1f6748ca05615a"
+      "Sha": "c5bda03497832a4bce77304c2ca2828c9bb37db3"
     },
     {
       "Patchers": [
