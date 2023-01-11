@@ -3606,7 +3606,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynACSF",
-      "Sha": "98fde2f1d59c3682b68b0b92777f445876577d77"
+      "Sha": "a48fb7276d2f3f44c4ccac27f7c10bc03e202772"
     },
     {
       "Patchers": [
@@ -3827,7 +3827,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynBundler",
-      "Sha": "9c96633b2d8d89f91c083bdeda42dd64f19998ff"
+      "Sha": "7f34d6aeb468efea6aa98b0286d3195df9b6a37b"
     },
     {
       "Patchers": [
@@ -3850,7 +3850,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynCGOStavesPatcher",
-      "Sha": "99c0263b8003829f48374c1f5262a2552f16eb80"
+      "Sha": "6134a31e50f89c9725ccc6b6707a795376c04f11"
     },
     {
       "Patchers": [
@@ -4117,7 +4117,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynFloraFix",
-      "Sha": "e625705d84ab0d69af64b4ec24f8edafe03ec766"
+      "Sha": "9eb35b64f4e08994fbee1e817b072acc2d269298"
     },
     {
       "Patchers": [
@@ -4194,7 +4194,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynHelmsWithCirclets",
-      "Sha": "629d7503d76fb800dbf433082c3ae6c62414e0da"
+      "Sha": "dc2b47ae8ea33ed796b2f17d16bbd3bffcd879db"
     },
     {
       "Patchers": [
@@ -4217,7 +4217,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynInvisibleHelmets",
-      "Sha": "a3819dce5a1b297006ad73c4480a2ffa064b6a5f"
+      "Sha": "10eec263185b882a3121e74bc3555bca2f8d2a0e"
     },
     {
       "Patchers": [
@@ -4240,7 +4240,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynKeywordDistributor",
-      "Sha": "8b5a7e1b877564b2877764c1515dd0c4e81af786"
+      "Sha": "742004944fbddff7b67a2164961a2af82ff9f623"
     },
     {
       "Patchers": [
@@ -4263,7 +4263,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynLoadscreenRemover",
-      "Sha": "a35db13fc16207e4a64fafed960c2cbbbefbdf90"
+      "Sha": "afd5b86bfc2733eecccb854be7668f37c7da2644"
     },
     {
       "Patchers": [
@@ -4286,7 +4286,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynNoEnchantmentRestrictions",
-      "Sha": "63a00d17f288694fa59d25739ec29bbd59fc0990"
+      "Sha": "f344b573ee9eca4608425128ddb871e915d2fe9b"
     },
     {
       "Patchers": [
@@ -4431,7 +4431,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynPotionWeight",
-      "Sha": "2bf3749f03ac077e3f7a91587073eb258825e6c9"
+      "Sha": "55e10d186cb5e979f7b184f85f4c70e9d1c551e1"
     },
     {
       "Patchers": [
@@ -4492,6 +4492,29 @@
       "User": "zVcXr",
       "Repository": "SynSpellTomeFreeLeveledLists",
       "Sha": "a8b1db678455f5afc65f4f1d533233f7791f21a9"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynLighting",
+            "Visibility": "Visible",
+            "OneLineDescription": "Does the standard lighting templater",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynLT/SynPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynStandardLightingTemplates",
+      "Sha": "2145837fa693d610c81b7a8e81d0ebf53bfc2652"
     },
     {
       "Patchers": [],
@@ -4580,7 +4603,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynTweakEngine",
-      "Sha": "0c6a6a45736d0ff851d52ba783884cf43d4fdf8a"
+      "Sha": "6627daad6dcc17930b0ae15ede1eafc8fdecbe9b"
     },
     {
       "Patchers": [
@@ -4605,7 +4628,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynWeaponKeywords",
-      "Sha": "ad18e8f588dd19c950bf6d8de54f8a6167eed0f8"
+      "Sha": "ce6cc62c45696d3c4774fb10660984d5b1a12499"
     },
     {
       "Patchers": [],
