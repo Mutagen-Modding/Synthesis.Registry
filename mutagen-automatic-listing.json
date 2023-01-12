@@ -3060,6 +3060,29 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "ArmoryRebalance",
+            "Visibility": "Visible",
+            "OneLineDescription": "Increases the difference between item tiers (Iron, Steel, etc.), so that item tier matters more.",
+            "LongDescription": "In vanilla Skyrim the difference between low tier items (e.g. Iron) and high tier items (e.g. Daedric) is quite small. A Daedric Helmet has only 50% more armor than an Iron Helmet. As a result, perks, enchantments and tempering often has a bigger impact on damage/armor than the item tier itself. By increasing the difference between the item tiers, finding higher tier items becomes more rewarding.\r\n\r\nSide effect: Enemies with high tier items will also deal more (sometimes a lot more) damage.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "ArmoryRebalance/ArmoryRebalance.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
+      "User": "Jampi0n",
+      "Repository": "Skyrim-ArmoryRebalance",
+      "Sha": "fb5a0fdbca76c6ce4b946fdb12d66c36cb6da9c0"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Arrow Damage Scaling",
             "Visibility": "Visible",
             "OneLineDescription": "Makes Perks, Enchantments, Potions, Archery Level and other bow damage increasing effects also affect arrow damage, so that stronger arrows are still useful in the late game.",
