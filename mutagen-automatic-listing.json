@@ -4689,6 +4689,29 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "TMOPatcher",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "TMOPatcher/TMOPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
+      "User": "JanuarySnow",
+      "Repository": "tmopatcher",
+      "Sha": "66970b82103297cf43f85cd6d36e48e6cf0f929d"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Tree Scaler",
             "Visibility": "Visible",
             "OneLineDescription": "Tree Scaler",
