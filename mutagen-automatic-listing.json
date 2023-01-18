@@ -4602,11 +4602,18 @@
       "Sha": "2145837fa693d610c81b7a8e81d0ebf53bfc2652"
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "ProjectPath": "BatchConfigUpdater/BatchConfigUpdater.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthEBD",
-      "Sha": "5206ba004b7a1ccff2d82bdb024c45c306f416ab"
+      "Sha": "0b716734da5dc9e2da65bc2313f814a4772ba379"
     },
     {
       "Patchers": [],
