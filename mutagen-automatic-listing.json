@@ -1302,18 +1302,11 @@
       "Sha": "acb76225cf0ff6c88e3ff708457c531b9fbe3128"
     },
     {
-      "Patchers": [
-        {
-          "ProjectPath": "FoodRemoverPlus/FoodRemoverPlus.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/34091472?s=40\u0026amp;v=4",
       "User": "Coyote21",
       "Repository": "Food-Remover-Plus",
-      "Sha": "c033fb4253463888140333bbe5100820c064a99f"
+      "Sha": "9d1293c0b5b2688e254f2ed9dc70f20af444523e"
     },
     {
       "Patchers": [
