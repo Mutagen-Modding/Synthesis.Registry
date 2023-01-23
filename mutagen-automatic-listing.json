@@ -2749,6 +2749,20 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "PlayableHeadPartsPatcher/PlayableHeadPartsPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/123373672?s=40\u0026amp;v=4",
+      "User": "Ghos71y",
+      "Repository": "PlayableHeadPartsPatcher",
+      "Sha": "b8b3699dab10a05d629aafddbe0b1af5183dae9a"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "PresetChecker",
             "Visibility": "Visible",
