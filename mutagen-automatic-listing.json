@@ -145,6 +145,31 @@
       "Sha": "4498b9adb1979e03ea7b7cd8f83addfa297cd18d"
     },
     {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "AllHeadPartsAllRacesPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "AllHeadPartsAllRacesPatcher/AllHeadPartsAllRacesPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/123373672?s=40\u0026amp;v=4",
+      "User": "Ghos71y",
+      "Repository": "AllHeadPartsAllRacesPatcher",
+      "Sha": "2b5c6db84c69c23c3968446c7f53dbc2f74bf093"
+    },
+    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/31917025?s=40\u0026amp;v=4",
       "User": "Charmed4321",
