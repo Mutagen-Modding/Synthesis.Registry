@@ -167,7 +167,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/123373672?s=40\u0026amp;v=4",
       "User": "Ghos71y",
       "Repository": "AllHeadPartsAllRacesPatcher",
-      "Sha": "2b5c6db84c69c23c3968446c7f53dbc2f74bf093"
+      "Sha": "7e23bdb554195c8072a35234f5c4487dc685f3c4"
     },
     {
       "Patchers": [],
@@ -2774,20 +2774,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "PlayableHeadPartsPatcher/PlayableHeadPartsPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/123373672?s=40\u0026amp;v=4",
-      "User": "Ghos71y",
-      "Repository": "PlayableHeadPartsPatcher",
-      "Sha": "b8b3699dab10a05d629aafddbe0b1af5183dae9a"
-    },
-    {
-      "Patchers": [
-        {
           "Customization": {
             "Nickname": "PresetChecker",
             "Visibility": "Visible",
@@ -4645,7 +4631,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthEBD",
-      "Sha": "9a430221ed10fc608b527ae8e1a78dd68602791d"
+      "Sha": "9c2917a0202405fe35a09522dd6cdbb4d3b7de86"
     },
     {
       "Patchers": [],
