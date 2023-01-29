@@ -2446,6 +2446,20 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "MuzzleItPatcher/MuzzleItPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/29824718?s=40\u0026amp;v=4",
+      "User": "krypto5863",
+      "Repository": "Muzzle-It-Patcher",
+      "Sha": "918b7085716a7b4af0c87aaa0b7d7c4d13a81d72"
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "NoShadowsPatch",
             "Visibility": "Visible",
