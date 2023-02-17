@@ -3393,6 +3393,31 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "rartorata/SkyTranslate",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE"
+            ]
+          },
+          "ProjectPath": "SkyTranslate/SkyTranslate.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/30222962?s=40\u0026amp;v=4",
+      "User": "rartorata",
+      "Repository": "SkyTranslate",
+      "Sha": "55413f760d6c8bbf0923e3f548312b6ca9f879cf"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SkyUIWeaponIconPatcher",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "SkyUI Weapons Pack Icon patcher",
