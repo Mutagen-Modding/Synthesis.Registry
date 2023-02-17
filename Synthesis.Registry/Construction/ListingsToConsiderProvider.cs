@@ -4,6 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using GitHubDependents;
 using Noggog.WorkEngine;
+using Synthesis.Bethesda.DTO;
 using Synthesis.Registry.MutagenScraper.Args;
 using Synthesis.Registry.MutagenScraper.Dto;
 using Synthesis.Registry.MutagenScraper.Github;
@@ -83,11 +84,19 @@ public class ListingsToConsiderProvider
 
         if (_shortCircuitOnShaProvider.ShouldShortCircuit
             && _existingListingsProvider.RepositoryDictionary.Value.TryGetValue(ret.Key, out var existing)
-            && existing.Sha == sha)
+            && ShouldShortCircuit(existing, sha))
         {
             return null!;
         }
 
         return ret;
+    }
+
+    private bool ShouldShortCircuit(RepositoryListing existing, string sha)
+    {
+        if (existing.Sha != sha) return false;
+        if (!_shortCircuitOnShaProvider.RunInvalidation.HasValue) return true;
+        if (!existing.LastUpdatedRunNumber.HasValue) return false;
+        return _shortCircuitOnShaProvider.RunInvalidation.Value < existing.LastUpdatedRunNumber.Value;
     }
 }

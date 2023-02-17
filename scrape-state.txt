@@ -41,12 +41,16 @@
         Set to exclude
 [X] coldrifting/ItemRenamer
     [X] ItemRenamer/ItemRenamer.csproj
+[X] Coyote21/Food-Remover-Plus
+    [X] FoodRemoverPlus/FoodRemoverPlus.csproj
 [X] Coyote21/FoodRemover
     [X] FoodRemover/FoodRemover.csproj
 [X] CramMods/NPCMiddleMan
     [X] NPCMiddleMan/NPCMiddleMan.csproj
 [X] CramMods/STUMP
     [X] CramMods.STUMP/CramMods.STUMP.csproj
+[X] CritLoren/LootableThings-TrainingDummies-Patcher
+    [X] LootableThings-Dummy-Patcher/LootableThings-Dummy-Patcher.csproj
 [X] cuyima/MaleAAGenerator
     [X] MaleAAGenerator/MaleAAGenerator.csproj
 [X] D7ry/SynTranslator
@@ -65,10 +69,16 @@
         Set to exclude
 [X] Deigue/SkyUIWeaponIconPatcher
     [X] SynWeaponKeywords/SynWeapType.csproj
+[X] DoubleYouC/FOLIP
+    [X] FOLIP/FOLIP.csproj
+[X] DoubleYouC/HasDistantLOD
+    [X] HasDistantLOD/HasDistantLOD.csproj
 [X] Excinerus/AI-Overhaul-Patcher
     [X] AIOverhaulPatcher/AIOverhaulPatcher.csproj
 [X] ExpensiveLadder/Enchanted-Variants-Generater
     [X] EnchantedVariantsGenerater/EnchantedVariantsGenerater.csproj
+[X] ExpensiveLadder/Gender-Neutral-Dialogue-Patcher
+    [X] GenderDialoguePatch/GenderDialoguePatch.csproj
 [X] ExpensiveLadder/ImCh-Patcher
     [X] ImChPatcher/ImChPatcher.csproj
 [X] ExpensiveLadder/No-Shadows-Patch
@@ -87,6 +97,8 @@
     [X] CreateTemper/CreateTemper.csproj
 [X] focustense/FocusPatchers
     [X] RespectMyBodySlide/RespectMyBodySlide.csproj
+[X] Ghos71y/AllHeadPartsAllRacesPatcher
+    [X] AllHeadPartsAllRacesPatcher/AllHeadPartsAllRacesPatcher.csproj
 [X] Glanzer-modder/NoStartingMapMarkers
     [X] NoStartingMapMarkers/NoStartingMapMarkers.csproj
 [X] halgari/HalgarisRPGLoot
@@ -123,7 +135,7 @@
 [X] ixanza/SynOpenWorldLoot
     [X] OWLPatcher/OWLPatcher.csproj
 [X] Jampi0n/Skyrim-ArmoryRebalance
-    [X] ArmoryRebalance/ArmoryRebalance/ArmoryRebalance.csproj
+    [X] ArmoryRebalance/ArmoryRebalance.csproj
 [X] Jampi0n/Skyrim-ArrowDamageScaling
     [X] ArrowDamageScaling/ArrowDamageScaling.csproj
 [X] Jampi0n/Skyrim-DisableVanillaLoadingScreens
@@ -132,6 +144,8 @@
     [X] Skyrim-LeveledLoot/LeveledLoot.csproj
 [X] Jampi0n/Skyrim-LoadingScreenGenerator
     [X] LoadScreenGen/LoadScreenGen.csproj
+[X] Jampi0n/Skyrim-NifPatcher
+    [X] NifPatcher/NifPatcher.csproj
 [X] Jampi0n/Skyrim-PassiveEnchantingXP
     [X] PassiveEnchantingXP/PassiveEnchantingXP.csproj
 [X] Jampi0n/Skyrim-RemoveLandscapeVertexColor
@@ -146,17 +160,24 @@
     [X] shadowmark_patcher/shadowmark_patcher.csproj
 [X] JanuarySnow/Spelltome-Yeeter
     [X] spelltome_yeeter/spelltome_yeeter.csproj
+[X] JanuarySnow/tmopatcher
+    [X] TMOPatcher/TMOPatcher.csproj
 [X] jdsmith2816/tmopatcher
     [X] TMOPatcher/TMOPatcher.csproj
+[X] krypto5863/Muzzle-It-Patcher
+    [X] MuzzleItPatcher/MuzzleItPatcher.csproj
 [X] m-vlad/LootableThings-TrainingDummies-Patcher
     [X] LootableThings-Dummy-Patcher/LootableThings-Dummy-Patcher.csproj
 [X] Michael-wigontherun/craftingFurnitureEXP
     [X] craftingFurnitureEXP/craftingFurnitureEXP.csproj
+[X] Michael-wigontherun/SynEDIDFixer
+    [X] SynEDIDFixer/SynEDIDFixer.csproj
+[X] Michael-wigontherun/SynNotSoSalty
+    [X] SynNotSoSalty/SynNotSoSalty.csproj
 [X] Michael-wigontherun/SynthesisRandomSkins
     [X] SynthesisRandomSkins/SynthesisRandomSkins.csproj
-[ ] minis-patchers/SynACSF
-    [ ] SynACSF/SynPatcher.csproj
-        Set to exclude
+[X] minis-patchers/SynACSF
+    [X] SynACSF/SynPatcher.csproj
 [X] minis-patchers/SynBundler
     [X] SynBundler/SynPatcher.csproj
 [X] minis-patchers/SynCGOStavesPatcher
@@ -175,11 +196,15 @@
     [X] SynEnchRestrictionsRemover/SynPatcher.csproj
 [X] minis-patchers/SynPotionWeight
     [X] SynPotionWeight/SynPatcher.csproj
+[X] minis-patchers/SynStandardLightingTemplates
+    [X] SynLT/SynPatcher.csproj
 [ ] minis-patchers/SynTweakEngine
     [ ] SynTweakEngine/SynPatcher.csproj
         Set to exclude
 [X] minis-patchers/SynWeaponKeywords
     [X] SynPatcher/SynPatcher.csproj
+[X] MinLL/BaboKeywordPatcher
+    [X] BaboKeywordPatcher/BaboKeywordPatcher.csproj
 [X] mrudat/Complete-Crafting-Overhaul-Compatible-Recipe-Generator
     [X] CompleteCraftingOverhaulCompatibleRecipeGenerator/CompleteCraftingOverhaulCompatibleRecipeGenerator.csproj
 [X] mrudat/Costume-Shop
@@ -219,6 +244,14 @@
     [X] leveledlistresolver/leveledlistresolver.csproj
 [X] OddDrifter/musictype-patcher
     [X] MusicTypePatcher/MusicTypePatcher.csproj
+[X] panthuncia/CACO_Patcher
+    [X] CACO_Patcher/CACO_Patcher.csproj
+[X] panthuncia/SkyFurry_Visual_Patcher
+    [X] SkyFurry_Visual_Patcher/SkyFurry_Visual_Patcher.csproj
+[X] panthuncia/WaterForENBPatcher
+    [X] WaterForENBPatcher/WaterForENBPatcher.csproj
+[X] philipykim/SynthesisScanner
+    [X] Scanner/Scanner.csproj
 [X] Piranha91/Follower-Favor-Carry-Limit-Patcher
     [X] FollowerFavorCarryLimitPatcher/FollowerFavorCarryLimitPatcher.csproj
 [X] Piranha91/NPC-Appearance-Copier
@@ -242,15 +275,23 @@
     [X] WorkbenchOrganizer/WorkbenchOrganizer.csproj
 [X] radj307/Actor-Edge-Glow-Remover
     [X] RemoveEdgeGlow/RemoveEdgeGlow.csproj
+[X] radj307/AIStealthOverhaul
+    [X] AIStealthOverhaul/AIStealthOverhaul.csproj
 [ ] radj307/alch-registry-generator
-    [ ] alch-registry-builder/alch-registry-builder.csproj
+    [ ] alch-registry-generator/alch-registry-generator.csproj
         Set to exclude
+[X] radj307/GrassFPS
+    [X] GrassFPS/GrassFPS.csproj
 [X] radj307/Metric-Units-Patcher
     [X] Metric-Units/MetricUnits.csproj
 [X] radj307/NPC-Deleveler
     [X] NPC-DeLeveler/NPC_DeLeveler.csproj
+[X] radj307/Quest-Journal-Limit-Fixer
+    [X] QuestLimitFixer/QuestLimitFixer.csproj
 [X] radj307/UniqueRegionNamesPatcher
     [X] UniqueRegionNamesPatcher/UniqueRegionNamesPatcher.csproj
+[X] rartorata/SkyTranslate
+    [X] SkyTranslate/SkyTranslate.csproj
 [X] ReaperAnon/BreakdownRecipeGenerator
     [X] BreakdownRecipeGenerator/BreakdownRecipeGenerator.csproj
 [X] ReaperAnon/CustomizableItemSorting
@@ -267,6 +308,8 @@
     [X] RealisticWaterTwoPatcher/RealisticWaterTwoPatcher.csproj
 [X] ReaperAnon/True-Unleveled-Skyrim
     [X] TrueUnleveledSkyrim/TrueUnleveledSkyrim.csproj
+[X] rewilson/LMsSimpleSyns
+    [X] XpEditorForSynthesis/XpEditorForSynthesis.csproj
 [X] RowanMaBoot/SynCoinTweaker
     [X] CoinTweaker/CoinTweaker.csproj
 [X] RowanMaBoot/SynRaceRebalancer
@@ -278,8 +321,15 @@
 [ ] sachinkmr/armor-distributor
     [ ] ArmorDistributor/ArmorDistributor.csproj
         Set to exclude
+[X] sachinkmr/NPCArmorDistributor
+    [X] NPCArmorDistributor.csproj
+[ ] sachinkmr/OutfitPatcher
+    [ ] OutfitPatcher.csproj
+        Exception: [1]
 [X] Sludes/Feminized-Leveled-Lists
     [X] FeminizedLeveledLists/FeminizedLeveledLists.csproj
+[X] statttis/SpellConstruction
+    [X] SpellConstruction.csproj
 [X] statttis/STToggle
     [X] STToggle/STToggle.csproj
 [X] SteveTownsend/AllGUDMeshGen
@@ -302,6 +352,8 @@
     [X] PresetChecker/PresetChecker.csproj
 [X] SteveTownsend/WeaponSpeedEffectsFix
     [X] WeaponSpeedEffectsFix/WeaponSpeedEffectsFix.csproj
+[X] Super-Shadow/TreeScaler
+    [X] TreeScaler/TreeScaler.csproj
 [ ] Synthesis-Collective/Actors-Without-Hats
     [ ] ActorsWithoutHats/ActorsWithoutHats.csproj
         Set to exclude
@@ -309,6 +361,8 @@
     [X] AmmoTweaks/AmmoTweaks.csproj
 [X] Synthesis-Collective/Another-Archery-Patcher
     [X] Another_Archery_Patcher/Another_Archery_Patcher.csproj
+[X] Synthesis-Collective/ConjureNextToCaster
+    [X] ConjureNextToCaster/ConjureNextToCaster.csproj
 [X] Synthesis-Collective/EnemyReleveler
     [X] EnemyReleveler/EnemyReleveler.csproj
 [X] Synthesis-Collective/facefixer
@@ -318,6 +372,9 @@
     [X] Tests/Tests.csproj
 [X] Synthesis-Collective/HalgarisConsistentRPGLoot
     [X] HalgarisRPGLoot/HalgarisRPGLoot.csproj
+[X] Synthesis-Collective/HunterbornExtender
+    [X] HunterbornExtender/HunterbornExtender.csproj
+    [X] HunterbornExtenderUI/HunterbornExtenderUI.csproj
 [X] Synthesis-Collective/khajiitearsshow
     [X] KhajiitEarsShow/KhajiitEarsShow.csproj
 [X] Synthesis-Collective/listmaker
@@ -357,10 +414,22 @@
     [X] SpellAbsorbFix/SpellAbsorbFix.csproj
 [X] Synthesis-Collective/SpellResearchAlternateTomePatcher
     [X] SpellResearchAlternateTomePatcher/SpellResearchAlternateTomePatcher.csproj
+[X] Synthesis-Collective/SynAVOCPatcher
+    [X] AVOCPatcher/AVOCPatcher.csproj
 [X] Synthesis-Collective/SynBookSmart
     [X] BookSmart/BookSmart.csproj
+[X] Synthesis-Collective/SynCreatureReWeighter
+    [X] CreatureReWeighter/CreatureReWeighter.csproj
+[X] Synthesis-Collective/SynHeimPatcher
+    [X] SynHeimPatcher/SynHeimPatcher.csproj
 [X] Synthesis-Collective/SynNoMoreEasyEnemies
     [X] SynNoMoreEasyEnemies/SynNoMoreEasyEnemies.csproj
+[X] Synthesis-Collective/SynthEBD
+    [X] SynthEBD/SynthEBD.csproj
+        Set to exclude
+    [X] SynthEBD.Tests/SynthEBD.Tests.csproj
+        Set to exclude
+    [X] BatchConfigUpdater/BatchConfigUpdater.csproj
 [ ] Synthesis-Collective/UPFLoader-ActionSpeed
     [ ] UPFLoader-ActionSpeed/UPFLoader-ActionSpeed.csproj
         Set to exclude
@@ -383,12 +452,42 @@
 [ ] theSkyseS/TrueUnleveledSkyrim
     [ ] TrueUnleveledSkyrim/TrueUnleveledSkyrim.csproj
         Set to exclude
+[X] TokcDK/DeadBodyCleanupNPCAttacher
+    [X] DeadBodyCleanupNPCAttacher/DeadBodyCleanupNPCAttacher.csproj
+[X] TokcDK/FacegenBaseline
+    [X] FacegenBaseline/FacegenBaseline.csproj
+[X] TokcDK/LootableCrates
+    [X] LootableCrates/LootableCrates.csproj
+[X] TokcDK/NPCSetToPCLevelMult
+    [X] NPCSetToPCLevelMult/NPCSetToPCLevelMult.csproj
+[X] TokcDK/SynAddArmorKeywordByString
+    [X] SynAddArmorKeywordByString/SynAddArmorKeywordByString.csproj
+[X] TokcDK/SynAddNpcReplacerAsTheNewNpc
+    [X] SynAddNpcModelReplacerAsTheNewNpc/SynAddNpcModelReplacerAsTheNewNpc.csproj
+[X] TokcDK/SynArmorAAFixMissingGenderWorldModel
+    [X] SynArmorAAFixMissingGenderWorldModel/SynArmorAAFixMissingGenderWorldModel.csproj
+[X] TokcDK/SynAutomaticPerks
+    [X] SynAutomaticPerks/SynAutomaticPerks.csproj
+[X] TokcDK/SynAutomaticSpells
+    [X] SynAutomaticSpells/SynAutomaticSpells.csproj
 [X] TokcDK/SynFixBOOKRecordTypes
     [X] SynFixBOOKRecordTypes/SynFixBOOKRecordTypes.csproj
+[X] TokcDK/SynFixFemaleRaceModel
+    [X] SynFixFemaleRaceModel/SynFixFemaleRaceModel.csproj
+[X] TokcDK/SynFixKeyMissingSoundKeyword
+    [X] SynFixKeyMissingSoundKeyword/SynFixKeyMissingSoundKeyword.csproj
+[X] TokcDK/SynFixMissingVendorItemScrollKeyword
+    [X] SynFixMissingVendorItemScrollKeyword/SynFixMissingVendorItemScrollKeyword.csproj
+[X] TokcDK/SynFixShieldData
+    [X] SynFixShieldData/SynFixShieldData.csproj
+[X] TokcDK/SynFixWeaponAttackSpeed
+    [X] SynFixWeaponAttackSpeed/SynFixWeaponAttackSpeed.csproj
 [X] TokcDK/SynHeelsSoundAdd
     [X] SynHeelsSoundAdd/SynHeelsSoundAdd.csproj
 [X] TokcDK/SynOppositeGenderAnimsTweak
     [X] SynOppositeGenderAnimsTweak/SynOppositeGenderAnimsTweak.csproj
+[X] TokcDK/SynProtectEssentialFlagsImport
+    [X] SynProtectEssentialFlagsImport/SynProtectEssentialFlagsImport.csproj
 [X] tottorijuukou/CBPCKeywords
     [X] BookUUNPCBPCKeywords/BookUUNPCBPCKeywords.csproj
 [X] tr4wzified/AOSISCSoundPatcher
@@ -413,6 +512,20 @@
     [X] TUDMFootstepPatcher/TUDMFootstepPatcher.csproj
 [X] tr4wzified/WaterDoesDamagePatcher
     [X] WaterDoesDamage/WaterDoesDamage.csproj
+[X] tstavrianos/FO4ClarityPatch
+    [X] FO4ClarityPatch/FO4ClarityPatch.csproj
+[X] tstavrianos/FO4DelevelerPatch
+    [X] FO4DelevelerPatch/FO4DelevelerPatch.csproj
+[X] tstavrianos/FO4ECOPatch
+    [X] FO4ECOPatch/FO4ECOPatch.csproj
+[X] tstavrianos/FO4FalloutGeneticsPatch
+    [X] FO4FalloutGeneticsPatch/FO4FalloutGeneticsPatch.csproj
+[X] tstavrianos/FO4StandaloneWorkbenchesPatcher
+    [X] FO4StandaloneWorkbenchesPatcher/FO4StandaloneWorkbenchesPatcher.csproj
+[X] tstavrianos/FO4SwitchLightShadows
+    [X] FO4SwitchLightShadows/FO4SwitchLightShadows.csproj
+[X] tstavrianos/FO4WeightlessItemsPatch
+    [X] FO4WeightlessItemsPatch/FO4WeightlessItemsPatch.csproj
 [X] vonLeebpl/VendorPriestNPCPatcher
     [X] VendorPriestNPCPatcher/VendorPriestNPCPatcher.csproj
 [X] Wolfman5750/ICAIO-AI-for-Mod-NPC

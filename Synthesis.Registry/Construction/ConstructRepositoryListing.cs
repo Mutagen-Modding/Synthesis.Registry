@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Synthesis.Bethesda.DTO;
+using Synthesis.Registry.MutagenScraper.Args;
 using Synthesis.Registry.MutagenScraper.Dto;
 using Synthesis.Registry.MutagenScraper.Reporting;
 
@@ -12,15 +13,18 @@ public class ConstructRepositoryListing
 {
     private readonly QueryForProjects _queryForProjects;
     private readonly StateReporter _reporter;
+    private readonly IRunScraperCommand _runScraperCommand;
     private readonly ConstructListings _constructListings;
 
     public ConstructRepositoryListing(
         QueryForProjects queryForProjects,
         StateReporter reporter,
+        IRunScraperCommand runScraperCommand,
         ConstructListings constructListings)
     {
         _queryForProjects = queryForProjects;
         _reporter = reporter;
+        _runScraperCommand = runScraperCommand;
         _constructListings = constructListings;
     }
         
@@ -50,6 +54,7 @@ public class ConstructRepositoryListing
             User = dep.User!,
             Patchers = patchers,
             Sha = dep.Sha,
+            LastUpdatedRunNumber = _runScraperCommand.RunNumber ?? existing?.LastUpdatedRunNumber
         };
     }
 }

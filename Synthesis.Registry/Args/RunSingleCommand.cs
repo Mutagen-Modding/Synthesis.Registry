@@ -14,4 +14,6 @@ public class RunSingleScrapeCommand : INumToProcessProvider, IShouldShortCircuit
     public int? NumToProcessPer => null;
 
     public bool ShouldShortCircuit => false;
+    public int? RunNumber => null;
+    public int? RunInvalidation => null;
 }

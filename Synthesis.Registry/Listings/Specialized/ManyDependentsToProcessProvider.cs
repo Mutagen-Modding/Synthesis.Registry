@@ -22,7 +22,7 @@ public class ManyDependentsToProcessProvider : IDependenciesToConsiderIterator
     {
         var dependents = await DependentsProvider.Get();
             
-        var number = ArgProvider.RunNumber;
+        var number = ArgProvider.RunNumber ?? 0;
         var numToProcess = ArgProvider.NumToProcessPer ?? int.MaxValue;
         var slots = (int)Math.Ceiling(1.0d * dependents.Count / numToProcess);
         var slot = number % slots;

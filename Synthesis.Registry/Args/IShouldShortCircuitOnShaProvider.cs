@@ -3,4 +3,5 @@
 public interface IShouldShortCircuitOnShaProvider
 {
     bool ShouldShortCircuit { get; }
+    int? RunInvalidation { get; }
 }

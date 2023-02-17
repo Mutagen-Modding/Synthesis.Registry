@@ -15,7 +15,7 @@
     <PackageReference Include="Noggog.Autofac" Version="2.55.0" />
     <PackageReference Include="Noggog.CSharpExt" Version="2.55.0" />
     <PackageReference Include="Noggog.GitRepository" Version="1.2.0" />
-    <PackageReference Include="Synthesis.Bethesda" Version="0.25.3" />
+    <PackageReference Include="Synthesis.Bethesda" Version="0.25.4.1-dev" />
     <PackageReference Include="System.Linq.Async" Version="6.0.1" />
   </ItemGroup>
 

@@ -185,6 +185,15 @@
     },
     {
       "User": "Coyote21",
+      "Repository": "Food-Remover-Plus",
+      "Projects": [
+        {
+          "Project": "FoodRemoverPlus/FoodRemoverPlus.csproj"
+        }
+      ]
+    },
+    {
+      "User": "Coyote21",
       "Repository": "FoodRemover",
       "Projects": [
         {
@@ -207,6 +216,15 @@
       "Projects": [
         {
           "Project": "CramMods.STUMP/CramMods.STUMP.csproj"
+        }
+      ]
+    },
+    {
+      "User": "CritLoren",
+      "Repository": "LootableThings-TrainingDummies-Patcher",
+      "Projects": [
+        {
+          "Project": "LootableThings-Dummy-Patcher/LootableThings-Dummy-Patcher.csproj"
         }
       ]
     },
@@ -287,6 +305,24 @@
       ]
     },
     {
+      "User": "DoubleYouC",
+      "Repository": "FOLIP",
+      "Projects": [
+        {
+          "Project": "FOLIP/FOLIP.csproj"
+        }
+      ]
+    },
+    {
+      "User": "DoubleYouC",
+      "Repository": "HasDistantLOD",
+      "Projects": [
+        {
+          "Project": "HasDistantLOD/HasDistantLOD.csproj"
+        }
+      ]
+    },
+    {
       "User": "Excinerus",
       "Repository": "AI-Overhaul-Patcher",
       "Projects": [
@@ -301,6 +337,15 @@
       "Projects": [
         {
           "Project": "EnchantedVariantsGenerater/EnchantedVariantsGenerater.csproj"
+        }
+      ]
+    },
+    {
+      "User": "ExpensiveLadder",
+      "Repository": "Gender-Neutral-Dialogue-Patcher",
+      "Projects": [
+        {
+          "Project": "GenderDialoguePatch/GenderDialoguePatch.csproj"
         }
       ]
     },
@@ -382,6 +427,15 @@
       "Projects": [
         {
           "Project": "RespectMyBodySlide/RespectMyBodySlide.csproj"
+        }
+      ]
+    },
+    {
+      "User": "Ghos71y",
+      "Repository": "AllHeadPartsAllRacesPatcher",
+      "Projects": [
+        {
+          "Project": "AllHeadPartsAllRacesPatcher/AllHeadPartsAllRacesPatcher.csproj"
         }
       ]
     },
@@ -534,7 +588,7 @@
       "Repository": "Skyrim-ArmoryRebalance",
       "Projects": [
         {
-          "Project": "ArmoryRebalance/ArmoryRebalance/ArmoryRebalance.csproj"
+          "Project": "ArmoryRebalance/ArmoryRebalance.csproj"
         }
       ]
     },
@@ -571,6 +625,15 @@
       "Projects": [
         {
           "Project": "LoadScreenGen/LoadScreenGen.csproj"
+        }
+      ]
+    },
+    {
+      "User": "Jampi0n",
+      "Repository": "Skyrim-NifPatcher",
+      "Projects": [
+        {
+          "Project": "NifPatcher/NifPatcher.csproj"
         }
       ]
     },
@@ -638,11 +701,29 @@
       ]
     },
     {
+      "User": "JanuarySnow",
+      "Repository": "tmopatcher",
+      "Projects": [
+        {
+          "Project": "TMOPatcher/TMOPatcher.csproj"
+        }
+      ]
+    },
+    {
       "User": "jdsmith2816",
       "Repository": "tmopatcher",
       "Projects": [
         {
           "Project": "TMOPatcher/TMOPatcher.csproj"
+        }
+      ]
+    },
+    {
+      "User": "krypto5863",
+      "Repository": "Muzzle-It-Patcher",
+      "Projects": [
+        {
+          "Project": "MuzzleItPatcher/MuzzleItPatcher.csproj"
         }
       ]
     },
@@ -666,6 +747,24 @@
     },
     {
       "User": "Michael-wigontherun",
+      "Repository": "SynEDIDFixer",
+      "Projects": [
+        {
+          "Project": "SynEDIDFixer/SynEDIDFixer.csproj"
+        }
+      ]
+    },
+    {
+      "User": "Michael-wigontherun",
+      "Repository": "SynNotSoSalty",
+      "Projects": [
+        {
+          "Project": "SynNotSoSalty/SynNotSoSalty.csproj"
+        }
+      ]
+    },
+    {
+      "User": "Michael-wigontherun",
       "Repository": "SynthesisRandomSkins",
       "Projects": [
         {
@@ -678,8 +777,7 @@
       "Repository": "SynACSF",
       "Projects": [
         {
-          "Project": "SynACSF/SynPatcher.csproj",
-          "ExcludeReason": "Set to exclude"
+          "Project": "SynACSF/SynPatcher.csproj"
         }
       ]
     },
@@ -766,6 +864,15 @@
     },
     {
       "User": "minis-patchers",
+      "Repository": "SynStandardLightingTemplates",
+      "Projects": [
+        {
+          "Project": "SynLT/SynPatcher.csproj"
+        }
+      ]
+    },
+    {
+      "User": "minis-patchers",
       "Repository": "SynTweakEngine",
       "Projects": [
         {
@@ -780,6 +887,15 @@
       "Projects": [
         {
           "Project": "SynPatcher/SynPatcher.csproj"
+        }
+      ]
+    },
+    {
+      "User": "MinLL",
+      "Repository": "BaboKeywordPatcher",
+      "Projects": [
+        {
+          "Project": "BaboKeywordPatcher/BaboKeywordPatcher.csproj"
         }
       ]
     },
@@ -925,6 +1041,42 @@
       ]
     },
     {
+      "User": "panthuncia",
+      "Repository": "CACO_Patcher",
+      "Projects": [
+        {
+          "Project": "CACO_Patcher/CACO_Patcher.csproj"
+        }
+      ]
+    },
+    {
+      "User": "panthuncia",
+      "Repository": "SkyFurry_Visual_Patcher",
+      "Projects": [
+        {
+          "Project": "SkyFurry_Visual_Patcher/SkyFurry_Visual_Patcher.csproj"
+        }
+      ]
+    },
+    {
+      "User": "panthuncia",
+      "Repository": "WaterForENBPatcher",
+      "Projects": [
+        {
+          "Project": "WaterForENBPatcher/WaterForENBPatcher.csproj"
+        }
+      ]
+    },
+    {
+      "User": "philipykim",
+      "Repository": "SynthesisScanner",
+      "Projects": [
+        {
+          "Project": "Scanner/Scanner.csproj"
+        }
+      ]
+    },
+    {
       "User": "Piranha91",
       "Repository": "Follower-Favor-Carry-Limit-Patcher",
       "Projects": [
@@ -1026,11 +1178,29 @@
     },
     {
       "User": "radj307",
+      "Repository": "AIStealthOverhaul",
+      "Projects": [
+        {
+          "Project": "AIStealthOverhaul/AIStealthOverhaul.csproj"
+        }
+      ]
+    },
+    {
+      "User": "radj307",
       "Repository": "alch-registry-generator",
       "Projects": [
         {
-          "Project": "alch-registry-builder/alch-registry-builder.csproj",
+          "Project": "alch-registry-generator/alch-registry-generator.csproj",
           "ExcludeReason": "Set to exclude"
+        }
+      ]
+    },
+    {
+      "User": "radj307",
+      "Repository": "GrassFPS",
+      "Projects": [
+        {
+          "Project": "GrassFPS/GrassFPS.csproj"
         }
       ]
     },
@@ -1054,10 +1224,28 @@
     },
     {
       "User": "radj307",
+      "Repository": "Quest-Journal-Limit-Fixer",
+      "Projects": [
+        {
+          "Project": "QuestLimitFixer/QuestLimitFixer.csproj"
+        }
+      ]
+    },
+    {
+      "User": "radj307",
       "Repository": "UniqueRegionNamesPatcher",
       "Projects": [
         {
           "Project": "UniqueRegionNamesPatcher/UniqueRegionNamesPatcher.csproj"
+        }
+      ]
+    },
+    {
+      "User": "rartorata",
+      "Repository": "SkyTranslate",
+      "Projects": [
+        {
+          "Project": "SkyTranslate/SkyTranslate.csproj"
         }
       ]
     },
@@ -1134,6 +1322,15 @@
       ]
     },
     {
+      "User": "rewilson",
+      "Repository": "LMsSimpleSyns",
+      "Projects": [
+        {
+          "Project": "XpEditorForSynthesis/XpEditorForSynthesis.csproj"
+        }
+      ]
+    },
+    {
       "User": "RowanMaBoot",
       "Repository": "SynCoinTweaker",
       "Projects": [
@@ -1180,11 +1377,39 @@
       ]
     },
     {
+      "User": "sachinkmr",
+      "Repository": "NPCArmorDistributor",
+      "Projects": [
+        {
+          "Project": "NPCArmorDistributor.csproj"
+        }
+      ]
+    },
+    {
+      "User": "sachinkmr",
+      "Repository": "OutfitPatcher",
+      "Projects": [
+        {
+          "Project": "OutfitPatcher.csproj",
+          "ExcludeReason": "Exception: [1]"
+        }
+      ]
+    },
+    {
       "User": "Sludes",
       "Repository": "Feminized-Leveled-Lists",
       "Projects": [
         {
           "Project": "FeminizedLeveledLists/FeminizedLeveledLists.csproj"
+        }
+      ]
+    },
+    {
+      "User": "statttis",
+      "Repository": "SpellConstruction",
+      "Projects": [
+        {
+          "Project": "SpellConstruction.csproj"
         }
       ]
     },
@@ -1278,6 +1503,15 @@
       ]
     },
     {
+      "User": "Super-Shadow",
+      "Repository": "TreeScaler",
+      "Projects": [
+        {
+          "Project": "TreeScaler/TreeScaler.csproj"
+        }
+      ]
+    },
+    {
       "User": "Synthesis-Collective",
       "Repository": "Actors-Without-Hats",
       "Projects": [
@@ -1302,6 +1536,15 @@
       "Projects": [
         {
           "Project": "Another_Archery_Patcher/Another_Archery_Patcher.csproj"
+        }
+      ]
+    },
+    {
+      "User": "Synthesis-Collective",
+      "Repository": "ConjureNextToCaster",
+      "Projects": [
+        {
+          "Project": "ConjureNextToCaster/ConjureNextToCaster.csproj"
         }
       ]
     },
@@ -1341,6 +1584,18 @@
       "Projects": [
         {
           "Project": "HalgarisRPGLoot/HalgarisRPGLoot.csproj"
+        }
+      ]
+    },
+    {
+      "User": "Synthesis-Collective",
+      "Repository": "HunterbornExtender",
+      "Projects": [
+        {
+          "Project": "HunterbornExtender/HunterbornExtender.csproj"
+        },
+        {
+          "Project": "HunterbornExtenderUI/HunterbornExtenderUI.csproj"
         }
       ]
     },
@@ -1513,6 +1768,15 @@
     },
     {
       "User": "Synthesis-Collective",
+      "Repository": "SynAVOCPatcher",
+      "Projects": [
+        {
+          "Project": "AVOCPatcher/AVOCPatcher.csproj"
+        }
+      ]
+    },
+    {
+      "User": "Synthesis-Collective",
       "Repository": "SynBookSmart",
       "Projects": [
         {
@@ -1522,10 +1786,45 @@
     },
     {
       "User": "Synthesis-Collective",
+      "Repository": "SynCreatureReWeighter",
+      "Projects": [
+        {
+          "Project": "CreatureReWeighter/CreatureReWeighter.csproj"
+        }
+      ]
+    },
+    {
+      "User": "Synthesis-Collective",
+      "Repository": "SynHeimPatcher",
+      "Projects": [
+        {
+          "Project": "SynHeimPatcher/SynHeimPatcher.csproj"
+        }
+      ]
+    },
+    {
+      "User": "Synthesis-Collective",
       "Repository": "SynNoMoreEasyEnemies",
       "Projects": [
         {
           "Project": "SynNoMoreEasyEnemies/SynNoMoreEasyEnemies.csproj"
+        }
+      ]
+    },
+    {
+      "User": "Synthesis-Collective",
+      "Repository": "SynthEBD",
+      "Projects": [
+        {
+          "Project": "SynthEBD/SynthEBD.csproj",
+          "ExcludeReason": "Set to exclude"
+        },
+        {
+          "Project": "SynthEBD.Tests/SynthEBD.Tests.csproj",
+          "ExcludeReason": "Set to exclude"
+        },
+        {
+          "Project": "BatchConfigUpdater/BatchConfigUpdater.csproj"
         }
       ]
     },
@@ -1623,10 +1922,136 @@
     },
     {
       "User": "TokcDK",
+      "Repository": "DeadBodyCleanupNPCAttacher",
+      "Projects": [
+        {
+          "Project": "DeadBodyCleanupNPCAttacher/DeadBodyCleanupNPCAttacher.csproj"
+        }
+      ]
+    },
+    {
+      "User": "TokcDK",
+      "Repository": "FacegenBaseline",
+      "Projects": [
+        {
+          "Project": "FacegenBaseline/FacegenBaseline.csproj"
+        }
+      ]
+    },
+    {
+      "User": "TokcDK",
+      "Repository": "LootableCrates",
+      "Projects": [
+        {
+          "Project": "LootableCrates/LootableCrates.csproj"
+        }
+      ]
+    },
+    {
+      "User": "TokcDK",
+      "Repository": "NPCSetToPCLevelMult",
+      "Projects": [
+        {
+          "Project": "NPCSetToPCLevelMult/NPCSetToPCLevelMult.csproj"
+        }
+      ]
+    },
+    {
+      "User": "TokcDK",
+      "Repository": "SynAddArmorKeywordByString",
+      "Projects": [
+        {
+          "Project": "SynAddArmorKeywordByString/SynAddArmorKeywordByString.csproj"
+        }
+      ]
+    },
+    {
+      "User": "TokcDK",
+      "Repository": "SynAddNpcReplacerAsTheNewNpc",
+      "Projects": [
+        {
+          "Project": "SynAddNpcModelReplacerAsTheNewNpc/SynAddNpcModelReplacerAsTheNewNpc.csproj"
+        }
+      ]
+    },
+    {
+      "User": "TokcDK",
+      "Repository": "SynArmorAAFixMissingGenderWorldModel",
+      "Projects": [
+        {
+          "Project": "SynArmorAAFixMissingGenderWorldModel/SynArmorAAFixMissingGenderWorldModel.csproj"
+        }
+      ]
+    },
+    {
+      "User": "TokcDK",
+      "Repository": "SynAutomaticPerks",
+      "Projects": [
+        {
+          "Project": "SynAutomaticPerks/SynAutomaticPerks.csproj"
+        }
+      ]
+    },
+    {
+      "User": "TokcDK",
+      "Repository": "SynAutomaticSpells",
+      "Projects": [
+        {
+          "Project": "SynAutomaticSpells/SynAutomaticSpells.csproj"
+        }
+      ]
+    },
+    {
+      "User": "TokcDK",
       "Repository": "SynFixBOOKRecordTypes",
       "Projects": [
         {
           "Project": "SynFixBOOKRecordTypes/SynFixBOOKRecordTypes.csproj"
+        }
+      ]
+    },
+    {
+      "User": "TokcDK",
+      "Repository": "SynFixFemaleRaceModel",
+      "Projects": [
+        {
+          "Project": "SynFixFemaleRaceModel/SynFixFemaleRaceModel.csproj"
+        }
+      ]
+    },
+    {
+      "User": "TokcDK",
+      "Repository": "SynFixKeyMissingSoundKeyword",
+      "Projects": [
+        {
+          "Project": "SynFixKeyMissingSoundKeyword/SynFixKeyMissingSoundKeyword.csproj"
+        }
+      ]
+    },
+    {
+      "User": "TokcDK",
+      "Repository": "SynFixMissingVendorItemScrollKeyword",
+      "Projects": [
+        {
+          "Project": "SynFixMissingVendorItemScrollKeyword/SynFixMissingVendorItemScrollKeyword.csproj"
+        }
+      ]
+    },
+    {
+      "User": "TokcDK",
+      "Repository": "SynFixShieldData",
+      "Projects": [
+        {
+          "Project": "SynFixShieldData/SynFixShieldData.csproj"
+        }
+      ]
+    },
+    {
+      "User": "TokcDK",
+      "Repository": "SynFixWeaponAttackSpeed",
+      "Projects": [
+        {
+          "Project": "SynFixWeaponAttackSpeed/SynFixWeaponAttackSpeed.csproj"
         }
       ]
     },
@@ -1645,6 +2070,15 @@
       "Projects": [
         {
           "Project": "SynOppositeGenderAnimsTweak/SynOppositeGenderAnimsTweak.csproj"
+        }
+      ]
+    },
+    {
+      "User": "TokcDK",
+      "Repository": "SynProtectEssentialFlagsImport",
+      "Projects": [
+        {
+          "Project": "SynProtectEssentialFlagsImport/SynProtectEssentialFlagsImport.csproj"
         }
       ]
     },
@@ -1753,6 +2187,69 @@
       "Projects": [
         {
           "Project": "WaterDoesDamage/WaterDoesDamage.csproj"
+        }
+      ]
+    },
+    {
+      "User": "tstavrianos",
+      "Repository": "FO4ClarityPatch",
+      "Projects": [
+        {
+          "Project": "FO4ClarityPatch/FO4ClarityPatch.csproj"
+        }
+      ]
+    },
+    {
+      "User": "tstavrianos",
+      "Repository": "FO4DelevelerPatch",
+      "Projects": [
+        {
+          "Project": "FO4DelevelerPatch/FO4DelevelerPatch.csproj"
+        }
+      ]
+    },
+    {
+      "User": "tstavrianos",
+      "Repository": "FO4ECOPatch",
+      "Projects": [
+        {
+          "Project": "FO4ECOPatch/FO4ECOPatch.csproj"
+        }
+      ]
+    },
+    {
+      "User": "tstavrianos",
+      "Repository": "FO4FalloutGeneticsPatch",
+      "Projects": [
+        {
+          "Project": "FO4FalloutGeneticsPatch/FO4FalloutGeneticsPatch.csproj"
+        }
+      ]
+    },
+    {
+      "User": "tstavrianos",
+      "Repository": "FO4StandaloneWorkbenchesPatcher",
+      "Projects": [
+        {
+          "Project": "FO4StandaloneWorkbenchesPatcher/FO4StandaloneWorkbenchesPatcher.csproj"
+        }
+      ]
+    },
+    {
+      "User": "tstavrianos",
+      "Repository": "FO4SwitchLightShadows",
+      "Projects": [
+        {
+          "Project": "FO4SwitchLightShadows/FO4SwitchLightShadows.csproj"
+        }
+      ]
+    },
+    {
+      "User": "tstavrianos",
+      "Repository": "FO4WeightlessItemsPatch",
+      "Projects": [
+        {
+          "Project": "FO4WeightlessItemsPatch/FO4WeightlessItemsPatch.csproj"
         }
       ]
     },
