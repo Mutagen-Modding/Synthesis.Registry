@@ -246,27 +246,11 @@
       "Sha": "ed3a858ca826f4c7c264a42b2d8bca9fe9826301"
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "AOSISCSoundPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Apply the changes from Audio Overhaul Skyrim / Immersive Sound Compendium to all your mods",
-            "LongDescription": "Doesn\u0027t require both mods to be installed, just one of them. Adds sound effects to all weapons \u0026 armor in your load order to make it consistent with the changes from these mods.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "AOSISCSoundPatcher/AOSISCSoundPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
       "Repository": "AOSISCSoundPatcher",
-      "Sha": "4804f3b09f7d2555b4c5c37f5af78d6a15c988db"
+      "Sha": "4ddfe5546fb43e0b0d7c9fbc9eda61cd3d60f2e1"
     },
     {
       "Patchers": [
@@ -580,7 +564,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
       "Repository": "Costume-Shop",
-      "Sha": "0ead6afec7b57f0f8696d70b4070ba43886f6794"
+      "Sha": "b8fff19d93df2c3e8b30cc292ed899725422183f"
     },
     {
       "Patchers": [
@@ -1286,7 +1270,7 @@
             "Visibility": "Visible",
             "OneLineDescription": "Controls some LOD related tasks for FOLIP.",
             "LongDescription": "Controls some LOD related tasks for Far Object LOD Improvement Project.",
-            "PreferredAutoVersioning": "Default",
+            "PreferredAutoVersioning": "LatestDefaultBranch",
             "RequiredMods": [],
             "TargetedReleases": [
               "Fallout4"
@@ -1301,7 +1285,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/66910033?s=40\u0026amp;v=4",
       "User": "DoubleYouC",
       "Repository": "FOLIP",
-      "Sha": "fdd4b625d208b0b0f92e9e44d90aabaea49ca97c"
+      "Sha": "fa9b3248ae517a49099218f39176ced9a49e2bf9"
     },
     {
       "Patchers": [
@@ -1406,6 +1390,36 @@
       "User": "ixanza",
       "Repository": "GDOPatcher",
       "Sha": "a2041ab85a1c722925884e26e20f690bedc02f41"
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "GenderDialoguePatch",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "Patcher for Gender-Neutral Dialogue: https://www.nexusmods.com/skyrimspecialedition/mods/67612",
+            "LongDescription": "This patcher only adds the proper conditions to existing dialogue.\r\nIf you are exclusively using the They/Them option then this will result in the dialogue not playing at all and can result in softlocked quests.\r\n",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "GenderDialoguePatch/GenderDialoguePatch.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
+      "User": "ExpensiveLadder",
+      "Repository": "Gender-Neutral-Dialogue-Patcher",
+      "Sha": "d9c338dd91616e8cc777a16c3a31808498bdb3cc"
     },
     {
       "Patchers": [
@@ -1575,7 +1589,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/66910033?s=40\u0026amp;v=4",
       "User": "DoubleYouC",
       "Repository": "HasDistantLOD",
-      "Sha": "72a28cee6c6bfd528ebf85b8ef5f918ff5bbc790"
+      "Sha": "056d8b7ff48bb3a2969705644d7a044d9b262576"
     },
     {
       "Patchers": [
@@ -2622,6 +2636,36 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "NPCArmorDistributor",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "NPCArmorDistributor.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/2961881?s=40\u0026amp;v=4",
+      "User": "sachinkmr",
+      "Repository": "NPCArmorDistributor",
+      "Sha": "6151fd8743d357da321b1869f228b5d7c31b16db"
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "NPCEnchantFix/NPCEnchantFix.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -2729,6 +2773,13 @@
       "User": "Synthesis-Collective",
       "Repository": "oppositeanimationdisabler",
       "Sha": "cd534d03573e803cd815de1232091ed7a97faf5a"
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/2961881?s=40\u0026amp;v=4",
+      "User": "sachinkmr",
+      "Repository": "OutfitPatcher",
+      "Sha": "62ee9115957f17b128875a179aa14a3b432cdeb1"
     },
     {
       "Patchers": [],
@@ -4647,7 +4698,7 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthEBD",
-      "Sha": "09238d2ff9227e0d9e124027b88cd03ef38a35e1"
+      "Sha": "4c3601d3d4ba65d9feb007d12dc4b2898b004c0a"
     },
     {
       "Patchers": [],
