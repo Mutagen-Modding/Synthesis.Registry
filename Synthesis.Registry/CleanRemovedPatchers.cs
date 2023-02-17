@@ -3,30 +3,29 @@ using System.Threading.Tasks;
 using Synthesis.Bethesda.DTO;
 using Synthesis.Registry.MutagenScraper.Listings;
 
-namespace Synthesis.Registry.MutagenScraper
+namespace Synthesis.Registry.MutagenScraper;
+
+public class CleanRemovedPatchers
 {
-    public class CleanRemovedPatchers
+    private readonly ISynthesisDependentsProvider _dependentsProvider;
+
+    public CleanRemovedPatchers(
+        ISynthesisDependentsProvider dependentsProvider)
     {
-        private readonly ISynthesisDependentsProvider _dependentsProvider;
+        _dependentsProvider = dependentsProvider;
+    }
 
-        public CleanRemovedPatchers(
-            ISynthesisDependentsProvider dependentsProvider)
+    public async Task<MutagenPatchersListing> Clean(MutagenPatchersListing existingListings)
+    {
+        var listed = await _dependentsProvider.Get();
+        var listedSet = listed
+            .Select(x => new ListingKey(x.User!, x.Repository!))
+            .ToHashSet();
+        return new MutagenPatchersListing()
         {
-            _dependentsProvider = dependentsProvider;
-        }
-
-        public async Task<MutagenPatchersListing> Clean(MutagenPatchersListing existingListings)
-        {
-            var listed = await _dependentsProvider.Get();
-            var listedSet = listed
-                .Select(x => new ListingKey(x.User!, x.Repository!))
-                .ToHashSet();
-            return new MutagenPatchersListing()
-            {
-                Repositories = existingListings.Repositories
-                    .Where(x => listedSet.Contains(new ListingKey(x.User, x.Repository)))
-                    .ToArray()
-            };
-        }
+            Repositories = existingListings.Repositories
+                .Where(x => listedSet.Contains(new ListingKey(x.User, x.Repository)))
+                .ToArray()
+        };
     }
 }

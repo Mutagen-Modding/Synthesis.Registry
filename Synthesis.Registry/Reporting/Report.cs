@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using Synthesis.Registry.MutagenScraper.Listings;
 
 namespace Synthesis.Registry.MutagenScraper.Reporting;
 

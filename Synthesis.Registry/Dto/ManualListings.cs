@@ -1,10 +1,9 @@
 using System;
 using GitHubDependents;
 
-namespace Synthesis.Registry.MutagenScraper.Dto
+namespace Synthesis.Registry.MutagenScraper.Dto;
+
+public class ManualListings
 {
-    public class ManualListings
-    {
-        public Dependent[] Listings { get; set; } = Array.Empty<Dependent>();
-    }
+    public Dependent[] Listings { get; set; } = Array.Empty<Dependent>();
 }

@@ -1,7 +1,6 @@
-﻿namespace Synthesis.Registry.MutagenScraper.Listings
+﻿namespace Synthesis.Registry.MutagenScraper.Listings;
+
+public class ScrapeListingsPathProvider
 {
-    public class ScrapeListingsPathProvider
-    {
-        public string Path => "mutagen-automatic-listing.json";
-    }
+    public string Path => "mutagen-automatic-listing.json";
 }

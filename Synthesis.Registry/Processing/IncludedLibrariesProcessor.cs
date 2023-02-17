@@ -22,7 +22,7 @@ public class IncludedLibrariesProcessor : IPatcherListingProcessor
 
     static IncludedLibrariesProcessor()
     {
-        UsingsToCategories = EnumExt<GameCategory>.Values
+        UsingsToCategories = Enums<GameCategory>.Values
             .ToDictionary(x => $"using Mutagen.Bethesda.{x};", x => x);
     }
 
