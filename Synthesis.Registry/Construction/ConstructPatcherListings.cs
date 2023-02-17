@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -56,7 +56,17 @@ namespace Synthesis.Registry.MutagenScraper.Construction
                         return null;
                     }
 
-                    await _dropoff.EnqueueAndWait(_subProcessors, (sp) => sp.Process(dep, listing));
+                    try
+                    {
+                        await _dropoff.EnqueueAndWait(_subProcessors, (sp) => sp.Process(dep, listing));
+                    }
+                    catch (Exception ex)
+                    {
+                        listing.Customization = await _customizationReader.GetCustomization(dep, proj);
+                        System.Console.WriteLine($"{proj} Error constructing listing: {ex}");
+                        _stateReporter.ReportExclusion(dep.Key, proj, $"Exception: {ex.Message}");
+                        return null;
+                    }
                     return listing;
                 });
             return ret.NotNull().ToArray();
