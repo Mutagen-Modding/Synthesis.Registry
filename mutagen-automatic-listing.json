@@ -704,7 +704,7 @@
       "User": "TokcDK",
       "Repository": "DeadBodyCleanupNPCAttacher",
       "Sha": "13dba4dc22f5bacbc71ec4b93109824a479b3653",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -1978,7 +1978,7 @@
       "User": "coldrifting",
       "Repository": "ItemRenamer",
       "Sha": "0b99244739bcefa04ee38f723711436788d669ea",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -2271,7 +2271,7 @@
       "User": "TokcDK",
       "Repository": "LootableCrates",
       "Sha": "2e69cf6e0664e9a7f8dd6ef85f79d1147928e449",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -2347,7 +2347,7 @@
       "User": "praecipitator",
       "Repository": "MakeItemsWeightless",
       "Sha": "6e462a6614b9e90eea28db591ad47108caa933b9",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -2373,7 +2373,7 @@
       "User": "praecipitator",
       "Repository": "MakeModsScrappable",
       "Sha": "4516cf2da6920267b534ab81ec591ca859e8d080",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -2514,7 +2514,7 @@
       "User": "AmoneMisa",
       "Repository": "MoreGoldForMerchants",
       "Sha": "481ba8dea09f6fc8c6d515eb7f9d46216d14b814",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -2778,7 +2778,7 @@
       "User": "pisichi",
       "Repository": "NPC-Face-Scrambler",
       "Sha": "72ae2d1b64940734a7aa4b002353209aed746dd2",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [],
@@ -2895,7 +2895,7 @@
       "User": "TokcDK",
       "Repository": "NPCSetToPCLevelMult",
       "Sha": "99d61bb5bc958f5631f340e5209e4e840e058005",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -3585,32 +3585,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "rartorata/SkyTranslate",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimLE"
-            ]
-          },
-          "ProjectPath": "SkyTranslate/SkyTranslate.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/30222962?s=40\u0026amp;v=4",
-      "User": "rartorata",
-      "Repository": "SkyTranslate",
-      "Sha": "55413f760d6c8bbf0923e3f548312b6ca9f879cf",
-      "LastUpdatedRunNumber": 31285
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "SkyUIWeaponIconPatcher",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "SkyUI Weapons Pack Icon patcher",
@@ -3877,7 +3851,7 @@
       "User": "audriuska12",
       "Repository": "SpellResearchSynthesizer",
       "Sha": "412b518f6820c65818904a7632e6f2067e90eac3",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -4059,7 +4033,7 @@
       "User": "TokcDK",
       "Repository": "SynAddArmorKeywordByString",
       "Sha": "9a6e76fa2d1bd68850dc2728b573172709c208df",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -4113,7 +4087,7 @@
       "User": "TokcDK",
       "Repository": "SynArmorAAFixMissingGenderWorldModel",
       "Sha": "6d064015bb06ef0e766e99c70040673c7f201237",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -4143,7 +4117,7 @@
       "User": "TokcDK",
       "Repository": "SynAutomaticPerks",
       "Sha": "b7a64b26eb64caaebb7a74ebbd0b1595e430f7c3",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -4167,7 +4141,7 @@
       "User": "TokcDK",
       "Repository": "SynAutomaticSpells",
       "Sha": "7dd8d16785cb0060a4f3e180a67ffbeccec8aa92",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -4400,7 +4374,7 @@
       "User": "TokcDK",
       "Repository": "SynFixFemaleRaceModel",
       "Sha": "1bb70e6b5f76ebd8f59c7b649d937a61e4e4a289",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -4496,7 +4470,7 @@
       "User": "TokcDK",
       "Repository": "SynFixWeaponAttackSpeed",
       "Sha": "722b4e7bb49c39ba923e90651844013315e9c7fe",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -4574,7 +4548,7 @@
       "User": "TokcDK",
       "Repository": "SynHeelsSoundAdd",
       "Sha": "8e9fd7e2b029e2fdfcacce4695016229f6433054",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -4770,7 +4744,7 @@
       "User": "Michael-wigontherun",
       "Repository": "SynNotSoSalty",
       "Sha": "43ffee7133b0b1bdbef8f0c4852f7259711889c6",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -4848,7 +4822,7 @@
       "User": "TokcDK",
       "Repository": "SynOppositeGenderAnimsTweak",
       "Sha": "ac39b8d68a7d2f35a2dcb432ccf4c22a6f3961de",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -4896,7 +4870,7 @@
       "User": "TokcDK",
       "Repository": "SynProtectEssentialFlagsImport",
       "Sha": "f8e066a84929c8ea655bc002c5123c4ce6225fa7",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -5453,7 +5427,7 @@
       "User": "praecipitator",
       "Repository": "WorkbenchOrganizer",
       "Sha": "8187279033d90aa5058454d5ec4b7327cd2db26d",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
