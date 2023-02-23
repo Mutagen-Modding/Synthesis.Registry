@@ -176,7 +176,7 @@
       "User": "Ghos71y",
       "Repository": "AllHeadPartsAllRacesPatcher",
       "Sha": "7e23bdb554195c8072a35234f5c4487dc685f3c4",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [],
@@ -438,7 +438,7 @@
       "User": "panthuncia",
       "Repository": "CACO_Patcher",
       "Sha": "1c37e40a1b6121cc2d94088076dbacdac9bea550",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
@@ -1229,7 +1229,7 @@
       "User": "tstavrianos",
       "Repository": "FO4FalloutGeneticsPatch",
       "Sha": "e8964fa66b7d36892257c489b8175b18028a183b",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
@@ -1359,7 +1359,7 @@
       "User": "DoubleYouC",
       "Repository": "FOLIP",
       "Sha": "fa9b3248ae517a49099218f39176ced9a49e2bf9",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
@@ -1411,7 +1411,7 @@
       "User": "Coyote21",
       "Repository": "Food-Remover-Plus",
       "Sha": "b9fcb8d0d8c46bef80a9911be08224b69953096e",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
@@ -1520,7 +1520,7 @@
       "User": "ExpensiveLadder",
       "Repository": "Gender-Neutral-Dialogue-Patcher",
       "Sha": "d9c338dd91616e8cc777a16c3a31808498bdb3cc",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
@@ -1857,7 +1857,7 @@
       "User": "Synthesis-Collective",
       "Repository": "HunterbornExtender",
       "Sha": "4d364663d99a5fee18011652f99d3b1f73fad1ff",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
@@ -1880,7 +1880,7 @@
       "User": "Wolfman5750",
       "Repository": "ICAIO-AI-for-Mod-NPC",
       "Sha": "6d41ac56c30163c8300ad999bf94402a390a9807",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
@@ -2017,7 +2017,7 @@
       "User": "Synthesis-Collective",
       "Repository": "khajiitearsshow",
       "Sha": "9abdaf2460eabaa64c445f9a6a16685da6c5d358",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
@@ -2223,7 +2223,7 @@
       "User": "rewilson",
       "Repository": "LMsSimpleSyns",
       "Sha": "471179179ce7acabbc02abca2ac97d17126bc0f0",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
@@ -2616,7 +2616,7 @@
       "User": "krypto5863",
       "Repository": "Muzzle-It-Patcher",
       "Sha": "918b7085716a7b4af0c87aaa0b7d7c4d13a81d72",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
@@ -2817,7 +2817,7 @@
       "User": "sachinkmr",
       "Repository": "NPCArmorDistributor",
       "Sha": "6151fd8743d357da321b1869f228b5d7c31b16db",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
@@ -2937,12 +2937,20 @@
       "LastUpdatedRunNumber": 31432
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "ProjectPath": "OutfitPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim",
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/2961881?s=40\u0026amp;v=4",
       "User": "sachinkmr",
       "Repository": "OutfitPatcher",
       "Sha": "62ee9115957f17b128875a179aa14a3b432cdeb1",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [],
@@ -3065,7 +3073,7 @@
       "User": "radj307",
       "Repository": "Quest-Journal-Limit-Fixer",
       "Sha": "524309ac97f7348defea1289920bf6eef8fee3fd",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
@@ -3356,7 +3364,7 @@
       "User": "Jampi0n",
       "Repository": "Skyrim-ArmoryRebalance",
       "Sha": "fb5a0fdbca76c6ce4b946fdb12d66c36cb6da9c0",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
@@ -3482,7 +3490,7 @@
       "User": "Jampi0n",
       "Repository": "Skyrim-NifPatcher",
       "Sha": "f71a5e5a532cf011790a978d20406b4a3208d856",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
@@ -4063,7 +4071,7 @@
       "User": "TokcDK",
       "Repository": "SynAddNpcReplacerAsTheNewNpc",
       "Sha": "83213ef36f7c6b2af486a13fc0a45fd6a87387d1",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
@@ -4933,7 +4941,7 @@
       "User": "minis-patchers",
       "Repository": "SynStandardLightingTemplates",
       "Sha": "b027cebe3ae97a0008ccfd0309414a93e2d5d943",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
@@ -4949,8 +4957,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthEBD",
-      "Sha": "2f40c11484cf5aad8c6cd445d7cfe778d8fd4f8d",
-      "LastUpdatedRunNumber": 31285
+      "Sha": "06129cbb777cb712383949aa033e7a8b1619d0ac",
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [],
@@ -5103,7 +5111,7 @@
       "User": "JanuarySnow",
       "Repository": "tmopatcher",
       "Sha": "66970b82103297cf43f85cd6d36e48e6cf0f929d",
-      "LastUpdatedRunNumber": 31285
+      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [
