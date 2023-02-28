@@ -2301,6 +2301,36 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "MagicDoesThings",
+            "Visibility": "Visible",
+            "OneLineDescription": "Compatibility patcher for Magic Does Things mod",
+            "LongDescription": "An automatic patcher that enables main functionality of Magic Does Things mod on mod added staves and scrolls.\n CURRENTLY DOES NOT SUPPORT MYSTICISM, YOU\u0027LL NEED A MANUAL PATCH",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "MagicDoesThings.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "MagicDoesThings/MagicDoesThingsPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
+      "User": "theSkyseS",
+      "Repository": "MagicDoesThings",
+      "Sha": "f8b05f352e7bb1a1d27c3b10214952edec00b7c5",
+      "LastUpdatedRunNumber": 31543
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "MakeFirewoodPilesIntoContainers",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis version of WiZkiD\u0027s Lootable FireWood Piles patcher",
