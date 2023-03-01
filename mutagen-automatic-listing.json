@@ -3046,6 +3046,37 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "PoisonBlocking",
+            "Visibility": "Visible",
+            "OneLineDescription": "Prevents blocked hits from applying Poison, Diseases, and Enchantments.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "PoisonBlocking/PoisonBlocking.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
+      "User": "ExpensiveLadder",
+      "Repository": "PoisonBlocking",
+      "Sha": "3e8e8a711f149cc36325cfc764d930252fd49ab7",
+      "LastUpdatedRunNumber": 31558
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "PresetChecker",
             "Visibility": "Visible",
             "OneLineDescription": "Preset FormID Check and ZMerge Fixup",
