@@ -4046,7 +4046,7 @@
             "RequiredMods": [],
             "TargetedReleases": []
           },
-          "ProjectPath": "SynACSF/SynPatcher.csproj",
+          "ProjectPath": "SynPatcher/SynPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
           ]
@@ -4055,8 +4055,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynACSF",
-      "Sha": "a48fb7276d2f3f44c4ccac27f7c10bc03e202772",
-      "LastUpdatedRunNumber": 31425
+      "Sha": "5be7f7291d97cf147d88f0a37885b542a959f426",
+      "LastUpdatedRunNumber": 31685
     },
     {
       "Patchers": [
