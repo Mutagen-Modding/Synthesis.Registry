@@ -4403,6 +4403,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynPerkCOBJPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Simple patcher to eslify patches (must be at end of patcher stack)",
+            "LongDescription": "ESLifies synthesis patches if it is acceptable to ESL",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynPatcher/SynPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynESLify",
+      "Sha": "49f3c3a4c69d2f57680138bdd755cdb18969d684",
+      "LastUpdatedRunNumber": 31760
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynFixBOOKRecordTypes",
             "Visibility": "Visible",
             "OneLineDescription": "Fix book/note type.",
