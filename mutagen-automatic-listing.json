@@ -2025,6 +2025,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "KillmoveParalysisPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Prevent NPCs or creatures from getting paralyzed in the middle of killmoves",
+            "LongDescription": "This patcher prevents  NPCs or creatures from getting paralyzed in the middle of killmoves.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "KillmoveParalysisPatcher/KillmoveParalysisPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/127792510?s=40\u0026amp;v=4",
+      "User": "TheOneAndOnlyJ3w3ls",
+      "Repository": "KillmoveParalysisPatcher",
+      "Sha": "58f586b50b4148ff8d0eb934615f4d22f8243790",
+      "LastUpdatedRunNumber": 31851
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Know Your Armor Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Patches your mods to work with Know Your Armor.",
