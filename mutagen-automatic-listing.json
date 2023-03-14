@@ -1388,6 +1388,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "FollowersDualWieldPatcher/FollowersDualWieldPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/127792510?s=40\u0026amp;v=4",
+      "User": "TheOneAndOnlyJ3w3ls",
+      "Repository": "Followers-Dual-Wield",
+      "Sha": "7d939008acb754d672f7d7c8f6c70905dfeb1176",
+      "LastUpdatedRunNumber": 31855
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "FoodRemoverPlus",
             "Visibility": "Visible",
@@ -2042,8 +2057,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/127792510?s=40\u0026amp;v=4",
       "User": "TheOneAndOnlyJ3w3ls",
       "Repository": "KillmoveParalysisPatcher",
-      "Sha": "99dd4fdaccfe56c12be5d14a49d1bf11e81a4d1a",
-      "LastUpdatedRunNumber": 31854
+      "Sha": "ea62796a5e0b24f9c759304ac6e8f85bc66cf750",
+      "LastUpdatedRunNumber": 31855
     },
     {
       "Patchers": [
