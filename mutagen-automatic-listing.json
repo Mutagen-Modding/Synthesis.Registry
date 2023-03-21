@@ -3155,32 +3155,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Quest Journal Limit Bug Fixer",
-            "Visibility": "Visible",
-            "OneLineDescription": "[v0.1 ONLY] Synthesis version of the Quest Journal Limit Bug Fixer xEdit patch.",
-            "LongDescription": "This is obsolete if you\u0027re using v0.2\u002B of Quest Journal Limit Bug Fixer!\n\nRequires Quest Journal Limit Bug Fixer: https://www.nexusmods.com/skyrimspecialedition/mods/56130",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "Quest Journal Limit Bug Fixer.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "QuestLimitFixer/QuestLimitFixer.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
-      "User": "radj307",
-      "Repository": "Quest-Journal-Limit-Fixer",
-      "Sha": "524309ac97f7348defea1289920bf6eef8fee3fd",
-      "LastUpdatedRunNumber": 31433
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "RaceCompatibilityDialogue",
             "Visibility": "Visible",
             "OneLineDescription": "Adds dialog conditions for custom races.",
@@ -5083,8 +5057,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthEBD",
-      "Sha": "edba1795f51dda9ccdbcbcc6f2f29a906f319b64",
-      "LastUpdatedRunNumber": 32019
+      "Sha": "87371d8bdc81d1be27684cf8dc2dc81c45a76aae",
+      "LastUpdatedRunNumber": 32034
     },
     {
       "Patchers": [],
