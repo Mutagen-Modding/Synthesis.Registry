@@ -3034,6 +3034,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "MasterSorter/MasterSorter.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/8077005?s=40\u0026amp;v=4",
+      "User": "praecipitator",
+      "Repository": "PatchSplitterTest",
+      "Sha": "6e17bd2f671f8103e1bac5d4aee7fd7062357fb5",
+      "LastUpdatedRunNumber": 32063
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "PickYourPoison",
             "Visibility": "Visible",
