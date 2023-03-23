@@ -3034,7 +3034,7 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "MasterSorter/MasterSorter.csproj",
+          "ProjectPath": "MasterSorterTests/MasterSorterTests.csproj",
           "IncludedLibraries": [
             "Fallout4"
           ]
@@ -3043,8 +3043,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/8077005?s=40\u0026amp;v=4",
       "User": "praecipitator",
       "Repository": "PatchSplitterTest",
-      "Sha": "6e17bd2f671f8103e1bac5d4aee7fd7062357fb5",
-      "LastUpdatedRunNumber": 32063
+      "Sha": "b54f8ea5403767a9e992fc269a836195c3a9ea3f",
+      "LastUpdatedRunNumber": 32064
     },
     {
       "Patchers": [
