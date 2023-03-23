@@ -255,8 +255,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "Another-Archery-Patcher",
-      "Sha": "ed3a858ca826f4c7c264a42b2d8bca9fe9826301",
-      "LastUpdatedRunNumber": 31428
+      "Sha": "d80c242b55c87b7b5644b0fc624b68cb661749df",
+      "LastUpdatedRunNumber": 32087
     },
     {
       "Patchers": [
@@ -1743,12 +1743,33 @@
       "LastUpdatedRunNumber": 31428
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "HeterochromiaRedone",
+            "Visibility": "Visible",
+            "OneLineDescription": "A Synthesis alternative to the UPF Heterochromia Reborn zEdit patcher",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "RaceMenu.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "HeterochromiaRedone/HeterochromiaRedone.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
       "Repository": "HeterochromiaRedone",
-      "Sha": "3bbc890a22741fce928ab01533cc223eba857da0",
-      "LastUpdatedRunNumber": 32086
+      "Sha": "cdd1a82750fe05eee83c00dfd41390bce8585863",
+      "LastUpdatedRunNumber": 32087
     },
     {
       "Patchers": [
