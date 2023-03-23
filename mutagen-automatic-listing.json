@@ -1743,6 +1743,14 @@
       "LastUpdatedRunNumber": 31428
     },
     {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "HeterochromiaRedone",
+      "Sha": "3bbc890a22741fce928ab01533cc223eba857da0",
+      "LastUpdatedRunNumber": 32086
+    },
+    {
       "Patchers": [
         {
           "Customization": {
