@@ -3159,6 +3159,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "POVMessages/POVMessages.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/66910033?s=40\u0026amp;v=4",
+      "User": "DoubleYouC",
+      "Repository": "POV-Messages",
+      "Sha": "8ae36e85db0f9de0c38e9bc0e54f36b956eb4f55",
+      "LastUpdatedRunNumber": 32159
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "PresetChecker",
             "Visibility": "Visible",
