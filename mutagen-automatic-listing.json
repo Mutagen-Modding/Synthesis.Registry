@@ -3159,6 +3159,17 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "POVMessages",
+            "Visibility": "Visible",
+            "OneLineDescription": "Attempts to patch the point of view using a json file with ordered replacements of specific texts. ",
+            "LongDescription": "Attempts to patch the point of view using a json file with ordered replacements of specific texts. ",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
           "ProjectPath": "POVMessages/POVMessages.csproj",
           "IncludedLibraries": [
             "Fallout4"
@@ -3168,8 +3179,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/66910033?s=40\u0026amp;v=4",
       "User": "DoubleYouC",
       "Repository": "POV-Messages",
-      "Sha": "8ae36e85db0f9de0c38e9bc0e54f36b956eb4f55",
-      "LastUpdatedRunNumber": 32159
+      "Sha": "4d1ed86515b69028fdf87f24d04488d9fce0ddb4",
+      "LastUpdatedRunNumber": 32160
     },
     {
       "Patchers": [
