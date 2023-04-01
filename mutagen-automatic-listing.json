@@ -4059,6 +4059,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SSBGPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Stretched Snow Begone Synthesis Patcher for Skyrim SE",
+            "LongDescription": "Forwards Stretched Snow Begone mesh material records.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Stretched Snow Begone.esp"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SSBGPatcher/SSBGPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/130033?s=40\u0026amp;v=4",
+      "User": "mrgrim",
+      "Repository": "SSBGPatcher",
+      "Sha": "c1d7650f7cae1dafb94dea899e468d108163b073",
+      "LastUpdatedRunNumber": 32283
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "StaffGenerator",
             "Visibility": "Visible",
             "OneLineDescription": "Generates Staves for spells",
