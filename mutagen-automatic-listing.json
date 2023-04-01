@@ -4059,7 +4059,7 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SSBGPatcherLocal",
+            "Nickname": "SSBGPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Stretched Snow Begone Synthesis Patcher for Skyrim SE",
             "LongDescription": "Forwards Stretched Snow Begone mesh material records.",
@@ -4080,8 +4080,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/130033?s=40\u0026amp;v=4",
       "User": "mrgrim",
       "Repository": "SSBGPatcher",
-      "Sha": "18e3b06e24d5850f80e0450f7057cf8b04b8a312",
-      "LastUpdatedRunNumber": 32284
+      "Sha": "57a157eacc75ad1b9126e6779d5e01e6c70331af",
+      "LastUpdatedRunNumber": 32285
     },
     {
       "Patchers": [
