@@ -5603,28 +5603,12 @@
       "LastUpdatedRunNumber": 31426
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Weightless Misc Items",
-            "Visibility": "Visible",
-            "OneLineDescription": "Focus on the important things.",
-            "LongDescription": "Makes \u0022useless\u0022 items weightless. \n\n- Luca|EzioTheDeadPoet",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "Weightless-Misc-Items/Weightless-Misc-Items.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
       "User": "EzioTheDeadPoet",
       "Repository": "Weightless-Misc-Items",
-      "Sha": "916eb809ae5023578dbad4bb1c16e55808d53b2a",
-      "LastUpdatedRunNumber": 31428
+      "Sha": "112ed7d3328d479c97f4b4da2dfdcf7dece4f9b7",
+      "LastUpdatedRunNumber": 32327
     },
     {
       "Patchers": [
