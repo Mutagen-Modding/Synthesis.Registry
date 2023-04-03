@@ -5603,12 +5603,28 @@
       "LastUpdatedRunNumber": 31426
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Weightless Misc Items",
+            "Visibility": "Visible",
+            "OneLineDescription": "Makes \u0022useless\u0022 items weightless.",
+            "LongDescription": "Makes \u0022useless\u0022 items weightless. \u002B Includes optional healing item \u0022hardmode\u0022.  \n\n- Luca|EzioTheDeadPoet",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "Weightless-Misc-Items/Weightless-Misc-Items.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
       "User": "EzioTheDeadPoet",
       "Repository": "Weightless-Misc-Items",
-      "Sha": "112ed7d3328d479c97f4b4da2dfdcf7dece4f9b7",
-      "LastUpdatedRunNumber": 32327
+      "Sha": "0fdb6ab3f3e785296e8ce1d03c9110ce24ba61e2",
+      "LastUpdatedRunNumber": 32328
     },
     {
       "Patchers": [
