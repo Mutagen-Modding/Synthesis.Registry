@@ -583,6 +583,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "ContainersRespawnPatcher/ContainersRespawnPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/127792510?s=40\u0026amp;v=4",
+      "User": "TheOneAndOnlyJ3w3ls",
+      "Repository": "Containers-Respawn-Patcher",
+      "Sha": "3187bafc944265af8a6be818aa7a8977ddbe947e",
+      "LastUpdatedRunNumber": 32412
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "CostumeShop",
             "Visibility": "Visible",
