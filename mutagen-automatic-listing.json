@@ -4164,6 +4164,37 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SustainedSpellsPatcher",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SustainedSpellsPatcher/SustainedSpellsPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
+      "User": "ExpensiveLadder",
+      "Repository": "SustainedSpellsPatcher",
+      "Sha": "359773633fad31ed4338f42e3b791b5709036c26",
+      "LastUpdatedRunNumber": 32466
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynAlternateCustomSkills",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis Patcher for NetFramework based Custom Skill Trees",
@@ -5189,8 +5220,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthEBD",
-      "Sha": "c11815c8cbbecf65c6dc216c96146b52d6c6e000",
-      "LastUpdatedRunNumber": 32426
+      "Sha": "d04a1d30e6008095cbce5bc44e2e949c6af41a7f",
+      "LastUpdatedRunNumber": 32466
     },
     {
       "Patchers": [],
