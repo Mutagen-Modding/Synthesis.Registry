@@ -4073,6 +4073,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "SRExteriorCitiesPatcher/SRExteriorCitiesPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/127792510?s=40\u0026amp;v=4",
+      "User": "TheOneAndOnlyJ3w3ls",
+      "Repository": "SR-Exterior-Cities-Patcher",
+      "Sha": "ab46f1a6a787498c511243d81ab825ffc2500708",
+      "LastUpdatedRunNumber": 32537
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "SSBGPatcher",
             "Visibility": "Visible",
