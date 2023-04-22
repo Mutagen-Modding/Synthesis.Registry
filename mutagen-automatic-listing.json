@@ -3909,6 +3909,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "SmeltingRecipes/SmeltingRecipes.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/120683985?s=40\u0026amp;v=4",
+      "User": "JonnyJalapeno",
+      "Repository": "SmeltingRecipes",
+      "Sha": "4e7e30086c2fbd3ce8e70a530d34d8bd995c2d8f",
+      "LastUpdatedRunNumber": 32785
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "Halgari.SoulGemDisenchantment/Halgari.SoulGemDisenchantment.csproj",
           "IncludedLibraries": [
             "Skyrim"
