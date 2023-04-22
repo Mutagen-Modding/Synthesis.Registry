@@ -1144,6 +1144,34 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Armor Keywords Workbenches Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Armor Keywords Workbenches Patcher",
+            "LongDescription": "Modifies recipes to use the AWKCR workbenches",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "ArmorKeywords.esm"
+            ],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "FO4ArmorKeywodsWorkbenchesPatcher/FO4ArmorKeywodsWorkbenchesPatcher.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/7130836?s=40\u0026amp;v=4",
+      "User": "tstavrianos",
+      "Repository": "FO4ArmorKeywodsWorkbenchesPatcher",
+      "Sha": "e83044b244b528257e04ed7e9b1994be3fe9150b",
+      "LastUpdatedRunNumber": 32778
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Clarity Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Clarity Patcher",
