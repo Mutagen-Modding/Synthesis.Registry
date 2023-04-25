@@ -5377,30 +5377,12 @@
       "LastUpdatedRunNumber": 31425
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SynWeaponKeywords",
-            "Visibility": "Visible",
-            "OneLineDescription": "Weapon type keyword patcher (similar to zEdit patcher)",
-            "LongDescription": "Supports a wide variety of mods",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "SynPatcher/SynPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynWeaponKeywords",
-      "Sha": "ce6cc62c45696d3c4774fb10660984d5b1a12499",
-      "LastUpdatedRunNumber": 31424
+      "Sha": "79142189b3d6ed1232eefd42a0852cd9af2e7b15",
+      "LastUpdatedRunNumber": 32859
     },
     {
       "Patchers": [],
