@@ -3509,6 +3509,31 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SilverWeaponKeywords",
+            "Visibility": "Visible",
+            "OneLineDescription": "Adding silver keyword to weapons made with it",
+            "LongDescription": "Adding silver keyword to weapons made with it, optionally able to search by EditorID too",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SilverWeaponKeywords/SilverWeaponKeywords.csproj",
+          "IncludedLibraries": [
+            "Skyrim",
+            "Oblivion"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/127792510?s=40\u0026amp;v=4",
+      "User": "TheOneAndOnlyJ3w3ls",
+      "Repository": "Silver-Weapon-Keywords",
+      "Sha": "57cab14d1cfe835b5a8095fce0ca8dbf09a293fa",
+      "LastUpdatedRunNumber": 32871
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SF_Visual_Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Merges SkyFurry changes into the winning override.",
