@@ -3519,16 +3519,15 @@
           },
           "ProjectPath": "SilverWeaponKeywords/SilverWeaponKeywords.csproj",
           "IncludedLibraries": [
-            "Skyrim",
-            "Oblivion"
+            "Skyrim"
           ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/127792510?s=40\u0026amp;v=4",
       "User": "TheOneAndOnlyJ3w3ls",
       "Repository": "Silver-Weapon-Keywords",
-      "Sha": "57cab14d1cfe835b5a8095fce0ca8dbf09a293fa",
-      "LastUpdatedRunNumber": 32871
+      "Sha": "f9fbdd842cdc0e120d08d4a52e3cb3b4ce38f1c7",
+      "LastUpdatedRunNumber": 32872
     },
     {
       "Patchers": [
