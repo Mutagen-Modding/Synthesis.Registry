@@ -3533,6 +3533,39 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SimpleTranslator",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Oblivion",
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "Fallout4",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SimpleTranslater/SimpleTranslater.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/23549756?s=40\u0026amp;v=4",
+      "User": "Kerite",
+      "Repository": "SimpleTranslator",
+      "Sha": "671c92465ac1845d1a0141600a43cd2de7b71f57",
+      "LastUpdatedRunNumber": 32915
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SF_Visual_Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Merges SkyFurry changes into the winning override.",
