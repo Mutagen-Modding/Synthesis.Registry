@@ -3533,34 +3533,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SimpleTranslator",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "Oblivion",
-              "SkyrimSE",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "SynStringMerger/SynStringMerger.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/23549756?s=40\u0026amp;v=4",
-      "User": "Kerite",
-      "Repository": "SimpleTranslator",
-      "Sha": "ca2c916481f19c047670b0163729605d04b074e7",
-      "LastUpdatedRunNumber": 32923
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "SF_Visual_Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Merges SkyFurry changes into the winning override.",
@@ -5296,6 +5268,34 @@
       "Repository": "SynStandardLightingTemplates",
       "Sha": "36a1156f6c5c3e0bcaf8cf831f6113130e223d07",
       "LastUpdatedRunNumber": 32860
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SimpleTranslator",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Oblivion",
+              "SkyrimSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SynStringMerger/SynStringMerger.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/23549756?s=40\u0026amp;v=4",
+      "User": "Kerite",
+      "Repository": "SynStringMerger",
+      "Sha": "ca2c916481f19c047670b0163729605d04b074e7",
+      "LastUpdatedRunNumber": 32934
     },
     {
       "Patchers": [
