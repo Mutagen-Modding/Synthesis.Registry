@@ -3545,7 +3545,7 @@
               "SkyrimSEGog"
             ]
           },
-          "ProjectPath": "SimpleTranslater/SimpleTranslater.csproj",
+          "ProjectPath": "SynStringMerger/SynStringMerger.csproj",
           "IncludedLibraries": [
             "Skyrim"
           ]
@@ -3554,8 +3554,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/23549756?s=40\u0026amp;v=4",
       "User": "Kerite",
       "Repository": "SimpleTranslator",
-      "Sha": "03ece529b3c77d3953c582f72d1c2ad3a7d993a9",
-      "LastUpdatedRunNumber": 32916
+      "Sha": "ca2c916481f19c047670b0163729605d04b074e7",
+      "LastUpdatedRunNumber": 32923
     },
     {
       "Patchers": [
