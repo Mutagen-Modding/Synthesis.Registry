@@ -5273,7 +5273,7 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SimpleTranslator",
+            "Nickname": "SynStringMerger",
             "Visibility": "Visible",
             "OneLineDescription": "",
             "LongDescription": "",
@@ -5294,8 +5294,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/23549756?s=40\u0026amp;v=4",
       "User": "Kerite",
       "Repository": "SynStringMerger",
-      "Sha": "ca2c916481f19c047670b0163729605d04b074e7",
-      "LastUpdatedRunNumber": 32934
+      "Sha": "66f164555405ec1e28ffb36bfda7664ce22fae83",
+      "LastUpdatedRunNumber": 32936
     },
     {
       "Patchers": [
