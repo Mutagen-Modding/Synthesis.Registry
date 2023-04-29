@@ -5368,6 +5368,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "MergeTL",
+            "Visibility": "Visible",
+            "OneLineDescription": "Merge conflicts for translation patches",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "MergeTL/MergeTL.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/24525094?s=40\u0026amp;v=4",
+      "User": "zVcXr",
+      "Repository": "SynthMergeTL",
+      "Sha": "36c443af52bb3970bd1dba364a3a223b7a718acb",
+      "LastUpdatedRunNumber": 32960
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynthNPCsWithFaces",
             "Visibility": "Visible",
             "OneLineDescription": "Helper patcher for TPF",
