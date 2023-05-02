@@ -3789,6 +3789,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "SkyrimPotionGenerator/SkyrimPotionGenerator.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
+      "User": "mrudat",
+      "Repository": "SkyrimPotionGenerator",
+      "Sha": "54e492e60fee29dbcb8d96615ec052926fbe74dc",
+      "LastUpdatedRunNumber": 33019
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "SkyrimUnlimitedRingsPatcher",
             "Visibility": "Visible",
