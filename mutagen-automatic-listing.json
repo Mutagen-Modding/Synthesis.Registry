@@ -3096,6 +3096,30 @@
       "LastUpdatedRunNumber": 31433
     },
     {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "OWLLeveledListAddition",
+            "Visibility": "Visible",
+            "OneLineDescription": "Allows adding weapons and armors to Open World Loot leveled lists automatically, based on keywords.",
+            "LongDescription": "Allows adding weapons and armors to Open World Loot leveled lists automatically, based on keywords. Can automatically create sublists",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "OWLLeveledListAddition/OWLLeveledListAddition.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/127792510?s=40\u0026amp;v=4",
+      "User": "TheOneAndOnlyJ3w3ls",
+      "Repository": "OWL-Leveled-List-Addition",
+      "Sha": "f88d04b6921cc51b16689534733f221fcbd79fa3",
+      "LastUpdatedRunNumber": 33063
+    },
+    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/24981326?s=40\u0026amp;v=4",
       "User": "Noggog",
