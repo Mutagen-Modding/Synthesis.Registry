@@ -5833,6 +5833,35 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "ThirdEyeSqueegee/WeaponStaggerNullifier",
+            "Visibility": "Visible",
+            "OneLineDescription": "Sets the Stagger value to 0 for all weapons",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "WeaponStaggerNullifier/WeaponStaggerNullifier.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
+      "User": "ThirdEyeSqueegee",
+      "Repository": "WeaponStaggerNullifier",
+      "Sha": "a5ed1bee1f3555a332682d52cf669563178b3b96",
+      "LastUpdatedRunNumber": 33255
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Weightless Misc Items",
             "Visibility": "Visible",
             "OneLineDescription": "Makes \u0022useless\u0022 items weightless.",
