@@ -3471,7 +3471,7 @@
           "Customization": {
             "Nickname": "ScrollValueRectifier",
             "Visibility": "Visible",
-            "OneLineDescription": "",
+            "OneLineDescription": "Sets scroll value based on the minimum skill level of the magic effect with the highest base cost",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
@@ -3491,8 +3491,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
       "User": "ThirdEyeSqueegee",
       "Repository": "ScrollValueRectifier",
-      "Sha": "5dab46df2fdc6c9185d0c35a80af4477c2c92d63",
-      "LastUpdatedRunNumber": 33271
+      "Sha": "51c5f396e37b98762bd51d4b83e40c18bc39064f",
+      "LastUpdatedRunNumber": 33276
     },
     {
       "Patchers": [
@@ -5884,8 +5884,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
       "User": "ThirdEyeSqueegee",
       "Repository": "WeaponStaggerNullifier",
-      "Sha": "a199067cec65eba5f4422849aa4f757693585acf",
-      "LastUpdatedRunNumber": 33271
+      "Sha": "63b2acdcb8692b2fbd4d46516ec92647659aca50",
+      "LastUpdatedRunNumber": 33276
     },
     {
       "Patchers": [
