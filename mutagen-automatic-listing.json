@@ -3491,8 +3491,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
       "User": "ThirdEyeSqueegee",
       "Repository": "ScrollValueRectifier",
-      "Sha": "6308d938d7b5435a90a02011a458b8a007e3a4bd",
-      "LastUpdatedRunNumber": 33259
+      "Sha": "5dab46df2fdc6c9185d0c35a80af4477c2c92d63",
+      "LastUpdatedRunNumber": 33271
     },
     {
       "Patchers": [
@@ -5884,8 +5884,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
       "User": "ThirdEyeSqueegee",
       "Repository": "WeaponStaggerNullifier",
-      "Sha": "a5ed1bee1f3555a332682d52cf669563178b3b96",
-      "LastUpdatedRunNumber": 33255
+      "Sha": "a199067cec65eba5f4422849aa4f757693585acf",
+      "LastUpdatedRunNumber": 33271
     },
     {
       "Patchers": [
