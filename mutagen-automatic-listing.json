@@ -829,6 +829,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "EasyNPC SkinNaked Remover",
+            "Visibility": "Visible",
+            "OneLineDescription": "Removes the default SkinNakedPatched Worn Armor fields from the NPC records patched by EasyNPC",
+            "LongDescription": "A temporary solution to fix NPC transformation issues caused by the SkinNakedPatched Worn Armor value added by EasyNPC. Unless you know you need this you probably shouldn\u0027t use it.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "EasyNPCRemoveWornArmors/EasyNPCRemoveWornArmors.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
+      "User": "Bl4ckread",
+      "Repository": "EasyNPCRemoveWornArmors",
+      "Sha": "4d6b6f186d99ddfe13e14b5d3e7342d0d3cbb214",
+      "LastUpdatedRunNumber": 33301
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ELE Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Enhanced Lighting for ENB patcher",
