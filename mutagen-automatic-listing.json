@@ -3978,6 +3978,35 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "ThirdEyeSqueegee/SleepingOutfitRemover",
+            "Visibility": "Visible",
+            "OneLineDescription": "Removes sleeping outfits from all winning NPC records",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SleepingOutfitRemover/SleepingOutfitRemover.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
+      "User": "ThirdEyeSqueegee",
+      "Repository": "SleepingOutfitRemover",
+      "Sha": "1f15bea521c2b8ecb511ed6e8d00034305080797",
+      "LastUpdatedRunNumber": 33347
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SlotsSlotsSlots",
             "Visibility": "Visible",
             "OneLineDescription": "Weight -\u003E Slots, now with settings!",
