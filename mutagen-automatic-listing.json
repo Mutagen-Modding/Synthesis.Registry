@@ -3493,35 +3493,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "ScrollValueRectifier",
-            "Visibility": "Visible",
-            "OneLineDescription": "Sets scroll value based on the minimum skill level of the magic effect with the highest base cost",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "ScrollValueRectifier/ScrollValueRectifier.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
-      "User": "ThirdEyeSqueegee",
-      "Repository": "ScrollValueRectifier",
-      "Sha": "02f8916a51594c5ad52df560ba5c82d32f221e89",
-      "LastUpdatedRunNumber": 33277
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "SFCOPaintingRemover",
             "Visibility": "Visible",
             "OneLineDescription": "Remove all paintings from Snazzy\u0027s Furniture and Clutter Overhaul",
@@ -4073,6 +4044,35 @@
       "Repository": "SmeltingRecipes",
       "Sha": "4e7e30086c2fbd3ce8e70a530d34d8bd995c2d8f",
       "LastUpdatedRunNumber": 32785
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SorcererPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SorcererPatcher/SorcererPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
+      "User": "ThirdEyeSqueegee",
+      "Repository": "SorcererPatcher",
+      "Sha": "e8ff9e686d6aa86bc862ce52a7ada963c2f0c05c",
+      "LastUpdatedRunNumber": 33379
     },
     {
       "Patchers": [
