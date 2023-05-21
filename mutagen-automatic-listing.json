@@ -5378,6 +5378,37 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynSpellTomeNameExtender",
+            "Visibility": "Visible",
+            "OneLineDescription": "Adds a few characters to the Spell Tome names, to identify the Type and level of a spell",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SynSpellTomeNameExtender/SynSpellTomeNameExtender.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
+      "User": "Michael-wigontherun",
+      "Repository": "SynSpellTomeNameExtender",
+      "Sha": "9dcbd3e6f9408331646836d998ae524d33793770",
+      "LastUpdatedRunNumber": 33483
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynLighting",
             "Visibility": "Visible",
             "OneLineDescription": "Does the standard lighting templater",
