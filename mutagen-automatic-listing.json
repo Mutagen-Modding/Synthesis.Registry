@@ -4532,6 +4532,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "ArmorSlots Maximum Carnage",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis patcher to add or remove armor slots.",
+            "LongDescription": "Synthesis patcher to add or remove armor slots.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "SynArmorSlotsPatcher/SynArmorSlotsPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/116885726?s=40\u0026amp;v=4",
+      "User": "FenikkusuKaen",
+      "Repository": "SynArmorSlotsPatcher",
+      "Sha": "2a7ec8852057eaf0361b861c824fbc6b21b35e4e",
+      "LastUpdatedRunNumber": 33503
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "TokcDK/SynAutomaticPerks",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis implementation of ASIS AutomaticPerks patcher with additional features and fixes",
