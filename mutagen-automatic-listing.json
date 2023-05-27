@@ -2120,6 +2120,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "JourneymanVendorPatcher/JourneymanVendorPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
+      "User": "ThirdEyeSqueegee",
+      "Repository": "JourneymanVendorPatcher",
+      "Sha": "9ae739073caea8331b9550695ba4262c1615b298",
+      "LastUpdatedRunNumber": 33613
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "KhajiitEarsShow/KhajiitEarsShow.csproj",
           "IncludedLibraries": [
             "Skyrim"
