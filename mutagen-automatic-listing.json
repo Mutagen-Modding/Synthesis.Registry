@@ -4855,7 +4855,7 @@
             "Nickname": "crysis99/SynExtendedWeaponPerkDescriptions",
             "Visibility": "Visible",
             "OneLineDescription": "Add weapons such as Spears,Halberds, Claws, etc to perk descriptions.",
-            "LongDescription": "Goes through your modlist and sees if any Weapon has Spear, Claws, etc in their name and adds the weapon type to perk descriptions.\r\nE.g. Battleaxes become Battleaxes, Scythes, Halberds if Scythe and Halberd weapons are found.\r\nWhich base class it belongs to is hardcoded, and I based it primarily off of Animated and Heavy Armouy.",
+            "LongDescription": "Goes through your modlist and sees if any Weapon has Spear, Claws, etc in their name and has the corresponding WeapType Keyword attatched and adds the weapon type to perk descriptions.\r\nE.g. Battleaxes become Battleaxes, Scythes, Halberds if Scythe and Halberd weapons are found.\r\nWhich base class it belongs to is hardcoded, and I based it primarily off of Animated and Heavy Armouy.\nDo not use with ANY mod that adds extra weapons to perk descriptions already, I don\u0027t do checks for that and it will duplicate. ",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -4874,8 +4874,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/3524324?s=40\u0026amp;v=4",
       "User": "crysis99",
       "Repository": "SynExtendedWeaponPerkDescriptions",
-      "Sha": "81dcfc39fc5431b2e4f9ea47f61eb0895a3f8b28",
-      "LastUpdatedRunNumber": 33603
+      "Sha": "5f0741ec55e34f59efbaf9445061fa715312dec0",
+      "LastUpdatedRunNumber": 33642
     },
     {
       "Patchers": [
