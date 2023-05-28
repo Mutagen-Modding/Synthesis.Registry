@@ -4807,7 +4807,7 @@
             "Nickname": "crysis99/SynDirPowAtkRem",
             "Visibility": "Visible",
             "OneLineDescription": "Removes directional power attack conditions, replaced with DTry keytraces.",
-            "LongDescription": "Removes PowerAttackTypeSide, PowerAttackTypeForward, PowerAttackTypeBack conditions from perks and replaces them with the corresponding keys from Dtry Keyutil\u0027s keytraces.",
+            "LongDescription": "Removes PowerAttackTypeSide, PowerAttackTypeForward, PowerAttackTypeBack conditions from perks and replaces them with the corresponding keys from Dtry Keyutil\u0027s keytraces. Does not touch NPC perks.   ",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Keytrace.esp"
@@ -4830,8 +4830,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/3524324?s=40\u0026amp;v=4",
       "User": "crysis99",
       "Repository": "SynDirPowAtkRem",
-      "Sha": "e872839d1887c8292de93aa4dbdbea7dd5d620f3",
-      "LastUpdatedRunNumber": 33647
+      "Sha": "78dfacc39835e6bbca57c42fee5aaabcd1e38542",
+      "LastUpdatedRunNumber": 33650
     },
     {
       "Patchers": [
@@ -4907,8 +4907,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/3524324?s=40\u0026amp;v=4",
       "User": "crysis99",
       "Repository": "SynExtendedWeaponPerkDescriptions",
-      "Sha": "5f0741ec55e34f59efbaf9445061fa715312dec0",
-      "LastUpdatedRunNumber": 33642
+      "Sha": "ad32199b41e5f9d2bf47fe1fa86e6c71ab1db9fa",
+      "LastUpdatedRunNumber": 33650
     },
     {
       "Patchers": [
