@@ -4804,6 +4804,39 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "crysis99/SynDirPowAtkRem",
+            "Visibility": "Visible",
+            "OneLineDescription": "Removes directional power attack conditions, replaced with DTry keytraces.",
+            "LongDescription": "Removes PowerAttackTypeSide, PowerAttackTypeForward, PowerAttackTypeBack conditions from perks and replaces them with the corresponding keys from Dtry Keyutil\u0027s keytraces.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Keytrace.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SynDirPowAtkRem/SynDirPowAtkRem.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/3524324?s=40\u0026amp;v=4",
+      "User": "crysis99",
+      "Repository": "SynDirPowAtkRem",
+      "Sha": "e872839d1887c8292de93aa4dbdbea7dd5d620f3",
+      "LastUpdatedRunNumber": 33647
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynEDIDFixer",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis Patcher for SPID type mods that use EditorIDs to distibute objects",
