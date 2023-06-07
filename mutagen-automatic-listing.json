@@ -2151,6 +2151,35 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "ThirdEyeSqueegee/KeywordWeaponSpeedPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "KeywordWeaponSpeedPatcher/KeywordWeaponSpeedPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
+      "User": "ThirdEyeSqueegee",
+      "Repository": "KeywordWeaponSpeedPatcher",
+      "Sha": "3920438c2e08401e8fbd7c83e1dbe8c1b900a16f",
+      "LastUpdatedRunNumber": 33886
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "KhajiitEarsShow/KhajiitEarsShow.csproj",
           "IncludedLibraries": [
             "Skyrim"
