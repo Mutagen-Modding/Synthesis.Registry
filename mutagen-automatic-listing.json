@@ -4698,6 +4698,37 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynBanditWarForwarder",
+            "Visibility": "Visible",
+            "OneLineDescription": "Forwards relevant records from Lawless and its patches",
+            "LongDescription": "The following records are forwarded from Lawless (Bandit War.esp) and its patches (esp contains Bandit War in its name). For patchers I do not check if it uses Bandit War.esp as a master because I don\u0027t know any good way to not include data from dynamic patchers such as EasyNPC.\r\nACBS - Configuration\r\nTPLT - Template\r\nItems\r\nAIDT - AI Data\r\nPackages\r\nCNAM - Class\r\nDNAM - Player Skills\r\nZNAM - Combat Style\r\nName\r\nDOFT - Default Outift\r\nPerks",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Bandit War.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SynBanditWarForwarder/SynBanditWarForwarder.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/3524324?s=40\u0026amp;v=4",
+      "User": "crysis99",
+      "Repository": "SynBanditWarForwarder",
+      "Sha": "1dd3ae23861e874bb75c568eedd330c70299b21f",
+      "LastUpdatedRunNumber": 33985
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "BookSmart",
             "Visibility": "Visible",
             "OneLineDescription": "Enhance book titles to show more information about them (configurable).",
