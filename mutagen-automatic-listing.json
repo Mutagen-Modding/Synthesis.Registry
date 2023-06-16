@@ -5698,6 +5698,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "SynthesisTemplateWpfApp/SynthesisTemplateWpfApp.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/71204714?s=40\u0026amp;v=4",
+      "User": "Mutagen-Modding",
+      "Repository": "SynthesisTemplateWpfApp",
+      "Sha": "b12b751d16c0b5745d62f83c1d33fe350374c45c",
+      "LastUpdatedRunNumber": 34076
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "MergeTL",
             "Visibility": "Visible",
