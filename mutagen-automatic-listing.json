@@ -5696,19 +5696,12 @@
       "LastUpdatedRunNumber": 31434
     },
     {
-      "Patchers": [
-        {
-          "ProjectPath": "SynthesisTemplateWpfApp/SynthesisTemplateWpfApp.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/71204714?s=40\u0026amp;v=4",
       "User": "Mutagen-Modding",
       "Repository": "SynthesisTemplateWpfApp",
-      "Sha": "b12b751d16c0b5745d62f83c1d33fe350374c45c",
-      "LastUpdatedRunNumber": 34076
+      "Sha": "c9af36fd7721a4895cdc513090776fb725b4cb64",
+      "LastUpdatedRunNumber": 34158
     },
     {
       "Patchers": [
