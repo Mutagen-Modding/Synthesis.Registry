@@ -677,6 +677,38 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Creature Height Variance",
+            "Visibility": "Visible",
+            "OneLineDescription": "Have more verticality in NPC and creature heights",
+            "LongDescription": "Randomizes the height of all NPCs in a deterministic manner. The patcher can be configured with a minimum and maximum value for each race and gender of that race and comes by default with most of the basic human races pre-configured.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Oblivion",
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "CreatureHeightVariance/CreatureHeightVariance.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
+      "User": "CritLoren",
+      "Repository": "CreatureHeightVariance",
+      "Sha": "156582a9c7d1b0d57bffcd13465771c8f23ba513",
+      "LastUpdatedRunNumber": 34251
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "CustomizableItemSorting",
             "Visibility": "Visible",
             "OneLineDescription": "Allows for sorting items into user-defined categories.",
@@ -3147,38 +3179,6 @@
       "Repository": "NPCStatRescaler",
       "Sha": "5b83ac68d79aa76b3c27c9f8ff6d29d3b3d18b87",
       "LastUpdatedRunNumber": 31428
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Creature Height Variance",
-            "Visibility": "Visible",
-            "OneLineDescription": "Have more verticality in NPC and creature heights",
-            "LongDescription": "Randomizes the height of all NPCs in a deterministic manner. The patcher can be configured with a minimum and maximum value for each race and gender of that race and comes by default with most of the basic human races pre-configured.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "Oblivion",
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "EnderalLE",
-              "EnderalSE",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "NPCVariance/NPCVariance.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
-      "User": "CritLoren",
-      "Repository": "NPCVariance",
-      "Sha": "baccde7161bc362c564b0870eab5b0b82173168c",
-      "LastUpdatedRunNumber": 34250
     },
     {
       "Patchers": [
