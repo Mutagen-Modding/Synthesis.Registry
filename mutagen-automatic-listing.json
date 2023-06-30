@@ -622,8 +622,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
       "Repository": "Costume-Shop",
-      "Sha": "bac25c624b0623f471e00f7ba0b4b6554d4eca3f",
-      "LastUpdatedRunNumber": 33941
+      "Sha": "bb4870eadd075d62594eb9c3f43a5fec78457e44",
+      "LastUpdatedRunNumber": 34398
     },
     {
       "Patchers": [
@@ -5919,6 +5919,32 @@
       "Repository": "tmopatcher",
       "Sha": "66970b82103297cf43f85cd6d36e48e6cf0f929d",
       "LastUpdatedRunNumber": 31433
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "TMWeaponPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Oblivion"
+            ]
+          },
+          "ProjectPath": "TMWeaponPatcher/TMWeaponPatcher.csproj",
+          "IncludedLibraries": [
+            "Oblivion"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/15333965?s=40\u0026amp;v=4",
+      "User": "Troy1010",
+      "Repository": "TMWeaponPatcher",
+      "Sha": "9b46b8f83b923a81aca10f01c91c6e2477fabb47",
+      "LastUpdatedRunNumber": 34398
     },
     {
       "Patchers": [
