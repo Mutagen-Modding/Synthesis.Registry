@@ -2258,6 +2258,27 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "Khajiitifier.Common/Khajiitifier.Common.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "ProjectPath": "Khajiitifier.Tests/Khajiitifier.Tests.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "Khajiitifier",
+      "Sha": "e9b5283f8857c408ec00477ee00c27892f02106c",
+      "LastUpdatedRunNumber": 34437
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "KillmoveParalysisPatcher",
             "Visibility": "Visible",
