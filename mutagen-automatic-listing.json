@@ -5725,9 +5725,7 @@
         {
           "ProjectPath": "BatchConfigUpdater/BatchConfigUpdater.csproj",
           "IncludedLibraries": [
-            "Skyrim",
-            "Oblivion",
-            "Fallout4"
+            "Skyrim"
           ]
         },
         {
@@ -5753,8 +5751,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthEBD",
-      "Sha": "e8eb4a8544dae3fd2d3fabc3b99a95544e51484c",
-      "LastUpdatedRunNumber": 34467
+      "Sha": "bbc366f4e4335ad31e6d0c10fbc9bee4d794180c",
+      "LastUpdatedRunNumber": 34488
     },
     {
       "Patchers": [],
