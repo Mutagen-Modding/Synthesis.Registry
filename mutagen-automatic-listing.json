@@ -4226,7 +4226,7 @@
           "Customization": {
             "Nickname": "SorcererPatcher",
             "Visibility": "Visible",
-            "OneLineDescription": "",
+            "OneLineDescription": "Synthesis patcher for Sorcerer - A Staff and Scroll Overhaul",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
@@ -4246,8 +4246,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
       "User": "ThirdEyeSqueegee",
       "Repository": "SorcererPatcher",
-      "Sha": "677c889fc09241a46d9aed5ef3089b1347fcf039",
-      "LastUpdatedRunNumber": 34550
+      "Sha": "7cb7bab1243007cab9681a130186cc8c99341fba",
+      "LastUpdatedRunNumber": 34552
     },
     {
       "Patchers": [
