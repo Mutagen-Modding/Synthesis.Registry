@@ -317,6 +317,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "ArmorKeywordPatcher/ArmorKeywordPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
+      "User": "ThirdEyeSqueegee",
+      "Repository": "ArmorKeywordPatcher",
+      "Sha": "9327debfd632fd5a2075c1b62ecd6c40fee98529",
+      "LastUpdatedRunNumber": 34666
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "Artistic Skyrim Overhaul - Exteriors Fixed",
             "Visibility": "Visible",
@@ -1723,6 +1738,32 @@
       "Repository": "GridTransitionCrashFix",
       "Sha": "ad3c1a88e3913a298b847938e0cab941a16251ef",
       "LastUpdatedRunNumber": 31426
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Grounded Commonwealth Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Compatibility patcher for Grounded Commonwealth.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "GroundedCommonwealthPatcher/GroundedCommonwealthPatcher.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
+      "User": "ReaperAnon",
+      "Repository": "Grounded-Commonwealth-Patcher",
+      "Sha": "06ea26734056ff151bc9db6e59d7d1bdf37559f8",
+      "LastUpdatedRunNumber": 34666
     },
     {
       "Patchers": [
@@ -6267,35 +6308,6 @@
       "Repository": "WeaponSpeedEffectsFix",
       "Sha": "ce3f71c1ec5635c278bc3f76902e1ddc12dce7a0",
       "LastUpdatedRunNumber": 31426
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "ThirdEyeSqueegee/WeaponStaggerNullifier",
-            "Visibility": "Visible",
-            "OneLineDescription": "Sets the Stagger value to 0 for all weapons",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "WeaponStaggerNullifier/WeaponStaggerNullifier.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
-      "User": "ThirdEyeSqueegee",
-      "Repository": "WeaponStaggerNullifier",
-      "Sha": "63b2acdcb8692b2fbd4d46516ec92647659aca50",
-      "LastUpdatedRunNumber": 33276
     },
     {
       "Patchers": [
