@@ -4529,6 +4529,36 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "StaffDuplicator",
+            "Visibility": "Visible",
+            "OneLineDescription": "Generates CC Staff variants of existing staves",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "ccbgssse066-staves.esl"
+            ],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "StaffDuplicator/StaffDuplicator.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/44883930?s=40\u0026amp;v=4",
+      "User": "BitterlyIronic",
+      "Repository": "StaffDuplicator",
+      "Sha": "34e03b0d10c705ae9f0c43ecfad659ad1befab33",
+      "LastUpdatedRunNumber": 34727
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "StaffGenerator",
             "Visibility": "Visible",
             "OneLineDescription": "Generates Staves for spells",
