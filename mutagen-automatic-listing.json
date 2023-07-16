@@ -409,6 +409,38 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "BlacksmithForgeWater",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Oblivion",
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "Fallout4",
+              "EnderalLE",
+              "EnderalSE"
+            ]
+          },
+          "ProjectPath": "BlacksmithForgeWater/BlacksmithForgeWater.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/45305344?s=40\u0026amp;v=4",
+      "User": "Sandman534",
+      "Repository": "BlacksmithForgeWater",
+      "Sha": "13d0e270619b993830a4625c2fa1af5534191d21",
+      "LastUpdatedRunNumber": 34771
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "BreakdownRecipeGenerator",
             "Visibility": "Visible",
             "OneLineDescription": "Generates breakdown recipes for every craftable item in the game.",
