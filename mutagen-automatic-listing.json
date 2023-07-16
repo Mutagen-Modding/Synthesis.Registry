@@ -411,8 +411,8 @@
           "Customization": {
             "Nickname": "BlacksmithForgeWater",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Places Blacksmith Forge Water",
+            "LongDescription": "Will place Blacksmith Forge Water in your game tailored to your load order. You can add additional forges as needed for mods that create their own forges.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -434,8 +434,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/45305344?s=40\u0026amp;v=4",
       "User": "Sandman534",
       "Repository": "BlacksmithForgeWater",
-      "Sha": "13d0e270619b993830a4625c2fa1af5534191d21",
-      "LastUpdatedRunNumber": 34771
+      "Sha": "8560dd1fa9f31d45e24b35500b404639ece99ae3",
+      "LastUpdatedRunNumber": 34779
     },
     {
       "Patchers": [
