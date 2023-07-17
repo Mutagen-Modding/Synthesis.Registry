@@ -4668,21 +4668,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "CramMods.STUMP/CramMods.STUMP.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/100351519?s=40\u0026amp;v=4",
-      "User": "CramMods",
-      "Repository": "STUMP",
-      "Sha": "373b1626a956093ee704f30806aa59625e59810f",
-      "LastUpdatedRunNumber": 31425
-    },
-    {
-      "Patchers": [
-        {
           "Customization": {
             "Nickname": "SustainedSpellsPatcher",
             "Visibility": "IncludeButHide",
@@ -4890,8 +4875,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
       "User": "TokcDK",
       "Repository": "SynAutomaticPerks",
-      "Sha": "b7a64b26eb64caaebb7a74ebbd0b1595e430f7c3",
-      "LastUpdatedRunNumber": 31423
+      "Sha": "f4a1be06b80453beab1a833e52f2af47033612eb",
+      "LastUpdatedRunNumber": 34792
     },
     {
       "Patchers": [
