@@ -1640,6 +1640,32 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "Frost Spell Stamina Damage Adjustments",
+            "Visibility": "Visible",
+            "OneLineDescription": "Reduces (or increases) stamina damage from frost spell effects.",
+            "LongDescription": "Frost spells damaging stamina can feel a little...off when using combat mods that increase the reliance on stamina. This mod can be used to adjust that value (or completely negate it) so that it feels more balanced. The number is completely configurable so you can make it as insanely over or underpowered as you want.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "FrostStaminaDamageAdjustments/FrostStaminaDamageAdjustments.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/44481649?s=40\u0026amp;v=4",
+      "User": "Delfofthebla",
+      "Repository": "FrostStaminaDamageAdjustments",
+      "Sha": "66d62e5f91a0b2317a52473c5fe0a88b6e3da169",
+      "LastUpdatedRunNumber": 34813
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "GDOPatcher/GDOPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -1913,6 +1939,35 @@
       "Repository": "HeightsOfSkyrim",
       "Sha": "6f7f889b6910d8897155c240dc7282b693051fcf",
       "LastUpdatedRunNumber": 31428
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "HeightsOfSkyrim-DiverseRacialSkeletons",
+            "Visibility": "Visible",
+            "OneLineDescription": "Compatability patcher between Heights of Skyrim, FK\u0027s Diverse Racial Skeletons, and anything that touches Races or NPCs directly.",
+            "LongDescription": "This patcher forwards height changes from Heights_of_Skyrim.esp, as well as height changes from FK\u0027s Diverse Racial Skeletons.\r\n\r\nNote: you should load Heights_of_Skyrim.esp as high as possible to avoid conflicts. It must be placed above NPC overhauls. The same goes for FK\u0027s Diverse Racial Skeletons.esp.\r\nYou should still download other compatibility patches where they are available for either mod.\r\nThese two mods technically accomplish the same thing, but some may want the benefits of both without exaggerating their effects--that\u0027s where this patch comes in. This patcher can dynamically detect the intended variance from Heights of Skyrim and apply adjustments based on the racial changes that were made by FK\u0027s.\r\nYou can then apply a multiplier to reduce (or amplify) these changes to your taste.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Heights_of_Skyrim.esp",
+              "FK\u0027s Diverse Racial Skeletons.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "HeightsOfSkyrimDiverseRacialSkeletons/HeightsOfSkyrimDiverseRacialSkeletons.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/44481649?s=40\u0026amp;v=4",
+      "User": "Delfofthebla",
+      "Repository": "HeightsOfSkyrim-DiverseRacialSkeletons",
+      "Sha": "e9d5925842ae38f3fa82fca07166ffaa42747b36",
+      "LastUpdatedRunNumber": 34813
     },
     {
       "Patchers": [
