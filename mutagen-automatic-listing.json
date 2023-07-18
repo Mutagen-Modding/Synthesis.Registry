@@ -6268,10 +6268,10 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Kevin-Lewis/UnleveledOblivion",
+            "Nickname": "Unleveled Oblivion",
             "Visibility": "Visible",
-            "OneLineDescription": "Updates NPCs and creatures to have static levels rather than be tied to the player character",
-            "LongDescription": "",
+            "OneLineDescription": "Updates NPCs and creatures to have static levels rather than be tied to the player character.",
+            "LongDescription": "Updates NPCs and creatures to have static levels rather than be tied to the player character.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -6287,8 +6287,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/20761444?s=40\u0026amp;v=4",
       "User": "Kevin-Lewis",
       "Repository": "UnleveledOblivion",
-      "Sha": "bbeca47fb9424def9ae33be6b6b39cc15c2374f1",
-      "LastUpdatedRunNumber": 34808
+      "Sha": "39439acd8a0fafcdaee0c5f931a6c4515a9b61d3",
+      "LastUpdatedRunNumber": 34811
     },
     {
       "Patchers": [],
