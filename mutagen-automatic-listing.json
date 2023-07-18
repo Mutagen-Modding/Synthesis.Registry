@@ -2293,9 +2293,7 @@
             "OneLineDescription": "Adds buyable travel packs to all innkeepers and Khajiit caravans",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "Journeyman.esp"
-            ],
+            "RequiredMods": [],
             "TargetedReleases": [
               "SkyrimLE",
               "SkyrimSE",
@@ -2312,8 +2310,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
       "User": "ThirdEyeSqueegee",
       "Repository": "JourneymanVendorPatcher",
-      "Sha": "644e2aa5f7f413006c3ca3e2caead61d721b3b51",
-      "LastUpdatedRunNumber": 33673
+      "Sha": "3d4a956cbc5c7e93d613dc74c1aebd9e310d7f94",
+      "LastUpdatedRunNumber": 34808
     },
     {
       "Patchers": [
@@ -4350,8 +4348,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
       "User": "ThirdEyeSqueegee",
       "Repository": "SorcererPatcher",
-      "Sha": "dddc917462038def0630280614307e447a57fb16",
-      "LastUpdatedRunNumber": 34594
+      "Sha": "261258af0177c94a1b2e0ce4b47dfa93284725bf",
+      "LastUpdatedRunNumber": 34808
     },
     {
       "Patchers": [
@@ -6289,8 +6287,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/20761444?s=40\u0026amp;v=4",
       "User": "Kevin-Lewis",
       "Repository": "UnleveledOblivion",
-      "Sha": "74bedf71770177525089b17c2b63291e3385e540",
-      "LastUpdatedRunNumber": 34807
+      "Sha": "bbeca47fb9424def9ae33be6b6b39cc15c2374f1",
+      "LastUpdatedRunNumber": 34808
     },
     {
       "Patchers": [],
