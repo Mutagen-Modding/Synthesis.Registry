@@ -5453,6 +5453,37 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "TokcDK/SynGlovesAddFirstsPerk",
+            "Visibility": "Visible",
+            "OneLineDescription": "Add missing fists perk to gloves by material",
+            "LongDescription": "Some gloves have increasing damage by hand to hand hits.\nSome mod gloves can have missing the perk.\nThe patcher can add this perk to any gloves when it missing by theit material type.\n\nNeed Weapon and Armor Fixes mod for additional fists perks to assign or it is possible to set custom perks in the patch settings",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SynGlovesAddFirstsPerk/SynGlovesAddFirstsPerk.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynGlovesAddFirstsPerk",
+      "Sha": "f5c8f9e206b5bc843b9919f76c544b159c3ec1dd",
+      "LastUpdatedRunNumber": 34823
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "TokcDK/Heels sound for hdtHighHeels/NIOHH",
             "Visibility": "Visible",
             "OneLineDescription": "Auto adds highheels sound to valid boots",
