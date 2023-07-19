@@ -330,6 +330,14 @@
       "LastUpdatedRunNumber": 34666
     },
     {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
+      "User": "ExpensiveLadder",
+      "Repository": "Armoury-of-Tamriel-2.0-Generator",
+      "Sha": "0ba660e838d2dda6382e5ba91c0c2f0fa5c8b5c8",
+      "LastUpdatedRunNumber": 34832
+    },
+    {
       "Patchers": [
         {
           "Customization": {
@@ -6373,8 +6381,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/20761444?s=40\u0026amp;v=4",
       "User": "Kevin-Lewis",
       "Repository": "UnleveledOblivion",
-      "Sha": "1e2941f9de545a52db53f2ef7eb1815d2d25735e",
-      "LastUpdatedRunNumber": 34830
+      "Sha": "895f8209e0045269ef0f1947899a02c70b74a603",
+      "LastUpdatedRunNumber": 34832
     },
     {
       "Patchers": [],
