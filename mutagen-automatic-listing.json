@@ -442,8 +442,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/45305344?s=40\u0026amp;v=4",
       "User": "Sandman534",
       "Repository": "BlacksmithForgeWater",
-      "Sha": "8560dd1fa9f31d45e24b35500b404639ece99ae3",
-      "LastUpdatedRunNumber": 34779
+      "Sha": "e125b2acfbe165abe6f01db4518832c85a63dd0f",
+      "LastUpdatedRunNumber": 34883
     },
     {
       "Patchers": [
@@ -1670,6 +1670,36 @@
       "Repository": "FrostStaminaDamageAdjustments",
       "Sha": "66d62e5f91a0b2317a52473c5fe0a88b6e3da169",
       "LastUpdatedRunNumber": 34813
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "FusionPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Fuse your records into a unified patch",
+            "LongDescription": "Fuse mod records together to create a unified patch. Granular control over individual records and what mods will be included in specified overrides",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE"
+            ]
+          },
+          "ProjectPath": "Fusion/Fusion.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/45305344?s=40\u0026amp;v=4",
+      "User": "Sandman534",
+      "Repository": "FusionPatcher",
+      "Sha": "fa02e5a3299e72e544a1ede82102f3716a13faee",
+      "LastUpdatedRunNumber": 34883
     },
     {
       "Patchers": [
