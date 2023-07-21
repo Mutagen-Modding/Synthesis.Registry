@@ -2004,8 +2004,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/44481649?s=40\u0026amp;v=4",
       "User": "Delfofthebla",
       "Repository": "HeightsOfSkyrim-DiverseRacialSkeletons",
-      "Sha": "e129e1ad89e4df2b6fb8de8a3a5242e16142eaa4",
-      "LastUpdatedRunNumber": 34860
+      "Sha": "28ac4abc936ba4ee1f5ab91ee11f04472d065019",
+      "LastUpdatedRunNumber": 34896
     },
     {
       "Patchers": [
@@ -2107,6 +2107,21 @@
       "Repository": "HighPolyHead-UpdateDefaultRaces",
       "Sha": "808585aec44b4f7e893c9d23aa8b4d93eea9c4be",
       "LastUpdatedRunNumber": 31426
+    },
+    {
+      "Patchers": [
+        {
+          "ProjectPath": "HighPolyHeadVampireFix/HighPolyHeadVampireFix.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/44481649?s=40\u0026amp;v=4",
+      "User": "Delfofthebla",
+      "Repository": "HighPolyHeadVampireFix",
+      "Sha": "a9342f1fff4e702d76212b63926d36c27d44a434",
+      "LastUpdatedRunNumber": 34896
     },
     {
       "Patchers": [
@@ -2602,10 +2617,13 @@
             "Nickname": "leveledlistresolver",
             "Visibility": "Visible",
             "OneLineDescription": "A Patcher for resolving leveled list conflicts without the use of Bash Tags.",
-            "LongDescription": "This patcher attempts to recreate Wyre Bash\u0027s leveled list functionality in a way the does not require tagging plugins. Results aren\u0027t guaranteed to 100% identical to Wyre Bash.",
+            "LongDescription": "This patcher attempts to recreate Wyre Bash\u0027s leveled list functionality without the need to tag plugins.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimSEGog"
+            ]
           },
           "ProjectPath": "leveledlistresolver/leveledlistresolver.csproj",
           "IncludedLibraries": [
@@ -2616,8 +2634,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/65688322?s=40\u0026amp;v=4",
       "User": "OddDrifter",
       "Repository": "leveledlistresolver",
-      "Sha": "89808df55088b283697032cbeb33a2c78decc5c8",
-      "LastUpdatedRunNumber": 32417
+      "Sha": "f52b4cb2db264c402bd73f255cd6955a92d93e52",
+      "LastUpdatedRunNumber": 34896
     },
     {
       "Patchers": [
