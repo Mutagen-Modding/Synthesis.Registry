@@ -837,6 +837,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "DialogueTransformer.Common/DialogueTransformer.Common.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "DialogueTransformer",
+      "Sha": "1a44ddaeb5392dd65bff54837430cf9043164333",
+      "LastUpdatedRunNumber": 34909
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "DisenchantEverything",
             "Visibility": "Visible",
@@ -2464,27 +2479,6 @@
       "Repository": "khajiitearsshow",
       "Sha": "9abdaf2460eabaa64c445f9a6a16685da6c5d358",
       "LastUpdatedRunNumber": 31433
-    },
-    {
-      "Patchers": [
-        {
-          "ProjectPath": "Khajiitifier.Common/Khajiitifier.Common.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        },
-        {
-          "ProjectPath": "Khajiitifier.Tests/Khajiitifier.Tests.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "Khajiitifier",
-      "Sha": "e9b5283f8857c408ec00477ee00c27892f02106c",
-      "LastUpdatedRunNumber": 34437
     },
     {
       "Patchers": [
