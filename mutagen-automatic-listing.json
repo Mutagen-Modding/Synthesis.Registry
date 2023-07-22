@@ -4202,34 +4202,6 @@
     {
       "Patchers": [
         {
-          "Customization": {
-            "Nickname": "SynStringMerger",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "Oblivion",
-              "SkyrimSE",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "SynStringMerger/SynStringMerger.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/23549756?s=40\u0026amp;v=4",
-      "User": "Kerite",
-      "Repository": "skyrim-string-merger",
-      "Sha": "6fc4407b8b489502eb9faa384d54c3f17f723749",
-      "LastUpdatedRunNumber": 34906
-    },
-    {
-      "Patchers": [
-        {
           "ProjectPath": "NIFPatcher_HairShader/NIFPatcher_HairShader.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -4264,6 +4236,34 @@
       "Repository": "SkyrimPotionGenerator",
       "Sha": "54e492e60fee29dbcb8d96615ec052926fbe74dc",
       "LastUpdatedRunNumber": 33019
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynStringMerger",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Oblivion",
+              "SkyrimSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SynStringMerger/SynStringMerger.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/23549756?s=40\u0026amp;v=4",
+      "User": "Kerite",
+      "Repository": "SkyrimStringMerger",
+      "Sha": "6fc4407b8b489502eb9faa384d54c3f17f723749",
+      "LastUpdatedRunNumber": 34907
     },
     {
       "Patchers": [
