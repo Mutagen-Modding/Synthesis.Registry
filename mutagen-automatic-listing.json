@@ -70,6 +70,33 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "iAmMe27/AI-Overhaul-Patcher-Edit-by-iAmMe",
+            "Visibility": "Visible",
+            "OneLineDescription": "iAm\u0027s edit of the AI Overhaul patcher to incorporate OWL changes.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "AIOverhaulPatcherEditbyiAmMe/AIOverhaulPatcherEditbyiAmMe.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/98499526?s=40\u0026amp;v=4",
+      "User": "iAmMe27",
+      "Repository": "AI-Overhaul-Patcher-Edit-by-iAmMe",
+      "Sha": "c67e19e6d255067878e86459227973b1c7c1ae9c",
+      "LastUpdatedRunNumber": 34945
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "AI Stealth Overhaul",
             "Visibility": "Visible",
             "OneLineDescription": "Configurable enemy AI stealth behaviour overhaul.",
