@@ -394,6 +394,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "ReaperAnon/Attachment-Demystifier",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "AttachmentDemystifier/AttachmentDemystifier.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
+      "User": "ReaperAnon",
+      "Repository": "Attachment-Demystifier",
+      "Sha": "93073e62540de112998d49f64ac3c7abb3b354be",
+      "LastUpdatedRunNumber": 34966
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "BaboKeywordPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "",
@@ -1077,6 +1103,32 @@
       "Repository": "EnemyReleveler",
       "Sha": "2f3a062841ee6190d8cfead72339d5568672d61b",
       "LastUpdatedRunNumber": 31431
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "EnergyWeaponBatteries",
+            "Visibility": "Visible",
+            "OneLineDescription": "Changes energy ammo to work like a battery.",
+            "LongDescription": "Changes energy ammo to work like a battery, similar to how fusion cores work in the gatling laser.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "EnergyWeaponBatteries/EnergyWeaponBatteries.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
+      "User": "ReaperAnon",
+      "Repository": "EnergyWeaponBatteries",
+      "Sha": "b2b284940d045243809b8fbf972df3d873ab8462",
+      "LastUpdatedRunNumber": 34966
     },
     {
       "Patchers": [
