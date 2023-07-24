@@ -3998,6 +3998,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "skse_plugin_template",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "tools/EspGenerator/EspGenerator.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1473701?s=40\u0026amp;v=4",
+      "User": "myarichuk",
+      "Repository": "skse_plugin_template",
+      "Sha": "0b91b76d5e39e4253932c1e0782f0f4707b6d827",
+      "LastUpdatedRunNumber": 34954
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SF_Visual_Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Merges SkyFurry changes into the winning override.",
