@@ -1064,6 +1064,37 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Enchanted Items Value Fixer",
+            "Visibility": "Visible",
+            "OneLineDescription": "Fixes the value of enchanted items not matching their unenchanted counterpart.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SetValueFromTemplate/SetValueFromTemplate.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
+      "User": "ExpensiveLadder",
+      "Repository": "Enchanted-Items-Value-Fixer",
+      "Sha": "525f62f35b74ceb91e9db2908255b78ac5847b93",
+      "LastUpdatedRunNumber": 35039
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "EnchantedVariantsGenerator",
             "Visibility": "Visible",
             "OneLineDescription": "",
@@ -3929,37 +3960,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Enchanted Items Value Fixer",
-            "Visibility": "Visible",
-            "OneLineDescription": "Fixes the value of enchanted items not matching their unenchanted counterpart.",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "EnderalLE",
-              "EnderalSE",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "SetValueFromTemplate/SetValueFromTemplate.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
-      "User": "ExpensiveLadder",
-      "Repository": "Set-Value-From-Template",
-      "Sha": "525f62f35b74ceb91e9db2908255b78ac5847b93",
-      "LastUpdatedRunNumber": 34765
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "SFCOPaintingRemover",
             "Visibility": "Visible",
             "OneLineDescription": "Remove all paintings from Snazzy\u0027s Furniture and Clutter Overhaul",
@@ -4590,8 +4590,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
       "User": "ThirdEyeSqueegee",
       "Repository": "SorcererPatcher",
-      "Sha": "cea2019e9bcac0db26d92f2c65dd94207918883e",
-      "LastUpdatedRunNumber": 34944
+      "Sha": "22cf45f6210672dfb09a9a0978eab8f29f12aa62",
+      "LastUpdatedRunNumber": 35039
     },
     {
       "Patchers": [
