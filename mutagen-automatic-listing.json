@@ -2242,6 +2242,17 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "High Poly Head Vampire Fix",
+            "Visibility": "Visible",
+            "OneLineDescription": "Applies the High Poly Head Vampire Fix esp changes to your vampire races dynamically, instead of requiring an ESP to accomplish it.",
+            "LongDescription": "The problem with the original HighPolyHeadVampireFix, is that it\u0027s an esp that touches races. Anyone with a decent sized modlist has likely felt the pain, and the reality. Way too many fuckin plugins touch races. Races are very large forms within skyrim, and Bash/Smash patches can only do so much.\nThis synthesis patch gives you the ability to just do what that fix is doing, but as a singular change applied to the race record based on what was at the end of your loadorder. Provided that you are already solving other conflict issues elsewhere, this patch can help you achieve maximum compatibility.\nDisable (or delete) any and ALL HighPolyHeadVampireFix esps in your loadorder, then add this patch to the end of your Synthesis patch group that handles NPCS. If you only use one synthesis patch group, that should be fine too. ",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
           "ProjectPath": "HighPolyHeadVampireFix/HighPolyHeadVampireFix.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -2251,8 +2262,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/44481649?s=40\u0026amp;v=4",
       "User": "Delfofthebla",
       "Repository": "HighPolyHeadVampireFix",
-      "Sha": "a9342f1fff4e702d76212b63926d36c27d44a434",
-      "LastUpdatedRunNumber": 34896
+      "Sha": "1fe0fb1cead93f838fafd4ab9ab8370bcbc5b6d8",
+      "LastUpdatedRunNumber": 35069
     },
     {
       "Patchers": [
