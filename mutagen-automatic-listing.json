@@ -2743,6 +2743,8 @@
             "RequiredMods": [],
             "TargetedReleases": [
               "SkyrimSE",
+              "SkyrimVR",
+              "EnderalSE",
               "SkyrimSEGog"
             ]
           },
@@ -2755,8 +2757,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/65688322?s=40\u0026amp;v=4",
       "User": "OddDrifter",
       "Repository": "leveledlistresolver",
-      "Sha": "f52b4cb2db264c402bd73f255cd6955a92d93e52",
-      "LastUpdatedRunNumber": 34896
+      "Sha": "3ae93b184ef46ae5388807fb264b54c75fc23c80",
+      "LastUpdatedRunNumber": 35135
     },
     {
       "Patchers": [
