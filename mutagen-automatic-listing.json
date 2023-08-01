@@ -1822,15 +1822,16 @@
           },
           "ProjectPath": "Fusion/Fusion.csproj",
           "IncludedLibraries": [
-            "Skyrim"
+            "Skyrim",
+            "Fallout4"
           ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/45305344?s=40\u0026amp;v=4",
       "User": "Sandman534",
       "Repository": "FusionPatcher",
-      "Sha": "38656f4b708900f804b1a8fa8d603659c76e2825",
-      "LastUpdatedRunNumber": 35133
+      "Sha": "4f05b885f5d4de391be6fa7413c9278c80114642",
+      "LastUpdatedRunNumber": 35138
     },
     {
       "Patchers": [
