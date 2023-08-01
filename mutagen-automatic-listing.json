@@ -890,12 +890,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "DialogueTransformer.Common/DialogueTransformer.Common.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        },
-        {
           "ProjectPath": "DialogueTransformer.CsvOutputMerger/DialogueTransformer.CsvOutputMerger.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -925,8 +919,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
       "User": "tr4wzified",
       "Repository": "DialogueTransformer",
-      "Sha": "b40aa455e2c6e28b619fd967cec6e0714bae2720",
-      "LastUpdatedRunNumber": 35154
+      "Sha": "98fc4503bdcbcc37f27d87fb420f7e372354508a",
+      "LastUpdatedRunNumber": 35155
     },
     {
       "Patchers": [
