@@ -2104,8 +2104,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/15333965?s=40\u0026amp;v=4",
       "User": "Troy1010",
       "Repository": "HealthAndDamageScalingPatcher",
-      "Sha": "300f37bccac434b908d2c29dcab39d6a3b1e3cbd",
-      "LastUpdatedRunNumber": 35187
+      "Sha": "1059004abccc2b159237d1bd69aed7417263b1f8",
+      "LastUpdatedRunNumber": 35188
     },
     {
       "Patchers": [
@@ -6181,8 +6181,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthEBD",
-      "Sha": "6d2ba9697760a43ddb2c863b05a02139d1ea3f09",
-      "LastUpdatedRunNumber": 34505
+      "Sha": "568efc6b743696a3b87ccac08b52f24120b229d2",
+      "LastUpdatedRunNumber": 35188
     },
     {
       "Patchers": [],
