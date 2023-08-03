@@ -2095,6 +2095,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "HealthAndDamageScalingPatcher/HealthAndDamageScalingPatcher.csproj",
+          "IncludedLibraries": [
+            "Oblivion"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/15333965?s=40\u0026amp;v=4",
+      "User": "Troy1010",
+      "Repository": "HealthAndDamageScalingPatcher",
+      "Sha": "300f37bccac434b908d2c29dcab39d6a3b1e3cbd",
+      "LastUpdatedRunNumber": 35187
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "HeightsOfSkyrim",
             "Visibility": "Visible",
