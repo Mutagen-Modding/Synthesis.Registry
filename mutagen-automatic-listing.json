@@ -44,6 +44,34 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "ASBF Spells",
+            "Visibility": "Visible",
+            "OneLineDescription": "Add Spells to \u0022Add Stuff By FormList\u0022 based off what Spell Tomes are present.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Add Stuff By FormList.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "AddStuffByFormList_AddLearnableSpells/AddStuffByFormList_AddLearnableSpells.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
+      "User": "Michael-wigontherun",
+      "Repository": "AddStuffByFormList_AddLearnableSpells",
+      "Sha": "bcf7bcd8b30f08b079a8673a2ab356ed64a0ab5e",
+      "LastUpdatedRunNumber": 35244
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "AIOverhaulPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Forwards AI Overhaul Edits",
