@@ -5006,7 +5006,7 @@
         {
           "Customization": {
             "Nickname": "SynAlternateCustomSkills",
-            "Visibility": "Visible",
+            "Visibility": "IncludeButHide",
             "OneLineDescription": "Synthesis Patcher for NetFramework based Custom Skill Trees",
             "LongDescription": "Generates the necesscary data for a NetFramework skill tree to work in Alternate Custom Skill Framework",
             "PreferredAutoVersioning": "Default",
@@ -5022,8 +5022,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynACSF",
-      "Sha": "aa4b29a82a8963a8eb886c0e54bc495a0a9bc957",
-      "LastUpdatedRunNumber": 32860
+      "Sha": "21d64cd5edc4202a8f4115aa7b8e6bde579f0762",
+      "LastUpdatedRunNumber": 35267
     },
     {
       "Patchers": [
