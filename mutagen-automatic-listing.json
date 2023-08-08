@@ -3321,6 +3321,36 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "NavmeshCollector",
+            "Visibility": "Visible",
+            "OneLineDescription": "Collects winning navmesh records into 1 ESP.",
+            "LongDescription": "When ran against a load order, it simply collects all the winning Navmesh records in both exterior and interior spaces to allow easier creation of a nav patch.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "NavmeshCollector/NavmeshCollector.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/98499526?s=40\u0026amp;v=4",
+      "User": "iAmMe27",
+      "Repository": "Navmesh-Collector",
+      "Sha": "853205c70d4b8106f51dfbef0c96def89a8cec1f",
+      "LastUpdatedRunNumber": 35320
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "NoShadowsPatch",
             "Visibility": "Visible",
             "OneLineDescription": "",
