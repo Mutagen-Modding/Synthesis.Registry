@@ -6140,6 +6140,35 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "SetEsl",
+            "Visibility": "Visible",
+            "OneLineDescription": "Sets the ESLFlag on Synthesis patch mods. Ensure this is the last synthesis patch in each group.",
+            "LongDescription": "Sets the ESLFlag on Synthesis patch mods. Ensure this is the last synthesis patch in each group.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "Fallout4",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SynSetESL/SynSetESL.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
+      "User": "Michael-wigontherun",
+      "Repository": "SynSetESL",
+      "Sha": "c623b1c9b75c8b2af8bd616eed835cb76a5d19de",
+      "LastUpdatedRunNumber": 35326
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "SpellTomeFreeLeveledLists/SpellTomeFreeLeveledLists.csproj",
           "IncludedLibraries": [
             "Skyrim"
