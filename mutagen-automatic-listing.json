@@ -6267,8 +6267,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthEBD",
-      "Sha": "d01f9c27963b7076e2f4570190d4e8b7e7acc978",
-      "LastUpdatedRunNumber": 35311
+      "Sha": "cd748b499f71691c248994446fd20cf3b5646152",
+      "LastUpdatedRunNumber": 35359
     },
     {
       "Patchers": [],
@@ -6454,6 +6454,21 @@
       "Repository": "tmopatcher",
       "Sha": "66970b82103297cf43f85cd6d36e48e6cf0f929d",
       "LastUpdatedRunNumber": 31433
+    },
+    {
+      "Patchers": [
+        {
+          "ProjectPath": "TMSpeedPatcher/TMSpeedPatcher.csproj",
+          "IncludedLibraries": [
+            "Oblivion"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/15333965?s=40\u0026amp;v=4",
+      "User": "Troy1010",
+      "Repository": "TMSpeedPatcher",
+      "Sha": "40d7d5c75f376c5a8756b7fd4d092db19f11b31d",
+      "LastUpdatedRunNumber": 35359
     },
     {
       "Patchers": [
