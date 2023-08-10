@@ -1709,6 +1709,22 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "Followers-are-Sneaky",
+            "Visibility": "Visible",
+            "OneLineDescription": "Adds Doesn\u0027t Affect Stealth flag to followers.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
           "ProjectPath": "Followers-are-Sneaky/Followers-are-Sneaky.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -1718,8 +1734,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/98499526?s=40\u0026amp;v=4",
       "User": "iAmMe27",
       "Repository": "Followers-are-Sneaky",
-      "Sha": "4d3c36f3477a20bad2a39ffb6a482fc46c2b4d6d",
-      "LastUpdatedRunNumber": 35364
+      "Sha": "23b5ea5ecce18d641bf5333fcd520ac74e24f6b1",
+      "LastUpdatedRunNumber": 35368
     },
     {
       "Patchers": [
