@@ -1709,6 +1709,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "Followers-are-Sneaky/Followers-are-Sneaky.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/98499526?s=40\u0026amp;v=4",
+      "User": "iAmMe27",
+      "Repository": "Followers-are-Sneaky",
+      "Sha": "4d3c36f3477a20bad2a39ffb6a482fc46c2b4d6d",
+      "LastUpdatedRunNumber": 35364
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "FollowersDualWieldPatcher/FollowersDualWieldPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
