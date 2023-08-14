@@ -28,6 +28,54 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynAlternateCustomSkills",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis Patcher for NetFramework based Custom Skill Trees",
+            "LongDescription": "Generates the necesscary data for a NetFramework skill tree to work in Alternate Custom Skill Framework",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynPatcher/SynPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/126917715?s=40\u0026amp;v=4",
+      "User": "tcg359",
+      "Repository": "ACSF16",
+      "Sha": "d282a00b0b09fe541cee8e765e12691cd7fa44fc",
+      "LastUpdatedRunNumber": 35466
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynAlternateCustomSkills",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis Patcher for NetFramework based Custom Skill Trees",
+            "LongDescription": "Generates the necesscary data for a NetFramework skill tree to work in Alternate Custom Skill Framework",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynPatcher/SynPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/126917715?s=40\u0026amp;v=4",
+      "User": "tcg359",
+      "Repository": "ACSF17",
+      "Sha": "61a919aa74aff2802d166b8da1857036b9c10d46",
+      "LastUpdatedRunNumber": 35466
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Remove Edge Glow",
             "Visibility": "Visible",
             "OneLineDescription": "Remove active effect \u0022edge glow\u0022 from actors",
