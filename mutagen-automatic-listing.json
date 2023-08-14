@@ -446,6 +446,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynAlternateCustomSkills",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis Patcher for NetFramework based Custom Skill Trees",
+            "LongDescription": "Generates the necesscary data for a NetFramework skill tree to work in Alternate Custom Skill Framework",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynACSF/SynPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/126917715?s=40\u0026amp;v=4",
+      "User": "tcg359",
+      "Repository": "ASCF15",
+      "Sha": "b1f1e725d567eb39766cf35bfd412cbfd7c22822",
+      "LastUpdatedRunNumber": 35465
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ReaperAnon/Attachment-Demystifier",
             "Visibility": "Visible",
             "OneLineDescription": "",
