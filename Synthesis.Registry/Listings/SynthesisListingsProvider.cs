@@ -14,14 +14,17 @@ public interface ISynthesisDependentsProvider
 public class SynthesisDependentsProvider : ISynthesisDependentsProvider
 {
     private readonly GitHubDependentListingsProvider _gitHubDependentListingsProvider;
+    private readonly BlacklistProvider _blacklistProvider;
     private readonly ManualListingProvider _manualListingProvider;
     private readonly AsyncLazy<IReadOnlyList<Dependent>> _listings;
 
     public SynthesisDependentsProvider(
         GitHubDependentListingsProvider gitHubDependentListingsProvider,
+        BlacklistProvider blacklistProvider,
         ManualListingProvider manualListingProvider)
     {
         _gitHubDependentListingsProvider = gitHubDependentListingsProvider;
+        _blacklistProvider = blacklistProvider;
         _manualListingProvider = manualListingProvider;
         _listings = new AsyncLazy<IReadOnlyList<Dependent>>(Fill);
     }
@@ -35,6 +38,14 @@ public class SynthesisDependentsProvider : ISynthesisDependentsProvider
         if (manual.Succeeded)
         {
             list.AddRange(manual.Value);
+        }
+
+        var blacklist = await _blacklistProvider.Get();
+        if (blacklist.Succeeded)
+        {
+            list = list
+                .Where(x => !blacklist.Value.IsBlacklisted(x))
+                .ToList();
         }
 
         return list
