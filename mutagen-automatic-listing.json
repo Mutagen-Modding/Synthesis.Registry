@@ -340,6 +340,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "ApothecaryAutoPatcher/ApothecaryAutoPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
+      "User": "ExpensiveLadder",
+      "Repository": "ApothecaryAutoPatcher",
+      "Sha": "5e6122d36fb7eb4f7b4a39cfb5d0b89574b07613",
+      "LastUpdatedRunNumber": 35564
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "Arkay\u0027s Commmandment - Requiem-Experience",
             "Visibility": "Visible",
