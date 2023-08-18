@@ -340,6 +340,20 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "ApothecaryAutoPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches mod-added ingredients to match Apothecary",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
           "ProjectPath": "ApothecaryAutoPatcher/ApothecaryAutoPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -349,8 +363,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
       "User": "ExpensiveLadder",
       "Repository": "ApothecaryAutoPatcher",
-      "Sha": "5e6122d36fb7eb4f7b4a39cfb5d0b89574b07613",
-      "LastUpdatedRunNumber": 35564
+      "Sha": "2d506ed1ad7186b0a1717b2a05405b5f552c893f",
+      "LastUpdatedRunNumber": 35565
     },
     {
       "Patchers": [
