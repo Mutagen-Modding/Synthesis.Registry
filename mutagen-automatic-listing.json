@@ -2069,7 +2069,7 @@
             "Nickname": "Grounded Commonwealth Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Compatibility patcher for Grounded Commonwealth.",
-            "LongDescription": "",
+            "LongDescription": "The mod can be found here: https://www.moddb.com/mods/grounded-commonwealth\r\n\r\nThe patcher merges NPC entries to preserve the changes that Grounded Commonwealth made, along with merging cells, quests and consumables and modifying leveled lists to remove female NPCs from raider groups and from the gunners and other NPCs that don\u0027t belong which might be added by other mods.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -2085,8 +2085,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
       "User": "ReaperAnon",
       "Repository": "Grounded-Commonwealth-Patcher",
-      "Sha": "8aa23014fcbaf8d35ce330250c86913ce32d482f",
-      "LastUpdatedRunNumber": 35292
+      "Sha": "5e16c031ed1ce5a1091c24696d76ea31b60cdaec",
+      "LastUpdatedRunNumber": 35687
     },
     {
       "Patchers": [
