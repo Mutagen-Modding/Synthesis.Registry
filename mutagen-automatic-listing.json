@@ -125,6 +125,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "AimZoomPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Allows for changing the zoom levels of weapon sights.",
+            "LongDescription": "Allows for changing the zoom levels of reflex and iron sights and those of scopes from the See-Through Scopes mod. Can lower the zoom level on reflex sights or set a desired static value, disable iron sight zoom and more.\r\n\r\nRead the tooltips for detailed information on the options.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "AimZoomPatcher/AimZoomPatcher.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
+      "User": "ReaperAnon",
+      "Repository": "Aim-Zoom-Patcher",
+      "Sha": "bab4365a804f79bf1b3af47e7e269785a39e3b2f",
+      "LastUpdatedRunNumber": 35698
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "AI Stealth Overhaul",
             "Visibility": "Visible",
             "OneLineDescription": "Configurable enemy AI stealth behaviour overhaul.",
@@ -3893,6 +3919,32 @@
       "Repository": "POV-Messages",
       "Sha": "794cb723a35ca3c51476885847ca5fae0dd71c7d",
       "LastUpdatedRunNumber": 33086
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "PowerArmorMaterialsAndPaints",
+            "Visibility": "Visible",
+            "OneLineDescription": "Separates the paints and materials for power armors so they can be used together.",
+            "LongDescription": "Separates the paints and materials for power armors so they can be used together without needing patches for power armor mods and without changing what the original paints and materials do.\r\n\r\nBy default the patcher has support for the following mods (most don\u0027t need explicit support):\r\n- Hellfire X-03 Power Armor by unoctium\r\n\r\nMost power armors don\u0027t need anything to be changed and work out of the box, but some mod authors don\u0027t follow convention and make their own attachment points. If a power armor doesn\u0027t have the paints and materials separated, then you can open up xEdit and check the Attach Point keyword on the paints for it (located under the Object Modifications tab) and add the keyword to the list in the patcher\u0027s settings.\r\nRead the tooltips for detailed information on the options.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "PowerArmorMaterialsAndPaints/PowerArmorMaterialsAndPaints.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
+      "User": "ReaperAnon",
+      "Repository": "Power-Armor-Materials-and-Paints",
+      "Sha": "e56d16441fa830ed129fea8b6ac7906c4248d21a",
+      "LastUpdatedRunNumber": 35698
     },
     {
       "Patchers": [
