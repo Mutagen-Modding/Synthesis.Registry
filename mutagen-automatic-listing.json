@@ -2111,8 +2111,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
       "User": "ReaperAnon",
       "Repository": "Grounded-Commonwealth-Patcher",
-      "Sha": "c890db32917e32a0dcb7aeedfa89476d0d6622da",
-      "LastUpdatedRunNumber": 35699
+      "Sha": "59ace78d85045e7e212d072e41f43c55c72fe699",
+      "LastUpdatedRunNumber": 35925
     },
     {
       "Patchers": [
@@ -6379,8 +6379,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthEBD",
-      "Sha": "975b476b6fc5963632478a0b2b0d7d1b98344e33",
-      "LastUpdatedRunNumber": 35912
+      "Sha": "c75124e72cad2e5e7852beec9070a4d96948a1ec",
+      "LastUpdatedRunNumber": 35925
     },
     {
       "Patchers": [],
