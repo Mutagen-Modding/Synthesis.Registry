@@ -4386,8 +4386,8 @@
           "Customization": {
             "Nickname": "Skyrim-LeveledLoot",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Adjusts the loot system with a focus on immersion and progression.",
+            "LongDescription": "In vanilla, most materials have the same loot probability, although some materials only appear in the loot table at higher levels. For example, once ebony enters the loot table at level 32, it has the same chance as Dwarven.\nImmersion:\nThis patcher gives certain more common materials such as Steel Plate a higher chance than more exotic materials such as Dwarven.\nProgression:\nNew materials enter the loot table earlier than in vanilla, but start with a tiny chance. The chance increases with your level, so that high levels are necessary to reliable find better materials.\nLoot from certain sources, such as boss chests or quest rewards will have a signifiantly higher chance at rare materials than items sold by blacksmiths or obtained from regular chests.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": []
@@ -4401,8 +4401,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
       "User": "Jampi0n",
       "Repository": "Skyrim-LeveledLoot",
-      "Sha": "b1767b1ce3cebba3e4bb68a28c2ff91f468185d6",
-      "LastUpdatedRunNumber": 35072
+      "Sha": "d82872f4c44a4209ad25a34687b1268ee1e319f3",
+      "LastUpdatedRunNumber": 36134
     },
     {
       "Patchers": [
