@@ -342,6 +342,33 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "AnyRecordData/AnyRecordData.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "ProjectPath": "AnyRecordExporter/AnyRecordExporter.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "ProjectPath": "AnyRecordPatcher/AnyRecordPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/31460040?s=40\u0026amp;v=4",
+      "User": "coldrifting",
+      "Repository": "AnyRecordPatcher",
+      "Sha": "532b6e7eb610090b9856c20a3a8848cbf5d6d6f8",
+      "LastUpdatedRunNumber": 36148
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "AOSISCSoundPatcher",
             "Visibility": "Visible",
