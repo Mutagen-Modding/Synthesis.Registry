@@ -354,6 +354,15 @@
           ]
         },
         {
+          "Customization": {
+            "Nickname": "AnyRecordPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patch many record types with user supplied YAML config files",
+            "LongDescription": "Adjusts many record fields according to a user specified YAML file.\r\n\r\nConfiguration:\r\nTo create a patch, simply create one or more yaml files with the name \u0022Ammo.yaml, Armor.yaml, Books.yaml, etc...\u0022 in a folder in the patcher data directory, and they will be read in alphabetical order by folder name.\r\nFor instance, you could create a file called Cells.yaml and put it in the C:/../Synthesis/Data/Skyrim Special Edition/AnyRecordPatcher/USLEEP directory. See the github repo release for a tool called AnyRecordExporter that makes it easy to export only the changes that a given plugin makes.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
           "ProjectPath": "AnyRecordPatcher/AnyRecordPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -363,8 +372,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/31460040?s=40\u0026amp;v=4",
       "User": "coldrifting",
       "Repository": "AnyRecordPatcher",
-      "Sha": "b7a8325becee0d8136dcae529f2a907c8d8c4bb6",
-      "LastUpdatedRunNumber": 36201
+      "Sha": "c8853a672c7a5690c474145ea38806355fb7c9c0",
+      "LastUpdatedRunNumber": 36216
     },
     {
       "Patchers": [
