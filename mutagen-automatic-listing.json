@@ -6980,6 +6980,36 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "WeaponSkillTypeOverhaul",
+            "Visibility": "Visible",
+            "OneLineDescription": "A dynamically generated mod to rework how the one and two handed weapon skills and their respective perks work.",
+            "LongDescription": "A dynamically generated mod to rework how the one and two handed weapon skills and their respective perks and related spell and magic effects work.\r\n\r\nREQUIRES SPELL PERK ITEM DISTRIBUTOR AND ITS OWN MOD COUNTERPART FOUND HERE:\r\nhttps://github.com/ReaperAnon/WeaponSkillOverhaul/releases\r\n\r\nA few settings presets are also available for download.\r\n\r\nBy default meant to recreate a more Oblivion-like skill distribution with swords and hafted weapons each replacing the vanilla one handed and two handed perk tree.\r\n\r\nThe perks within are automatically made compatible, be they base game perks or from mods.\r\nDetailed instructions on how to use the options or create new setups can be found in the description on the GitHub page:\r\nhttps://github.com/ReaperAnon/WeaponSkillOverhaul",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Keyword Tracker.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "WeaponSkillTypeOverhaul/WeaponSkillTypeOverhaul.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
+      "User": "ReaperAnon",
+      "Repository": "WeaponSkillOverhaul",
+      "Sha": "75bbe18a916a1facd782cee60565c16b21c3a77c",
+      "LastUpdatedRunNumber": 36262
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "WeaponSpeedEffectsFix",
             "Visibility": "Visible",
             "OneLineDescription": "Weapon Speed Effects Fix and Attack Speed Framework Plus Synthesis Patcher for Skyrim SE",
