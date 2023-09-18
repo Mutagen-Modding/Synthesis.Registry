@@ -352,8 +352,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/31460040?s=40\u0026amp;v=4",
       "User": "coldrifting",
       "Repository": "AnyRecordPatcher",
-      "Sha": "6950f8d56a7aef6957240a61b727707d8286be9f",
-      "LastUpdatedRunNumber": 36293
+      "Sha": "9659adf11934faad220a2dd2ed08c6dee6d9645c",
+      "LastUpdatedRunNumber": 36299
     },
     {
       "Patchers": [
@@ -1472,7 +1472,7 @@
             "Nickname": "FewerEnemies",
             "Visibility": "Visible",
             "OneLineDescription": "WIP: Apply a ChanceNone to leveled NPC lists, reducing the number of enemies encountered.",
-            "LongDescription": "An experimental/WIP patcher to reduce the number of enemies encountered by applying a \u0027chance none\u0027 to many leveled NPC lists. Comes with an extensive blacklist for Simonrim, creation club, and many other mods, but I strongly recommend double-checking the log to avoid breaking quests. See readme.",
+            "LongDescription": "An experimental/WIP patcher to reduce the number of enemies encountered by applying a \u0027chance none\u0027 to many leveled NPC lists. Comes with an extensive blacklist for vanilla content, creation club, Madmen/Lawless, and several others. I strongly recommend double-checking the log to avoid breaking quests. See readme.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -1484,7 +1484,7 @@
               "SkyrimSEGog"
             ]
           },
-          "ProjectPath": "FewerEnemies.csproj",
+          "ProjectPath": "FewerEnemies/FewerEnemies.csproj",
           "IncludedLibraries": [
             "Skyrim"
           ]
@@ -1493,8 +1493,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/31917025?s=40\u0026amp;v=4",
       "User": "Charmed4321",
       "Repository": "FewerEnemies",
-      "Sha": "224bafb762873601da18f047febc2747a7f8df3c",
-      "LastUpdatedRunNumber": 36298
+      "Sha": "b69b40c0312f540480365bad10a0725ef724e22a",
+      "LastUpdatedRunNumber": 36299
     },
     {
       "Patchers": [
