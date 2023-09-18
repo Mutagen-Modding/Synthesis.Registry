@@ -342,18 +342,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "AnyRecordData/AnyRecordData.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        },
-        {
-          "ProjectPath": "AnyRecordExporter/AnyRecordExporter.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        },
-        {
           "Customization": {
             "Nickname": "AnyRecordPatcher",
             "Visibility": "Visible",
@@ -372,8 +360,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/31460040?s=40\u0026amp;v=4",
       "User": "coldrifting",
       "Repository": "AnyRecordPatcher",
-      "Sha": "c81defb70c4e0f3c617fe503561a3bd31defbf5b",
-      "LastUpdatedRunNumber": 36289
+      "Sha": "2d24a1d37d61e779335497a626bcf2a7c2f0ddf2",
+      "LastUpdatedRunNumber": 36290
     },
     {
       "Patchers": [
