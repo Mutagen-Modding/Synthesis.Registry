@@ -260,14 +260,6 @@
       "LastUpdatedRunNumber": 31433
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/31917025?s=40\u0026amp;v=4",
-      "User": "Charmed4321",
-      "Repository": "AllTomePricePatcher",
-      "Sha": "7bf96b697aae1e011df75346668bfd9a9c84c9a8",
-      "LastUpdatedRunNumber": 31426
-    },
-    {
       "Patchers": [
         {
           "Customization": {
@@ -1472,6 +1464,37 @@
       "Repository": "Feminized-Leveled-Lists",
       "Sha": "e4cdb47efe5d13b86498215225633d3e027bee32",
       "LastUpdatedRunNumber": 31424
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "FewerEnemies",
+            "Visibility": "Visible",
+            "OneLineDescription": "WIP: Apply a ChanceNone to leveled NPC lists, reducing the number of enemies encountered.",
+            "LongDescription": "An experimental/WIP patcher to reduce the number of enemies encountered by applying a \u0027chance none\u0027 to many leveled NPC lists. Comes with an extensive blacklist for Simonrim, creation club, and many other mods, but I strongly recommend double-checking the log to avoid breaking quests. See readme.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "FewerEnemies.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/31917025?s=40\u0026amp;v=4",
+      "User": "Charmed4321",
+      "Repository": "FewerEnemies",
+      "Sha": "224bafb762873601da18f047febc2747a7f8df3c",
+      "LastUpdatedRunNumber": 36298
     },
     {
       "Patchers": [
