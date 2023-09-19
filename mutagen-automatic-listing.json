@@ -1466,35 +1466,12 @@
       "LastUpdatedRunNumber": 31424
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "FewerEnemies",
-            "Visibility": "Visible",
-            "OneLineDescription": "WIP: Apply a ChanceNone to leveled NPC lists, reducing the number of enemies encountered.",
-            "LongDescription": "An experimental/WIP patcher to reduce the number of enemies encountered by applying a \u0027chance none\u0027 to many leveled NPC lists. Comes with an extensive blacklist for vanilla content, creation club, Madmen/Lawless, and several others. I strongly recommend double-checking the log to avoid breaking quests. See readme.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "EnderalLE",
-              "EnderalSE",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "FewerEnemies/FewerEnemies.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/31917025?s=40\u0026amp;v=4",
       "User": "Charmed4321",
       "Repository": "FewerEnemies",
-      "Sha": "b69b40c0312f540480365bad10a0725ef724e22a",
-      "LastUpdatedRunNumber": 36299
+      "Sha": "c200f6d72251ba5523679e71a730e76c7c0869a1",
+      "LastUpdatedRunNumber": 36311
     },
     {
       "Patchers": [
