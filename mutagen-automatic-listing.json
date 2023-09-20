@@ -6868,6 +6868,32 @@
       "LastUpdatedRunNumber": 35162
     },
     {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "UnusedAmmoRemover",
+            "Visibility": "Visible",
+            "OneLineDescription": "Removes all unused ammunition types from the game.",
+            "LongDescription": "Removes all unused ammunition types from both leveled lists and from the crafting recipe list to declutter your game when using ammo mods.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "UnusedAmmoRemover/UnusedAmmoRemover.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
+      "User": "ReaperAnon",
+      "Repository": "UnusedAmmoRemover",
+      "Sha": "9412056eb5b73d16c310febc698efda2522de55c",
+      "LastUpdatedRunNumber": 36344
+    },
+    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
