@@ -4134,6 +4134,37 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "aglowinthefield/RemoveCraftingRecipes",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "RemoveCraftingRecipes/RemoveCraftingRecipes.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/146008217?s=40\u0026amp;v=4",
+      "User": "aglowinthefield",
+      "Repository": "RemoveCraftingRecipes",
+      "Sha": "99de12fda9f923026fb103c28e7205d36be5f5eb",
+      "LastUpdatedRunNumber": 36471
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "RemoveInteriorFogPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis patcher to remove the (Near \u0026 Far) fog from interior cells",
