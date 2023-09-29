@@ -4271,6 +4271,35 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "AdPetrou/Shattered-NPC-patch",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Alternate Skyrim.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "ShatteredNPCpatch/ShatteredNPCpatch.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/114866791?s=40\u0026amp;v=4",
+      "User": "AdPetrou",
+      "Repository": "Shattered-NPC-patch",
+      "Sha": "45482cc3fa6842fe637a5835ba8962aae0ed590d",
+      "LastUpdatedRunNumber": 36564
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SilentMoonsEnchantmentPatcher",
             "Visibility": "Visible",
             "PreferredAutoVersioning": "Default",
