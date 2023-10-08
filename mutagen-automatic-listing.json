@@ -4047,6 +4047,37 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "RacialHeights",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "RacialHeights/RacialHeights.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/19539925?s=40\u0026amp;v=4",
+      "User": "LoganSchmalz",
+      "Repository": "RacialHeightsPatcher",
+      "Sha": "71d7e6b351bb3dbf2d2287236207baa77eb3ea02",
+      "LastUpdatedRunNumber": 36768
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Radial Blur Remover",
             "Visibility": "Visible",
             "OneLineDescription": "Removes radial blur effects",
