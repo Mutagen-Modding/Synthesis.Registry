@@ -2872,6 +2872,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "LandscapePatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "LandscapePatcher/LandscapePatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/120683985?s=40\u0026amp;v=4",
+      "User": "JonnyJalapeno",
+      "Repository": "LandscapePatcher",
+      "Sha": "fb1aba2816d7ab825859d1e8a8dc78e1bf735c79",
+      "LastUpdatedRunNumber": 37124
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "leveledlistresolver",
             "Visibility": "Visible",
             "OneLineDescription": "A Patcher for resolving leveled list conflicts without the use of Bash Tags.",
