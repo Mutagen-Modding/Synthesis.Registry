@@ -601,6 +601,34 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "BRAWL_Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "INNR Patcher",
+            "LongDescription": "Patches armor and weapon records that are missing INNR. Load after ECO ",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Broken Weapon System.esp"
+            ],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "BRAWL_Patcher/BRAWL_Patcher.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/148802934?s=40\u0026amp;v=4",
+      "User": "alegendv1",
+      "Repository": "BRAWL_Patcher",
+      "Sha": "efbf7146e2e369f7f8ecdd8a92b0e9e4a1ef1165",
+      "LastUpdatedRunNumber": 37145
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "BreakdownRecipeGenerator",
             "Visibility": "Visible",
             "OneLineDescription": "Generates breakdown recipes for every craftable item in the game.",
