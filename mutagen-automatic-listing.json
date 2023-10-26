@@ -3515,6 +3515,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "NightsAdjuster/NightsAdjuster.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/120683985?s=40\u0026amp;v=4",
+      "User": "JonnyJalapeno",
+      "Repository": "Nights-Adjuster",
+      "Sha": "42368bb9f1bd6eed33830c789640bf93435b1ddd",
+      "LastUpdatedRunNumber": 37212
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "NoShadowsPatch",
             "Visibility": "Visible",
