@@ -626,6 +626,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "BookCoversPatch/BookCoversPatch.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/120683985?s=40\u0026amp;v=4",
+      "User": "JonnyJalapeno",
+      "Repository": "BookCoversPatch",
+      "Sha": "39f9e4b1946019a3ff7e4dfca18ea42cb29c4cc2",
+      "LastUpdatedRunNumber": 37242
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "BRAWL_Patcher",
             "Visibility": "Visible",
