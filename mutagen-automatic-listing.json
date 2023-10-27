@@ -2926,32 +2926,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "LandscapePatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "LandscapePatcher/LandscapePatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/120683985?s=40\u0026amp;v=4",
-      "User": "JonnyJalapeno",
-      "Repository": "LandscapePatcher",
-      "Sha": "33336fc1a86cc30c334dc3ee395e3146f9d4cdf1",
-      "LastUpdatedRunNumber": 37175
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "leveledlistresolver",
             "Visibility": "Visible",
             "OneLineDescription": "A Patcher for resolving leveled list conflicts without the use of Bash Tags.",
@@ -3886,6 +3860,32 @@
       "LastUpdatedRunNumber": 35605
     },
     {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "LandscapePatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "LandscapePatcher/LandscapePatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/120683985?s=40\u0026amp;v=4",
+      "User": "JonnyJalapeno",
+      "Repository": "ParallaxLandscapePatcher",
+      "Sha": "923450dc15dfd8e30accc2dfb65debe055f32ad3",
+      "LastUpdatedRunNumber": 37238
+    },
+    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/24981326?s=40\u0026amp;v=4",
       "User": "Noggog",
@@ -4260,8 +4260,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/146008217?s=40\u0026amp;v=4",
       "User": "aglowinthefield",
       "Repository": "RemoveCraftingRecipes",
-      "Sha": "5557b59ad310f75f12ae91848ee87abdef5e63a8",
-      "LastUpdatedRunNumber": 36475
+      "Sha": "c866a2acdfaf31e055d0855f049053cf40a74464",
+      "LastUpdatedRunNumber": 37238
     },
     {
       "Patchers": [
