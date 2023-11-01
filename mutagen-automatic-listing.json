@@ -739,8 +739,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
       "User": "ReaperAnon",
       "Repository": "CALIBER-Damage-Overhaul",
-      "Sha": "a8cfcb5bfc41013bfc006325ff340c0cf8a0ec59",
-      "LastUpdatedRunNumber": 37343
+      "Sha": "4492f11ed76fd316e1077b20ac87adc5da917afa",
+      "LastUpdatedRunNumber": 37344
     },
     {
       "Patchers": [
@@ -1318,32 +1318,6 @@
       "Repository": "EnemyReleveler",
       "Sha": "2f3a062841ee6190d8cfead72339d5568672d61b",
       "LastUpdatedRunNumber": 31431
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "EnergyWeaponBatteries",
-            "Visibility": "Visible",
-            "OneLineDescription": "Changes energy ammo to work like a battery.",
-            "LongDescription": "Changes energy ammo to work like a battery, similar to how fusion cores work in the gatling laser.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "Fallout4"
-            ]
-          },
-          "ProjectPath": "EnergyWeaponBatteries/EnergyWeaponBatteries.csproj",
-          "IncludedLibraries": [
-            "Fallout4"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
-      "User": "ReaperAnon",
-      "Repository": "EnergyWeaponBatteries",
-      "Sha": "8a36559bbff176bcba3d093d09c413136f910ca8",
-      "LastUpdatedRunNumber": 35102
     },
     {
       "Patchers": [
