@@ -4712,6 +4712,37 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "Skin Color Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches skin colors for users who want to export their own facegen or modify racial skin colors.",
+            "LongDescription": "This patcher is useful for players that want to do one of:\r\n1. Generate their own facegen in order to benefit from improved character meshes/textures\r\n2. Change racial skin colors and also apply these changes to NPCs\r\n\r\nWhen you generate your own facegen, you might still get mismatching head and body colors. This is because the creation kit will recalculate the skin color for the NPC and use the newly computed color for the facegen file.\r\nIf the newly computed color differs from the color stored in the NPC record, you will get a mismatch. The solution is to also save the NPC record, so that the color stored in the NPC record can be updated to the newly computed one.\r\nThis patcher recalculates the skin color and stores it in the NPC record, so you only have to export facegen.\r\n\r\nWhen you change racial skin colors and also apply these changes to NPCs, you need to generate facegen anyway, so that the head color can be updated. Use this patcher, so that the body color gets updated as well.\r\nIf you only care about skin color, you can run this patcher and then load the generated patch in the creation kit to only generate facegen for NPCs where the skin color changed.\r\n\r\n\r\nOptional default vampire skin color patch for USSEP:\r\nThe by far most popular mod changing skin colors in race records is the unofficial patch. It changes the default skin color for vampire races, so that the player will always have light skin when they become a vampire.\r\nSome NPCs do not specifiy a skin color and will use the default skin color as set by their race. These NPCs will also be affected by the USSEP change and would get much lighter skin once their skin color is recalculated.\r\nThis patcher adds the option \u0022Default Vampire Color Patch\u0022, so that these NPCs keep their dark skin color upon recalculation by specifically setting their skin color to the darker one they have in vanilla.\r\nThis setting is enabled by default.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SkinColorPatcher/SkinColorPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
+      "User": "Jampi0n",
+      "Repository": "Skyrim-SkinColorPatcher",
+      "Sha": "e4c12db2b833fd03803a70970c7ef37cd4bd3728",
+      "LastUpdatedRunNumber": 37378
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "NIFPatcher_HairShader/NIFPatcher_HairShader.csproj",
           "IncludedLibraries": [
             "Skyrim"
