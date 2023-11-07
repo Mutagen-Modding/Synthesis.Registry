@@ -1490,6 +1490,85 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "CleanESL",
+            "Visibility": "Visible",
+            "OneLineDescription": "Empties the current PatchFile and flags it as ESL",
+            "LongDescription": "Add it before everything else",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "CleanESL/CleanESL.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        },
+        {
+          "Customization": {
+            "Nickname": "HeyThatsNotJunk",
+            "Visibility": "Visible",
+            "OneLineDescription": "Removes components from selected misc items to make them unscrappable",
+            "LongDescription": "Check the full description on GitHub",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "HeyThatsNotJunk/HeyThatsNotJunk.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        },
+        {
+          "Customization": {
+            "Nickname": "kamicane/Fallout4SynthesisPatchers",
+            "Visibility": "Visible",
+            "OneLineDescription": "Immersive Pickup sounds without the cruft",
+            "LongDescription": "Check the full description on GitHub",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Immersive Pickup Sounds F04.esp"
+            ],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "ImmersivePickupSounds/ImmersivePickupSounds.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        },
+        {
+          "Customization": {
+            "Nickname": "ModReEvaluator",
+            "Visibility": "Visible",
+            "OneLineDescription": "Recalculates all values and weights of weapon and armor mods and their resulting loose mod",
+            "LongDescription": "Check the full description on GitHub",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "ModReEvaluator/ModReEvaluator.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/7131?s=40\u0026amp;v=4",
+      "User": "kamicane",
+      "Repository": "Fallout4SynthesisPatchers",
+      "Sha": "8de4e5003d39cf833fe889d71c4f7867338b10a3",
+      "LastUpdatedRunNumber": 37509
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Feminized Leveled Lists",
             "Visibility": "Visible",
             "OneLineDescription": "Patches leveled NPC lists to remove male entries from them based on the chosen criteria.",
@@ -6073,6 +6152,32 @@
       "Repository": "SynFloraFix",
       "Sha": "eca2bc2568fb0ecaf75d2f39beff32cd64e4dad3",
       "LastUpdatedRunNumber": 37128
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynFO4LightingRegionCellPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Lighting and Region name cell patcher for FO4",
+            "LongDescription": "Forwards Lighting and Region Cell info from Ultra Interior Lighting, Clarity, Region Names on Save Files, JSRS Regions and BoS Story",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "LightingAndRegionPatcher/LightingAndRegionPatcher.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/109992824?s=40\u0026amp;v=4",
+      "User": "Aurelianis",
+      "Repository": "SynFO4LightingRegionCellPatcher",
+      "Sha": "960f01bb0c01abd50701ba1dfa60836f16e5f5bd",
+      "LastUpdatedRunNumber": 37509
     },
     {
       "Patchers": [
