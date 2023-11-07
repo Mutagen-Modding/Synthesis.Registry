@@ -1490,10 +1490,10 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "CleanESL",
+            "Nickname": "Clean ESL",
             "Visibility": "Visible",
             "OneLineDescription": "Empties the current PatchFile and flags it as ESL",
-            "LongDescription": "Add it before everything else",
+            "LongDescription": "Empties the current PatchFile and flags it as ESL. Add it at the top of the group.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -1507,10 +1507,10 @@
         },
         {
           "Customization": {
-            "Nickname": "HeyThatsNotJunk",
+            "Nickname": "Hey That\u0027s Not Junk",
             "Visibility": "Visible",
-            "OneLineDescription": "Removes components from selected misc items to make them unscrappable",
-            "LongDescription": "Check the full description on GitHub",
+            "OneLineDescription": "Removes components from selected misc items to make them unscrappable.",
+            "LongDescription": "Like \u0022Hey Thats Not Junk\u0022 on the nexus, but as a Synthesis patcher. Removes components from selected misc items to make them unscrappable.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -1524,10 +1524,10 @@
         },
         {
           "Customization": {
-            "Nickname": "kamicane/Fallout4SynthesisPatchers",
+            "Nickname": "Immersive Pickup Sounds",
             "Visibility": "Visible",
             "OneLineDescription": "Immersive Pickup sounds without the cruft",
-            "LongDescription": "Check the full description on GitHub",
+            "LongDescription": "Needs \u0022Immersive Pickup Sounds\u0022 sound descriptors available. You can use the esp included in the patcher\u0027s Data folder which contains only the sound descriptors and none of the worldspace edits. Still requires the main mod for the sound files. You can add/remove forms and sounds by editing ImmersivePickupSounds.yml.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Immersive Pickup Sounds F04.esp"
@@ -1543,10 +1543,10 @@
         },
         {
           "Customization": {
-            "Nickname": "ModReEvaluator",
+            "Nickname": "Mod Re-Evaluator",
             "Visibility": "Visible",
             "OneLineDescription": "Recalculates all values and weights of weapon and armor mods and their resulting loose mod",
-            "LongDescription": "Check the full description on GitHub",
+            "LongDescription": "Recalculates all values and weights of weapon and armor mods and their resulting loose mod. Check the full description on GitHub.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -1562,8 +1562,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/7131?s=40\u0026amp;v=4",
       "User": "kamicane",
       "Repository": "Fallout4SynthesisPatchers",
-      "Sha": "8de4e5003d39cf833fe889d71c4f7867338b10a3",
-      "LastUpdatedRunNumber": 37509
+      "Sha": "9dbef7f75cad86cb0abb1973fea4b06e0b4a62dd",
+      "LastUpdatedRunNumber": 37510
     },
     {
       "Patchers": [
