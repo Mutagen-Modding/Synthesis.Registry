@@ -1540,30 +1540,13 @@
           "IncludedLibraries": [
             "Fallout4"
           ]
-        },
-        {
-          "Customization": {
-            "Nickname": "Mod Re-Evaluator",
-            "Visibility": "Visible",
-            "OneLineDescription": "Recalculates all values and weights of weapon and armor mods and their resulting loose mod",
-            "LongDescription": "Recalculates all values and weights of weapon and armor mods and their resulting loose mod. Check the full description on GitHub.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "Fallout4"
-            ]
-          },
-          "ProjectPath": "ModReEvaluator/ModReEvaluator.csproj",
-          "IncludedLibraries": [
-            "Fallout4"
-          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/7131?s=40\u0026amp;v=4",
       "User": "kamicane",
       "Repository": "Fallout4SynthesisPatchers",
-      "Sha": "9dbef7f75cad86cb0abb1973fea4b06e0b4a62dd",
-      "LastUpdatedRunNumber": 37510
+      "Sha": "64ad9a79437fd714161b0149b154f735f058aa47",
+      "LastUpdatedRunNumber": 37525
     },
     {
       "Patchers": [
