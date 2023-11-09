@@ -1507,7 +1507,7 @@
         },
         {
           "Customization": {
-            "Nickname": "ConfigurableShadows",
+            "Nickname": "Configurable Shadows",
             "Visibility": "Visible",
             "OneLineDescription": "Add or remove shadow casting from light types",
             "LongDescription": "Add or remove shadow casting from light types. Comes with a few options which are self-explanatory.",
@@ -1518,6 +1518,23 @@
             ]
           },
           "ProjectPath": "ConfigurableShadows/ConfigurableShadows.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        },
+        {
+          "Customization": {
+            "Nickname": "Crafting Workbench Renamer",
+            "Visibility": "Visible",
+            "OneLineDescription": "Renames all Chemistry Stations to Crafting Workbench",
+            "LongDescription": "Renames all Chemistry Stations to Crafting Workbench, while keeping existing prefixes and suffixes.\nCompat Chem Station =\u003E Compat Crafting Workbench",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "CraftingWorkbenchRenamer/CraftingWorkbenchRenamer.csproj",
           "IncludedLibraries": [
             "Fallout4"
           ]
@@ -1579,8 +1596,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/7131?s=40\u0026amp;v=4",
       "User": "kamicane",
       "Repository": "Fallout4SynthesisPatchers",
-      "Sha": "e57b1aa85673cdfc43665244e3fcb9c640b36ca2",
-      "LastUpdatedRunNumber": 37548
+      "Sha": "275ee60582a17baa2229aac884f5dae90b27361a",
+      "LastUpdatedRunNumber": 37550
     },
     {
       "Patchers": [
