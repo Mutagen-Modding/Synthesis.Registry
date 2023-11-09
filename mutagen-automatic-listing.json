@@ -1493,7 +1493,7 @@
             "Nickname": "Clean ESL",
             "Visibility": "Visible",
             "OneLineDescription": "Empties the current PatchFile and flags it as ESL",
-            "LongDescription": "Empties the current PatchFile and flags it as ESL. Add it at the top of the group.",
+            "LongDescription": "Empties the current PatchFile and flags it as ESL. Add it at the top of your groups.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -1501,6 +1501,23 @@
             ]
           },
           "ProjectPath": "CleanESL/CleanESL.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        },
+        {
+          "Customization": {
+            "Nickname": "ConfigurableShadows",
+            "Visibility": "Visible",
+            "OneLineDescription": "Add or remove shadow casting from light types",
+            "LongDescription": "Add or remove shadow casting from light types. Comes with a few options which are self-explanatory.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "ConfigurableShadows/ConfigurableShadows.csproj",
           "IncludedLibraries": [
             "Fallout4"
           ]
@@ -1562,8 +1579,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/7131?s=40\u0026amp;v=4",
       "User": "kamicane",
       "Repository": "Fallout4SynthesisPatchers",
-      "Sha": "a1c7cfed676510d5985e7c54cfeca63c68290211",
-      "LastUpdatedRunNumber": 37535
+      "Sha": "e57b1aa85673cdfc43665244e3fcb9c640b36ca2",
+      "LastUpdatedRunNumber": 37548
     },
     {
       "Patchers": [
