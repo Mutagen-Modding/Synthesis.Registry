@@ -3935,6 +3935,34 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "NW_InsulationDisplayed",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Nuclear Winter.esp"
+            ],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "NW_InsulationDisplayed/NW_InsulationDisplayed.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/91405031?s=40\u0026amp;v=4",
+      "User": "St1ck2k",
+      "Repository": "NW_InsulationDisplayed",
+      "Sha": "1f6c8bebfbb7aaeb3774b71463de784241ffe2eb",
+      "LastUpdatedRunNumber": 37571
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "OppositeAnimationDisabler/OppositeAnimationDisabler.csproj",
           "IncludedLibraries": [
             "Skyrim"
