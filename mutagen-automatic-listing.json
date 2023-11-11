@@ -1490,6 +1490,23 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Clarify",
+            "Visibility": "Visible",
+            "OneLineDescription": "Applies some Clarity settings to Weathers, Image Spaces and Lighting Templates",
+            "LongDescription": "Applies some Clarity settings to Weathers, Image Spaces and Lighting Templates.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4"
+            ]
+          },
+          "ProjectPath": "Clarify/Clarify.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        },
+        {
+          "Customization": {
             "Nickname": "Clean ESL",
             "Visibility": "Visible",
             "OneLineDescription": "Empties the current PatchFile and flags it as ESL",
@@ -1596,8 +1613,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/7131?s=40\u0026amp;v=4",
       "User": "kamicane",
       "Repository": "Fallout4SynthesisPatchers",
-      "Sha": "275ee60582a17baa2229aac884f5dae90b27361a",
-      "LastUpdatedRunNumber": 37550
+      "Sha": "f9e640089419f25ca360003af98c2e6e46d70d50",
+      "LastUpdatedRunNumber": 37596
     },
     {
       "Patchers": [
