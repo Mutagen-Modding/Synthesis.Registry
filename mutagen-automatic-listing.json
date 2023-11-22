@@ -6795,8 +6795,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthEBD",
-      "Sha": "49dc7aed0dea6136622f351d9c8c795ec8fee724",
-      "LastUpdatedRunNumber": 37856
+      "Sha": "9888d762952b4b409a475ac591e585fd4c7c9704",
+      "LastUpdatedRunNumber": 37858
     },
     {
       "Patchers": [],
@@ -7150,6 +7150,35 @@
       "Repository": "TUDMFootstepPatcher",
       "Sha": "b50628b6fe4db5ec120c539d220958a7eb39b360",
       "LastUpdatedRunNumber": 31432
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Unforgiving Devices Device Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches DD devices for UD",
+            "LongDescription": "Changed DD device scripts to UD scripts, adds keywords, etc.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Devious Devices - Integration.esm",
+              "UnforgivingDevices.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "UDPatcher/UDPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/151600816?s=40\u0026amp;v=4",
+      "User": "Gamerooni",
+      "Repository": "UDScripts",
+      "Sha": "9241882cd14d7d4554716a51565cfa0f1cbdd4c7",
+      "LastUpdatedRunNumber": 37858
     },
     {
       "Patchers": [
