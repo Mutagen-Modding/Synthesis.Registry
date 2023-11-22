@@ -7155,6 +7155,25 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Unforgiving Devices Modifiers Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Modifiers patcher for UD 3.0\u002B",
+            "LongDescription": "Interface for adding UD Modifiers to chosen armors",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "UnforgivingDevices.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "UDModifiers/UDModifiers.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "Customization": {
             "Nickname": "Unforgiving Devices Device Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Patches DD devices for UD",
@@ -7177,8 +7196,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/151600816?s=40\u0026amp;v=4",
       "User": "Gamerooni",
       "Repository": "UDScripts",
-      "Sha": "9241882cd14d7d4554716a51565cfa0f1cbdd4c7",
-      "LastUpdatedRunNumber": 37858
+      "Sha": "f44f80cc3d70b9e577385fea36f3fe4a229eb65f",
+      "LastUpdatedRunNumber": 37863
     },
     {
       "Patchers": [
