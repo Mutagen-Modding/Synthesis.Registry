@@ -7155,6 +7155,23 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Gamerooni/UDScripts",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "FlexibleKeywords/FlexibleKeywords.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "Customization": {
             "Nickname": "Unforgiving Devices Modifiers Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Modifiers patcher for UD 3.0\u002B",
@@ -7196,8 +7213,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/151600816?s=40\u0026amp;v=4",
       "User": "Gamerooni",
       "Repository": "UDScripts",
-      "Sha": "b3a48e160959c880f0f620f41ba479cfac0baeeb",
-      "LastUpdatedRunNumber": 37882
+      "Sha": "f6c8de4c00e479fbb3919c3f8d05b08d96024781",
+      "LastUpdatedRunNumber": 37902
     },
     {
       "Patchers": [
