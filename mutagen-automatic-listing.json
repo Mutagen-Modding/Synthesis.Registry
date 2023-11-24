@@ -7194,7 +7194,7 @@
             "Nickname": "Unforgiving Devices Device Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Patches DD devices for UD",
-            "LongDescription": "Changed DD device scripts to UD scripts, adds keywords, etc.",
+            "LongDescription": "See the README on github for more info.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Devious Devices - Integration.esm",
@@ -7213,8 +7213,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/151600816?s=40\u0026amp;v=4",
       "User": "Gamerooni",
       "Repository": "UDScripts",
-      "Sha": "8b8cc4912bb06ab92478576f7fdfb617e3801543",
-      "LastUpdatedRunNumber": 37905
+      "Sha": "e3381774631c7a26a653384c91c91d7b4d618fdc",
+      "LastUpdatedRunNumber": 37908
     },
     {
       "Patchers": [
