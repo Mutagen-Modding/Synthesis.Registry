@@ -7171,6 +7171,12 @@
           ]
         },
         {
+          "ProjectPath": "SinitarStyle/SinitarStyle.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
           "Customization": {
             "Nickname": "Unforgiving Devices Modifiers Patcher",
             "Visibility": "Visible",
@@ -7213,8 +7219,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/151600816?s=40\u0026amp;v=4",
       "User": "Gamerooni",
       "Repository": "UDScripts",
-      "Sha": "e3381774631c7a26a653384c91c91d7b4d618fdc",
-      "LastUpdatedRunNumber": 37908
+      "Sha": "ba37ce829a3702c70e0b8d6ae9eb36c75646f0df",
+      "LastUpdatedRunNumber": 37910
     },
     {
       "Patchers": [
