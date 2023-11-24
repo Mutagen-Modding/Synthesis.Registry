@@ -7155,10 +7155,10 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Gamerooni/UDScripts",
+            "Nickname": "Flexible Keywords",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Regex-based Armor Keyword distributor",
+            "LongDescription": "Adds and/or removes Keywords of Armor records from any of the chosen mods based on several per-armor conditions:\n - KeywordRegex : checks if any of the Armor\u0027s keywords match this regex \n - EditorIDRegex : checks if the EditorID matches the given regex\n - DisplayNameRegex : checks if the Display Name matches the given regex\n - AND : does not apply the keywords if any one of the provided non-empty rules isn\u0027t matched\n There is also an option for just selecting the Armors manually.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -7213,8 +7213,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/151600816?s=40\u0026amp;v=4",
       "User": "Gamerooni",
       "Repository": "UDScripts",
-      "Sha": "f6c8de4c00e479fbb3919c3f8d05b08d96024781",
-      "LastUpdatedRunNumber": 37902
+      "Sha": "2f9d7e6c67ca5ee778398c68346f786eee1136e1",
+      "LastUpdatedRunNumber": 37904
     },
     {
       "Patchers": [
