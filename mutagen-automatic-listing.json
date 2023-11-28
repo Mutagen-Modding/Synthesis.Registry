@@ -3634,6 +3634,20 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "Nights Adjuster",
+            "Visibility": "Visible",
+            "OneLineDescription": "Weather night adjustment patcher",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
           "ProjectPath": "NightsAdjuster/NightsAdjuster.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -3643,8 +3657,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/120683985?s=40\u0026amp;v=4",
       "User": "JonnyJalapeno",
       "Repository": "Nights-Adjuster",
-      "Sha": "42368bb9f1bd6eed33830c789640bf93435b1ddd",
-      "LastUpdatedRunNumber": 37212
+      "Sha": "b140a9519022c2021b882df17334e3cc411075f9",
+      "LastUpdatedRunNumber": 38009
     },
     {
       "Patchers": [
