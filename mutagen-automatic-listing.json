@@ -3,6 +3,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "AcousticSpaceImprovementsPatcher/AcousticSpaceImprovementsPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/146008217?s=40\u0026amp;v=4",
+      "User": "aglowinthefield",
+      "Repository": "AcousticSpaceImprovementsPatcher",
+      "Sha": "46e0c186cd09c73f461856b53998876b35a951bd",
+      "LastUpdatedRunNumber": 38060
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "Remove Edge Glow",
             "Visibility": "Visible",
