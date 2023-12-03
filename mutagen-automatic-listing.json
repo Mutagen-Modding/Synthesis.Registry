@@ -4437,6 +4437,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "ReferenceDisabler/ReferenceDisabler.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/127792510?s=40\u0026amp;v=4",
+      "User": "TheOneAndOnlyJ3w3ls",
+      "Repository": "ReferenceDisabler",
+      "Sha": "83287d72aabad62cb9cbaf35bd7c7710b76acb70",
+      "LastUpdatedRunNumber": 38111
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "aglowinthefield/RemoveCraftingRecipes",
             "Visibility": "Visible",
