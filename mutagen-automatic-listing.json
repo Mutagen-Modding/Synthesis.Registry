@@ -4539,6 +4539,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "ScriptPropertyEditor/ScriptPropertyEditor.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/89231080?s=40\u0026amp;v=4",
+      "User": "XxX-Daniil-underscore-Zaikin-XxX",
+      "Repository": "ScriptPropertyEditor",
+      "Sha": "5c1e3a1152af1b3f6f5c3a3dd9dceb9e8e3cbf30",
+      "LastUpdatedRunNumber": 38143
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "SFCOPaintingRemover",
             "Visibility": "Visible",
