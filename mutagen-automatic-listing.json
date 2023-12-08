@@ -5548,6 +5548,19 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "StringCompareSettingsLib/StringCompareSettingsLib.csproj",
+          "IncludedLibraries": []
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "StringCompareSettingsLib",
+      "Sha": "06527b75772b087fe7c96769fe3370a8fb2fa62e",
+      "LastUpdatedRunNumber": 38248
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "STToggle/STToggle.csproj",
           "IncludedLibraries": [
             "Skyrim"
