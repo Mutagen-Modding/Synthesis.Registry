@@ -6590,6 +6590,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "SynNPCPotions/SynNPCPotions.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
+      "User": "TokcDK",
+      "Repository": "SynNPCPotions",
+      "Sha": "8a03b90629e6b04495726de58e6a416c1a1fd9b4",
+      "LastUpdatedRunNumber": 38268
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "SynOblivionInteractionIcons/SynOblivionInteractionIcons.csproj",
           "IncludedLibraries": [
             "Skyrim"
