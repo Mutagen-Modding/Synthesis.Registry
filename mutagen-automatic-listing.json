@@ -4187,6 +4187,35 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "BCnEnc.Net/BCnEncoder.csproj",
+          "IncludedLibraries": [
+            "Fallout4",
+            "Skyrim"
+          ]
+        },
+        {
+          "ProjectPath": "BCnEncoder.NET.ImageSharp/BCnEncoder.NET.ImageSharp.csproj",
+          "IncludedLibraries": [
+            "Fallout4",
+            "Skyrim"
+          ]
+        },
+        {
+          "ProjectPath": "PSTK.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/104053582?s=40\u0026amp;v=4",
+      "User": "mod-kitchen",
+      "Repository": "PipSaver",
+      "Sha": "c5de520a4740bb1fe993b7af9a6e7c8782e183e6",
+      "LastUpdatedRunNumber": 38315
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "PoisonBlocking",
             "Visibility": "Visible",
