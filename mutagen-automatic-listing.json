@@ -3849,6 +3849,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "NPC Transmogrifier",
+            "Visibility": "Visible",
+            "OneLineDescription": "Randomizes NPC face morphs.",
+            "LongDescription": "After using you need to regenerate FaceGen in the Creation Kit (or have Face Discoloration Fix installed)",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "NPCTransmogrifier/NPCTransmogrifier.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "NPC-Transmogrifier",
+      "Sha": "b6c0941364a50d9472a82735bb7b600c4cc0980b",
+      "LastUpdatedRunNumber": 38303
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "NPCArmorDistributor",
             "Visibility": "Visible",
             "OneLineDescription": "",
