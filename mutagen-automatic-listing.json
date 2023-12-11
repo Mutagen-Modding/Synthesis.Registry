@@ -4553,6 +4553,21 @@
       "LastUpdatedRunNumber": 31430
     },
     {
+      "Patchers": [
+        {
+          "ProjectPath": "RequiemArmorAddTool/RequiemArmorAddTool.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/120683985?s=40\u0026amp;v=4",
+      "User": "JonnyJalapeno",
+      "Repository": "RequiemArmorAddTool",
+      "Sha": "ae308a1a834ffa9e8d6ffb8c91a9a791a9903f57",
+      "LastUpdatedRunNumber": 38314
+    },
+    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
