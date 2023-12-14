@@ -2025,10 +2025,10 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "FoodRemoverPlus",
+            "Nickname": "Food-Remover-Plus",
             "Visibility": "Visible",
-            "OneLineDescription": "Removes Food Items from Skyrim",
-            "LongDescription": "Skyrim Mutagen Patcher that iterates through all placed food objects in a cell and disables them based on defined criteria. ",
+            "OneLineDescription": "Removes Food Items from Creation Engine Games like Skyrim and Enderal",
+            "LongDescription": "Mutagen Patcher that iterates through all placed food objects in a cell and disables them based on defined criteria.\n\nThe idea is to remove excess food lying around (supposedly) deserted locations. The patch will locate every food item in a cell and then randomly decide if it should be removed or left in place. The chances that it will be removed is configurable in User Settings. By default the less a location is populated, the higher the chance food will be removed, so drauger dungeons will have a 100% chance of food removal (default), while farmhouses will have a lower 80% chance (default).\n\nMost settings can be configured through the GUI (User Settings) including:\n\tChance of Food Removal per Location Type\n\tList of Special Locations and Food Removal Chance\n\tChange Ownership of all remaining Food items to Cell Owner\n\tLocations to ignore\n\tPlugins to ignore\n\nRules for removal are very strict, so usually any possibly problematic food, like food that is enabled/disabled by scripts is left unchanged to avoid breaking any quests. But Creation Engine physics being what it is, sometimes you will encounter areas where food is visibly disturbed, usually because the bottom item of a stack has been removed.\r\n",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -2046,32 +2046,16 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/34091472?s=40\u0026amp;v=4",
       "User": "Coyote21",
       "Repository": "Food-Remover-Plus",
-      "Sha": "ba61eaf84f57105eb9b6a68811ddb1172bce23b7",
-      "LastUpdatedRunNumber": 31624
+      "Sha": "138f73b37534715f5710a0e628c02901c9c4e76e",
+      "LastUpdatedRunNumber": 38383
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "FoodRemover",
-            "Visibility": "Visible",
-            "OneLineDescription": "Removes food items from cells based on cell location type and config file settings.",
-            "LongDescription": "This will patch your game to randomly remove excess food stuff lying around (supposedly) deserted locations. The patch will locate every food item in a cell and then randomly decide if it should be removed or left in place. The chance that it will be removed is configurable through config files. By default the less a location is populated, the higher the chance food will be removed, so drauger dungeons will have a very high chance of food removal, while farmhouses will have a very low chance.\r\n",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "FoodRemover/FoodRemover.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/34091472?s=40\u0026amp;v=4",
       "User": "Coyote21",
       "Repository": "FoodRemover",
-      "Sha": "7e046ff2f9ff4a0cfbe933123c0389bce60bc31f",
-      "LastUpdatedRunNumber": 31431
+      "Sha": "c44f5e34989c600e37aa6dd0447c207cb6768bdf",
+      "LastUpdatedRunNumber": 38383
     },
     {
       "Patchers": [
