@@ -7564,6 +7564,39 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Mining for VR Patcher",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "Patches all ore activators to use the VR mining mod\u0027s script",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "LatestTag",
+            "RequiredMods": [
+              "RealisticMiningAndChoppingVR.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "VRMiningPatcher/VRMiningPatcher/VRMiningPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
+      "User": "CritLoren",
+      "Repository": "VRMiningPatcher",
+      "Sha": "72699612442240bf702a8e82ca343e02af647caf",
+      "LastUpdatedRunNumber": 38441
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Water Does Damage Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Patches all the waters in your load order to have the \u0027Does Damage\u0027 flag applied - useful for needs mods.",
