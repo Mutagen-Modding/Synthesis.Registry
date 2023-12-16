@@ -7566,12 +7566,10 @@
           "Customization": {
             "Nickname": "Mining for VR Patcher",
             "Visibility": "Visible",
-            "OneLineDescription": "Patches all ore activators to use the VR mining mod\u0027s script",
-            "LongDescription": "",
+            "OneLineDescription": "Patches all ore activators to use the script from Realistic Mining and Chopping VR. Replaces the need for the ESP, but you still need the scripts!",
+            "LongDescription": "Patches all ore activators to use the script from Realistic Mining and Chopping VR. Removing the existing overrides from the base plugin is recommended to spare you the conflict management. Replaces the need for the ESP, but you still need the scripts!",
             "PreferredAutoVersioning": "LatestTag",
-            "RequiredMods": [
-              "RealisticMiningAndChoppingVR.esp"
-            ],
+            "RequiredMods": [],
             "TargetedReleases": [
               "SkyrimLE",
               "SkyrimSE",
@@ -7581,7 +7579,7 @@
               "SkyrimSEGog"
             ]
           },
-          "ProjectPath": "VRMiningPatcher/VRMiningPatcher/VRMiningPatcher.csproj",
+          "ProjectPath": "VRMiningPatcher/VRMiningPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
           ]
@@ -7590,8 +7588,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
       "User": "CritLoren",
       "Repository": "VRMiningPatcher",
-      "Sha": "bcce91981b471fc70e769df497c92dc7deeb553b",
-      "LastUpdatedRunNumber": 38442
+      "Sha": "84966f350319672ef6e36615f05b339e686f3026",
+      "LastUpdatedRunNumber": 38446
     },
     {
       "Patchers": [
