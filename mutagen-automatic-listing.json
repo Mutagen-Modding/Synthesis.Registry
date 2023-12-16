@@ -2481,7 +2481,7 @@
             "Visibility": "Visible",
             "OneLineDescription": "Make crafting more immersive by requiring schematics to craft and temper items, and then putting those in loot!",
             "LongDescription": "Make crafting more immersive by starting off with no* knowledge on how to craft items; instead requiring schematics (or recipes for food) which you can acquire from merchants, loot or breaking items down to get notes and then combining those into one.",
-            "PreferredAutoVersioning": "Default",
+            "PreferredAutoVersioning": "LatestTag",
             "RequiredMods": [],
             "TargetedReleases": [
               "SkyrimLE",
@@ -2501,8 +2501,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
       "User": "CritLoren",
       "Repository": "Hephaestus",
-      "Sha": "4c3dff05731fc3f5c7ee2a6a6788f93209af6109",
-      "LastUpdatedRunNumber": 35758
+      "Sha": "9b91a3c1fad5c0ff6eb37044684572de6552496e",
+      "LastUpdatedRunNumber": 38442
     },
     {
       "Patchers": [
@@ -7565,7 +7565,7 @@
         {
           "Customization": {
             "Nickname": "Mining for VR Patcher",
-            "Visibility": "IncludeButHide",
+            "Visibility": "Visible",
             "OneLineDescription": "Patches all ore activators to use the VR mining mod\u0027s script",
             "LongDescription": "",
             "PreferredAutoVersioning": "LatestTag",
@@ -7590,8 +7590,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
       "User": "CritLoren",
       "Repository": "VRMiningPatcher",
-      "Sha": "72699612442240bf702a8e82ca343e02af647caf",
-      "LastUpdatedRunNumber": 38441
+      "Sha": "bcce91981b471fc70e769df497c92dc7deeb553b",
+      "LastUpdatedRunNumber": 38442
     },
     {
       "Patchers": [
