@@ -7322,6 +7322,49 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "UBE Armor Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis armor patcher for UBE 2.0",
+            "LongDescription": "Synthesis armor patcher for UBE 2.0",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "UBE_patcher/SynUbePatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "Customization": {
+            "Nickname": "UBE_patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE"
+            ]
+          },
+          "ProjectPath": "UBEPatcherGUI/UBEPatcherGUI.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/136998586?s=40\u0026amp;v=4",
+      "User": "lowresharer",
+      "Repository": "ube-patcher",
+      "Sha": "fca029725076828c8c6ed73c0d025e536179dcc2",
+      "LastUpdatedRunNumber": 38638
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Flexible Keywords",
             "Visibility": "Visible",
             "OneLineDescription": "Regex-based Armor Keyword distributor",
