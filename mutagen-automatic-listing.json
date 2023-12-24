@@ -3702,6 +3702,34 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "NorthernRoadsPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Northern Roads.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "NorthernRoadsPatcher/NorthernRoadsPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/46632782?s=40\u0026amp;v=4",
+      "User": "JunaMeinhold",
+      "Repository": "NorthernRoadsPatcher",
+      "Sha": "551cd48a3cb636abf061a67f0a64134af4141eee",
+      "LastUpdatedRunNumber": 38628
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Northpoint BDSPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Better Dynamic Snow v2.x Synthesis Patcher for Northpoint SE",
