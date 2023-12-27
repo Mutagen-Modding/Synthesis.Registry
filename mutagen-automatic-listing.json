@@ -4942,7 +4942,14 @@
             "LongDescription": "Edits nif fields such as textures, shader types, shader parameters, shader flags based on the diffuse texture used by the shape. This can for example be used to perform the same nif changes on all shapes that use iron textures, making it easy to have consistent shaders across one material. For mod authors it can be used to create patches for geometry changing mods such as Weapon or Armor reshapes.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
           },
           "ProjectPath": "NifPatcher/NifPatcher.csproj",
           "IncludedLibraries": [
@@ -4953,8 +4960,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
       "User": "Jampi0n",
       "Repository": "Skyrim-NifPatcher",
-      "Sha": "920bb9643b53547fa1344551bbc81d62fe306b48",
-      "LastUpdatedRunNumber": 36632
+      "Sha": "6b8af50c23ec1ea2041d0285ed535c402d314b11",
+      "LastUpdatedRunNumber": 38698
     },
     {
       "Patchers": [
