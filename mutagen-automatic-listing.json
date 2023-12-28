@@ -2354,7 +2354,7 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "HappyCRappy/HappyCRappy.csproj",
+          "ProjectPath": "WpfApp1/HappyCRappy.csproj",
           "IncludedLibraries": [
             "Skyrim"
           ]
@@ -2363,8 +2363,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "HappyCRappy",
-      "Sha": "2b26d2ff60aa905f8d596a25c20df2230ee1c237",
-      "LastUpdatedRunNumber": 38718
+      "Sha": "a01acc22cdb318126408ed0cff72ef9301d79ed1",
+      "LastUpdatedRunNumber": 38720
     },
     {
       "Patchers": [
