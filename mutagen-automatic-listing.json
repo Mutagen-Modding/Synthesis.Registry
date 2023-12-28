@@ -2354,6 +2354,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "HappyCRappy/HappyCRappy.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "HappyCRappy",
+      "Sha": "2b26d2ff60aa905f8d596a25c20df2230ee1c237",
+      "LastUpdatedRunNumber": 38718
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "Harvest Those Mammoth Tusks",
             "Visibility": "Visible",
