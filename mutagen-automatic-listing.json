@@ -2382,13 +2382,19 @@
           "IncludedLibraries": [
             "Skyrim"
           ]
+        },
+        {
+          "ProjectPath": "HappyCRappy.SerializerLib/HappyCRappy.SerializerLib.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "HappyCRappy",
-      "Sha": "55ff663e2b5e219d00700adb28983dbe8906fb74",
-      "LastUpdatedRunNumber": 38792
+      "Sha": "033fc7ce6c7b54d5444aa2005f10c1f46dcf6c62",
+      "LastUpdatedRunNumber": 38807
     },
     {
       "Patchers": [
