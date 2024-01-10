@@ -1337,6 +1337,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "EnchPopulator/EnchPopulator.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/44883930?s=40\u0026amp;v=4",
+      "User": "BitterlyIronic",
+      "Repository": "EnchPopulator",
+      "Sha": "c6d1bdb5881b5c7f3915fa65713a30aacdbd8179",
+      "LastUpdatedRunNumber": 39046
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "EnemyReleveler",
             "Visibility": "Visible",
