@@ -3130,6 +3130,37 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Leveled Deleter",
+            "Visibility": "Visible",
+            "OneLineDescription": "Remove items from leveled lists individually, or based on their keyword",
+            "LongDescription": "Goes through every leveled list and removes items based on specified criteria. There is also a blacklist of lists and items to not touch",
+            "PreferredAutoVersioning": "LatestTag",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "LeveledDeleter/LeveledDeleter.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
+      "User": "CritLoren",
+      "Repository": "LeveledDeleter",
+      "Sha": "6104403d6307f7caccf10221e3d7df74aa217810",
+      "LastUpdatedRunNumber": 39108
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "leveledlistresolver",
             "Visibility": "Visible",
             "OneLineDescription": "A Patcher for resolving leveled list conflicts without the use of Bash Tags.",
