@@ -4136,6 +4136,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "OBodyMerger/OBodyMerger.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/19806549?s=40\u0026amp;v=4",
+      "User": "audriuska12",
+      "Repository": "OBodyMerger",
+      "Sha": "0598ed1e47e2ce852e8160f22f0bd18fa384e398",
+      "LastUpdatedRunNumber": 39163
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "OppositeAnimationDisabler/OppositeAnimationDisabler.csproj",
           "IncludedLibraries": [
             "Skyrim"
