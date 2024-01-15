@@ -4136,6 +4136,17 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "OBodyMerger",
+            "Visibility": "Visible",
+            "OneLineDescription": "OBody preset merger",
+            "LongDescription": "Merges multiple OBody NG preset configurations into one.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
           "ProjectPath": "OBodyMerger/OBodyMerger.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -4145,8 +4156,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/19806549?s=40\u0026amp;v=4",
       "User": "audriuska12",
       "Repository": "OBodyMerger",
-      "Sha": "0598ed1e47e2ce852e8160f22f0bd18fa384e398",
-      "LastUpdatedRunNumber": 39163
+      "Sha": "b74dba04af6e56876ec99c304fad0790c939252b",
+      "LastUpdatedRunNumber": 39164
     },
     {
       "Patchers": [
