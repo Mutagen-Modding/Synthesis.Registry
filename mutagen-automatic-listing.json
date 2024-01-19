@@ -3554,6 +3554,37 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "VREyeAdaptationFix",
+            "Visibility": "Visible",
+            "OneLineDescription": "Tries to fix Skyrim VR eye adaptation by setting cinematic contrast to 1.",
+            "LongDescription": "Tries to fix Skyrim VR eye adaptation by setting cinematic contrast to 1. Based on findings from SaltyMeatBoy.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "VREyeAdaptationFix/VREyeAdaptationFix.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
+      "User": "CritLoren",
+      "Repository": "MiscPatchers",
+      "Sha": "e7155552356e13735a21d359d9a1e191026416d6",
+      "LastUpdatedRunNumber": 39258
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "MissingEncounterZonesPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Forwards changes from MEZF so they don\u0027t get overwritten by other mods.",
