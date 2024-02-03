@@ -3554,6 +3554,28 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SmartDisenchantEverything",
+            "Visibility": "Visible",
+            "OneLineDescription": "Remove the disenchant restriction in a smart way",
+            "LongDescription": "Remove the disenchant restriction based on the item having scripts with non quest related properties (such as mentioning spells, or items) or where the enchantments look for specific equipped items. Completely customizable!",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SmartDisenchantEverything/SmartDisenchantEverything.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "Customization": {
             "Nickname": "VREyeAdaptationFix",
             "Visibility": "Visible",
             "OneLineDescription": "Tries to fix Skyrim VR eye adaptation by setting cinematic contrast to 1.",
@@ -3578,8 +3600,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
       "User": "CritLoren",
       "Repository": "MiscPatchers",
-      "Sha": "c1d3cc165cb727af241f0fd6e3bfe97d77d830a0",
-      "LastUpdatedRunNumber": 39612
+      "Sha": "87adabb5f72e56aa6748857ab8effed92b0305bf",
+      "LastUpdatedRunNumber": 39613
     },
     {
       "Patchers": [
