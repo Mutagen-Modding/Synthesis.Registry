@@ -7041,6 +7041,32 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "Simple Equipment Weight Adjuster",
+            "Visibility": "Visible",
+            "OneLineDescription": "Applies multipliers to Shields and Weapons weights",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "SynSimpleEquipmentWeightAdjuster/SynSimpleEquipmentWeightAdjuster.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/6299495?s=40\u0026amp;v=4",
+      "User": "Excinerus",
+      "Repository": "SynSimpleEquipmentWeightAdjuster",
+      "Sha": "81fd3e29d8a28f63fc2a63e9b0baf250de0bb0f3",
+      "LastUpdatedRunNumber": 39945
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "SpellTomeFreeLeveledLists/SpellTomeFreeLeveledLists.csproj",
           "IncludedLibraries": [
             "Skyrim"
