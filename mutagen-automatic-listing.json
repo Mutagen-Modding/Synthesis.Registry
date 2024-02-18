@@ -6829,7 +6829,8 @@
             "PreferredAutoVersioning": "LatestTag",
             "RequiredMods": [],
             "TargetedReleases": [
-              "SkyrimSE"
+              "SkyrimSE",
+              "SkyrimSEGog"
             ]
           },
           "ProjectPath": "SynNotSoSalty/SynNotSoSalty.csproj",
@@ -6841,8 +6842,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
       "User": "Michael-wigontherun",
       "Repository": "SynNotSoSalty",
-      "Sha": "c979ae9953564a4415c7a67e6b6db8c7be39cc6e",
-      "LastUpdatedRunNumber": 39740
+      "Sha": "de3d3d261097007b2e564326e33c3a38b76dcb41",
+      "LastUpdatedRunNumber": 39981
     },
     {
       "Patchers": [
