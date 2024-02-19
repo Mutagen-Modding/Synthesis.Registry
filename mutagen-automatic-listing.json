@@ -7139,7 +7139,7 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SynthNPCsWithFaces",
+            "Nickname": "SynthNPCsWithFacesFO4",
             "Visibility": "Visible",
             "OneLineDescription": "Helper patcher for Genning Faces for Fallout4",
             "LongDescription": "Creates a new plugin with all the modified NPC records, useful for building NPC merges",
@@ -7147,7 +7147,7 @@
             "RequiredMods": [],
             "TargetedReleases": []
           },
-          "ProjectPath": "SynthNPCsWithFaces/SynthNPCsWithFaces.csproj",
+          "ProjectPath": "Synth-NPCsFaceDataFO4/Synth-NPCsFaceDataFO4.csproj",
           "IncludedLibraries": [
             "Fallout4"
           ]
@@ -7156,8 +7156,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/113433?s=40\u0026amp;v=4",
       "User": "macronomicus",
       "Repository": "Synth-NPCsFaceDataFO4",
-      "Sha": "e86120e940d68d17472316a64b4cda9052b369c3",
-      "LastUpdatedRunNumber": 40002
+      "Sha": "8d5fb5dbce297429c69cd3ff497f101145c68866",
+      "LastUpdatedRunNumber": 40003
     },
     {
       "Patchers": [
