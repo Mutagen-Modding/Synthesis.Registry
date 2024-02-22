@@ -2349,6 +2349,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Masculinized Leveled Lists",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches leveled NPC lists to remove female entries from them based on the chosen criteria.",
+            "LongDescription": "Patches leveled NPC lists to remove female entries from them based on the chosen criteria.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "MasculinizedLeveledLists/MasculinizedLeveledLists.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
+      "User": "ReaperAnon",
+      "Repository": "Grounded-Skyrim-Masculinized-Leveled-Lists",
+      "Sha": "513a4486107bce4d11393eef18d0ff59f108f0eb",
+      "LastUpdatedRunNumber": 40069
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "HalgarisConsistentUniqueRPGLoot",
             "Visibility": "Visible",
             "OneLineDescription": "RPG Loot without reshuffle while patching and without duplicate enchantments.",
@@ -3465,30 +3489,6 @@
       "Repository": "MaleAAGenerator",
       "Sha": "bd5a98a310063a85afca2aca912817bc03740fd2",
       "LastUpdatedRunNumber": 31427
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Masculinized Leveled Lists",
-            "Visibility": "Visible",
-            "OneLineDescription": "Patches leveled NPC lists to remove female entries from them based on the chosen criteria.",
-            "LongDescription": "Patches leveled NPC lists to remove female entries from them based on the chosen criteria.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "MasculinizedLeveledLists/MasculinizedLeveledLists.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
-      "User": "ReaperAnon",
-      "Repository": "Masculinized-Leveled-Lists",
-      "Sha": "513a4486107bce4d11393eef18d0ff59f108f0eb",
-      "LastUpdatedRunNumber": 31428
     },
     {
       "Patchers": [
