@@ -952,19 +952,13 @@
           "IncludedLibraries": [
             "Skyrim"
           ]
-        },
-        {
-          "ProjectPath": "Tests/Tests.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
       "Repository": "Costume-Shop",
-      "Sha": "cf592b264b8744126ecb5247bf1abf126b5276f8",
-      "LastUpdatedRunNumber": 39962
+      "Sha": "b1228906c0e49b4f0375adf17b3f26bb8d853eba",
+      "LastUpdatedRunNumber": 40061
     },
     {
       "Patchers": [
