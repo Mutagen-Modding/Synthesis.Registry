@@ -3148,6 +3148,39 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Lazy Lux Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Oblivion",
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "Fallout4",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "LazyLuxPatcher/LazyLuxPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/159538863?s=40\u0026amp;v=4",
+      "User": "yan-bibiyan",
+      "Repository": "LazyLuxPatcher",
+      "Sha": "8fafeccfc78a045102d376607bc7dbde6b2e2301",
+      "LastUpdatedRunNumber": 40213
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Leveled Deleter",
             "Visibility": "Visible",
             "OneLineDescription": "Remove items from leveled lists individually, or based on their keyword",
