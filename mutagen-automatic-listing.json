@@ -2159,7 +2159,7 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "FusionPatcher",
+            "Nickname": "FusionPatcher Test",
             "Visibility": "Visible",
             "OneLineDescription": "Fuse your records into a unified patch",
             "LongDescription": "Fuse mod records together to create a unified patch. Granular control over individual records and what mods will be included in specified overrides",
@@ -2182,8 +2182,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/45305344?s=40\u0026amp;v=4",
       "User": "Sandman534",
       "Repository": "FusionPatcher",
-      "Sha": "77fca23afdb99f9babf809a5417cfca9c6b532f7",
-      "LastUpdatedRunNumber": 35322
+      "Sha": "fc8a73a207660250db96e87f23792d47bb797aed",
+      "LastUpdatedRunNumber": 40318
     },
     {
       "Patchers": [
