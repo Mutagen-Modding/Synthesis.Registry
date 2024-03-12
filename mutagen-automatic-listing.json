@@ -3148,39 +3148,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Lazy Lux Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "Oblivion",
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "Fallout4",
-              "EnderalLE",
-              "EnderalSE",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "LazyLuxPatcher/LazyLuxPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/159538863?s=40\u0026amp;v=4",
-      "User": "yan-bibiyan",
-      "Repository": "LazyLuxPatcher",
-      "Sha": "a711122f9a54f3ce42bd2fd0639175f19446d72c",
-      "LastUpdatedRunNumber": 40227
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "Leveled Deleter",
             "Visibility": "Visible",
             "OneLineDescription": "Remove items from leveled lists individually, or based on their keyword",
@@ -6772,6 +6739,21 @@
       "Repository": "SynKeywordDistributor",
       "Sha": "db624fba82e58a4b75f1ff3d1815d965ecfdd15a",
       "LastUpdatedRunNumber": 37128
+    },
+    {
+      "Patchers": [
+        {
+          "ProjectPath": "SynLimitedOres/SynLimitedOres.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/6299495?s=40\u0026amp;v=4",
+      "User": "Excinerus",
+      "Repository": "SynLimitedOres",
+      "Sha": "20632611d9446b0fa6244d8b0629fe4955a7cd06",
+      "LastUpdatedRunNumber": 40520
     },
     {
       "Patchers": [
