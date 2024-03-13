@@ -4298,6 +4298,30 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "Patchifier",
+            "Visibility": "Visible",
+            "OneLineDescription": "Generate Skypatcher/INI patches.",
+            "LongDescription": "This patcher turns parts of the synthesis patch into SPID/FLM/Skypatcher/etc.. files, thus reducing the masters the Synthesis patcher will have.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "Patchifier/Patchifier.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/3044522?s=40\u0026amp;v=4",
+      "User": "monyarm",
+      "Repository": "Patchifier",
+      "Sha": "6910b49b3dc6aa642a1cf1406ead2bc3183b6c33",
+      "LastUpdatedRunNumber": 40556
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "MasterSorterTests/MasterSorterTests.csproj",
           "IncludedLibraries": [
             "Fallout4"
