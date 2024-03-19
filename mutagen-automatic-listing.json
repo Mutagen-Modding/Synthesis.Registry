@@ -5404,6 +5404,45 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "BaboKeywordPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "BaboKeywordPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "Customization": {
+            "Nickname": "BaboKeywordPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "BaboKeywordPatcher/BaboKeywordPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/140897136?s=40\u0026amp;v=4",
+      "User": "Bluwie2k",
+      "Repository": "SLA-Replace-all-Transparent",
+      "Sha": "a71a7480471a073a6bcf8ac3c581d76110c49162",
+      "LastUpdatedRunNumber": 40680
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ThirdEyeSqueegee/SleepingOutfitRemover",
             "Visibility": "Visible",
             "OneLineDescription": "Removes sleeping outfits from all winning NPC records",
