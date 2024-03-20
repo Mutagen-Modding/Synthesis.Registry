@@ -7146,6 +7146,32 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis patcher for Simple Scroll Transcribing",
+            "LongDescription": "Builds scroll recipes for the Scroll Writer in the mod:\r\nhttps://www.nexusmods.com/skyrimspecialedition/mods/73450",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "Patcher/Patcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/44859640?s=40\u0026amp;v=4",
+      "User": "metacubed-projects",
+      "Repository": "SynSimpleScrollTranscribingPatcher",
+      "Sha": "709d1d66244657c45704133ec1917236fe58622d",
+      "LastUpdatedRunNumber": 40703
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "SpellTomeFreeLeveledLists/SpellTomeFreeLeveledLists.csproj",
           "IncludedLibraries": [
             "Skyrim"
