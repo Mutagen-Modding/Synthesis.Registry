@@ -7492,6 +7492,33 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "iAmMe27/Tree-3D-Editor",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "Tree3DEditor/Tree3DEditor.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/98499526?s=40\u0026amp;v=4",
+      "User": "iAmMe27",
+      "Repository": "Tree-3D-Editor",
+      "Sha": "5b877762a10cb32bbba40fb618c299245c0b533d",
+      "LastUpdatedRunNumber": 40747
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "TreeWindEditor",
             "Visibility": "Visible",
             "OneLineDescription": "Patcher to edit Tree CNAM records by user configurable multipliers.",
