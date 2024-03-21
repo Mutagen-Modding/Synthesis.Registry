@@ -7492,10 +7492,10 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "iAmMe27/Tree-3D-Editor",
+            "Nickname": "Tree 3D Editor",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Allows editing of selected tree EDID\u0027s X, Y and Z data.",
+            "LongDescription": "Allows editing of selected tree EDID\u0027s X, Y and Z data.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -7512,8 +7512,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/98499526?s=40\u0026amp;v=4",
       "User": "iAmMe27",
       "Repository": "Tree-3D-Editor",
-      "Sha": "5b877762a10cb32bbba40fb618c299245c0b533d",
-      "LastUpdatedRunNumber": 40747
+      "Sha": "42e6e6c2db0740a1e9ae45283b09197acd6c6616",
+      "LastUpdatedRunNumber": 40748
     },
     {
       "Patchers": [
