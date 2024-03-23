@@ -2834,7 +2834,10 @@
             "LongDescription": "Mirror scabbards for proper left-side 1H weapon display",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimSEGog"
+            ]
           },
           "ProjectPath": "ImmersiveEquipmentMeshGen/ImmersiveEquipmentMeshGen.csproj",
           "IncludedLibraries": [
@@ -2845,8 +2848,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
       "User": "SteveTownsend",
       "Repository": "ImmersiveEquipmentMeshGen",
-      "Sha": "eb4f404b56a92ebe6fd0aa46c10332afdb3e765a",
-      "LastUpdatedRunNumber": 31426
+      "Sha": "2e33c4ea0bb2510e88d794bffaaa68d3462e5d0b",
+      "LastUpdatedRunNumber": 40791
     },
     {
       "Patchers": [
