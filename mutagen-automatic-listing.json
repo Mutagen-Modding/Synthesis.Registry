@@ -2379,11 +2379,11 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "HalgarisConsistentUniqueRPGLoot",
+            "Nickname": "Synthesis RPG Loot (Enchantment Distributor)",
             "Visibility": "Visible",
-            "OneLineDescription": "RPG Loot without reshuffle while patching and without duplicate enchantments.",
-            "LongDescription": "This version of RPG loot uses a settings menu to be customized to your liking. It also will generate consitently as long as you dont alter any of the settings or add(or remove) armors/clothing/jewelry/weapons/enchantments to your setup or change their form IDs. Furthermore it will not create redundant enchantments wasting formIDs, allowing it to cover a greater variety of settings \n\n - Luca|EzioTheDeadPoet \n\n Unquiness added by Darkon47|Shou|",
-            "PreferredAutoVersioning": "Default",
+            "OneLineDescription": "This patcher will distribute the enchantments found in your setup to your leveled lists and previously unenchanted items.",
+            "LongDescription": "## What does this Patcher do ?\n\nThis patcher will distribute the enchantments found in your setup to your leveled lists and previously unenchanted items.\n\nFor this the patcher has a Distribution Only Mode and a more fun and enhanced RPGLoot rarity level Distribution.\n\n## Versioning\n\nUse the \u0060Tag\u0060 Versioning in Synthesis to not accidentally break your saves (rolling back *should* work for fixing it).\n\n\u0060X.Y.Z\u0060:\n\n- X - Big rework or bigger changes (new settings etc) **NEEDS NEW SAVE**\n- Y - Internal changes that 100% will alter the consistency of the outputs between versions **NEEDS NEW SAVE**.\n- Z - Typos, Minor Bug Fixes or Changes to default settings for NEW users.\n\n## Settings\n\nThis Patcher has Settings for customization.",
+            "PreferredAutoVersioning": "LatestTag",
             "RequiredMods": [],
             "TargetedReleases": []
           },
@@ -2396,8 +2396,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "HalgarisConsistentRPGLoot",
-      "Sha": "a302cc275fe6d847a26278df96c498af09e27bb4",
-      "LastUpdatedRunNumber": 37870
+      "Sha": "310df44f040cdac23cdd86284a5b9e47814a631d",
+      "LastUpdatedRunNumber": 41008
     },
     {
       "Patchers": [
