@@ -3188,35 +3188,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "leveledlistresolver",
-            "Visibility": "Visible",
-            "OneLineDescription": "A Patcher for resolving leveled list conflicts without the use of Bash Tags.",
-            "LongDescription": "This patcher attempts to recreate Wyre Bash\u0027s leveled list functionality without the need to tag plugins.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE",
-              "SkyrimVR",
-              "EnderalSE",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "leveledlistresolver/leveledlistresolver.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/65688322?s=40\u0026amp;v=4",
-      "User": "OddDrifter",
-      "Repository": "leveledlistresolver",
-      "Sha": "b2f85fbacfccfd81e108b650ef4f1ee0e1cacac7",
-      "LastUpdatedRunNumber": 35567
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "ListMaker",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "",
@@ -7279,8 +7250,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthEBD",
-      "Sha": "d35b54a11fc6bb6133f73366a487c776a9cefa6a",
-      "LastUpdatedRunNumber": 40987
+      "Sha": "efffc0e36046ca734c0736ae3daff2194ea137f0",
+      "LastUpdatedRunNumber": 40996
     },
     {
       "Patchers": [],
