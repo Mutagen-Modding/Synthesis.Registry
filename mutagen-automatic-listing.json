@@ -80,8 +80,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
       "User": "Michael-wigontherun",
       "Repository": "AddStuffByFormList_AddLearnableSpells",
-      "Sha": "813aaeeb0c11acde3ec7d812f86870030e78da52",
-      "LastUpdatedRunNumber": 35272
+      "Sha": "c4db8f84b2f868fc6b67fffcc704fe0a2afee41d",
+      "LastUpdatedRunNumber": 41034
     },
     {
       "Patchers": [
@@ -987,8 +987,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
       "User": "Michael-wigontherun",
       "Repository": "craftingFurnitureEXP",
-      "Sha": "f1cfae63a17995439f42a4308416be74f4d8d618",
-      "LastUpdatedRunNumber": 31424
+      "Sha": "61fbcde079f7971804bc32b3cdf4208959acc3cd",
+      "LastUpdatedRunNumber": 41034
     },
     {
       "Patchers": [
@@ -6339,7 +6339,9 @@
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
           },
           "ProjectPath": "SynEDIDFixer/SynEDIDFixer.csproj",
           "IncludedLibraries": [
@@ -6350,8 +6352,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
       "User": "Michael-wigontherun",
       "Repository": "SynEDIDFixer",
-      "Sha": "e09ba2054d667f53aa429ecf9191b703ce1b1aaa",
-      "LastUpdatedRunNumber": 31434
+      "Sha": "b52be46857cb683d74a41b1357f1bd4431fcfc8f",
+      "LastUpdatedRunNumber": 41034
     },
     {
       "Patchers": [
@@ -6894,8 +6896,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
       "User": "Michael-wigontherun",
       "Repository": "SynNotSoSalty",
-      "Sha": "1555a8046a6fad7f277fa2471b2850b4ba1c8876",
-      "LastUpdatedRunNumber": 40445
+      "Sha": "a172e5292cc5500a411323ab87f0fa38166d264e",
+      "LastUpdatedRunNumber": 41034
     },
     {
       "Patchers": [
@@ -7168,8 +7170,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/43317302?s=40\u0026amp;v=4",
       "User": "Michael-wigontherun",
       "Repository": "SynSpellTomeNameExtender",
-      "Sha": "9dcbd3e6f9408331646836d998ae524d33793770",
-      "LastUpdatedRunNumber": 33483
+      "Sha": "81a957365dce0cfbf6055f811d87142b81e03911",
+      "LastUpdatedRunNumber": 41034
     },
     {
       "Patchers": [
