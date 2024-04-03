@@ -4782,8 +4782,8 @@
           "Customization": {
             "Nickname": "Requiem Auto NPC Patcher",
             "Visibility": "Visible",
-            "OneLineDescription": "Unreleased.",
-            "LongDescription": "Unreleased.",
+            "OneLineDescription": "Requiem Auto NPC Patche.",
+            "LongDescription": "Adjusts the stats, perks, and levels of NPCs added by mods to be in line with Requiem\u0027s Balancing. Makes any mod playable in Requiem.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -4800,8 +4800,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026amp;v=4",
       "User": "tomnGithub",
       "Repository": "RequiemAutoNPCPatcher",
-      "Sha": "6ce0a673796a045053539b1c2195f1ce553b0f18",
-      "LastUpdatedRunNumber": 41043
+      "Sha": "50d1bc9ec6745339c717a004539a29ac2f05cdc6",
+      "LastUpdatedRunNumber": 41056
     },
     {
       "Patchers": [],
