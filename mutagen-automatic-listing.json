@@ -4777,6 +4777,33 @@
       "LastUpdatedRunNumber": 39816
     },
     {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Requiem Auto NPC Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Unreleased.",
+            "LongDescription": "Unreleased.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "RequiemAutoNPCPatcher/RequiemAutoNPCPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026amp;v=4",
+      "User": "tomnGithub",
+      "Repository": "RequiemAutoNPCPatcher",
+      "Sha": "6ce0a673796a045053539b1c2195f1ce553b0f18",
+      "LastUpdatedRunNumber": 41043
+    },
+    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
