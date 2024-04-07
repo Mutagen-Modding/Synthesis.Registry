@@ -3659,30 +3659,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "MusicTypePatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "A Patcher for merging additions to MusicType records.",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "MusicTypePatcher/MusicTypePatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/65688322?s=40\u0026amp;v=4",
-      "User": "OddDrifter",
-      "Repository": "musictype-patcher",
-      "Sha": "7c43a1c2ec095e068af3b192395d35fe9b16de0c",
-      "LastUpdatedRunNumber": 34385
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "Synthesis",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "A template project example",
@@ -4800,8 +4776,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026amp;v=4",
       "User": "tomnGithub",
       "Repository": "RequiemAutoNPCPatcher",
-      "Sha": "40172542b0f583cc53af36b7e5e8f588d9ccbd14",
-      "LastUpdatedRunNumber": 41104
+      "Sha": "cc2f19c410b8f8b7ce76477b48b9e292eb566ead",
+      "LastUpdatedRunNumber": 41140
     },
     {
       "Patchers": [],
