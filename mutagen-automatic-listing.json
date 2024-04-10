@@ -2854,6 +2854,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "ImmersiveMusicPatcher/ImmersiveMusicPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
+      "User": "studioph",
+      "Repository": "ImmersiveMusicPatcher",
+      "Sha": "9bffa79a53d1e5abcb4482b245dcb1e2272622a4",
+      "LastUpdatedRunNumber": 41206
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "ImprovedEnhancedCameraFirstPersonMeshFix",
             "Visibility": "Visible",
