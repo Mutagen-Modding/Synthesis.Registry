@@ -2854,6 +2854,17 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "ImmersiveMusicPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Forwards Immersive Music Edits",
+            "LongDescription": "- Forwards MusicType records from Immersive Music to winning cell and worldspace records.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Immersive Music.esp"
+            ],
+            "TargetedReleases": []
+          },
           "ProjectPath": "ImmersiveMusicPatcher/ImmersiveMusicPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -2863,8 +2874,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
       "User": "studioph",
       "Repository": "ImmersiveMusicPatcher",
-      "Sha": "ededb14ceb725718499f98bec7d5af9703176d10",
-      "LastUpdatedRunNumber": 41233
+      "Sha": "d9bd220a55179534ae349a6091a835aed9304976",
+      "LastUpdatedRunNumber": 41243
     },
     {
       "Patchers": [
