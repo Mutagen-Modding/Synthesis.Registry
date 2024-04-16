@@ -4790,6 +4790,7 @@
             "RequiredMods": [],
             "TargetedReleases": [
               "SkyrimSE",
+              "SkyrimVR",
               "SkyrimSEGog"
             ]
           },
@@ -4802,8 +4803,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026amp;v=4",
       "User": "tomnGithub",
       "Repository": "RequiemAutoNPCPatcher",
-      "Sha": "34cb1b41b919ac82adadcf58934e2d7e03fb3f29",
-      "LastUpdatedRunNumber": 41354
+      "Sha": "3803edd7d2bf82880f3a5f271bac608c903864f3",
+      "LastUpdatedRunNumber": 41356
     },
     {
       "Patchers": [],
