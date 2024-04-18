@@ -3970,6 +3970,32 @@
       "LastUpdatedRunNumber": 31423
     },
     {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "NPCFaceSwapper",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "NPCFaceSwapper/NPCFaceSwapper.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/167462891?s=40\u0026amp;v=4",
+      "User": "FlattGiraffe",
+      "Repository": "NPC-Face-Swapper",
+      "Sha": "162e94a2ac9b426d7a50c795206de6fac6007ecb",
+      "LastUpdatedRunNumber": 41400
+    },
+    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
