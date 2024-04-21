@@ -3973,7 +3973,7 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "NPCFaceSwapper",
+            "Nickname": "NPC Face Swapper",
             "Visibility": "Visible",
             "OneLineDescription": "Swaps NPC faces around based on user defined settings.",
             "LongDescription": "Not ready yet 4/18/24. Mostly intened as a modern update to SkyFem, but can be used to:\nMake all NPCs female\nMake all NPCs male\nSwap NPC genders\nAdditionally apply specific swaps to be performed, even from mods whose changes are overwritten by other mods\nOptionally output a batch CSV file for use in xVASynth. Please read the Readme at https://github.com/FlattGiraffe/NPC-Face-Swapper",
@@ -3992,8 +3992,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/167462891?s=40\u0026amp;v=4",
       "User": "FlattGiraffe",
       "Repository": "NPC-Face-Swapper",
-      "Sha": "0ded408e881566fd5dd66c29c7e3f8133c0d4c25",
-      "LastUpdatedRunNumber": 41402
+      "Sha": "676e57cf339229ca147aec33abbafad719d35cc7",
+      "LastUpdatedRunNumber": 41454
     },
     {
       "Patchers": [],
