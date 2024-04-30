@@ -7790,7 +7790,9 @@
               "UnforgivingDevices.esp"
             ],
             "TargetedReleases": [
-              "SkyrimSE"
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
             ]
           },
           "ProjectPath": "UDPatcher/UDPatcher.csproj",
@@ -7802,8 +7804,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/151600816?s=40\u0026amp;v=4",
       "User": "Gamerooni",
       "Repository": "UDScripts",
-      "Sha": "06a81cc798682f24e87e21707266830b055b09ea",
-      "LastUpdatedRunNumber": 37912
+      "Sha": "0836d238883eb11b98af9de4c9a553600b3c3c36",
+      "LastUpdatedRunNumber": 41678
     },
     {
       "Patchers": [
