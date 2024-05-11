@@ -5619,7 +5619,7 @@
             "Nickname": "Sounds of Seasons",
             "Visibility": "Visible",
             "OneLineDescription": "A Synthesis patcher that finally mutes those crickets during winter.",
-            "LongDescription": "This is a Synthesis patcher that will try its best to distinguish regional sounds and patch them accordingly, so they only play during appropriate seasons.\r\nGoes well with Seasonal Landscapes - Unfrozen. In fact, it was made with Unfrozen in mind.\r\nWeather-specific sounds will remain unchanged.",
+            "LongDescription": "This is a Synthesis patcher that will try its best to distinguish regional sounds and patch them accordingly, so they only play during appropriate seasons.\r\nGoes well with Seasonal Landscapes - Unfrozen. In fact, it was made with Unfrozen in mind.\r\nWeather-specific sounds will remain unchanged.\r\n\r\nFor description and usage instructions please refer to the Nexus page: https://www.nexusmods.com/skyrimspecialedition/mods/118754.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -5637,8 +5637,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/9271987?s=40\u0026amp;v=4",
       "User": "golovatris",
       "Repository": "SoundsOfSeasons",
-      "Sha": "3aa8d0698975cacd0dca16e1334397a2e8f16b6a",
-      "LastUpdatedRunNumber": 41947
+      "Sha": "962c5b7db3b8f068fe571123a55f10ec27bb84c9",
+      "LastUpdatedRunNumber": 41948
     },
     {
       "Patchers": [
