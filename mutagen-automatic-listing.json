@@ -3295,18 +3295,6 @@
     {
       "Patchers": [
         {
-          "Customization": {
-            "Nickname": "LocationPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Forwards Location adds/edits",
-            "LongDescription": "- Forwards the most recent addition or edit of the Location property in records.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE",
-              "SkyrimSEGog"
-            ]
-          },
           "ProjectPath": "LocationPatcher/LocationPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -3316,8 +3304,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
       "User": "studioph",
       "Repository": "LocationPatcher",
-      "Sha": "669b70501a60ff8ca354e94341395df7a8e9ba33",
-      "LastUpdatedRunNumber": 41973
+      "Sha": "76d4d109a9cc943026776414eebe9182c6ecac08",
+      "LastUpdatedRunNumber": 41974
     },
     {
       "Patchers": [
