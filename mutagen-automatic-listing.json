@@ -1861,6 +1861,14 @@
       "LastUpdatedRunNumber": 31433
     },
     {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/151600816?s=40\u0026amp;v=4",
+      "User": "Gamerooni",
+      "Repository": "FO4Patchers",
+      "Sha": "a6537a7dddb6712d5f6bbb3d8d7192c8e7aec905",
+      "LastUpdatedRunNumber": 42140
+    },
+    {
       "Patchers": [
         {
           "Customization": {
