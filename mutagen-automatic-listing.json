@@ -1097,6 +1097,14 @@
       "LastUpdatedRunNumber": 31429
     },
     {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/14567045?s=40\u0026amp;v=4",
+      "User": "lingsamuel",
+      "Repository": "DialogTags",
+      "Sha": "4a93ed792fc8056ba8871b0f690181198a553f15",
+      "LastUpdatedRunNumber": 42194
+    },
+    {
       "Patchers": [
         {
           "Customization": {
