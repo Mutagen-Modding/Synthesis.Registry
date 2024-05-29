@@ -1214,6 +1214,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "DynamicStringDistributorGenerator/DynamicStringDistributorGenerator.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/14567045?s=40\u0026amp;v=4",
+      "User": "lingsamuel",
+      "Repository": "DynamicStringDistributorGenerator",
+      "Sha": "1209ed1640c7cf78738d220dbc08bfcae19e95a7",
+      "LastUpdatedRunNumber": 42385
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "EasyNPC SkinNaked Remover",
             "Visibility": "Visible",
