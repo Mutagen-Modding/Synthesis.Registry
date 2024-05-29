@@ -1101,8 +1101,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/14567045?s=40\u0026amp;v=4",
       "User": "lingsamuel",
       "Repository": "DialogTags",
-      "Sha": "519a38fb1dc53744c35d4bb1625232b80449be1e",
-      "LastUpdatedRunNumber": 42384
+      "Sha": "d843dba5dedeb302f8119648f472b6b9ca666b0c",
+      "LastUpdatedRunNumber": 42386
     },
     {
       "Patchers": [
@@ -1223,8 +1223,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/14567045?s=40\u0026amp;v=4",
       "User": "lingsamuel",
       "Repository": "DynamicStringDistributorGenerator",
-      "Sha": "1209ed1640c7cf78738d220dbc08bfcae19e95a7",
-      "LastUpdatedRunNumber": 42385
+      "Sha": "8d9360e1d5d947f32cdc8042c9de37be14762253",
+      "LastUpdatedRunNumber": 42386
     },
     {
       "Patchers": [
