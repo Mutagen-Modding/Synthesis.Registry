@@ -1436,15 +1436,17 @@
           },
           "ProjectPath": "Theeverythingemfuckener/Theeverythingemfuckener.csproj",
           "IncludedLibraries": [
-            "Skyrim"
+            "Skyrim",
+            "Oblivion",
+            "Fallout4"
           ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
       "User": "JanuarySnow",
       "Repository": "everythingemfuckener",
-      "Sha": "26d97b6af813b477392b4dcc6c13ea49c9a232a5",
-      "LastUpdatedRunNumber": 42725
+      "Sha": "f88299d696b3d98f6394f4667da65f4fe523e38e",
+      "LastUpdatedRunNumber": 42726
     },
     {
       "Patchers": [
