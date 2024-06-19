@@ -86,6 +86,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "AdvancedWeightPatcher/AdvancedWeightPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "AdvancedWeightPatcher",
+      "Sha": "693632ff4f1703b63af26c6e6ad2834a68232b69",
+      "LastUpdatedRunNumber": 42889
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "AIOverhaulPatcher",
             "Visibility": "Visible",
@@ -3090,8 +3105,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
       "User": "ThirdEyeSqueegee",
       "Repository": "KeywordWeaponSpeedPatcher",
-      "Sha": "3920438c2e08401e8fbd7c83e1dbe8c1b900a16f",
-      "LastUpdatedRunNumber": 33886
+      "Sha": "cf84c98f8056c92b2d950eee5d546088af62903e",
+      "LastUpdatedRunNumber": 42889
     },
     {
       "Patchers": [
