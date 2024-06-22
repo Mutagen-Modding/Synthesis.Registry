@@ -5396,6 +5396,30 @@
       "LastUpdatedRunNumber": 31426
     },
     {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "EnemyReleveler2",
+            "Visibility": "Visible",
+            "OneLineDescription": "A Mutagen patcher that lets you configure the levels of NPCs according to their type for a truly deleveled Skyrim",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "EnemyReleveler/EnemyReleveler.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/84779291?s=40\u0026amp;v=4",
+      "User": "Graca98",
+      "Repository": "Skyrim-Wigo-Releveler-Graco",
+      "Sha": "e5b022ef7d9cfdb3f4d986e0609540e6108f86c8",
+      "LastUpdatedRunNumber": 42957
+    },
+    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;v=4",
       "User": "Deigue",
