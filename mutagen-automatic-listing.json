@@ -219,8 +219,8 @@
           "Customization": {
             "Nickname": "AllBooksHavePerks",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Add random perk for each book",
+            "LongDescription": "Add random perk for each book. Each generation time perks will be RANDOM",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": []
@@ -234,8 +234,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/44707323?s=40\u0026amp;v=4",
       "User": "AmoneMisa",
       "Repository": "AllBooksHavePerks",
-      "Sha": "b29714d8993793bc851c674a6e4e9c8be1f8fe55",
-      "LastUpdatedRunNumber": 42938
+      "Sha": "439fa0090f50ac3974c8f732cab9a95dd9e9df24",
+      "LastUpdatedRunNumber": 42956
     },
     {
       "Patchers": [
