@@ -5405,7 +5405,14 @@
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
           },
           "ProjectPath": "EnemyReleveler/EnemyReleveler.csproj",
           "IncludedLibraries": [
@@ -5416,8 +5423,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/84779291?s=40\u0026amp;v=4",
       "User": "Graca98",
       "Repository": "Skyrim-Wigo-Releveler-Graco",
-      "Sha": "e5b022ef7d9cfdb3f4d986e0609540e6108f86c8",
-      "LastUpdatedRunNumber": 42957
+      "Sha": "3620de4b74add5e574d4b55c0bc324feca36dc2e",
+      "LastUpdatedRunNumber": 43013
     },
     {
       "Patchers": [],
