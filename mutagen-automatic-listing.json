@@ -549,6 +549,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "WhitesLove - AutoTranslateTexts",
+            "Visibility": "Visible",
+            "OneLineDescription": "This tool is created and developed for the automatic translation of strings in mods.",
+            "LongDescription": "This tool is created and developed for the automatic translation of strings in mods. It is not a translator like Deepl or Google Translate. It is a patcher that replaces existing translations of the same texts in another language (currently only Russian)",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "AutoTranslateTexts/AutoTranslateTexts.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/44707323?s=40\u0026amp;v=4",
+      "User": "AmoneMisa",
+      "Repository": "AutoTranslateTexts",
+      "Sha": "a991943337c8f78548ca9e1b5a9b2890581b40a1",
+      "LastUpdatedRunNumber": 43020
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Ba2Repacker-dev",
             "Visibility": "Visible",
             "OneLineDescription": "Automatically Repack small BA2s into one",
