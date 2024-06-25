@@ -5901,6 +5901,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "SpellModCompatibilityPatcher/SpellModCompatibilityPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/61093706?s=40\u0026amp;v=4",
+      "User": "qwsdcvghyu89",
+      "Repository": "SpellModCompatibilityPatcher",
+      "Sha": "b9ce05cd604043a8d4db3e62c47442362f719f10",
+      "LastUpdatedRunNumber": 43025
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "SpellResearchAlternateTomePatcher/SpellResearchAlternateTomePatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
