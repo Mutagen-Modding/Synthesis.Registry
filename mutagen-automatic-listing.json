@@ -1091,6 +1091,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "CustomizableItemSorting",
+            "Visibility": "Visible",
+            "OneLineDescription": "Allows for sorting items into user-defined categories.",
+            "LongDescription": "Allows for sorting items into user-defined categories.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "CustomizableItemSorting/CustomizableItemSorting.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/69689375?s=40\u0026amp;v=4",
+      "User": "bmgolley",
+      "Repository": "CustomizableItemSorting",
+      "Sha": "c7173991c3986d86d4bae1bbff39cad5872b595b",
+      "LastUpdatedRunNumber": 43168
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "DeadBodyCleanupNPCAttacher",
             "Visibility": "Visible",
             "OneLineDescription": "Add deadbodycleanupscript to some npcs",
