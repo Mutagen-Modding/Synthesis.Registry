@@ -4876,6 +4876,33 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Unique Region Names",
+            "Visibility": "Visible",
+            "OneLineDescription": "Relabels exterior region names from Skyrim to thier actual region name.",
+            "LongDescription": "This patcher relabels exterior region names to thier actual region name. This requires Regional Save Names by powerofthree to be installed. It should probably not be used in conjunction with other mods that do the same or similar things (this includes the original Unique Region Names).",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "Patcher/Patcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/65688322?s=40\u0026amp;v=4",
+      "User": "OddDrifter",
+      "Repository": "region-names-patcher",
+      "Sha": "c2eec4538e9f76cbda92fb9292dc42a492bc3664",
+      "LastUpdatedRunNumber": 43221
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "aglowinthefield/RemoveCraftingRecipes",
             "Visibility": "Visible",
             "OneLineDescription": "",
