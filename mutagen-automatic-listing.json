@@ -4981,6 +4981,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "RequiemClutterPlacementPatcher/RequiemClutterPlacementPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/146008217?s=40\u0026amp;v=4",
+      "User": "aglowinthefield",
+      "Repository": "Requiem-Interior-Placement-Patcher",
+      "Sha": "95a9f3443a3a331a758b40e66112d1cd377a1709",
+      "LastUpdatedRunNumber": 43462
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "RequiemArmorAddTool/RequiemArmorAddTool.csproj",
           "IncludedLibraries": [
             "Skyrim"
