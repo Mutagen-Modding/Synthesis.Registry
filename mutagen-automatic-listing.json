@@ -3198,6 +3198,14 @@
       "LastUpdatedRunNumber": 33385
     },
     {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/13842393?s=40\u0026amp;v=4",
+      "User": "souvikhazra1",
+      "Repository": "KmrMusicCellsPatcher-Synthesis",
+      "Sha": "be3397e77ed785b1246bf18d452a10e882e7df3f",
+      "LastUpdatedRunNumber": 43479
+    },
+    {
       "Patchers": [
         {
           "Customization": {
