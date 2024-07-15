@@ -651,6 +651,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "BetterQuestObjectivesPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "BetterQuestObjectivesPatcher/BetterQuestObjectivesPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/146008217?s=40\u0026amp;v=4",
+      "User": "aglowinthefield",
+      "Repository": "BetterQuestObjectivesPatcher",
+      "Sha": "ab8f8bde3169c97d9ef72c069ff76819479deca4",
+      "LastUpdatedRunNumber": 43508
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "BaboKeywordPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "",
