@@ -701,6 +701,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "BaboKeywordPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "BKP/BKP/BaboKeywordPatcher/BaboKeywordPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/11509332?s=40\u0026amp;v=4",
+      "User": "Babu1-rgb",
+      "Repository": "BKP1",
+      "Sha": "b86271904b33b8796e00c718134c21afd5a35d1b",
+      "LastUpdatedRunNumber": 43512
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "BlacksmithForgeWater",
             "Visibility": "Visible",
             "OneLineDescription": "Places Blacksmith Forge Water",
