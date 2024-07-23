@@ -915,6 +915,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Communism",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "Communism/Communism.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
+      "User": "JanuarySnow",
+      "Repository": "Communism",
+      "Sha": "36da241fb003bb3f09f9d3e4d4bbca8cf0d353f5",
+      "LastUpdatedRunNumber": 43702
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "CompleteCraftingOverhaulCompatibleRecipeGenerator",
             "Visibility": "Visible",
             "OneLineDescription": "",
