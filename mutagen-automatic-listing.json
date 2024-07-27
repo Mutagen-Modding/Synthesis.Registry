@@ -1494,8 +1494,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/44883930?s=40\u0026amp;v=4",
       "User": "BitterlyIronic",
       "Repository": "EnchPopulator",
-      "Sha": "1412951fdad486c3a5ea1f9e018cf428988d9319",
-      "LastUpdatedRunNumber": 39477
+      "Sha": "b2527440f9a762744972eeb730c6a92249f7826c",
+      "LastUpdatedRunNumber": 43785
     },
     {
       "Patchers": [
@@ -3164,35 +3164,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "JourneymanVendorPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Adds buyable travel packs to all innkeepers and Khajiit caravans",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "JourneymanVendorPatcher/JourneymanVendorPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
-      "User": "ThirdEyeSqueegee",
-      "Repository": "JourneymanVendorPatcher",
-      "Sha": "0aff741a9d15bf09ffaf9a6e25ed277cff3da776",
-      "LastUpdatedRunNumber": 35445
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "ThirdEyeSqueegee/KeywordWeaponSpeedPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "",
@@ -3506,21 +3477,6 @@
       "Repository": "LMsSimpleSyns",
       "Sha": "471179179ce7acabbc02abca2ac97d17126bc0f0",
       "LastUpdatedRunNumber": 31433
-    },
-    {
-      "Patchers": [
-        {
-          "ProjectPath": "LocationPatcher/LocationPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
-      "User": "studioph",
-      "Repository": "LocationPatcher",
-      "Sha": "76d4d109a9cc943026776414eebe9182c6ecac08",
-      "LastUpdatedRunNumber": 41974
     },
     {
       "Patchers": [
