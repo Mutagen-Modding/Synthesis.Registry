@@ -4738,6 +4738,14 @@
       "LastUpdatedRunNumber": 32954
     },
     {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
+      "User": "studioph",
+      "Repository": "QuestsAreInSkyrimPatcher",
+      "Sha": "416c68e7f61d15fb372f2839c86dd92847bbe368",
+      "LastUpdatedRunNumber": 43849
+    },
+    {
       "Patchers": [
         {
           "Customization": {
@@ -6134,6 +6142,14 @@
       "Repository": "SR-Exterior-Cities-Patcher",
       "Sha": "5e36765b80b5e9ac0fb3fab2b2f6f9cf3c15fc69",
       "LastUpdatedRunNumber": 41734
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
+      "User": "studioph",
+      "Repository": "SRC-ERSPatcher",
+      "Sha": "0c81c75d7eb1205d563dc467c8721bb0b07ad3b3",
+      "LastUpdatedRunNumber": 43849
     },
     {
       "Patchers": [
@@ -7678,6 +7694,14 @@
       "Repository": "SynthesisTemplateWpfApp",
       "Sha": "a27a1e1185084957ec075921ffaeda1039f1bcb5",
       "LastUpdatedRunNumber": 37122
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
+      "User": "studioph",
+      "Repository": "SynthesisUtils",
+      "Sha": "5434ee60bcf069155519b0b528dfb9677e97287d",
+      "LastUpdatedRunNumber": 43849
     },
     {
       "Patchers": [
