@@ -914,21 +914,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "Reqtificator/SynReqtificator.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/24525094?s=40\u0026amp;v=4",
-      "User": "tmpbased",
-      "Repository": "CnstSynReqtificator",
-      "Sha": "42a6a9a879b4cec27c56189ed06b15104bfe2c49",
-      "LastUpdatedRunNumber": 43908
-    },
-    {
-      "Patchers": [
-        {
           "Customization": {
             "Nickname": "Communism",
             "Visibility": "Visible",
@@ -6163,8 +6148,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
       "User": "studioph",
       "Repository": "SRC-ERSPatcher",
-      "Sha": "543d8993e095e01c9c55ed0d4c90186db76f2c1b",
-      "LastUpdatedRunNumber": 43850
+      "Sha": "be47e0a475ef711978b658f4588160b547e289b2",
+      "LastUpdatedRunNumber": 43920
     },
     {
       "Patchers": [
