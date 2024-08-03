@@ -4069,7 +4069,9 @@
             "LongDescription": "This removes all map markers for UNVISITED places from your map. Compatible with everything. Can be applied at any time, even mid-game. Will NOT remove already visited places and will NOT remove markers that have already been added to your map by quests or by talking to people.\r\n\r\nFor full documentation, go to the Nexus location here: https://www.nexusmods.com/skyrimspecialedition/mods/70178\r\n\r\nI HAVE DISABLED ISSUES IN GITHUB, PLEASE REPORT BUGS IN NEXUS FOR NOW.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
           },
           "ProjectPath": "NoStartingMapMarkers/NoStartingMapMarkers.csproj",
           "IncludedLibraries": [
@@ -4080,8 +4082,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/47191053?s=40\u0026amp;v=4",
       "User": "Glanzer-modder",
       "Repository": "NoStartingMapMarkers",
-      "Sha": "143bfe10c683597e57ef1f50207023c45417752d",
-      "LastUpdatedRunNumber": 31424
+      "Sha": "699c0ba866747a373405c6528feeedca8f0d2363",
+      "LastUpdatedRunNumber": 43967
     },
     {
       "Patchers": [
