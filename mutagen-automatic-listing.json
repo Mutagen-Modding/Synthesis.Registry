@@ -3871,6 +3871,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "MusicTypePatcher-Revised-2024",
+            "Visibility": "Visible",
+            "OneLineDescription": "A Patcher for merging additions to MusicType records.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "MusicTypePatcher/MusicTypePatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/146008217?s=40\u0026amp;v=4",
+      "User": "aglowinthefield",
+      "Repository": "musictype-patcher-revived",
+      "Sha": "e8c182d40fe4c8c189940d1927690460ffe73ab2",
+      "LastUpdatedRunNumber": 44109
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Synthesis",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "A template project example",
