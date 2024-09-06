@@ -1017,6 +1017,35 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "ConsumableSwapper",
+            "Visibility": "Visible",
+            "OneLineDescription": "Swap forms",
+            "LongDescription": "Swap forms",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "ConsumableSwapper/ConsumableSwapper.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55597311?s=40\u0026amp;v=4",
+      "User": "Newrite",
+      "Repository": "ConsumableSwapper",
+      "Sha": "5a7c5786f456fb08bff2e9c5d6e3503320a22fa0",
+      "LastUpdatedRunNumber": 44763
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "ContainersRespawnPatcher/ContainersRespawnPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
