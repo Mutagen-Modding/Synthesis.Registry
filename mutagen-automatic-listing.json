@@ -7947,6 +7947,14 @@
       "LastUpdatedRunNumber": 31433
     },
     {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/15333965?s=40\u0026amp;v=4",
+      "User": "Troy1010",
+      "Repository": "TMPatcher",
+      "Sha": "e23a39f1763ff8bdfa506652f37b19a3dbe0bfd3",
+      "LastUpdatedRunNumber": 44954
+    },
+    {
       "Patchers": [
         {
           "ProjectPath": "TMSpeedPatcher/TMSpeedPatcher.csproj",
