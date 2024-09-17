@@ -4830,12 +4830,31 @@
       "LastUpdatedRunNumber": 32954
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "QuestsAreInSkyrimPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Forwards Quests Are In Skyrim changes",
+            "LongDescription": "- Forwards the FormList condition from Quests Are In Skyrim to winning quest records. Both USSEP and non-USSEP versions supported.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "QuestsAreInSkyrimPatcher/QuestsAreInSkyrimPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
       "User": "studioph",
       "Repository": "QuestsAreInSkyrimPatcher",
-      "Sha": "dabdd2f5717670db05613c817afa0fd51ad503db",
-      "LastUpdatedRunNumber": 43938
+      "Sha": "f9abba127beb7fa5b6a93798117d3205c95c03ba",
+      "LastUpdatedRunNumber": 45021
     },
     {
       "Patchers": [
