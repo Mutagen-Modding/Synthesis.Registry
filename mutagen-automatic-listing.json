@@ -3104,7 +3104,10 @@
             "RequiredMods": [
               "Immersive Music.esp"
             ],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimSEGog"
+            ]
           },
           "ProjectPath": "ImmersiveMusicPatcher/ImmersiveMusicPatcher.csproj",
           "IncludedLibraries": [
@@ -3115,8 +3118,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
       "User": "studioph",
       "Repository": "ImmersiveMusicPatcher",
-      "Sha": "d9bd220a55179534ae349a6091a835aed9304976",
-      "LastUpdatedRunNumber": 41243
+      "Sha": "086af963481fa8fe0ab205428b42c62ca875a732",
+      "LastUpdatedRunNumber": 45016
     },
     {
       "Patchers": [
