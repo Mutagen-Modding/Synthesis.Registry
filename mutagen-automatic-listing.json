@@ -2516,6 +2516,37 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Generic Synthesis Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Edit fields or forward changes based on filters set in rules.",
+            "LongDescription": "JSON config files from you game\u0027s data directory define rules. Rules contains filters and actions to take on matching records. Actions can be simple, set field value or add keyword as predefined in rule, to more dynamic actions like forwarding changes from losing patches.\u0027",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "GenericSynthesisPatcher/GenericSynthesisPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
+      "User": "tkoopman",
+      "Repository": "Generic-Synthesis-Patcher",
+      "Sha": "87319f6a6e1968a25216dab5dacb2a032230ce46",
+      "LastUpdatedRunNumber": 45389
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Grass FPS",
             "Visibility": "Visible",
             "OneLineDescription": "A patcher alternative to mods like Grass FPS Booster.",
