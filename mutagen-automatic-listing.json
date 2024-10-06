@@ -7789,12 +7789,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "BatchConfigUpdater/BatchConfigUpdater.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        },
-        {
           "Customization": {
             "Nickname": "SynthEBD",
             "Visibility": "Visible",
@@ -7817,8 +7811,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthEBD",
-      "Sha": "e7c11e5177b376688ff9703e97ba0af84987c8a8",
-      "LastUpdatedRunNumber": 45459
+      "Sha": "a84cbfad6fae0919abcd277a24b481021b917a05",
+      "LastUpdatedRunNumber": 45460
     },
     {
       "Patchers": [],
