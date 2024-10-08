@@ -8044,6 +8044,33 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "TofuPatcher",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "Fixes tofu (square glyphs) characters in dialogue. Adaption of Tofu Detective",
+            "LongDescription": "Fixes the square glyphs found in some dialogue caused by visually similar, but differently encoded characters that aren\u0027t supported by Skyrim. Converts any invalid characters that would fail to display in-game into their valid counterparts.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "TofuPatcher/TofuPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
+      "User": "studioph",
+      "Repository": "TofuPatcher",
+      "Sha": "c3368796e167a764583fd180f18923282f44f9c7",
+      "LastUpdatedRunNumber": 45504
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Tree 3D Editor",
             "Visibility": "Visible",
             "OneLineDescription": "Allows editing of selected tree EDID\u0027s X, Y and Z data.",
