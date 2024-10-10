@@ -7971,6 +7971,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Domek97/Throwing-Stuff-VR-Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimVR"
+            ]
+          },
+          "ProjectPath": "ThrowingStuffVRPatcher/ThrowingStuffVRPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/11063062?s=40\u0026amp;v=4",
+      "User": "Domek97",
+      "Repository": "Throwing-Stuff-VR-Patcher",
+      "Sha": "bc2c5c42a4887b910c4dfe4509d2b6d35fe93f26",
+      "LastUpdatedRunNumber": 45542
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "TMOPatcher",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "",
