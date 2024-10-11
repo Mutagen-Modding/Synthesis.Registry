@@ -624,12 +624,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "BaboKeywordPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        },
-        {
           "Customization": {
             "Nickname": "BaboKeywordPatcherMK2",
             "Visibility": "Visible",
@@ -652,8 +646,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5360825?s=40\u0026amp;v=4",
       "User": "whitevamp",
       "Repository": "BaboKeywordPatcherMK2",
-      "Sha": "0373f111c9584e5c568030203813d5d8015ab5c1",
-      "LastUpdatedRunNumber": 44822
+      "Sha": "96989d22ac3c8ec6ce9964c3208b0e2cf6a5d664",
+      "LastUpdatedRunNumber": 45555
     },
     {
       "Patchers": [
