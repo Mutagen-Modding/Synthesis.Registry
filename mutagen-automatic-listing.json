@@ -6004,6 +6004,22 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "OblivionInteractionIconsForwarder",
+            "Visibility": "Visible",
+            "OneLineDescription": "Oblivion Interaction Icon Forwarder",
+            "LongDescription": "Forwards the \u0022ActivateTextOverride\u0022 from Oblivion Interaction Icons (https://www.nexusmods.com/skyrimspecialedition/mods/52743) to the last winning override and thus keeping the change of that mod intact.",
+            "PreferredAutoVersioning": "LatestDefaultBranch",
+            "RequiredMods": [
+              "skymojibase.esl"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
           "ProjectPath": "OblivionInteractionIconsForwarder/OblivionInteractionIconsForwarder.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -6013,8 +6029,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/7734527?s=40\u0026amp;v=4",
       "User": "MZS1975",
       "Repository": "SomeSkyrimPatchers",
-      "Sha": "2b3fe4cae0281f01cf244c23b0e3781be18f26bb",
-      "LastUpdatedRunNumber": 45605
+      "Sha": "02346f41c390abba65dda66af41e8dcb6d91fa5f",
+      "LastUpdatedRunNumber": 45606
     },
     {
       "Patchers": [
