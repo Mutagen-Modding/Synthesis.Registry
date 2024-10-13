@@ -6004,6 +6004,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "OblivionInteractionIconsForwarder/OblivionInteractionIconsForwarder.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/7734527?s=40\u0026amp;v=4",
+      "User": "MZS1975",
+      "Repository": "SomeSkyrimPatchers",
+      "Sha": "2b3fe4cae0281f01cf244c23b0e3781be18f26bb",
+      "LastUpdatedRunNumber": 45605
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "SorcererPatcher",
             "Visibility": "Visible",
