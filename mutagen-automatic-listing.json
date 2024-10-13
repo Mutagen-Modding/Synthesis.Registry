@@ -2534,8 +2534,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
       "User": "tkoopman",
       "Repository": "Generic-Synthesis-Patcher",
-      "Sha": "165f2c17f5d4dea66f43913e085a7e18cf44b279",
-      "LastUpdatedRunNumber": 45595
+      "Sha": "703db9722ad219c76d23ef20c231bbd99b2d29e2",
+      "LastUpdatedRunNumber": 45607
     },
     {
       "Patchers": [
@@ -6006,7 +6006,7 @@
         {
           "Customization": {
             "Nickname": "OblivionInteractionIconsForwarder",
-            "Visibility": "Visible",
+            "Visibility": "IncludeButHide",
             "OneLineDescription": "Oblivion Interaction Icon Forwarder",
             "LongDescription": "Forwards the \u0022ActivateTextOverride\u0022 from Oblivion Interaction Icons (https://www.nexusmods.com/skyrimspecialedition/mods/52743) to the last winning override and thus keeping the change of that mod intact.",
             "PreferredAutoVersioning": "LatestDefaultBranch",
@@ -6029,8 +6029,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/7734527?s=40\u0026amp;v=4",
       "User": "MZS1975",
       "Repository": "SomeSkyrimPatchers",
-      "Sha": "02346f41c390abba65dda66af41e8dcb6d91fa5f",
-      "LastUpdatedRunNumber": 45606
+      "Sha": "374c5e3ad42c54a5374f8c4b958543b40d0b8add",
+      "LastUpdatedRunNumber": 45607
     },
     {
       "Patchers": [
