@@ -8044,6 +8044,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "TMGenerator/TMGenerator.csproj",
+          "IncludedLibraries": [
+            "Oblivion"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/15333965?s=40\u0026amp;v=4",
+      "User": "Troy1010",
+      "Repository": "TMGenerator",
+      "Sha": "9976c83d389402ac4f8eac881cc05130e8413b78",
+      "LastUpdatedRunNumber": 45615
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "TMOPatcher",
             "Visibility": "IncludeButHide",
