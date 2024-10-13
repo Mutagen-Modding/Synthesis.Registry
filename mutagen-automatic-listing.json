@@ -2644,30 +2644,6 @@
     {
       "Patchers": [
         {
-          "Customization": {
-            "Nickname": "Synthesis RPG Loot (Enchantment Distributor)",
-            "Visibility": "Visible",
-            "OneLineDescription": "This patcher will distribute the enchantments found in your setup to your leveled lists and previously unenchanted items.",
-            "LongDescription": "## What does this Patcher do ?\n\nThis patcher will distribute the enchantments found in your setup to your leveled lists and previously unenchanted items.\n\nFor this the patcher has a Distribution Only Mode and a more fun and enhanced RPGLoot rarity level Distribution.\n\n## Versioning\n\nUse the \u0060Tag\u0060 Versioning in Synthesis to not accidentally break your saves (rolling back *should* work for fixing it).\n\n\u0060X.Y.Z\u0060:\n\n- X - Big rework or bigger changes (new settings etc) **NEEDS NEW SAVE**\n- Y - Internal changes that 100% will alter the consistency of the outputs between versions **NEEDS NEW SAVE**.\n- Z - Typos, Minor Bug Fixes or Changes to default settings for NEW users.\n\n## Settings\n\nThis Patcher has Settings for customization.",
-            "PreferredAutoVersioning": "LatestTag",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "HalgarisConsistentRPGLoot",
-      "Sha": "efdd3de484cbb2542fa195014e96d2cbb43e33aa",
-      "LastUpdatedRunNumber": 45559
-    },
-    {
-      "Patchers": [
-        {
           "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -7846,6 +7822,30 @@
       "Repository": "Synthesis-Misc-Compatibility-Patchers",
       "Sha": "bfca9b5ac1573a082e2cab4a2c10a11275651899",
       "LastUpdatedRunNumber": 31427
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Synthesis RPG Loot (Enchantment Distributor)",
+            "Visibility": "Visible",
+            "OneLineDescription": "This patcher will distribute the enchantments found in your setup to your leveled lists and previously unenchanted items.",
+            "LongDescription": "## What does this Patcher do ?\n\nThis patcher will distribute the enchantments found in your setup to your leveled lists and previously unenchanted items.\n\nFor this the patcher has a Distribution Only Mode and a more fun and enhanced RPGLoot rarity level Distribution.\n\n## Versioning\n\nUse the \u0060Tag\u0060 Versioning in Synthesis to not accidentally break your saves (rolling back *should* work for fixing it).\n\n\u0060X.Y.Z\u0060:\n\n- X - Big rework or bigger changes (new settings etc) **NEEDS NEW SAVE**\n- Y - Internal changes that 100% will alter the consistency of the outputs between versions **NEEDS NEW SAVE**.\n- Z - Typos, Minor Bug Fixes or Changes to default settings for NEW users.\n\n## Settings\n\nThis Patcher has Settings for customization.",
+            "PreferredAutoVersioning": "LatestTag",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "SynthesisRPGLoot",
+      "Sha": "0d421f00f181c43b6e1e62c39b8019b90028ab92",
+      "LastUpdatedRunNumber": 45621
     },
     {
       "Patchers": [
