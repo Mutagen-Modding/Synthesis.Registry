@@ -473,6 +473,35 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "whitevamp/ArmorEdidExporter",
+            "Visibility": "Visible",
+            "OneLineDescription": "Export Armor EDID",
+            "LongDescription": "Synthesis patcher to export EDID to ether text or a formated CS out put, created for helping me increating my bobokwd patcher ",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "ArmorEdidExporter/ArmorEdidExporter.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5360825?s=40\u0026amp;v=4",
+      "User": "whitevamp",
+      "Repository": "ArmorEdidExporter",
+      "Sha": "015fc820febaec96b40ce7baa21120e97c013eca",
+      "LastUpdatedRunNumber": 45625
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "ArmorKeywordPatcher/ArmorKeywordPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
