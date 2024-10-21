@@ -2900,7 +2900,11 @@
             "RequiredMods": [
               "High Poly Head.esm"
             ],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
           },
           "ProjectPath": "HighPolyHead-RaceMenu Patcher/HighPolyHead-RaceMenu Patcher.csproj",
           "IncludedLibraries": [
@@ -2911,8 +2915,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
       "User": "EzioTheDeadPoet",
       "Repository": "HighPolyHead-RaceMenuPatcher",
-      "Sha": "28837ef5a7793440f8ef8192024e35fcef7df2d1",
-      "LastUpdatedRunNumber": 31424
+      "Sha": "917bce6e2bc9c8ceba9171ef488912e07e693b9c",
+      "LastUpdatedRunNumber": 45804
     },
     {
       "Patchers": [
