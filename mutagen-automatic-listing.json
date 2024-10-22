@@ -8654,6 +8654,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "VR_AE_Patcher/VR_AE_Patcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/607892?s=40\u0026amp;v=4",
+      "User": "some1one",
+      "Repository": "VR_AE_Patcher",
+      "Sha": "36f5e283c7cdc69776b2824cbe511f5f533e6131",
+      "LastUpdatedRunNumber": 45821
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "Mining for VR Patcher",
             "Visibility": "Visible",
