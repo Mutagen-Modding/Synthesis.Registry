@@ -3189,6 +3189,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "ItemAlternates/ItemAlternates.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/206142?s=40\u0026amp;v=4",
+      "User": "Maeyanie",
+      "Repository": "ItemAlternates",
+      "Sha": "e8bfa1953c5f668b1c0a46bee28c5000c9fd413a",
+      "LastUpdatedRunNumber": 45833
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "ItemTagger",
             "Visibility": "Visible",
