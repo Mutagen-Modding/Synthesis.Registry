@@ -7926,14 +7926,6 @@
       "LastUpdatedRunNumber": 45598
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
-      "User": "studioph",
-      "Repository": "SynthesisUtils",
-      "Sha": "e1081ecee509c822bb8dae8cca34470b7d8ec0ee",
-      "LastUpdatedRunNumber": 45020
-    },
-    {
       "Patchers": [
         {
           "Customization": {
@@ -8201,8 +8193,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
       "User": "studioph",
       "Repository": "TofuPatcher",
-      "Sha": "7d8b22bc026d8e2993487773c15fbd815e6f23ba",
-      "LastUpdatedRunNumber": 45667
+      "Sha": "eab252971b885ddbf87772005c3953e0ff8cb11e",
+      "LastUpdatedRunNumber": 45968
     },
     {
       "Patchers": [
