@@ -8027,8 +8027,8 @@
           "Customization": {
             "Nickname": "SynWeaponKeywords",
             "Visibility": "Visible",
-            "OneLineDescription": "Weapon type keyword patcher (similar to zEdit patcher)",
-            "LongDescription": "Supports a wide variety of mods",
+            "OneLineDescription": "Weapon type keyword patcher - with package",
+            "LongDescription": "Fully customizable Weapon Keyword patcher, the default keyword datapack is available at ",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -8044,8 +8044,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynWeaponKeywords",
-      "Sha": "57a546242ddd2703844e88256bb20d5a02139036",
-      "LastUpdatedRunNumber": 41041
+      "Sha": "90a2e99688ad27e2d99cd4555c302d0fed5df86a",
+      "LastUpdatedRunNumber": 46037
     },
     {
       "Patchers": [],
