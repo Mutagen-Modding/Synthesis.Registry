@@ -2541,8 +2541,8 @@
           "Customization": {
             "Nickname": "Generic Synthesis Patcher",
             "Visibility": "Visible",
-            "OneLineDescription": "Edit fields or forward changes based on filters set in rules.",
-            "LongDescription": "JSON config files from you game\u0027s data directory define rules. Rules contains filters and actions to take on matching records. Actions can be simple, set field value or add keyword as predefined in rule, to more dynamic actions like forwarding changes from losing patches.\u0027",
+            "OneLineDescription": "Edit, Merge or forward changes based on filters set in rules.",
+            "LongDescription": "JSON config files from you game\u0027s data directory define rules. Rules contains filters and actions to take on matching records. Actions can be simple, set field value or add keyword as predefined in rule, to more dynamic actions like merging or forwarding changes from losing patches.\u0027",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -2563,8 +2563,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
       "User": "tkoopman",
       "Repository": "Generic-Synthesis-Patcher",
-      "Sha": "23ae25b20bd5055116e8f618470d9c937d5f6b4d",
-      "LastUpdatedRunNumber": 46059
+      "Sha": "d123b8a6c0fc1d658a92ac0638f54a021e2cc54e",
+      "LastUpdatedRunNumber": 46078
     },
     {
       "Patchers": [
