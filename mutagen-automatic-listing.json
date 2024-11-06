@@ -1348,6 +1348,34 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "disableSpellLightPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Disables Light Emit by Spells",
+            "LongDescription": "Patcher that removes light emit by spells in selected schools. Useful for making it so you are not detected while sneaking simply for having your spells out.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "disableSpellLightPatcher/disableSpellLightPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026amp;v=4",
+      "User": "tomnGithub",
+      "Repository": "disableSpellLightPatcher",
+      "Sha": "653032e9eb0b373a3d7ba152893cbb5761938b16",
+      "LastUpdatedRunNumber": 46173
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "DisenchantEverything",
             "Visibility": "Visible",
             "OneLineDescription": "Removes the MagicDisallowEnchanting keyword from all items.",
