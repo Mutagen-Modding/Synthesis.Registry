@@ -2591,8 +2591,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
       "User": "tkoopman",
       "Repository": "Generic-Synthesis-Patcher",
-      "Sha": "cdd7cffe34e2b329d49703fec4709a7aea883c6f",
-      "LastUpdatedRunNumber": 46101
+      "Sha": "ef63b2c1fec559051b30678dadc69622f2915bb8",
+      "LastUpdatedRunNumber": 46174
     },
     {
       "Patchers": [
@@ -7960,6 +7960,14 @@
       "Repository": "SynthesisTemplateWpfApp",
       "Sha": "e3e3e957e08a4d635f9aaef50f01d4d7007f4b82",
       "LastUpdatedRunNumber": 45598
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
+      "User": "studioph",
+      "Repository": "SynthesisUtils",
+      "Sha": "408a6d52e5c4f283b46761244554a162c7c864c7",
+      "LastUpdatedRunNumber": 46174
     },
     {
       "Patchers": [
