@@ -8232,19 +8232,13 @@
           "IncludedLibraries": [
             "Skyrim"
           ]
-        },
-        {
-          "ProjectPath": "TofuPatcher.Tests/TofuPatcher.Tests.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
       "User": "studioph",
       "Repository": "TofuPatcher",
-      "Sha": "72a66b27cc10873f18e8e3e31f9d1894ba9736bc",
-      "LastUpdatedRunNumber": 46189
+      "Sha": "34bb6b2d40a40723784f43fd44e29a80a9f19f68",
+      "LastUpdatedRunNumber": 46190
     },
     {
       "Patchers": [
