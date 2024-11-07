@@ -2951,8 +2951,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
       "User": "EzioTheDeadPoet",
       "Repository": "HighPolyHead-RaceMenuPatcher",
-      "Sha": "917bce6e2bc9c8ceba9171ef488912e07e693b9c",
-      "LastUpdatedRunNumber": 45804
+      "Sha": "fa6279b697f5e26fa7cecce916be5534a4657c49",
+      "LastUpdatedRunNumber": 46194
     },
     {
       "Patchers": [
@@ -3169,8 +3169,8 @@
             "Nickname": "ImmersiveMusicPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Forwards Immersive Music Edits",
-            "LongDescription": "- Forwards MusicType records from Immersive Music to winning cell and worldspace records.",
-            "PreferredAutoVersioning": "Default",
+            "LongDescription": "Forwards MusicType records from Immersive Music to winning cell and worldspace records.",
+            "PreferredAutoVersioning": "LatestTag",
             "RequiredMods": [
               "Immersive Music.esp"
             ],
@@ -3188,8 +3188,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
       "User": "studioph",
       "Repository": "ImmersiveMusicPatcher",
-      "Sha": "0c13beff186cf3ae0358e34ce323360d29588756",
-      "LastUpdatedRunNumber": 45133
+      "Sha": "3f0eafe23dcc73558c15b2b7e2acbe15ec718cec",
+      "LastUpdatedRunNumber": 46194
     },
     {
       "Patchers": [
