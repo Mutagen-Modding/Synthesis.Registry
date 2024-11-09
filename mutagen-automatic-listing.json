@@ -3225,6 +3225,20 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "ItemAlternates",
+            "Visibility": "Visible",
+            "OneLineDescription": "Automatically(ish) add alternate versions of existing items.",
+            "LongDescription": "Have a bunch of standalone variants of items, and want them to spawn as alternate items, like Book of UUNP?\r\nItemAlternates was designed to make doing this at least slightly less tedious.\r\nSee https://www.nexusmods.com/skyrimspecialedition/mods/132099/ for details.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
           "ProjectPath": "ItemAlternates/ItemAlternates.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -3234,8 +3248,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/206142?s=40\u0026amp;v=4",
       "User": "Maeyanie",
       "Repository": "ItemAlternates",
-      "Sha": "c36a44b673d8d2ef85331ac20fb4280d710c74f0",
-      "LastUpdatedRunNumber": 45868
+      "Sha": "29c27358e620de892a923923e7e6ce1215ff6999",
+      "LastUpdatedRunNumber": 46224
     },
     {
       "Patchers": [
