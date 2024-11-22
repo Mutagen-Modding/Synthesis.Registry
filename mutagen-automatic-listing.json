@@ -1118,6 +1118,21 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "CostumeShop",
+            "Visibility": "Visible",
+            "OneLineDescription": "Creates costume armor",
+            "LongDescription": "Creates unenchanted (replica) copies of enchanted armor with no unenchanted version (mostly unique items).\r\nCreates unarmored (costume) copies of armor.\r\nAdds the new armor to the appropriate leveled lists to appear as loot and at vendors.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "CostumeShop/CostumeShop.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
           "ProjectPath": "Tests/Tests.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -1127,8 +1142,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
       "Repository": "Costume-Shop",
-      "Sha": "bf8bb3f9e7e74c96829872c0b7d413e8aaebdd39",
-      "LastUpdatedRunNumber": 46533
+      "Sha": "61364caeb4f47dd66a68eb1a199c89dd21cd1355",
+      "LastUpdatedRunNumber": 46537
     },
     {
       "Patchers": [
