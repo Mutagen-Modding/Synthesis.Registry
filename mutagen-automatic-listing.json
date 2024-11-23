@@ -7941,7 +7941,7 @@
             "RequiredMods": [],
             "TargetedReleases": []
           },
-          "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj",
+          "ProjectPath": "SynthesisRPGLoot/SynthesisRPGLoot.csproj",
           "IncludedLibraries": [
             "Skyrim"
           ]
@@ -7950,8 +7950,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthesisRPGLoot",
-      "Sha": "0d421f00f181c43b6e1e62c39b8019b90028ab92",
-      "LastUpdatedRunNumber": 45621
+      "Sha": "5f8869c35041daeec40b817aae7e0eb7b27547cc",
+      "LastUpdatedRunNumber": 46562
     },
     {
       "Patchers": [
