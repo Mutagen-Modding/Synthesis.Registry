@@ -1615,6 +1615,35 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "EncounterZoneNames",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "EncounterZoneNames/EncounterZoneNames.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "EncounterZoneNames",
+      "Sha": "23af27c24ea5cb9fac6c00d7a06c764fa5d203a1",
+      "LastUpdatedRunNumber": 46631
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "EnemyReleveler",
             "Visibility": "Visible",
             "OneLineDescription": "A Mutagen patcher that lets you configure the levels of NPCs according to their type for a truly deleveled Skyrim",
