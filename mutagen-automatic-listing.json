@@ -1617,8 +1617,8 @@
           "Customization": {
             "Nickname": "EncounterZoneNames",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Adds encounter zone levels to cell names and map markers, so you know what you\u0027re walking into!",
+            "LongDescription": "This patcher adds** encounter zone levels** to the names of all cells and/or map markers in your load order, and allows you some customization of how these levels show up. This lets you know how strong enemies will be before entering a location - say goodbye to getting instantly melted because you entered a high-level zone without knowing!\r\n\r\nExamples for vanilla encounter zones: Embershard Mine -\u003E Embershard Mine (Levels 6 to 10) Forelhost -\u003E Forelhost (Level 24\u002B)\r\n\r\nSee tooltips on each of the settings for more info on what they do.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -1637,8 +1637,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "EncounterZoneNames",
-      "Sha": "23af27c24ea5cb9fac6c00d7a06c764fa5d203a1",
-      "LastUpdatedRunNumber": 46631
+      "Sha": "5171056ea6adc19f888faa35027f3a6623ca9711",
+      "LastUpdatedRunNumber": 46662
     },
     {
       "Patchers": [
