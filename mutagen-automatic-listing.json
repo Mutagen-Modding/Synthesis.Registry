@@ -4082,8 +4082,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/146008217?s=40\u0026amp;v=4",
       "User": "aglowinthefield",
       "Repository": "musictype-patcher-revived",
-      "Sha": "e8c182d40fe4c8c189940d1927690460ffe73ab2",
-      "LastUpdatedRunNumber": 44109
+      "Sha": "d9a78d7f1e06040db82de4688331c964ca3b37d0",
+      "LastUpdatedRunNumber": 46697
     },
     {
       "Patchers": [
@@ -5794,37 +5794,6 @@
       "Repository": "Skyrim-Synthesis-NIFPatcher_HairShader",
       "Sha": "7982aca8a8261332065a8ccfb9e88ea1e7a801f7",
       "LastUpdatedRunNumber": 31426
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "EnemyReleveler2",
-            "Visibility": "Visible",
-            "OneLineDescription": "A Mutagen patcher that lets you configure the levels of NPCs according to their type for a truly deleveled Skyrim",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "EnderalLE",
-              "EnderalSE",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "EnemyReleveler/EnemyReleveler.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/84779291?s=40\u0026amp;v=4",
-      "User": "Graca98",
-      "Repository": "Skyrim-Wigo-Releveler-Graco",
-      "Sha": "7dcbecf6a8cbe8582bf6b3a0e05f1d4bb352f4bb",
-      "LastUpdatedRunNumber": 43037
     },
     {
       "Patchers": [],
