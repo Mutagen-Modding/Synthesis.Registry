@@ -908,6 +908,61 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "CardmastersOfTamriel.Models/CardmastersOfTamriel.Models.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "ProjectPath": "CardmastersOfTamriel.SynthesisPatcher.Common/CardmastersOfTamriel.SynthesisPatcher.Common.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "Customization": {
+            "Nickname": "CardmastersOfTamriel.SynthesisPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "CardmastersOfTamriel.SynthesisPatcher/CardmastersOfTamriel.SynthesisPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "Customization": {
+            "Nickname": "CardmastersOfTamriel.SynthesisPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "CardmastersOfTamriel.Utilities/CardmastersOfTamriel.Utilities.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/2105853?s=40\u0026amp;v=4",
+      "User": "mc20",
+      "Repository": "CardmastersOfTamriel",
+      "Sha": "af9904d951d95d1d1f3eed7f9930493c70aa599e",
+      "LastUpdatedRunNumber": 46768
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "BookUUNPCBPCKeywords/BookUUNPCBPCKeywords.csproj",
           "IncludedLibraries": [
             "Skyrim"
