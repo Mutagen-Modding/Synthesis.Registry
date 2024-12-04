@@ -6578,6 +6578,14 @@
       "LastUpdatedRunNumber": 38248
     },
     {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "User": "Synthesis-Collective",
+      "Repository": "StringLocalizationTester",
+      "Sha": "1f9a0b0b8bb2728ebbd4109e36b9aac8fa61c049",
+      "LastUpdatedRunNumber": 46797
+    },
+    {
       "Patchers": [
         {
           "ProjectPath": "STToggle/STToggle.csproj",
