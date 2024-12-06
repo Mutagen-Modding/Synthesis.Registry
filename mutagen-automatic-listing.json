@@ -8864,6 +8864,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "WastedLoot/WastedLoot.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/136510090?s=40\u0026amp;v=4",
+      "User": "WastedFallout",
+      "Repository": "WastedLoot",
+      "Sha": "d5edced85bb4dfff4ca838dd7f4945b84648c4d3",
+      "LastUpdatedRunNumber": 46841
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "Water Does Damage Patcher",
             "Visibility": "Visible",
