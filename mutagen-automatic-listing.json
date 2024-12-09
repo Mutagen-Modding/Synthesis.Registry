@@ -4119,6 +4119,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "MusicFixer/MusicFixer.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/20866468?s=40\u0026amp;v=4",
+      "User": "poperigby",
+      "Repository": "music-fixer",
+      "Sha": "9bef52e6b85a87169e5f1f4dcf5a239fb8ea017d",
+      "LastUpdatedRunNumber": 46911
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "MusicTypePatcher-Revised-2024",
             "Visibility": "Visible",
