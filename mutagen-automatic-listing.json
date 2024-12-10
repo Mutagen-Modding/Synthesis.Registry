@@ -4128,8 +4128,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/20866468?s=40\u0026amp;v=4",
       "User": "poperigby",
       "Repository": "music-fixer",
-      "Sha": "31b2290bbfe3b27705462a1a7c3de0cbbba54452",
-      "LastUpdatedRunNumber": 46915
+      "Sha": "6862902933cfb5d4ee5b8885d44a8950eba094d4",
+      "LastUpdatedRunNumber": 46934
     },
     {
       "Patchers": [
@@ -4291,6 +4291,21 @@
       "Repository": "nodragonlods",
       "Sha": "fe0e78a7caae49fe91c08a808f47556bc7c470c3",
       "LastUpdatedRunNumber": 31432
+    },
+    {
+      "Patchers": [
+        {
+          "ProjectPath": "NorthernRoadsGrassRemover/NorthernRoadsGrassRemover.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/20866468?s=40\u0026amp;v=4",
+      "User": "poperigby",
+      "Repository": "northern-roads-grass-remover",
+      "Sha": "7e8ceb5119d701a8a2e60275cb416bac5068723b",
+      "LastUpdatedRunNumber": 46934
     },
     {
       "Patchers": [
