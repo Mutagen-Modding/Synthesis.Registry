@@ -4915,6 +4915,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "PlacedLightPatcher/PlacedLightPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/20866468?s=40\u0026amp;v=4",
+      "User": "poperigby",
+      "Repository": "placed-light-patcher",
+      "Sha": "3b51dc6351f03bdf31d22259b72d0b793bcb2119",
+      "LastUpdatedRunNumber": 46999
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "PoisonBlocking",
             "Visibility": "Visible",
