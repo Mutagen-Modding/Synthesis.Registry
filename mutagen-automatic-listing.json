@@ -1173,6 +1173,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "ConvertNPCVisualReplacerToSkyPatcher/ConvertNPCVisualReplacerToSkyPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/190675517?s=40\u0026amp;v=4",
+      "User": "SDKE13",
+      "Repository": "ConvertNPCVisualReplacerToSkyPatcher",
+      "Sha": "11d5b039c81803b08acf0553de7be1198a04cf88",
+      "LastUpdatedRunNumber": 47032
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "CostumeShop",
             "Visibility": "Visible",
