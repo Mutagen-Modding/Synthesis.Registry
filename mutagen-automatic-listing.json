@@ -8248,12 +8248,14 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Domek97/Throwing-Stuff-VR-Patcher",
+            "Nickname": "Domek97/ThrowingStuffVRPatcher",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Patches mods to work with More Interactive Objects - Throwing Things VR Port",
+            "LongDescription": "Adds destruction to any Potions/Poisons in your load order, and any items specified in ThrowStuff_KID.ini",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
+            "RequiredMods": [
+              "ThrowStuff.esp"
+            ],
             "TargetedReleases": [
               "SkyrimVR"
             ]
@@ -8266,9 +8268,9 @@
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/11063062?s=40\u0026amp;v=4",
       "User": "Domek97",
-      "Repository": "Throwing-Stuff-VR-Patcher",
-      "Sha": "5f7072365713ab78bc55ae759c661f7753465d6b",
-      "LastUpdatedRunNumber": 47088
+      "Repository": "ThrowingStuffVRPatcher",
+      "Sha": "b255c07cb98c11e40678370b6dbdc2559f94f038",
+      "LastUpdatedRunNumber": 47202
     },
     {
       "Patchers": [
