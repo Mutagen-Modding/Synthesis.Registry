@@ -8045,6 +8045,37 @@
       "LastUpdatedRunNumber": 47311
     },
     {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Meridiano/Synthesis-BlendedShorelinesUniversal",
+            "Visibility": "Visible",
+            "OneLineDescription": "Change water values to better blend it with shores",
+            "LongDescription": "Original Blended Shorelines: https://www.nexusmods.com/skyrimspecialedition/mods/41300\r\nThis patcher does the same but it uses Synthesis and applies related changes to all water types.\r\nIncluded water values are Reflections, Refraction, Normals and Specular Lighting.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "BlendedShorelinesUniversal/BlendedShorelinesUniversal.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/25160065?s=40\u0026amp;v=4",
+      "User": "Meridiano",
+      "Repository": "Synthesis-BlendedShorelinesUniversal",
+      "Sha": "25742c5b2d6f037af6197d263fde5d88103daa6e",
+      "LastUpdatedRunNumber": 47327
+    },
+    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/23498000?s=40\u0026amp;v=4",
       "User": "Benna96",
