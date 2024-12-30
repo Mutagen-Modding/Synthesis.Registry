@@ -9132,6 +9132,37 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "Yahim0/Yahis-Weapon-Overhaul",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "YahisWeaponOverhaul/YahisWeaponOverhaul.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/180131362?s=40\u0026amp;v=4",
+      "User": "Yahim0",
+      "Repository": "Yahis-Weapon-Overhaul",
+      "Sha": "94a3d28a63a49ba8532202c70aca6bfe22dc12f9",
+      "LastUpdatedRunNumber": 47407
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "Tests/Tests.csproj",
           "IncludedLibraries": [
             "Skyrim"
