@@ -8030,34 +8030,12 @@
       "LastUpdatedRunNumber": 40004
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SynthEBD",
-            "Visibility": "Visible",
-            "OneLineDescription": "Randomizes NPC Textures, Body Shapes, Heights, and Headparts",
-            "LongDescription": "This is a complex patcher with multiple functionalities. Please see the ReadMe on the GitHub page for details, or watch the YouTube playlist for highlights (https://www.youtube.com/playlist?list=PLHhr33KhNepwImaBBWIIIOTKG66zHVeco).",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE",
-              "SkyrimVR",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "SynthEBD/SynthEBD.csproj",
-          "IncludedLibraries": [
-            "Skyrim",
-            "Fallout4",
-            "Oblivion"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthEBD",
-      "Sha": "4730422f7b9468c02342b2dab750f40f53c4395e",
-      "LastUpdatedRunNumber": 47311
+      "Sha": "d2c619194f7f77a92e1c6e170d98aa9fa486567c",
+      "LastUpdatedRunNumber": 47437
     },
     {
       "Patchers": [
