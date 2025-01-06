@@ -857,6 +857,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "NoCustomMapMarkers",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "NoCustomMapMarkers/BSNoCustomMapMarkers.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/152705629?s=40\u0026amp;v=4",
+      "User": "ProfessionalDragonslayer",
+      "Repository": "BSNoCustomInterface",
+      "Sha": "98a4b08af53a02ea8d014dd8186ea2a307188974",
+      "LastUpdatedRunNumber": 47573
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Complete Alchemy \u0026 Cooking Overhaul Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Merges CACO changes into the winning override.",
