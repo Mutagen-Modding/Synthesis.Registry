@@ -854,30 +854,12 @@
       "LastUpdatedRunNumber": 31427
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "NoCustomMapMarkers",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "NoCustomMapMarkers/BSNoCustomMapMarkers.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/152705629?s=40\u0026amp;v=4",
       "User": "ProfessionalDragonslayer",
       "Repository": "BSNoCustomInterface",
-      "Sha": "68a770bba53652119f61c14cb2f55ef99c44a67e",
-      "LastUpdatedRunNumber": 47575
+      "Sha": "3ca8142a4feec7455200c171335e345091aacd07",
+      "LastUpdatedRunNumber": 47596
     },
     {
       "Patchers": [
