@@ -3179,6 +3179,39 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "HumanoidWerewolvesNPCPatch",
+            "Visibility": "Visible",
+            "OneLineDescription": "An addon patch for Humanoid Werewolves. Changes NPC werewolves to use an NPC-specific werewolf race.",
+            "LongDescription": "\uC774 \uD328\uCE58\uB294 Humanoid Werewolves \uBAA8\uB4DC\uC758 \uC560\uB4DC\uC628 \uD328\uCE58\uB85C, NPC \uB291\uB300\uC778\uAC04\uC744 \uD50C\uB808\uC774\uC5B4 \uCE90\uB9AD\uD130\uC640 \uAD6C\uBD84\uB418\uB294 \uC804\uC6A9 \uC885\uC871\uC778 NPCWerewolfBeastRace\uB85C \uBCC0\uACBD\uD569\uB2C8\uB2E4. \uC774\uB97C \uD1B5\uD574 \uD50C\uB808\uC774\uC5B4\uC640 NPC \uB291\uB300\uC778\uAC04\uC744 \uBD84\uB9AC\uD558\uC5EC \uC218\uC815\uD558\uAE30 \uC704\uD568\uC785\uB2C8\uB2E4. \uC774 \uD328\uCE58\uB294 HNWMain.esp \uC774\uC804\uAE4C\uC9C0\uC758 \uBAA8\uB4E0 WerewolfBeastRace \uC218\uC815\uC0AC\uD56D\uC744 \uAE30\uBC18\uC73C\uB85C \uC801\uC6A9\uB429\uB2C8\uB2E4.\r\n\r\nThis patch is an addon for the Humanoid Werewolves mod, changing NPC werewolves to a dedicated race called NPCWerewolfBeastRace, separate from the player\u0027s werewolf race. This allows for separating and modifying the behaviors and appearances of NPC werewolves independently from the player. The patch is based on all modifications to WerewolfBeastRace made up to HNWMain.esp.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "HNWMain.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "HumanoidWerewolvesNPCPatch/HumanoidWerewolvesNPCPatch.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/93307070?s=40\u0026amp;v=4",
+      "User": "TRIBeagle",
+      "Repository": "HumanoidWerewolvesNPCPatch",
+      "Sha": "02feba68e1faa6b4aad010aff7896fee273af9ee",
+      "LastUpdatedRunNumber": 47869
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "HunterbornExtender_",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis derivation of ZEdit Hunterborn Patcher",
