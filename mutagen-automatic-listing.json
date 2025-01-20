@@ -4206,6 +4206,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "MrfSolitudePatcher/MrfSolitudePatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/81275210?s=40\u0026amp;v=4",
+      "User": "navan-hassan",
+      "Repository": "MrfSolitudePatcher",
+      "Sha": "20a726201d3b66575d65b00cd210db9d78262339",
+      "LastUpdatedRunNumber": 47886
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "MusicFixer/MusicFixer.csproj",
           "IncludedLibraries": [
             "Skyrim"
