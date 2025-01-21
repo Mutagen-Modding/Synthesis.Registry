@@ -4206,21 +4206,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "MrfSolitudePatcher/MrfSolitudePatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/81275210?s=40\u0026amp;v=4",
-      "User": "navan-hassan",
-      "Repository": "MrfSolitudePatcher",
-      "Sha": "20a726201d3b66575d65b00cd210db9d78262339",
-      "LastUpdatedRunNumber": 47886
-    },
-    {
-      "Patchers": [
-        {
           "ProjectPath": "MusicFixer/MusicFixer.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -5691,8 +5676,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/127792510?s=40\u0026amp;v=4",
       "User": "TheOneAndOnlyJ3w3ls",
       "Repository": "Silver-Weapon-Keywords",
-      "Sha": "436b314bc97850dc7f7be647e545cbf2a3b09853",
-      "LastUpdatedRunNumber": 33228
+      "Sha": "602e9f451ac661af5af119cade8d002b83d19b60",
+      "LastUpdatedRunNumber": 47899
     },
     {
       "Patchers": [
