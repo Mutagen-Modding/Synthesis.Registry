@@ -2868,6 +2868,34 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "HarmonizedRaceHeights-Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Harmonized Race Heights Patcher",
+            "LongDescription": "Automatic Harmonized Race Heights Patcher\r\n\r\nhttps://www.nexusmods.com/skyrimspecialedition/mods/139918",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Harmonized Race Heights.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "HarmonizedRaceHeights-Patcher/HarmonizedRaceHeights-Patcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/35096332?s=40\u0026amp;v=4",
+      "User": "ExiledEye",
+      "Repository": "HarmonizedRaceHeights-Patcher",
+      "Sha": "55906ecb52f0b323b54e076876e52b6dfe5e3075",
+      "LastUpdatedRunNumber": 48076
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Harvest Those Mammoth Tusks",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis patcher for Harvest Those Mammoth Tusks",
