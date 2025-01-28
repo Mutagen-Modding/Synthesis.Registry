@@ -3155,6 +3155,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Andb",
+            "Visibility": "Visible",
+            "OneLineDescription": "HP_NPC_WIGS_TO_HEADPART",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "HP_NPC_WIGS_TO_HEADPART.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/156883304?s=40\u0026amp;v=4",
+      "User": "AndbGame",
+      "Repository": "HP_NPC_WIGS_TO_HEADPART",
+      "Sha": "12b0f3958461a3e380904985aaecce9edd13f6a5",
+      "LastUpdatedRunNumber": 48070
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "hph-race-patcher",
             "Visibility": "Visible",
             "OneLineDescription": "",
