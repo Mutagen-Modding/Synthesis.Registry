@@ -1554,6 +1554,34 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "madDynamicStatScaler",
+            "Visibility": "Visible",
+            "OneLineDescription": "madDynamicStatScaler",
+            "LongDescription": "madDynamicStatScaler",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "madDynamicStatScaler/madDynamicStatScaler.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026amp;v=4",
+      "User": "tomnGithub",
+      "Repository": "dynamicStatScaler",
+      "Sha": "e4ccebd2940bba99cfe713a6e7f24bff53206ffd",
+      "LastUpdatedRunNumber": 48111
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "DynamicStringDistributorGenerator/DynamicStringDistributorGenerator.csproj",
           "IncludedLibraries": [
             "Skyrim"
