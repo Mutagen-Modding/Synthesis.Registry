@@ -727,8 +727,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/146008217?s=40\u0026amp;v=4",
       "User": "aglowinthefield",
       "Repository": "BetterQuestObjectivesPatcher",
-      "Sha": "ab8f8bde3169c97d9ef72c069ff76819479deca4",
-      "LastUpdatedRunNumber": 43508
+      "Sha": "f8982fc72cdf432c952fa274f81fec999096f58e",
+      "LastUpdatedRunNumber": 48194
     },
     {
       "Patchers": [
@@ -8172,12 +8172,34 @@
       "LastUpdatedRunNumber": 40004
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynthEBD",
+            "Visibility": "Visible",
+            "OneLineDescription": "Randomizes NPC Textures, Body Shapes, Heights, and Headparts",
+            "LongDescription": "This is a complex patcher with multiple functionalities. Please see the ReadMe on the GitHub page for details, or watch the YouTube playlist for highlights (https://www.youtube.com/playlist?list=PLHhr33KhNepwImaBBWIIIOTKG66zHVeco).",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SynthEBD/SynthEBD.csproj",
+          "IncludedLibraries": [
+            "Skyrim",
+            "Fallout4",
+            "Oblivion"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthEBD",
-      "Sha": "0069e201fd8920f49a960f96f2aafa738537ee89",
-      "LastUpdatedRunNumber": 47526
+      "Sha": "0090a2559182e1ec93d51d657367607c6151b6a9",
+      "LastUpdatedRunNumber": 48194
     },
     {
       "Patchers": [
