@@ -6,10 +6,10 @@ namespace Synthesis.Registry.MutagenScraper.Dto;
 public record BlacklistEntry
 {
     public string User { get; set; } = string.Empty;
-    public string[] Repositories { get; set; } = Array.Empty<string>();
+    public string[] Repositories { get; set; } = [];
 }
 
 public class BlacklistListings
 {
-    public BlacklistEntry[] Blacklist { get; set; } = Array.Empty<BlacklistEntry>();
+    public BlacklistEntry[] Blacklist { get; set; } = [];
 }

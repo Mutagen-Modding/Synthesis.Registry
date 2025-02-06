@@ -2,6 +2,13 @@
   "Blacklist": [
     {
       "User": "tcg359"
+    },
+    {
+      "User": "Michael-wigontherun",
+	  "Repositories":
+	  [
+	    "SynSetESL"
+	  ]
     }
   ]
 }
