@@ -26,7 +26,7 @@ public class GetRepositoryListingsToUpdate
         _listingsToConsiderProvider = listingsToConsiderProvider;
     }
         
-    public async Task<RepositoryListing[]> Get()
+    public async Task<IReadOnlyList<RepositoryListing>> Get()
     {
         var toProcess = await _listingsToConsiderProvider.Get();
             

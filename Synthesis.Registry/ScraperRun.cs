@@ -47,7 +47,7 @@ public class ScraperRun
         // Get partial section of listings to analyze and fold in this run
         var reposToConsider = await _getRepositoryListingsToUpdate.Get();
 
-        if (reposToConsider.Length == 0)
+        if (reposToConsider.Count == 0)
         {
             Console.WriteLine($"No repos to update.  Exiting");
             return;

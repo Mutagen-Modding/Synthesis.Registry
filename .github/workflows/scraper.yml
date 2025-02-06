@@ -10,11 +10,11 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Setup .NET
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 7.0.102
+        dotnet-version: 9.0.*
     - name: Install dependencies
       run: dotnet restore
     - name: Build
@@ -22,7 +22,7 @@ jobs:
     - name: Test
       run: dotnet test --configuration Release --no-restore --no-build --verbosity normal
     - name: Scrape
-      run: dotnet "Synthesis.Registry\bin\Release\net6.0\Synthesis.Registry.MutagenScraper.dll" run -r ${{ github.run_number }} -n 20 -i 31298
+      run: dotnet "Synthesis.Registry\bin\Release\net9.0\Synthesis.Registry.MutagenScraper.dll" run -r ${{ github.run_number }} -n 20 -i 31298
     - uses: stefanzweifel/git-auto-commit-action@v4.6.0
       with:
         # Required
