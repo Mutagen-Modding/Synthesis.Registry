@@ -3,6 +3,7 @@ using Autofac;
 using Noggog.Autofac;
 using Noggog.Autofac.Modules;
 using Noggog.GitRepository;
+using Noggog.WorkEngine;
 using Synthesis.Registry.MutagenScraper.Args;
 using Synthesis.Registry.MutagenScraper.Listings.Specialized;
 
@@ -15,6 +16,7 @@ public class MainModule : Module
         builder.RegisterInstance(new FileSystem())
             .AsImplementedInterfaces();
         builder.RegisterModule<NoggogModule>();
+        builder.RegisterType<NumWorkThreadsUnopinionated>().AsImplementedInterfaces();
         builder.RegisterAssemblyTypes(
                 typeof(Program).Assembly,
                 typeof(IGitRepositoryFactory).Assembly)
