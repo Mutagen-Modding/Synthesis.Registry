@@ -6788,7 +6788,7 @@
             "Nickname": "Static Patcher",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "Makes items static",
-            "LongDescription": "Configurable patcher to make specific categories of items in specific locations static so they no longer go flying around.",
+            "LongDescription": "Configurable patcher to make specific categories of items in specific locations static so they no longer go flying around. Requires Disable \u0027Havok Script Tweak Resource\u0027 by AndrealphusVIII.",
             "PreferredAutoVersioning": "LatestTag",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -6805,8 +6805,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
       "User": "studioph",
       "Repository": "StaticPatcher",
-      "Sha": "ab3465fdbff83128451a6ada22d781638207289a",
-      "LastUpdatedRunNumber": 48385
+      "Sha": "63768abf80e28c3a0c24a3901c113c9797e1e5ce",
+      "LastUpdatedRunNumber": 48386
     },
     {
       "Patchers": [
