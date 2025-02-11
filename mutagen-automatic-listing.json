@@ -6784,6 +6784,33 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "Static Patcher",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "Makes items static",
+            "LongDescription": "Configurable patcher to make specific categories of items in specific locations static so they no longer go flying around.",
+            "PreferredAutoVersioning": "LatestTag",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "StaticPatcher/StaticPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
+      "User": "studioph",
+      "Repository": "StaticPatcher",
+      "Sha": "ab3465fdbff83128451a6ada22d781638207289a",
+      "LastUpdatedRunNumber": 48385
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "StringCompareSettingsLib/StringCompareSettingsLib.csproj",
           "IncludedLibraries": []
         }
