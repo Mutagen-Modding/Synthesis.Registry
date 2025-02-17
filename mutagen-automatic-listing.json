@@ -6785,6 +6785,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "hierocles/StarfieldConstructiblesDeleveled",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Starfield"
+            ]
+          },
+          "ProjectPath": "StarfieldConstructiblesDeleveled/StarfieldConstructiblesDeleveled.csproj",
+          "IncludedLibraries": [
+            "Starfield"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/4733259?s=40\u0026amp;v=4",
+      "User": "hierocles",
+      "Repository": "StarfieldConstructiblesDeleveled",
+      "Sha": "d557192db96e16e326bbf5bc252ab419252860a0",
+      "LastUpdatedRunNumber": 48543
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Static Patcher",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "Makes items static",
