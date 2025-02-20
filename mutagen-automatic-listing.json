@@ -6787,21 +6787,12 @@
           "Customization": {
             "Nickname": "StarfieldConstructiblesDelevel",
             "Visibility": "Visible",
-            "OneLineDescription": "",
+            "OneLineDescription": "Delevels all constructible objects",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
-              "Oblivion",
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "Fallout4",
-              "EnderalLE",
-              "EnderalSE",
-              "SkyrimSEGog",
-              "Starfield",
-              "Fallout4VR"
+              "Starfield"
             ]
           },
           "ProjectPath": "StarfieldConstructiblesDelevel/StarfieldConstructiblesDelevel.csproj",
@@ -6813,8 +6804,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/4733259?s=40\u0026amp;v=4",
       "User": "hierocles",
       "Repository": "StarfieldConstructiblesDelevel",
-      "Sha": "a40517b32b00359c73431cce76518196a0b553fe",
-      "LastUpdatedRunNumber": 48590
+      "Sha": "28dc0241992495d6a5a1bc2924386bfe2d0a2b41",
+      "LastUpdatedRunNumber": 48591
     },
     {
       "Patchers": [
