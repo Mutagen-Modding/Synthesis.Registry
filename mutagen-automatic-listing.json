@@ -6785,17 +6785,26 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "hierocles/StarfieldConstructiblesDeleveled",
+            "Nickname": "StarfieldConstructiblesDelevel",
             "Visibility": "Visible",
             "OneLineDescription": "",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
-              "Starfield"
+              "Oblivion",
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "Fallout4",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog",
+              "Starfield",
+              "Fallout4VR"
             ]
           },
-          "ProjectPath": "StarfieldConstructiblesDeleveled/StarfieldConstructiblesDeleveled.csproj",
+          "ProjectPath": "StarfieldConstructiblesDelevel/StarfieldConstructiblesDelevel.csproj",
           "IncludedLibraries": [
             "Starfield"
           ]
@@ -6803,9 +6812,9 @@
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/4733259?s=40\u0026amp;v=4",
       "User": "hierocles",
-      "Repository": "StarfieldConstructiblesDeleveled",
-      "Sha": "e47a427df21b1172ddfda0b8990c31a96662bf52",
-      "LastUpdatedRunNumber": 48545
+      "Repository": "StarfieldConstructiblesDelevel",
+      "Sha": "a40517b32b00359c73431cce76518196a0b553fe",
+      "LastUpdatedRunNumber": 48590
     },
     {
       "Patchers": [
