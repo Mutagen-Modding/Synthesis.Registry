@@ -6810,6 +6810,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "StarfieldDelevelled/StarfieldDelevelled.csproj",
+          "IncludedLibraries": [
+            "Starfield"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/4733259?s=40\u0026amp;v=4",
+      "User": "hierocles",
+      "Repository": "StarfieldDelevelled",
+      "Sha": "249ea90ec329b17be3c752de71e796dec559642a",
+      "LastUpdatedRunNumber": 48680
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "Static Patcher",
             "Visibility": "IncludeButHide",
