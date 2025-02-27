@@ -6507,6 +6507,34 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SpellAbsorptionReworkSynth",
+            "Visibility": "Visible",
+            "OneLineDescription": "Optional Compatibility Patcher for Spell Absorption Rework",
+            "LongDescription": "Optional Compatibility Patcher for Spell Absorption Rework.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SpellAbsorptionReworkSynth/SpellAbsorptionReworkSynth.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026amp;v=4",
+      "User": "tomnGithub",
+      "Repository": "SpellAbsorptionReworkSynth",
+      "Sha": "6aad9ab33925c3570ce78f2e77fc42155c8c3eaf",
+      "LastUpdatedRunNumber": 48751
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SpellBindPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Creates Spell Bind scroll crafting recipes for all spells in the game learnable from spell tomes",
