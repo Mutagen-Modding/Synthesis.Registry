@@ -4935,6 +4935,19 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "PapyrusPatch.csproj",
+          "IncludedLibraries": []
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1953942?s=40\u0026amp;v=4",
+      "User": "Minizbot2012",
+      "Repository": "PapyrusPatcher",
+      "Sha": "08e474b1612adc4f624480b080abe7a54d94ccbf",
+      "LastUpdatedRunNumber": 48788
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "LandscapePatcher",
             "Visibility": "Visible",
