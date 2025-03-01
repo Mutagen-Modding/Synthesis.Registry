@@ -7830,6 +7830,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynHVLFramework",
+            "Visibility": "Visible",
+            "OneLineDescription": "Race generator for HVL Framework SKSE",
+            "LongDescription": "Generates race generator for HVL Framework SKSE",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "SynPatcher/SynPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynHVLFramework",
+      "Sha": "1d1215093cc5efd3f5ef200858b7ec7627c0cf3f",
+      "LastUpdatedRunNumber": 48815
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynInvisibleHelmets",
             "Visibility": "Visible",
             "OneLineDescription": "Patcher to make all helmets modded and vanilla invisible",
