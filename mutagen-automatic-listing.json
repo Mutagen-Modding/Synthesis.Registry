@@ -4936,14 +4936,16 @@
       "Patchers": [
         {
           "ProjectPath": "PapyrusPatch.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Oblivion"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1953942?s=40\u0026amp;v=4",
       "User": "Minizbot2012",
       "Repository": "PapyrusPatcher",
-      "Sha": "244eef6aaeff23d089430a093f762f8f20aa353c",
-      "LastUpdatedRunNumber": 48797
+      "Sha": "bf2fe559412b9270862f8e58ca85e7df36fc1c57",
+      "LastUpdatedRunNumber": 48804
     },
     {
       "Patchers": [
