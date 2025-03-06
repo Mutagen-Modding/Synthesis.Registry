@@ -2749,8 +2749,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
       "User": "tkoopman",
       "Repository": "Generic-Synthesis-Patcher",
-      "Sha": "4990a46bc39cae9ca502f84f7263f8c1ec8096ee",
-      "LastUpdatedRunNumber": 48634
+      "Sha": "90a266312ff180988d50d228f45575f41495a677",
+      "LastUpdatedRunNumber": 48931
     },
     {
       "Patchers": [
@@ -8858,49 +8858,6 @@
       "Repository": "TUDMFootstepPatcher",
       "Sha": "b50628b6fe4db5ec120c539d220958a7eb39b360",
       "LastUpdatedRunNumber": 31432
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "UBE Armor Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Synthesis armor patcher for UBE 2.0",
-            "LongDescription": "Synthesis armor patcher for UBE 2.0",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "UBE_patcher/SynUbePatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        },
-        {
-          "Customization": {
-            "Nickname": "UBE_patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimLE"
-            ]
-          },
-          "ProjectPath": "UBEPatcherGUI/UBEPatcherGUI.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/136998586?s=40\u0026amp;v=4",
-      "User": "lowresharer",
-      "Repository": "ube-patcher",
-      "Sha": "fca029725076828c8c6ed73c0d025e536179dcc2",
-      "LastUpdatedRunNumber": 38638
     },
     {
       "Patchers": [
