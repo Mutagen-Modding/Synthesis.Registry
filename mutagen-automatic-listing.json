@@ -5569,6 +5569,15 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "RequiemAutoMagicPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Automatic patcher for balancing magic in Requiem",
+            "LongDescription": "This Synthesis patcher balances all selected magic mods in Requiem using aggregated statistical values from existing Requiem magic patches.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
           "ProjectPath": "RequiemAutoMagicPatcher/RequiemAutoMagicPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -5578,8 +5587,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/73838028?s=40\u0026amp;v=4",
       "User": "Exouth",
       "Repository": "RequiemAutoMagicPatcher",
-      "Sha": "c6d4a75b0d6ca8546136f35b13ba031c898a3e7f",
-      "LastUpdatedRunNumber": 48973
+      "Sha": "1b21d0395f8252032971b9cef86ae456e24f1f9a",
+      "LastUpdatedRunNumber": 48974
     },
     {
       "Patchers": [
