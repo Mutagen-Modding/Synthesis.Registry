@@ -5569,6 +5569,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "RequiemAutoMagicPatcher/RequiemAutoMagicPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/73838028?s=40\u0026amp;v=4",
+      "User": "Exouth",
+      "Repository": "RequiemAutoMagicPatcher",
+      "Sha": "c6d4a75b0d6ca8546136f35b13ba031c898a3e7f",
+      "LastUpdatedRunNumber": 48973
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "Requiem Auto NPC Patcher",
             "Visibility": "Visible",
