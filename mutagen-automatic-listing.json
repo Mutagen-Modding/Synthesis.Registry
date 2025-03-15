@@ -2755,6 +2755,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "Common/Common.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
+      "User": "tkoopman",
+      "Repository": "GoriSynthCommon",
+      "Sha": "f905a5cec8f5545e4e7abdb021c2609b719a66fe",
+      "LastUpdatedRunNumber": 49125
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "Grass FPS",
             "Visibility": "Visible",
@@ -8330,6 +8345,37 @@
       "Repository": "Synth-NPCsFaceDataFO4",
       "Sha": "420435e6dc5eba2a4f499ee4fab5034b809a3fdc",
       "LastUpdatedRunNumber": 40004
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynthCALIO",
+            "Visibility": "Visible",
+            "OneLineDescription": "Create and Allocate, Leveled Items and Outfits",
+            "LongDescription": "You can create leveled item lists and outfits, that then can be allocated either via SPID or updating DefaultOutFit or SleepingOutfit on NPC records. Will maintain FormIDs during patcher runs, and automatically ignore creating and allocating lists that try to point to unloaded mods. All configuration is via JSON files.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SynthCALIO/SynthCALIO.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
+      "User": "tkoopman",
+      "Repository": "SynthCALIO",
+      "Sha": "3f1ff8a6d3247391a8ac22a285466f68f14bb8dc",
+      "LastUpdatedRunNumber": 49125
     },
     {
       "Patchers": [
