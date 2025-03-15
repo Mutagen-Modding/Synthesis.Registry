@@ -2744,13 +2744,41 @@
           "IncludedLibraries": [
             "Skyrim"
           ]
+        },
+        {
+          "ProjectPath": "GSPShared/GSPShared.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "Customization": {
+            "Nickname": "SynthCALIO",
+            "Visibility": "Visible",
+            "OneLineDescription": "Create and Allocate, Leveled Items and Outfits",
+            "LongDescription": "You can create leveled item lists and outfits, that then can be allocated either via SPID or updating DefaultOutFit or SleepingOutfit on NPC records. Will maintain FormIDs during patcher runs, and automatically ignore creating and allocating lists that try to point to unloaded mods. All configuration is via JSON files.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SynthCALIO/SynthCALIO.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
       "User": "tkoopman",
       "Repository": "Generic-Synthesis-Patcher",
-      "Sha": "91aa639c682ccc45943551d1d8aa322768229ed0",
-      "LastUpdatedRunNumber": 48988
+      "Sha": "bb260c1072165aaf5056656e9bb2753f3d831ac6",
+      "LastUpdatedRunNumber": 49122
     },
     {
       "Patchers": [
