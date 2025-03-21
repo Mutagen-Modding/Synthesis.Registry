@@ -2749,8 +2749,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
       "User": "tkoopman",
       "Repository": "Generic-Synthesis-Patcher",
-      "Sha": "f5fe2d9279ce472a9fa52604465d0e900fa96f6f",
-      "LastUpdatedRunNumber": 49256
+      "Sha": "06b6580f43cdec47be84c826ba6ef523e426a58f",
+      "LastUpdatedRunNumber": 49281
     },
     {
       "Patchers": [
@@ -2764,8 +2764,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
       "User": "tkoopman",
       "Repository": "GoriSynthCommon",
-      "Sha": "add68234aaa48efa8e94e0ae071ac6a33fbae6dd",
-      "LastUpdatedRunNumber": 49278
+      "Sha": "d3db152ce504caf69bc231cee2fd364dd3d92d60",
+      "LastUpdatedRunNumber": 49281
     },
     {
       "Patchers": [
