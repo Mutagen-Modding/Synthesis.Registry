@@ -5843,94 +5843,12 @@
       "LastUpdatedRunNumber": 34969
     },
     {
-      "Patchers": [
-        {
-          "ProjectPath": "Mutagen.Bethesda.Synthesis/Mutagen.Bethesda.Synthesis.csproj",
-          "IncludedLibraries": [
-            "Skyrim",
-            "Fallout4",
-            "Oblivion"
-          ]
-        },
-        {
-          "ProjectPath": "Mutagen.Bethesda.Synthesis.WPF/Mutagen.Bethesda.Synthesis.WPF.csproj",
-          "IncludedLibraries": [
-            "Skyrim",
-            "Fallout4",
-            "Oblivion"
-          ]
-        },
-        {
-          "Customization": {
-            "Nickname": "generaleagleyt/SkyFem-Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "SkyFemPatcher/SkyFemPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        },
-        {
-          "ProjectPath": "Synthesis.Bethesda.CLI/Synthesis.Bethesda.CLI.csproj",
-          "IncludedLibraries": [
-            "Skyrim",
-            "Fallout4",
-            "Oblivion"
-          ]
-        },
-        {
-          "ProjectPath": "Synthesis.Bethesda/Synthesis.Bethesda.csproj",
-          "IncludedLibraries": [
-            "Skyrim",
-            "Fallout4",
-            "Oblivion"
-          ]
-        },
-        {
-          "ProjectPath": "Synthesis.Bethesda.Execution/Synthesis.Bethesda.Execution.csproj",
-          "IncludedLibraries": [
-            "Skyrim",
-            "Fallout4",
-            "Oblivion"
-          ]
-        },
-        {
-          "ProjectPath": "Synthesis.Bethesda.GUI/Synthesis.Bethesda.GUI.csproj",
-          "IncludedLibraries": [
-            "Skyrim",
-            "Fallout4",
-            "Oblivion"
-          ]
-        },
-        {
-          "ProjectPath": "Synthesis.Bethesda.ImpactTester/Synthesis.Bethesda.ImpactTester.csproj",
-          "IncludedLibraries": [
-            "Skyrim",
-            "Fallout4",
-            "Oblivion"
-          ]
-        },
-        {
-          "ProjectPath": "Synthesis.Bethesda.UnitTests/Synthesis.Bethesda.UnitTests.csproj",
-          "IncludedLibraries": [
-            "Skyrim",
-            "Fallout4",
-            "Oblivion"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/174206826?s=40\u0026amp;v=4",
       "User": "generaleagleyt",
-      "Repository": "SkyFem-Patcher",
-      "Sha": "a5ed957aa189f29338a0cb9551a068f922568cea",
-      "LastUpdatedRunNumber": 49582
+      "Repository": "SkyFemPatcher",
+      "Sha": "de651dc19dc7d5d85fa533458098e735f0ec4114",
+      "LastUpdatedRunNumber": 49591
     },
     {
       "Patchers": [
