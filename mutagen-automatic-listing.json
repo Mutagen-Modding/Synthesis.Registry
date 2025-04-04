@@ -2759,13 +2759,19 @@
           "IncludedLibraries": [
             "Skyrim"
           ]
+        },
+        {
+          "ProjectPath": "CommonTests/CommonTests.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
       "User": "tkoopman",
       "Repository": "GoriSynthCommon",
-      "Sha": "d3db152ce504caf69bc231cee2fd364dd3d92d60",
-      "LastUpdatedRunNumber": 49281
+      "Sha": "8bbdc119e605be9c0c79640221d4fb6afb5181d5",
+      "LastUpdatedRunNumber": 49603
     },
     {
       "Patchers": [
