@@ -5439,6 +5439,30 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "RecipeIngredientRemover",
+            "Visibility": "Visible",
+            "OneLineDescription": "Removes alchemy ingredients from food recipes",
+            "LongDescription": "Some food recipes require alchemy ingredients, for example a common recipe is (raw meat) \u002B Salt Pile =\u003E (cooked meat).\r\n\r\nI like my food items for cooking and my alchemy ingredients for alchemy. This patcher removes all alchemy ingredients from cooking recipes. The above recipe would simply become (raw meat) =\u003E (cooked meat) with no Salt Pile required.\r\n\r\nThis likely imbalances the intention of the cooking recipes, use at your own discretion. In case a cooking recipe is entirely made of alchemy ingredients, no change is made.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "RecipeIngredientRemover/RecipeIngredientRemover.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1844961?s=40\u0026amp;v=4",
+      "User": "gnguyen",
+      "Repository": "RecipeIngredientRemover",
+      "Sha": "0f4225adab5543799ce81e020e51c22823e2aca6",
+      "LastUpdatedRunNumber": 49621
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "ReferenceDisabler/ReferenceDisabler.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -5853,8 +5877,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/174206826?s=40\u0026amp;v=4",
       "User": "generaleagleyt",
       "Repository": "SkyFemPatcher",
-      "Sha": "4b32a2c9d2837852e3cd226ac215d7e6a0beed99",
-      "LastUpdatedRunNumber": 49597
+      "Sha": "29c8a93b299cb1f871595878f9336cdefb07e854",
+      "LastUpdatedRunNumber": 49621
     },
     {
       "Patchers": [
