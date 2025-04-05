@@ -8407,13 +8407,19 @@
           "IncludedLibraries": [
             "Skyrim"
           ]
+        },
+        {
+          "ProjectPath": "Test Modules/Test Modules.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
       "User": "tkoopman",
       "Repository": "SynthCALIO",
-      "Sha": "195fe8990fe32c1b4070553116c17e058b641eb4",
-      "LastUpdatedRunNumber": 49282
+      "Sha": "67aa4a9d6a3cecae680d0d6b58d4baeaee0417ed",
+      "LastUpdatedRunNumber": 49626
     },
     {
       "Patchers": [],
