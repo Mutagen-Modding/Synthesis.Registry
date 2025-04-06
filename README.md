@@ -1,6 +1,6 @@
 ![Release](https://github.com/Noggog/Synthesis.Registry/workflows/Release/badge.svg) ![Scrape](https://github.com/Noggog/Synthesis.Registry/workflows/Scrape/badge.svg)
 
-A repository containing a listing of the known [Synthesis](https://github.com/Noggog/Synthesis) patcher repositories, as well as the scraper program to populate it.
+A repository containing a listing of the known [Synthesis]([https://github.com/Noggog/Synthesis](https://github.com/Mutagen-Modding/Synthesis)) patcher repositories, as well as the scraper program to populate it.
 
 # How it Populates
 The registry is populated by leveraging GitHub's built in dependency detection systems.  You can see the list yourself [here](https://github.com/Mutagen-Modding/Synthesis/network/dependents?package_id=UGFja2FnZS0xMzg1MjY1MjYz).
