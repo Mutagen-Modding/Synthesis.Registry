@@ -341,6 +341,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Animated Armoury Rebalancer",
+            "Visibility": "Visible",
+            "OneLineDescription": "Rebalances weapons from Animated Armoury based on material and type",
+            "LongDescription": "This patcher rebalances weapons from Animated Armoury by adjusting their stats (damage, speed, reach, stagger, critical) based on material and type.\nIt can apply WACCF material tier changes if enabled, and handles special cases for bound weapons and Dragon Priest Claws.\nThe patcher creates a patch with the rebalanced weapons that can be loaded in the game.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "AnimatedArmouryRebalancer.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026amp;v=4",
+      "User": "dreadflopp",
+      "Repository": "AnimatedArmouryRebalancer",
+      "Sha": "17b24f99840bb17ee66d8cd68a9fe0a4bf8ace31",
+      "LastUpdatedRunNumber": 49643
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Another Archery Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Customizable Archery Physics for any load order. No mods required.",
