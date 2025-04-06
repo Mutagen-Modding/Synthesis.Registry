@@ -344,7 +344,7 @@
             "Nickname": "Animated Armoury Rebalancer",
             "Visibility": "Visible",
             "OneLineDescription": "Rebalances weapons from Animated Armoury based on material and type",
-            "LongDescription": "This patcher rebalances weapons from Animated Armoury by adjusting their stats (damage, speed, reach, stagger, critical) based on material and type.\nIt can apply WACCF material tier changes if enabled, and handles special cases for bound weapons and Dragon Priest Claws.\nThe patcher creates a patch with the rebalanced weapons that can be loaded in the game.",
+            "LongDescription": "This patcher rebalances weapons from Animated Armoury by adjusting their stats (damage, speed, reach, stagger, critical) based on material and type.\nIt can apply WACCF material tier changes if enabled. The rebalance makes the mod more in balance with vanilla or other mods that are balance, like Heavy Armory.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": []
@@ -358,8 +358,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026amp;v=4",
       "User": "dreadflopp",
       "Repository": "AnimatedArmouryRebalancer",
-      "Sha": "17b24f99840bb17ee66d8cd68a9fe0a4bf8ace31",
-      "LastUpdatedRunNumber": 49643
+      "Sha": "8af47e456c4cfd78629d42c5ccb0425be5767cea",
+      "LastUpdatedRunNumber": 49647
     },
     {
       "Patchers": [
@@ -5593,6 +5593,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "RenameHeavyArmoryWeapons",
+            "Visibility": "Visible",
+            "OneLineDescription": "Renames Heavy Armory weapons and updates vanilla perk descriptions to better reflect new weapon types",
+            "LongDescription": "A patcher for Heavy Armory that helps distinguish its weapons from other mods like Animated Armoury and Skyrim Spear Mechanic.\n\n1. Renames Heavy Armory weapons:\n- \u0027Spear\u0027 to \u0027Half pike\u0027\n- \u0027Halberd\u0027 to \u0027Poleaxe\u0027\n\nThis renaming helps avoid confusion when using multiple weapon mods together.\n\n2. Updates vanilla perk descriptions to include references to:\n- Polearms alongside greatswords\n- Spears and claws with one-handed weapons\n- Claws with daggers\n\nBoth features can be toggled independently in settings.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "PrvtI_HeavyArmory.esp"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "RenameHeavyArmoryWeapons.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026amp;v=4",
+      "User": "dreadflopp",
+      "Repository": "RenameHeavyArmoryWeapons",
+      "Sha": "b654277c516d04485916991d435dfbda05101266",
+      "LastUpdatedRunNumber": 49647
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Requiem-Experience",
             "Visibility": "Visible",
             "OneLineDescription": "Patcher for Experience mod, most suitable for Requiem",
@@ -9516,8 +9542,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/180131362?s=40\u0026amp;v=4",
       "User": "Yahim0",
       "Repository": "Yahis-Weapon-Overhaul",
-      "Sha": "1e68ad9a85b82b30ef609ad9c46a505ccc9d1f4c",
-      "LastUpdatedRunNumber": 47672
+      "Sha": "e98b81d6d97f27f4396ff2dbd7ae1c9d160c9038",
+      "LastUpdatedRunNumber": 49647
     },
     {
       "Patchers": [
