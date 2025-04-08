@@ -3528,8 +3528,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/137844469?s=40\u0026amp;v=4",
       "User": "vampiremecha",
       "Repository": "Improved-Enhanced-Camera-First-Person-Mesh-Fix",
-      "Sha": "2483de9b389e8721b53041e4130490ba75fc179c",
-      "LastUpdatedRunNumber": 34348
+      "Sha": "9c0d79c726d149c7df7d9a19bb4d528fc0804949",
+      "LastUpdatedRunNumber": 49686
     },
     {
       "Patchers": [
@@ -5957,14 +5957,6 @@
       "LastUpdatedRunNumber": 34969
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/174206826?s=40\u0026amp;v=4",
-      "User": "generaleagleyt",
-      "Repository": "SkyFemPatcher",
-      "Sha": "bc88d6bf31a654f69d36daf98e72bb63853dcb4a",
-      "LastUpdatedRunNumber": 49684
-    },
-    {
       "Patchers": [
         {
           "Customization": {
@@ -5989,6 +5981,14 @@
       "Repository": "SkyFurry_Visual_Patcher",
       "Sha": "018f8153ded511bc604317473f2267ef80cd4b98",
       "LastUpdatedRunNumber": 31434
+    },
+    {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/174206826?s=40\u0026amp;v=4",
+      "User": "generaleagleyt",
+      "Repository": "SkyLady",
+      "Sha": "4e37ef7e7a0a27b065ba8f575f257d764be5c53e",
+      "LastUpdatedRunNumber": 49686
     },
     {
       "Patchers": [
