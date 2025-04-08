@@ -5621,8 +5621,8 @@
           "Customization": {
             "Nickname": "RenameHeavyArmoryWeapons",
             "Visibility": "Visible",
-            "OneLineDescription": "Renames Heavy Armory weapons and updates vanilla perk descriptions to better reflect new weapon types",
-            "LongDescription": "A patcher for Heavy Armory that helps distinguish its weapons from other mods like Animated Armoury and Skyrim Spear Mechanic.\n\n1. Renames Heavy Armory weapons:\n- \u0027Spear\u0027 to \u0027Half pike\u0027\n- \u0027Halberd\u0027 to \u0027Poleaxe\u0027\n\nThis renaming helps avoid confusion when using multiple weapon mods together.\n\n2. Updates vanilla perk descriptions to include references to:\n- Polearms alongside greatswords\n- Spears and claws with one-handed weapons\n- Claws with daggers\n\nBoth features can be toggled independently in settings.",
+            "OneLineDescription": "Renames weapons from Heavy Armory and other mods, and updates vanilla perk descriptions",
+            "LongDescription": "A patcher that helps distinguish weapons from different mods.\n\n1. Renames weapons from specified plugins:\n- \u0027Spear\u0027 to \u0027Half pike\u0027\n- \u0027Halberd\u0027 to \u0027Poleaxe\u0027\n- \u0027Quarterstaff\u0027 to \u0027Shortstaff\u0027\n- \u0027Blades Katana\u0027 to \u0027Blades Sword\u0027\n- \u0027Blades Dai-Katana\u0027 to \u0027Blades Greatsword\u0027\n- \u0027Blades Wakizashi\u0027 to \u0027Blades Shortsword\u0027\n\nBy default targets PrvtI_HeavyArmory.esp, but additional plugins can be specified in settings using full plugin names (separated by semicolons).\n\n2. Updates descriptions of vanilla perks and their overrides (including changes from skill/perk overhaul mods) to include references to:\n- Polearms alongside greatswords\n- Spears and claws with one-handed weapons\n- Claws with daggers\n\nNote: Perk description updates always process all vanilla perks and their overrides regardless of which plugins are selected for weapon renaming.\n\nAll features can be toggled independently in settings.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "PrvtI_HeavyArmory.esp"
@@ -5638,8 +5638,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026amp;v=4",
       "User": "dreadflopp",
       "Repository": "RenameHeavyArmoryWeapons",
-      "Sha": "b654277c516d04485916991d435dfbda05101266",
-      "LastUpdatedRunNumber": 49647
+      "Sha": "341c7cab519fbf5c4d94ccf9769f6646246a7687",
+      "LastUpdatedRunNumber": 49691
     },
     {
       "Patchers": [
@@ -5987,8 +5987,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/174206826?s=40\u0026amp;v=4",
       "User": "generaleagleyt",
       "Repository": "SkyLady",
-      "Sha": "3189bbb747a9bf0c732adb8dd67b9c0a8d5f828d",
-      "LastUpdatedRunNumber": 49689
+      "Sha": "c742fcadcb329d1ee75c1bc12689700872bbf695",
+      "LastUpdatedRunNumber": 49691
     },
     {
       "Patchers": [
