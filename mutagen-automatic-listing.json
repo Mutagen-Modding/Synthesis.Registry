@@ -4722,6 +4722,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "NPC Plugin Chooser 2.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
+      "User": "Piranha91",
+      "Repository": "NPC-Plugin-Chooser-2",
+      "Sha": "82466bf37096f2aa87e6cfe855aea2b9c4382944",
+      "LastUpdatedRunNumber": 49704
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "NPC Transmogrifier",
             "Visibility": "Visible",
