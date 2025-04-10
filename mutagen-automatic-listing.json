@@ -1425,12 +1425,32 @@
       "LastUpdatedRunNumber": 31429
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "DIAL-Patcher",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "Patcher for Dynamic Interior Ambient Lighting (DIAL).",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "DIAL.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "Patcher/Patcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/206784390?s=40\u0026amp;v=4",
       "User": "kundrun",
       "Repository": "DIAL-Patcher",
-      "Sha": "99e50d2bbe0bc685a181863c39bf72b3d751b004",
-      "LastUpdatedRunNumber": 49697
+      "Sha": "81b36642e9270ea7875d3b4bf1997a9137a1088f",
+      "LastUpdatedRunNumber": 49720
     },
     {
       "Patchers": [],
@@ -6002,8 +6022,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/174206826?s=40\u0026amp;v=4",
       "User": "generaleagleyt",
       "Repository": "SkyLady",
-      "Sha": "3edec354fd7e0cb164aef15facc0a044df42f2e2",
-      "LastUpdatedRunNumber": 49719
+      "Sha": "bedceccd5524cd68e281a845b8b30d756d899607",
+      "LastUpdatedRunNumber": 49720
     },
     {
       "Patchers": [
