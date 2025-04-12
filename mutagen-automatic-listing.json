@@ -4751,8 +4751,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "e14de0349c00828f4b7ce8fbd2c7cf33434c04d4",
-      "LastUpdatedRunNumber": 49723
+      "Sha": "c121db3905851736a164f70500d06dae92877216",
+      "LastUpdatedRunNumber": 49773
     },
     {
       "Patchers": [
@@ -6016,14 +6016,6 @@
       "Repository": "SkyFurry_Visual_Patcher",
       "Sha": "018f8153ded511bc604317473f2267ef80cd4b98",
       "LastUpdatedRunNumber": 31434
-    },
-    {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/174206826?s=40\u0026amp;v=4",
-      "User": "generaleagleyt",
-      "Repository": "SkyLady",
-      "Sha": "bedceccd5524cd68e281a845b8b30d756d899607",
-      "LastUpdatedRunNumber": 49720
     },
     {
       "Patchers": [
