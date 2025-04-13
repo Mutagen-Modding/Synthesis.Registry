@@ -9338,6 +9338,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "usmphairpatcher/usmphairpatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
+      "User": "JanuarySnow",
+      "Repository": "USMPHairColorPatcher",
+      "Sha": "845fc45fe853dbe20bc6e74a9bc903746048dd0c",
+      "LastUpdatedRunNumber": 49799
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "VenndorPriestNPCPatcher",
             "Visibility": "Visible",
