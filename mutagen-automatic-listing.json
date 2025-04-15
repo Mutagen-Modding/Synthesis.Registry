@@ -942,13 +942,15 @@
         {
           "ProjectPath": "CardmastersOfTamriel.Models/CardmastersOfTamriel.Models.csproj",
           "IncludedLibraries": [
-            "Skyrim"
+            "Skyrim",
+            "Starfield"
           ]
         },
         {
           "ProjectPath": "CardmastersOfTamriel.SynthesisPatcher.Common/CardmastersOfTamriel.SynthesisPatcher.Common.csproj",
           "IncludedLibraries": [
-            "Skyrim"
+            "Skyrim",
+            "Starfield"
           ]
         },
         {
@@ -982,15 +984,33 @@
           },
           "ProjectPath": "CardmastersOfTamriel.Utilities/CardmastersOfTamriel.Utilities.csproj",
           "IncludedLibraries": [
-            "Skyrim"
+            "Skyrim",
+            "Starfield"
+          ]
+        },
+        {
+          "Customization": {
+            "Nickname": "mc20/CardmastersOfTamriel",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Starfield"
+            ]
+          },
+          "ProjectPath": "CardmastersOfTheStars.SynthesisPatcher/CardmastersOfTheStars.SynthesisPatcher.csproj",
+          "IncludedLibraries": [
+            "Starfield"
           ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/2105853?s=40\u0026amp;v=4",
       "User": "mc20",
       "Repository": "CardmastersOfTamriel",
-      "Sha": "02d94ca4cccd8aac26ea184993dcc5b059425eb3",
-      "LastUpdatedRunNumber": 46799
+      "Sha": "2d0efc3ebba19b7e1529d9806eeb3fd42dc200dc",
+      "LastUpdatedRunNumber": 49838
     },
     {
       "Patchers": [
