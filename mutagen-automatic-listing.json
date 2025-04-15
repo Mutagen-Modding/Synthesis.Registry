@@ -338,28 +338,12 @@
       "LastUpdatedRunNumber": 31431
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Animated Armoury Rebalancer",
-            "Visibility": "Visible",
-            "OneLineDescription": "Rebalances weapons from Animated Armoury based on material and type",
-            "LongDescription": "This patcher rebalances weapons from Animated Armoury by adjusting their stats (damage, speed, reach, stagger, critical) based on material and type.\nIt can apply WACCF material tier changes if enabled. The rebalance makes the mod more in balance with vanilla or other mods that are balance, like Heavy Armory.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "AnimatedArmouryRebalancer.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026amp;v=4",
       "User": "dreadflopp",
       "Repository": "AnimatedArmouryRebalancer",
-      "Sha": "8af47e456c4cfd78629d42c5ccb0425be5767cea",
-      "LastUpdatedRunNumber": 49647
+      "Sha": "13092a1a33d3ff29995b53b8caefdf9eb9b7bc7b",
+      "LastUpdatedRunNumber": 49852
     },
     {
       "Patchers": [
