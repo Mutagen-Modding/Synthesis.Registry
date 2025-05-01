@@ -5447,6 +5447,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "randomizer/randomizer.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
+      "User": "JanuarySnow",
+      "Repository": "randomizer",
+      "Sha": "d9ca3c6ec5f85901f4659cdc863254a9d019adc0",
+      "LastUpdatedRunNumber": 50216
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "SanguinaireCompat/Sanguinaire Race Compatibility.csproj",
           "IncludedLibraries": [
             "Skyrim"
