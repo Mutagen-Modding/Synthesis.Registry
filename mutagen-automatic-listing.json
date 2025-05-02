@@ -9619,6 +9619,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Weapon Stat Synthesis Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "A customizable patcher that analyzes and adjusts weapon stats for better balance between mods",
+            "LongDescription": "This patcher normalizes weapon stats from multiple mods. It handles damage values, material types, and special weapon properties. Everything is cutomizable. Check out the Nexus page for more details: https://www.nexusmods.com/skyrimspecialedition/mods/149027",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "WeaponStatSynthesisPatcher/WeaponStatSynthesisPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026amp;v=4",
+      "User": "dreadflopp",
+      "Repository": "WeaponStatSynthesisPatcher",
+      "Sha": "713817148849b3d614f439b578ab6daf94b23e10",
+      "LastUpdatedRunNumber": 50239
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Weightless Misc Items",
             "Visibility": "Visible",
             "OneLineDescription": "Makes \u0022useless\u0022 items weightless.",
