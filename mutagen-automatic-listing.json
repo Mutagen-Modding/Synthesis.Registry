@@ -999,6 +999,32 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "Cathedral - 3D Mountain Flowers Patch",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches Cathedral - 3D Mountain Flowers to preserve its changes",
+            "LongDescription": "Forwards base object changes from Cathedral - 3D Mountain Flowers. Position etc are preserved from overwriting mods.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Cathedral - 3D Mountain Flowers.esp"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "Cathedral_-_3DMountainFlowers_patch/Cathedral_-_3DMountainFlowers_patch.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026amp;v=4",
+      "User": "dreadflopp",
+      "Repository": "Cathedral_-_3D-Mountain-Flowers_patch",
+      "Sha": "2da4d5bf076f56e24457987fb13847730229305b",
+      "LastUpdatedRunNumber": 50308
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "BookUUNPCBPCKeywords/BookUUNPCBPCKeywords.csproj",
           "IncludedLibraries": [
             "Skyrim"
