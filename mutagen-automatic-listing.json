@@ -3518,8 +3518,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
       "User": "SteveTownsend",
       "Repository": "ImmersiveEquipmentMeshGen",
-      "Sha": "2e33c4ea0bb2510e88d794bffaaa68d3462e5d0b",
-      "LastUpdatedRunNumber": 40791
+      "Sha": "18b42bdf399ab33c33f93570956a1f6b37d7535d",
+      "LastUpdatedRunNumber": 50339
     },
     {
       "Patchers": [
@@ -9661,8 +9661,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
       "User": "SteveTownsend",
       "Repository": "WeaponSpeedEffectsFix",
-      "Sha": "ce3f71c1ec5635c278bc3f76902e1ddc12dce7a0",
-      "LastUpdatedRunNumber": 31426
+      "Sha": "bc7959502583e88e42c9bf536679b848095e8fa1",
+      "LastUpdatedRunNumber": 50339
     },
     {
       "Patchers": [
