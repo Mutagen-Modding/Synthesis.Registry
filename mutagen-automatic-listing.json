@@ -5325,7 +5325,9 @@
             "LongDescription": "Ensure Head Part Form IDs are recognized. Produce patched jslot files where they contain Plugins and FormIDs that are now in a ZMerged plugin.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
           },
           "ProjectPath": "PresetChecker/PresetChecker.csproj",
           "IncludedLibraries": [
@@ -5336,8 +5338,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
       "User": "SteveTownsend",
       "Repository": "PresetChecker",
-      "Sha": "26743cc88100eef16f2084bda375d93fdfcc15df",
-      "LastUpdatedRunNumber": 31425
+      "Sha": "52448ed359da715c6f167020ab8326917a6ac704",
+      "LastUpdatedRunNumber": 50554
     },
     {
       "Patchers": [
