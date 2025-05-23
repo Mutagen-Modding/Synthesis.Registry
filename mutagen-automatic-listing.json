@@ -8680,6 +8680,34 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Survival Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches food to use the SurvivalMode CC effects",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "ccQDRSSE001-SurvivalMode.esl"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "SurvivalPatcher/SurvivalPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1161281?s=40\u0026amp;v=4",
+      "User": "Tondorian",
+      "Repository": "Synthesis_SurvivalPatcher",
+      "Sha": "fc23295fe22c2fe7d6cfc3feea24291f7242ae53",
+      "LastUpdatedRunNumber": 50717
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Meridiano/Synthesis-BlendedShorelinesUniversal",
             "Visibility": "Visible",
             "OneLineDescription": "Change water values to better blend it with shores",
