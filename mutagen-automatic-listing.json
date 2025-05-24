@@ -523,6 +523,30 @@
       "LastUpdatedRunNumber": 34666
     },
     {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Armor Stat Synthesis Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "A customizable patcher that analyzes and adjusts armor stats for better balance between mods",
+            "LongDescription": "This patcher normalizes armor stats from multiple mods. It handles armor rates and weight values. Check out the Nexus page for more details: https://www.nexusmods.com/skyrimspecialedition/mods/149027",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "ArmorStatSynthesisPatcher/ArmorStatSynthesisPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026amp;v=4",
+      "User": "dreadflopp",
+      "Repository": "ArmorStatSynthesisPatcher",
+      "Sha": "249a0ff7bf68be29b30045f297bc9601bd722b94",
+      "LastUpdatedRunNumber": 50747
+    },
+    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
       "User": "ExpensiveLadder",
