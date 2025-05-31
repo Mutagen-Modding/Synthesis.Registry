@@ -9617,6 +9617,28 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "matm-git/WadeInWater",
+            "Visibility": "Visible",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "WadeInWater/WadeInWater.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/78607219?s=40\u0026amp;v=4",
+      "User": "matm-git",
+      "Repository": "WadeInWater",
+      "Sha": "6e944ab09218ff57244780d23b29f0ed3fa2bbe5",
+      "LastUpdatedRunNumber": 50912
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "WastedLoot/WastedLoot.csproj",
           "IncludedLibraries": [
             "Fallout4"
