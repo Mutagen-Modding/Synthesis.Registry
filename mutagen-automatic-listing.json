@@ -510,21 +510,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "ArmorKeywordPatcher/ArmorKeywordPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
-      "User": "ThirdEyeSqueegee",
-      "Repository": "ArmorKeywordPatcher",
-      "Sha": "9327debfd632fd5a2075c1b62ecd6c40fee98529",
-      "LastUpdatedRunNumber": 34666
-    },
-    {
-      "Patchers": [
-        {
           "Customization": {
             "Nickname": "Armor Stat Synthesis Patcher",
             "Visibility": "Visible",
@@ -3715,35 +3700,6 @@
     {
       "Patchers": [
         {
-          "Customization": {
-            "Nickname": "ThirdEyeSqueegee/KeywordWeaponSpeedPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "KeywordWeaponSpeedPatcher/KeywordWeaponSpeedPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
-      "User": "ThirdEyeSqueegee",
-      "Repository": "KeywordWeaponSpeedPatcher",
-      "Sha": "b194ae6f0a692275c327dc47f7b763fe8200a07c",
-      "LastUpdatedRunNumber": 42890
-    },
-    {
-      "Patchers": [
-        {
           "ProjectPath": "KhajiitEarsShow/KhajiitEarsShow.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -4809,8 +4765,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "e5c68d5953b7b7fbd75615084d4e3b345b46e5fd",
-      "LastUpdatedRunNumber": 51127
+      "Sha": "225d11f0722164beff1ee18d502b36ed7774f779",
+      "LastUpdatedRunNumber": 51145
     },
     {
       "Patchers": [
@@ -6601,35 +6557,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "ThirdEyeSqueegee/SleepingOutfitRemover",
-            "Visibility": "Visible",
-            "OneLineDescription": "Removes sleeping outfits from all winning NPC records",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "SleepingOutfitRemover/SleepingOutfitRemover.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
-      "User": "ThirdEyeSqueegee",
-      "Repository": "SleepingOutfitRemover",
-      "Sha": "cf06c317d685956e0f4a4d996dfb67f01a8bc92d",
-      "LastUpdatedRunNumber": 33374
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "SlotsSlotsSlots",
             "Visibility": "Visible",
             "OneLineDescription": "Weight -\u003E Slots, now with settings!",
@@ -6727,34 +6654,6 @@
       "Repository": "SomeSkyrimPatchers",
       "Sha": "374c5e3ad42c54a5374f8c4b958543b40d0b8add",
       "LastUpdatedRunNumber": 45607
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SorcererPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE",
-              "SkyrimVR",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "SorcererPatcher/SorcererPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/66992519?s=40\u0026amp;v=4",
-      "User": "ThirdEyeSqueegee",
-      "Repository": "SorcererPatcher",
-      "Sha": "0a8decf359e351cf450a477ee0290dad13d3ab79",
-      "LastUpdatedRunNumber": 41691
     },
     {
       "Patchers": [
