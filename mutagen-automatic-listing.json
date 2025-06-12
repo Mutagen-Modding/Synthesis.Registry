@@ -6658,6 +6658,35 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "SorcererPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis patcher for Sorcerer - A Staff and Scroll Overhaul",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SorcererPatcher/SorcererPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/62785432?s=40\u0026amp;v=4",
+      "User": "TwistedModding",
+      "Repository": "SorcererPatcher",
+      "Sha": "496fcf0f41992edd84f70d2fb1d7df734b96b9f9",
+      "LastUpdatedRunNumber": 51185
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "Halgari.SoulGemDisenchantment/Halgari.SoulGemDisenchantment.csproj",
           "IncludedLibraries": [
             "Skyrim"
