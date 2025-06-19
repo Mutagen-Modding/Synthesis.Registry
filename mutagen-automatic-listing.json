@@ -2827,16 +2827,30 @@
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
+              "Oblivion",
               "SkyrimLE",
               "SkyrimSE",
               "SkyrimVR",
+              "Fallout4",
               "EnderalLE",
               "EnderalSE",
-              "SkyrimSEGog"
+              "SkyrimSEGog",
+              "Fallout4VR"
             ]
           },
           "ProjectPath": "GenericSynthesisPatcher/GenericSynthesisPatcher.csproj",
           "IncludedLibraries": [
+            "Fallout4",
+            "Oblivion",
+            "Skyrim",
+            "Starfield"
+          ]
+        },
+        {
+          "ProjectPath": "GSPTestProject/GSPTestProject.csproj",
+          "IncludedLibraries": [
+            "Fallout4",
+            "Oblivion",
             "Skyrim"
           ]
         }
@@ -2844,8 +2858,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
       "User": "tkoopman",
       "Repository": "Generic-Synthesis-Patcher",
-      "Sha": "06b6580f43cdec47be84c826ba6ef523e426a58f",
-      "LastUpdatedRunNumber": 49281
+      "Sha": "33b404c3c44b80b034bab079d11b22951b5e9649",
+      "LastUpdatedRunNumber": 51327
     },
     {
       "Patchers": [
