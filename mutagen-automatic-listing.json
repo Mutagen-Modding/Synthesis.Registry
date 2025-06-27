@@ -6567,6 +6567,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SleepingOutfitRemover",
+            "Visibility": "Visible",
+            "OneLineDescription": "Removes Sleeping Outfits from NPCs",
+            "LongDescription": "Removes Sleeping Outfits from all winning NPC records",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "SleepingOutfitRemover/SleepingOutfitRemover.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/34386658?s=40\u0026amp;v=4",
+      "User": "ninjawaffle",
+      "Repository": "SleepingOutfitRemover",
+      "Sha": "c98010cb9a70ec3e46452a58e0ce97570e671b3a",
+      "LastUpdatedRunNumber": 51524
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SlotsSlotsSlots",
             "Visibility": "Visible",
             "OneLineDescription": "Weight -\u003E Slots, now with settings!",
