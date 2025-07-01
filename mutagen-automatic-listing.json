@@ -5047,17 +5047,28 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "PapyrusPatch.csproj",
+          "Customization": {
+            "Nickname": "SynPEXPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches papyrus scripts in mods based upon configured files",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "SynPatcher/SynPatcher.csproj",
           "IncludedLibraries": [
-            "Oblivion"
+            "Skyrim"
           ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1953942?s=40\u0026amp;v=4",
       "User": "Minizbot2012",
       "Repository": "PapyrusPatcher",
-      "Sha": "4c91fb4e731587048567e4a149e1dcc5a4c75182",
-      "LastUpdatedRunNumber": 49237
+      "Sha": "f7b2176f2ac184994986aedc1217535be21b6310",
+      "LastUpdatedRunNumber": 51604
     },
     {
       "Patchers": [
@@ -8150,8 +8161,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "SynHVLFramework",
-      "Sha": "b148049e148f1936709a212aa9456a8f148e577b",
-      "LastUpdatedRunNumber": 51453
+      "Sha": "19842a55d7371ce3b4004c801835f665b4bf2308",
+      "LastUpdatedRunNumber": 51604
     },
     {
       "Patchers": [
