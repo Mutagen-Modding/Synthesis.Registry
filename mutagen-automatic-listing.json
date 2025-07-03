@@ -532,8 +532,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026amp;v=4",
       "User": "dreadflopp",
       "Repository": "ArmorStatSynthesisPatcher",
-      "Sha": "444b57be5a3af5628763f3bce81b20be422aa7f5",
-      "LastUpdatedRunNumber": 50751
+      "Sha": "1d14a78ee05a066a789e93b76e6a92da7e4660f2",
+      "LastUpdatedRunNumber": 51667
     },
     {
       "Patchers": [],
@@ -2534,30 +2534,6 @@
       "Repository": "FOLIP",
       "Sha": "f18e4e26b823748fee2fbfd208e157be2ce241d0",
       "LastUpdatedRunNumber": 35786
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "FollowerFavorCarryLimitPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Applies Follower Favor Carry Limit from Andrealphus\u0027 Gameplay Tweaks to all potential followers.",
-            "LongDescription": "Requires the script from Gameplay Tweaks to be installed, but not the plugin.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "FollowerFavorCarryLimitPatcher/FollowerFavorCarryLimitPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
-      "User": "Piranha91",
-      "Repository": "Follower-Favor-Carry-Limit-Patcher",
-      "Sha": "acb76225cf0ff6c88e3ff708457c531b9fbe3128",
-      "LastUpdatedRunNumber": 31430
     },
     {
       "Patchers": [
