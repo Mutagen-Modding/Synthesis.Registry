@@ -471,14 +471,6 @@
       "LastUpdatedRunNumber": 31425
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/2961881?s=40\u0026amp;v=4",
-      "User": "sachinkmr",
-      "Repository": "armor-distributor",
-      "Sha": "0ac420457661eb18c19b9202976fea8632615556",
-      "LastUpdatedRunNumber": 31428
-    },
-    {
       "Patchers": [
         {
           "Customization": {
@@ -532,8 +524,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026amp;v=4",
       "User": "dreadflopp",
       "Repository": "ArmorStatSynthesisPatcher",
-      "Sha": "1d14a78ee05a066a789e93b76e6a92da7e4660f2",
-      "LastUpdatedRunNumber": 51667
+      "Sha": "a87f94bc63137fbd9331d61e13b4acbb7ff54ce6",
+      "LastUpdatedRunNumber": 51706
     },
     {
       "Patchers": [],
@@ -2764,38 +2756,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "GeneralStoresIngredientsPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Adds ingredients from recipes to General Stores list of items to automatically unburden",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "GeneralStores.esm"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "GeneralStoresIngredientsPatcher/GeneralStoresIngredientsPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        },
-        {
-          "ProjectPath": "Tests/Tests.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "GeneralStoresIngredientsPatcher",
-      "Sha": "db0656896dd26fcdf850b6f40e7e94cc35422d63",
-      "LastUpdatedRunNumber": 31430
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "Generic Synthesis Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Edit, Merge or forward changes based on filters set in rules.",
@@ -3021,32 +2981,6 @@
       "Repository": "HarmonizedRaceHeights-Patcher",
       "Sha": "f4f7ae017a4fe934b745c25942a9324af0725833",
       "LastUpdatedRunNumber": 48078
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Harvest Those Mammoth Tusks",
-            "Visibility": "Visible",
-            "OneLineDescription": "Synthesis patcher for Harvest Those Mammoth Tusks",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "Harvest Those Mammoth Skulls.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "HarvestThoseMammothSkulls/HarvestThoseMammothSkulls.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
-      "User": "theSkyseS",
-      "Repository": "HarvestThoseMammothSkulls",
-      "Sha": "0903d449fce25189e8f9f47c8de6461c9bb67449",
-      "LastUpdatedRunNumber": 31429
     },
     {
       "Patchers": [
@@ -3473,30 +3407,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "ImChPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "ImChPatcher/ImChPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
-      "User": "ExpensiveLadder",
-      "Repository": "ImCh-Patcher",
-      "Sha": "dc58891eaf23b04ee31d49f8aa376192eed61fe1",
-      "LastUpdatedRunNumber": 31430
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "ImmersiveEquipmentMeshGen",
             "Visibility": "Visible",
             "OneLineDescription": "Mesh patcher for Immersive Equipment Displays, Skyrim SE",
@@ -3915,14 +3825,6 @@
       "LastUpdatedRunNumber": 31432
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5535758?s=40\u0026amp;v=4",
-      "User": "ixanza",
-      "Repository": "listmakerTranq",
-      "Sha": "c97c84b773f8d0bc58c3c84bf6fbf62225781dcc",
-      "LastUpdatedRunNumber": 31428
-    },
-    {
       "Patchers": [
         {
           "Customization": {
@@ -3971,30 +3873,6 @@
       "Repository": "LMsSimpleSyns",
       "Sha": "471179179ce7acabbc02abca2ac97d17126bc0f0",
       "LastUpdatedRunNumber": 31433
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "LootableCrates",
-            "Visibility": "Visible",
-            "OneLineDescription": "Synthesis Patcher that changes static crates into lootable containers.",
-            "LongDescription": "Synthesis Patcher that changes static crates into lootable containers.\nCompletely standalone, no plugins required.\n",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "LootableCrates/LootableCrates.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
-      "User": "theSkyseS",
-      "Repository": "LootableCrates",
-      "Sha": "d7e39721ff0034ada8d12bd5ec7c2fdb5ef788e7",
-      "LastUpdatedRunNumber": 31428
     },
     {
       "Patchers": [
@@ -4891,30 +4769,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "NPCStatRescaler",
-            "Visibility": "Visible",
-            "OneLineDescription": "Port of NPC Stat Rescaler: https://www.nexusmods.com/skyrimspecialedition/mods/24254",
-            "LongDescription": "Port of NPC Stat Rescaler\nhttps://www.nexusmods.com/skyrimspecialedition/mods/24254",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "NPCStatRescaler/NPCStatRescaler.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
-      "User": "theSkyseS",
-      "Repository": "NPCStatRescaler",
-      "Sha": "5b83ac68d79aa76b3c27c9f8ff6d29d3b3d18b87",
-      "LastUpdatedRunNumber": 31428
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "NW_InsulationDisplayed",
             "Visibility": "Visible",
             "OneLineDescription": "",
@@ -5118,32 +4972,6 @@
       "Repository": "PatchSplitterTest",
       "Sha": "ac42c02c0bbe753e87e2683d6538a414802ac065",
       "LastUpdatedRunNumber": 35640
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "PickYourPoison",
-            "Visibility": "Visible",
-            "OneLineDescription": "Port of Pick Your Poison\u0027s zEdit module",
-            "LongDescription": "Port of Pick Your Poison\u0027s zEdit module\n",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "pick_your_poison.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "PickYourPoison/PickYourPoison.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
-      "User": "theSkyseS",
-      "Repository": "PickYourPoison",
-      "Sha": "eb6be2919a962922570d3a3cfb0ed0099b07b4fc",
-      "LastUpdatedRunNumber": 31428
     },
     {
       "Patchers": [
@@ -5482,30 +5310,6 @@
       "Repository": "RandomUtility",
       "Sha": "4320d9cd32f3a3578e0dac1cc81267d15617d489",
       "LastUpdatedRunNumber": 31427
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "ReadingIsGoodLegacy",
-            "Visibility": "Visible",
-            "OneLineDescription": "Reading is Good Legacy",
-            "LongDescription": "Patcher for legacy/oldrim version of reading is good mod.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "ReadingIsGoodLegacy/ReadingIsGoodLegacy.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
-      "User": "theSkyseS",
-      "Repository": "ReadingIsGoodLegacy",
-      "Sha": "5df5a97ea01d8ef7c3b532712cda524f8d7dc7a8",
-      "LastUpdatedRunNumber": 31429
     },
     {
       "Patchers": [
@@ -6598,14 +6402,6 @@
       "User": "Synthesis-Collective",
       "Repository": "SlotsSlotsSlots",
       "Sha": "97ce5d28b4d68fc7942949cec70638ac2146adab",
-      "LastUpdatedRunNumber": 31429
-    },
-    {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;v=4",
-      "User": "halgari",
-      "Repository": "SlotsSlotsSlots",
-      "Sha": "267b8b650785bba496a644859152b95f33de9a46",
       "LastUpdatedRunNumber": 31429
     },
     {
@@ -8250,30 +8046,6 @@
       "Repository": "SynNoEnchantmentRestrictions",
       "Sha": "686ccd76ced15ee092bb009279f1f9bbf05807c5",
       "LastUpdatedRunNumber": 37128
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "No More Easy Enemies",
-            "Visibility": "Visible",
-            "OneLineDescription": "Fixes low-level enemies spawning in high-level dungeons.",
-            "LongDescription": "# Synthesis Patcher - No More Easy Enemies\nRework NPC leveled list difficulty multipliers and settings to banish low-level enemies from your high-level dungeons.\n\n## Wait, what?\nThe way Skyrim chooses which NPC to place in a dungeon is...complicated. Long story short, it uses a combination of your level, actor multipliers, the spawn\u0027s difficulty setting, and some flags to determine which level of an NPC is standing in a particular spot. \n\nThe problem is that one of the spawn difficulties, \u0022Easy\u0022, chooses from the list in such a way that it has the (quite good) chance to spawn the lowest-level enemies. There is a flag to turn this off, which \u0022Easy\u0022 ignores completely. So any time you have an \u0022Easy\u0022 spawn in a dungeon, there\u0027s a chance for you to see a low-level enemy in that spot.\n\nThis patcher reworks the multipliers and the spawn settings to avoid this issue with the \u0022Easy\u0022 setting.  It optionally updates all Leveled NPC lists to prevent low-level enemies from being spawned.\n\n## How?\nThe easiest way to explain the HOW is with an example.\n\nBy default, Skyrim uses the following spawn difficulty (leveled actors) multipliers:\n- fLeveledActorMultEasy: 0.33\n- fLeveledActorMultMedium: 0.67\n- fLeveledActorMultHard: 1.00\n- fLeveledActorMultVeryHard: 1.25\n\nCritically, if a spawn does NOT have a difficulty set, the multiplier used is a static 1.00.  We can abuse this fact to avoid the issue with the \u0022Easy\u0022 spawn difficulty.\n\nIf you leave the \u0022Spawn Difficulty to Replace\u0022 setting at the default of Hard, NoMoreEasyEnemies will do the following:\n- Change fLeveledActorMultMedium to 0.33 (new Easy)\n- Change fLeveledActorMultHard to 0.67 (new Medium)\n- For all enemy spawns (Placed NPCs), if the old difficulty setting was \u0022Easy\u0022, change it to \u0022Medium\u0022\n- For all enemy spawns (Placed NPCs), if the old difficulty setting was \u0022Medium\u0022, change it to \u0022Hard\u0022\n- For all enemy spawns (Placed NPCs), if the old difficulty setting was \u0022Hard\u0022, delete the setting (force to multiplier of 1.00)\n- Optionally update all Leveled NPC lists to remove the \u0022Calculate From All Levels Less Than Or Equal Player\u0022 flag if it is set, preventing low level NPCs from spawning when those lists are used\n\nNow there should be NO spawns with a difficulty of \u0022Easy\u0022. Previously \u0022Easy\u0022 spawns are now \u0022Medium\u0022. Previously \u0022Medium\u0022 spawns are now \u0022Hard\u0022. Previously \u0022Hard\u0022 spawns are now empty, so a multiplier of 1.00. And all the Leveled NPC lists will only select the highest-eligible NPCs.\n\n## Settings\nAll settings can be configured inside the Synthesis app.\n\n### Spawn Difficulty to Replace\nThis is the Difficulty (Level Modifier) that will be replaced by a static multiplier of 1.0 (modifier removed).\n\nPick the Modifier with a multiplier closest to 1.0.  \n\nIf your multipliers are vanilla, use \u0027Hard\u0027.\nIf your multipliers are harder than normal (OWL, SRLEZ, etc), \u0027Medium\u0027 is probably your best bet.\n\nTo get the exact correct value, open up xEdit with your load order. Enter each of the following FormIDs in the \u0027FormID\u0027 box in the top left and hit ENTER. Note the Data/Float value for each setting.  Use the value in the farthest-right column of the right pane. Do NOT use the value in Synthesis.esp, though.\n\n- Easy: 0001A1D9\n- Medium: 0001A1DB\n- Hard: 0001A1DA\n- VeryHard: 00023C0B\n\nWhichever game setting is closest to 1.00 is the difficulty you should set in Synthesis.\n\n**Default**: Hard\n\n### Leveled NPC lists prefer player-level NPCs\nIf enabled, all Leveled NPC lists will be updated to remove the \u0022Calculate From All Levels Less Than Or Equal Player\u0022 flag if it is set. This will prevent the Leveled NPC list from selecting lower-level NPCs when spawning NPCs. This is slightly more risky if a mod or event depends on lower-level NPCs being selected. Please report any issues with this.\n\n**Default**: enabled\n\n\n## FAQ\n### Will this break things?\nI don\u0027t think so. You\u0027re using the same leveled lists that you were before, all we\u0027re doing is influencing which NPC will get selected. If you want to be extra safe, disable the \u0022Leveled NPC lists prefer player-level NPCs\u0022 setting.\n\nAs a precaution, you could create a save before entering a new interior area with enemies. Once you enter a dungeon, the enemies are generated and saved into your next save file, and it is not simple to regenerate them.\n\n### Why are there still a few level 1 enemies?!?\nBethesda, in its infinite wisdom, has statically set some spawns to use specific NPCs rather than leveled lists. These NPCs are often set to level 1 and do not scale with the player. Call Todd and ask him.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynNoMoreEasyEnemies/SynNoMoreEasyEnemies.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "SynNoMoreEasyEnemies",
-      "Sha": "98cb601e9020a02829907ad33707bbe763ea325a",
-      "LastUpdatedRunNumber": 31428
     },
     {
       "Patchers": [
