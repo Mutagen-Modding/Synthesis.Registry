@@ -539,32 +539,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Artistic Skyrim Overhaul - Exteriors Fixed",
-            "Visibility": "Visible",
-            "OneLineDescription": "Fixes SE specific render lighting issues.",
-            "LongDescription": "This reverts some of the additions made to the skyrim on an ESP level to fix false light rendering.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "Artistic Skyrim Overhaul - No More Reflecting Surfaces.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "ArtisticSkyrimOverhaul\u002BFixes/ArtisticSkyrimOverhaulFixes.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
-      "User": "EzioTheDeadPoet",
-      "Repository": "Artistic-Skyrim-Overhaul-Fixes",
-      "Sha": "4c513bfd18a6efef586178805c67c674e464c759",
-      "LastUpdatedRunNumber": 31428
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "ReaperAnon/Attachment-Demystifier",
             "Visibility": "Visible",
             "OneLineDescription": "",
@@ -1325,30 +1299,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "CreateTemper",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "CreateTemper/CreateTemper.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/19803311?s=40\u0026amp;v=4",
-      "User": "fenix31415",
-      "Repository": "CreateTemper",
-      "Sha": "2eb933ec4c040ad897b1a055c2df3ab564f5aaae",
-      "LastUpdatedRunNumber": 31428
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "CreatureHeightVarianceTest",
             "Visibility": "Visible",
             "OneLineDescription": "Have more verticality in NPC and creature heights",
@@ -1376,30 +1326,6 @@
       "Repository": "CreatureHeightVariance",
       "Sha": "62c4d19a4bd5dc647a2cb76b00c66cf66051d6db",
       "LastUpdatedRunNumber": 36478
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "CustomizableItemSorting",
-            "Visibility": "Visible",
-            "OneLineDescription": "Allows for sorting items into user-defined categories.",
-            "LongDescription": "Allows for sorting items into user-defined categories.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "CustomizableItemSorting/CustomizableItemSorting.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/69689375?s=40\u0026amp;v=4",
-      "User": "bmgolley",
-      "Repository": "CustomizableItemSorting",
-      "Sha": "c7173991c3986d86d4bae1bbff39cad5872b595b",
-      "LastUpdatedRunNumber": 43168
     },
     {
       "Patchers": [
@@ -1556,30 +1482,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "DisenchantEverything",
-            "Visibility": "Visible",
-            "OneLineDescription": "Removes the MagicDisallowEnchanting keyword from all items.",
-            "LongDescription": "Removes the MagicDisallowEnchanting keyword from all items.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "DisenchantEverything/DisenchantEverything.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
-      "User": "ReaperAnon",
-      "Repository": "Disenchant-Everything",
-      "Sha": "eba5aa2280fbb1285d72686948789bda4af096f8",
-      "LastUpdatedRunNumber": 31427
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "DisplaySpellTomeLevelPatcher-local",
             "Visibility": "Visible",
             "OneLineDescription": "Custom formatting options for the naming of your Spell Tomes, including level, magic school, plugin name \u0026 spell name",
@@ -1704,32 +1606,6 @@
       "Repository": "EasyNPCRemoveWornArmors",
       "Sha": "4d6b6f186d99ddfe13e14b5d3e7342d0d3cbb214",
       "LastUpdatedRunNumber": 33301
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "ELE Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Enhanced Lighting for ENB patcher",
-            "LongDescription": "Synthesis patcher for Enhanced Lighting for ENB.\r\nOnly supports SkyrimSE version for now.\r\nPlease ignore the other version of the patcher if it\u0027s still on the list, take this one. The repo was moved.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "ELE_SSE.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "ELE_Patcher/ELE_Patcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/93822872?s=40\u0026amp;v=4",
-      "User": "Benna96-Synthesis",
-      "Repository": "ELE_Patcher",
-      "Sha": "1604ac05a43fec6f3e2137e336d49e9259590d84",
-      "LastUpdatedRunNumber": 31427
     },
     {
       "Patchers": [
@@ -2628,30 +2504,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Frost Spells Don\u0027t Damage Stamina",
-            "Visibility": "Visible",
-            "OneLineDescription": "Removes stamina damage from frost spells.",
-            "LongDescription": "Frost spells damaging stamina can be a bit OP (and annoying) with setups where the player and/or NPCs require stamina to attack. This patcher removes the stamina damage effect from frost spells.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "FrostSpellsNoStaminaDamage/FrostSpellsNoStaminaDamage.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
-      "User": "Bl4ckread",
-      "Repository": "FrostSpellsNoStaminaDamage",
-      "Sha": "d096ae2d0f1d867541658b4aec3629baf40cd118",
-      "LastUpdatedRunNumber": 31425
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "Frost Spell Stamina Damage Adjustments",
             "Visibility": "Visible",
             "OneLineDescription": "Reduces (or increases) stamina damage from frost spell effects.",
@@ -2893,30 +2745,6 @@
       "Repository": "Grounded-Commonwealth-Patcher",
       "Sha": "b48586200a226dada6663842a64c2be6712d2c05",
       "LastUpdatedRunNumber": 38925
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Masculinized Leveled Lists",
-            "Visibility": "Visible",
-            "OneLineDescription": "Patches leveled NPC lists to remove female entries from them based on the chosen criteria.",
-            "LongDescription": "Patches leveled NPC lists to remove female entries from them based on the chosen criteria.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "MasculinizedLeveledLists/MasculinizedLeveledLists.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
-      "User": "ReaperAnon",
-      "Repository": "Grounded-Skyrim-Masculinized-Leveled-Lists",
-      "Sha": "513a4486107bce4d11393eef18d0ff59f108f0eb",
-      "LastUpdatedRunNumber": 40069
     },
     {
       "Patchers": [
@@ -3179,21 +3007,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "HighPolyHead-UpdateRaces/HighPolyHead-UpdateRaces.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
-      "User": "EzioTheDeadPoet",
-      "Repository": "HighPolyHead-UpdateDefaultRaces",
-      "Sha": "808585aec44b4f7e893c9d23aa8b4d93eea9c4be",
-      "LastUpdatedRunNumber": 31426
-    },
-    {
-      "Patchers": [
-        {
           "Customization": {
             "Nickname": "High Poly Head Vampire Fix",
             "Visibility": "Visible",
@@ -3271,30 +3084,6 @@
       "Repository": "HP_NPC_WIGS_TO_HEADPART",
       "Sha": "c315a5fff0dd70182d915d4f8b7b2d59333e2979",
       "LastUpdatedRunNumber": 48071
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "hph-race-patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "hph-race-patcher/hph-race-patcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
-      "User": "JanuarySnow",
-      "Repository": "hph_replacer",
-      "Sha": "75d878e43c389930ace2a0b48298e57023eb366b",
-      "LastUpdatedRunNumber": 31426
     },
     {
       "Patchers": [
@@ -3691,30 +3480,6 @@
       "Repository": "KnowYourEnemyPatcher",
       "Sha": "6f08ea6b4959d542ebd613eaec49448eb0807ffe",
       "LastUpdatedRunNumber": 31432
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "KS Hairs Bald Helmets Fixer",
-            "Visibility": "Visible",
-            "OneLineDescription": "Fixes bald heads under helmets when using KS Hairdos",
-            "LongDescription": "When using KS Hairs with many vanilla helmets, the character\u0027s head may appear completely bald underneath. This is because many of the helmets use the biped slot 41 - LongHair, which blocks out the hairline from showing. This patcher removes the biped slot from all the helmet records, allowing the hairline to show again. Obviously it\u0027s not as good as a proper hair model, but it\u0027s better than nothing.\nEditorIDs for items you do not wish to modify can be added to the blacklist in the settings. The blacklist is a comma separated string of EditorIDs. The items on the list are partially matched, case-insensitive. E.g., if you want to blacklist all KS SMP wigs, you can add \u0027kswig\u0027 (without quotes) to the blacklist.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "KSHairsBaldHelmetsFixer/KSHairsBaldHelmetsFixer.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
-      "User": "Bl4ckread",
-      "Repository": "KSHairsBaldHelmetsFixer",
-      "Sha": "81caf9875b7c9a17067081cae02fdf29711ee4c5",
-      "LastUpdatedRunNumber": 31426
     },
     {
       "Patchers": [
@@ -4462,33 +4227,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Northpoint BDSPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Better Dynamic Snow v2.x Synthesis Patcher for Northpoint SE",
-            "LongDescription": "Not compatible with BDS v3. Patches the custom snow materials used by Northpoint SE for parallax mesh compatibility.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "Better Dynamic Snow.esp",
-              "Northpoint.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "NorthpointBDSPatcher/NorthpointBDSPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
-      "User": "Bl4ckread",
-      "Repository": "Northpoint-BDS-Patcher",
-      "Sha": "64b718917c0e034fa1dcf22aba09419a3cf96424",
-      "LastUpdatedRunNumber": 31426
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "NoStartingMapMarkers",
             "Visibility": "Visible",
             "OneLineDescription": "This Skyrim SE patcher removes all map markers for unvisited places from your map.",
@@ -4705,21 +4443,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "NPCMiddleMan/NPCMiddleMan.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/100351519?s=40\u0026amp;v=4",
-      "User": "CramMods",
-      "Repository": "NPCMiddleMan",
-      "Sha": "06178b9ceb324f5d039fe7336c6ade2e74808fea",
-      "LastUpdatedRunNumber": 31425
-    },
-    {
-      "Patchers": [
-        {
           "Customization": {
             "Nickname": "NpcProtector",
             "Visibility": "Visible",
@@ -4897,8 +4620,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/1953942?s=40\u0026amp;v=4",
       "User": "Minizbot2012",
       "Repository": "PapyrusPatcher",
-      "Sha": "535b05ccea168bfe1fdc864b7176512b93c3087b",
-      "LastUpdatedRunNumber": 51640
+      "Sha": "9b6ff31ac5650578db77178bd6f9fccf9d3c112d",
+      "LastUpdatedRunNumber": 51763
     },
     {
       "Patchers": [
@@ -4925,14 +4648,6 @@
       "Repository": "ParallaxLandscapePatcher",
       "Sha": "17637d3132ff63577d68209b336ad78a99af293c",
       "LastUpdatedRunNumber": 41079
-    },
-    {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/24981326?s=40\u0026amp;v=4",
-      "User": "Noggog",
-      "Repository": "PassthroughTest",
-      "Sha": "903011640af38d0646dfe6c5f66149990616b807",
-      "LastUpdatedRunNumber": 31426
     },
     {
       "Patchers": [
@@ -4972,30 +4687,6 @@
       "Repository": "PatchSplitterTest",
       "Sha": "ac42c02c0bbe753e87e2683d6538a414802ac065",
       "LastUpdatedRunNumber": 35640
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Pine Tree Rescaler",
-            "Visibility": "Visible",
-            "OneLineDescription": "Rescales all pine trees",
-            "LongDescription": "Rescales all the different pine trees by a user defined amount. Dead trees included, snowy trees not.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "PineTreeScaler/PineTreeScaler.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/47789310?s=40\u0026amp;v=4",
-      "User": "Bl4ckread",
-      "Repository": "PineTreeScaler",
-      "Sha": "8a857351583b7db4dafada7cf8a1c1a20af27bda",
-      "LastUpdatedRunNumber": 31426
     },
     {
       "Patchers": [
@@ -5151,21 +4842,6 @@
       "LastUpdatedRunNumber": 51508
     },
     {
-      "Patchers": [
-        {
-          "ProjectPath": "Quest_Categorizer/Quest_Categorizer.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
-      "User": "JanuarySnow",
-      "Repository": "Quest_Categorizer",
-      "Sha": "0a115ff4fb7a838474c0d1af93ee5aef95dc12c8",
-      "LastUpdatedRunNumber": 31426
-    },
-    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
       "User": "radj307",
@@ -5295,21 +4971,6 @@
       "Repository": "randomizer",
       "Sha": "d9ca3c6ec5f85901f4659cdc863254a9d019adc0",
       "LastUpdatedRunNumber": 50216
-    },
-    {
-      "Patchers": [
-        {
-          "ProjectPath": "SanguinaireCompat/Sanguinaire Race Compatibility.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/28060609?s=40\u0026amp;v=4",
-      "User": "azraerl",
-      "Repository": "RandomUtility",
-      "Sha": "4320d9cd32f3a3578e0dac1cc81267d15617d489",
-      "LastUpdatedRunNumber": 31427
     },
     {
       "Patchers": [
@@ -5704,30 +5365,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "shadowmark_patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "shadowmark_patcher/shadowmark_patcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
-      "User": "JanuarySnow",
-      "Repository": "Shadowmark-Patcher",
-      "Sha": "d0576b9f2ae376f6c0ccd5eba404f25f8b3d39a7",
-      "LastUpdatedRunNumber": 31427
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "AdPetrou/Shattered-NPC-patch",
             "Visibility": "Visible",
             "OneLineDescription": "",
@@ -6113,21 +5750,6 @@
       "Repository": "Skyrim-SkinColorPatcher",
       "Sha": "e4c12db2b833fd03803a70970c7ef37cd4bd3728",
       "LastUpdatedRunNumber": 37378
-    },
-    {
-      "Patchers": [
-        {
-          "ProjectPath": "NIFPatcher_HairShader/NIFPatcher_HairShader.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/58644194?s=40\u0026amp;v=4",
-      "User": "cakeofhonor",
-      "Repository": "Skyrim-Synthesis-NIFPatcher_HairShader",
-      "Sha": "7982aca8a8261332065a8ccfb9e88ea1e7a801f7",
-      "LastUpdatedRunNumber": 31426
     },
     {
       "Patchers": [],
@@ -6621,32 +6243,6 @@
       "Repository": "SpellAbsorptionReworkSynth",
       "Sha": "6aad9ab33925c3570ce78f2e77fc42155c8c3eaf",
       "LastUpdatedRunNumber": 48751
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SpellBindPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Creates Spell Bind scroll crafting recipes for all spells in the game learnable from spell tomes",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "Spell Bind"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SpellbindPatcher/SpellbindPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/926013?s=40\u0026amp;v=4",
-      "User": "Xgatt",
-      "Repository": "SpellbindPatcher-Synthesis",
-      "Sha": "09065be74ecd51742e2f23d44ef8f0290a9d1003",
-      "LastUpdatedRunNumber": 31425
     },
     {
       "Patchers": [
@@ -7453,21 +7049,6 @@
       "Repository": "SynCombatBoundaries",
       "Sha": "1ebe6136aa03ae469612339233c0ab5f48f7887e",
       "LastUpdatedRunNumber": 31429
-    },
-    {
-      "Patchers": [
-        {
-          "ProjectPath": "CreatureReWeighter/CreatureReWeighter.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "SynCreatureReWeighter",
-      "Sha": "ac9531208125d3f56b399d585509c4ef072cdc5f",
-      "LastUpdatedRunNumber": 31425
     },
     {
       "Patchers": [
@@ -8638,21 +8219,6 @@
       "LastUpdatedRunNumber": 31429
     },
     {
-      "Patchers": [
-        {
-          "ProjectPath": "Translator/Translator.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/92609548?s=40\u0026amp;v=4",
-      "User": "D7ry",
-      "Repository": "SynTranslator",
-      "Sha": "ed04197ec7f1544c3d601306677e3961a2f337c5",
-      "LastUpdatedRunNumber": 31426
-    },
-    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
@@ -8736,30 +8302,6 @@
       "Repository": "TMGenerator",
       "Sha": "76886e5ccf4307698043a29f9f6d599f93d78866",
       "LastUpdatedRunNumber": 45620
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "TMOPatcher",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "TMOPatcher/TMOPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
-      "User": "JanuarySnow",
-      "Repository": "tmopatcher",
-      "Sha": "66970b82103297cf43f85cd6d36e48e6cf0f929d",
-      "LastUpdatedRunNumber": 31433
     },
     {
       "Patchers": [],
@@ -8951,14 +8493,6 @@
       "Repository": "True-Unleveled-Skyrim",
       "Sha": "84983d7dc57e7bc3685dba358d0ed680f17c7e0d",
       "LastUpdatedRunNumber": 41329
-    },
-    {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/62331215?s=40\u0026amp;v=4",
-      "User": "theSkyseS",
-      "Repository": "TrueUnleveledSkyrim",
-      "Sha": "79dcc66d06a6239ca563cab7b579fb4cedf4aadf",
-      "LastUpdatedRunNumber": 31427
     },
     {
       "Patchers": [
