@@ -1185,8 +1185,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/55597311?s=40\u0026amp;v=4",
       "User": "Newrite",
       "Repository": "ConsumableSwapper",
-      "Sha": "668da54f66a9ec3aa4340c357d1bd5ef232a2ee9",
-      "LastUpdatedRunNumber": 51618
+      "Sha": "7a5c8355043dc0b96a4a09fb5e5f8a4c736df2a8",
+      "LastUpdatedRunNumber": 51783
     },
     {
       "Patchers": [
@@ -5253,14 +5253,6 @@
       "LastUpdatedRunNumber": 47989
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "Save-Your-Finger",
-      "Sha": "69e7c0c6052485a474cd785cf2a253674ddb46b9",
-      "LastUpdatedRunNumber": 31424
-    },
-    {
       "Patchers": [
         {
           "Customization": {
@@ -8121,30 +8113,6 @@
       "Repository": "SynthesisUtils",
       "Sha": "408a6d52e5c4f283b46761244554a162c7c864c7",
       "LastUpdatedRunNumber": 46174
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "MergeTL",
-            "Visibility": "Visible",
-            "OneLineDescription": "Merge conflicts for translation patches",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "MergeTL/MergeTL.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/24525094?s=40\u0026amp;v=4",
-      "User": "tmpbased",
-      "Repository": "SynthMergeTL",
-      "Sha": "36c443af52bb3970bd1dba364a3a223b7a718acb",
-      "LastUpdatedRunNumber": 35071
     },
     {
       "Patchers": [
