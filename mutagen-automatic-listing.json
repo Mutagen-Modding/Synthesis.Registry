@@ -41,14 +41,6 @@
     },
     {
       "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "Actors-Without-Hats",
-      "Sha": "75d3e88533fa25ac15ffd8fa56f3a0760d59d3b0",
-      "LastUpdatedRunNumber": 31424
-    },
-    {
-      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/24265797?s=40\u0026amp;v=4",
       "User": "3ndos",
       "Repository": "AddNewRecipes",
@@ -1000,21 +992,6 @@
       "Repository": "Cathedral_-_3D-Mountain-Flowers_patch",
       "Sha": "f8d698ae0d90767fdc138f1d42ab33507d319816",
       "LastUpdatedRunNumber": 50311
-    },
-    {
-      "Patchers": [
-        {
-          "ProjectPath": "BookUUNPCBPCKeywords/BookUUNPCBPCKeywords.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/105466402?s=40\u0026amp;v=4",
-      "User": "tottorijuukou",
-      "Repository": "CBPCKeywords",
-      "Sha": "10cf711da3b578bda6dbb8cf53c3237091e775b9",
-      "LastUpdatedRunNumber": 31424
     },
     {
       "Patchers": [
@@ -4620,8 +4597,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/1953942?s=40\u0026amp;v=4",
       "User": "Minizbot2012",
       "Repository": "PapyrusPatcher",
-      "Sha": "9b6ff31ac5650578db77178bd6f9fccf9d3c112d",
-      "LastUpdatedRunNumber": 51763
+      "Sha": "bf524ac50b86cef3958360bb2727f596219a3737",
+      "LastUpdatedRunNumber": 51778
     },
     {
       "Patchers": [
