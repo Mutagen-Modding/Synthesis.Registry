@@ -19,38 +19,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Remove Edge Glow",
-            "Visibility": "Visible",
-            "OneLineDescription": "Remove active effect \u0022edge glow\u0022 from actors",
-            "LongDescription": "Removes the awful \u0022edge glow\u0022 effect from actors when certain magic effects are active.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "RemoveEdgeGlow/RemoveEdgeGlow.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
-      "User": "radj307",
-      "Repository": "Actor-Edge-Glow-Remover",
-      "Sha": "92b21b912e953e3961acf463255a677dd02206d2",
-      "LastUpdatedRunNumber": 31427
-    },
-    {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/24265797?s=40\u0026amp;v=4",
-      "User": "3ndos",
-      "Repository": "AddNewRecipes",
-      "Sha": "8f59d1b4f0a598917e3cacb878382f2162d17e67",
-      "LastUpdatedRunNumber": 31430
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "ASBF Spells",
             "Visibility": "Visible",
             "OneLineDescription": "Add Spells to \u0022Add Stuff By FormList\u0022 based off what Spell Tomes are present.",
@@ -280,30 +248,6 @@
       "Repository": "AllHeadPartsAllRacesPatcher",
       "Sha": "7e23bdb554195c8072a35234f5c4487dc685f3c4",
       "LastUpdatedRunNumber": 31433
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "AmmoTweaks",
-            "Visibility": "Visible",
-            "OneLineDescription": "Configurable patcher intended as a WACCF-friendly alternative to ABT",
-            "LongDescription": "Will rescale ammo damage between a configurable minimum and maximum while removing ammo weight as well as adjusting projectile speed and gravity. Can optionally rename ammo for better sorting and adjust recoverable ammo found on bodies.\r\n\r\nSettings\r\nConfiguration file (Data/config.json)\r\n\r\nrescaling: Enables new damage scaling. Set to false to disable.\r\nminDamage: Allowed minimum damage.\r\nmaxDamage: Allowed maximum damage.\r\nlootMult: Modifies amount of ammo found on bodies. Values below 1 will reduce found ammo while values above 1 will increase it. Set to 1 to disable.\r\nrenaming: Used to rename ammunition using the following scheme: \u0022Iron Arrow\u0022 -\u003E \u0022Arrow - Iron\u0022. Set to true to enable.\r\nseparator: Separator used if renaming is enabled. For example \u0022 - \u0022 and \u0022: \u0022\r\nspeedchanges: Enables projectile speed and gravity tweaks. Set to false to disable.\r\nspeedarrow: new arrow speed.\r\nspeedbolt: new bolt speed.\r\ngravity: new gravity value for both arrows and bolts.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "AmmoTweaks/AmmoTweaks.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "AmmoTweaks",
-      "Sha": "11ff3532b9cc008985680a63d29d47928520c8ea",
-      "LastUpdatedRunNumber": 31431
     },
     {
       "Patchers": [
@@ -809,30 +753,6 @@
       "LastUpdatedRunNumber": 37149
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "BreakdownRecipeGenerator",
-            "Visibility": "Visible",
-            "OneLineDescription": "Generates breakdown recipes for every craftable item in the game.",
-            "LongDescription": "Generates breakdown recipes for every craftable item in the game. Additionally, it also supports user-defined breakdown recipes for any types of items.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "BreakdownRecipeGenerator/BreakdownRecipeGenerator.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
-      "User": "ReaperAnon",
-      "Repository": "BreakdownRecipeGenerator",
-      "Sha": "04af81bd00ecf9d58ec0ed40dcdcfc84cb7c1b9a",
-      "LastUpdatedRunNumber": 31427
-    },
-    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/152705629?s=40\u0026amp;v=4",
       "User": "ProfessionalDragonslayer",
@@ -1185,8 +1105,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/55597311?s=40\u0026amp;v=4",
       "User": "Newrite",
       "Repository": "ConsumableSwapper",
-      "Sha": "7a5c8355043dc0b96a4a09fb5e5f8a4c736df2a8",
-      "LastUpdatedRunNumber": 51783
+      "Sha": "1db6bb546d0641ea4345c2bfc6bb843ba867dcba",
+      "LastUpdatedRunNumber": 51818
     },
     {
       "Patchers": [
@@ -1335,32 +1255,6 @@
       "Repository": "DeLightMyFire",
       "Sha": "69cdb489d868700a384c9f5f7888a2bf95037ddc",
       "LastUpdatedRunNumber": 43704
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "DestructibleSkyrimPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Patches mods placing objects in cells/worldspaces using the original Skyrim statics to Destructible Skyrim\u0027s destructible objects",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "Destructible Skyrim.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "DestructibleSkyrimPatcher/DestructibleSkyrimPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "DestructibleSkyrimPatcher",
-      "Sha": "5c8a9c94b9412a3f7423f0c8c1fb03e16a65bd22",
-      "LastUpdatedRunNumber": 31429
     },
     {
       "Patchers": [
@@ -1812,30 +1706,6 @@
     {
       "Patchers": [
         {
-          "Customization": {
-            "Nickname": "EZLeveler",
-            "Visibility": "Visible",
-            "OneLineDescription": "Encounter Zone Scaler and Unleveler Synthesis Patcher for Skyrim SE",
-            "LongDescription": "Uses configuration settings to update ECZN.MinLevel and ECZN.MaxLevel by scaling MinLevel in winning master",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "EZLeveler/EZLeveler.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
-      "User": "SteveTownsend",
-      "Repository": "EZLeveler",
-      "Sha": "e2941ffc8eaa5e4bd2372dc893e97062ee52feed",
-      "LastUpdatedRunNumber": 31429
-    },
-    {
-      "Patchers": [
-        {
           "ProjectPath": "FaceFixer/FaceFixer.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -2031,30 +1901,6 @@
       "Repository": "Fallout4SynthesisPatchers",
       "Sha": "f9e640089419f25ca360003af98c2e6e46d70d50",
       "LastUpdatedRunNumber": 37596
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Feminized Leveled Lists",
-            "Visibility": "Visible",
-            "OneLineDescription": "Patches leveled NPC lists to remove male entries from them based on the chosen criteria.",
-            "LongDescription": "Patches leveled NPC lists to remove male entries from them based on the chosen criteria. Modified Version of ReaperAnon\u0027s Patcher found here: https://github.com/ReaperAnon/Masculinized-Leveled-Lists. Requires FLL - Feminized Level Lists (https://www.nexusmods.com/skyrimspecialedition/mods/14482/) to fix some NPC bugs",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "FeminizedLeveledLists/FeminizedLeveledLists.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/108483106?s=40\u0026amp;v=4",
-      "User": "Sludes",
-      "Repository": "Feminized-Leveled-Lists",
-      "Sha": "e4cdb47efe5d13b86498215225633d3e027bee32",
-      "LastUpdatedRunNumber": 31424
     },
     {
       "Patchers": [],
@@ -2329,30 +2175,6 @@
       "Repository": "FO4WeightlessItemsPatch",
       "Sha": "10dcbef5a4dcb028c87fab1d1956daab1991ef96",
       "LastUpdatedRunNumber": 31434
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Respect My Body (Slide)",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "Remove custom bodies from NPC mods, so that they all use the PC/default body.",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "RespectMyBodySlide/RespectMyBodySlide.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/84610172?s=40\u0026amp;v=4",
-      "User": "focustense",
-      "Repository": "FocusPatchers",
-      "Sha": "5ab3188a681d136cac65b803a157f29e0cc8fdcb",
-      "LastUpdatedRunNumber": 31428
     },
     {
       "Patchers": [
@@ -3462,30 +3284,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "KZNPCPatchers",
-            "Visibility": "Visible",
-            "OneLineDescription": "Patch your modded beat race npcs with KZ-style npc or any vanilla beast race replacer of choice.",
-            "LongDescription": "Patch your selected mod with whatever beast NPC replacer, Overhaul you\u0027re using. Designed with KZNPC in mind but should work with any vanilla beast race overhaul.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "KZNPCPatchers/KZNPCPatchers.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/36178784?s=40\u0026amp;v=4",
-      "User": "pisichi",
-      "Repository": "KZ-NPC-Patcher",
-      "Sha": "1014ed360c8a11bd0a98088db5198ac8d3f3e195",
-      "LastUpdatedRunNumber": 31428
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "Leveled Deleter",
             "Visibility": "Visible",
             "OneLineDescription": "Remove items from leveled lists individually, or based on their keyword",
@@ -3698,32 +3496,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "MakeFirewoodPilesIntoContainers",
-            "Visibility": "Visible",
-            "OneLineDescription": "Synthesis version of WiZkiD\u0027s Lootable FireWood Piles patcher",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "WiZkiD Lootable FireWood Piles.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "MakeFirewoodPilesIntoContainers/MakeFirewoodPilesIntoContainers.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "MakeFirewoodPilesIntoContainers",
-      "Sha": "6005d977dda98aa2a4bc665993622ca5dee63aed",
-      "LastUpdatedRunNumber": 31429
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "MakeItemsWeightless",
             "Visibility": "Visible",
             "OneLineDescription": "Makes items weightless",
@@ -3771,30 +3543,6 @@
       "Repository": "MakeModsScrappable",
       "Sha": "4516cf2da6920267b534ab81ec591ca859e8d080",
       "LastUpdatedRunNumber": 31423
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "MaleAAGenerator",
-            "Visibility": "Visible",
-            "OneLineDescription": "Automates plugin generation for female to male armor conversion.",
-            "LongDescription": "Comes with a settings menu to select the mods to be updated and a configurable suffix.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "MaleAAGenerator/MaleAAGenerator.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/52758909?s=40\u0026amp;v=4",
-      "User": "cuyima",
-      "Repository": "MaleAAGenerator",
-      "Sha": "bd5a98a310063a85afca2aca912817bc03740fd2",
-      "LastUpdatedRunNumber": 31427
     },
     {
       "Patchers": [
@@ -4249,30 +3997,6 @@
       "Repository": "NPC-Appearance-Copier",
       "Sha": "fe12d820ba673e4a697f02ed0922c5f29ebbc0bb",
       "LastUpdatedRunNumber": 31429
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "NPC-DeLeveler",
-            "Visibility": "Visible",
-            "OneLineDescription": "Set all NPC max levels to a value of your choice.",
-            "LongDescription": "Made for request #30: https://github.com/Synthesis-Collective/Development/issues/30 \nAllows you to set the level of all NPCs and LeveledNPCs.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "NPC-DeLeveler/NPC_DeLeveler.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
-      "User": "radj307",
-      "Repository": "NPC-Deleveler",
-      "Sha": "e0c8e01b29d7240d45da50fb82c780d13fc79780",
-      "LastUpdatedRunNumber": 31427
     },
     {
       "Patchers": [
@@ -4913,30 +4637,6 @@
     {
       "Patchers": [
         {
-          "Customization": {
-            "Nickname": "Radial Blur Remover",
-            "Visibility": "Visible",
-            "OneLineDescription": "Removes radial blur effects",
-            "LongDescription": "Removes radial blur from all image space adapters.\r\nAllows excluding specific image spaces, useful if you still want radial blur from specific sources such as being drunk or cold.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "Radial-Blur-Remover/Radial-Blur-Remover.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/93822872?s=40\u0026amp;v=4",
-      "User": "Benna96-Synthesis",
-      "Repository": "Radial-Blur-Remover",
-      "Sha": "2bbf7bd8d47fed3c0bd3db1bd132b2b320a5071f",
-      "LastUpdatedRunNumber": 31427
-    },
-    {
-      "Patchers": [
-        {
           "ProjectPath": "randomizer/randomizer.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -4948,30 +4648,6 @@
       "Repository": "randomizer",
       "Sha": "d9ca3c6ec5f85901f4659cdc863254a9d019adc0",
       "LastUpdatedRunNumber": 50216
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "RealisticWaterTwoPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Forwards changes from RWT so they don\u0027t get overwritten by other mods.",
-            "LongDescription": "Forwards changes from RWT so they don\u0027t get overwritten by other mods. The changes get overwritten very frequently by a lot of different mods. This is not a patcher for new lands, it just keeps the original mod intact. If you have a mod like Falskaar, it will still need its own patch.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "RealisticWaterTwoPatcher/RealisticWaterTwoPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/63963239?s=40\u0026amp;v=4",
-      "User": "ReaperAnon",
-      "Repository": "Realistic-Water-Two-Patcher",
-      "Sha": "48e311a92c4d0c82e56a7c863bdde4352de476e6",
-      "LastUpdatedRunNumber": 31427
     },
     {
       "Patchers": [
@@ -5100,30 +4776,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "RemoveInteriorFogPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Synthesis patcher to remove the (Near \u0026 Far) fog from interior cells",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "RemoveInteriorFogPatcher/RemoveInteriorFogPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "RemoveInteriorFogPatcher",
-      "Sha": "1b9d4d2d63301d7387270e8facae0f8d3806c45e",
-      "LastUpdatedRunNumber": 31429
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "RenameHeavyArmoryWeapons",
             "Visibility": "Visible",
             "OneLineDescription": "Renames weapons from Heavy Armory and other mods, and updates vanilla perk descriptions",
@@ -5145,30 +4797,6 @@
       "Repository": "RenameHeavyArmoryWeapons",
       "Sha": "341c7cab519fbf5c4d94ccf9769f6646246a7687",
       "LastUpdatedRunNumber": 49691
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Requiem-Experience",
-            "Visibility": "Visible",
-            "OneLineDescription": "Patcher for Experience mod, most suitable for Requiem",
-            "LongDescription": "Patcher for Experience mod, desgined for Requiem - or simply un-levelled world. Generates Races XP csv basing on load order and set of rules, if necessary creates unique duplicated races for unique NPCs; Generates Quest patch with quest type adjustments; Does optional adjustments to Skills/Skill Books.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "Requiem-Experience/Requiem-Experience.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/28060609?s=40\u0026amp;v=4",
-      "User": "azraerl",
-      "Repository": "Requiem-Experience",
-      "Sha": "aeb202ce621d098b9aa88d1c89c5b58c89734fe7",
-      "LastUpdatedRunNumber": 31430
     },
     {
       "Patchers": [
@@ -5534,30 +5162,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Disable Vanilla Loading Screens",
-            "Visibility": "Visible",
-            "OneLineDescription": "Disables vanilla loading screens, so you will only see loading screens from mods.",
-            "LongDescription": "There are three modes:\r\nAll:\r\nDisables all loading screens in your load order. Run this while loading screen mods are not in your load order to disable all the other loading screens. This can also be used, if you want to play without loading screens at all.\r\n\r\nVanilla:\r\nDisables all loading screens from official plugins (Skyrim \u002B DLCs \u002B Creation Club) and the unofficial patch. You will still get loading screens from quest mods and other mods that are not purely loading screen mods.\r\n\r\nSmart:\r\nDisables loading screens from all mods that are not loading screen mods. A mod is considered a loading screen mod, if at least 60% of its content are loading screens. You will only get loading screens from mods that are purely loading screen mods. This is useful if your loading screen mods use a different style (e.g. 2D loading screens) and you do not want any vanilla style loading screens.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "DisableVanillaLoadingScreens/DisableVanillaLoadingScreens.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
-      "User": "Jampi0n",
-      "Repository": "Skyrim-DisableVanillaLoadingScreens",
-      "Sha": "7b180b4aec73c585bd3f5fbd3cf58275e1052ae6",
-      "LastUpdatedRunNumber": 31425
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "Skyrim-LeveledLoot",
             "Visibility": "Visible",
             "OneLineDescription": "Adjusts the loot system with a focus on immersion and progression.",
@@ -5775,30 +5379,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SkyrimUnlimitedRingsPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Ensures all rings and amulets can be equiped simultaneously.",
-            "LongDescription": "Removes \u0022Ring\u0022 and \u0022Amulet\u0022 keywords, makes changed items invisible.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SkyrimUnlimitedRingsPatcher/SkyrimUnlimitedRingsPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/53153547?s=40\u0026amp;v=4",
-      "User": "hellozyemlya",
-      "Repository": "SkyrimUnlimitedRingsPatcher",
-      "Sha": "94b7afe7e5c4e712a336f095ebe0f210e5391bb3",
-      "LastUpdatedRunNumber": 31424
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "SkyUIWeaponIconPatcher",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "SkyUI Weapons Pack Icon patcher",
@@ -5998,30 +5578,6 @@
     {
       "Patchers": [
         {
-          "Customization": {
-            "Nickname": "SlotsSlotsSlotsSlots",
-            "Visibility": "Visible",
-            "OneLineDescription": "Adds or removes armature slots based on other armature slots.",
-            "LongDescription": "Adds or removes armature slots based on other armature slots.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SlotsSlotsSlotsSlots/SlotsSlotsSlotsSlots.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "SlotsSlotsSlotsSlots",
-      "Sha": "581c00891eadfec134f6ecbb65180457b007c00e",
-      "LastUpdatedRunNumber": 31424
-    },
-    {
-      "Patchers": [
-        {
           "ProjectPath": "SmeltingRecipes/SmeltingRecipes.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -6093,21 +5649,6 @@
       "Repository": "SorcererPatcher",
       "Sha": "496fcf0f41992edd84f70d2fb1d7df734b96b9f9",
       "LastUpdatedRunNumber": 51185
-    },
-    {
-      "Patchers": [
-        {
-          "ProjectPath": "Halgari.SoulGemDisenchantment/Halgari.SoulGemDisenchantment.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;v=4",
-      "User": "halgari",
-      "Repository": "soul-gem-disenchantment",
-      "Sha": "97e5c18bd62d24249dd23c04a972f9094f6a3ad0",
-      "LastUpdatedRunNumber": 31430
     },
     {
       "Patchers": [
@@ -6585,21 +6126,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "STToggle/STToggle.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/106714821?s=40\u0026amp;v=4",
-      "User": "statttis",
-      "Repository": "STToggle",
-      "Sha": "958811ea7ebce33422a1fa59ccbcd9468d806a71",
-      "LastUpdatedRunNumber": 31424
-    },
-    {
-      "Patchers": [
-        {
           "Customization": {
             "Nickname": "SustainedSpellsPatcher",
             "Visibility": "IncludeButHide",
@@ -6651,30 +6177,6 @@
       "Repository": "SynACSF",
       "Sha": "4cb59e130c711c7977445e5b7bf1edc12cfd4f08",
       "LastUpdatedRunNumber": 37128
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "ActionSpeedX",
-            "Visibility": "Visible",
-            "OneLineDescription": "Action Speed X patcher",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "ActionSpeedX/ActionSpeedX.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/7200909?s=40\u0026amp;v=4",
-      "User": "holaholacocacola",
-      "Repository": "SynActionSpeedX",
-      "Sha": "23c80cc09fdc049e240adbc0f997b437ada443f9",
-      "LastUpdatedRunNumber": 31430
     },
     {
       "Patchers": [],
@@ -6846,32 +6348,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "A Variety of Containers Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Forward material swaps from AVOC on containers to final conflict winners.",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "A Variety of Containers.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "AVOCPatcher/AVOCPatcher.csproj",
-          "IncludedLibraries": [
-            "Fallout4"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "SynAVOCPatcher",
-      "Sha": "23cd991041008781256179232d540d3c0361c68a",
-      "LastUpdatedRunNumber": 31424
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "SynBanditWarForwarder",
             "Visibility": "Visible",
             "OneLineDescription": "Forwards relevant records from Lawless and its patches",
@@ -6898,30 +6374,6 @@
       "Repository": "SynBanditWarForwarder",
       "Sha": "6b46f28188dd71c26aee7e74cfeaece7440f24f1",
       "LastUpdatedRunNumber": 33986
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "BookSmart",
-            "Visibility": "Visible",
-            "OneLineDescription": "Enhance book titles to show more information about them (configurable).",
-            "LongDescription": "# SynBookSmart\nEnhance book titles to show more information about them. Fully configurable.\n\n## Settings\nAll settings can be configured inside the Synthesis app.\n\n### Add Skill Labels\nAdds a label to any books you find that will cause you to gain skills. Dynamically pulls this information from any book as long as it has the standard \u0027Teaches Skill\u0027 script attached. Will not work if a custom mod is using different scripts to apply the skill up.\n\n### Add Map Marker Labels\nAdds a label to any books you find that will give you a map marker via script. Will work as long as the script is on the book itself and contains \u0022MapMarker\u0022 (case insensitive) somehwere in the script name. Will not apply to scripts belonging to the quest record instead of the book. This may be able to be improved in the future.\n\n#### Add Quest Labels\nAdds a label to any books you find that are involved in a quest. Enabling this label will require the patcher to create a quest book cache at the beginning of each run, which will extend processing time a bit. This cache looks through all quests and finds any aliases that reference a book. If found, that book will be marked as a quest book. Also checks for scripts on the book itself that have the word \u0022Quest\u0022 (case insenstive) in the name. Please open a [Github issue](https://github.com/Synthesis-Collective/SynBookSmart/issues) if you find a quest book that is not being caught by the patcher, even if it\u0027s from a mod.\n\n### Label Position\n- Before_Name\n  - \u0060\u003CAlchemy\u003E Snape\u0027s Book of Potions\u0060\n- After_Name\n  - \u0060Snape\u0027s Book of Potions \u003CAlchemy\u003E\u0060\n\n### Label Format\n- Star\n  - \u0060*Snape\u0027s Book of Potions\u0060\n- Short\n  - \u0060\u003CAlch\u003E Snape\u0027s Book of Potions\u0060\n- Long\n  - \u0060\u003CAlchemy\u003E Snape\u0027s Book of Potions\u0060\n\n### Encapsulating Characters\nThis setting has no effect if a Label Format of \u0060Star\u0060 is chosen.\n\n- Parenthesis\n  - \u0060(Alch) Snape\u0027s Book of Potions\u0060\n- Curly Brackets\n  - \u0060{Alch} Snape\u0027s Book of Potions\u0060\n- Square Brackets\n  - \u0060[Alch] Snape\u0027s Book of Potions\u0060\n- Chevrons\n  - \u0060\u003CAlch\u003E Snape\u0027s Book of Potions\u0060\n- Stars\n  - \u0060*Alch* Snape\u0027s Book of Potions\u0060\n",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "BookSmart/BookSmart.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "SynBookSmart",
-      "Sha": "ce1bdd92334848b31432da1b60ca94364c6ded88",
-      "LastUpdatedRunNumber": 31428
     },
     {
       "Patchers": [
@@ -6970,54 +6422,6 @@
       "Repository": "SynCGOStavesPatcher",
       "Sha": "abf9e71041ff324e0d903ec9746474d16b314c18",
       "LastUpdatedRunNumber": 37128
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "CoinTweaker",
-            "Visibility": "Visible",
-            "OneLineDescription": "Synthesis Patcher for tweaking the weight, value and names of coins from a selection of mods.",
-            "LongDescription": "This Patcher allows tweaking of weight, value and names of coins from the following mods (none required): Vanilla, Beyond Skyrim: Bruma, Narrative Loot, Unique Coins \u0026 Coins of Tamriel.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "CoinTweaker/CoinTweaker.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/4649131?s=40\u0026amp;v=4",
-      "User": "RowanMaBoot",
-      "Repository": "SynCoinTweaker",
-      "Sha": "ef811626822e05c3e4543b4fd1952ba566838773",
-      "LastUpdatedRunNumber": 31428
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SynCombatBoundaries",
-            "Visibility": "Visible",
-            "OneLineDescription": "Synthesis patcher to remove combat boundaries and allow npcs to chase you through water",
-            "LongDescription": "Synthesis patcher to remove combat boundaries and allow npcs to chase you through water",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynCombatBoundaries/SynCombatBoundaries.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/7200909?s=40\u0026amp;v=4",
-      "User": "holaholacocacola",
-      "Repository": "SynCombatBoundaries",
-      "Sha": "1ebe6136aa03ae469612339233c0ab5f48f7887e",
-      "LastUpdatedRunNumber": 31429
     },
     {
       "Patchers": [
@@ -7648,50 +7052,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5535758?s=40\u0026amp;v=4",
-      "User": "ixanza",
-      "Repository": "synOblivionInteractionIcons",
-      "Sha": "e5ef98e5e3b463e71ad3432350f31f4ddca3d57b",
-      "LastUpdatedRunNumber": 31425
-    },
-    {
-      "Patchers": [
-        {
-          "ProjectPath": "SynOblivionInteractionIcons/SynOblivionInteractionIcons.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/58261411?s=40\u0026amp;v=4",
       "User": "cacodemonkey",
       "Repository": "synOblivionInteractionIcons_1.x",
       "Sha": "d3414536906378caa657c5cee6a60c6114fb5f59",
       "LastUpdatedRunNumber": 41770
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "OWLPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Consistency Patcher for Open World Loot",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "OWLPatcher/OWLPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5535758?s=40\u0026amp;v=4",
-      "User": "ixanza",
-      "Repository": "SynOpenWorldLoot",
-      "Sha": "3cfe92c230c18b5f4861dfd8ea883ffaa637660c",
-      "LastUpdatedRunNumber": 31428
     },
     {
       "Patchers": [
@@ -8045,14 +7410,6 @@
       "LastUpdatedRunNumber": 47328
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/23498000?s=40\u0026amp;v=4",
-      "User": "Benna96",
-      "Repository": "Synthesis-Misc-Compatibility-Patchers",
-      "Sha": "bfca9b5ac1573a082e2cab4a2c10a11275651899",
-      "LastUpdatedRunNumber": 31427
-    },
-    {
       "Patchers": [
         {
           "Customization": {
@@ -8113,55 +7470,6 @@
       "Repository": "SynthesisUtils",
       "Sha": "408a6d52e5c4f283b46761244554a162c7c864c7",
       "LastUpdatedRunNumber": 46174
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SynthNPCsWithFaces",
-            "Visibility": "Visible",
-            "OneLineDescription": "Helper patcher for TPF",
-            "LongDescription": "Creates a new plugin with all the modified NPC records, useful for building NPC merges",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynthNPCsWithFaces/SynthNPCsWithFaces.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;v=4",
-      "User": "halgari",
-      "Repository": "SynthNPCsWithFaces",
-      "Sha": "0d7698875a003f1942db5e3f9bf435fc6977565b",
-      "LastUpdatedRunNumber": 31430
-    },
-    {
-      "Patchers": [
-        {
-          "ProjectPath": "SynthusMaximus.Test/SynthusMaximus.Test.csproj",
-          "IncludedLibraries": [
-            "Skyrim",
-            "Oblivion",
-            "Fallout4"
-          ]
-        },
-        {
-          "ProjectPath": "Xml2Json/Xml2Json.csproj",
-          "IncludedLibraries": [
-            "Skyrim",
-            "Oblivion",
-            "Fallout4"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/654621?s=40\u0026amp;v=4",
-      "User": "halgari",
-      "Repository": "SynthusMaximus",
-      "Sha": "27622b5d81560af803f3541946587ea138e4734d",
-      "LastUpdatedRunNumber": 31429
     },
     {
       "Patchers": [],
@@ -8751,32 +8059,6 @@
       "Repository": "USMPHairColorPatcher",
       "Sha": "845fc45fe853dbe20bc6e74a9bc903746048dd0c",
       "LastUpdatedRunNumber": 49799
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "VenndorPriestNPCPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Forwards Priest Vendor fraction to NPC fractions list",
-            "LongDescription": "- Forwards priest vendor fractions to winnig NPC override record. -",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "Priest Vendors SE.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "VendorPriestNPCPatcher/VendorPriestNPCPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/18351077?s=40\u0026amp;v=4",
-      "User": "vonLeebpl",
-      "Repository": "VendorPriestNPCPatcher",
-      "Sha": "3b859f47a257f32260525f786f57f7c459f8c147",
-      "LastUpdatedRunNumber": 31426
     },
     {
       "Patchers": [
