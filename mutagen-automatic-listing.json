@@ -4302,32 +4302,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SynPEXPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Patches papyrus scripts in mods based upon configured files",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "SynPatcher/SynPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/1953942?s=40\u0026amp;v=4",
-      "User": "Minizbot2012",
-      "Repository": "PapyrusPatcher",
-      "Sha": "9b7654ee9a2ddd4055ef99b447de317e0fa1e516",
-      "LastUpdatedRunNumber": 51848
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "LandscapePatcher",
             "Visibility": "Visible",
             "OneLineDescription": "",
@@ -7081,6 +7055,32 @@
       "Repository": "SynOppositeGenderAnimsTweak",
       "Sha": "32516d62ccaa69de4f6d02586899dc2997e39b6d",
       "LastUpdatedRunNumber": 35956
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynPEXPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches papyrus scripts in mods based upon configured files",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "SynPatcher/SynPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1953942?s=40\u0026amp;v=4",
+      "User": "Minizbot2012",
+      "Repository": "SynPEXPatch",
+      "Sha": "9b7654ee9a2ddd4055ef99b447de317e0fa1e516",
+      "LastUpdatedRunNumber": 51852
     },
     {
       "Patchers": [
