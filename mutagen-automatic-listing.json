@@ -5136,6 +5136,41 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "EncounterZoneRandomizer",
+            "Visibility": "Visible",
+            "OneLineDescription": "Gives encounter zones randomized levelsm based on dungeon type, bosses and size.",
+            "LongDescription": "Gives encounter zones randomized levelsm based on dungeon type, bosses and size.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Oblivion",
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "Fallout4",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog",
+              "Starfield",
+              "Fallout4VR"
+            ]
+          },
+          "ProjectPath": "EncounterZoneRandomizer/EncounterZoneRandomizer.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
+      "User": "Jampi0n",
+      "Repository": "Skyrim-EncounterZoneRandomizer",
+      "Sha": "4784d3f943e7b29f77109c5e7db62841f4065052",
+      "LastUpdatedRunNumber": 51887
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Skyrim-LeveledLoot",
             "Visibility": "Visible",
             "OneLineDescription": "Adjusts the loot system with a focus on immersion and progression.",
