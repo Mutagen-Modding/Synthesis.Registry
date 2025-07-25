@@ -62,32 +62,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "AIOverhaulPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Forwards AI Overhaul Edits",
-            "LongDescription": "- Forwards Packages from AIO, keeps packages added by later loaded mods that were not removed by USEEP or AIO. \r\n- Forwards observe and combat package lists from AIO. \r\n- Adds AIO added factions to the latest winning override set of factions. \r\n- Forwards the maximum Essential/Protected status present at AIO or later loaded plugins.\r\n- Forwards minimum confidence level present at AIO or later loaded plugins. Uses the latest loaded outfits that were not overwritten or removed by AIO or USEEP\r\n\r\n\r\nSettings :\r\n\r\n-Ignore Identical To LastOverride\r\n Default = false\r\n When enabled the patcher will not override NPCs that are already patched\r\n-IgnorePlayerRecord\r\n Default = true\r\n When enabled the patcher will ignore the player record (00000007)\r\n-MaintainHighestProtectionLevel\r\n Default = true\r\n When enabled NPCs that are set to Essential or Protected by other mods will maintain the highest protection level",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "AI Overhaul.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "AIOverhaulPatcher/AIOverhaulPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/6299495?s=40\u0026amp;v=4",
-      "User": "Excinerus",
-      "Repository": "AI-Overhaul-Patcher",
-      "Sha": "7fcce4f952fb79e71d10e543f953ed4e05136300",
-      "LastUpdatedRunNumber": 46281
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "iAmMe27/AI-Overhaul-Patcher-Edit-by-iAmMe",
             "Visibility": "Visible",
             "OneLineDescription": "iAm\u0027s edit of the AI Overhaul patcher to incorporate OWL changes.",
@@ -248,30 +222,6 @@
       "Repository": "AllHeadPartsAllRacesPatcher",
       "Sha": "7e23bdb554195c8072a35234f5c4487dc685f3c4",
       "LastUpdatedRunNumber": 31433
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "AmuletsShowOnEverything",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "AmuletsShowOnEverything/AmuletsShowOnEverything.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5535758?s=40\u0026amp;v=4",
-      "User": "ixanza",
-      "Repository": "AmuletsShowOnEverything",
-      "Sha": "d3d049c421183aac856556f914eaa0ead76beed3",
-      "LastUpdatedRunNumber": 31431
     },
     {
       "Patchers": [],
@@ -912,54 +862,6 @@
       "Repository": "Cathedral_-_3D-Mountain-Flowers_patch",
       "Sha": "f8d698ae0d90767fdc138f1d42ab33507d319816",
       "LastUpdatedRunNumber": 50311
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "CellEditorIDFixer",
-            "Visibility": "Visible",
-            "OneLineDescription": "Removes underscores from cell EDIDs",
-            "LongDescription": "Finds all Cells in Interiors and Exterior worldspaces having underscores, and fixes the Editor Ids by removing underscores.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "CellEditorIDFixer/CellEditorIDFixer.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;v=4",
-      "User": "Deigue",
-      "Repository": "CellEditorIDFixer",
-      "Sha": "16db8366d17de5b52e1170676c15957ef77a9153",
-      "LastUpdatedRunNumber": 31432
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "CellEncounterLevelsInName",
-            "Visibility": "Visible",
-            "OneLineDescription": "Adds Encounter zone levels to cell names.",
-            "LongDescription": "Finds the Encounter Zone minimum and maximum levels and patches them into the cell names based on the template specified. Corresponding Map Markers will also be patched to reflect the changes (this can be toggled off if needed)\r\n\r\nConfiguration file (Data/config.json)\r\n\r\n- formulaRangedLeveled : Used when encounter zone max level \u003E min level.\r\n- formulaDeleveled : Used when min and max level of the encounter zone is the same.\r\n- formulaLeveled : Used when minimum level is more than max level. This usually happens when max level is unspecified (0)\r\n- patchMapMarkers : Indicate if Map Markers should be patched as well. (true/false)",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "CellEncounterLevelsInName/CellEncounterLevelsInName.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;v=4",
-      "User": "Deigue",
-      "Repository": "CellEncounterLevelsInName",
-      "Sha": "c3ecf11dbfe276e2a7693f9a50efc0029651dace",
-      "LastUpdatedRunNumber": 49687
     },
     {
       "Patchers": [
@@ -1607,30 +1509,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "EnemyReleveler",
-            "Visibility": "Visible",
-            "OneLineDescription": "A Mutagen patcher that lets you configure the levels of NPCs according to their type for a truly deleveled Skyrim",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "EnemyReleveler/EnemyReleveler.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "EnemyReleveler",
-      "Sha": "001d9518767397ccf3fbe73dd694a66ea192a122",
-      "LastUpdatedRunNumber": 40602
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "Engarde_Synthesis",
             "Visibility": "Visible",
             "OneLineDescription": "Engarde synthesis patcher",
@@ -1678,45 +1556,6 @@
       "Repository": "everythingemfuckener",
       "Sha": "28b548a4bcf8179ddeefdff52692a3589b8a523d",
       "LastUpdatedRunNumber": 42787
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Experience Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Generates a csv file for the Experience mod so that the kill function works on all NPCs.",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "ExperienceMutagenPatcher/ExperienceMutagenPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "ExperienceMutagenPatcher",
-      "Sha": "8d2f89e21b8882756423da3ea96f053b51263719",
-      "LastUpdatedRunNumber": 42216
-    },
-    {
-      "Patchers": [
-        {
-          "ProjectPath": "FaceFixer/FaceFixer.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "facefixer",
-      "Sha": "58279617d265e862a0409fef38e3938a9884781d",
-      "LastUpdatedRunNumber": 35955
     },
     {
       "Patchers": [
@@ -2277,14 +2116,6 @@
       "LastUpdatedRunNumber": 38440
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/34091472?s=40\u0026amp;v=4",
-      "User": "Coyote21",
-      "Repository": "FoodRemover",
-      "Sha": "c44f5e34989c600e37aa6dd0447c207cb6768bdf",
-      "LastUpdatedRunNumber": 38383
-    },
-    {
       "Patchers": [
         {
           "ProjectPath": "FreeFastTravel/FreeFastTravel.csproj",
@@ -2462,8 +2293,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
       "User": "tkoopman",
       "Repository": "GoriSynthCommon",
-      "Sha": "66b87109a37db88fcaed743a3442e70b75b5d66e",
-      "LastUpdatedRunNumber": 52126
+      "Sha": "06bc3624b5a15b97096159b7be7860b473e8d6fe",
+      "LastUpdatedRunNumber": 52175
     },
     {
       "Patchers": [
@@ -3161,45 +2992,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "ItemWeightCustomizer",
-            "Visibility": "Visible",
-            "OneLineDescription": "Customize and configure item weights",
-            "LongDescription": "Allows to customize weights of different items by Record type and Custom categories.\r\n\r\nConfiguration File:\r\n\r\nThe patcher will use a \u0022config.json\u0022 file in order to determine what weights need to be set for different types of items/records.\r\n\r\n- weightSettings: Define custom weight values depending on record type. If set to -1 they will be ignored.\r\n    - books: Weight to be set for Books.\r\n    - ingredients: Weight to be set for Ingredients.\r\n    - scrolls: Weight to set for Scrolls.\r\n    - soulgems: Weight to set for Soul Gems.\r\n    - armors: Weight to set for Armours.\r\n    - weapons: Weight to set for Weapons.\r\n    - foods: Weight to set for Foods. (Having keyword VendorItemFood)\r\n    - potions: Weight to set for Potions.\r\n    - ingots: Weight to set for Ingot/Ores (Having keyword VendorItemOreIngot)\r\n    - gems: Weight to set for Gems (Having keyword VendorItemGem)\r\n    - animalParts: Weight to set for Animal Parts (Having keyword VendorItemAnimalPart)\r\n    - animalHides: Weight to set for Animal Hides (Having keyword VendorItemAnimalHide)\r\n    - clutter: Weight to set for Clutter items (Having keyword VendorItemClutter)\r\n    - miscItems: Weight to set for all other Miscellaneous Items.\r\n- categories: Custom user-defined categories that override the above record-based settings.\r\n    - name: Each category needs to have a unique name (can be anything to keep track of, will be printed in logs)\r\n    - types: All the record types (from above) this category will work against.\r\n    - editorIds: List of Editor Ids. Record MUST have at least one Editor Id to be part of this category.\r\n    - weight: The weight value that will be assigned for anything that matches this category.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "ItemWeightCustomizer/ItemWeightCustomizer.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;v=4",
-      "User": "Deigue",
-      "Repository": "ItemWeightCustomizer",
-      "Sha": "1563eea76a9fea693ed3e9f83979d1cf98fe03e7",
-      "LastUpdatedRunNumber": 31432
-    },
-    {
-      "Patchers": [
-        {
-          "ProjectPath": "KhajiitEarsShow/KhajiitEarsShow.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "khajiitearsshow",
-      "Sha": "9abdaf2460eabaa64c445f9a6a16685da6c5d358",
-      "LastUpdatedRunNumber": 31433
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "KillmoveParalysisPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Prevent NPCs or creatures from getting paralyzed in the middle of killmoves",
@@ -3227,58 +3019,6 @@
       "Repository": "KmrMusicCellsPatcher-Synthesis",
       "Sha": "be3397e77ed785b1246bf18d452a10e882e7df3f",
       "LastUpdatedRunNumber": 43479
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Know Your Armor Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Patches your mods to work with Know Your Armor.",
-            "LongDescription": "This patcher is a replica of the Know Your Armor Patcher you can find for zEdit, but with support for additional mods.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "know_your_enemy.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "KnowYourArmorPatcher/KnowYourArmorPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "KnowYourArmorPatcher",
-      "Sha": "d4b058cb15f90ccbbf2edbdffa4e9346e64762c4",
-      "LastUpdatedRunNumber": 31432
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Know Your Enemy Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Patches your mods to work with Know Your Enemy.",
-            "LongDescription": "This patcher is a replica of the Know Your Enemy Patcher you can find for zEdit, but with support for additional mods.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "know_your_enemy.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "KnowYourEnemyMutagen/KnowYourEnemyMutagen.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "KnowYourEnemyPatcher",
-      "Sha": "6f08ea6b4959d542ebd613eaec49448eb0807ffe",
-      "LastUpdatedRunNumber": 31432
     },
     {
       "Patchers": [
@@ -3339,54 +3079,6 @@
       "Repository": "leveledlistresolver",
       "Sha": "b2f85fbacfccfd81e108b650ef4f1ee0e1cacac7",
       "LastUpdatedRunNumber": 42934
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "ListMaker",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "ListMaker/ListMaker.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "listmaker",
-      "Sha": "0dca3caee82424f55d445bb5be78ebb504ea2cfb",
-      "LastUpdatedRunNumber": 31432
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "ListUnroller",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "ListUnroller/ListUnroller.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "listunroller",
-      "Sha": "c9b6d510a41e25d1804ca05bccd8332f3fec40e2",
-      "LastUpdatedRunNumber": 31432
     },
     {
       "Patchers": [
@@ -3693,21 +3385,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "MortalEnemies/MortalEnemies.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "MortalEnemies-Patcher",
-      "Sha": "383c65d74455177d25248a479b0b1696af52b93c",
-      "LastUpdatedRunNumber": 35952
-    },
-    {
-      "Patchers": [
-        {
           "Customization": {
             "Nickname": "Movement Speed Patcher",
             "Visibility": "IncludeButHide",
@@ -3889,21 +3566,6 @@
       "Repository": "No-Shadows-Patch",
       "Sha": "18b4732083b60f3567a30d02a19c452aeb680eb2",
       "LastUpdatedRunNumber": 46409
-    },
-    {
-      "Patchers": [
-        {
-          "ProjectPath": "NoDragonLODs/NoDragonLODs.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "nodragonlods",
-      "Sha": "fe0e78a7caae49fe91c08a808f47556bc7c470c3",
-      "LastUpdatedRunNumber": 31432
     },
     {
       "Patchers": [
@@ -4129,21 +3791,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "NPCEnchantFix/NPCEnchantFix.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "npcenchantfix",
-      "Sha": "83bf4d19daa0d61427da3493266c92bb2c496d2c",
-      "LastUpdatedRunNumber": 31432
-    },
-    {
-      "Patchers": [
-        {
           "Customization": {
             "Nickname": "NpcProtector",
             "Visibility": "Visible",
@@ -4242,21 +3889,6 @@
       "Repository": "OBodyMerger",
       "Sha": "672758432d61d51cf81ad58f417a8a70f119f972",
       "LastUpdatedRunNumber": 39233
-    },
-    {
-      "Patchers": [
-        {
-          "ProjectPath": "OppositeAnimationDisabler/OppositeAnimationDisabler.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "oppositeanimationdisabler",
-      "Sha": "cd534d03573e803cd815de1232091ed7a97faf5a",
-      "LastUpdatedRunNumber": 31432
     },
     {
       "Patchers": [
@@ -4910,32 +4542,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SFCOPaintingRemover",
-            "Visibility": "Visible",
-            "OneLineDescription": "Remove all paintings from Snazzy\u0027s Furniture and Clutter Overhaul",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "Snazzy Furniture and Clutter Overhaul.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SFCOPaintingRemover/SFCOPaintingRemover.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "SFCOPaintingRemover",
-      "Sha": "128980dab58e530cb5c9c6c2bb78f9fcbe380679",
-      "LastUpdatedRunNumber": 31431
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "AdPetrou/Shattered-NPC-patch",
             "Visibility": "Visible",
             "OneLineDescription": "",
@@ -4960,28 +4566,6 @@
       "Repository": "Shattered-NPC-patch",
       "Sha": "45482cc3fa6842fe637a5835ba8962aae0ed590d",
       "LastUpdatedRunNumber": 36564
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SilentMoonsEnchantmentPatcher",
-            "Visibility": "Visible",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SilentMoonsEnchantmentPatcher/SilentMoonsEnchantmentPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "SilentMoonsEnchantmentPatcher.Net",
-      "Sha": "dc7aa5719c664dad17269050a2fcb2174a5f0cd5",
-      "LastUpdatedRunNumber": 31432
     },
     {
       "Patchers": [
@@ -5334,14 +4918,6 @@
       "LastUpdatedRunNumber": 37378
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;v=4",
-      "User": "Deigue",
-      "Repository": "SkyrimCurrencyReplacer",
-      "Sha": "c9548edc963153428d212a906f42edd86f1b5de2",
-      "LastUpdatedRunNumber": 31431
-    },
-    {
       "Patchers": [
         {
           "ProjectPath": "SkyrimPotionGenerator/SkyrimPotionGenerator.csproj",
@@ -5383,78 +4959,6 @@
       "Repository": "SkyrimStringMerger",
       "Sha": "6fc4407b8b489502eb9faa384d54c3f17f723749",
       "LastUpdatedRunNumber": 34907
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SkyUIWeaponIconPatcher",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "SkyUI Weapons Pack Icon patcher",
-            "LongDescription": "Based off miniz SkyWeaponKeywords, adjusted to patch for SkyUI Weapon Pack icon keywords",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynWeaponKeywords/SynWeapType.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/6877595?s=40\u0026amp;v=4",
-      "User": "Deigue",
-      "Repository": "SkyUIWeaponIconPatcher",
-      "Sha": "73b34f67ec9e45098dd9a52af92ad1ff228981e0",
-      "LastUpdatedRunNumber": 31431
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SkyVRaan Auto Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "SkyVRaan Auto Patcher",
-            "LongDescription": "SkyVRaan - Shimmering VR Water adds a fake reflection effect to Skyrim VR\u0027s outdoor water. It breaks up the distant LOD, shows wave movement on the distant water, and gives an illusion of water depth in the distance. Also has improved realism and clarity of near water. This patcher creates a custom SkyVRaan cubemap patch for your load order. This replaces Cubemapenabler.esp and it\u0027s many patches!!!",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SkyVRaanAutoPatcher/SkyVRaanAutoPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
-      "User": "Wolfman5750",
-      "Repository": "SkyVRaanAutoPatcher",
-      "Sha": "01fd61c72972fdf880b65478b66938b4966f398a",
-      "LastUpdatedRunNumber": 31432
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SkyVRaan Weather Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "SkyVRaan Weather Patcher",
-            "LongDescription": "SkyVRaan is a mod for SkyrimVR that adds a cubemap to water in Skyrim, faking water reflections. This patcher adjusts the Water Weather Multiplier for the weather mods you have installed to blend the water color in with the rest of the scene. This helps to create more natural looking water in all times of the day and weather.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SkyVRaanWeatherPatcher/SkyVRaanWeatherPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
-      "User": "Wolfman5750",
-      "Repository": "SkyVRaanWeatherPatcher",
-      "Sha": "acae02b4ba6ee622d11baa99fa96419fa72fceb5",
-      "LastUpdatedRunNumber": 31431
     },
     {
       "Patchers": [
@@ -5691,54 +5195,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SpeedandReachFixes",
-            "Visibility": "Visible",
-            "OneLineDescription": "Speed and Reach Fixes Patcher for Synthesis",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SpeedandReachFixes/SpeedandReachFixes.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "speedandreachfixes",
-      "Sha": "12d8c9dce2235e0ed82a033c4b33f947c8f2bcdc",
-      "LastUpdatedRunNumber": 46499
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SpellAbsorbFix",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SpellAbsorbFix/SpellAbsorbFix.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "spellabsorbfix",
-      "Sha": "057b58a0520f483596d139ad43eb06b1667ca866",
-      "LastUpdatedRunNumber": 31432
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "SpellAbsorptionReworkSynth",
             "Visibility": "Visible",
             "OneLineDescription": "Optional Compatibility Patcher for Spell Absorption Rework",
@@ -5856,30 +5312,6 @@
       "Repository": "Spelltome-Yeeter",
       "Sha": "48a543cfad62f71f81615bee2ec365a366bc641d",
       "LastUpdatedRunNumber": 46428
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SpellTomePriceFixPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Multiply the spell tome values in your load order by a specified amount",
-            "LongDescription": "Multiply the spell tome values in your load order by a specified amount in the settings",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SpellTomePriceFixPatcher/SpellTomePricePatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "SpellTomePricePatcher",
-      "Sha": "2a83145cfcff9a16ac31bf12e83956674527b5fa",
-      "LastUpdatedRunNumber": 31431
     },
     {
       "Patchers": [
@@ -6412,30 +5844,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SynCGOStaves",
-            "Visibility": "Visible",
-            "OneLineDescription": "Synthesis version of cuyima\u0027s zedit patcher for CGO staves",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynCGOStaves/SynPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "SynCGOStavesPatcher",
-      "Sha": "abf9e71041ff324e0d903ec9746474d16b314c18",
-      "LastUpdatedRunNumber": 37128
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "crysis99/SynDirPowAtkRem",
             "Visibility": "Visible",
             "OneLineDescription": "Removes directional power attack conditions, replaced with DTry keytraces.",
@@ -6716,30 +6124,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "FloraFixer",
-            "Visibility": "Visible",
-            "OneLineDescription": "Synthesis patcher to fix flora respawning (needs data from nexus)",
-            "LongDescription": "Nexus Data can be found here: https://www.nexusmods.com/skyrimspecialedition/mods/42057",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "FloraFixer/FloraFixer.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "SynFloraFix",
-      "Sha": "eca2bc2568fb0ecaf75d2f39beff32cd64e4dad3",
-      "LastUpdatedRunNumber": 37128
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "SynFO4LightingRegionCellPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Lighting and Region name cell patcher for FO4",
@@ -6966,54 +6350,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SynLoadScreenRemover",
-            "Visibility": "Visible",
-            "OneLineDescription": "Removes the 3d objects from loadscreens",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynLoadScreenRemover/SynPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "SynLoadscreenRemover",
-      "Sha": "8730a2c491479603d4a5c04509b09ae8a6af7934",
-      "LastUpdatedRunNumber": 37128
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SynEnchRestrictionsRemover",
-            "Visibility": "Visible",
-            "OneLineDescription": "Synthesis based enchantment restriction remover",
-            "LongDescription": "Enables all enchantments to be applied to nearly everything",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynEnchRestrictionsRemover/SynPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "SynNoEnchantmentRestrictions",
-      "Sha": "686ccd76ced15ee092bb009279f1f9bbf05807c5",
-      "LastUpdatedRunNumber": 37128
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "SynNotSoSalty",
             "Visibility": "Visible",
             "OneLineDescription": "Not So Salty Synthesis Patcher",
@@ -7116,30 +6452,6 @@
       "Repository": "SynPEXPatch",
       "Sha": "b0ee7ae6095eea8adba0b9120744a2aaaa232e8e",
       "LastUpdatedRunNumber": 51857
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SynPotionWeight",
-            "Visibility": "Visible",
-            "OneLineDescription": "Synthesis patcher to change potion / poison weights",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynPotionWeight/SynPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "SynPotionWeight",
-      "Sha": "869754ee118943ea8a1c882286cec330fed358ca",
-      "LastUpdatedRunNumber": 37128
     },
     {
       "Patchers": [
@@ -7518,40 +6830,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SynWeaponKeywords",
-            "Visibility": "Visible",
-            "OneLineDescription": "Weapon type keyword patcher - with package",
-            "LongDescription": "Fully customizable Weapon Keyword patcher, the default keyword datapack is available at ",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "SynPatcher/SynPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
-      "User": "minis-patchers",
-      "Repository": "SynWeaponKeywords",
-      "Sha": "b8e95347bc8f41d23cec377978ab7747008cd7ae",
-      "LastUpdatedRunNumber": 51880
-    },
-    {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/24981326?s=40\u0026amp;v=4",
-      "User": "Noggog",
-      "Repository": "TestPatcher",
-      "Sha": "c8efae40697b69e7abbfa9ee58f86477a5b221a6",
-      "LastUpdatedRunNumber": 31432
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "Domek97/ThrowingStuffVRPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Patches mods to work with More Interactive Objects - Throwing Things VR Port",
@@ -7781,30 +7059,6 @@
       "Repository": "True-Unleveled-Skyrim",
       "Sha": "84983d7dc57e7bc3685dba358d0ed680f17c7e0d",
       "LastUpdatedRunNumber": 41329
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "TUDMFootstepPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "TUDMFootstepPatcher/TUDMFootstepPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "TUDMFootstepPatcher",
-      "Sha": "b50628b6fe4db5ec120c539d220958a7eb39b360",
-      "LastUpdatedRunNumber": 31432
     },
     {
       "Patchers": [
@@ -8049,38 +7303,6 @@
       "LastUpdatedRunNumber": 38925
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "UPFLoader-ActionSpeed",
-      "Sha": "706946de85cad91f8fd08745b24ba2e56fff1f30",
-      "LastUpdatedRunNumber": 31431
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "UPFLoader - HeartSeeker",
-            "Visibility": "Visible",
-            "OneLineDescription": "Loader for HeartSeeker Skyrim UPF Patch",
-            "LongDescription": "Loader for HeartSeeker Skyrim UPF Patch:\r\nhttps://www.nexusmods.com/skyrimspecialedition/mods/37741\r\n\r\nThis loader gathers the mods from your load order that contain the records HeartSeeker wants to edit. Any mod you do not want to include, just untick in ModOrganizer before launching Synthesis.\r\n\r\nThis outputs \u0022HeartSeekerLoader.esp\u0022, which you then load in with zEdit to workaround zEdit\u0027s 255 plugin limit.\r\n\r\nOnce you\u0027ve created your zEdit patch, please delete the loader esp.\r\n\r\nThis also outputs a dummy Synthesis.esp. Please only run this patch alone, and make a backup or rename any other \u0022Synthesis.esp\u0022 you have.\r\n\r\nBe sure to check for conflicts in your created zEdit patch afterwards in xEdit.\r\n\r\nTo use, install Synthesis and add this repo, or select it from the built-in list.\r\nhttps://github.com/Noggog/Synthesis/\r\n\r\nInspired by: https://www.nexusmods.com/skyrimspecialedition/mods/35012\r\nThis loader was made due to the xEdit script missing some mods that need to be included.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "UPFLoader - HeartSeeker/UPFLoader-HeartSeeker.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "UPFLoader-HeartSeeker",
-      "Sha": "3507b137ba53876112bd169ddfcb65e5cae34988",
-      "LastUpdatedRunNumber": 31431
-    },
-    {
       "Patchers": [
         {
           "ProjectPath": "usmphairpatcher/usmphairpatcher.csproj",
@@ -8177,30 +7399,6 @@
       "Repository": "WastedLoot",
       "Sha": "d5edced85bb4dfff4ca838dd7f4945b84648c4d3",
       "LastUpdatedRunNumber": 46841
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Water Does Damage Patcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Patches all the waters in your load order to have the \u0027Does Damage\u0027 flag applied - useful for needs mods.",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "WaterDoesDamage/WaterDoesDamage.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "WaterDoesDamagePatcher",
-      "Sha": "15cb5c0dc60fe1104d728efd68a71770bff7545c",
-      "LastUpdatedRunNumber": 49218
     },
     {
       "Patchers": [
