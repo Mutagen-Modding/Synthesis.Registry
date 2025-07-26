@@ -2989,30 +2989,6 @@
       "LastUpdatedRunNumber": 31423
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "KillmoveParalysisPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Prevent NPCs or creatures from getting paralyzed in the middle of killmoves",
-            "LongDescription": "This patcher prevents  NPCs or creatures from getting paralyzed in the middle of killmoves.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "KillmoveParalysisPatcher/KillmoveParalysisPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/127792510?s=40\u0026amp;v=4",
-      "User": "TheOneAndOnlyJ3w3ls",
-      "Repository": "KillmoveParalysisPatcher",
-      "Sha": "e539987b64873d8cba60b3e4d623c2795991b8aa",
-      "LastUpdatedRunNumber": 33385
-    },
-    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/13842393?s=40\u0026amp;v=4",
       "User": "souvikhazra1",
@@ -3711,14 +3687,6 @@
       "LastUpdatedRunNumber": 41454
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
-      "User": "Piranha91",
-      "Repository": "NPC-Plugin-Chooser",
-      "Sha": "50112de1482cd251a43883a3c63e7ed83fe3d773",
-      "LastUpdatedRunNumber": 31429
-    },
-    {
       "Patchers": [
         {
           "ProjectPath": "NPC Plugin Chooser 2.csproj",
@@ -3730,8 +3698,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "de1b7fd92c67fb5550e447a9e359c8a4f88020fd",
-      "LastUpdatedRunNumber": 52116
+      "Sha": "dee8c54affd22a4d71c4d78cb68807ef94241644",
+      "LastUpdatedRunNumber": 52195
     },
     {
       "Patchers": [
@@ -4038,37 +4006,6 @@
       "Repository": "placed-light-patcher",
       "Sha": "b107bcace693b34a10e17e4366c606c5840698c9",
       "LastUpdatedRunNumber": 47619
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "PoisonBlocking",
-            "Visibility": "Visible",
-            "OneLineDescription": "Prevents blocked hits from applying Poison, Diseases, and Enchantments.",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "EnderalLE",
-              "EnderalSE",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "PoisonBlocking/PoisonBlocking.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
-      "User": "ExpensiveLadder",
-      "Repository": "PoisonBlocking",
-      "Sha": "000cb911aa72f47b16a5e46055cf81ced7a3c6b0",
-      "LastUpdatedRunNumber": 47507
     },
     {
       "Patchers": [
@@ -4750,30 +4687,6 @@
       "Repository": "Skyrim-EncounterZoneRandomizer",
       "Sha": "4784d3f943e7b29f77109c5e7db62841f4065052",
       "LastUpdatedRunNumber": 51887
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Skyrim-LeveledLoot",
-            "Visibility": "Visible",
-            "OneLineDescription": "Adjusts the loot system with a focus on immersion and progression.",
-            "LongDescription": "In vanilla, most materials have the same loot probability, although some materials only appear in the loot table at higher levels. For example, once ebony enters the loot table at level 32, it has the same chance as Dwarven.\nImmersion:\nThis patcher gives certain more common materials such as Steel Plate a higher chance than more exotic materials such as Dwarven.\nProgression:\nNew materials enter the loot table earlier than in vanilla, but start with a tiny chance. The chance increases with your level, so that high levels are necessary to reliable find better materials.\nLoot from certain sources, such as boss chests or quest rewards will have a signifiantly higher chance at rare materials than items sold by blacksmiths or obtained from regular chests.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "Skyrim-LeveledLoot/LeveledLoot.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
-      "User": "Jampi0n",
-      "Repository": "Skyrim-LeveledLoot",
-      "Sha": "4ccf6851cbaef300ade5f3e996fc51ab1627fa5b",
-      "LastUpdatedRunNumber": 44743
     },
     {
       "Patchers": [
