@@ -866,6 +866,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "ClearNPCDirtPaintScarsAndGashes/ClearNPCDirtPaintScarsAndGashes.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/190675517?s=40\u0026amp;v=4",
+      "User": "SDKE13",
+      "Repository": "ClearNPCDirtPaintScarsAndGashes",
+      "Sha": "90fc347e638b930cdc552407d5fd0761a37ffbb6",
+      "LastUpdatedRunNumber": 52199
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "Communism",
             "Visibility": "Visible",
