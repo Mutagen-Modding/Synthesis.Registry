@@ -866,21 +866,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "ClearNPCDirtPaintScarsAndGashes/ClearNPCDirtPaintScarsAndGashes.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/190675517?s=40\u0026amp;v=4",
-      "User": "SDKE13",
-      "Repository": "ClearNPCDirtPaintScarsAndGashes",
-      "Sha": "90fc347e638b930cdc552407d5fd0761a37ffbb6",
-      "LastUpdatedRunNumber": 47342
-    },
-    {
-      "Patchers": [
-        {
           "Customization": {
             "Nickname": "Communism",
             "Visibility": "Visible",
@@ -3698,8 +3683,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "dee8c54affd22a4d71c4d78cb68807ef94241644",
-      "LastUpdatedRunNumber": 52195
+      "Sha": "2d80f2009dac6a4003aaf50c8a98fcc3ead8797a",
+      "LastUpdatedRunNumber": 52198
     },
     {
       "Patchers": [
