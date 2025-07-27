@@ -2735,14 +2735,6 @@
       "LastUpdatedRunNumber": 31433
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/9190480?s=40\u0026amp;v=4",
-      "User": "Wolfman5750",
-      "Repository": "ICAIO_AIO_PATCHER",
-      "Sha": "dadaec6dfb8e2415101666cce73fd6cfd73a3c35",
-      "LastUpdatedRunNumber": 47504
-    },
-    {
       "Patchers": [
         {
           "Customization": {
@@ -3641,8 +3633,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "2d80f2009dac6a4003aaf50c8a98fcc3ead8797a",
-      "LastUpdatedRunNumber": 52198
+      "Sha": "e3a98e97347b8fecf0a57f5d6fa3ea22260f6161",
+      "LastUpdatedRunNumber": 52219
     },
     {
       "Patchers": [
