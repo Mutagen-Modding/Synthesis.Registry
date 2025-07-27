@@ -703,14 +703,6 @@
       "LastUpdatedRunNumber": 37149
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/152705629?s=40\u0026amp;v=4",
-      "User": "ProfessionalDragonslayer",
-      "Repository": "BSNoCustomInterface",
-      "Sha": "b2dc882e9dfbf801416f49e5dff37151a52371d7",
-      "LastUpdatedRunNumber": 47757
-    },
-    {
       "Patchers": [
         {
           "Customization": {
@@ -862,47 +854,6 @@
       "Repository": "Cathedral_-_3D-Mountain-Flowers_patch",
       "Sha": "f8d698ae0d90767fdc138f1d42ab33507d319816",
       "LastUpdatedRunNumber": 50311
-    },
-    {
-      "Patchers": [
-        {
-          "ProjectPath": "ClearNPCDirtPaintScarsAndGashes/ClearNPCDirtPaintScarsAndGashes.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/190675517?s=40\u0026amp;v=4",
-      "User": "SDKE13",
-      "Repository": "ClearNPCDirtPaintScarsAndGashes",
-      "Sha": "90fc347e638b930cdc552407d5fd0761a37ffbb6",
-      "LastUpdatedRunNumber": 52199
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Communism",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "Communism/Communism.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
-      "User": "JanuarySnow",
-      "Repository": "Communism",
-      "Sha": "36da241fb003bb3f09f9d3e4d4bbca8cf0d353f5",
-      "LastUpdatedRunNumber": 43702
     },
     {
       "Patchers": [
@@ -1304,14 +1255,6 @@
       "Repository": "DistributeArmorSetsToNpcs",
       "Sha": "5d1688c2e1c960315e8b7c575122049b1d39eb60",
       "LastUpdatedRunNumber": 33967
-    },
-    {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/33259701?s=40\u0026amp;v=4",
-      "User": "IfCoffeeThenCode",
-      "Repository": "dsm_testing",
-      "Sha": "5c529e71db8628541f44a9537f48407408ae2184",
-      "LastUpdatedRunNumber": 47646
     },
     {
       "Patchers": [
@@ -5509,30 +5452,6 @@
       "LastUpdatedRunNumber": 35427
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SynAlternateCustomSkills",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "Synthesis Patcher for NetFramework based Custom Skill Trees",
-            "LongDescription": "Generates the necesscary data for a NetFramework skill tree to work in Alternate Custom Skill Framework",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynPatcher/SynPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/1953942?s=40\u0026amp;v=4",
-      "User": "Minizbot2012",
-      "Repository": "SynACSF",
-      "Sha": "4cb59e130c711c7977445e5b7bf1edc12cfd4f08",
-      "LastUpdatedRunNumber": 37128
-    },
-    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/4649131?s=40\u0026amp;v=4",
       "User": "RowanMaBoot",
@@ -6263,6 +6182,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynEnchRestrictionsRemover",
+            "Visibility": "Visible",
+            "OneLineDescription": "Synthesis based enchantment restriction remover",
+            "LongDescription": "Enables all enchantments to be applied to nearly everything",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynPatcher/SynPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynNoEnchantmentRestrictions",
+      "Sha": "eca6984081bff00d122c847842d7dfa8a8350860",
+      "LastUpdatedRunNumber": 52217
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynNotSoSalty",
             "Visibility": "Visible",
             "OneLineDescription": "Not So Salty Synthesis Patcher",
@@ -6360,11 +6303,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/1953942?s=40\u0026amp;v=4",
-      "User": "Minizbot2012",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
       "Repository": "SynPEXPatch",
       "Sha": "b0ee7ae6095eea8adba0b9120744a2aaaa232e8e",
-      "LastUpdatedRunNumber": 51857
+      "LastUpdatedRunNumber": 52217
     },
     {
       "Patchers": [
@@ -6522,6 +6465,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "SynLighting",
+            "Visibility": "Visible",
+            "OneLineDescription": "Changes everything to standard lighting templates",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "SynPatcher/SynPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynStandardLightingTemplates",
+      "Sha": "3c528ab54a468459ffd81cc52d2a6e0c05006355",
+      "LastUpdatedRunNumber": 52217
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynthNPCsWithFacesFO4",
             "Visibility": "Visible",
             "OneLineDescription": "Helper patcher for Genning Faces for Fallout4",
@@ -6642,37 +6609,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Meridiano/Synthesis-BlendedShorelinesUniversal",
-            "Visibility": "Visible",
-            "OneLineDescription": "Change water values to better blend it with shores",
-            "LongDescription": "Original Blended Shorelines: https://www.nexusmods.com/skyrimspecialedition/mods/41300\r\nThis patcher does the same but it uses Synthesis and applies related changes to all water types.\r\nIncluded water values are Reflections, Refraction, Normals and Specular Lighting.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "EnderalLE",
-              "EnderalSE",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "BlendedShorelinesUniversal/BlendedShorelinesUniversal.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/25160065?s=40\u0026amp;v=4",
-      "User": "Meridiano",
-      "Repository": "Synthesis-BlendedShorelinesUniversal",
-      "Sha": "11ed3de335ed30ba4812f637333a55ebae1b39ce",
-      "LastUpdatedRunNumber": 47328
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "Synthesis RPG Loot (Enchantment Distributor)",
             "Visibility": "Visible",
             "OneLineDescription": "This patcher will distribute the enchantments found in your setup to your leveled lists and previously unenchanted items.",
@@ -6738,6 +6674,32 @@
       "Repository": "SynTweakEngine",
       "Sha": "c5aaeaa18376c2b07353bdd50c8e02471d407d64",
       "LastUpdatedRunNumber": 37128
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SynWeaponKeywords",
+            "Visibility": "Visible",
+            "OneLineDescription": "Weapon type keyword patcher - with package",
+            "LongDescription": "Fully customizable Weapon Keyword patcher, the default keyword datapack is available at ",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "SynPatcher/SynPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "User": "minis-patchers",
+      "Repository": "SynWeaponKeywords",
+      "Sha": "b8e95347bc8f41d23cec377978ab7747008cd7ae",
+      "LastUpdatedRunNumber": 52217
     },
     {
       "Patchers": [
