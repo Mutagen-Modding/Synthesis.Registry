@@ -3633,8 +3633,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "e3a98e97347b8fecf0a57f5d6fa3ea22260f6161",
-      "LastUpdatedRunNumber": 52219
+      "Sha": "f3b5c8e8604d73820d0c5063d288b440c83839aa",
+      "LastUpdatedRunNumber": 52250
     },
     {
       "Patchers": [
@@ -5444,14 +5444,6 @@
       "LastUpdatedRunNumber": 35427
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/4649131?s=40\u0026amp;v=4",
-      "User": "RowanMaBoot",
-      "Repository": "SynActorRefFixes",
-      "Sha": "55f3fddd76c31de6ab9971ce75d9b259116cadf4",
-      "LastUpdatedRunNumber": 51455
-    },
-    {
       "Patchers": [
         {
           "Customization": {
@@ -6080,32 +6072,6 @@
       "Repository": "SynHelmsWithCirclets",
       "Sha": "e40a8488cabff9c59563de2aca1418b0b54b6536",
       "LastUpdatedRunNumber": 37128
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SynHVLFramework",
-            "Visibility": "Visible",
-            "OneLineDescription": "Race generator for HVL Framework SKSE",
-            "LongDescription": "Generates race generator for HVL Framework SKSE",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "SynPatcher/SynPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
-      "User": "minis-patchers",
-      "Repository": "SynHVLFramework",
-      "Sha": "19842a55d7371ce3b4004c801835f665b4bf2308",
-      "LastUpdatedRunNumber": 51604
     },
     {
       "Patchers": [
@@ -7233,28 +7199,6 @@
     {
       "Patchers": [
         {
-          "Customization": {
-            "Nickname": "matm-git/WadeInWater",
-            "Visibility": "Visible",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "WadeInWater/WadeInWater.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/78607219?s=40\u0026amp;v=4",
-      "User": "matm-git",
-      "Repository": "WadeInWater",
-      "Sha": "fa331cfc472c04ac4c80f8daca278dd0c9b76fae",
-      "LastUpdatedRunNumber": 50934
-    },
-    {
-      "Patchers": [
-        {
           "ProjectPath": "WastedLoot/WastedLoot.csproj",
           "IncludedLibraries": [
             "Fallout4"
@@ -7426,37 +7370,6 @@
       "Repository": "WorkbenchOrganizer",
       "Sha": "8187279033d90aa5058454d5ec4b7327cd2db26d",
       "LastUpdatedRunNumber": 31423
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Yahim0/Yahis-Weapon-Overhaul",
-            "Visibility": "Visible",
-            "OneLineDescription": "Changes the damage of axes and maces to surpass the DPS of swords",
-            "LongDescription": "In vanilla, axes and maces deal a fixed ammount of damage more than swords for all tier, EG.: all warhammers will deal 3 points of base damage more than greatswords. This causes swords and greatswords to have the highest ammount of DPS among weapons because of their high swing speed, and this DPS gap gets larger as weapon tiers increase in quality. This patcher is meant to fix this issue by making axe and mace damage deal sword damage times a coefficient. After this patch is applied, in a hypothetical tier where both swords and greatswords deal 1 point of damage, swords will deal 1 DPS, waraxes will deal 1.1 DPS, maces deal 1.2 DPS, greaswords deal 0.8, battleaxes 0.9, and warhammers 1.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "EnderalLE",
-              "EnderalSE",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "YahisWeaponOverhaul/YahisWeaponOverhaul.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/180131362?s=40\u0026amp;v=4",
-      "User": "Yahim0",
-      "Repository": "Yahis-Weapon-Overhaul",
-      "Sha": "1263746750ddfef382e1578a02518c3dd3906090",
-      "LastUpdatedRunNumber": 49648
     },
     {
       "Patchers": [
