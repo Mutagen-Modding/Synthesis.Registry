@@ -2132,21 +2132,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "GDOPatcher/GDOPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5535758?s=40\u0026amp;v=4",
-      "User": "ixanza",
-      "Repository": "GDOPatcher",
-      "Sha": "a2041ab85a1c722925884e26e20f690bedc02f41",
-      "LastUpdatedRunNumber": 31424
-    },
-    {
-      "Patchers": [
-        {
           "Customization": {
             "Nickname": "GenderDialoguePatch",
             "Visibility": "IncludeButHide",
@@ -2236,8 +2221,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
       "User": "tkoopman",
       "Repository": "GoriSynthCommon",
-      "Sha": "06bc3624b5a15b97096159b7be7860b473e8d6fe",
-      "LastUpdatedRunNumber": 52175
+      "Sha": "bf0f49e45a99ea993673bc13d8c361ba2b76187e",
+      "LastUpdatedRunNumber": 52335
     },
     {
       "Patchers": [
@@ -3292,30 +3277,6 @@
       "Repository": "MoreGoldForMerchants",
       "Sha": "4b26b50406c3c9ad0e1574c4778516df8f0b22e3",
       "LastUpdatedRunNumber": 42938
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Movement Speed Patcher",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "Sync player \u0026 NPC speeds, fully customizable.",
-            "LongDescription": "Comprehensive movement speed overhaul contained within a single patcher.\n\nNexus Page:\thttps://www.nexusmods.com/skyrimspecialedition/mods/55117\n\nGithub Wiki:\thttps://github.com/Synthesis-Collective/MovementSpeedPatcher/wiki\n",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "MovementPatcher/MovementPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
-      "User": "Synthesis-Collective",
-      "Repository": "MovementSpeedPatcher",
-      "Sha": "eda0b4b3e3c2bb8abebf9981c5220fd74b5c3b51",
-      "LastUpdatedRunNumber": 31428
     },
     {
       "Patchers": [
