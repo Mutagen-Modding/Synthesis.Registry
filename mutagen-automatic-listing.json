@@ -883,29 +883,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Configurable Grass Remover",
-            "Visibility": "Visible",
-            "OneLineDescription": "Removes grass where you want it removed.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "ConfigurableGrassRemover/ConfigurableGrassRemover.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/52624146?s=40\u0026amp;v=4",
-      "User": "EzioTheDeadPoet",
-      "Repository": "Configurable-Grass-Remover",
-      "Sha": "e7822180b207dbb4aab39fd5f38c86ecc41e6489",
-      "LastUpdatedRunNumber": 31424
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "Conjure Next To Caster",
             "Visibility": "Visible",
             "OneLineDescription": "Creates alternate versions of summoning spells that conjure next to the caster.",
@@ -1076,30 +1053,6 @@
       "Repository": "CreatureHeightVariance",
       "Sha": "62c4d19a4bd5dc647a2cb76b00c66cf66051d6db",
       "LastUpdatedRunNumber": 36478
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "DeadBodyCleanupNPCAttacher",
-            "Visibility": "Visible",
-            "OneLineDescription": "Add deadbodycleanupscript to some npcs",
-            "LongDescription": "Default unofficial patch name set for Skyrim LE USLEEP but you can change it to USEEP or any in the patcher settings",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "DeadBodyCleanupNPCAttacher/DeadBodyCleanupNPCAttacher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
-      "User": "TokcDK",
-      "Repository": "DeadBodyCleanupNPCAttacher",
-      "Sha": "13dba4dc22f5bacbc71ec4b93109824a479b3653",
-      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [],
@@ -2885,30 +2838,6 @@
       "LastUpdatedRunNumber": 35658
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "ItemRenamer",
-            "Visibility": "Visible",
-            "OneLineDescription": "Adjusts item and spell names to match those specified in a user configurable file",
-            "LongDescription": "Adjusts item and spell names to match those specified in a user configurable file, usually to facilitate better inventory sorting.\n\rA default config file is provided with support for the vanilla game and DLC. I also include definitions for a few mods that I personally use.\n\r\n\rCurrent List of Supported Mods:\n\r- Beyond Skyrim - Bruma\n\r- Mysticism\n\r\n\rConfiguration:\n\rTo add suport for additional mods, or to change a name definition, simply create one or more json files in the patcher data directory, and they will be read in alphabetical order by file name.\n\rFor instance, you could create a file called CustomRules.json in the C:/../Synthesis/Data/Skyrim Special Edition/ItemRenamer directory.\n\r\n\rIf, for instance, you wanted to change the name of the gold item from Gold to Septim, you could put:\n\r\n\r\u002200000F:Skyrim.esm\u0022: \u0022Septim\u0022,\n\r\n\ron a line in that file, along with the opening and closing JSON braces. In this case, 00000F is the FormID of the Gold item as seen in xEdit, without the load order index, and Skyrim.esm is the plugin or master file where the item was originally defined. Finally the last part of the line is what you would like to rename the item or spell to. Finally, don\u0027t forget to add commas after all lines except the last, as well as opening and closing curly braces to each file.\n\r\n\rYou can browse the rules included in Default folder in the patcher data folder for more examples.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "ItemRenamer/ItemRenamer.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/31460040?s=40\u0026amp;v=4",
-      "User": "coldrifting",
-      "Repository": "ItemRenamer",
-      "Sha": "0b99244739bcefa04ee38f723711436788d669ea",
-      "LastUpdatedRunNumber": 31423
-    },
-    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/13842393?s=40\u0026amp;v=4",
       "User": "souvikhazra1",
@@ -3594,8 +3523,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "b555bd9746158be8b9b3b67cdf9aacb918371ce3",
-      "LastUpdatedRunNumber": 52408
+      "Sha": "0fe0c86e9cecbedb6712bef40831672db29d1e6f",
+      "LastUpdatedRunNumber": 52515
     },
     {
       "Patchers": [
@@ -5408,30 +5337,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SynAddArmorKeywordByString",
-            "Visibility": "Visible",
-            "OneLineDescription": "Add selected keyword by string",
-            "LongDescription": "Add selected keyword if some string found in editor id\r\nexample: we can add waf_visualdark armor keyword by \u0027black\u0027 string in edid of armors",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynAddArmorKeywordByString/SynAddArmorKeywordByString.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
-      "User": "TokcDK",
-      "Repository": "SynAddArmorKeywordByString",
-      "Sha": "9a6e76fa2d1bd68850dc2728b573172709c208df",
-      "LastUpdatedRunNumber": 31423
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "TokcDK/SynAddNpcReplacerAsTheNewNpc",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "For npc replacers auto create the new npcs",
@@ -5457,30 +5362,6 @@
       "Repository": "SynAddNpcReplacerAsTheNewNpc",
       "Sha": "83213ef36f7c6b2af486a13fc0a45fd6a87387d1",
       "LastUpdatedRunNumber": 31433
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SynArmorAAFixMissingGenderWorldModel",
-            "Visibility": "Visible",
-            "OneLineDescription": "Autofll missing world model path for only male/female armors",
-            "LongDescription": "Autofll missing world model path with default path from most equal template by material keyword, slot and gender.\nPrevent incorrect npc look when they in armors which model made only for Females or only for Males.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynArmorAAFixMissingGenderWorldModel/SynArmorAAFixMissingGenderWorldModel.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
-      "User": "TokcDK",
-      "Repository": "SynArmorAAFixMissingGenderWorldModel",
-      "Sha": "6d064015bb06ef0e766e99c70040673c7f201237",
-      "LastUpdatedRunNumber": 31423
     },
     {
       "Patchers": [
@@ -5728,30 +5609,6 @@
       "Repository": "SynExtendedWeaponPerkDescriptions",
       "Sha": "ad32199b41e5f9d2bf47fe1fa86e6c71ab1db9fa",
       "LastUpdatedRunNumber": 33650
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SynFixBOOKRecordTypes",
-            "Visibility": "Visible",
-            "OneLineDescription": "Fix book/note type.",
-            "LongDescription": "When book marked as note or note marked as book, the patch will fix it.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynFixBOOKRecordTypes/SynFixBOOKRecordTypes.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
-      "User": "TokcDK",
-      "Repository": "SynFixBOOKRecordTypes",
-      "Sha": "2f4026b2462d4d4f6e7ca4148fc09d103a49e7d8",
-      "LastUpdatedRunNumber": 31425
     },
     {
       "Patchers": [
