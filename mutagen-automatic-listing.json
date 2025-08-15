@@ -3820,7 +3820,7 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "PlacedLightPatcher/PlacedLightPatcher.csproj",
+          "ProjectPath": "TrueLightPatcher/TrueLightPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
           ]
@@ -3829,8 +3829,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/20866468?s=40\u0026amp;v=4",
       "User": "poperigby",
       "Repository": "placed-light-patcher",
-      "Sha": "b107bcace693b34a10e17e4366c606c5840698c9",
-      "LastUpdatedRunNumber": 47619
+      "Sha": "95b6862ba0536bf4206f02119597bc6bf44b1dc9",
+      "LastUpdatedRunNumber": 52631
     },
     {
       "Patchers": [
