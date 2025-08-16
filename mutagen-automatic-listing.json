@@ -1159,30 +1159,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "DisplaySpellTomeLevelPatcher-local",
-            "Visibility": "Visible",
-            "OneLineDescription": "Custom formatting options for the naming of your Spell Tomes, including level, magic school, plugin name \u0026 spell name",
-            "LongDescription": "Automatically patch your entire load order to show the skill level on all Spell Tomes! You can change the default format from Spell Tome (\u003Clevel\u003E): \u003Cspell\u003E to any custom format including plugin name \u0026 magic school in the settings!",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "DisplaySpellTomeLevelPatcher/DisplaySpellTomeLevelPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
-      "User": "tr4wzified",
-      "Repository": "DisplaySpellTomeLevelPatcher",
-      "Sha": "0bb691744ee3780c71307918d5035b86e4ca62e3",
-      "LastUpdatedRunNumber": 31430
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "RecombinePatch",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "Recombine stuff",
@@ -3523,8 +3499,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "51d52417b605ae7f2759a095bdeb9d0f26a7aea3",
-      "LastUpdatedRunNumber": 52638
+      "Sha": "c44d9476e8f03d407199beb09bb2b349141f2850",
+      "LastUpdatedRunNumber": 52661
     },
     {
       "Patchers": [
