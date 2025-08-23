@@ -1448,30 +1448,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "FacegenBaseline",
-            "Visibility": "Visible",
-            "OneLineDescription": "Use default facegen override from a foundational NPC appearance mod",
-            "LongDescription": "Forwards foundational mod\u0027s NPC appearance fields to the winning override in the Synthesis patch, if overridden by another mod but facegen not altered vs the master.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "FacegenBaseline/FacegenBaseline.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
-      "User": "SteveTownsend",
-      "Repository": "FacegenBaseline",
-      "Sha": "1a4228fd4c52132e047c53ad9e0bfda221826bcc",
-      "LastUpdatedRunNumber": 31425
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "FacegenBaseline-local",
             "Visibility": "Visible",
             "OneLineDescription": "Use default facegen override from a foundational NPC appearance mod",
@@ -3456,30 +3432,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "NPCFaceScrambler",
-            "Visibility": "Visible",
-            "OneLineDescription": "Scrambles the NPC Appearances!!",
-            "LongDescription": "Synthesis patch to randomly copy NPCs appearance from the selected mods and assigned its face and default skin to NPCs of the target mods.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "NPCFaceScrambler/NPCFaceScrambler.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/36178784?s=40\u0026amp;v=4",
-      "User": "pisichi",
-      "Repository": "NPC-Face-Scrambler",
-      "Sha": "72ae2d1b64940734a7aa4b002353209aed746dd2",
-      "LastUpdatedRunNumber": 31423
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "NPC Face Swapper",
             "Visibility": "Visible",
             "OneLineDescription": "Swaps NPC faces around based on user defined settings.",
@@ -3514,8 +3466,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "82945811c8fbf16120f986f19c67e09c594ce29d",
-      "LastUpdatedRunNumber": 52752
+      "Sha": "0b6c78a6852193e97ca2c50363daa4f4a639bc1e",
+      "LastUpdatedRunNumber": 52822
     },
     {
       "Patchers": [
@@ -5623,102 +5575,6 @@
       "User": "TokcDK",
       "Repository": "SynFixFemaleRaceModel",
       "Sha": "1bb70e6b5f76ebd8f59c7b649d937a61e4e4a289",
-      "LastUpdatedRunNumber": 31423
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "TokcDK/SynFixKeyMissingSoundKeyword",
-            "Visibility": "Visible",
-            "OneLineDescription": "Add missing sound and vendor keyword to keys",
-            "LongDescription": "Check keys for missing pickup/putdown sounds or missing vendor keyword and add when need",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynFixKeyMissingSoundKeyword/SynFixKeyMissingSoundKeyword.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
-      "User": "TokcDK",
-      "Repository": "SynFixKeyMissingSoundKeyword",
-      "Sha": "f64d43bfeb0674ae46bba976ff54288480b6ec03",
-      "LastUpdatedRunNumber": 31434
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "TokcDK/SynFixMissingVendorItemScrollKeyword",
-            "Visibility": "Visible",
-            "OneLineDescription": "Add VendorItemScroll keyword for scrolls where it missing",
-            "LongDescription": "Check all scrool keywords and add VendorItemScroll keyword if it missing for correct detection of the item category",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynFixMissingVendorItemScrollKeyword/SynFixMissingVendorItemScrollKeyword.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
-      "User": "TokcDK",
-      "Repository": "SynFixMissingVendorItemScrollKeyword",
-      "Sha": "b5e1159d55153d2d7a59f05f956881de10610d73",
-      "LastUpdatedRunNumber": 31435
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "TokcDK/SynFixShieldData",
-            "Visibility": "Visible",
-            "OneLineDescription": "Fix incorrect shield material and impact set",
-            "LongDescription": "Fixes incorrect impact set and material for armor type Heavy/Light",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynFixShieldData/SynFixShieldData.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
-      "User": "TokcDK",
-      "Repository": "SynFixShieldData",
-      "Sha": "94600c07c58a9f985de4e032e0d72a23c0ff2704",
-      "LastUpdatedRunNumber": 31434
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "TokcDK/SynFixWeaponAttackSpeed",
-            "Visibility": "Visible",
-            "OneLineDescription": "Fixes weapon attack speed bug",
-            "LongDescription": "It changes all effects magnitude which changing weapon speed mult value and add to all exist races ability to se base mult to 1\nIn result we get 1.0 base mult\u002Bstackable 0.# mult by magic effects",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "SynFixWeaponAttackSpeed/SynFixWeaponAttackSpeed.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
-      "User": "TokcDK",
-      "Repository": "SynFixWeaponAttackSpeed",
-      "Sha": "722b4e7bb49c39ba923e90651844013315e9c7fe",
       "LastUpdatedRunNumber": 31423
     },
     {
