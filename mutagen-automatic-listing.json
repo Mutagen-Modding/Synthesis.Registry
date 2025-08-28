@@ -3338,6 +3338,34 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "hydraaawr/Non-Exploitable-Torches---Synthesis-Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Non-Exploitable Torches Torch Patcher",
+            "LongDescription": "Patches Torch01 to 0 duration, keeping the rest of winning entries added by light mods",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "NET.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "Non-ExploitableTorches-SynthesisPatcher/Non-ExploitableTorches-SynthesisPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/130935760?s=40\u0026amp;v=4",
+      "User": "hydraaawr",
+      "Repository": "Non-Exploitable-Torches---Synthesis-Patcher",
+      "Sha": "094aed7acd8a05a07d5b7d5f9cb0792a9d1f8893",
+      "LastUpdatedRunNumber": 52943
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "NorthernRoadsGrassRemover/NorthernRoadsGrassRemover.csproj",
           "IncludedLibraries": [
             "Skyrim"
