@@ -3344,9 +3344,7 @@
             "OneLineDescription": "Non-Exploitable Torches Torch Patcher",
             "LongDescription": "Patches Torch01 to 0 duration, keeping the rest of winning entries added by light mods",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "NET.esp"
-            ],
+            "RequiredMods": [],
             "TargetedReleases": [
               "SkyrimSE"
             ]
@@ -3360,8 +3358,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/130935760?s=40\u0026amp;v=4",
       "User": "hydraaawr",
       "Repository": "Non-Exploitable-Torches---Synthesis-Patcher",
-      "Sha": "094aed7acd8a05a07d5b7d5f9cb0792a9d1f8893",
-      "LastUpdatedRunNumber": 52943
+      "Sha": "5b3314ef3b9abc03ba5ca0b1da538a4e0276d107",
+      "LastUpdatedRunNumber": 52960
     },
     {
       "Patchers": [
@@ -3494,8 +3492,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "a8773523cd55997cb3bd5a093eafdd34b7270347",
-      "LastUpdatedRunNumber": 52915
+      "Sha": "cd25670d5c4b95fb69f6ce4a79c922d11eb20e04",
+      "LastUpdatedRunNumber": 52960
     },
     {
       "Patchers": [
