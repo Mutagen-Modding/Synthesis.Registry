@@ -1159,6 +1159,30 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "DisplaySpellTomeLevelPatcher-local",
+            "Visibility": "Visible",
+            "OneLineDescription": "Custom formatting options for the naming of your Spell Tomes, including level, magic school, plugin name \u0026 spell name",
+            "LongDescription": "Automatically patch your entire load order to show the skill level on all Spell Tomes! You can change the default format from Spell Tome (\u003Clevel\u003E): \u003Cspell\u003E to any custom format including plugin name \u0026 magic school in the settings!",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "DisplaySpellTomeLevelPatcher/DisplaySpellTomeLevelPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "DisplaySpellTomeLevelPatcher",
+      "Sha": "0bb691744ee3780c71307918d5035b86e4ca62e3",
+      "LastUpdatedRunNumber": 52961
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "RecombinePatch",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "Recombine stuff",
@@ -1428,6 +1452,30 @@
       "Repository": "everythingemfuckener",
       "Sha": "28b548a4bcf8179ddeefdff52692a3589b8a523d",
       "LastUpdatedRunNumber": 42787
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Experience Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Generates a csv file for the Experience mod so that the kill function works on all NPCs.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "ExperienceMutagenPatcher/ExperienceMutagenPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "ExperienceMutagenPatcher",
+      "Sha": "8d2f89e21b8882756423da3ea96f053b51263719",
+      "LastUpdatedRunNumber": 52961
     },
     {
       "Patchers": [
@@ -2811,6 +2859,32 @@
       "Repository": "KmrMusicCellsPatcher-Synthesis",
       "Sha": "be3397e77ed785b1246bf18d452a10e882e7df3f",
       "LastUpdatedRunNumber": 43479
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Know Your Enemy Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches your mods to work with Know Your Enemy.",
+            "LongDescription": "This patcher is a replica of the Know Your Enemy Patcher you can find for zEdit, but with support for additional mods.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "know_your_enemy.esp"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "KnowYourEnemyMutagen/KnowYourEnemyMutagen.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "KnowYourEnemyPatcher",
+      "Sha": "6f08ea6b4959d542ebd613eaec49448eb0807ffe",
+      "LastUpdatedRunNumber": 52961
     },
     {
       "Patchers": [
@@ -6909,6 +6983,30 @@
       "Repository": "WastedLoot",
       "Sha": "d5edced85bb4dfff4ca838dd7f4945b84648c4d3",
       "LastUpdatedRunNumber": 46841
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Water Does Damage Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Patches all the waters in your load order to have the \u0027Does Damage\u0027 flag applied - useful for needs mods.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "WaterDoesDamage/WaterDoesDamage.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
+      "User": "tr4wzified",
+      "Repository": "WaterDoesDamagePatcher",
+      "Sha": "15cb5c0dc60fe1104d728efd68a71770bff7545c",
+      "LastUpdatedRunNumber": 52961
     },
     {
       "Patchers": [
