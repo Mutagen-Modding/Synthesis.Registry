@@ -18,22 +18,28 @@ class Program
         await parser.ParseArguments(
                 args,
                 typeof(RunScraperCommand),
-                typeof(RunSingleScrapeCommand))
+                typeof(RunSingleScrapeCommand),
+                typeof(ResurrectCommand))
             .MapResult(
-                async (RunScraperCommand runScraper) =>
+                async (RunScraperCommand cmd) =>
                 {
-                    await GetRunGivenArgs<RunScraperModule>(runScraper).Run();
+                    await GetRunGivenArgs<RunScraperModule>(cmd).Run();
                     return 0;
                 },
-                async (RunSingleScrapeCommand singleScrape) =>
+                async (RunSingleScrapeCommand cmd) =>
                 {
-                    await GetRunGivenArgs<RunSingleScraperModule>(singleScrape).Run();
+                    await GetRunGivenArgs<RunSingleScraperModule>(cmd).Run();
+                    return 0;
+                },
+                async (ResurrectCommand cmd) =>
+                {
+                    await GetRunGivenArgs<RunSingleScraperModule>(cmd).Run();
                     return 0;
                 },
                 async _ => -1);
     }
 
-    static ScraperRun GetRunGivenArgs<TModule>(object args)
+    static IContainer GetContainer<TModule>(object args)
         where TModule : Module, new()
     {
         var services = new ServiceCollection();
@@ -44,7 +50,13 @@ class Program
         builder.RegisterInstance(args).AsSelf().AsImplementedInterfaces();
         builder.Populate(services);
 
-        var cont = builder.Build();
+        return builder.Build();
+    }
+
+    static ScraperRun GetRunGivenArgs<TModule>(object args)
+        where TModule : Module, new()
+    {
+        var cont = GetContainer<TModule>(args);
         return cont.Resolve<ScraperRun>();
     }
 }

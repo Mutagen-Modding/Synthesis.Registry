@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synthesis.Registry.MutagenS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synthesis.Registry.MutagenScraper.Tests", "Synthesis.Registry.MutagenScraper.Tests\Synthesis.Registry.MutagenScraper.Tests.csproj", "{16F7D193-38C4-4C88-9A56-5E4A394EB544}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synthesis.Registry.ListingResurrector", "Synthesis.Registry.ListingResurrector\Synthesis.Registry.ListingResurrector.csproj", "{6997E2D5-317E-4E8B-B929-8FCEC9F68BAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{16F7D193-38C4-4C88-9A56-5E4A394EB544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16F7D193-38C4-4C88-9A56-5E4A394EB544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16F7D193-38C4-4C88-9A56-5E4A394EB544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6997E2D5-317E-4E8B-B929-8FCEC9F68BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6997E2D5-317E-4E8B-B929-8FCEC9F68BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6997E2D5-317E-4E8B-B929-8FCEC9F68BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6997E2D5-317E-4E8B-B929-8FCEC9F68BAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
