@@ -13,11 +13,14 @@ namespace Synthesis.Registry.MutagenScraper;
 
 public class CleanRemovedPatchers
 {
+    private readonly PatcherDeadTester _patcherDeadTester;
     private readonly ISynthesisDependentsProvider _dependentsProvider;
 
     public CleanRemovedPatchers(
+        PatcherDeadTester patcherDeadTester,
         ISynthesisDependentsProvider dependentsProvider)
     {
+        _patcherDeadTester = patcherDeadTester;
         _dependentsProvider = dependentsProvider;
     }
 
@@ -31,7 +34,6 @@ public class CleanRemovedPatchers
         IReadOnlySet<ListingKey> removed;
         using (HttpClient client = new HttpClient())
         {
-            
             var waitLock = new SemaphoreSlim(5); // max 5 concurrent requests
             removed = (await Task.WhenAll(existingListings.Repositories
                     .Select(x => new ListingKey(x.User, x.Repository))
@@ -52,22 +54,18 @@ public class CleanRemovedPatchers
     private async Task<ListingKey?> ReturnIfMissing(HttpClient client, ListingKey listing, SemaphoreSlim waitLock)
     {
         await waitLock.WaitAsync();
-        
-        var url = $"https://github.com/{listing.User}/{listing.Repository}";
-        
-        HttpResponseMessage response = await client.SendAsync(
-            new HttpRequestMessage(HttpMethod.Head, url)
-        );
+
+        var isDead = await _patcherDeadTester.IsDead(client, listing);
 
         // Don't spam
         await Task.Delay(250);
-
-        if (response.StatusCode != HttpStatusCode.NotFound)
-        {
-            return null;
-        }
         
-        Console.WriteLine("Removing missing patcher: " + url);
-        return listing;
+        if (isDead)
+        {
+            Console.WriteLine("Removing missing patcher: " + listing);
+            return listing;
+        }
+
+        return null;
     }
 }

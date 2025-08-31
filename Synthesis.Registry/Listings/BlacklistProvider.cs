@@ -12,12 +12,20 @@ namespace Synthesis.Registry.MutagenScraper.Listings;
 
 public class BlacklistProvider
 {
+    private readonly TargetDirectory _targetDirectory;
+    public string Path => System.IO.Path.Combine(_targetDirectory.Path, "blacklist.json");
+
+    public BlacklistProvider(TargetDirectory targetDirectory)
+    {
+        _targetDirectory = targetDirectory;
+    }
+    
     public async Task<GetResponse<BlacklistLookup>> Get()
     {
         try
         {
             var manual = JsonSerializer.Deserialize<BlacklistListings>(
-                await File.ReadAllTextAsync("blacklist.json"))!;
+                await File.ReadAllTextAsync(Path))!;
             return new BlacklistLookup(manual.Blacklist.ToList());
         }
         catch (Exception ex)
@@ -41,6 +49,13 @@ public class BlacklistLookup
     public bool IsBlacklisted(Dependent dependent)
     {
         if (dependent.User == null || dependent.Repository == null) return false;
+        if (!_dict.TryGetValue(dependent.User, out var repos)) return false;
+        if (repos.Count == 0) return true;
+        return repos.Contains(dependent.Repository);
+    }
+
+    public bool IsBlacklisted(ListingKey dependent)
+    {
         if (!_dict.TryGetValue(dependent.User, out var repos)) return false;
         if (repos.Count == 0) return true;
         return repos.Contains(dependent.Repository);

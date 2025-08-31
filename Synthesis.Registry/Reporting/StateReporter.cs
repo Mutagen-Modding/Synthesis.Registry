@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.IO.Abstractions;
 using System.Linq;
@@ -15,18 +14,22 @@ public class StateReporter
 {
     private readonly IFileSystem _fileSystem;
     private readonly JsonSerializerOptionsProvider _jsonOptions;
+    private readonly TargetDirectory _targetDirectory;
     private readonly ISynthesisDependentsProvider _dependentsProvider;
     private readonly Dictionary<ListingKey, Listing> _listings = new();
 
     public record Listing(string? OverallExcludeReason, Dictionary<string, ProjectReportListing> Projects);
 
-    public string JsonPath => "scrape-state.json";
-    public string TxtPath => "scrape-state.txt";
+    public string JsonPath => System.IO.Path.Combine(_targetDirectory.Path, "scrape-state.json");
+    public string TxtPath => System.IO.Path.Combine(_targetDirectory.Path, "scrape-state.txt");
 
     public StateReporter(
+        TargetDirectory targetDirectory,
         ISynthesisDependentsProvider dependentsProvider, 
-        JsonSerializerOptionsProvider jsonOptions, IFileSystem fileSystem)
+        JsonSerializerOptionsProvider jsonOptions,
+        IFileSystem fileSystem)
     {
+        _targetDirectory = targetDirectory;
         _dependentsProvider = dependentsProvider;
         _jsonOptions = jsonOptions;
         _fileSystem = fileSystem;

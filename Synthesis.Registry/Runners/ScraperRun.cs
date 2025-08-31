@@ -7,7 +7,7 @@ using Synthesis.Registry.MutagenScraper.Construction;
 using Synthesis.Registry.MutagenScraper.Listings;
 using Synthesis.Registry.MutagenScraper.Reporting;
 
-namespace Synthesis.Registry.MutagenScraper;
+namespace Synthesis.Registry.MutagenScraper.Runners;
 
 public class ScraperRun
 {
@@ -61,12 +61,7 @@ public class ScraperRun
         }
 
         // Write out the results
-        _listingsExport.Write(new MutagenPatchersListing()
-        {
-            Repositories = outbound.Values
-                .OrderBy(x => x.Repository)
-                .ToArray()
-        });
+        _listingsExport.Write(outbound.Values);
         await _stateReporter.Export();
     }
 }

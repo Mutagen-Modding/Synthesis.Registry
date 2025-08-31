@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO.Abstractions;
+using System.Linq;
 using System.Text.Json;
 using Synthesis.Bethesda.DTO;
 
@@ -20,7 +22,17 @@ public class ExportListings
         _pathProvider = pathProvider;
         _jsonOptions = jsonOptions;
     }
-        
+
+    public void Write(IEnumerable<RepositoryListing> listings)
+    {
+        Write(new MutagenPatchersListing()
+        {
+            Repositories = listings
+                .OrderBy(x => x.Repository)
+                .ToArray()
+        });
+    }
+    
     public void Write(MutagenPatchersListing listings)
     {
         var txt = JsonSerializer.Serialize(
