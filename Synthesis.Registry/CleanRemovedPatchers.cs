@@ -53,19 +53,26 @@ public class CleanRemovedPatchers
 
     private async Task<ListingKey?> ReturnIfMissing(HttpClient client, ListingKey listing, SemaphoreSlim waitLock)
     {
-        await waitLock.WaitAsync();
-
-        var isDead = await _patcherDeadTester.IsDead(client, listing);
-
-        // Don't spam
-        await Task.Delay(250);
-        
-        if (isDead)
+        try
         {
-            Console.WriteLine("Removing missing patcher: " + listing);
-            return listing;
-        }
+            await waitLock.WaitAsync();
 
-        return null;
+            var isDead = await _patcherDeadTester.IsDead(client, listing);
+
+            // Don't spam
+            await Task.Delay(250);
+        
+            if (isDead)
+            {
+                Console.WriteLine("Removing missing patcher: " + listing);
+                return listing;
+            }
+
+            return null;
+        }
+        finally
+        {
+            waitLock.Release();
+        }
     }
 }
