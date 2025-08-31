@@ -33,7 +33,6 @@ public class CleanRemovedPatchers
         {
             
             var waitLock = new SemaphoreSlim(5); // max 5 concurrent requests
-            var test = await ReturnIfMissing(client, new ListingKey("Noggog", "Mutagen"), waitLock);
             removed = (await Task.WhenAll(existingListings.Repositories
                     .Select(x => new ListingKey(x.User, x.Repository))
                 .Where(x => !listedSet.Contains(x))
