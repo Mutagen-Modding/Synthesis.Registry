@@ -3904,6 +3904,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "ItemOwnershipPatcher/ItemOwnershipPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/231076362?s=40\u0026amp;v=4",
+      "User": "MontyBellroy",
+      "Repository": "ItemOwnershipPatcher",
+      "Sha": "f566678ca4c4782148611f4b5b36314db82ff68f",
+      "LastUpdatedRunNumber": 53200
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "ItemRenamer",
             "Visibility": "Visible",
