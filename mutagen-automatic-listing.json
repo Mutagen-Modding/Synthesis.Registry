@@ -3558,6 +3558,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "stop-sine/How-Hard-Is-This-Persuasion-Check",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "HowHardIsThisPersuasionCheck/HowHardIsThisPersuasionCheck.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/57299283?s=40\u0026amp;v=4",
+      "User": "stop-sine",
+      "Repository": "How-Hard-Is-This-Persuasion-Check",
+      "Sha": "4a035e3ad1d6987d0778caeef09e870bb75bf46a",
+      "LastUpdatedRunNumber": 53589
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "HP_NPC_WIGS_TO_HEADPART",
             "Visibility": "Visible",
             "OneLineDescription": "Convert Wigs to hair headpart",
