@@ -3555,12 +3555,30 @@
       "LastUpdatedRunNumber": 31427
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "stop-sine/How-Hard-Is-This-Persuasion-Check",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "HowHardIsThisPersuasionCheck/HowHardIsThisPersuasionCheck.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/57299283?s=40\u0026amp;v=4",
       "User": "stop-sine",
       "Repository": "How-Hard-Is-This-Persuasion-Check",
-      "Sha": "309cdaced6fbadebba97ad44846320855dc099f2",
-      "LastUpdatedRunNumber": 53610
+      "Sha": "b48046d8df565c0cff7ccc83e0d4ceec6cc03a30",
+      "LastUpdatedRunNumber": 53615
     },
     {
       "Patchers": [
