@@ -1330,12 +1330,32 @@
       "LastUpdatedRunNumber": 38229
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "ConversationsRaiseSpeechcraft",
+            "Visibility": "Visible",
+            "OneLineDescription": "A patcher to implement Conversations Raise Speechcraft ",
+            "LongDescription": "A patcher for Skyrim: Special Edition to implement Conversations Raise Speechcraft using Synthesis",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "ConversationsRaiseSpeechcraft/ConversationsRaiseSpeechcraft.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/57299283?s=40\u0026amp;v=4",
       "User": "stop-sine",
       "Repository": "Conversations-Raise-Speechcraft",
-      "Sha": "ab8b8ab346a3f61a711fc330075c4339442ae555",
-      "LastUpdatedRunNumber": 53624
+      "Sha": "d899b6d1900f079e23f7d7d7af4462e708e84ab3",
+      "LastUpdatedRunNumber": 53633
     },
     {
       "Patchers": [
