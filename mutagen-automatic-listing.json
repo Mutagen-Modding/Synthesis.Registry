@@ -1334,8 +1334,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/57299283?s=40\u0026amp;v=4",
       "User": "stop-sine",
       "Repository": "Conversations-Raise-Speechcraft",
-      "Sha": "6226e89c408c75d02354a054854ebbb3829ff6d9",
-      "LastUpdatedRunNumber": 53623
+      "Sha": "ab8b8ab346a3f61a711fc330075c4339442ae555",
+      "LastUpdatedRunNumber": 53624
     },
     {
       "Patchers": [
@@ -3566,14 +3566,14 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "stop-sine/How-Hard-Is-This-Persuasion-Check",
+            "Nickname": "HowHardIsThisPersuasionCheck",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "A patcher to implement How Hard Is This Persuasion Check",
+            "LongDescription": "A patcher for Skyrim: Special Edition to implement How Hard Is This Persuasion Check using Synthesis",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
-              "SkyrimSE"
+              "SkyrimSEGog"
             ]
           },
           "ProjectPath": "HowHardIsThisPersuasionCheck/HowHardIsThisPersuasionCheck.csproj",
@@ -3585,8 +3585,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/57299283?s=40\u0026amp;v=4",
       "User": "stop-sine",
       "Repository": "How-Hard-Is-This-Persuasion-Check",
-      "Sha": "61609fb4e578e6849ebbef309f4b6ce1708aed25",
-      "LastUpdatedRunNumber": 53619
+      "Sha": "18c7a3443b29b049c9b1a0aedafed41d4b5c6101",
+      "LastUpdatedRunNumber": 53624
     },
     {
       "Patchers": [
@@ -5329,8 +5329,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "d1d253d8d9a1bb901ae624211e2574dad27dc929",
-      "LastUpdatedRunNumber": 53598
+      "Sha": "9768d06ac52cb9998887ba3a8e9b526d0703cb46",
+      "LastUpdatedRunNumber": 53624
     },
     {
       "Patchers": [
