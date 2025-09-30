@@ -5116,7 +5116,7 @@
             "Nickname": "hydraaawr/Non-Exploitable-Torches---Synthesis-Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Non-Exploitable Torches Torch Patcher",
-            "LongDescription": "Patches Torch01 to 0 duration, keeping the rest of winning entries added by light mods",
+            "LongDescription": "Patches Torches to 0 duration, keeping the rest of winning entries added by light mods",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -5132,8 +5132,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/130935760?s=40\u0026amp;v=4",
       "User": "hydraaawr",
       "Repository": "Non-Exploitable-Torches---Synthesis-Patcher",
-      "Sha": "5b3314ef3b9abc03ba5ca0b1da538a4e0276d107",
-      "LastUpdatedRunNumber": 52960
+      "Sha": "0599c35c787b45e3d8d54ec71974786083680d81",
+      "LastUpdatedRunNumber": 53698
     },
     {
       "Patchers": [
