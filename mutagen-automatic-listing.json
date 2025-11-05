@@ -5033,6 +5033,36 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "NavmeshCollector-Updated",
+            "Visibility": "Visible",
+            "OneLineDescription": "Collects winning navmesh records into 1 ESP.",
+            "LongDescription": "When ran against a load order, it simply collects all the winning Navmesh records in both exterior and interior spaces to allow easier creation of a nav patch.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "NavmeshCollector/NavmeshCollector.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/57299283?s=40\u0026amp;v=4",
+      "User": "stop-sine",
+      "Repository": "Navmesh-Collector",
+      "Sha": "db39bc63bbc9688a62e24177a3e88bb18ab0934b",
+      "LastUpdatedRunNumber": 54538
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Nights Adjuster",
             "Visibility": "Visible",
             "OneLineDescription": "Weather night adjustment patcher",
