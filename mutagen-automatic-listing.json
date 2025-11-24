@@ -3998,6 +3998,33 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "ItemRenamer-Fallout4",
+            "Visibility": "Visible",
+            "OneLineDescription": "Renames Fallout 4 records based on user-provided JSON mappings.",
+            "LongDescription": "Renames Fallout 4 records according to user-configurable JSON mapping files.\r\n\r\nSupported record types: Weapons, Ammunition, Armor, Books, Object Modifications, Components, Misc items.\r\n\r\nPlace JSON mapping files in the Synthesis extra settings data folder (the patcher first merges files under a \u0060Default\u0060 subfolder, then files in the main folder). Example path for local testing: C:/../Synthesis/Data/Fallout 4/ItemRenamer.\r\n\rConfiguration:\n\rTo add suport for additional mods, or to change a name definition, simply create one or more json files in the patcher data directory, and they will be read in alphabetical order by file name.\n\rFor instance, you could create a file called CustomRules.json in the C:/../Synthesis/Data/Fallout 4/ItemRenamer directory.\n\rIf, for instance, you wanted to change the name of the 10mm item from Gold to 10mm Cool Pistol, you could put:\r\n\r\n\u0060\u0060\u0060\u0022004822:Fallout4.esm\u0022: \u002210mm Cool Pistol\u0022,\u0060\u0060\u0060\r\n\r\non a line in that file, along with the opening and closing JSON braces. In this case, 004822 is the FormID of the 10mm item as seen in xEdit, without the load order index, and Fallout4.esm is the plugin or master file where the item was originally defined. Finally the last part of the line is what you would like to rename the item to. Finally, don\u0027t forget to add commas after all lines except the last, as well as opening and closing curly braces to each file.\r\n\r\nYou can browse the rules included in Default folder in the patcher data folder for more examples.\r\n",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4",
+              "Fallout4VR"
+            ]
+          },
+          "ProjectPath": "ItemRenamer/ItemRenamer.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/108170095?s=40\u0026amp;v=4",
+      "User": "Akaixz",
+      "Repository": "ItemRenamer",
+      "Sha": "ec0ad8477a1f91605615bed6682843e776fd54f6",
+      "LastUpdatedRunNumber": 54954
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "ItemWeightCustomizer",
             "Visibility": "Visible",
             "OneLineDescription": "Customize and configure item weights",
