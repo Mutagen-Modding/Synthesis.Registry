@@ -6449,6 +6449,35 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "ReProccer Evolved",
+            "Visibility": "Visible",
+            "OneLineDescription": "Makes armor, weapons, ammunition, and ingredients from any mod compatible with T3nd0\u0027s Skyrim SE/AE Redone",
+            "LongDescription": "This is a C# version of the ReProccer Reborn, the automated SkyRe patch generator, intended for use with Synthesis. This patcher does the same as the original, plus it doesn\u0027t have the infamous 254 file limitation.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Skyrim AE Redone - Core.esm",
+              "Skyrim AE Redone - Main.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "ReProccerEvolved.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/76794313?s=40\u0026amp;v=4",
+      "User": "Ingvion",
+      "Repository": "reproccer-evolved",
+      "Sha": "6defc8467861ae5870aa458695e3430a1b50b948",
+      "LastUpdatedRunNumber": 55228
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Requiem-Experience",
             "Visibility": "Visible",
             "OneLineDescription": "Patcher for Experience mod, most suitable for Requiem",
