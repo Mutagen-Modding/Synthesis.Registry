@@ -6471,8 +6471,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/76794313?s=40\u0026amp;v=4",
       "User": "Ingvion",
       "Repository": "reproccer-evolved",
-      "Sha": "744412a711d923d3ac9fbb557344f7857bdaaaee",
-      "LastUpdatedRunNumber": 55565
+      "Sha": "dd48109e6600813626ea2f241b3ecb4c577d9afb",
+      "LastUpdatedRunNumber": 56007
     },
     {
       "Patchers": [
@@ -8134,47 +8134,6 @@
       "Repository": "StaffGenerator",
       "Sha": "13134f9f29aa14d121d06d18df9ba683dc919fbf",
       "LastUpdatedRunNumber": 31430
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "StarfieldConstructiblesDelevel",
-            "Visibility": "Visible",
-            "OneLineDescription": "Delevels all constructible objects",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "Starfield"
-            ]
-          },
-          "ProjectPath": "StarfieldConstructiblesDelevel/StarfieldConstructiblesDelevel.csproj",
-          "IncludedLibraries": [
-            "Starfield"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/4733259?s=40\u0026amp;v=4",
-      "User": "hierocles",
-      "Repository": "StarfieldConstructiblesDelevel",
-      "Sha": "28dc0241992495d6a5a1bc2924386bfe2d0a2b41",
-      "LastUpdatedRunNumber": 48591
-    },
-    {
-      "Patchers": [
-        {
-          "ProjectPath": "StarfieldDelevelled/StarfieldDelevelled.csproj",
-          "IncludedLibraries": [
-            "Starfield"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/4733259?s=40\u0026amp;v=4",
-      "User": "hierocles",
-      "Repository": "StarfieldDelevelled",
-      "Sha": "249ea90ec329b17be3c752de71e796dec559642a",
-      "LastUpdatedRunNumber": 48680
     },
     {
       "Patchers": [
