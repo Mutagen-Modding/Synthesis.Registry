@@ -1568,6 +1568,34 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "deveris256/Deveris.StarSystemRandomizer",
+            "Visibility": "Visible",
+            "OneLineDescription": "Randomize Stars",
+            "LongDescription": "Randomize Stars",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Starfield.esm"
+            ],
+            "TargetedReleases": [
+              "Starfield"
+            ]
+          },
+          "ProjectPath": "Deveris.StarSystemRandomizer/Deveris.StarSystemRandomizer.csproj",
+          "IncludedLibraries": [
+            "Starfield"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/157685334?s=40\u0026amp;v=4",
+      "User": "deveris256",
+      "Repository": "Deveris.StarSystemRandomizer",
+      "Sha": "4b7959aa8ac2322284ca35159e2ed0ab19a3416b",
+      "LastUpdatedRunNumber": 56082
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "DIAL-Patcher",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "Patcher for Dynamic Interior Ambient Lighting (DIAL).",
