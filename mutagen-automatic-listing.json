@@ -10196,6 +10196,21 @@
       "LastUpdatedRunNumber": 47328
     },
     {
+      "Patchers": [
+        {
+          "ProjectPath": "ContainerItemsPatcher/ContainerItemsPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/253012633?s=40\u0026amp;v=4",
+      "User": "cuddlyfleshpillow",
+      "Repository": "synthesis-container-items-patcher",
+      "Sha": "da35ac98333832562b25e8b6ff7e12e1b2dde150",
+      "LastUpdatedRunNumber": 56127
+    },
+    {
       "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/23498000?s=40\u0026amp;v=4",
       "User": "Benna96",
