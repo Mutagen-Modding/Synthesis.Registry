@@ -2868,6 +2868,14 @@
       "LastUpdatedRunNumber": 38383
     },
     {
+      "Patchers": [],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/130935760?s=40\u0026amp;v=4",
+      "User": "hydraaawr",
+      "Repository": "FormList-Synthesis-Patcher",
+      "Sha": "16045c441138ef2ad6e70be326269ed2c32d918b",
+      "LastUpdatedRunNumber": 56431
+    },
+    {
       "Patchers": [
         {
           "ProjectPath": "FreeFastTravel/FreeFastTravel.csproj",
@@ -5415,8 +5423,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "910be80dd25bfb32faffc2e5a72d7f431215c77a",
-      "LastUpdatedRunNumber": 56426
+      "Sha": "5113e1fa8daad87a909dc11e0ec34901d68b592b",
+      "LastUpdatedRunNumber": 56431
     },
     {
       "Patchers": [
@@ -11181,8 +11189,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/136510090?s=40\u0026amp;v=4",
       "User": "WastedFallout",
       "Repository": "WastedLoot",
-      "Sha": "d5edced85bb4dfff4ca838dd7f4945b84648c4d3",
-      "LastUpdatedRunNumber": 46841
+      "Sha": "32671eb372b38e8f28ad08386b401e81bf147178",
+      "LastUpdatedRunNumber": 56431
     },
     {
       "Patchers": [
