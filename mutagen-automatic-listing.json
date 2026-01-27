@@ -11180,6 +11180,18 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "WastedLoot",
+            "Visibility": "Visible",
+            "OneLineDescription": "Decimate loot placed in the world",
+            "LongDescription": "A Synthesis patcher to automatically remove placed loot in the world for a more challenging experience.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4",
+              "Fallout4VR"
+            ]
+          },
           "ProjectPath": "WastedLoot/WastedLoot.csproj",
           "IncludedLibraries": [
             "Fallout4"
@@ -11189,8 +11201,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/136510090?s=40\u0026amp;v=4",
       "User": "WastedFallout",
       "Repository": "WastedLoot",
-      "Sha": "32671eb372b38e8f28ad08386b401e81bf147178",
-      "LastUpdatedRunNumber": 56431
+      "Sha": "64aa5dcab304083c3b447b518fa2cb0a205236c2",
+      "LastUpdatedRunNumber": 56432
     },
     {
       "Patchers": [
