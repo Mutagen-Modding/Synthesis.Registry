@@ -2868,12 +2868,30 @@
       "LastUpdatedRunNumber": 38383
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "FormListSynthesisPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "FormList Synthesis Patcher",
+            "LongDescription": "Massively removes forms from FormLists in selected plugins using EditorID-based search",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "FormListSynthesisPatcher/FormListSynthesisPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/130935760?s=40\u0026amp;v=4",
       "User": "hydraaawr",
       "Repository": "FormList-Synthesis-Patcher",
-      "Sha": "ab40bf73f5bd22bd8a40cf883c41e8c4fad6711b",
-      "LastUpdatedRunNumber": 56470
+      "Sha": "d0470eaad693d787e303560e30d17f0bf08795c0",
+      "LastUpdatedRunNumber": 56471
     },
     {
       "Patchers": [
