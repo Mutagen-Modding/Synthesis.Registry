@@ -11199,6 +11199,60 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "WastedBosses",
+            "Visibility": "Visible",
+            "OneLineDescription": "Make specific NPCs Legendary",
+            "LongDescription": "Define a list of NPCs to make Legendary. They will mutate and drop Legendary gear.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4",
+              "Fallout4VR"
+            ]
+          },
+          "ProjectPath": "WastedBosses/WastedBosses.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/136510090?s=40\u0026amp;v=4",
+      "User": "WastedFallout",
+      "Repository": "WastedBosses",
+      "Sha": "00b86302de7865c160e94e4d221d339e9bc1c6bb",
+      "LastUpdatedRunNumber": 56899
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "WastedCompanions",
+            "Visibility": "Visible",
+            "OneLineDescription": "Buff Fallout 4 companions with various perks and stats.",
+            "LongDescription": "Patch all potential companions in Fallout 4 with various perks, actor values, and keywords.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4",
+              "Fallout4VR"
+            ]
+          },
+          "ProjectPath": "WastedCompanions/WastedCompanions.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/136510090?s=40\u0026amp;v=4",
+      "User": "WastedFallout",
+      "Repository": "WastedCompanions",
+      "Sha": "b580490fc0896a31fd7d49dbcff77bdd7f25bc32",
+      "LastUpdatedRunNumber": 56899
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "WastedEncounters",
             "Visibility": "Visible",
             "OneLineDescription": "Dynamically scale or uncap Encounter Zones for Fallout 4",
