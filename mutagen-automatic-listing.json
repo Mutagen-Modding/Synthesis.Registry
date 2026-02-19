@@ -11199,6 +11199,33 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "WastedEncounters",
+            "Visibility": "Visible",
+            "OneLineDescription": "Dynamically scale or uncap Encounter Zones for Fallout 4",
+            "LongDescription": "Manually or automatically adjust the minimum and maximum levels of all Encounter Zones in Fallout 4. Also optionally adjust the difficulty of NPC spawns based on the Encounter Zone level. By default, the settings will make Encounter Zones more difficult than Vanilla. Recommended to use along side the \u0027Encounter Zone Recalculation\u0027 mod.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Fallout4",
+              "Fallout4VR"
+            ]
+          },
+          "ProjectPath": "WastedEncounters/WastedEncounters.csproj",
+          "IncludedLibraries": [
+            "Fallout4"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/136510090?s=40\u0026amp;v=4",
+      "User": "WastedFallout",
+      "Repository": "WastedEncounters",
+      "Sha": "eda787e527e18b19841c2eb1a402c04a4f236135",
+      "LastUpdatedRunNumber": 56898
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "WastedLoot",
             "Visibility": "Visible",
             "OneLineDescription": "Decimate loot placed in the world",
@@ -11219,8 +11246,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/136510090?s=40\u0026amp;v=4",
       "User": "WastedFallout",
       "Repository": "WastedLoot",
-      "Sha": "64aa5dcab304083c3b447b518fa2cb0a205236c2",
-      "LastUpdatedRunNumber": 56432
+      "Sha": "ff286dd9462511bde5ba1133e385a8a7d3da0312",
+      "LastUpdatedRunNumber": 56898
     },
     {
       "Patchers": [
