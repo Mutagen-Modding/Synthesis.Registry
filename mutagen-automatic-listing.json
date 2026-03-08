@@ -745,6 +745,37 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "BardsCollegeExpansionAutoPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "A WIP patcher for Kinggath Creations\u0027 Bards College Expansion.",
+            "LongDescription": "This is a Synthesis patcher for the Bards College Expansion mod for Skyrim Special Edition.\n\nProcess:\n\nBards College Cell:\n- Phase 2: Move New References into BCE Cell\n- Phase 3: Sync changes to matching references and cell records\n- Phase 4: Swap cell/reference pointers in other plugins\n- Phase 5: Sync changes to doors\n\nWinking Skeever Cell:\n- Phase 2: Copy (not move) new references into BCE cell\n- Phase 3: Sync changes to matching references and cell records\n- Phase 4: Swap cell/reference pointers only within cloned records and/or bce cell\n- Phase 5: skip\n\nTo Do:\n- Add support for custom races\n- Investigate support for non-WS tavern overhauls",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "kinggathcreations_bard.esm"
+            ],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "BardsCollegeExpansionAutoPatcher/BardsCollegeExpansionAutoPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/8103445?s=40\u0026amp;v=4",
+      "User": "cavy8",
+      "Repository": "Bards-College-Expansion-Auto-Patcher",
+      "Sha": "5e50c0e9bdc35de28980fbd365c59f2cba890774",
+      "LastUpdatedRunNumber": 57256
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "BDSPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Better Dynamic Snow v2.x Synthesis Patcher for Skyrim SE",
