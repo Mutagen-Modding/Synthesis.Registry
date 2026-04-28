@@ -6401,6 +6401,33 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Unique Region Names",
+            "Visibility": "Visible",
+            "OneLineDescription": "Relabels exterior region names from Skyrim to thier actual region name.",
+            "LongDescription": "This patcher relabels exterior region names to thier actual region name. This requires Regional Save Names by powerofthree to be installed. It should probably not be used in conjunction with other mods that do the same or similar things (this includes the original Unique Region Names).",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "Patcher/Patcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/3871654?s=40\u0026amp;v=4",
+      "User": "langfod",
+      "Repository": "region-names-patcher",
+      "Sha": "0bdf90d0c61d043292c1c0c7909234bba84ea4e8",
+      "LastUpdatedRunNumber": 58221
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "Regional-Rock-Patcher",
             "Visibility": "IncludeButHide",
             "OneLineDescription": "Patcher for Regional Rock Rampage.",
