@@ -5472,8 +5472,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "96bf937611559768a43e5efb8ec23d6a293b102a",
-      "LastUpdatedRunNumber": 58261
+      "Sha": "6e2425e729b6ed2ae8a52826e3049a52bf6822dd",
+      "LastUpdatedRunNumber": 58296
     },
     {
       "Patchers": [
@@ -6396,33 +6396,6 @@
       "Repository": "region-names-patcher",
       "Sha": "1a4cb7ed3036493abf0409f6ae34f5b4d9bbc172",
       "LastUpdatedRunNumber": 49146
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Unique Region Names",
-            "Visibility": "Visible",
-            "OneLineDescription": "Relabels exterior region names from Skyrim to thier actual region name.",
-            "LongDescription": "This patcher relabels exterior region names to thier actual region name. This requires Regional Save Names by powerofthree to be installed. It should probably not be used in conjunction with other mods that do the same or similar things (this includes the original Unique Region Names).",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "Patcher/Patcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/3871654?s=40\u0026amp;v=4",
-      "User": "langfod",
-      "Repository": "region-names-patcher",
-      "Sha": "0bdf90d0c61d043292c1c0c7909234bba84ea4e8",
-      "LastUpdatedRunNumber": 58221
     },
     {
       "Patchers": [
