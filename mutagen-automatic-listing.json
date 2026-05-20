@@ -1022,81 +1022,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "CardmastersOfTamriel.Models/CardmastersOfTamriel.Models.csproj",
-          "IncludedLibraries": [
-            "Skyrim",
-            "Starfield"
-          ]
-        },
-        {
-          "ProjectPath": "CardmastersOfTamriel.SynthesisPatcher.Common/CardmastersOfTamriel.SynthesisPatcher.Common.csproj",
-          "IncludedLibraries": [
-            "Skyrim",
-            "Starfield"
-          ]
-        },
-        {
-          "Customization": {
-            "Nickname": "CardmastersOfTamriel.SynthesisPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "CardmastersOfTamriel.SynthesisPatcher/CardmastersOfTamriel.SynthesisPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        },
-        {
-          "Customization": {
-            "Nickname": "CardmastersOfTamriel.SynthesisPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "CardmastersOfTamriel.Utilities/CardmastersOfTamriel.Utilities.csproj",
-          "IncludedLibraries": [
-            "Skyrim",
-            "Starfield"
-          ]
-        },
-        {
-          "Customization": {
-            "Nickname": "mc20/CardmastersOfTamriel",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "Starfield"
-            ]
-          },
-          "ProjectPath": "CardmastersOfTheStars.SynthesisPatcher/CardmastersOfTheStars.SynthesisPatcher.csproj",
-          "IncludedLibraries": [
-            "Starfield"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/2105853?s=40\u0026amp;v=4",
-      "User": "mc20",
-      "Repository": "CardmastersOfTamriel",
-      "Sha": "2d0efc3ebba19b7e1529d9806eeb3fd42dc200dc",
-      "LastUpdatedRunNumber": 49838
-    },
-    {
-      "Patchers": [
-        {
           "Customization": {
             "Nickname": "Cathedral - 3D Mountain Flowers Patch",
             "Visibility": "Visible",
@@ -1344,6 +1269,32 @@
       "Repository": "ConsumableSwapper",
       "Sha": "5970a2df315a32b1261d0ad45b75767987d12e9d",
       "LastUpdatedRunNumber": 52436
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "Container and Loot Patcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Tweaks and compatibility fixes for Container and Leveled Item loot records.",
+            "LongDescription": "A collection of independently-toggleable tweaks and compatibility patches for Skyrim\u0027s Container and Leveled Item loot records. Currently includes: reverting \u0027Scarcity - Less Loot Mod\u0027 changes on boss-tagged Leveled Lists, stripping gold (and pure-gold leveled lists) out of Containers, and propagating the \u0022Lock Related Loot\u0022 changes to the patch.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "ContainerAndLootPatcher/ContainerAndLootPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/44481649?s=40\u0026amp;v=4",
+      "User": "Delfofthebla",
+      "Repository": "ContainerAndLootPatcher",
+      "Sha": "5efa036ccc075167b8631de7811594871d7be7ac",
+      "LastUpdatedRunNumber": 58515
     },
     {
       "Patchers": [
