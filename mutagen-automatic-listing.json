@@ -1276,8 +1276,8 @@
           "Customization": {
             "Nickname": "Container and Loot Patcher",
             "Visibility": "Visible",
-            "OneLineDescription": "Tweaks and compatibility fixes for Container and Leveled Item loot records.",
-            "LongDescription": "A collection of independently-toggleable tweaks and compatibility patches for Skyrim\u0027s Container and Leveled Item loot records. Currently includes: reverting \u0027Scarcity - Less Loot Mod\u0027 changes on boss-tagged Leveled Lists, stripping gold (and pure-gold leveled lists) out of Containers, and propagating the \u0022Lock Related Loot\u0022 changes to the patch.",
+            "OneLineDescription": "Tweaks and compatibility fixes for Container and Leveled List loot records.",
+            "LongDescription": "A collection of independently-toggleable tweaks and compatibility patches for Skyrim\u0027s Container and Leveled List loot records. Currently includes: bypassing \u0027Scarcity - Less Loot Mod\u0027 on boss containers and NPCs, stripping gold (and pure-gold Leveled Lists) out of Containers, and propagating the \u0022Lock Related Loot\u0022 changes to the patch.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -1293,8 +1293,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/44481649?s=40\u0026amp;v=4",
       "User": "Delfofthebla",
       "Repository": "ContainerAndLootPatcher",
-      "Sha": "5efa036ccc075167b8631de7811594871d7be7ac",
-      "LastUpdatedRunNumber": 58515
+      "Sha": "22589f3474d77721428c753a04c568a1907ed2a1",
+      "LastUpdatedRunNumber": 58516
     },
     {
       "Patchers": [
