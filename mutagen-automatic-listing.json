@@ -5737,6 +5737,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "OppositeAnimationDisabler/OppositeAnimationDisabler.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/284662309?s=40\u0026amp;v=4",
+      "User": "foodcote041-lang",
+      "Repository": "oppositeanimationdisabler",
+      "Sha": "cd534d03573e803cd815de1232091ed7a97faf5a",
+      "LastUpdatedRunNumber": 58532
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "OutfitPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim",
