@@ -7383,6 +7383,34 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "Darker Weather Nights",
+            "Visibility": "Visible",
+            "OneLineDescription": "Darkens night-time Skyrim weather colors.",
+            "LongDescription": "Scales night-time WTHR and referenced VOLI color values using configurable multipliers.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "DarkerWeatherNights/DarkerWeatherNights.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1075070?s=40\u0026amp;v=4",
+      "User": "vadimtrifonov",
+      "Repository": "SkyrimDarkerWeatherNights",
+      "Sha": "5b129d4072634312d436b3a82a1b2e4ceb6e4ffc",
+      "LastUpdatedRunNumber": 58566
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "SkyrimPotionGenerator/SkyrimPotionGenerator.csproj",
           "IncludedLibraries": [
             "Skyrim"
