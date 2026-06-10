@@ -4559,6 +4559,34 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "MadAborManual",
+            "Visibility": "Visible",
+            "OneLineDescription": "Non-Skypatcher Version of EC and SAR",
+            "LongDescription": "Non-Skypatcher Version of EC and SAR.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "MadAborManual/MadAborManual.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026amp;v=4",
+      "User": "tomnGithub",
+      "Repository": "MadAborManual",
+      "Sha": "3add6e86d62aff8f289fddb7ac3ed20043d1a831",
+      "LastUpdatedRunNumber": 58731
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "MagicDoesThings",
             "Visibility": "Visible",
             "OneLineDescription": "Compatibility patcher for Magic Does Things mod",
