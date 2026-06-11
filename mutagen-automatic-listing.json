@@ -5477,8 +5477,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "cabfd2abc0f36a3e0de52779f4c0d40b145983d2",
-      "LastUpdatedRunNumber": 58692
+      "Sha": "dba87b7b7270aeb4d80c69d1c2db3ad0550faccd",
+      "LastUpdatedRunNumber": 58734
     },
     {
       "Patchers": [
@@ -7933,34 +7933,6 @@
       "User": "jdsmith2816",
       "Repository": "spellabsorbfix",
       "Sha": ""
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "SpellAbsorptionReworkSynth",
-            "Visibility": "Visible",
-            "OneLineDescription": "Optional Compatibility Patcher for Spell Absorption Rework",
-            "LongDescription": "Optional Compatibility Patcher for Spell Absorption Rework.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE",
-              "SkyrimVR",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "SpellAbsorptionReworkSynth/SpellAbsorptionReworkSynth.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026amp;v=4",
-      "User": "tomnGithub",
-      "Repository": "SpellAbsorptionReworkSynth",
-      "Sha": "6aad9ab33925c3570ce78f2e77fc42155c8c3eaf",
-      "LastUpdatedRunNumber": 48751
     },
     {
       "Patchers": [
