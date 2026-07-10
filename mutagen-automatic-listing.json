@@ -11100,6 +11100,34 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "Unofficial Reqtificator Lite",
+            "Visibility": "Visible",
+            "OneLineDescription": "Reqtify NPCs in Synthesis",
+            "LongDescription": "Patcher that mimics some of the functions of the Reqtificator, allows you to patch selected ESPs.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "unofficialReqtificatorLite/unofficialReqtificatorLite.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/105111707?s=40\u0026amp;v=4",
+      "User": "wmzj",
+      "Repository": "unofficialReqtificatorLite",
+      "Sha": "1598dee21ac8b3257ba8e284f1568602d125e41f",
+      "LastUpdatedRunNumber": 59025
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "UnusedAmmoRemover",
             "Visibility": "Visible",
             "OneLineDescription": "Removes all unused ammunition types from the game.",
