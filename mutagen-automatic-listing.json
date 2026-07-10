@@ -1404,7 +1404,7 @@
       "User": "SDKE13",
       "Repository": "ConvertNPCVisualReplacerToSkyPatcher",
       "Sha": "124bf52742333d5196b77fc851cfbb885876c64c",
-      "LastUpdatedRunNumber": 47295
+      "LastUpdatedRunNumber": 59029
     },
     {
       "Patchers": [
@@ -1678,7 +1678,7 @@
       "User": "kundrun",
       "Repository": "DIAL-Patcher",
       "Sha": "81b36642e9270ea7875d3b4bf1997a9137a1088f",
-      "LastUpdatedRunNumber": 49720
+      "LastUpdatedRunNumber": 59029
     },
     {
       "Patchers": [],
@@ -1873,7 +1873,7 @@
       "User": "tomnGithub",
       "Repository": "dynamicStatScaler",
       "Sha": "4fd07851acfc6be3915770787af7ef2a2d083363",
-      "LastUpdatedRunNumber": 48412
+      "LastUpdatedRunNumber": 59029
     },
     {
       "Patchers": [
@@ -3215,7 +3215,7 @@
       "User": "tkoopman",
       "Repository": "GoriSynthCommon",
       "Sha": "bf0f49e45a99ea993673bc13d8c361ba2b76187e",
-      "LastUpdatedRunNumber": 52335
+      "LastUpdatedRunNumber": 59029
     },
     {
       "Patchers": [
@@ -3407,7 +3407,7 @@
       "User": "ExiledEye",
       "Repository": "HarmonizedRaceHeights-Patcher",
       "Sha": "f4f7ae017a4fe934b745c25942a9324af0725833",
-      "LastUpdatedRunNumber": 48078
+      "LastUpdatedRunNumber": 59029
     },
     {
       "Patchers": [
@@ -3749,7 +3749,7 @@
       "User": "AndbGame",
       "Repository": "HP_NPC_WIGS_TO_HEADPART",
       "Sha": "c315a5fff0dd70182d915d4f8b7b2d59333e2979",
-      "LastUpdatedRunNumber": 48071
+      "LastUpdatedRunNumber": 59029
     },
     {
       "Patchers": [
@@ -3806,7 +3806,7 @@
       "User": "TRIBeagle",
       "Repository": "HumanoidWerewolvesNPCPatch",
       "Sha": "5b324d04dac906427bbfe1baa5d89e8050fe606a",
-      "LastUpdatedRunNumber": 55270
+      "LastUpdatedRunNumber": 59029
     },
     {
       "Patchers": [
@@ -5328,7 +5328,7 @@
       "User": "poperigby",
       "Repository": "northern-roads-grass-remover",
       "Sha": "a439e568122e4829d862e16403f397d4df24f32b",
-      "LastUpdatedRunNumber": 47080
+      "LastUpdatedRunNumber": 59029
     },
     {
       "Patchers": [
@@ -6418,7 +6418,7 @@
       "User": "gnguyen",
       "Repository": "RecipeIngredientRemover",
       "Sha": "0f4225adab5543799ce81e020e51c22823e2aca6",
-      "LastUpdatedRunNumber": 49621
+      "LastUpdatedRunNumber": 59029
     },
     {
       "Patchers": [
@@ -6700,7 +6700,7 @@
       "User": "Exouth",
       "Repository": "RequiemAutoMagicPatcher",
       "Sha": "a6e8eb87eeb7fc3ecabeaf28b70a861fb9023a78",
-      "LastUpdatedRunNumber": 49017
+      "LastUpdatedRunNumber": 59029
     },
     {
       "Patchers": [
@@ -8310,7 +8310,7 @@
       "User": "studioph",
       "Repository": "StaticPatcher",
       "Sha": "c2eab6dda01edf65bde184759386a0b379933f14",
-      "LastUpdatedRunNumber": 48431
+      "LastUpdatedRunNumber": 59029
     },
     {
       "Patchers": [
@@ -10225,7 +10225,7 @@
       "User": "tkoopman",
       "Repository": "SynthCALIO",
       "Sha": "e534cf401313a1d76c8f30c1578ac9d0dbc75070",
-      "LastUpdatedRunNumber": 51994
+      "LastUpdatedRunNumber": 59029
     },
     {
       "Patchers": [
