@@ -894,11 +894,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/34814079?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/34814079?s=40\u0026v=4",
       "User": "SansyManno",
       "Repository": "BKP-SunjeongEdit",
       "Sha": "002da9c960a03319b94209427d48ec03992ff6b7",
-      "LastUpdatedRunNumber": 38763
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -2084,11 +2084,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/44883930?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/44883930?s=40\u0026v=4",
       "User": "BitterlyIronic",
       "Repository": "EnchPopulator",
       "Sha": "b2527440f9a762744972eeb730c6a92249f7826c",
-      "LastUpdatedRunNumber": 43785
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -3429,11 +3429,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026v=4",
       "User": "Synthesis-Collective",
       "Repository": "HappyCRappy",
       "Sha": "fe6b18d4b66acb22eb26736cdd58f53fcd03421d",
-      "LastUpdatedRunNumber": 39176
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -4031,11 +4031,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026v=4",
       "User": "studioph",
       "Repository": "ImmersiveMusicPatcher",
       "Sha": "3f0eafe23dcc73558c15b2b7e2acbe15ec718cec",
-      "LastUpdatedRunNumber": 46194
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -4431,11 +4431,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026v=4",
       "User": "CritLoren",
       "Repository": "LeveledDeleter",
       "Sha": "6104403d6307f7caccf10221e3d7df74aa217810",
-      "LastUpdatedRunNumber": 39108
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -5007,11 +5007,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026v=4",
       "User": "CritLoren",
       "Repository": "MiscPatchers",
       "Sha": "6f477283c5d2199b5498815660cbf9deca6333f8",
-      "LastUpdatedRunNumber": 51061
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -5417,8 +5417,8 @@
           "Customization": {
             "Nickname": "NorthernRoadsPatcher",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Fixes terrain holes and resolves conflicts with Northern Roads by forwarding landscape records",
+            "LongDescription": "This patcher fixes terrain holes and resolves conflicts with Northern Roads by forwarding the last winning Northern Roads record. It is patch-aware and uses name heuristics to detect Northern Roads patches. The patcher searches for all landscape records where Northern Roads (or patches containing \u0027Northern Roads\u0027 in their name) has made changes, then forwards those landscape records along with associated cell data (water height, max height data, and occlusion data) to resolve conflicts and prevent terrain holes.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "Northern Roads.esp"
@@ -5433,11 +5433,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/46632782?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/46632782?s=40\u0026v=4",
       "User": "JunaMeinhold",
       "Repository": "NorthernRoadsPatcher",
-      "Sha": "3900202903fe15f752d3f73e523aa5a09ef3aefd",
-      "LastUpdatedRunNumber": 48491
+      "Sha": "303656736e5990f9d70db1d278279087f28e07e4",
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -5624,11 +5624,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026v=4",
       "User": "Synthesis-Collective",
       "Repository": "NPC-Transmogrifier",
       "Sha": "b6c0941364a50d9472a82735bb7b600c4cc0980b",
-      "LastUpdatedRunNumber": 38303
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -5855,11 +5855,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/19806549?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/19806549?s=40\u0026v=4",
       "User": "audriuska12",
       "Repository": "OBodyMerger",
       "Sha": "3f78cf4ea61a7b93f2072c7260593afe5bf3807c",
-      "LastUpdatedRunNumber": 52418
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -6021,11 +6021,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/3044522?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/3044522?s=40\u0026v=4",
       "User": "monyarm",
       "Repository": "Patchifier",
       "Sha": "a908ec602ab4402fc579d9a50979b22058976c10",
-      "LastUpdatedRunNumber": 40821
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -6115,11 +6115,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/104053582?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/104053582?s=40\u0026v=4",
       "User": "mod-kitchen",
       "Repository": "PipSaver",
       "Sha": "46cd9f007e8a14bfb359956990f0cef933de0a52",
-      "LastUpdatedRunNumber": 52426
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -6753,11 +6753,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/120683985?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/120683985?s=40\u0026v=4",
       "User": "JonnyJalapeno",
       "Repository": "RequiemArmorAddTool",
       "Sha": "a4a3ff2e881f35ee995b7248e676fd05265c51e7",
-      "LastUpdatedRunNumber": 39816
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -6805,11 +6805,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026v=4",
       "User": "tomnGithub",
       "Repository": "RequiemAutoNPCPatcher",
       "Sha": "b78b7a0aa7c324e980eb3dbad60cabc51f85aea5",
-      "LastUpdatedRunNumber": 47989
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -7773,11 +7773,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/140897136?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/140897136?s=40\u0026v=4",
       "User": "Bluwie2k",
       "Repository": "SLA-Replace-all-Transparent",
       "Sha": "a71a7480471a073a6bcf8ac3c581d76110c49162",
-      "LastUpdatedRunNumber": 40680
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -9653,11 +9653,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/6299495?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/6299495?s=40\u0026v=4",
       "User": "Excinerus",
       "Repository": "SynLimitedOres",
       "Sha": "20632611d9446b0fa6244d8b0629fe4955a7cd06",
-      "LastUpdatedRunNumber": 40520
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -10088,19 +10088,19 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/6299495?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/6299495?s=40\u0026v=4",
       "User": "Excinerus",
       "Repository": "SynSimpleEquipmentWeightAdjuster",
       "Sha": "81fd3e29d8a28f63fc2a63e9b0baf250de0bb0f3",
-      "LastUpdatedRunNumber": 39945
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/206784390?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/206784390?s=40\u0026v=4",
       "User": "kundrun",
       "Repository": "SynSimpleScrollTranscribingPatcher",
       "Sha": "76de18660183002a1deca0c4ef625334a777c969",
-      "LastUpdatedRunNumber": 49697
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [],
@@ -10265,11 +10265,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/113433?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/113433?s=40\u0026v=4",
       "User": "macronomicus",
       "Repository": "Synth-NPCsFaceDataFO4",
       "Sha": "420435e6dc5eba2a4f499ee4fab5034b809a3fdc",
-      "LastUpdatedRunNumber": 40004
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -10835,11 +10835,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/98499526?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/98499526?s=40\u0026v=4",
       "User": "iAmMe27",
       "Repository": "Tree-3D-Editor",
       "Sha": "b399e24dfcd6cc4c7c98116dac7c77ef3475fe8d",
-      "LastUpdatedRunNumber": 40766
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [
@@ -11401,11 +11401,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026v=4",
       "User": "CritLoren",
       "Repository": "VRMiningPatcher",
       "Sha": "bc00d140314ebb4c3a71e494048e485368baaa55",
-      "LastUpdatedRunNumber": 38448
+      "LastUpdatedRunNumber": 59064
     },
     {
       "Patchers": [],
