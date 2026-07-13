@@ -84,7 +84,7 @@ public class GitHubDependentListingsProvider
     private static Dependent? ParseRow(HtmlNode row)
     {
         var repoAnchor = row.SelectSingleNode(".//a[@data-hovercard-type='repository']");
-        var href = repoAnchor?.GetAttributeValue("href", null);
+        var href = repoAnchor?.GetAttributeValue("href", "");
         if (href.IsNullOrWhitespace()) return null;
 
         var parts = WebUtility.HtmlDecode(href).TrimStart('/').Split('/');
@@ -94,13 +94,13 @@ public class GitHubDependentListingsProvider
         }
 
         var avatar = row.SelectSingleNode(".//img[contains(@class, 'avatar')]")
-            ?.GetAttributeValue("src", null);
+            ?.GetAttributeValue("src", "");
 
         return new Dependent
         {
             User = parts[0],
             Repository = parts[1],
-            AvatarURL = avatar == null ? null : WebUtility.HtmlDecode(avatar),
+            AvatarURL = avatar.IsNullOrWhitespace() ? null : WebUtility.HtmlDecode(avatar),
         };
     }
 
@@ -113,7 +113,7 @@ public class GitHubDependentListingsProvider
         foreach (var anchor in anchors)
         {
             if (!anchor.InnerText.Trim().Equals("Next", StringComparison.OrdinalIgnoreCase)) continue;
-            var href = anchor.GetAttributeValue("href", null);
+            var href = anchor.GetAttributeValue("href", "");
             if (href.IsNullOrWhitespace()) return null;
             // Decode so "...&amp;package_id=..." keeps the package_id filter on the next request.
             return WebUtility.HtmlDecode(href);

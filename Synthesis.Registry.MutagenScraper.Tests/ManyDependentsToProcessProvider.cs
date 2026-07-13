@@ -2,7 +2,6 @@
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using FluentAssertions;
 using GitHubDependents;
 using Noggog;
 using NSubstitute;
@@ -27,11 +26,8 @@ public class ManyDependentsToProcessProvider
         return ret;
     }
 
-    private bool Equality(Dependent lhs, Dependent rhs)
-    {
-        return lhs.Repository == rhs.Repository
-               && lhs.User == rhs.User;
-    }
+    private static IEnumerable<(string? User, string? Repository)> Key(IEnumerable<Dependent> deps)
+        => deps.Select(x => (x.User, x.Repository));
 
     [Theory, BasicAutoData]
     public async Task Typical(Listings.Specialized.ManyDependentsToProcessProvider sut)
@@ -42,7 +38,7 @@ public class ManyDependentsToProcessProvider
         sut.DependentsProvider.Get().Returns(
             Task.FromResult((IReadOnlyList<Dependent>)listings.ToArray()));
         var result = sut.Get().ToEnumerable().Take(3);
-        result.Should().Equal(listings.Skip(3).Take(3), Equality);
+        Assert.Equal(Key(listings.Skip(3).Take(3)), Key(result));
     }
 
     [Theory, BasicAutoData]
@@ -54,7 +50,7 @@ public class ManyDependentsToProcessProvider
         sut.DependentsProvider.Get().Returns(
             Task.FromResult((IReadOnlyList<Dependent>)listings.ToArray()));
         var result = sut.Get().ToEnumerable().Take(3);
-        result.Should().Equal(new []{ listings[9], listings[0], listings[1] }, Equality);
+        Assert.Equal(Key(new[] { listings[9], listings[0], listings[1] }), Key(result));
     }
 
     [Theory, BasicAutoData]
@@ -66,6 +62,6 @@ public class ManyDependentsToProcessProvider
         sut.DependentsProvider.Get().Returns(
             Task.FromResult((IReadOnlyList<Dependent>)listings.ToArray()));
         var result = sut.Get().ToEnumerable().Take(3);
-        result.Should().Equal(listings.Take(3), Equality);
+        Assert.Equal(Key(listings.Take(3)), Key(result));
     }
 }
