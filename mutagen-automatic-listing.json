@@ -412,11 +412,11 @@
     },
     {
       "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026v=4",
       "User": "dreadflopp",
       "Repository": "AnimatedArmouryRebalancer",
       "Sha": "13092a1a33d3ff29995b53b8caefdf9eb9b7bc7b",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -1400,11 +1400,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/190675517?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/190675517?s=40\u0026v=4",
       "User": "SDKE13",
       "Repository": "ConvertNPCVisualReplacerToSkyPatcher",
       "Sha": "124bf52742333d5196b77fc851cfbb885876c64c",
-      "LastUpdatedRunNumber": 59029
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -1701,11 +1701,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/206784390?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/206784390?s=40\u0026v=4",
       "User": "kundrun",
       "Repository": "DIAL-Patcher",
       "Sha": "81b36642e9270ea7875d3b4bf1997a9137a1088f",
-      "LastUpdatedRunNumber": 59029
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [],
@@ -1923,11 +1923,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026v=4",
       "User": "tomnGithub",
       "Repository": "dynamicStatScaler",
       "Sha": "4fd07851acfc6be3915770787af7ef2a2d083363",
-      "LastUpdatedRunNumber": 59029
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -3249,11 +3249,11 @@
           "IncludedLibraries": []
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026v=4",
       "User": "tkoopman",
       "Repository": "GoriSynthCommon",
       "Sha": "bf0f49e45a99ea993673bc13d8c361ba2b76187e",
-      "LastUpdatedRunNumber": 59029
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -3441,11 +3441,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/35096332?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/35096332?s=40\u0026v=4",
       "User": "ExiledEye",
       "Repository": "HarmonizedRaceHeights-Patcher",
       "Sha": "f4f7ae017a4fe934b745c25942a9324af0725833",
-      "LastUpdatedRunNumber": 59029
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -3783,11 +3783,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/156883304?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/156883304?s=40\u0026v=4",
       "User": "AndbGame",
       "Repository": "HP_NPC_WIGS_TO_HEADPART",
       "Sha": "c315a5fff0dd70182d915d4f8b7b2d59333e2979",
-      "LastUpdatedRunNumber": 59029
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -3840,11 +3840,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/93307070?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/93307070?s=40\u0026v=4",
       "User": "TRIBeagle",
       "Repository": "HumanoidWerewolvesNPCPatch",
       "Sha": "5b324d04dac906427bbfe1baa5d89e8050fe606a",
-      "LastUpdatedRunNumber": 59029
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -5584,11 +5584,11 @@
     },
     {
       "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "a76958d5cd7d4342b261b426a3d75c00a12dd017",
-      "LastUpdatedRunNumber": 59058
+      "Sha": "5f8f029afe25dbee407b490bf8ea6d4309e21483",
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -6392,11 +6392,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026v=4",
       "User": "JanuarySnow",
       "Repository": "randomizer",
       "Sha": "d9ca3c6ec5f85901f4659cdc863254a9d019adc0",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -6479,11 +6479,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/1844961?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1844961?s=40\u0026v=4",
       "User": "gnguyen",
       "Repository": "RecipeIngredientRemover",
       "Sha": "0f4225adab5543799ce81e020e51c22823e2aca6",
-      "LastUpdatedRunNumber": 59029
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -6547,11 +6547,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/206784390?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/206784390?s=40\u0026v=4",
       "User": "kundrun",
       "Repository": "Regional-Rock-Patcher",
       "Sha": "ce16083e08708e0b18b2169f574e8fcb9e13d110",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -6654,11 +6654,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026v=4",
       "User": "dreadflopp",
       "Repository": "RenameHeavyArmoryWeapons",
       "Sha": "341c7cab519fbf5c4d94ccf9769f6646246a7687",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -6761,11 +6761,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/73838028?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/73838028?s=40\u0026v=4",
       "User": "Exouth",
       "Repository": "RequiemAutoMagicPatcher",
       "Sha": "a6e8eb87eeb7fc3ecabeaf28b70a861fb9023a78",
-      "LastUpdatedRunNumber": 59029
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -7188,11 +7188,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/174206826?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/174206826?s=40\u0026v=4",
       "User": "generaleagleyt",
       "Repository": "SkyLady",
       "Sha": "60daa5bc8eb9fbeb8340ae1e8ff48d558f285054",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -7707,11 +7707,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/140897136?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/140897136?s=40\u0026v=4",
       "User": "Bluwie2k",
       "Repository": "SLA-Replace-all-HalfNaked",
       "Sha": "b45e623ba3aa435ba54d8741209c8812d08dde07",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -8360,11 +8360,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026v=4",
       "User": "studioph",
       "Repository": "StaticPatcher",
       "Sha": "c2eab6dda01edf65bde184759386a0b379933f14",
-      "LastUpdatedRunNumber": 59029
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -10275,11 +10275,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026v=4",
       "User": "tkoopman",
       "Repository": "SynthCALIO",
       "Sha": "e534cf401313a1d76c8f30c1578ac9d0dbc75070",
-      "LastUpdatedRunNumber": 59029
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -11302,11 +11302,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026v=4",
       "User": "JanuarySnow",
       "Repository": "USMPHairColorPatcher",
       "Sha": "845fc45fe853dbe20bc6e74a9bc903746048dd0c",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
@@ -11646,11 +11646,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/180131362?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/180131362?s=40\u0026v=4",
       "User": "Yahim0",
       "Repository": "WICO_Patcher",
       "Sha": "72b7a5f8a756db42e66a4eb880a2b32d48b3633a",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59074
     },
     {
       "Patchers": [
