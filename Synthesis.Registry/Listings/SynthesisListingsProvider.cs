@@ -63,6 +63,7 @@ public class SynthesisDependentsProvider : ISynthesisDependentsProvider
                 }
                 return true;
             })
+            .DistinctBy(x => (x.User!.ToLowerInvariant(), x.Repository!.ToLowerInvariant()))
             .ToList();
     }
 
