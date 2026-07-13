@@ -623,11 +623,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026v=4",
       "User": "dreadflopp",
       "Repository": "ArmorStatSynthesisPatcher",
       "Sha": "0617fb6cca8196e8a8e0e0130a41b6b872a2c431",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [],
@@ -1091,11 +1091,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026v=4",
       "User": "dreadflopp",
       "Repository": "Cathedral_-_3D-Mountain-Flowers_patch",
       "Sha": "f8d698ae0d90767fdc138f1d42ab33507d319816",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -1385,11 +1385,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/57299283?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/57299283?s=40\u0026v=4",
       "User": "stop-sine",
       "Repository": "Conversations-Raise-Speechcraft",
       "Sha": "69314aa22b83970abc85341cba01b0f4585e274c",
-      "LastUpdatedRunNumber": 59026
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -2234,11 +2234,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026v=4",
       "User": "tr4wzified",
       "Repository": "ExperienceMutagenPatcher",
       "Sha": "8d2f89e21b8882756423da3ea96f053b51263719",
-      "LastUpdatedRunNumber": 59026
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -2273,11 +2273,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026v=4",
       "User": "Synthesis-Collective",
       "Repository": "facefixer",
       "Sha": "58279617d265e862a0409fef38e3938a9884781d",
-      "LastUpdatedRunNumber": 59026
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -3754,11 +3754,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/57299283?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/57299283?s=40\u0026v=4",
       "User": "stop-sine",
       "Repository": "How-Hard-Is-This-Persuasion-Check",
       "Sha": "dbda7622a4c3a496b77a6cf8f8064edf866c538f",
-      "LastUpdatedRunNumber": 59026
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -4116,11 +4116,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/231076362?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/231076362?s=40\u0026v=4",
       "User": "MontyBellroy",
       "Repository": "ItemOwnershipPatcher",
       "Sha": "f566678ca4c4782148611f4b5b36314db82ff68f",
-      "LastUpdatedRunNumber": 59026
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -5374,11 +5374,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/130935760?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/130935760?s=40\u0026v=4",
       "User": "hydraaawr",
       "Repository": "Non-Exploitable-Torches---Synthesis-Patcher",
       "Sha": "0599c35c787b45e3d8d54ec71974786083680d81",
-      "LastUpdatedRunNumber": 59026
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -7276,18 +7276,7 @@
             "LongDescription": "Gives encounter zones randomized levelsm based on dungeon type, bosses and size.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": [
-              "Oblivion",
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "Fallout4",
-              "EnderalLE",
-              "EnderalSE",
-              "SkyrimSEGog",
-              "Starfield",
-              "Fallout4VR"
-            ]
+            "TargetedReleases": []
           },
           "ProjectPath": "EncounterZoneRandomizer/EncounterZoneRandomizer.csproj",
           "IncludedLibraries": [
@@ -7295,11 +7284,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/27952849?s=40\u0026v=4",
       "User": "Jampi0n",
       "Repository": "Skyrim-EncounterZoneRandomizer",
       "Sha": "4784d3f943e7b29f77109c5e7db62841f4065052",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -7783,11 +7772,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/34386658?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/34386658?s=40\u0026v=4",
       "User": "ninjawaffle",
       "Repository": "SleepingOutfitRemover",
       "Sha": "02ab88a22fdfb218ae11de915174c36bf0ef1cc7",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -7914,11 +7903,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/62785432?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/62785432?s=40\u0026v=4",
       "User": "TwistedModding",
       "Repository": "SorcererPatcher",
       "Sha": "496fcf0f41992edd84f70d2fb1d7df734b96b9f9",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -8162,11 +8151,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/57299283?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/57299283?s=40\u0026v=4",
       "User": "stop-sine",
       "Repository": "Spells-Scrolls-Staves",
       "Sha": "e89da12e083975a298164663a54bf314c8fee45b",
-      "LastUpdatedRunNumber": 59026
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -9709,11 +9698,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026v=4",
       "User": "minis-patchers",
       "Repository": "SynNoEnchantmentRestrictions",
       "Sha": "eca6984081bff00d122c847842d7dfa8a8350860",
-      "LastUpdatedRunNumber": 59026
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -9924,11 +9913,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026v=4",
       "User": "minis-patchers",
       "Repository": "SynPEXPatch",
       "Sha": "b0ee7ae6095eea8adba0b9120744a2aaaa232e8e",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -10197,11 +10186,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026v=4",
       "User": "minis-patchers",
       "Repository": "SynStandardLightingTemplates",
       "Sha": "3c528ab54a468459ffd81cc52d2a6e0c05006355",
-      "LastUpdatedRunNumber": 59026
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -10345,11 +10334,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/1161281?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/1161281?s=40\u0026v=4",
       "User": "Tondorian",
       "Repository": "Synthesis_SurvivalPatcher",
       "Sha": "fc23295fe22c2fe7d6cfc3feea24291f7242ae53",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -10615,11 +10604,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50967665?s=40\u0026v=4",
       "User": "minis-patchers",
       "Repository": "SynWeaponKeywords",
       "Sha": "b8e95347bc8f41d23cec377978ab7747008cd7ae",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [],
@@ -11393,11 +11382,11 @@
     },
     {
       "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/78607219?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/78607219?s=40\u0026v=4",
       "User": "matm-git",
       "Repository": "WadeInWater",
       "Sha": "cc66173185e7cbf23a739cd8c17a1a317fe0cf27",
-      "LastUpdatedRunNumber": 59026
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -11525,11 +11514,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026v=4",
       "User": "tr4wzified",
       "Repository": "WaterDoesDamagePatcher",
       "Sha": "15cb5c0dc60fe1104d728efd68a71770bff7545c",
-      "LastUpdatedRunNumber": 59026
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
@@ -11618,11 +11607,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026v=4",
       "User": "dreadflopp",
       "Repository": "WeaponStatSynthesisPatcher",
       "Sha": "735634fe475f3b90ae658cee83906c11ec2346d4",
-      "LastUpdatedRunNumber": 59028
+      "LastUpdatedRunNumber": 59073
     },
     {
       "Patchers": [
