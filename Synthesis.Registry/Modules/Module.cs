@@ -1,4 +1,4 @@
-﻿using System.IO.Abstractions;
+using System.IO.Abstractions;
 using Autofac;
 using Noggog.Autofac;
 using Noggog.Autofac.Modules;
@@ -16,6 +16,7 @@ public class MainModule : Module
         builder.RegisterInstance(new FileSystem())
             .AsImplementedInterfaces();
         builder.RegisterModule<NoggogModule>();
+        builder.RegisterModule<WorkEngineModule>();
         builder.RegisterType<NumWorkThreadsUnopinionated>().AsImplementedInterfaces();
         builder.RegisterAssemblyTypes(
                 typeof(Program).Assembly,
