@@ -96,7 +96,7 @@
       "User": "tr4wzified",
       "Repository": "AdvancedWeightPatcher",
       "Sha": "b6bfff4089d5968d1705c250343355043e3b1ef1",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -713,7 +713,7 @@
       "User": "AmoneMisa",
       "Repository": "AutoTranslateTexts",
       "Sha": "d4ad4e084441c6d800f17602dde466f452d070f4",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -791,7 +791,7 @@
       "User": "whitevamp",
       "Repository": "BaboKeywordPatcherMK2",
       "Sha": "9f76a926d24c5d90a4acc951833298cbad31be9f",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -874,7 +874,7 @@
       "User": "aglowinthefield",
       "Repository": "BetterQuestObjectivesPatcher",
       "Sha": "f8982fc72cdf432c952fa274f81fec999096f58e",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -1320,7 +1320,7 @@
       "User": "Newrite",
       "Repository": "ConsumableSwapper",
       "Sha": "5970a2df315a32b1261d0ad45b75767987d12e9d",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -1600,18 +1600,7 @@
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": [
-              "Oblivion",
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "Fallout4",
-              "EnderalLE",
-              "EnderalSE",
-              "SkyrimSEGog",
-              "Starfield",
-              "Fallout4VR"
-            ]
+            "TargetedReleases": []
           },
           "ProjectPath": "DelightMyFire/DelightMyFire.csproj",
           "IncludedLibraries": [
@@ -1623,7 +1612,7 @@
       "User": "JanuarySnow",
       "Repository": "DeLightMyFire",
       "Sha": "69cdb489d868700a384c9f5f7888a2bf95037ddc",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -1733,18 +1722,7 @@
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": [
-              "Oblivion",
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "Fallout4",
-              "EnderalLE",
-              "EnderalSE",
-              "SkyrimSEGog",
-              "Starfield",
-              "Fallout4VR"
-            ]
+            "TargetedReleases": []
           },
           "ProjectPath": "DialogueTopicIndicator/DialogueTopicIndicator.csproj",
           "IncludedLibraries": [
@@ -1756,7 +1734,7 @@
       "User": "lingsamuel",
       "Repository": "DialogTags",
       "Sha": "d843dba5dedeb302f8119648f472b6b9ca666b0c",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -1942,7 +1920,7 @@
       "User": "lingsamuel",
       "Repository": "DynamicStringDistributorGenerator",
       "Sha": "8d9360e1d5d947f32cdc8042c9de37be14762253",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -2699,7 +2677,7 @@
       "User": "Gamerooni",
       "Repository": "FO4Patchers",
       "Sha": "04faf9332b93ac0a05ddadd41e0399caa203547f",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -4239,18 +4217,7 @@
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": [
-              "Oblivion",
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "Fallout4",
-              "EnderalLE",
-              "EnderalSE",
-              "SkyrimSEGog",
-              "Starfield",
-              "Fallout4VR"
-            ]
+            "TargetedReleases": []
           },
           "ProjectPath": "KmrMusicCellsPatcher/KmrMusicCellsPatcher.csproj",
           "IncludedLibraries": [
@@ -4262,7 +4229,7 @@
       "User": "souvikhazra1",
       "Repository": "KmrMusicCellsPatcher-Synthesis",
       "Sha": "be3397e77ed785b1246bf18d452a10e882e7df3f",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -4469,7 +4436,7 @@
       "User": "OddDrifter",
       "Repository": "leveledlistresolver",
       "Sha": "b2f85fbacfccfd81e108b650ef4f1ee0e1cacac7",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -5148,7 +5115,7 @@
       "User": "aglowinthefield",
       "Repository": "musictype-patcher-revived",
       "Sha": "d9a78d7f1e06040db82de4688331c964ca3b37d0",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -5572,7 +5539,7 @@
       "User": "FlattGiraffe",
       "Repository": "NPC-Face-Swapper",
       "Sha": "676e57cf339229ca147aec33abbafad719d35cc7",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [],
@@ -6277,7 +6244,7 @@
       "User": "studioph",
       "Repository": "QuestsAreInSkyrimPatcher",
       "Sha": "b3b032ff68ae38fa69eab0a3c925dffeb54db3ae",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -6525,7 +6492,7 @@
       "User": "OddDrifter",
       "Repository": "region-names-patcher",
       "Sha": "8a934b979aacf52732e46d973ff9e3d3a82955da",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -6726,7 +6693,7 @@
       "User": "aglowinthefield",
       "Repository": "Requiem-Interior-Placement-Patcher",
       "Sha": "95a9f3443a3a331a758b40e66112d1cd377a1709",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -6858,7 +6825,7 @@
       "User": "Newrite",
       "Repository": "ScriptItemsMarker",
       "Sha": "4f26af744f6df4ace71bc1d55316ed8d45953026",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -7950,7 +7917,7 @@
       "User": "golovatris",
       "Repository": "SoundsOfSeasons",
       "Sha": "962c5b7db3b8f068fe571123a55f10ec27bb84c9",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -8087,7 +8054,7 @@
       "User": "qwsdcvghyu89",
       "Repository": "SpellModCompatibilityPatcher",
       "Sha": "ada4300465f0e004832c2fdcfb7d3a7042ad6fde",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
@@ -8247,7 +8214,7 @@
       "User": "studioph",
       "Repository": "SRC-ERSPatcher",
       "Sha": "26fbf786d657084edee5ff387fdb19ca7f8e560f",
-      "LastUpdatedRunNumber": 59063
+      "LastUpdatedRunNumber": 59076
     },
     {
       "Patchers": [
