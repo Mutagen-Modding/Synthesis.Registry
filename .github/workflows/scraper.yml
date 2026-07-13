@@ -22,7 +22,7 @@ jobs:
     - name: Test
       run: dotnet test --configuration Release --no-restore --no-build --verbosity normal
     - name: Scrape
-      run: dotnet "Synthesis.Registry\bin\Release\net9.0\Synthesis.Registry.MutagenScraper.dll" run -r ${{ github.run_number }} -n 20 -i 59021
+      run: dotnet "Synthesis.Registry\bin\Release\net9.0\Synthesis.Registry.MutagenScraper.dll" run -r ${{ github.run_number }} -n 20 -i 59069
     - uses: stefanzweifel/git-auto-commit-action@v4.6.0
       with:
         # Required
