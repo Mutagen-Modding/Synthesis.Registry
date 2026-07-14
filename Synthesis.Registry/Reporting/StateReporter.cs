@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+using System.Collections.Concurrent;
+using System.Collections.Generic;
 using System.IO;
 using System.IO.Abstractions;
 using System.Linq;
@@ -16,9 +17,9 @@ public class StateReporter
     private readonly JsonSerializerOptionsProvider _jsonOptions;
     private readonly TargetDirectory _targetDirectory;
     private readonly ISynthesisDependentsProvider _dependentsProvider;
-    private readonly Dictionary<ListingKey, Listing> _listings = new();
+    private readonly ConcurrentDictionary<ListingKey, Listing> _listings = new();
 
-    public record Listing(string? OverallExcludeReason, Dictionary<string, ProjectReportListing> Projects);
+    public record Listing(string? OverallExcludeReason, ConcurrentDictionary<string, ProjectReportListing> Projects);
 
     public string JsonPath => System.IO.Path.Combine(_targetDirectory.Path, "scrape-state.json");
     public string TxtPath => System.IO.Path.Combine(_targetDirectory.Path, "scrape-state.txt");
@@ -37,24 +38,23 @@ public class StateReporter
 
     public void ReportExclusion(ListingKey key, string exclusionReason)
     {
-        if (_listings.ContainsKey(key)) return;
-        _listings[key] = new Listing(exclusionReason, new());
+        _listings.TryAdd(key, new Listing(exclusionReason, new()));
     }
 
     public void ReportExclusion(ListingKey key, string proj, string exclusionReason)
     {
-        var listing = _listings.GetOrAdd(key, () => new Listing(null, new()));
+        var listing = _listings.GetOrAdd(key, _ => new Listing(null, new()));
         listing.Projects[proj] = new ProjectReportListing(proj, exclusionReason);
     }
 
     public void ReportProcessed(RepositoryListing listing)
     {
         var key = new ListingKey(listing.User, listing.Repository);
-        var reportListing = _listings.GetOrAdd(key, () => new Listing(null, new()));
+        var reportListing = _listings.GetOrAdd(key, _ => new Listing(null, new()));
         foreach (var patcher in listing.Patchers)
         {
             reportListing.Projects.GetOrAdd(patcher.ProjectPath,
-                () => new ProjectReportListing(patcher.ProjectPath, null));
+                _ => new ProjectReportListing(patcher.ProjectPath, null));
         }
     }
 
@@ -111,7 +111,9 @@ public class StateReporter
         {
             var key = new ListingKey(listing.User, listing.Repository);
             if (_listings.ContainsKey(key)) continue;
-            _listings[key] = new Listing(listing.ExcludeReason, listing.Projects.ToDictionary(x => x.Project));
+            _listings[key] = new Listing(
+                listing.ExcludeReason,
+                new ConcurrentDictionary<string, ProjectReportListing>(listing.Projects.ToDictionary(x => x.Project)));
         }
     }
 
