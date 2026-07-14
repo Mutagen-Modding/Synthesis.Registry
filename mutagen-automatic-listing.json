@@ -595,11 +595,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5360825?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5360825?s=40\u0026v=4",
       "User": "whitevamp",
       "Repository": "ArmorEdidExporter",
       "Sha": "015fc820febaec96b40ce7baa21120e97c013eca",
-      "LastUpdatedRunNumber": 45625
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -1779,11 +1779,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026v=4",
       "User": "tomnGithub",
       "Repository": "disableSpellLightPatcher",
       "Sha": "2a7356c98a030654954ac5e374350572227b3a2d",
-      "LastUpdatedRunNumber": 49350
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -3197,17 +3197,7 @@
             "LongDescription": "JSON config files from you game\u0027s data directory define rules. Rules contains filters and actions to take on matching records. Actions can be simple, set field value or add keyword as predefined in rule, to more dynamic actions like merging or forwarding changes from losing patches.\u0027",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": [
-              "Oblivion",
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "Fallout4",
-              "EnderalLE",
-              "EnderalSE",
-              "SkyrimSEGog",
-              "Fallout4VR"
-            ]
+            "TargetedReleases": []
           },
           "ProjectPath": "GenericSynthesisPatcher/GenericSynthesisPatcher.csproj",
           "IncludedLibraries": [
@@ -3226,11 +3216,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026v=4",
       "User": "tkoopman",
       "Repository": "Generic-Synthesis-Patcher",
       "Sha": "4b01d7cb5c1ada60f3c466645d76380510758612",
-      "LastUpdatedRunNumber": 53570
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -3509,12 +3499,28 @@
       "LastUpdatedRunNumber": 59079
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "heightmap2",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "heightmap2/heightmap2.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026v=4",
       "User": "JanuarySnow",
       "Repository": "heightmap2",
       "Sha": "91e2fe9f555342fb9576e8b787135df7a08c494a",
-      "LastUpdatedRunNumber": 46312
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -4013,7 +4019,7 @@
       "User": "studioph",
       "Repository": "ImmersiveMusicPatcher",
       "Sha": "3f0eafe23dcc73558c15b2b7e2acbe15ec718cec",
-      "LastUpdatedRunNumber": 59064
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -4069,11 +4075,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/206142?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/206142?s=40\u0026v=4",
       "User": "Maeyanie",
       "Repository": "ItemAlternates",
-      "Sha": "29c27358e620de892a923923e7e6ce1215ff6999",
-      "LastUpdatedRunNumber": 46224
+      "Sha": "4adc93eaa6779330f00cb1f76a94a051063de92c",
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -5570,8 +5576,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "5f8f029afe25dbee407b490bf8ea6d4309e21483",
-      "LastUpdatedRunNumber": 59074
+      "Sha": "45a6dab9c97f86a01de2a2d39838550ba3482e8d",
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -6776,7 +6782,7 @@
       "User": "tomnGithub",
       "Repository": "RequiemAutoNPCPatcher",
       "Sha": "b78b7a0aa7c324e980eb3dbad60cabc51f85aea5",
-      "LastUpdatedRunNumber": 59064
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -6859,12 +6865,28 @@
       "LastUpdatedRunNumber": 59078
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026amp;v=4",
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "seranareplacer",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "seranareplacer/seranareplacer.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/85711747?s=40\u0026v=4",
       "User": "JanuarySnow",
       "Repository": "seranareplacer",
       "Sha": "3e703cd71fe572b5ab08374bc233c4dafef7f28d",
-      "LastUpdatedRunNumber": 46513
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -7857,11 +7879,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/7734527?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/7734527?s=40\u0026v=4",
       "User": "MZS1975",
       "Repository": "SomeSkyrimPatchers",
       "Sha": "374c5e3ad42c54a5374f8c4b958543b40d0b8add",
-      "LastUpdatedRunNumber": 45607
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -10056,7 +10078,7 @@
       "User": "kundrun",
       "Repository": "SynSimpleScrollTranscribingPatcher",
       "Sha": "76de18660183002a1deca0c4ef625334a777c969",
-      "LastUpdatedRunNumber": 59064
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [],
@@ -10395,11 +10417,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026v=4",
       "User": "Synthesis-Collective",
       "Repository": "SynthesisRPGLoot",
       "Sha": "5a375877c76ea9493feca14c5bb3ad8b5ec9ccd7",
-      "LastUpdatedRunNumber": 47270
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -10433,11 +10455,11 @@
     },
     {
       "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026v=4",
       "User": "studioph",
       "Repository": "SynthesisUtils",
       "Sha": "408a6d52e5c4f283b46761244554a162c7c864c7",
-      "LastUpdatedRunNumber": 46174
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -10649,11 +10671,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/11063062?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/11063062?s=40\u0026v=4",
       "User": "Domek97",
       "Repository": "ThrowingStuffVRPatcher",
       "Sha": "2ff89d91782bee527a42678ece8779168d5cb905",
-      "LastUpdatedRunNumber": 51323
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -10664,11 +10686,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/15333965?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/15333965?s=40\u0026v=4",
       "User": "Troy1010",
       "Repository": "TMGenerator",
       "Sha": "76886e5ccf4307698043a29f9f6d599f93d78866",
-      "LastUpdatedRunNumber": 45620
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -10695,12 +10717,28 @@
       "LastUpdatedRunNumber": 31433
     },
     {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/15333965?s=40\u0026amp;v=4",
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "TMPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "TMPatcher/TMPatcher.csproj",
+          "IncludedLibraries": [
+            "Oblivion"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/15333965?s=40\u0026v=4",
       "User": "Troy1010",
       "Repository": "TMPatcher",
       "Sha": "587cfa6ccaaeffeeb6e20ed56e8696da9573ec10",
-      "LastUpdatedRunNumber": 45663
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -10764,11 +10802,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/36493057?s=40\u0026v=4",
       "User": "studioph",
       "Repository": "TofuPatcher",
       "Sha": "13d254ab64c47685650e1e86efba7c85fd781844",
-      "LastUpdatedRunNumber": 46753
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -10795,7 +10833,7 @@
       "User": "iAmMe27",
       "Repository": "Tree-3D-Editor",
       "Sha": "b399e24dfcd6cc4c7c98116dac7c77ef3475fe8d",
-      "LastUpdatedRunNumber": 59064
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -11142,11 +11180,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026v=4",
       "User": "tomnGithub",
       "Repository": "unofficialReqtificatorLite",
       "Sha": "e8ea7bb1be99c09952fedbea8d22d52a891d6ddd",
-      "LastUpdatedRunNumber": 48544
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
@@ -11326,11 +11364,11 @@
           ]
         }
       ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/607892?s=40\u0026amp;v=4",
+      "AvatarURL": "https://avatars.githubusercontent.com/u/607892?s=40\u0026v=4",
       "User": "some1one",
       "Repository": "VR_AE_Patcher",
       "Sha": "e9e1f956cc963d0b2f70c911e1f3ddb0a90bbcad",
-      "LastUpdatedRunNumber": 45858
+      "LastUpdatedRunNumber": 59085
     },
     {
       "Patchers": [
