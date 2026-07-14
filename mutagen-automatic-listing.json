@@ -1230,7 +1230,7 @@
       "User": "mrudat",
       "Repository": "Complete-Crafting-Overhaul-Compatible-Recipe-Generator",
       "Sha": "17559d700cdd872c1898d0254cf1baf56bf36135",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -1426,7 +1426,7 @@
       "User": "mrudat",
       "Repository": "Costume-Shop",
       "Sha": "17b6e2f6dd36ffe44723da64410c59d3b2239b5a",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -2043,7 +2043,7 @@
       "User": "ExpensiveLadder",
       "Repository": "Enchanted-Variants-Generater",
       "Sha": "89ffa6d832e9e7b780321c9854f7e6d56225657c",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -2502,12 +2502,36 @@
       "LastUpdatedRunNumber": 31426
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "FixMergedOAR",
+            "Visibility": "Visible",
+            "OneLineDescription": "OAR/DAR ZMerge Fixup",
+            "LongDescription": "Produce patched conditions.txt files where they contain Plugins and FormIDs that are now in a ZMerged plugin.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog",
+              "EnderalSEGog"
+            ]
+          },
+          "ProjectPath": "FixMergedOAR/FixMergedOAR.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026v=4",
       "User": "SteveTownsend",
       "Repository": "FixMergedOAR",
       "Sha": "7a670dfffeeaef710050bca59e1462b2e4f30841",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -3277,7 +3301,7 @@
       "User": "ReaperAnon",
       "Repository": "GridTransitionCrashFix",
       "Sha": "46d4f95480a28471bc5943cb1f3419f4772be007",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -3702,7 +3726,7 @@
       "User": "mrudat",
       "Repository": "Honed-Metal-Additional-Ingredients",
       "Sha": "c0a1f26e4219709ad8205a2f0168c6d2365bb9a0",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -3960,7 +3984,7 @@
       "User": "SteveTownsend",
       "Repository": "ImmersiveEquipmentMeshGen",
       "Sha": "0b01d028c5ad79439a925d03817a30b8fad5f325",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -4606,7 +4630,7 @@
       "User": "CritLoren",
       "Repository": "LootableThings-TrainingDummies-Patcher",
       "Sha": "8ffbcb835aca1c244eab758c65d402c3d712abc0",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -4867,7 +4891,7 @@
       "User": "radj307",
       "Repository": "Metric-Units-Patcher",
       "Sha": "f7f0fb20eada86742356c45df74f08eb5cb7d449",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -4978,7 +5002,7 @@
       "User": "ReaperAnon",
       "Repository": "Missing-Encounter-Zones-Patcher",
       "Sha": "7c8822bed36cb242df3b947f9bb02a4393e6ab44",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -7301,7 +7325,7 @@
       "User": "Jampi0n",
       "Repository": "Skyrim-LoadingScreenGenerator",
       "Sha": "badb149adc91ae317bc757ce63f080b5af624420",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -7358,7 +7382,7 @@
       "User": "Jampi0n",
       "Repository": "Skyrim-PassiveEnchantingXP",
       "Sha": "a0a00238fa0d3cd98293ebbfce5af29054478aff",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -8138,7 +8162,7 @@
       "User": "JanuarySnow",
       "Repository": "Spelltome-Yeeter",
       "Sha": "48a543cfad62f71f81615bee2ec365a366bc641d",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -9218,7 +9242,7 @@
       "User": "holaholacocacola",
       "Repository": "SynFksDiverseSkeletons",
       "Sha": "68ccc369a47f18e40966997a6b7391637b5f9503",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -9428,7 +9452,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SynHelmsWithCirclets",
       "Sha": "e40a8488cabff9c59563de2aca1418b0b54b6536",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -9802,7 +9826,7 @@
       "User": "cacodemonkey",
       "Repository": "synOblivionInteractionIcons_1.x",
       "Sha": "d3414536906378caa657c5cee6a60c6114fb5f59",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -9998,7 +10022,7 @@
       "User": "RowanMaBoot",
       "Repository": "SynRaceRebalancer",
       "Sha": "9582d0e9c4cb09f8e9e32ebc925f6b4796ffb529",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
@@ -10533,7 +10557,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SynTweakEngine",
       "Sha": "c5aaeaa18376c2b07353bdd50c8e02471d407d64",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [],
@@ -10859,7 +10883,7 @@
       "User": "ReaperAnon",
       "Repository": "True-Unleveled-Skyrim",
       "Sha": "c2fc8e95fdf6568c60b67ae7bb110a3747977812",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [],
@@ -11546,7 +11570,7 @@
       "User": "SteveTownsend",
       "Repository": "WeaponSpeedEffectsFix",
       "Sha": "596d2b87fb5182fd83bf57a43493cd640df693e2",
-      "LastUpdatedRunNumber": 59070
+      "LastUpdatedRunNumber": 59083
     },
     {
       "Patchers": [
