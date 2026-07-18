@@ -1032,16 +1032,12 @@
       "LastUpdatedRunNumber": 59081
     },
     {
-      "Patchers": [
-        {
-          "ProjectPath": "alch_ingr_getter/alch_ingr_getter.csproj",
-          "IncludedLibraries": []
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;u=e663091c7647f5a8aa0ab1dbfa3cb17fc7aafa4e\u0026amp;v=4",
       "User": "radj307",
       "Repository": "caco-alch-registry-builder",
-      "Sha": ""
+      "Sha": "7ae39e605bef000a6d0571bb875fad4dc3498f23",
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
@@ -1108,7 +1104,7 @@
       "User": "tottorijuukou",
       "Repository": "CBPCKeywords",
       "Sha": "10cf711da3b578bda6dbb8cf53c3237091e775b9",
-      "LastUpdatedRunNumber": 31424
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
@@ -1132,7 +1128,7 @@
       "User": "Deigue",
       "Repository": "CellEditorIDFixer",
       "Sha": "16db8366d17de5b52e1170676c15957ef77a9153",
-      "LastUpdatedRunNumber": 31432
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
@@ -1156,11 +1152,26 @@
       "User": "Deigue",
       "Repository": "CellEncounterLevelsInName",
       "Sha": "c3ecf11dbfe276e2a7693f9a50efc0029651dace",
-      "LastUpdatedRunNumber": 49687
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "ClearNPCDirtPaintScarsAndGashes",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
+          },
           "ProjectPath": "ClearNPCDirtPaintScarsAndGashes/ClearNPCDirtPaintScarsAndGashes.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -1170,13 +1181,13 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/190675517?s=40\u0026amp;v=4",
       "User": "SDKE13",
       "Repository": "ClearNPCDirtPaintScarsAndGashes",
-      "Sha": "90fc347e638b930cdc552407d5fd0761a37ffbb6",
-      "LastUpdatedRunNumber": 52199
+      "Sha": "f5a536fd4609d37b9426c5e577ac40b555c8585f",
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
         {
-          "ProjectPath": "Reqtificator/SynReqtificator.csproj",
+          "ProjectPath": "Source/Reqtificator/Reqtificator/SynReqtificator.csproj",
           "IncludedLibraries": [
             "Skyrim"
           ]
@@ -1185,8 +1196,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/24525094?s=40\u0026amp;v=4",
       "User": "tmpbased",
       "Repository": "CnstSynReqtificator",
-      "Sha": "42a6a9a879b4cec27c56189ed06b15104bfe2c49",
-      "LastUpdatedRunNumber": 43908
+      "Sha": "11e5df44c9dd97782408eb44514e365d9ff43466",
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
@@ -1212,7 +1223,7 @@
       "User": "JanuarySnow",
       "Repository": "Communism",
       "Sha": "36da241fb003bb3f09f9d3e4d4bbca8cf0d353f5",
-      "LastUpdatedRunNumber": 43702
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
@@ -1259,7 +1270,7 @@
       "User": "EzioTheDeadPoet",
       "Repository": "Configurable-Grass-Remover",
       "Sha": "e7822180b207dbb4aab39fd5f38c86ecc41e6489",
-      "LastUpdatedRunNumber": 31424
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
@@ -1289,7 +1300,7 @@
       "User": "Synthesis-Collective",
       "Repository": "ConjureNextToCaster",
       "Sha": "a6a562ceeaa688b0ddb712bdef96162502631c2a",
-      "LastUpdatedRunNumber": 31434
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
@@ -1480,7 +1491,7 @@
       "User": "fenix31415",
       "Repository": "CreateTemper",
       "Sha": "2eb933ec4c040ad897b1a055c2df3ab564f5aaae",
-      "LastUpdatedRunNumber": 31428
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
@@ -1562,7 +1573,7 @@
       "User": "bmgolley",
       "Repository": "CustomizableItemSorting",
       "Sha": "c7173991c3986d86d4bae1bbff39cad5872b595b",
-      "LastUpdatedRunNumber": 43168
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
@@ -1586,7 +1597,7 @@
       "User": "TokcDK",
       "Repository": "DeadBodyCleanupNPCAttacher",
       "Sha": "13dba4dc22f5bacbc71ec4b93109824a479b3653",
-      "LastUpdatedRunNumber": 31423
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
@@ -1636,7 +1647,7 @@
       "User": "tr4wzified",
       "Repository": "DestructibleSkyrimPatcher",
       "Sha": "5c8a9c94b9412a3f7423f0c8c1fb03e16a65bd22",
-      "LastUpdatedRunNumber": 31429
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
@@ -1695,20 +1706,60 @@
       "LastUpdatedRunNumber": 59074
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "DIAL-Patcher",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "Patcher for Dynamic Interior Ambient Lighting (DIAL).",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "DIAL.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "Patcher/Patcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/44859640?s=40\u0026amp;v=4",
       "User": "metacubed-projects",
       "Repository": "DIAL-Patcher",
-      "Sha": "99e50d2bbe0bc685a181863c39bf72b3d751b004",
-      "LastUpdatedRunNumber": 49674
+      "Sha": "81b36642e9270ea7875d3b4bf1997a9137a1088f",
+      "LastUpdatedRunNumber": 59135
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "DIAL-Patcher",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "Patcher for Dynamic Interior Ambient Lighting (DIAL).",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "DIAL.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "Patcher/Patcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/44859640?s=40\u0026amp;v=4",
       "User": "metacubed-projects",
       "Repository": "DIAL-Synthesis-Patcher",
-      "Sha": "99e50d2bbe0bc685a181863c39bf72b3d751b004",
-      "LastUpdatedRunNumber": 49651
+      "Sha": "81b36642e9270ea7875d3b4bf1997a9137a1088f",
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
@@ -1813,7 +1864,7 @@
       "User": "ReaperAnon",
       "Repository": "Disenchant-Everything",
       "Sha": "eba5aa2280fbb1285d72686948789bda4af096f8",
-      "LastUpdatedRunNumber": 31427
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
@@ -1837,7 +1888,7 @@
       "User": "tr4wzified",
       "Repository": "DisplaySpellTomeLevelPatcher",
       "Sha": "0bb691744ee3780c71307918d5035b86e4ca62e3",
-      "LastUpdatedRunNumber": 52961
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
@@ -1867,15 +1918,36 @@
       "User": "DearLuck",
       "Repository": "DistributeArmorSetsToNpcs",
       "Sha": "5d1688c2e1c960315e8b7c575122049b1d39eb60",
-      "LastUpdatedRunNumber": 33967
+      "LastUpdatedRunNumber": 59135
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "IfCoffeeThenCode/dsm_testing",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "cosplay_workbench.esm",
+              "DarkStar_Manufacturing.esm"
+            ],
+            "TargetedReleases": [
+              "Starfield"
+            ]
+          },
+          "ProjectPath": "dsm_testing/dsm_testing.csproj",
+          "IncludedLibraries": [
+            "Starfield"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/33259701?s=40\u0026amp;v=4",
       "User": "IfCoffeeThenCode",
       "Repository": "dsm_testing",
       "Sha": "5c529e71db8628541f44a9537f48407408ae2184",
-      "LastUpdatedRunNumber": 47646
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
@@ -1942,7 +2014,7 @@
       "User": "Bl4ckread",
       "Repository": "EasyNPCRemoveWornArmors",
       "Sha": "4d6b6f186d99ddfe13e14b5d3e7342d0d3cbb214",
-      "LastUpdatedRunNumber": 33301
+      "LastUpdatedRunNumber": 59135
     },
     {
       "Patchers": [
