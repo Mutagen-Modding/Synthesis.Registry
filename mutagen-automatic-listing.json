@@ -8703,7 +8703,7 @@
       "User": "TokcDK",
       "Repository": "SynAddArmorKeywordByString",
       "Sha": "9a6e76fa2d1bd68850dc2728b573172709c208df",
-      "LastUpdatedRunNumber": 31423
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -8757,7 +8757,7 @@
       "User": "TokcDK",
       "Repository": "SynArmorAAFixMissingGenderWorldModel",
       "Sha": "6d064015bb06ef0e766e99c70040673c7f201237",
-      "LastUpdatedRunNumber": 31423
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -8836,8 +8836,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
       "User": "TokcDK",
       "Repository": "SynAutomaticSpells",
-      "Sha": "7dd8d16785cb0060a4f3e180a67ffbeccec8aa92",
-      "LastUpdatedRunNumber": 31423
+      "Sha": "f4a3aa699f41cc86bf03b37e7fa35ff17b4bb548",
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -8863,7 +8863,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SynAVOCPatcher",
       "Sha": "23cd991041008781256179232d540d3c0361c68a",
-      "LastUpdatedRunNumber": 31424
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -8888,7 +8888,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/13448395?s=40\u0026amp;v=4",
       "User": "rshackleton",
       "Repository": "SynAVOCPatcher",
-      "Sha": "23cd991041008781256179232d540d3c0361c68a"
+      "Sha": "23cd991041008781256179232d540d3c0361c68a",
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -8919,7 +8920,7 @@
       "User": "crysis99",
       "Repository": "SynBanditWarForwarder",
       "Sha": "6b46f28188dd71c26aee7e74cfeaece7440f24f1",
-      "LastUpdatedRunNumber": 33986
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -8943,7 +8944,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SynBookSmart",
       "Sha": "ce1bdd92334848b31432da1b60ca94364c6ded88",
-      "LastUpdatedRunNumber": 31428
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -8991,7 +8992,7 @@
       "User": "minis-patchers",
       "Repository": "SynBundler",
       "Sha": "ededafddeb68b359f1ff99673cf83ee24aa8e44e",
-      "LastUpdatedRunNumber": 35851
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -9015,7 +9016,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SynCGOStavesPatcher",
       "Sha": "abf9e71041ff324e0d903ec9746474d16b314c18",
-      "LastUpdatedRunNumber": 37128
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -9039,7 +9040,7 @@
       "User": "minis-patchers",
       "Repository": "SynCGOStavesPatcher",
       "Sha": "abf9e71041ff324e0d903ec9746474d16b314c18",
-      "LastUpdatedRunNumber": 35851
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -9063,7 +9064,7 @@
       "User": "RowanMaBoot",
       "Repository": "SynCoinTweaker",
       "Sha": "ef811626822e05c3e4543b4fd1952ba566838773",
-      "LastUpdatedRunNumber": 31428
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -9087,7 +9088,7 @@
       "User": "holaholacocacola",
       "Repository": "SynCombatBoundaries",
       "Sha": "1ebe6136aa03ae469612339233c0ab5f48f7887e",
-      "LastUpdatedRunNumber": 31429
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -9102,7 +9103,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SynCreatureReWeighter",
       "Sha": "ac9531208125d3f56b399d585509c4ef072cdc5f",
-      "LastUpdatedRunNumber": 31425
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -9116,7 +9117,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/13448395?s=40\u0026amp;v=4",
       "User": "rshackleton",
       "Repository": "SynCreatureReWeighter",
-      "Sha": "ac9531208125d3f56b399d585509c4ef072cdc5f"
+      "Sha": "ac9531208125d3f56b399d585509c4ef072cdc5f",
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -9149,7 +9151,7 @@
       "User": "crysis99",
       "Repository": "SynDirPowAtkRem",
       "Sha": "78dfacc39835e6bbca57c42fee5aaabcd1e38542",
-      "LastUpdatedRunNumber": 33650
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -9223,7 +9225,7 @@
       "User": "minis-patchers",
       "Repository": "SynESLify",
       "Sha": "f44dbbc9c9760bf223bf62e9ffd9c5fd14c0bf0a",
-      "LastUpdatedRunNumber": 35851
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -9252,7 +9254,7 @@
       "User": "crysis99",
       "Repository": "SynExtendedWeaponPerkDescriptions",
       "Sha": "ad32199b41e5f9d2bf47fe1fa86e6c71ab1db9fa",
-      "LastUpdatedRunNumber": 33650
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -9276,7 +9278,7 @@
       "User": "TokcDK",
       "Repository": "SynFixBOOKRecordTypes",
       "Sha": "2f4026b2462d4d4f6e7ca4148fc09d103a49e7d8",
-      "LastUpdatedRunNumber": 31425
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -9300,7 +9302,7 @@
       "User": "TokcDK",
       "Repository": "SynFixFemaleRaceModel",
       "Sha": "1bb70e6b5f76ebd8f59c7b649d937a61e4e4a289",
-      "LastUpdatedRunNumber": 31423
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
@@ -9324,7 +9326,7 @@
       "User": "TokcDK",
       "Repository": "SynFixKeyMissingSoundKeyword",
       "Sha": "f64d43bfeb0674ae46bba976ff54288480b6ec03",
-      "LastUpdatedRunNumber": 31434
+      "LastUpdatedRunNumber": 59143
     },
     {
       "Patchers": [
