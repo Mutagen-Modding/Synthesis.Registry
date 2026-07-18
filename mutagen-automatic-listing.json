@@ -4280,13 +4280,16 @@
       "Patchers": [
         {
           "ProjectPath": "KhajiitEarsShow/KhajiitEarsShow.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
       "User": "jdsmith2816",
       "Repository": "khajiitearsshow",
-      "Sha": ""
+      "Sha": "9abdaf2460eabaa64c445f9a6a16685da6c5d358",
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
@@ -4310,7 +4313,7 @@
       "User": "TheOneAndOnlyJ3w3ls",
       "Repository": "KillmoveParalysisPatcher",
       "Sha": "e539987b64873d8cba60b3e4d623c2795991b8aa",
-      "LastUpdatedRunNumber": 33385
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
@@ -4360,7 +4363,7 @@
       "User": "tr4wzified",
       "Repository": "KnowYourArmorPatcher",
       "Sha": "d4b058cb15f90ccbbf2edbdffa4e9346e64762c4",
-      "LastUpdatedRunNumber": 31432
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
@@ -4386,7 +4389,7 @@
       "User": "tr4wzified",
       "Repository": "KnowYourEnemyPatcher",
       "Sha": "6f08ea6b4959d542ebd613eaec49448eb0807ffe",
-      "LastUpdatedRunNumber": 52961
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
@@ -4410,7 +4413,7 @@
       "User": "Bl4ckread",
       "Repository": "KSHairsBaldHelmetsFixer",
       "Sha": "81caf9875b7c9a17067081cae02fdf29711ee4c5",
-      "LastUpdatedRunNumber": 31426
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
@@ -4434,7 +4437,7 @@
       "User": "pisichi",
       "Repository": "KZ-NPC-Patcher",
       "Sha": "1014ed360c8a11bd0a98088db5198ac8d3f3e195",
-      "LastUpdatedRunNumber": 31428
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
@@ -4459,8 +4462,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/120683985?s=40\u0026amp;v=4",
       "User": "JonnyJalapeno",
       "Repository": "LandscapePatcher",
-      "Sha": "33336fc1a86cc30c334dc3ee395e3146f9d4cdf1",
-      "LastUpdatedRunNumber": 37175
+      "Sha": "17637d3132ff63577d68209b336ad78a99af293c",
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
@@ -4497,22 +4500,30 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "leveledlistgenerator",
+            "Nickname": "leveledlistresolver",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "A Patcher for resolving leveled list conflicts without the use of Bash Tags.",
+            "LongDescription": "This patcher attempts to recreate Wyre Bash\u0027s leveled list functionality without the need to tag plugins.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalSE",
+              "SkyrimSEGog"
+            ]
           },
-          "ProjectPath": "leveledlistgenerator/leveledlistgenerator.csproj",
-          "IncludedLibraries": []
+          "ProjectPath": "leveledlistresolver/leveledlistresolver.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/65688322?s=40\u0026amp;v=4",
       "User": "OddDrifter",
       "Repository": "leveledlistgenerator",
-      "Sha": ""
+      "Sha": "b2f85fbacfccfd81e108b650ef4f1ee0e1cacac7",
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
@@ -4565,19 +4576,31 @@
       "User": "Synthesis-Collective",
       "Repository": "listmaker",
       "Sha": "0dca3caee82424f55d445bb5be78ebb504ea2cfb",
-      "LastUpdatedRunNumber": 31432
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "ListMaker",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
           "ProjectPath": "ListMaker/ListMaker.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
       "User": "jdsmith2816",
       "Repository": "listmaker",
-      "Sha": ""
+      "Sha": "0dca3caee82424f55d445bb5be78ebb504ea2cfb",
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [],
@@ -4585,7 +4608,7 @@
       "User": "ixanza",
       "Repository": "listmakerTranq",
       "Sha": "c97c84b773f8d0bc58c3c84bf6fbf62225781dcc",
-      "LastUpdatedRunNumber": 31428
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
@@ -4609,19 +4632,31 @@
       "User": "Synthesis-Collective",
       "Repository": "listunroller",
       "Sha": "c9b6d510a41e25d1804ca05bccd8332f3fec40e2",
-      "LastUpdatedRunNumber": 31432
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "ListUnroller",
+            "Visibility": "IncludeButHide",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
           "ProjectPath": "ListUnroller/ListUnroller.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
       "User": "jdsmith2816",
       "Repository": "listunroller",
-      "Sha": ""
+      "Sha": "c9b6d510a41e25d1804ca05bccd8332f3fec40e2",
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
@@ -4647,7 +4682,7 @@
       "User": "rewilson",
       "Repository": "LMsSimpleSyns",
       "Sha": "471179179ce7acabbc02abca2ac97d17126bc0f0",
-      "LastUpdatedRunNumber": 31433
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
@@ -4695,7 +4730,7 @@
       "User": "theSkyseS",
       "Repository": "LootableCrates",
       "Sha": "d7e39721ff0034ada8d12bd5ec7c2fdb5ef788e7",
-      "LastUpdatedRunNumber": 31428
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
@@ -4742,7 +4777,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
       "User": "m-vlad",
       "Repository": "LootableThings-TrainingDummies-Patcher",
-      "Sha": "8ffbcb835aca1c244eab758c65d402c3d712abc0"
+      "Sha": "8ffbcb835aca1c244eab758c65d402c3d712abc0",
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
@@ -4800,7 +4836,7 @@
       "User": "theSkyseS",
       "Repository": "MagicDoesThings",
       "Sha": "54d9e2127d252ef726bd106aa97125aa945bb9a2",
-      "LastUpdatedRunNumber": 31568
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
@@ -4825,8 +4861,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "MakeFirewoodPilesIntoContainers",
-      "Sha": "6005d977dda98aa2a4bc665993622ca5dee63aed",
-      "LastUpdatedRunNumber": 31429
+      "Sha": "9a6db7f8e80b06fd55a854db741a193a5e89ee21",
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
@@ -4902,7 +4938,7 @@
       "User": "cuyima",
       "Repository": "MaleAAGenerator",
       "Sha": "bd5a98a310063a85afca2aca912817bc03740fd2",
-      "LastUpdatedRunNumber": 31427
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
@@ -4926,7 +4962,7 @@
       "User": "ReaperAnon",
       "Repository": "Masculinized-Leveled-Lists",
       "Sha": "513a4486107bce4d11393eef18d0ff59f108f0eb",
-      "LastUpdatedRunNumber": 31428
+      "LastUpdatedRunNumber": 59138
     },
     {
       "Patchers": [
