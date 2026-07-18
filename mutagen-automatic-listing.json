@@ -2040,7 +2040,7 @@
       "User": "Benna96-Synthesis",
       "Repository": "ELE_Patcher",
       "Sha": "1604ac05a43fec6f3e2137e336d49e9259590d84",
-      "LastUpdatedRunNumber": 31427
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2189,7 +2189,7 @@
       "User": "Synthesis-Collective",
       "Repository": "EnemyReleveler",
       "Sha": "001d9518767397ccf3fbe73dd694a66ea192a122",
-      "LastUpdatedRunNumber": 40602
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2204,13 +2204,16 @@
             "TargetedReleases": []
           },
           "ProjectPath": "EnemyReleveler/EnemyReleveler.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars2.githubusercontent.com/u/52758909?s=40\u0026amp;u=4f97ed9e8ce41cb97b938ed1a300eafcf11922fd\u0026amp;v=4",
       "User": "cuyima",
       "Repository": "EnemyReleveler",
-      "Sha": ""
+      "Sha": "ffc42554125129c092498bbc6987e2197e54a1b0",
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2310,7 +2313,7 @@
       "User": "SteveTownsend",
       "Repository": "EZLeveler",
       "Sha": "e2941ffc8eaa5e4bd2372dc893e97062ee52feed",
-      "LastUpdatedRunNumber": 31429
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2331,13 +2334,16 @@
       "Patchers": [
         {
           "ProjectPath": "FaceFixer/FaceFixer.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
       "User": "jdsmith2816",
       "Repository": "facefixer",
-      "Sha": ""
+      "Sha": "58279617d265e862a0409fef38e3938a9884781d",
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2390,8 +2396,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
       "User": "SteveTownsend",
       "Repository": "FacegenBaseline",
-      "Sha": "1a4228fd4c52132e047c53ad9e0bfda221826bcc",
-      "LastUpdatedRunNumber": 31425
+      "Sha": "bfdacf1e4545c6f09914438aea71250a37cb0e4d",
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2545,7 +2551,7 @@
       "User": "Sludes",
       "Repository": "Feminized-Leveled-Lists",
       "Sha": "e4cdb47efe5d13b86498215225633d3e027bee32",
-      "LastUpdatedRunNumber": 31424
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [],
@@ -2559,15 +2565,23 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "FixMergedDAR",
+            "Nickname": "FixMergedOAR",
             "Visibility": "Visible",
-            "OneLineDescription": "DAR ZMerge Fixup",
+            "OneLineDescription": "OAR/DAR ZMerge Fixup",
             "LongDescription": "Produce patched conditions.txt files where they contain Plugins and FormIDs that are now in a ZMerged plugin.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimLE",
+              "SkyrimSE",
+              "SkyrimVR",
+              "EnderalLE",
+              "EnderalSE",
+              "SkyrimSEGog",
+              "EnderalSEGog"
+            ]
           },
-          "ProjectPath": "FixMergedDAR/FixMergedDAR.csproj",
+          "ProjectPath": "FixMergedOAR/FixMergedOAR.csproj",
           "IncludedLibraries": [
             "Skyrim"
           ]
@@ -2576,8 +2590,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/14825099?s=40\u0026amp;v=4",
       "User": "SteveTownsend",
       "Repository": "FixMergedDAR",
-      "Sha": "158a4a71eb244ab9dd914a884bbf25da93097cde",
-      "LastUpdatedRunNumber": 31426
+      "Sha": "7a670dfffeeaef710050bca59e1462b2e4f30841",
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2637,7 +2651,7 @@
       "User": "tstavrianos",
       "Repository": "FO4ArmorKeywodsWorkbenchesPatcher",
       "Sha": "e83044b244b528257e04ed7e9b1994be3fe9150b",
-      "LastUpdatedRunNumber": 32778
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2663,7 +2677,7 @@
       "User": "tstavrianos",
       "Repository": "FO4ClarityPatch",
       "Sha": "ac2fce6db2950688535c02b09b12687ffcb92612",
-      "LastUpdatedRunNumber": 31434
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2689,7 +2703,7 @@
       "User": "tstavrianos",
       "Repository": "FO4DelevelerPatch",
       "Sha": "468cebfeec20a9e22c2eebdeca3dde5dc349fe20",
-      "LastUpdatedRunNumber": 31434
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2717,7 +2731,7 @@
       "User": "tstavrianos",
       "Repository": "FO4ECOPatch",
       "Sha": "80b5a481dace73dc5e8401185deb6fc1c814f6c0",
-      "LastUpdatedRunNumber": 31434
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2743,7 +2757,7 @@
       "User": "tstavrianos",
       "Repository": "FO4FalloutGeneticsPatch",
       "Sha": "e8964fa66b7d36892257c489b8175b18028a183b",
-      "LastUpdatedRunNumber": 31433
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2799,7 +2813,7 @@
       "User": "tstavrianos",
       "Repository": "FO4StandaloneWorkbenchesPatcher",
       "Sha": "53f75642cec05d81235fa8455985dc1c0edb0a0b",
-      "LastUpdatedRunNumber": 31434
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2825,7 +2839,7 @@
       "User": "tstavrianos",
       "Repository": "FO4SwitchLightShadows",
       "Sha": "add9ea7edb76b4f885295a680ce48d1729498e03",
-      "LastUpdatedRunNumber": 31434
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2851,7 +2865,7 @@
       "User": "tstavrianos",
       "Repository": "FO4WeightlessItemsPatch",
       "Sha": "10dcbef5a4dcb028c87fab1d1956daab1991ef96",
-      "LastUpdatedRunNumber": 31434
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2875,7 +2889,7 @@
       "User": "focustense",
       "Repository": "FocusPatchers",
       "Sha": "5ab3188a681d136cac65b803a157f29e0cc8fdcb",
-      "LastUpdatedRunNumber": 31428
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2925,7 +2939,7 @@
       "User": "Piranha91",
       "Repository": "Follower-Favor-Carry-Limit-Patcher",
       "Sha": "acb76225cf0ff6c88e3ff708457c531b9fbe3128",
-      "LastUpdatedRunNumber": 31430
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -2971,7 +2985,7 @@
       "User": "TheOneAndOnlyJ3w3ls",
       "Repository": "Followers-Dual-Wield",
       "Sha": "614214054989c9121a322ac298a22e2e42f58d16",
-      "LastUpdatedRunNumber": 33228
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [
@@ -3026,8 +3040,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/34091472?s=40\u0026amp;v=4",
       "User": "Coyote21",
       "Repository": "Food-Remover-Plus",
-      "Sha": "138f73b37534715f5710a0e628c02901c9c4e76e",
-      "LastUpdatedRunNumber": 38383
+      "Sha": "b1ee2f2d78d863f1abad147ceceb1c12980960cb",
+      "LastUpdatedRunNumber": 59136
     },
     {
       "Patchers": [],
