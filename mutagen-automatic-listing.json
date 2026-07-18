@@ -6815,7 +6815,7 @@
       "User": "azraerl",
       "Repository": "Requiem-Experience",
       "Sha": "aeb202ce621d098b9aa88d1c89c5b58c89734fe7",
-      "LastUpdatedRunNumber": 31430
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -6933,7 +6933,7 @@
       "User": "Synthesis-Collective",
       "Repository": "Save-Your-Finger",
       "Sha": "69e7c0c6052485a474cd785cf2a253674ddb46b9",
-      "LastUpdatedRunNumber": 31424
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7032,7 +7032,7 @@
       "User": "ExpensiveLadder",
       "Repository": "Set-Value-From-Template",
       "Sha": "525f62f35b74ceb91e9db2908255b78ac5847b93",
-      "LastUpdatedRunNumber": 34765
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7058,7 +7058,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SFCOPaintingRemover",
       "Sha": "128980dab58e530cb5c9c6c2bb78f9fcbe380679",
-      "LastUpdatedRunNumber": 31431
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7075,13 +7075,16 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SFCOPaintingRemover/SFCOPaintingRemover.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/55751269?s=40\u0026amp;u=d449654afc1bc25c346bb058eb5da4f6e7154727\u0026amp;v=4",
       "User": "tr4wzified",
       "Repository": "SFCOPaintingRemover",
-      "Sha": ""
+      "Sha": "128980dab58e530cb5c9c6c2bb78f9fcbe380679",
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7105,7 +7108,7 @@
       "User": "JanuarySnow",
       "Repository": "Shadowmark-Patcher",
       "Sha": "d0576b9f2ae376f6c0ccd5eba404f25f8b3d39a7",
-      "LastUpdatedRunNumber": 31427
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7156,7 +7159,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SilentMoonsEnchantmentPatcher.Net",
       "Sha": "dc7aa5719c664dad17269050a2fcb2174a5f0cd5",
-      "LastUpdatedRunNumber": 31432
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7169,13 +7172,16 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SilentMoonsEnchantmentPatcher/SilentMoonsEnchantmentPatcher.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/16577545?s=40\u0026amp;u=453f920e94f48b780eb6370826b40b6790cc5a4f\u0026amp;v=4",
       "User": "erri120",
       "Repository": "SilentMoonsEnchantmentPatcher.Net",
-      "Sha": ""
+      "Sha": "dc7aa5719c664dad17269050a2fcb2174a5f0cd5",
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7205,7 +7211,7 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "SimpleTranslator",
+            "Nickname": "SynStringMerger",
             "Visibility": "Visible",
             "OneLineDescription": "",
             "LongDescription": "",
@@ -7226,8 +7232,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/23549756?s=40\u0026amp;v=4",
       "User": "Kerite",
       "Repository": "SimpleTranslator",
-      "Sha": "ca2c916481f19c047670b0163729605d04b074e7",
-      "LastUpdatedRunNumber": 32923
+      "Sha": "6fc4407b8b489502eb9faa384d54c3f17f723749",
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7254,12 +7260,31 @@
       "LastUpdatedRunNumber": 59079
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "SkyLady",
+            "Visibility": "Visible",
+            "OneLineDescription": "Turns male NPCs into females.",
+            "LongDescription": "SkyLady patches male NPCs to use female NPC appearances, including facegen, head parts, voices, and Female flags. Supports custom races with configurable settings via text files created automatically in your mod folder. Compatible with Skyrim SE, AE, and VR.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR"
+            ]
+          },
+          "ProjectPath": "SkyLady/SkyLady.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/174206826?s=40\u0026amp;v=4",
       "User": "generaleagleyt",
       "Repository": "SkyFemPatcher",
-      "Sha": "bc88d6bf31a654f69d36daf98e72bb63853dcb4a",
-      "LastUpdatedRunNumber": 49684
+      "Sha": "2ac5b78805e00e74c0bfc3bf0f884924f31f1847",
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7285,7 +7310,7 @@
       "User": "panthuncia",
       "Repository": "SkyFurry_Visual_Patcher",
       "Sha": "018f8153ded511bc604317473f2267ef80cd4b98",
-      "LastUpdatedRunNumber": 31434
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7336,7 +7361,7 @@
       "User": "Jampi0n",
       "Repository": "Skyrim-ArmoryRebalance",
       "Sha": "fb5a0fdbca76c6ce4b946fdb12d66c36cb6da9c0",
-      "LastUpdatedRunNumber": 31433
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7360,7 +7385,7 @@
       "User": "Jampi0n",
       "Repository": "Skyrim-ArrowDamageScaling",
       "Sha": "36faafa5b9661e52cf1883088188e29c7366f996",
-      "LastUpdatedRunNumber": 33695
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7384,7 +7409,7 @@
       "User": "Jampi0n",
       "Repository": "Skyrim-DisableVanillaLoadingScreens",
       "Sha": "7b180b4aec73c585bd3f5fbd3cf58275e1052ae6",
-      "LastUpdatedRunNumber": 31425
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7432,7 +7457,7 @@
       "User": "Jampi0n",
       "Repository": "Skyrim-LeveledLoot",
       "Sha": "4ccf6851cbaef300ade5f3e996fc51ab1627fa5b",
-      "LastUpdatedRunNumber": 44743
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7602,7 +7627,7 @@
       "User": "Kerite",
       "Repository": "skyrim-string-merger",
       "Sha": "6fc4407b8b489502eb9faa384d54c3f17f723749",
-      "LastUpdatedRunNumber": 34906
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7617,7 +7642,7 @@
       "User": "cakeofhonor",
       "Repository": "Skyrim-Synthesis-NIFPatcher_HairShader",
       "Sha": "7982aca8a8261332065a8ccfb9e88ea1e7a801f7",
-      "LastUpdatedRunNumber": 31426
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [],
@@ -7625,7 +7650,7 @@
       "User": "Deigue",
       "Repository": "SkyrimCurrencyReplacer",
       "Sha": "c9548edc963153428d212a906f42edd86f1b5de2",
-      "LastUpdatedRunNumber": 31431
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7720,7 +7745,7 @@
       "User": "hellozyemlya",
       "Repository": "SkyrimUnlimitedRingsPatcher",
       "Sha": "94b7afe7e5c4e712a336f095ebe0f210e5391bb3",
-      "LastUpdatedRunNumber": 31424
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
@@ -7744,7 +7769,7 @@
       "User": "Deigue",
       "Repository": "SkyUIWeaponIconPatcher",
       "Sha": "73b34f67ec9e45098dd9a52af92ad1ff228981e0",
-      "LastUpdatedRunNumber": 31431
+      "LastUpdatedRunNumber": 59141
     },
     {
       "Patchers": [
