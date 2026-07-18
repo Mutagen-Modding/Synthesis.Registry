@@ -9350,7 +9350,7 @@
       "User": "TokcDK",
       "Repository": "SynFixMissingVendorItemScrollKeyword",
       "Sha": "b5e1159d55153d2d7a59f05f956881de10610d73",
-      "LastUpdatedRunNumber": 31435
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -9374,7 +9374,7 @@
       "User": "TokcDK",
       "Repository": "SynFixShieldData",
       "Sha": "94600c07c58a9f985de4e032e0d72a23c0ff2704",
-      "LastUpdatedRunNumber": 31434
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -9398,7 +9398,7 @@
       "User": "TokcDK",
       "Repository": "SynFixWeaponAttackSpeed",
       "Sha": "722b4e7bb49c39ba923e90651844013315e9c7fe",
-      "LastUpdatedRunNumber": 31423
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -9446,7 +9446,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SynFloraFix",
       "Sha": "eca2bc2568fb0ecaf75d2f39beff32cd64e4dad3",
-      "LastUpdatedRunNumber": 37128
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -9470,7 +9470,7 @@
       "User": "minis-patchers",
       "Repository": "SynFloraFix",
       "Sha": "eca2bc2568fb0ecaf75d2f39beff32cd64e4dad3",
-      "LastUpdatedRunNumber": 35851
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -9583,7 +9583,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SynHeimPatcher",
       "Sha": "0527588c4ff903f48d60b432f5283d49349c6429",
-      "LastUpdatedRunNumber": 31434
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -9608,7 +9608,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/13448395?s=40\u0026amp;v=4",
       "User": "rshackleton",
       "Repository": "SynHeimPatcher",
-      "Sha": "6cac7dca8d1adea8cb48fca27322b4d747ba758e"
+      "Sha": "0527588c4ff903f48d60b432f5283d49349c6429",
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -9656,7 +9657,7 @@
       "User": "minis-patchers",
       "Repository": "SynHelmsWithCirclets",
       "Sha": "e40a8488cabff9c59563de2aca1418b0b54b6536",
-      "LastUpdatedRunNumber": 35850
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -9682,7 +9683,7 @@
       "User": "minis-patchers",
       "Repository": "SynHVLFramework",
       "Sha": "19842a55d7371ce3b4004c801835f665b4bf2308",
-      "LastUpdatedRunNumber": 51604
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -9730,7 +9731,7 @@
       "User": "minis-patchers",
       "Repository": "SynInvisibleHelmets",
       "Sha": "406a632c2154a0097fb0a9cf525f4283794bc7b7",
-      "LastUpdatedRunNumber": 35850
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -9778,7 +9779,7 @@
       "User": "minis-patchers",
       "Repository": "SynKeywordDistributor",
       "Sha": "db624fba82e58a4b75f1ff3d1815d965ecfdd15a",
-      "LastUpdatedRunNumber": 35850
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -9817,7 +9818,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SynLoadscreenRemover",
       "Sha": "8730a2c491479603d4a5c04509b09ae8a6af7934",
-      "LastUpdatedRunNumber": 37128
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -9841,7 +9842,7 @@
       "User": "minis-patchers",
       "Repository": "SynLoadscreenRemover",
       "Sha": "8730a2c491479603d4a5c04509b09ae8a6af7934",
-      "LastUpdatedRunNumber": 35850
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -9889,7 +9890,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SynNoEnchantmentRestrictions",
       "Sha": "686ccd76ced15ee092bb009279f1f9bbf05807c5",
-      "LastUpdatedRunNumber": 37128
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -9913,7 +9914,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SynNoMoreEasyEnemies",
       "Sha": "98cb601e9020a02829907ad33707bbe763ea325a",
-      "LastUpdatedRunNumber": 31428
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -9922,19 +9923,22 @@
             "Nickname": "No More Easy Enemies",
             "Visibility": "Visible",
             "OneLineDescription": "Fixes low-level enemies spawning in high-level dungeons.",
-            "LongDescription": "# Synthesis Patcher - No More Easy Enemies\nRework NPC leveled list difficulty multipliers and settings to banish low-level enemies from your high-level dungeons.\n\nELI5: No more level 1 draugers in your level 30 dungeon.\n\n## Wait, what?\nThe way Skyrim chooses which NPC to place in a dungeon is...complicated. Long story short, it uses a combination of your level, actor multipliers, the spawn\u0027s difficulty setting, and some flags to determine which level of an NPC is standing in a particular spot. \n\nThe problem is that one of the spawn difficulties, \u0022Easy\u0022, chooses from the list in such a way that it has the (quite good) chance to spawn the lowest-level enemies. There is a flag to turn this off, which \u0022Easy\u0022 ignores completely. So any time you have an \u0022Easy\u0022 spawn in a dungeon, there\u0027s a chance for you to see a low-level enemy in that spot.\n\nThis patcher reworks the multipliers and the spawn settings to avoid this issue with the \u0022Easy\u0022 setting.  It optionally updates all Leveled NPC lists to prevent low-level enemies from being spawned.\n\n## How?\nThe easiest way to explain the HOW is with an example.\n\nBy default, Skyrim uses the following spawn difficulty (leveled actors) multipliers:\n- fLeveledActorMultEasy: 0.33\n- fLeveledActorMultMedium: 0.67\n- fLeveledActorMultHard: 1.00\n- fLeveledActorMultVeryHard: 1.25\n\nCritically, if a spawn does NOT have a difficulty set, the multiplier used is a static 1.00.  We can abuse this fact to avoid the issue with the \u0022Easy\u0022 spawn difficulty.\n\nIf you leave the \u0022Spawn Difficulty to Replace\u0022 setting at the default of Hard, NoMoreEasyEnemies will do the following:\n- Change fLeveledActorMultMedium to 0.33 (new Easy)\n- Change fLeveledActorMultHard to 0.67 (new Medium)\n- For all enemy spawns (Placed NPCs), if the old difficulty setting was \u0022Easy\u0022, change it to \u0022Medium\u0022\n- For all enemy spawns (Placed NPCs), if the old difficulty setting was \u0022Medium\u0022, change it to \u0022Hard\u0022\n- For all enemy spawns (Placed NPCs), if the old difficulty setting was \u0022Hard\u0022, delete the setting (force to multiplier of 1.00)\n- Optionally update all Leveled NPC lists to remove the \u0022Calculate From All Levels Less Than Or Equal Player\u0022 flag if it is set, preventing low level NPCs from spawning when those lists are used\n\nNow there should be NO spawns with a difficulty of \u0022Easy\u0022. Previously \u0022Easy\u0022 spawns are now \u0022Medium\u0022. Previously \u0022Medium\u0022 spawns are now \u0022Hard\u0022. Previously \u0022Hard\u0022 spawns are now empty, so a multiplier of 1.00. And all the Leveled NPC lists will only select the highest-eligible NPCs.\n\n## Settings\nAll settings can be configured inside the Synthesis app.\n\n### Spawn Difficulty to Replace\nThis is the Difficulty (Level Modifier) that will be replaced by a static multiplier of 1.0 (modifier removed).\n\nPick the Modifier with a multiplier closest to 1.0.  \n\nIf your multipliers are vanilla, use \u0027Hard\u0027.\nIf your multipliers are harder than normal (OWL, SRLEZ, etc), \u0027Medium\u0027 is probably your best bet.\n\nTo get the exact correct value, open up xEdit with your load order. Enter each of the following FormIDs in the \u0027FormID\u0027 box in the top left and hit ENTER. Note the Data/Float value for each setting.  Use the value in the farthest-right column of the right pane. Do NOT use the value in Synthesis.esp, though.\n\n- Easy: 0001A1D9\n- Medium: 0001A1DB\n- Hard: 0001A1DA\n- VeryHard: 00023C0B\n\nWhichever game setting is closest to 1.00 is the difficulty you should set in Synthesis.\n\n**Default**: Hard\n\n### Leveled NPC lists prefer player-level NPCs\nIf enabled, all Leveled NPC lists will be updated to remove the \u0022Calculate From All Levels Less Than Or Equal Player\u0022 flag if it is set. This will prevent the Leveled NPC list from selecting lower-level NPCs when spawning NPCs. This is slightly more risky if a mod or event depends on lower-level NPCs being selected. Please report any issues with this.\n\n**Default**: enabled\n\n\n## FAQ\n### Will this break things?\nI don\u0027t think so. You\u0027re using the same leveled lists that you were before, all we\u0027re doing is influencing which NPC will get selected. If you want to be extra safe, disable the \u0022Leveled NPC lists prefer player-level NPCs\u0022 setting.\n\nAs a precaution, you could create a save before entering a new interior area with enemies. Once you enter a dungeon, the enemies are generated and saved into your next save file, and it is not simple to regenerate them.\n\n### Why are there still a few level 1 enemies?!?\nBethesda, in its infinite wisdom, has statically set some spawns to use specific NPCs rather than leveled lists. These NPCs are often set to level 1 and do not scale with the player. Call Todd and ask him.",
+            "LongDescription": "# Synthesis Patcher - No More Easy Enemies\nRework NPC leveled list difficulty multipliers and settings to banish low-level enemies from your high-level dungeons.\n\n## Wait, what?\nThe way Skyrim chooses which NPC to place in a dungeon is...complicated. Long story short, it uses a combination of your level, actor multipliers, the spawn\u0027s difficulty setting, and some flags to determine which level of an NPC is standing in a particular spot. \n\nThe problem is that one of the spawn difficulties, \u0022Easy\u0022, chooses from the list in such a way that it has the (quite good) chance to spawn the lowest-level enemies. There is a flag to turn this off, which \u0022Easy\u0022 ignores completely. So any time you have an \u0022Easy\u0022 spawn in a dungeon, there\u0027s a chance for you to see a low-level enemy in that spot.\n\nThis patcher reworks the multipliers and the spawn settings to avoid this issue with the \u0022Easy\u0022 setting.  It optionally updates all Leveled NPC lists to prevent low-level enemies from being spawned.\n\n## How?\nThe easiest way to explain the HOW is with an example.\n\nBy default, Skyrim uses the following spawn difficulty (leveled actors) multipliers:\n- fLeveledActorMultEasy: 0.33\n- fLeveledActorMultMedium: 0.67\n- fLeveledActorMultHard: 1.00\n- fLeveledActorMultVeryHard: 1.25\n\nCritically, if a spawn does NOT have a difficulty set, the multiplier used is a static 1.00.  We can abuse this fact to avoid the issue with the \u0022Easy\u0022 spawn difficulty.\n\nIf you leave the \u0022Spawn Difficulty to Replace\u0022 setting at the default of Hard, NoMoreEasyEnemies will do the following:\n- Change fLeveledActorMultMedium to 0.33 (new Easy)\n- Change fLeveledActorMultHard to 0.67 (new Medium)\n- For all enemy spawns (Placed NPCs), if the old difficulty setting was \u0022Easy\u0022, change it to \u0022Medium\u0022\n- For all enemy spawns (Placed NPCs), if the old difficulty setting was \u0022Medium\u0022, change it to \u0022Hard\u0022\n- For all enemy spawns (Placed NPCs), if the old difficulty setting was \u0022Hard\u0022, delete the setting (force to multiplier of 1.00)\n- Optionally update all Leveled NPC lists to remove the \u0022Calculate From All Levels Less Than Or Equal Player\u0022 flag if it is set, preventing low level NPCs from spawning when those lists are used\n\nNow there should be NO spawns with a difficulty of \u0022Easy\u0022. Previously \u0022Easy\u0022 spawns are now \u0022Medium\u0022. Previously \u0022Medium\u0022 spawns are now \u0022Hard\u0022. Previously \u0022Hard\u0022 spawns are now empty, so a multiplier of 1.00. And all the Leveled NPC lists will only select the highest-eligible NPCs.\n\n## Settings\nAll settings can be configured inside the Synthesis app.\n\n### Spawn Difficulty to Replace\nThis is the Difficulty (Level Modifier) that will be replaced by a static multiplier of 1.0 (modifier removed).\n\nPick the Modifier with a multiplier closest to 1.0.  \n\nIf your multipliers are vanilla, use \u0027Hard\u0027.\nIf your multipliers are harder than normal (OWL, SRLEZ, etc), \u0027Medium\u0027 is probably your best bet.\n\nTo get the exact correct value, open up xEdit with your load order. Enter each of the following FormIDs in the \u0027FormID\u0027 box in the top left and hit ENTER. Note the Data/Float value for each setting.  Use the value in the farthest-right column of the right pane. Do NOT use the value in Synthesis.esp, though.\n\n- Easy: 0001A1D9\n- Medium: 0001A1DB\n- Hard: 0001A1DA\n- VeryHard: 00023C0B\n\nWhichever game setting is closest to 1.00 is the difficulty you should set in Synthesis.\n\n**Default**: Hard\n\n### Leveled NPC lists prefer player-level NPCs\nIf enabled, all Leveled NPC lists will be updated to remove the \u0022Calculate From All Levels Less Than Or Equal Player\u0022 flag if it is set. This will prevent the Leveled NPC list from selecting lower-level NPCs when spawning NPCs. This is slightly more risky if a mod or event depends on lower-level NPCs being selected. Please report any issues with this.\n\n**Default**: enabled\n\n\n## FAQ\n### Will this break things?\nI don\u0027t think so. You\u0027re using the same leveled lists that you were before, all we\u0027re doing is influencing which NPC will get selected. If you want to be extra safe, disable the \u0022Leveled NPC lists prefer player-level NPCs\u0022 setting.\n\nAs a precaution, you could create a save before entering a new interior area with enemies. Once you enter a dungeon, the enemies are generated and saved into your next save file, and it is not simple to regenerate them.\n\n### Why are there still a few level 1 enemies?!?\nBethesda, in its infinite wisdom, has statically set some spawns to use specific NPCs rather than leveled lists. These NPCs are often set to level 1 and do not scale with the player. Call Todd and ask him.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": []
           },
           "ProjectPath": "SynNoMoreEasyEnemies/SynNoMoreEasyEnemies.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/19712078?s=40\u0026amp;v=4",
       "User": "kjack9",
       "Repository": "SynNoMoreEasyEnemies",
-      "Sha": ""
+      "Sha": "98cb601e9020a02829907ad33707bbe763ea325a",
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -9991,7 +9995,7 @@
       "User": "ixanza",
       "Repository": "synOblivionInteractionIcons",
       "Sha": "e5ef98e5e3b463e71ad3432350f31f4ddca3d57b",
-      "LastUpdatedRunNumber": 31425
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -10030,7 +10034,7 @@
       "User": "ixanza",
       "Repository": "SynOpenWorldLoot",
       "Sha": "3cfe92c230c18b5f4861dfd8ea883ffaa637660c",
-      "LastUpdatedRunNumber": 31428
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -10106,7 +10110,7 @@
       "User": "Minizbot2012",
       "Repository": "SynPEXPatch",
       "Sha": "b0ee7ae6095eea8adba0b9120744a2aaaa232e8e",
-      "LastUpdatedRunNumber": 51857
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
@@ -10130,7 +10134,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SynPotionWeight",
       "Sha": "869754ee118943ea8a1c882286cec330fed358ca",
-      "LastUpdatedRunNumber": 37128
+      "LastUpdatedRunNumber": 59144
     },
     {
       "Patchers": [
