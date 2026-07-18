@@ -5869,7 +5869,7 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "Creature Height Variance",
+            "Nickname": "CreatureHeightVarianceTest",
             "Visibility": "Visible",
             "OneLineDescription": "Have more verticality in NPC and creature heights",
             "LongDescription": "Randomizes the height of all NPCs in a deterministic manner. The patcher can be configured with a minimum and maximum value for each race and gender of that race and comes by default with most of the basic human races pre-configured.",
@@ -5885,7 +5885,7 @@
               "SkyrimSEGog"
             ]
           },
-          "ProjectPath": "NPCVariance/NPCVariance.csproj",
+          "ProjectPath": "CreatureHeightVariance/CreatureHeightVariance.csproj",
           "IncludedLibraries": [
             "Skyrim"
           ]
@@ -5894,8 +5894,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/22298459?s=40\u0026amp;v=4",
       "User": "CritLoren",
       "Repository": "NPCVariance",
-      "Sha": "baccde7161bc362c564b0870eab5b0b82173168c",
-      "LastUpdatedRunNumber": 34250
+      "Sha": "62c4d19a4bd5dc647a2cb76b00c66cf66051d6db",
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -5964,19 +5964,22 @@
       "User": "Synthesis-Collective",
       "Repository": "oppositeanimationdisabler",
       "Sha": "cd534d03573e803cd815de1232091ed7a97faf5a",
-      "LastUpdatedRunNumber": 31432
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
         {
           "ProjectPath": "OppositeAnimationDisabler/OppositeAnimationDisabler.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
       "User": "jdsmith2816",
       "Repository": "oppositeanimationdisabler",
-      "Sha": ""
+      "Sha": "cd534d03573e803cd815de1232091ed7a97faf5a",
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -5994,20 +5997,12 @@
       "LastUpdatedRunNumber": 59072
     },
     {
-      "Patchers": [
-        {
-          "ProjectPath": "OutfitPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim",
-            "Skyrim"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/2961881?s=40\u0026amp;v=4",
       "User": "sachinkmr",
       "Repository": "OutfitPatcher",
       "Sha": "62ee9115957f17b128875a179aa14a3b432cdeb1",
-      "LastUpdatedRunNumber": 31433
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -6056,8 +6051,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/1953942?s=40\u0026amp;v=4",
       "User": "Minizbot2012",
       "Repository": "PapyrusPatcher",
-      "Sha": "9b7654ee9a2ddd4055ef99b447de317e0fa1e516",
-      "LastUpdatedRunNumber": 51848
+      "Sha": "b0ee7ae6095eea8adba0b9120744a2aaaa232e8e",
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -6091,7 +6086,7 @@
       "User": "Noggog",
       "Repository": "PassthroughTest",
       "Sha": "903011640af38d0646dfe6c5f66149990616b807",
-      "LastUpdatedRunNumber": 31426
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -6156,7 +6151,7 @@
       "User": "theSkyseS",
       "Repository": "PickYourPoison",
       "Sha": "eb6be2919a962922570d3a3cfb0ed0099b07b4fc",
-      "LastUpdatedRunNumber": 31428
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -6180,7 +6175,7 @@
       "User": "Bl4ckread",
       "Repository": "PineTreeScaler",
       "Sha": "8a857351583b7db4dafada7cf8a1c1a20af27bda",
-      "LastUpdatedRunNumber": 31426
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -6224,7 +6219,7 @@
       "User": "poperigby",
       "Repository": "placed-light-patcher",
       "Sha": "225c28dbe638430ced293106923b5089070fb2cb",
-      "LastUpdatedRunNumber": 52675
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -6255,7 +6250,7 @@
       "User": "ExpensiveLadder",
       "Repository": "PoisonBlocking",
       "Sha": "000cb911aa72f47b16a5e46055cf81ced7a3c6b0",
-      "LastUpdatedRunNumber": 47507
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -6281,7 +6276,7 @@
       "User": "DoubleYouC",
       "Repository": "POV-Messages",
       "Sha": "794cb723a35ca3c51476885847ca5fae0dd71c7d",
-      "LastUpdatedRunNumber": 33086
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -6348,7 +6343,7 @@
       "User": "JanuarySnow",
       "Repository": "Quest_Categorizer",
       "Sha": "0a115ff4fb7a838474c0d1af93ee5aef95dc12c8",
-      "LastUpdatedRunNumber": 31426
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [],
@@ -6356,7 +6351,7 @@
       "User": "radj307",
       "Repository": "Quest-Journal-Limit-Fixer",
       "Sha": "5701dd1cc53c08ba9727a4ec1a7fad7fff8db1ce",
-      "LastUpdatedRunNumber": 32954
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -6426,13 +6421,16 @@
             "TargetedReleases": []
           },
           "ProjectPath": "RaceCompatibilityDialogue/RaceCompatibilityDialogue.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
       "Repository": "RaceCompatibilityDialogue",
-      "Sha": ""
+      "Sha": "ae608d792f829f1a99794353cdad59f72b6a273c",
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -6487,7 +6485,7 @@
       "User": "Benna96-Synthesis",
       "Repository": "Radial-Blur-Remover",
       "Sha": "2bbf7bd8d47fed3c0bd3db1bd132b2b320a5071f",
-      "LastUpdatedRunNumber": 31427
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -6517,7 +6515,7 @@
       "User": "azraerl",
       "Repository": "RandomUtility",
       "Sha": "4320d9cd32f3a3578e0dac1cc81267d15617d489",
-      "LastUpdatedRunNumber": 31427
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -6541,7 +6539,7 @@
       "User": "theSkyseS",
       "Repository": "ReadingIsGoodLegacy",
       "Sha": "5df5a97ea01d8ef7c3b532712cda524f8d7dc7a8",
-      "LastUpdatedRunNumber": 31429
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -6565,7 +6563,7 @@
       "User": "ReaperAnon",
       "Repository": "Realistic-Water-Two-Patcher",
       "Sha": "48e311a92c4d0c82e56a7c863bdde4352de476e6",
-      "LastUpdatedRunNumber": 31427
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -6682,8 +6680,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/44859640?s=40\u0026amp;v=4",
       "User": "metacubed-projects",
       "Repository": "Regional-Rock-Patcher",
-      "Sha": "395e4a29a4b310b0cf7e1c0e0675faf1adf53a01",
-      "LastUpdatedRunNumber": 49672
+      "Sha": "ce16083e08708e0b18b2169f574e8fcb9e13d110",
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -6738,7 +6736,7 @@
       "User": "tr4wzified",
       "Repository": "RemoveInteriorFogPatcher",
       "Sha": "1b9d4d2d63301d7387270e8facae0f8d3806c45e",
-      "LastUpdatedRunNumber": 31429
+      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
