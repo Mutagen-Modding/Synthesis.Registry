@@ -10158,7 +10158,7 @@
       "User": "minis-patchers",
       "Repository": "SynPotionWeight",
       "Sha": "869754ee118943ea8a1c882286cec330fed358ca",
-      "LastUpdatedRunNumber": 35850
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -10248,7 +10248,7 @@
       "User": "metacubed-projects",
       "Repository": "SynSimpleScrollTranscribingPatcher",
       "Sha": "76de18660183002a1deca0c4ef625334a777c969",
-      "LastUpdatedRunNumber": 40704
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -10277,8 +10277,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/24525094?s=40\u0026amp;v=4",
       "User": "zVcXr",
       "Repository": "SynSpellTomeFreeLeveledLists",
-      "Sha": "a8b1db678455f5afc65f4f1d533233f7791f21a9",
-      "LastUpdatedRunNumber": 31424
+      "Sha": "53f8dfd073c28093f7ba17dafd73eccc69e3510b",
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -10385,7 +10385,7 @@
       "User": "Kerite",
       "Repository": "SynStringMerger",
       "Sha": "6fc4407b8b489502eb9faa384d54c3f17f723749",
-      "LastUpdatedRunNumber": 32946
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -10536,7 +10536,7 @@
       "User": "Meridiano",
       "Repository": "Synthesis-BlendedShorelinesUniversal",
       "Sha": "11ed3de335ed30ba4812f637333a55ebae1b39ce",
-      "LastUpdatedRunNumber": 47328
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -10559,7 +10559,7 @@
       "User": "Benna96",
       "Repository": "Synthesis-Misc-Compatibility-Patchers",
       "Sha": "bfca9b5ac1573a082e2cab4a2c10a11275651899",
-      "LastUpdatedRunNumber": 31427
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -10598,7 +10598,7 @@
       "User": "philipykim",
       "Repository": "SynthesisScanner",
       "Sha": "088ccb73fad04a2018a98bc6c1506bcbe92a43f6",
-      "LastUpdatedRunNumber": 31434
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -10645,7 +10645,7 @@
       "User": "tmpbased",
       "Repository": "SynthMergeTL",
       "Sha": "36c443af52bb3970bd1dba364a3a223b7a718acb",
-      "LastUpdatedRunNumber": 35071
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -10669,7 +10669,7 @@
       "User": "zVcXr",
       "Repository": "SynthMergeTL",
       "Sha": "36c443af52bb3970bd1dba364a3a223b7a718acb",
-      "LastUpdatedRunNumber": 32960
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -10693,7 +10693,7 @@
       "User": "halgari",
       "Repository": "SynthNPCsWithFaces",
       "Sha": "0d7698875a003f1942db5e3f9bf435fc6977565b",
-      "LastUpdatedRunNumber": 31430
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -10718,7 +10718,7 @@
       "User": "halgari",
       "Repository": "SynthusMaximus",
       "Sha": "27622b5d81560af803f3541946587ea138e4734d",
-      "LastUpdatedRunNumber": 31429
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -10733,7 +10733,7 @@
       "User": "D7ry",
       "Repository": "SynTranslator",
       "Sha": "ed04197ec7f1544c3d601306677e3961a2f337c5",
-      "LastUpdatedRunNumber": 31426
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [],
@@ -10749,7 +10749,7 @@
       "User": "minis-patchers",
       "Repository": "SynTweakEngine",
       "Sha": "c5aaeaa18376c2b07353bdd50c8e02471d407d64",
-      "LastUpdatedRunNumber": 35850
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -10783,7 +10783,7 @@
       "User": "Noggog",
       "Repository": "TestPatcher",
       "Sha": "c8efae40697b69e7abbfa9ee58f86477a5b221a6",
-      "LastUpdatedRunNumber": 31432
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -10791,10 +10791,12 @@
           "Customization": {
             "Nickname": "Domek97/Throwing-Stuff-VR-Patcher",
             "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
+            "OneLineDescription": "Patches mods to work with More Interactive Objects - Throwing Things VR Port",
+            "LongDescription": "Adds destruction to any Potions/Poisons in your load order, and any items specified in ThrowStuff_KID.ini",
             "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
+            "RequiredMods": [
+              "ThrowStuff.esp"
+            ],
             "TargetedReleases": [
               "SkyrimVR"
             ]
@@ -10808,8 +10810,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/11063062?s=40\u0026amp;v=4",
       "User": "Domek97",
       "Repository": "Throwing-Stuff-VR-Patcher",
-      "Sha": "5f7072365713ab78bc55ae759c661f7753465d6b",
-      "LastUpdatedRunNumber": 47088
+      "Sha": "2ff89d91782bee527a42678ece8779168d5cb905",
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -10876,7 +10878,7 @@
       "User": "JanuarySnow",
       "Repository": "tmopatcher",
       "Sha": "66970b82103297cf43f85cd6d36e48e6cf0f929d",
-      "LastUpdatedRunNumber": 31433
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -11035,15 +11037,7 @@
             "LongDescription": "Rescale user selected trees by a user defined amount for each tree or random amount within a user specified range.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": [
-              "Oblivion",
-              "SkyrimLE",
-              "SkyrimSE",
-              "SkyrimVR",
-              "Fallout4",
-              "EnderalLE",
-              "EnderalSE"
-            ]
+            "TargetedReleases": []
           },
           "ProjectPath": "TreeScaler/TreeScaler.csproj",
           "IncludedLibraries": [
@@ -11055,7 +11049,7 @@
       "User": "Super-Shadow",
       "Repository": "TreeScaler",
       "Sha": "f99a82b0321f13c89acc758c506b711bc94ba2dc",
-      "LastUpdatedRunNumber": 31434
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -11091,7 +11085,7 @@
       "User": "theSkyseS",
       "Repository": "TrueUnleveledSkyrim",
       "Sha": "79dcc66d06a6239ca563cab7b579fb4cedf4aadf",
-      "LastUpdatedRunNumber": 31427
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -11115,7 +11109,7 @@
       "User": "tr4wzified",
       "Repository": "TUDMFootstepPatcher",
       "Sha": "b50628b6fe4db5ec120c539d220958a7eb39b360",
-      "LastUpdatedRunNumber": 31432
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
@@ -11408,7 +11402,7 @@
       "User": "Synthesis-Collective",
       "Repository": "UPFLoader-ActionSpeed",
       "Sha": "706946de85cad91f8fd08745b24ba2e56fff1f30",
-      "LastUpdatedRunNumber": 31431
+      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
