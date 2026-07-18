@@ -3049,7 +3049,7 @@
       "User": "Coyote21",
       "Repository": "FoodRemover",
       "Sha": "c44f5e34989c600e37aa6dd0447c207cb6768bdf",
-      "LastUpdatedRunNumber": 38383
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -3114,7 +3114,7 @@
       "User": "Bl4ckread",
       "Repository": "FrostSpellsNoStaminaDamage",
       "Sha": "d096ae2d0f1d867541658b4aec3629baf40cd118",
-      "LastUpdatedRunNumber": 31425
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -3185,7 +3185,7 @@
       "User": "ixanza",
       "Repository": "GDOPatcher",
       "Sha": "a2041ab85a1c722925884e26e20f690bedc02f41",
-      "LastUpdatedRunNumber": 31424
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -3250,7 +3250,7 @@
       "User": "Synthesis-Collective",
       "Repository": "GeneralStoresIngredientsPatcher",
       "Sha": "db0656896dd26fcdf850b6f40e7e94cc35422d63",
-      "LastUpdatedRunNumber": 31430
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -3267,17 +3267,22 @@
             "TargetedReleases": []
           },
           "ProjectPath": "GeneralStoresIngredientsPatcher/GeneralStoresIngredientsPatcher.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         },
         {
           "ProjectPath": "Tests/Tests.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1089775?s=40\u0026amp;v=4",
       "User": "mrudat",
       "Repository": "GeneralStoresIngredientsPatcher",
-      "Sha": ""
+      "Sha": "1fb4dd78688910fe1b53c52c117a1b4304953576",
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -3433,7 +3438,7 @@
       "User": "ReaperAnon",
       "Repository": "Grounded-Skyrim-Masculinized-Leveled-Lists",
       "Sha": "513a4486107bce4d11393eef18d0ff59f108f0eb",
-      "LastUpdatedRunNumber": 40069
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -3447,7 +3452,7 @@
             "RequiredMods": [],
             "TargetedReleases": []
           },
-          "ProjectPath": "HalgarisRPGLoot/HalgarisRPGLoot.csproj",
+          "ProjectPath": "SynthesisRPGLoot/SynthesisRPGLoot.csproj",
           "IncludedLibraries": [
             "Skyrim"
           ]
@@ -3456,8 +3461,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "HalgarisConsistentRPGLoot",
-      "Sha": "efdd3de484cbb2542fa195014e96d2cbb43e33aa",
-      "LastUpdatedRunNumber": 45559
+      "Sha": "5a375877c76ea9493feca14c5bb3ad8b5ec9ccd7",
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -3547,7 +3552,7 @@
       "User": "theSkyseS",
       "Repository": "HarvestThoseMammothSkulls",
       "Sha": "0903d449fce25189e8f9f47c8de6461c9bb67449",
-      "LastUpdatedRunNumber": 31429
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -3573,7 +3578,7 @@
       "User": "DoubleYouC",
       "Repository": "HasDistantLOD",
       "Sha": "056d8b7ff48bb3a2969705644d7a044d9b262576",
-      "LastUpdatedRunNumber": 31434
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -3638,7 +3643,7 @@
       "User": "theSkyseS",
       "Repository": "HeightsOfSkyrim",
       "Sha": "6f7f889b6910d8897155c240dc7282b693051fcf",
-      "LastUpdatedRunNumber": 31428
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -3727,7 +3732,7 @@
       "User": "tr4wzified",
       "Repository": "HeterochromiaRedone",
       "Sha": "cdd1a82750fe05eee83c00dfd41390bce8585863",
-      "LastUpdatedRunNumber": 32087
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -3772,7 +3777,7 @@
       "User": "EzioTheDeadPoet",
       "Repository": "HighPolyHead-UpdateDefaultRaces",
       "Sha": "808585aec44b4f7e893c9d23aa8b4d93eea9c4be",
-      "LastUpdatedRunNumber": 31426
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -3903,7 +3908,7 @@
       "User": "JanuarySnow",
       "Repository": "hph_replacer",
       "Sha": "75d878e43c389930ace2a0b48298e57023eb366b",
-      "LastUpdatedRunNumber": 31426
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -3942,23 +3947,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "HunterbornExtender_",
-            "Visibility": "Visible",
-            "OneLineDescription": "Synthesis derivation of ZEdit Hunterborn Patcher",
-            "LongDescription": "Requires Hunterborn MCM (and its dependencies) from https://www.nexusmods.com/skyrimspecialedition/mods/17993.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "Hunterborn.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "HunterbornExtender/HunterbornExtender.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        },
-        {
-          "Customization": {
             "Nickname": "HunterbornExtender",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis derivation of ZEdit Hunterborn Patcher",
@@ -3978,8 +3966,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/77368731?s=40\u0026amp;v=4",
       "User": "Synthesis-Collective",
       "Repository": "HunterbornExtender",
-      "Sha": "4d364663d99a5fee18011652f99d3b1f73fad1ff",
-      "LastUpdatedRunNumber": 31433
+      "Sha": "6ab50672f2126d3bba3e033842813ea22c237aab",
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [],
@@ -3987,7 +3975,7 @@
       "User": "Wolfman5750",
       "Repository": "ICAIO_AIO_PATCHER",
       "Sha": "dadaec6dfb8e2415101666cce73fd6cfd73a3c35",
-      "LastUpdatedRunNumber": 47504
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -4034,7 +4022,7 @@
       "User": "ExpensiveLadder",
       "Repository": "ImCh-Patcher",
       "Sha": "dc58891eaf23b04ee31d49f8aa376192eed61fe1",
-      "LastUpdatedRunNumber": 31430
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -4049,13 +4037,16 @@
             "TargetedReleases": []
           },
           "ProjectPath": "ImChPatcher/ImChPatcher.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/68307915?s=40\u0026amp;v=4",
       "User": "ExpensiveLadder",
       "Repository": "Immersive-Children-Patcher",
-      "Sha": ""
+      "Sha": "dc58891eaf23b04ee31d49f8aa376192eed61fe1",
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -4236,7 +4227,7 @@
       "User": "coldrifting",
       "Repository": "ItemRenamer",
       "Sha": "0b99244739bcefa04ee38f723711436788d669ea",
-      "LastUpdatedRunNumber": 31423
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [],
@@ -4268,7 +4259,7 @@
       "User": "Deigue",
       "Repository": "ItemWeightCustomizer",
       "Sha": "1563eea76a9fea693ed3e9f83979d1cf98fe03e7",
-      "LastUpdatedRunNumber": 31432
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
@@ -4283,7 +4274,7 @@
       "User": "Synthesis-Collective",
       "Repository": "khajiitearsshow",
       "Sha": "9abdaf2460eabaa64c445f9a6a16685da6c5d358",
-      "LastUpdatedRunNumber": 31433
+      "LastUpdatedRunNumber": 59137
     },
     {
       "Patchers": [
