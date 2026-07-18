@@ -5690,8 +5690,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "5d592dbfcdaccdc75e7e03fdb974e57665ab5fff",
-      "LastUpdatedRunNumber": 59122
+      "Sha": "4f91ab773697c27ebf11a721d161b80123b7d55a",
+      "LastUpdatedRunNumber": 59146
     },
     {
       "Patchers": [
@@ -11405,25 +11405,12 @@
       "LastUpdatedRunNumber": 59145
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "UPFLoader - ActionSpeed",
-            "Visibility": "Visible",
-            "OneLineDescription": "Loader for ActionSpeed Skyrim UPF Patch",
-            "LongDescription": "Loader for ActionSpeed Skyrim UPF Patch:\r\nhttps://www.nexusmods.com/skyrimspecialedition/mods/35097\r\n\r\nThis loader gathers the mods from your load order that contain the records ActionSpeed wants to edit. Any mod you do not want to include, just untick in ModOrganizer before launching Synthesis.\r\n\r\nThis outputs \u0022ActionSpeedLoader.esp\u0022, which you then load in with zEdit to workaround zEdit\u0027s 255 plugin limit.\r\n\r\nOnce you\u0027ve created your zEdit patch, please delete the loader esp.\r\n\r\nThis also outputs a dummy Synthesis.esp. Please only run this patch alone, and make a backup or rename any other \u0022Synthesis.esp\u0022 you have.\r\n\r\nBe sure to check for conflicts in your created zEdit patch afterwards in xEdit.\r\n\r\nTo use, install Synthesis and add this repo, or select it from the built-in list.\r\nhttps://github.com/Noggog/Synthesis/\r\n\r\nInspired by: https://www.nexusmods.com/skyrimspecialedition/mods/35012\r\nThis loader was made due to the xEdit script missing some mods that need to be included.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "UPFLoader-ActionSpeed/UPFLoader-ActionSpeed.csproj",
-          "IncludedLibraries": []
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars3.githubusercontent.com/u/73307040?s=40\u0026amp;v=4",
       "User": "dakkydaz",
       "Repository": "UPFLoader-ActionSpeed",
-      "Sha": ""
+      "Sha": "706946de85cad91f8fd08745b24ba2e56fff1f30",
+      "LastUpdatedRunNumber": 59146
     },
     {
       "Patchers": [
@@ -11447,7 +11434,7 @@
       "User": "Synthesis-Collective",
       "Repository": "UPFLoader-HeartSeeker",
       "Sha": "3507b137ba53876112bd169ddfcb65e5cae34988",
-      "LastUpdatedRunNumber": 31431
+      "LastUpdatedRunNumber": 59146
     },
     {
       "Patchers": [
@@ -11462,13 +11449,16 @@
             "TargetedReleases": []
           },
           "ProjectPath": "UPFLoader - HeartSeeker/UPFLoader-HeartSeeker.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars3.githubusercontent.com/u/73307040?s=40\u0026amp;v=4",
       "User": "dakkydaz",
       "Repository": "UPFLoader-HeartSeeker",
-      "Sha": ""
+      "Sha": "b71c34d94fef99260838aadb6eb9694fb4f9d268",
+      "LastUpdatedRunNumber": 59146
     },
     {
       "Patchers": [
@@ -11509,7 +11499,7 @@
       "User": "vonLeebpl",
       "Repository": "VendorPriestNPCPatcher",
       "Sha": "3b859f47a257f32260525f786f57f7c459f8c147",
-      "LastUpdatedRunNumber": 31426
+      "LastUpdatedRunNumber": 59146
     },
     {
       "Patchers": [
@@ -11709,8 +11699,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/19256781?s=40\u0026amp;v=4",
       "User": "panthuncia",
       "Repository": "WaterForENBPatcher",
-      "Sha": "2417d1c5545acdc641252fa5ee7b4030f4500f0a",
-      "LastUpdatedRunNumber": 31434
+      "Sha": "111d09c88a168bf37c79b199afd97ab80b1a251c",
+      "LastUpdatedRunNumber": 59146
     },
     {
       "Patchers": [
@@ -11812,7 +11802,7 @@
       "User": "EzioTheDeadPoet",
       "Repository": "Weightless-Misc-Items",
       "Sha": "0fdb6ab3f3e785296e8ce1d03c9110ce24ba61e2",
-      "LastUpdatedRunNumber": 32328
+      "LastUpdatedRunNumber": 59146
     },
     {
       "Patchers": [
@@ -11886,7 +11876,7 @@
       "User": "Yahim0",
       "Repository": "Yahis-Weapon-Overhaul",
       "Sha": "1263746750ddfef382e1578a02518c3dd3906090",
-      "LastUpdatedRunNumber": 49648
+      "LastUpdatedRunNumber": 59146
     },
     {
       "Patchers": [
@@ -11964,7 +11954,7 @@
       "User": "Wolfman5750",
       "Repository": "Z-Floor-Patcher",
       "Sha": "f9df9e458f39d20be095a666aa3484f9f830a261",
-      "LastUpdatedRunNumber": 31424
+      "LastUpdatedRunNumber": 59146
     }
   ]
 }
