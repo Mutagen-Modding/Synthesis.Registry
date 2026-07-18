@@ -37,7 +37,7 @@
       "User": "radj307",
       "Repository": "Actor-Edge-Glow-Remover",
       "Sha": "92b21b912e953e3961acf463255a677dd02206d2",
-      "LastUpdatedRunNumber": 31427
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [],
@@ -45,7 +45,7 @@
       "User": "Synthesis-Collective",
       "Repository": "Actors-Without-Hats",
       "Sha": "75d3e88533fa25ac15ffd8fa56f3a0760d59d3b0",
-      "LastUpdatedRunNumber": 31424
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [],
@@ -53,7 +53,7 @@
       "User": "3ndos",
       "Repository": "AddNewRecipes",
       "Sha": "8f59d1b4f0a598917e3cacb878382f2162d17e67",
-      "LastUpdatedRunNumber": 31430
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [
@@ -122,7 +122,7 @@
       "User": "Excinerus",
       "Repository": "AI-Overhaul-Patcher",
       "Sha": "7fcce4f952fb79e71d10e543f953ed4e05136300",
-      "LastUpdatedRunNumber": 46281
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [
@@ -131,7 +131,7 @@
             "Nickname": "AIOverhaulPatcherUpdatedFork",
             "Visibility": "Visible",
             "OneLineDescription": "Forwards AI Overhaul Edits, Updated Fork",
-            "LongDescription": "# Personal fork of Excinerus\u0027s AI-Overhaul-Patcher\r\nA fork of said patcher with personal tweaks and fixes with the intention of it being used alongside my AI Overhaul SSE SkyPatcher Patch: https://www.nexusmods.com/skyrimspecialedition/mods/138722\r\n\r\nYou can download the .synth file from the modpage linked above.\r\n\r\nThe changes include:\r\n- Will now forward 3 AI Datas covered by AI Overhaul.esp; Confidence, Aggression, Assistance\r\n- Will now forward Object Bounds of NPCs from AI Overhaul.esp\r\n- Will now forward Combat Style of NPCs from AI Overhaul.esp\r\n- Updated to support AI Overhaul SSE\u0027s latest version (1.9.5), the split plugins update (USSEP Patch, Fishing Addon)\r\n- Quest reference-alias ALPC patching (\u0060QuestAlpcPatch\u0060): \u0060Mg01Only\u0060 restores MG01 alias 11 packages (Faralda / College conflict); \u0060All\u0060 forwards every AIO quest ALPC delta vs master using the same package merge rules as NPCs\r\n\r\n(New) Settings:\r\n\r\n\r\n- QuestAlpcPatch\r\n\r\n\t\tDefault = Off\r\n\r\n\t\t\u0060Off\u0060 \u2014 no quest ALPC patching. \r\n\t\t\u0060Mg01Only\u0060 \u2014 patch MG01 alias 11 only (College Of Winterhold conflict). \r\n\t\t\u0060All\u0060 \u2014 patch every quest reference alias where AIO changed ALPC vs master.\r\n\r\n\r\nVibe-coded using Cursor.\r\n\r\n\r\n\r\n\r\n# THE ORIGINAL DESCRIPTION:\r\n# AI-Overhaul-Patcher\r\nA Synthethis patcher for AI Overhaul SE https://www.nexusmods.com/skyrimspecialedition/mods/21654\r\n- Forwards Packages from AIO, keeps packages added by later loaded mods that were not removed by USEEP or AIO\r\n- Forwards observe and combat package lists from AIO\r\n- Adds AIO added factions to the latest winning override set of factions\r\n- Forwards the maximum Essential/Protected status present at AIO or later loaded plugins\r\n- Forwards minimum confidence level present at AIO or later loaded plugins\r\n- Uses the latest loaded outfits that were not overwritten or removed by AIO or USEEP\r\n\r\nGet Synthesis https://github.com/Mutagen-Modding/Synthesis/wiki/Installation\r\n\r\nSettings :\r\n- Ignore Identical To LastOverride\r\n\r\n\t\tDefault = false\r\n\t\r\n\t\tWhen enabled the patcher will not override NPCs that are already patched.\r\n- IgnorePlayerRecord\r\n\r\n\t\tDefault = true\r\n\r\n\t\tWhen enabled the patcher will ignore the player record (00000007).\r\n- MaintainHighestProtectionLevel\r\n\r\n\t\tDefault = true\r\n\t\r\n\t\tWhen enabled NPCs that are set to Essential or Protected by other mods will maintain the highest protection level.",
+            "LongDescription": "# Personal fork of Excinerus\u0027s AI-Overhaul-Patcher\r\nA fork of said patcher with personal tweaks and fixes with the intention of it being used alongside my AI Overhaul SSE SkyPatcher Patch: https://www.nexusmods.com/skyrimspecialedition/mods/138722\r\n\r\nYou can download the .synth file from the modpage linked above.\r\n\r\nThe changes include:\r\n- Will now forward 3 AI Datas covered by AI Overhaul.esp; Confidence, Aggression, Assistance\r\n- Will now forward Object Bounds of NPCs from AI Overhaul.esp\r\n- Will now forward Combat Style of NPCs from AI Overhaul.esp\r\n- Updated to support AI Overhaul SSE\u0027s latest version (1.9.5), the split plugins update (USSEP Patch, Fishing Addon)\r\n- Quest reference-alias ALPC patching (\u0060QuestAlpcPatch\u0060): \u0060Mg01Only\u0060 restores MG01 alias 11 packages (Faralda / College conflict); \u0060All\u0060 forwards every AIO quest ALPC delta vs master using the same package merge rules as NPCs\r\n\r\nVibe-coded using Cursor.\r\n\r\n\r\n\r\n\r\n# THE ORIGINAL DESCRIPTION:\r\n# AI-Overhaul-Patcher\r\nA Synthethis patcher for AI Overhaul SE https://www.nexusmods.com/skyrimspecialedition/mods/21654\r\n- Forwards Packages from AIO, keeps packages added by later loaded mods that were not removed by USEEP or AIO\r\n- Forwards observe and combat package lists from AIO\r\n- Adds AIO added factions to the latest winning override set of factions\r\n- Forwards the maximum Essential/Protected status present at AIO or later loaded plugins\r\n- Forwards minimum confidence level present at AIO or later loaded plugins\r\n- Uses the latest loaded outfits that were not overwritten or removed by AIO or USEEP\r\n\r\nGet Synthesis https://github.com/Mutagen-Modding/Synthesis/wiki/Installation\r\n\r\nSettings :\r\n- Ignore Identical To LastOverride\r\n\r\n\t\tDefault = false\r\n\t\r\n\t\tWhen enabled the patcher will not override NPCs that are already patched.\r\n- IgnorePlayerRecord\r\n\r\n\t\tDefault = true\r\n\r\n\t\tWhen enabled the patcher will ignore the player record (00000007).\r\n- MaintainHighestProtectionLevel\r\n\r\n\t\tDefault = true\r\n\t\r\n\t\tWhen enabled NPCs that are set to Essential or Protected by other mods will maintain the highest protection level.\r\n- MergeItems\r\n\r\n\t\tDefault = true\r\n\r\n\t\tWhen enabled the patcher will forward items from AI Overhaul onto patched NPCs.\r\n- QuestAlpcPatch\r\n\r\n\t\tDefault = Off\r\n\r\n\t\tWhen Off, no quest ALPC patching. When Mg01Only, patch MG01 alias 11 only (College Of Winterhold conflict). When All, patch every quest reference alias where AIO changed ALPC vs master.\r\n- LogPackageMerge\r\n\r\n\t\tDefault = true\r\n\r\n\t\tWhen enabled the patcher will log package merge details for NPCs with merge activity.\r\n- LogPackageMergeAllNpcs\r\n\r\n\t\tDefault = false\r\n\r\n\t\tWhen enabled the patcher will log package merge details for every NPC processed.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [
               "AI Overhaul.esp"
@@ -147,8 +147,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/103988686?s=40\u0026amp;v=4",
       "User": "sincerity21",
       "Repository": "AI-Overhaul-Patcher",
-      "Sha": "edeed774ba612e7ebfc46e04e7976e963d15cae2",
-      "LastUpdatedRunNumber": 58910
+      "Sha": "be1b96669ba7275569f04da827d6bc8402b3fa97",
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [
@@ -255,7 +255,7 @@
       "User": "radj307",
       "Repository": "AIStealthOverhaul",
       "Sha": "6d1f6c399ebb8c54da4edc28c29c0c4f6f09af6d",
-      "LastUpdatedRunNumber": 31434
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [],
@@ -263,7 +263,7 @@
       "User": "radj307",
       "Repository": "alch-registry-generator",
       "Sha": "7ae39e605bef000a6d0571bb875fad4dc3498f23",
-      "LastUpdatedRunNumber": 31427
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [
@@ -313,7 +313,7 @@
       "User": "SteveTownsend",
       "Repository": "AllGUDMeshGen",
       "Sha": "4498b9adb1979e03ea7b7cd8f83addfa297cd18d",
-      "LastUpdatedRunNumber": 31429
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [
@@ -339,7 +339,7 @@
       "User": "Ghos71y",
       "Repository": "AllHeadPartsAllRacesPatcher",
       "Sha": "7e23bdb554195c8072a35234f5c4487dc685f3c4",
-      "LastUpdatedRunNumber": 31433
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [
@@ -363,7 +363,7 @@
       "User": "Synthesis-Collective",
       "Repository": "AmmoTweaks",
       "Sha": "11ff3532b9cc008985680a63d29d47928520c8ea",
-      "LastUpdatedRunNumber": 31431
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [
@@ -378,13 +378,16 @@
             "TargetedReleases": []
           },
           "ProjectPath": "AmmoTweaks/AmmoTweaks.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars2.githubusercontent.com/u/52758909?s=40\u0026amp;u=4f97ed9e8ce41cb97b938ed1a300eafcf11922fd\u0026amp;v=4",
       "User": "cuyima",
       "Repository": "AmmoTweaks",
-      "Sha": ""
+      "Sha": "005e19571d5ee0e7d24d9f29c6a0886477a7085e",
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [
@@ -408,7 +411,7 @@
       "User": "ixanza",
       "Repository": "AmuletsShowOnEverything",
       "Sha": "d3d049c421183aac856556f914eaa0ead76beed3",
-      "LastUpdatedRunNumber": 31431
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [],
@@ -440,7 +443,7 @@
       "User": "Synthesis-Collective",
       "Repository": "Another-Archery-Patcher",
       "Sha": "d80c242b55c87b7b5644b0fc624b68cb661749df",
-      "LastUpdatedRunNumber": 32087
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [
@@ -449,19 +452,22 @@
             "Nickname": "Another Archery Patcher",
             "Visibility": "Visible",
             "OneLineDescription": "Customizable Archery Physics for any load order. No mods required.",
-            "LongDescription": "Archery physics the way you want, for any load order. Allows modifying the speed, gravity, impact force, noise level, and flags of projectiles, as well as removing auto-aim and fixing numerous bugs. (For example: The \u0022Ninja Dodge\u0022 bug that has existed since launch, arrows colliding with the air in front of you, and more!) Comes with a complete settings menu that allows you to control everything. ( Github: https://github.com/radj307/Another-Archery-Patcher/ ) ( Nexus: https://www.nexusmods.com/skyrimspecialedition/mods/53810 )",
-            "PreferredAutoVersioning": "Default",
+            "LongDescription": "Comprehensive \u0026 fully configurable archery physics overhaul contained within a single patcher.\nAlso fixes a host of bugs and inconsistencies not included in any other archery mod such as detection, arrows colliding with the air in front of you, arrows falling out of your bow even at full draw, the \u0022Ninja Dodge\u0022 bug, and more!\n\nIt is highly recommended that you add the following block to your \u0060SkyrimCustom.ini\u0060 or \u0060Skyrim.ini\u0060 file to disable magnetism on all projectiles:\n\n\t[Combat]\n\tfMagnetismStrafeHeadingMult=0.0\n\tfMagnetismLookingMult=0.0\n\nAAP Wiki (Getting Started):   https://github.com/Synthesis-Collective/Another-Archery-Patcher/wiki\nAAP Nexus Page:               https://www.nexusmods.com/skyrimspecialedition/mods/53810",
+            "PreferredAutoVersioning": "LatestTag",
             "RequiredMods": [],
             "TargetedReleases": []
           },
           "ProjectPath": "Another_Archery_Patcher/Another_Archery_Patcher.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;u=e663091c7647f5a8aa0ab1dbfa3cb17fc7aafa4e\u0026amp;v=4",
       "User": "radj307",
       "Repository": "Another-Archery-Patcher",
-      "Sha": ""
+      "Sha": "d80c242b55c87b7b5644b0fc624b68cb661749df",
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [
@@ -509,7 +515,7 @@
       "User": "tr4wzified",
       "Repository": "AOSISCSoundPatcher",
       "Sha": "63318c04a10a0ad9455ccf8e0ea1f7e916f0f7ed",
-      "LastUpdatedRunNumber": 32617
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [
@@ -570,7 +576,7 @@
       "User": "sachinkmr",
       "Repository": "armor-distributor",
       "Sha": "0ac420457661eb18c19b9202976fea8632615556",
-      "LastUpdatedRunNumber": 31428
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [
@@ -661,7 +667,7 @@
       "User": "EzioTheDeadPoet",
       "Repository": "Artistic-Skyrim-Overhaul-Fixes",
       "Sha": "4c513bfd18a6efef586178805c67c674e464c759",
-      "LastUpdatedRunNumber": 31428
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [
@@ -848,7 +854,7 @@
       "User": "SteveTownsend",
       "Repository": "BDSv2Patcher",
       "Sha": "b7823480dfe454c02e9912f2d33a7f748a14e92a",
-      "LastUpdatedRunNumber": 31429
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [
@@ -989,7 +995,7 @@
       "User": "ReaperAnon",
       "Repository": "BreakdownRecipeGenerator",
       "Sha": "04af81bd00ecf9d58ec0ed40dcdcfc84cb7c1b9a",
-      "LastUpdatedRunNumber": 31427
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [],
@@ -997,7 +1003,7 @@
       "User": "ProfessionalDragonslayer",
       "Repository": "BSNoCustomInterface",
       "Sha": "b2dc882e9dfbf801416f49e5dff37151a52371d7",
-      "LastUpdatedRunNumber": 47757
+      "LastUpdatedRunNumber": 59134
     },
     {
       "Patchers": [
