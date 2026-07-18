@@ -5022,35 +5022,25 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "enchrestrictionremover",
+            "Nickname": "SynEnchRestrictionsRemover",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis based enchantment restriction remover",
-            "LongDescription": "",
+            "LongDescription": "Enables all enchantments to be applied to nearly everything",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": []
           },
-          "ProjectPath": "enchrestrictionremover/enchrestrictionremover.csproj",
-          "IncludedLibraries": []
-        },
-        {
-          "Customization": {
-            "Nickname": "FloraFixer",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "FloraFixer/FloraFixer.csproj",
-          "IncludedLibraries": []
+          "ProjectPath": "SynEnchRestrictionsRemover/SynPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars3.githubusercontent.com/u/50967665?s=40\u0026amp;v=4",
       "User": "minis-patchers",
       "Repository": "MinisSynthesisPatchers",
-      "Sha": ""
+      "Sha": "686ccd76ced15ee092bb009279f1f9bbf05807c5",
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
@@ -5157,19 +5147,22 @@
       "User": "Synthesis-Collective",
       "Repository": "MortalEnemies-Patcher",
       "Sha": "383c65d74455177d25248a479b0b1696af52b93c",
-      "LastUpdatedRunNumber": 35952
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
         {
           "ProjectPath": "MortalEnemies/MortalEnemies.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/16577545?s=40\u0026amp;u=453f920e94f48b780eb6370826b40b6790cc5a4f\u0026amp;v=4",
       "User": "erri120",
       "Repository": "MortalEnemies-Patcher",
-      "Sha": ""
+      "Sha": "383c65d74455177d25248a479b0b1696af52b93c",
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
@@ -5193,7 +5186,7 @@
       "User": "Synthesis-Collective",
       "Repository": "MovementSpeedPatcher",
       "Sha": "eda0b4b3e3c2bb8abebf9981c5220fd74b5c3b51",
-      "LastUpdatedRunNumber": 31428
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
@@ -5232,7 +5225,7 @@
       "User": "OddDrifter",
       "Repository": "musictype-patcher",
       "Sha": "7c43a1c2ec095e068af3b192395d35fe9b16de0c",
-      "LastUpdatedRunNumber": 34385
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
@@ -5285,10 +5278,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "Freeform/Freeform.csproj",
-          "IncludedLibraries": []
-        },
-        {
           "Customization": {
             "Nickname": "Synthesis",
             "Visibility": "IncludeButHide",
@@ -5299,13 +5288,16 @@
             "TargetedReleases": []
           },
           "ProjectPath": "Synthesis/Synthesis.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars1.githubusercontent.com/u/24981326?s=40\u0026amp;u=ed9e2259532d043a1782ab64eefdc0f18fc8c6bb\u0026amp;v=4",
       "User": "Noggog",
       "Repository": "MutagenBootcamp",
-      "Sha": ""
+      "Sha": "1075962cb64107bbad253caf4a366c6b120006e5",
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
@@ -5320,7 +5312,7 @@
       "User": "krypto5863",
       "Repository": "Muzzle-It-Patcher",
       "Sha": "918b7085716a7b4af0c87aaa0b7d7c4d13a81d72",
-      "LastUpdatedRunNumber": 31433
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
@@ -5448,19 +5440,22 @@
       "User": "Synthesis-Collective",
       "Repository": "nodragonlods",
       "Sha": "fe0e78a7caae49fe91c08a808f47556bc7c470c3",
-      "LastUpdatedRunNumber": 31432
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
         {
           "ProjectPath": "NoDragonLODs/NoDragonLODs.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
       "User": "jdsmith2816",
       "Repository": "nodragonlods",
-      "Sha": ""
+      "Sha": "fe0e78a7caae49fe91c08a808f47556bc7c470c3",
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
@@ -5556,7 +5551,7 @@
       "User": "Bl4ckread",
       "Repository": "Northpoint-BDS-Patcher",
       "Sha": "64b718917c0e034fa1dcf22aba09419a3cf96424",
-      "LastUpdatedRunNumber": 31426
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
@@ -5606,7 +5601,7 @@
       "User": "Piranha91",
       "Repository": "NPC-Appearance-Copier",
       "Sha": "fe12d820ba673e4a697f02ed0922c5f29ebbc0bb",
-      "LastUpdatedRunNumber": 31429
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
@@ -5630,7 +5625,7 @@
       "User": "radj307",
       "Repository": "NPC-Deleveler",
       "Sha": "e0c8e01b29d7240d45da50fb82c780d13fc79780",
-      "LastUpdatedRunNumber": 31427
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
@@ -5654,7 +5649,7 @@
       "User": "pisichi",
       "Repository": "NPC-Face-Scrambler",
       "Sha": "72ae2d1b64940734a7aa4b002353209aed746dd2",
-      "LastUpdatedRunNumber": 31423
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
@@ -5688,7 +5683,7 @@
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser",
       "Sha": "50112de1482cd251a43883a3c63e7ed83fe3d773",
-      "LastUpdatedRunNumber": 31429
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [],
@@ -5751,7 +5746,7 @@
       "User": "sachinkmr",
       "Repository": "NPCArmorDistributor",
       "Sha": "6151fd8743d357da321b1869f228b5d7c31b16db",
-      "LastUpdatedRunNumber": 31433
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
@@ -5766,19 +5761,22 @@
       "User": "Synthesis-Collective",
       "Repository": "npcenchantfix",
       "Sha": "83bf4d19daa0d61427da3493266c92bb2c496d2c",
-      "LastUpdatedRunNumber": 31432
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
         {
           "ProjectPath": "NPCEnchantFix/NPCEnchantFix.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
       "User": "jdsmith2816",
       "Repository": "npcenchantfix",
-      "Sha": ""
+      "Sha": "83bf4d19daa0d61427da3493266c92bb2c496d2c",
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
@@ -5793,7 +5791,7 @@
       "User": "CramMods",
       "Repository": "NPCMiddleMan",
       "Sha": "06178b9ceb324f5d039fe7336c6ade2e74808fea",
-      "LastUpdatedRunNumber": 31425
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
@@ -5841,7 +5839,7 @@
       "User": "TokcDK",
       "Repository": "NPCSetToPCLevelMult",
       "Sha": "99d61bb5bc958f5631f340e5209e4e840e058005",
-      "LastUpdatedRunNumber": 31423
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
@@ -5865,7 +5863,7 @@
       "User": "theSkyseS",
       "Repository": "NPCStatRescaler",
       "Sha": "5b83ac68d79aa76b3c27c9f8ff6d29d3b3d18b87",
-      "LastUpdatedRunNumber": 31428
+      "LastUpdatedRunNumber": 59139
     },
     {
       "Patchers": [
