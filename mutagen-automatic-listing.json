@@ -7793,7 +7793,7 @@
       "User": "Wolfman5750",
       "Repository": "SkyVRaanAutoPatcher",
       "Sha": "01fd61c72972fdf880b65478b66938b4966f398a",
-      "LastUpdatedRunNumber": 31432
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
@@ -7817,7 +7817,7 @@
       "User": "Wolfman5750",
       "Repository": "SkyVRaanWeatherPatcher",
       "Sha": "acae02b4ba6ee622d11baa99fa96419fa72fceb5",
-      "LastUpdatedRunNumber": 31431
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
@@ -7945,7 +7945,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SlotsSlotsSlots",
       "Sha": "97ce5d28b4d68fc7942949cec70638ac2146adab",
-      "LastUpdatedRunNumber": 31429
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [],
@@ -7953,7 +7953,7 @@
       "User": "halgari",
       "Repository": "SlotsSlotsSlots",
       "Sha": "267b8b650785bba496a644859152b95f33de9a46",
-      "LastUpdatedRunNumber": 31429
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
@@ -7977,7 +7977,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SlotsSlotsSlotsSlots",
       "Sha": "581c00891eadfec134f6ecbb65180457b007c00e",
-      "LastUpdatedRunNumber": 31424
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
@@ -7992,7 +7992,7 @@
       "User": "JonnyJalapeno",
       "Repository": "SmeltingRecipes",
       "Sha": "4e7e30086c2fbd3ce8e70a530d34d8bd995c2d8f",
-      "LastUpdatedRunNumber": 32785
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
@@ -8067,7 +8067,7 @@
       "User": "halgari",
       "Repository": "soul-gem-disenchantment",
       "Sha": "97e5c18bd62d24249dd23c04a972f9094f6a3ad0",
-      "LastUpdatedRunNumber": 31430
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
@@ -8119,19 +8119,31 @@
       "User": "Synthesis-Collective",
       "Repository": "speedandreachfixes",
       "Sha": "12d8c9dce2235e0ed82a033c4b33f947c8f2bcdc",
-      "LastUpdatedRunNumber": 46499
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "SpeedandReachFixes",
+            "Visibility": "Visible",
+            "OneLineDescription": "Speed and Reach Fixes Patcher for Synthesis",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": []
+          },
           "ProjectPath": "SpeedandReachFixes/SpeedandReachFixes.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
       "User": "jdsmith2816",
       "Repository": "speedandreachfixes",
-      "Sha": ""
+      "Sha": "12d8c9dce2235e0ed82a033c4b33f947c8f2bcdc",
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
@@ -8155,7 +8167,7 @@
       "User": "Synthesis-Collective",
       "Repository": "spellabsorbfix",
       "Sha": "057b58a0520f483596d139ad43eb06b1667ca866",
-      "LastUpdatedRunNumber": 31432
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
@@ -8170,13 +8182,16 @@
             "TargetedReleases": []
           },
           "ProjectPath": "SpellAbsorbFix/SpellAbsorbFix.csproj",
-          "IncludedLibraries": []
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
         }
       ],
       "AvatarURL": "https://avatars1.githubusercontent.com/u/556678?s=40\u0026amp;u=478ad1762bf42622c39f274eecd8ad0331c5dc24\u0026amp;v=4",
       "User": "jdsmith2816",
       "Repository": "spellabsorbfix",
-      "Sha": ""
+      "Sha": "057b58a0520f483596d139ad43eb06b1667ca866",
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
@@ -8202,7 +8217,7 @@
       "User": "Xgatt",
       "Repository": "SpellbindPatcher-Synthesis",
       "Sha": "09065be74ecd51742e2f23d44ef8f0290a9d1003",
-      "LastUpdatedRunNumber": 31425
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
@@ -8217,7 +8232,7 @@
       "User": "statttis",
       "Repository": "SpellConstruction",
       "Sha": "de61a044b58c3e672a614a01759c40bc1b44b60c",
-      "LastUpdatedRunNumber": 32493
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
@@ -8247,7 +8262,7 @@
       "User": "Synthesis-Collective",
       "Repository": "SpellResearchAlternateTomePatcher",
       "Sha": "fe221d104884105199ebefc43ea326d70dbb1688",
-      "LastUpdatedRunNumber": 31425
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
@@ -8348,7 +8363,7 @@
       "User": "tr4wzified",
       "Repository": "SpellTomePricePatcher",
       "Sha": "2a83145cfcff9a16ac31bf12e83956674527b5fa",
-      "LastUpdatedRunNumber": 31431
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
@@ -8420,7 +8435,7 @@
       "User": "mrgrim",
       "Repository": "SSBGPatcher",
       "Sha": "57a157eacc75ad1b9126e6779d5e01e6c70331af",
-      "LastUpdatedRunNumber": 32285
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
@@ -8517,8 +8532,8 @@
           "Customization": {
             "Nickname": "AI Stealth Overhaul",
             "Visibility": "Visible",
-            "OneLineDescription": "Customizable AI stealth difficulty overhaul.",
-            "LongDescription": "Completely user-customizable replacement for AI stealth difficulty mods like Realistic AI Detection (RAID).",
+            "OneLineDescription": "Configurable enemy AI stealth behaviour overhaul.",
+            "LongDescription": "This is a alternative to Realistic AI Detection (RAID) by Olivier Doorenbos",
             "PreferredAutoVersioning": "LatestTag",
             "RequiredMods": [],
             "TargetedReleases": [
@@ -8527,7 +8542,7 @@
               "SkyrimVR"
             ]
           },
-          "ProjectPath": "StealthOverhaul/StealthOverhaul.csproj",
+          "ProjectPath": "AIStealthOverhaul/AIStealthOverhaul.csproj",
           "IncludedLibraries": [
             "Skyrim"
           ]
@@ -8536,7 +8551,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/1927798?s=40\u0026amp;v=4",
       "User": "radj307",
       "Repository": "StealthOverhaul",
-      "Sha": "c76b9b40e97e900febbda69069d507c186bfe722"
+      "Sha": "6d1f6c399ebb8c54da4edc28c29c0c4f6f09af6d",
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
@@ -8600,7 +8616,7 @@
       "User": "statttis",
       "Repository": "STToggle",
       "Sha": "958811ea7ebce33422a1fa59ccbcd9468d806a71",
-      "LastUpdatedRunNumber": 31424
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
@@ -8655,7 +8671,7 @@
       "User": "holaholacocacola",
       "Repository": "SynActionSpeedX",
       "Sha": "23c80cc09fdc049e240adbc0f997b437ada443f9",
-      "LastUpdatedRunNumber": 31430
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [],
@@ -8663,7 +8679,7 @@
       "User": "RowanMaBoot",
       "Repository": "SynActorRefFixes",
       "Sha": "55f3fddd76c31de6ab9971ce75d9b259116cadf4",
-      "LastUpdatedRunNumber": 51455
+      "LastUpdatedRunNumber": 59142
     },
     {
       "Patchers": [
