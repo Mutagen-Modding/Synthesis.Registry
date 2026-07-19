@@ -8368,6 +8368,34 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "SPIDthesis",
+            "Visibility": "Visible",
+            "OneLineDescription": "Converts SPID inis into esps. MadAborModding on Nexus.",
+            "LongDescription": "Converts SPID inis into esps. MadAborModding on Nexus.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE",
+              "SkyrimVR",
+              "SkyrimSEGog"
+            ]
+          },
+          "ProjectPath": "SPIDthesis/SPIDthesis.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026v=4",
+      "User": "tomnGithub",
+      "Repository": "SPIDthesis",
+      "Sha": "f48e55986670b33d5a12eee0146e45129a889540",
+      "LastUpdatedRunNumber": 59162
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "SRExteriorCitiesPatcher/SRExteriorCitiesPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
