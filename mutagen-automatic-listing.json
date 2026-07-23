@@ -4943,6 +4943,38 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "installer/MAO.Installer/MAO.Installer.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "Customization": {
+            "Nickname": "marth Alchemy Overhaul (MAO)",
+            "Visibility": "Visible",
+            "OneLineDescription": "Flask-based alchemy \u2014 perk tree and ingredient tiers calibrated to your load order.",
+            "LongDescription": "The load-order patcher for marth\u0027s Alchemy Overhaul (MAO). It rewrites the alchemy perk tree into MAO\u0027s field-kit perks (keeping non-crafting perks your list ships) and classifies every ingredient in your load order into rarity tiers for the essence economy. Requires the main MAO mod (SKSE plugin \u002B MAO.esp). Run after installing MAO, and again after any load-order change.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "MAO.esp"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "installer/MAO.Synthesis/MAO.Synthesis.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/42224588?s=40\u0026v=4",
+      "User": "marthofdoom",
+      "Repository": "MAO",
+      "Sha": "03541c8cd6e0da6d41280607f032813353fa3b08",
+      "LastUpdatedRunNumber": 59215
+    },
+    {
+      "Patchers": [
+        {
           "Customization": {
             "Nickname": "Masculinized Leveled Lists",
             "Visibility": "Visible",
@@ -4993,6 +5025,38 @@
       "Repository": "MasterLimitTest",
       "Sha": "5c72b51b27b3d033bed7e6d226788de805a95603",
       "LastUpdatedRunNumber": 59084
+    },
+    {
+      "Patchers": [
+        {
+          "ProjectPath": "installer/MEO.Installer/MEO.Installer.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "Customization": {
+            "Nickname": "marth Enchanting Overhaul (MEO)",
+            "Visibility": "Visible",
+            "OneLineDescription": "Socketable, leveling enchantment gems \u2014 calibrated to your load order.",
+            "LongDescription": "The load-order patcher for marth\u0027s Enchanting Overhaul (MEO). It reads your load order and derives every gem\u0027s magnitude curve, elemental recipe, and rank ladder from the enchantments your list actually ships, then rewrites the enchanting perk tree into MEO\u0027s gem perks and writes the loot-conversion table. Requires the main MEO mod (SKSE plugin \u002B MEO.esp) from Nexus. Run after installing MEO, and again after any load-order change.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "MEO.esp"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "installer/MEO.Synthesis/MEO.Synthesis.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/42224588?s=40\u0026v=4",
+      "User": "marthofdoom",
+      "Repository": "MEO",
+      "Sha": "9b8f1a11fc5b45c0d5e693eabcc4c1d5816ff2f5",
+      "LastUpdatedRunNumber": 59215
     },
     {
       "Patchers": [
