@@ -4943,12 +4943,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "installer/MAO.Installer/MAO.Installer.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        },
-        {
           "Customization": {
             "Nickname": "marth Alchemy Overhaul (MAO)",
             "Visibility": "Visible",
@@ -4969,8 +4963,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/42224588?s=40\u0026v=4",
       "User": "marthofdoom",
       "Repository": "MAO",
-      "Sha": "03541c8cd6e0da6d41280607f032813353fa3b08",
-      "LastUpdatedRunNumber": 59215
+      "Sha": "234b87e273e284e6f412f2b0549f456ff2ad8bfe",
+      "LastUpdatedRunNumber": 59216
     },
     {
       "Patchers": [
@@ -5029,12 +5023,6 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "installer/MEO.Installer/MEO.Installer.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        },
-        {
           "Customization": {
             "Nickname": "marth Enchanting Overhaul (MEO)",
             "Visibility": "Visible",
@@ -5055,8 +5043,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/42224588?s=40\u0026v=4",
       "User": "marthofdoom",
       "Repository": "MEO",
-      "Sha": "9b8f1a11fc5b45c0d5e693eabcc4c1d5816ff2f5",
-      "LastUpdatedRunNumber": 59215
+      "Sha": "bbc5cb8dd28c67cede45580e3049897076cfb95d",
+      "LastUpdatedRunNumber": 59216
     },
     {
       "Patchers": [
