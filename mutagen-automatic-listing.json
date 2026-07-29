@@ -827,8 +827,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/8103445?s=40\u0026v=4",
       "User": "cavy8",
       "Repository": "Bards-College-Expansion-Auto-Patcher",
-      "Sha": "5e50c0e9bdc35de28980fbd365c59f2cba890774",
-      "LastUpdatedRunNumber": 59072
+      "Sha": "295ea1c917326bf8c087a7dd9b6dbdeef73fc7be",
+      "LastUpdatedRunNumber": 59285
     },
     {
       "Patchers": [
@@ -4963,8 +4963,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/42224588?s=40\u0026v=4",
       "User": "marthofdoom",
       "Repository": "MAO",
-      "Sha": "234b87e273e284e6f412f2b0549f456ff2ad8bfe",
-      "LastUpdatedRunNumber": 59216
+      "Sha": "64c00567a89edbc06540cce656f9d2544a0ac74c",
+      "LastUpdatedRunNumber": 59285
     },
     {
       "Patchers": [
@@ -5043,8 +5043,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/42224588?s=40\u0026v=4",
       "User": "marthofdoom",
       "Repository": "MEO",
-      "Sha": "7a3bb1764d6a265f21a8d14033b95079b165ce3d",
-      "LastUpdatedRunNumber": 59284
+      "Sha": "571690836dec3aa9b5c6cd6d63f0c8e8cc93b8ff",
+      "LastUpdatedRunNumber": 59285
     },
     {
       "Patchers": [
