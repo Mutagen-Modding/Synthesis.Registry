@@ -319,32 +319,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "AllHeadPartsAllRacesPatcher",
-            "Visibility": "Visible",
-            "OneLineDescription": "",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "AllHeadPartsAllRacesPatcher/AllHeadPartsAllRacesPatcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/123373672?s=40\u0026amp;v=4",
-      "User": "Ghos71y",
-      "Repository": "AllHeadPartsAllRacesPatcher",
-      "Sha": "7e23bdb554195c8072a35234f5c4487dc685f3c4",
-      "LastUpdatedRunNumber": 59134
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "AmmoTweaks",
             "Visibility": "Visible",
             "OneLineDescription": "Configurable patcher intended as a WACCF-friendly alternative to ABT",
@@ -5043,8 +5017,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/42224588?s=40\u0026v=4",
       "User": "marthofdoom",
       "Repository": "MEO",
-      "Sha": "a6e3eb1add3f19ab1361404a793f99fff7b72797",
-      "LastUpdatedRunNumber": 59322
+      "Sha": "32533067e926ff1141c3aef4994c359db05bf5ad",
+      "LastUpdatedRunNumber": 59374
     },
     {
       "Patchers": [
@@ -5742,8 +5716,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "7c7b0aa81c61b9432c26083c4f744ae6364a3d4c",
-      "LastUpdatedRunNumber": 59340
+      "Sha": "7bc8b150d99afbb2b759cfe4ec80e8dbb0841b21",
+      "LastUpdatedRunNumber": 59374
     },
     {
       "Patchers": [
