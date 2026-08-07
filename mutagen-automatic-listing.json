@@ -4238,6 +4238,21 @@
     {
       "Patchers": [
         {
+          "ProjectPath": "KatanaTwoHandedPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/65567354?s=40\u0026v=4",
+      "User": "Ensrick",
+      "Repository": "KatanaTwoHandedPatcher",
+      "Sha": "25626b2a4975be2fe4b58fc77917b728cbfa3267",
+      "LastUpdatedRunNumber": 59402
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "KhajiitEarsShow/KhajiitEarsShow.csproj",
           "IncludedLibraries": [
             "Skyrim"
