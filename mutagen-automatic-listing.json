@@ -8437,6 +8437,32 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "SPIDthesis Oblivion",
+            "Visibility": "Visible",
+            "OneLineDescription": "SPID-Syle Patcher for Oblivion.",
+            "LongDescription": "SPID-Syle Patcher for Oblivion.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "Oblivion"
+            ]
+          },
+          "ProjectPath": "SPIDthesis.Oblivion/SPIDthesis.Oblivion.csproj",
+          "IncludedLibraries": [
+            "Oblivion"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/165872442?s=40\u0026v=4",
+      "User": "tomnGithub",
+      "Repository": "SPIDthesisOblivion",
+      "Sha": "5347a2c97802173650b38bc69697d0012aba0129",
+      "LastUpdatedRunNumber": 59448
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "SRExteriorCitiesPatcher/SRExteriorCitiesPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
