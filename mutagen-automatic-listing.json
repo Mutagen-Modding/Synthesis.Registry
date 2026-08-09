@@ -11861,7 +11861,9 @@
             "LongDescription": "This patcher normalizes weapon stats from multiple mods. It handles damage values, material types, and special weapon properties. Everything is cutomizable. Check out the Nexus page for more details: https://www.nexusmods.com/skyrimspecialedition/mods/149027",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
-            "TargetedReleases": []
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
           },
           "ProjectPath": "WeaponStatSynthesisPatcher/WeaponStatSynthesisPatcher.csproj",
           "IncludedLibraries": [
@@ -11872,8 +11874,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026v=4",
       "User": "dreadflopp",
       "Repository": "WeaponStatSynthesisPatcher",
-      "Sha": "735634fe475f3b90ae658cee83906c11ec2346d4",
-      "LastUpdatedRunNumber": 59073
+      "Sha": "37bc47857a812ebd55ad15ec3accb9959fd7b0b3",
+      "LastUpdatedRunNumber": 59450
     },
     {
       "Patchers": [
