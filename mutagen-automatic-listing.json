@@ -5063,6 +5063,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "marth Follower Overhaul (MFO)",
+            "Visibility": "Visible",
+            "OneLineDescription": "Item catalog for the follower\u0027s loot/supply gambits, built from your load order.",
+            "LongDescription": "The load-order patcher for marth\u0027s Follower Overhaul (MFO). It scans every potion, ammo, and piece of jewellery in your load order and classifies them for the follower\u0027s gambit system \u2014 which potions restore health/stamina/magicka (read from real effect records, so Requiem/CACO potions work), arrows vs bolts, and what counts as jewellery \u2014 plus a \u0027never loot\u0027 list of quest items, artifacts/unique enchantments, and scripted items the follower should leave alone. Writes Data/SKSE/Plugins/MFO/mfo_items.json, which the MFO SKSE plugin loads. Requires the main MFO mod. Run after installing MFO, and again after any load-order change.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "MFO.esp"
+            ],
+            "TargetedReleases": []
+          },
+          "ProjectPath": "installer/MFO.Synthesis/MFO.Synthesis.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/42224588?s=40\u0026v=4",
+      "User": "marthofdoom",
+      "Repository": "MFO",
+      "Sha": "192a2b329d4ef7fc35b7a8aad2e2496ec958dd13",
+      "LastUpdatedRunNumber": 59509
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "SynEnchRestrictionsRemover",
             "Visibility": "Visible",
             "OneLineDescription": "Synthesis based enchantment restriction remover",
