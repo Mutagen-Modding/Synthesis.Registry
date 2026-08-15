@@ -5082,8 +5082,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/42224588?s=40\u0026v=4",
       "User": "marthofdoom",
       "Repository": "MFO",
-      "Sha": "755f4aa605af0b8468de9f4db42c44f6d69454a8",
-      "LastUpdatedRunNumber": 59552
+      "Sha": "d5d194401323d6cf2b50e31f586897b2aa9038ad",
+      "LastUpdatedRunNumber": 59567
     },
     {
       "Patchers": [
@@ -11490,34 +11490,6 @@
       "Repository": "unofficialReqtificatorLite",
       "Sha": "e8ea7bb1be99c09952fedbea8d22d52a891d6ddd",
       "LastUpdatedRunNumber": 59085
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Unofficial Reqtificator Lite",
-            "Visibility": "Visible",
-            "OneLineDescription": "Reqtify NPCs in Synthesis",
-            "LongDescription": "Patcher that mimics some of the functions of the Reqtificator, allows you to patch selected ESPs.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE",
-              "SkyrimVR",
-              "SkyrimSEGog"
-            ]
-          },
-          "ProjectPath": "unofficialReqtificatorLite/unofficialReqtificatorLite.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/105111707?s=40\u0026v=4",
-      "User": "wmzj",
-      "Repository": "unofficialReqtificatorLite",
-      "Sha": "1598dee21ac8b3257ba8e284f1568602d125e41f",
-      "LastUpdatedRunNumber": 59072
     },
     {
       "Patchers": [
