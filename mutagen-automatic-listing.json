@@ -1655,90 +1655,6 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "DIAL-Patcher",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "Patcher for Dynamic Interior Ambient Lighting (DIAL).",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "DIAL.esp"
-            ],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "Patcher/Patcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/206784390?s=40\u0026v=4",
-      "User": "kundrun",
-      "Repository": "DIAL-Patcher",
-      "Sha": "81b36642e9270ea7875d3b4bf1997a9137a1088f",
-      "LastUpdatedRunNumber": 59074
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "DIAL-Patcher",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "Patcher for Dynamic Interior Ambient Lighting (DIAL).",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "DIAL.esp"
-            ],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "Patcher/Patcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/44859640?s=40\u0026amp;v=4",
-      "User": "metacubed-projects",
-      "Repository": "DIAL-Patcher",
-      "Sha": "81b36642e9270ea7875d3b4bf1997a9137a1088f",
-      "LastUpdatedRunNumber": 59135
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "DIAL-Patcher",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "Patcher for Dynamic Interior Ambient Lighting (DIAL).",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "DIAL.esp"
-            ],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "Patcher/Patcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/44859640?s=40\u0026amp;v=4",
-      "User": "metacubed-projects",
-      "Repository": "DIAL-Synthesis-Patcher",
-      "Sha": "81b36642e9270ea7875d3b4bf1997a9137a1088f",
-      "LastUpdatedRunNumber": 59135
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
             "Nickname": "DialogueTopicIndicator",
             "Visibility": "Visible",
             "OneLineDescription": "",
@@ -5757,8 +5673,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "8c1af3311c30cd3d67a555da1e18c74dcb89d377",
-      "LastUpdatedRunNumber": 59603
+      "Sha": "a27f27ed530307bf25f6dfa42e567f496f9f4d4b",
+      "LastUpdatedRunNumber": 59627
     },
     {
       "Patchers": [
@@ -6697,58 +6613,6 @@
       "Repository": "region-names-patcher",
       "Sha": "8a934b979aacf52732e46d973ff9e3d3a82955da",
       "LastUpdatedRunNumber": 59076
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Regional-Rock-Patcher",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "Patcher for Regional Rock Rampage.",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "Patcher/Patcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/206784390?s=40\u0026v=4",
-      "User": "kundrun",
-      "Repository": "Regional-Rock-Patcher",
-      "Sha": "ce16083e08708e0b18b2169f574e8fcb9e13d110",
-      "LastUpdatedRunNumber": 59074
-    },
-    {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "Regional-Rock-Patcher",
-            "Visibility": "IncludeButHide",
-            "OneLineDescription": "Patcher for Regional Rock Rampage.",
-            "LongDescription": "",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [],
-            "TargetedReleases": [
-              "SkyrimSE"
-            ]
-          },
-          "ProjectPath": "Patcher/Patcher.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/44859640?s=40\u0026amp;v=4",
-      "User": "metacubed-projects",
-      "Repository": "Regional-Rock-Patcher",
-      "Sha": "ce16083e08708e0b18b2169f574e8fcb9e13d110",
-      "LastUpdatedRunNumber": 59140
     },
     {
       "Patchers": [
@@ -10382,22 +10246,6 @@
       "Repository": "SynSimpleEquipmentWeightAdjuster",
       "Sha": "81fd3e29d8a28f63fc2a63e9b0baf250de0bb0f3",
       "LastUpdatedRunNumber": 59086
-    },
-    {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/206784390?s=40\u0026v=4",
-      "User": "kundrun",
-      "Repository": "SynSimpleScrollTranscribingPatcher",
-      "Sha": "76de18660183002a1deca0c4ef625334a777c969",
-      "LastUpdatedRunNumber": 59085
-    },
-    {
-      "Patchers": [],
-      "AvatarURL": "https://avatars.githubusercontent.com/u/44859640?s=40\u0026amp;v=4",
-      "User": "metacubed-projects",
-      "Repository": "SynSimpleScrollTranscribingPatcher",
-      "Sha": "76de18660183002a1deca0c4ef625334a777c969",
-      "LastUpdatedRunNumber": 59145
     },
     {
       "Patchers": [
