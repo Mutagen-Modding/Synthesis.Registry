@@ -6834,6 +6834,32 @@
       "Patchers": [
         {
           "Customization": {
+            "Nickname": "RoleRimLootOverhaul",
+            "Visibility": "Visible",
+            "OneLineDescription": "Distributes mod-added items into the RoleRim Loot Overhaul Leveled Lists.",
+            "LongDescription": "Automatically distributes mod-added items intended for leveled distribution into the RoleRim Loot Overhaul Leveled Lists utilizing the mod\u0027s loot philosophy of rarity and abundance.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "RoleRimLootOverhaul.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50582753?s=40\u0026v=4",
+      "User": "DrPharmDawg",
+      "Repository": "RoleRim_Loot_Overhaul_Patcher",
+      "Sha": "80bccb7d5c58ba14ffad281bf52bcbb580f56942",
+      "LastUpdatedRunNumber": 59989
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
             "Nickname": "GeorgeTR1/SaltPinchPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Patcher used for my Salt Pinch mod, available here: https://www.nexusmods.com/skyrim/mods/120781",
