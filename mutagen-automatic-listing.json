@@ -6834,7 +6834,7 @@
       "Patchers": [
         {
           "Customization": {
-            "Nickname": "RoleRimLootOverhaul",
+            "Nickname": "RoleRimLootPatcher",
             "Visibility": "Visible",
             "OneLineDescription": "Distributes mod-added items into the RoleRim Loot Overhaul Leveled Lists.",
             "LongDescription": "Automatically distributes mod-added items intended for leveled distribution into the RoleRim Loot Overhaul Leveled Lists utilizing the mod\u0027s loot philosophy of rarity and abundance.",
@@ -6844,7 +6844,7 @@
               "SkyrimSE"
             ]
           },
-          "ProjectPath": "RoleRimLootOverhaul.csproj",
+          "ProjectPath": "RoleRimLootPatcher.csproj",
           "IncludedLibraries": [
             "Skyrim"
           ]
@@ -6853,8 +6853,34 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/50582753?s=40\u0026v=4",
       "User": "DrPharmDawg",
       "Repository": "RoleRim_Loot_Overhaul_Patcher",
-      "Sha": "7755c71385fb83a5f0db058ceba0cdf8e7fc88d9",
-      "LastUpdatedRunNumber": 59990
+      "Sha": "bc259ffbf4392bf3de3c649328cd797845c0c21f",
+      "LastUpdatedRunNumber": 59991
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "RoleRimLootPatcher",
+            "Visibility": "Visible",
+            "OneLineDescription": "Distributes mod-added items into the RoleRim Loot Overhaul Leveled Lists.",
+            "LongDescription": "Automatically distributes mod-added items intended for leveled distribution into the RoleRim Loot Overhaul Leveled Lists utilizing the mod\u0027s loot philosophy of rarity and abundance.",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "RoleRimLootPatcher.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/50582753?s=40\u0026v=4",
+      "User": "DrPharmDawg",
+      "Repository": "RoleRim_Loot_Patcher",
+      "Sha": "bc259ffbf4392bf3de3c649328cd797845c0c21f",
+      "LastUpdatedRunNumber": 59991
     },
     {
       "Patchers": [
