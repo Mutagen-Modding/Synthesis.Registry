@@ -3182,8 +3182,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5697205?s=40\u0026v=4",
       "User": "tkoopman",
       "Repository": "Generic-Synthesis-Patcher",
-      "Sha": "4b01d7cb5c1ada60f3c466645d76380510758612",
-      "LastUpdatedRunNumber": 59085
+      "Sha": "9ccede2eb9bbd57a8436ac127e74e58820e6c159",
+      "LastUpdatedRunNumber": 60132
     },
     {
       "Patchers": [
@@ -4974,8 +4974,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/42224588?s=40\u0026v=4",
       "User": "marthofdoom",
       "Repository": "MFO",
-      "Sha": "b68f0a8405d2c22c72cea424fe91ba9653c67622",
-      "LastUpdatedRunNumber": 60131
+      "Sha": "8e12989566ef80834efec2c1ed30e21f1dbbec91",
+      "LastUpdatedRunNumber": 60132
     },
     {
       "Patchers": [
