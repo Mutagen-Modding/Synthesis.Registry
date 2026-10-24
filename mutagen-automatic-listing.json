@@ -606,8 +606,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026v=4",
       "User": "dreadflopp",
       "Repository": "ArmorStatSynthesisPatcher",
-      "Sha": "00542a76b3429c06a6143b6c5620db607dd6f02d",
-      "LastUpdatedRunNumber": 59902
+      "Sha": "3949f1ee9c87c6d3bd5ea6c9073ab34ddc2ca901",
+      "LastUpdatedRunNumber": 60156
     },
     {
       "Patchers": [],
@@ -11791,8 +11791,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/29686217?s=40\u0026v=4",
       "User": "dreadflopp",
       "Repository": "WeaponStatSynthesisPatcher",
-      "Sha": "37bc47857a812ebd55ad15ec3accb9959fd7b0b3",
-      "LastUpdatedRunNumber": 59450
+      "Sha": "67944fbe6f18a78c6e758bb82809c3ed988b1540",
+      "LastUpdatedRunNumber": 60156
     },
     {
       "Patchers": [
