@@ -5645,12 +5645,25 @@
       "LastUpdatedRunNumber": 59139
     },
     {
-      "Patchers": [],
+      "Patchers": [
+        {
+          "ProjectPath": "NPC Plugin Chooser 2.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        },
+        {
+          "ProjectPath": "Tests/NPC Plugin Chooser 2.Tests.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "01b997c6519ebe70ce87ccbd51c8af2b80f427ec",
-      "LastUpdatedRunNumber": 60179
+      "Sha": "706e95e84096a3fe8eb909e18ebb4e75043e6484",
+      "LastUpdatedRunNumber": 60188
     },
     {
       "Patchers": [
