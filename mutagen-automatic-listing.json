@@ -1992,6 +1992,32 @@
     {
       "Patchers": [
         {
+          "Customization": {
+            "Nickname": "EnchantedVariantsGenerator",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "EnchantedVariantsGenerator/EnchantedVariantsGenerator.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/83313692?s=40\u0026v=4",
+      "User": "Ghastly13",
+      "Repository": "Enchanted-Variants-Generater",
+      "Sha": "daecd876dd67205d9a9457bdcf283dac962f55ff",
+      "LastUpdatedRunNumber": 60259
+    },
+    {
+      "Patchers": [
+        {
           "ProjectPath": "EnchPopulator/EnchPopulator.csproj",
           "IncludedLibraries": [
             "Skyrim"
@@ -4974,8 +5000,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/42224588?s=40\u0026v=4",
       "User": "marthofdoom",
       "Repository": "MFO",
-      "Sha": "62295823104a2da101638175814880c73cd6f4cf",
-      "LastUpdatedRunNumber": 60258
+      "Sha": "aeb8d543f859cee5fd06b311cec3fd6e69ef8e17",
+      "LastUpdatedRunNumber": 60259
     },
     {
       "Patchers": [
@@ -5662,8 +5688,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "3363bbc44122147388392ae7bcc924f9d8d3a026",
-      "LastUpdatedRunNumber": 60193
+      "Sha": "df276c0b0aa1d3f5eb25331e1c092460c86bb330",
+      "LastUpdatedRunNumber": 60259
     },
     {
       "Patchers": [
@@ -5999,6 +6025,34 @@
       "Repository": "OWL-Leveled-List-Addition",
       "Sha": "39f1f471fe77652afb4de74c08372781b1e8721c",
       "LastUpdatedRunNumber": 59820
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "OWL Replace Vanilla Items",
+            "Visibility": "Visible",
+            "OneLineDescription": "Replaces vanilla weapons, armor and ammo in mods\u0027 leveled lists, containers, outfits and NPCs with the Open World Loot lists that hand them out, through SkyPatcher INIs.",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [
+              "Open World Loot.esp"
+            ],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "OWLReplaceVanillaItems/OWLReplaceVanillaItems.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/83313692?s=40\u0026v=4",
+      "User": "Ghastly13",
+      "Repository": "OWL-Replace-Vanilla-Items",
+      "Sha": "d8d4784cdae12a65415479557e69418a3de5111f",
+      "LastUpdatedRunNumber": 60259
     },
     {
       "Patchers": [
