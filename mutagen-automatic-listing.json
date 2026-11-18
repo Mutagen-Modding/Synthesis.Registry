@@ -1995,7 +1995,7 @@
           "Customization": {
             "Nickname": "EnchantedVariantsGenerator",
             "Visibility": "Visible",
-            "OneLineDescription": "",
+            "OneLineDescription": "Luridum\u0027s version of ExpensiveLadder\u0027s Enchanted Variants Generator: makes enchanted variants of every weapon and armor in the load order and hands them out beside their vanilla twins through SkyPatcher INIs.",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
@@ -2012,8 +2012,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/83313692?s=40\u0026v=4",
       "User": "Ghastly13",
       "Repository": "Enchanted-Variants-Generater",
-      "Sha": "d7ba9a4d00d1447b6aeb65fa0e9a4b3e56605a65",
-      "LastUpdatedRunNumber": 60261
+      "Sha": "7f031cc055e3a849e7b0e0eb844b25a6e694479d",
+      "LastUpdatedRunNumber": 60262
     },
     {
       "Patchers": [
@@ -2021,7 +2021,7 @@
           "Customization": {
             "Nickname": "EnchantedVariantsGenerator",
             "Visibility": "Visible",
-            "OneLineDescription": "",
+            "OneLineDescription": "Luridum\u0027s version of ExpensiveLadder\u0027s Enchanted Variants Generator: makes enchanted variants of every weapon and armor in the load order and hands them out beside their vanilla twins through SkyPatcher INIs.",
             "LongDescription": "",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
@@ -2038,8 +2038,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/83313692?s=40\u0026v=4",
       "User": "Ghastly13",
       "Repository": "Enchanted-Variants-Generator",
-      "Sha": "d7ba9a4d00d1447b6aeb65fa0e9a4b3e56605a65",
-      "LastUpdatedRunNumber": 60261
+      "Sha": "7f031cc055e3a849e7b0e0eb844b25a6e694479d",
+      "LastUpdatedRunNumber": 60262
     },
     {
       "Patchers": [
@@ -5026,8 +5026,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/42224588?s=40\u0026v=4",
       "User": "marthofdoom",
       "Repository": "MFO",
-      "Sha": "4a474d767f3041fbe133bab4deab61bdf3fdec1a",
-      "LastUpdatedRunNumber": 60261
+      "Sha": "db072fd289290713ee745cdee83172f1433da487",
+      "LastUpdatedRunNumber": 60262
     },
     {
       "Patchers": [
@@ -6077,8 +6077,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/83313692?s=40\u0026v=4",
       "User": "Ghastly13",
       "Repository": "OWL-Replace-Vanilla-Items",
-      "Sha": "686a33ff45f9ef32a1a01a5b8b9d6019f76fb18e",
-      "LastUpdatedRunNumber": 60260
+      "Sha": "8cca3083133483bb1f24c990b77bfaa49ac27041",
+      "LastUpdatedRunNumber": 60262
     },
     {
       "Patchers": [
