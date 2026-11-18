@@ -2012,8 +2012,34 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/83313692?s=40\u0026v=4",
       "User": "Ghastly13",
       "Repository": "Enchanted-Variants-Generater",
-      "Sha": "daecd876dd67205d9a9457bdcf283dac962f55ff",
-      "LastUpdatedRunNumber": 60259
+      "Sha": "d7ba9a4d00d1447b6aeb65fa0e9a4b3e56605a65",
+      "LastUpdatedRunNumber": 60261
+    },
+    {
+      "Patchers": [
+        {
+          "Customization": {
+            "Nickname": "EnchantedVariantsGenerator",
+            "Visibility": "Visible",
+            "OneLineDescription": "",
+            "LongDescription": "",
+            "PreferredAutoVersioning": "Default",
+            "RequiredMods": [],
+            "TargetedReleases": [
+              "SkyrimSE"
+            ]
+          },
+          "ProjectPath": "EnchantedVariantsGenerator/EnchantedVariantsGenerator.csproj",
+          "IncludedLibraries": [
+            "Skyrim"
+          ]
+        }
+      ],
+      "AvatarURL": "https://avatars.githubusercontent.com/u/83313692?s=40\u0026v=4",
+      "User": "Ghastly13",
+      "Repository": "Enchanted-Variants-Generator",
+      "Sha": "d7ba9a4d00d1447b6aeb65fa0e9a4b3e56605a65",
+      "LastUpdatedRunNumber": 60261
     },
     {
       "Patchers": [
@@ -5000,8 +5026,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/42224588?s=40\u0026v=4",
       "User": "marthofdoom",
       "Repository": "MFO",
-      "Sha": "aeb8d543f859cee5fd06b311cec3fd6e69ef8e17",
-      "LastUpdatedRunNumber": 60259
+      "Sha": "4a474d767f3041fbe133bab4deab61bdf3fdec1a",
+      "LastUpdatedRunNumber": 60261
     },
     {
       "Patchers": [
