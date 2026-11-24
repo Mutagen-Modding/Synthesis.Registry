@@ -5026,8 +5026,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/42224588?s=40\u0026v=4",
       "User": "marthofdoom",
       "Repository": "MFO",
-      "Sha": "345f42f8417a2b94a2ea3ddbb39a707386244985",
-      "LastUpdatedRunNumber": 60281
+      "Sha": "02066ca647ea1f62fc6755a65e6e5f66be49488c",
+      "LastUpdatedRunNumber": 60282
     },
     {
       "Patchers": [
@@ -5703,19 +5703,13 @@
           "IncludedLibraries": [
             "Skyrim"
           ]
-        },
-        {
-          "ProjectPath": "Tests/NPC Plugin Chooser 2.Tests.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
         }
       ],
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "ddd4603dcf0d691b96db2e39c6fef418dfca95cb",
-      "LastUpdatedRunNumber": 60278
+      "Sha": "9bf7faaa688472a64bb47ad1ef0f4dede8b8f195",
+      "LastUpdatedRunNumber": 60282
     },
     {
       "Patchers": [
