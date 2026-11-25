@@ -5004,30 +5004,12 @@
       "LastUpdatedRunNumber": 59083
     },
     {
-      "Patchers": [
-        {
-          "Customization": {
-            "Nickname": "marth Follower Overhaul (MFO)",
-            "Visibility": "Visible",
-            "OneLineDescription": "Item catalog for the follower\u0027s loot/supply gambits, built from your load order.",
-            "LongDescription": "The load-order patcher for marth\u0027s Follower Overhaul (MFO). It scans every potion, ammo, and piece of jewellery in your load order and classifies them for the follower\u0027s gambit system \u2014 which potions restore health/stamina/magicka (read from real effect records, so Requiem/CACO potions work), arrows vs bolts, and what counts as jewellery \u2014 plus a \u0027never loot\u0027 list of quest items, artifacts/unique enchantments, and scripted items the follower should leave alone. Writes Data/SKSE/Plugins/MFO/mfo_items.json, which the MFO SKSE plugin loads. Requires the main MFO mod. Run after installing MFO, and again after any load-order change.",
-            "PreferredAutoVersioning": "Default",
-            "RequiredMods": [
-              "MFO.esp"
-            ],
-            "TargetedReleases": []
-          },
-          "ProjectPath": "installer/MFO.Synthesis/MFO.Synthesis.csproj",
-          "IncludedLibraries": [
-            "Skyrim"
-          ]
-        }
-      ],
+      "Patchers": [],
       "AvatarURL": "https://avatars.githubusercontent.com/u/42224588?s=40\u0026v=4",
       "User": "marthofdoom",
       "Repository": "MFO",
-      "Sha": "9d94875fb65c48d9cb1d3e6062e55eb5c70387da",
-      "LastUpdatedRunNumber": 60284
+      "Sha": "3d963b5071d4d090dfe57fd609cdbf6336ef27ba",
+      "LastUpdatedRunNumber": 60285
     },
     {
       "Patchers": [
@@ -5699,7 +5681,7 @@
     {
       "Patchers": [
         {
-          "ProjectPath": "NPC Plugin Chooser 2.csproj",
+          "ProjectPath": "Tests/NPC Plugin Chooser 2.Tests.csproj",
           "IncludedLibraries": [
             "Skyrim"
           ]
@@ -5708,8 +5690,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/63175798?s=40\u0026v=4",
       "User": "Piranha91",
       "Repository": "NPC-Plugin-Chooser-2",
-      "Sha": "9bf7faaa688472a64bb47ad1ef0f4dede8b8f195",
-      "LastUpdatedRunNumber": 60282
+      "Sha": "9e83af740d8395e0ccce868ebaeb4bf1d68559b7",
+      "LastUpdatedRunNumber": 60285
     },
     {
       "Patchers": [
