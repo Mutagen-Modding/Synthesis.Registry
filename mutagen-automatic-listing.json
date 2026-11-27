@@ -1532,7 +1532,7 @@
             "Nickname": "DeadBodyCleanupNPCAttacher",
             "Visibility": "Visible",
             "OneLineDescription": "Add deadbodycleanupscript to some npcs",
-            "LongDescription": "Default unofficial patch name set for Skyrim LE USLEEP but you can change it to USEEP or any in the patcher settings",
+            "LongDescription": "Default unofficial patch name set for Skyrim LE USLEEP but you can change it to USEEP or any in the patcher settings.\n\nFor Windows 7 and older Synthesis/Mutagen please select \u0027legacy\u0027 branch for the patcher, instead of main/master.",
             "PreferredAutoVersioning": "Default",
             "RequiredMods": [],
             "TargetedReleases": []
@@ -1546,8 +1546,8 @@
       "AvatarURL": "https://avatars.githubusercontent.com/u/5264340?s=40\u0026amp;v=4",
       "User": "TokcDK",
       "Repository": "DeadBodyCleanupNPCAttacher",
-      "Sha": "13dba4dc22f5bacbc71ec4b93109824a479b3653",
-      "LastUpdatedRunNumber": 59135
+      "Sha": "53301b1c6ee2a2fe0f6c498e815a9ce0ad01ab6e",
+      "LastUpdatedRunNumber": 60290
     },
     {
       "Patchers": [
